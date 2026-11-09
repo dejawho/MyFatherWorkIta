@@ -35,4 +35,25 @@ describe('RichText', () => {
     expect(img?.getAttribute('src')).toBe('content/assets/icons/s1-heart-token.webp');
     expect(img?.getAttribute('alt')).toBe('Heart Token');
   });
+
+  it('shows an icon on a line of its own as a picture', async () => {
+    TestBed.inject(Library).assets.set({
+      icons: { S1_HeartToken: 'icons/s1-heart-token.webp', Bank1: 'icons/bank1.webp' },
+      setup: {},
+      ui: {},
+      music: { title: '', scenario: {} },
+      effects: {},
+      voiceOver: {},
+      missing: [],
+    });
+    const fixture = TestBed.createComponent(RichText);
+    fixture.componentRef.setInput(
+      'text',
+      'A {icon:S1_HeartToken} here.\n {icon:Bank1} \nThen this.',
+    );
+    await fixture.whenStable();
+
+    const pictures = [...(fixture.nativeElement as HTMLElement).querySelectorAll('img.picture')];
+    expect(pictures.map((img) => img.getAttribute('alt'))).toEqual(['Bank1']);
+  });
 });

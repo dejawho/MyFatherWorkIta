@@ -10,6 +10,18 @@
   object-fit: contain;
   vertical-align: middle;
 }
+/* An icon on a line of its own is a picture (a scenario box, a location): big enough to see. */
+.icon.picture {
+  width: auto;
+  height: 6em;
+  margin: 0.25em 0;
+}
+/* Its line, centred; full width rather than a block, so the line break after it adds no gap. */
+.picture-line {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
 .icon-label {
   display: inline-block;
   padding: 0 0.35em;

@@ -16,10 +16,16 @@ export class RichText {
   readonly text = input.required<string>();
   readonly args = input<string[]>([]);
 
-  /** Punctuation right after an icon moves into the icon's span (`tail`), so it can't wrap away. */
+  /**
+   * Punctuation right after an icon moves into the icon's span (`tail`), so it can't wrap away.
+   * An icon on a line of its own (a scenario box, a location) is a picture: `alone`, shown large.
+   */
   protected readonly spans = computed(() => {
-    const spans: (Span & { tail?: string })[] = parseMarkup(this.text(), this.args());
-    return spans.map((span, i) => {
+    const spans: (Span & { tail?: string; alone?: boolean })[] = parseMarkup(
+      this.text(),
+      this.args(),
+    );
+    const glued = spans.map((span, i) => {
       const next = spans[i + 1];
       if (span.t !== 'icon' || next?.t !== 'text') return span;
       const tail = /^[.,;:!?)\]…]+/.exec(next.text)?.[0];
@@ -27,6 +33,17 @@ export class RichText {
       spans[i + 1] = { ...next, text: next.text.slice(tail.length) };
       return { ...span, tail };
     });
+    /** Whether only blanks lie between the span at `i` and a line break (or the text's edge). */
+    const lineEdge = (i: number, step: 1 | -1): boolean => {
+      let span = glued[i];
+      while (span?.t === 'text' && !span.text.trim()) span = glued[(i += step)];
+      return !span || span.t === 'newline';
+    };
+    return glued.map((span, i) =>
+      span.t === 'icon' && !span.tail && lineEdge(i - 1, -1) && lineEdge(i + 1, 1)
+        ? { ...span, alone: true }
+        : span,
+    );
   });
 
   protected iconLabel(name: string): string {

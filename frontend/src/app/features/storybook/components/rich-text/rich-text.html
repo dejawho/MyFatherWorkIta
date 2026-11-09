@@ -6,9 +6,10 @@
     @case ('icon') {
       <!-- An icon keeps the punctuation after it on its line (no whitespace in between). -->
       @if (library.icon(span.name); as src) {
-        <span class="glue"
+        <span class="glue" [class.picture-line]="span.alone"
           ><img
             class="icon"
+            [class.picture]="span.alone"
             [src]="src"
             [alt]="iconLabel(span.name)"
             [title]="iconLabel(span.name)"
