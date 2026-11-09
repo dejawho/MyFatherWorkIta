@@ -8,6 +8,7 @@ import { Game } from '../../../../core/services/game';
 import { Library } from '../../../../core/services/library';
 import { Settings } from '../../../../core/services/settings';
 import { RichText } from '../../../storybook/components/rich-text/rich-text';
+import { I18n } from '../../../../core/services/i18n';
 
 type Step =
   'voice' | 'players' | 'intro' | 'name' | 'welcome' | 'village' | 'villageIntro' | 'scenario';
@@ -26,6 +27,7 @@ const LETTERS = 'ABCDE';
   styleUrl: './setup.css',
 })
 export class Setup {
+  protected readonly tr = inject(I18n).tr;
   protected readonly library = inject(Library);
   protected readonly settings = inject(Settings);
   private readonly game = inject(Game);
@@ -54,13 +56,13 @@ export class Setup {
     this.t(
       'UI/PlayerSelection/ViewArea/DescriptionText',
       'Player A - Please enter your given name:',
-    ).replace('Player A', `Player ${LETTERS[this.current()]}`),
+    ).replace(this.tr('Player A'), this.tr('Player {0}', LETTERS[this.current()]!)),
   );
   protected readonly passTo = computed(() =>
     this.t(
       'UI/PlayerSelection/ViewArea/Tooltip/ToolTipText',
       'Carefully pass the storybook to Player A',
-    ).replace('Player A', `Player ${LETTERS[this.current()]}`),
+    ).replace(this.tr('Player A'), this.tr('Player {0}', LETTERS[this.current()]!)),
   );
   protected readonly villageIntro = computed(
     () =>

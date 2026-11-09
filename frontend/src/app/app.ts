@@ -15,6 +15,7 @@ import { AudioPlayer } from './core/services/audio';
 import { bugReportUrl } from './core/utils/bug-report';
 import { VERSION } from './version';
 import { Game } from './core/services/game';
+import { I18n } from './core/services/i18n';
 import { Library } from './core/services/library';
 import { Settings } from './core/services/settings';
 
@@ -82,6 +83,7 @@ export class App {
   protected bugReport(error?: string): string {
     return bugReportUrl({ error, where: location.pathname });
   }
+  protected readonly tr = inject(I18n).tr;
   protected readonly errors = inject(AppErrors);
   private readonly library = inject(Library);
   private readonly audio = inject(AudioPlayer);
@@ -136,6 +138,7 @@ export class App {
       const dark = theme === 'dark' || (theme === 'auto' && prefersDark());
       document.documentElement.dataset['theme'] = dark ? 'dark' : 'light';
     });
+    effect(() => (document.documentElement.lang = this.settings.language()));
     const root = document.documentElement.style;
     const url = (src: string | undefined) => (src ? `url("${src}")` : 'none');
     effect(() => root.setProperty('--backdrop-image', this.backdrop()));

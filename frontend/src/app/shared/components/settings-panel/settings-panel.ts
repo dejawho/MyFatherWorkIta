@@ -3,6 +3,7 @@ import { ChangeDetectionStrategy, Component, computed, inject, input, output } f
 import { Library } from '../../../core/services/library';
 import type { ReadingMode } from '@chronicle/engine';
 import { LANGUAGES, Settings, type Theme } from '../../../core/services/settings';
+import { I18n } from '../../../core/services/i18n';
 
 /** Voice, story text and volumes. Used from the main menu and the pause menu. */
 @Component({
@@ -13,6 +14,7 @@ import { LANGUAGES, Settings, type Theme } from '../../../core/services/settings
   styleUrl: './settings-panel.css',
 })
 export class SettingsPanel {
+  protected readonly tr = inject(I18n).tr;
   protected readonly settings = inject(Settings);
   protected readonly library = inject(Library);
   readonly done = output<void>();

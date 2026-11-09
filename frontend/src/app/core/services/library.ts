@@ -1,4 +1,4 @@
-import { computed, effect, inject, Injectable, signal } from '@angular/core';
+import { computed, effect, inject, Injectable, signal, untracked } from '@angular/core';
 import {
   resolveEntry,
   type AssetManifest,
@@ -6,6 +6,7 @@ import {
   type ReadingMode,
   type UiText,
 } from '@chronicle/engine';
+import { I18n } from './i18n';
 import { Settings } from './settings';
 
 const BASE = 'content';
@@ -36,12 +37,28 @@ const ORIGINAL_VOICES = [
 @Injectable({ providedIn: 'root' })
 export class Library {
   private readonly settings = inject(Settings);
-  readonly texts = signal<UiText>({});
+  private readonly tr = inject(I18n).tr;
+  private readonly english = signal<UiText>({});
+  /** Screen texts by language, loaded when the language is first chosen. */
+  private readonly translations = signal<Record<string, UiText>>({});
+  /** The screen texts in the chosen language; one it lacks stays English. */
+  readonly texts = computed<UiText>(() => ({
+    ...this.english(),
+    ...this.translations()[this.settings.language()],
+  }));
   readonly assets = signal<AssetManifest | undefined>(undefined);
   private readonly generated = signal<GeneratedVoices>({ voices: {}, clips: {} });
   private loading?: Promise<void>;
 
   constructor() {
+    effect(() => {
+      const language = this.settings.language();
+      if (language === 'en' || untracked(this.translations)[language]) return;
+      void fetch(`${BASE}/ui.${language}.json`)
+        .then((r) => (r.ok ? (r.json() as Promise<UiText>) : {}))
+        .catch(() => ({}))
+        .then((texts) => this.translations.update((t) => ({ ...t, [language]: texts })));
+    });
     // An original narrator chosen while the text is not the original: its stand-in reads instead.
     effect(() => {
       const voice = this.settings.voice();
@@ -63,12 +80,12 @@ export class Library {
   readonly allVoices = computed(() => [
     ...ORIGINAL_VOICES.map((v) => ({
       value: v.value,
-      label: `${this.text(v.key, v.fallback)} (original)`,
+      label: this.tr('{0} (original)', this.text(v.key, v.fallback)),
       original: true,
     })),
     ...Object.entries(this.generated().voices).map(([value, name]) => ({
       value,
-      label: `${name} (generated)`,
+      label: this.tr('{0} (generated)', name),
       original: false,
     })),
   ]);
@@ -92,7 +109,7 @@ export class Library {
           r.ok ? (r.json() as Promise<GeneratedVoices>) : undefined,
         ),
       ]);
-      this.texts.set(texts);
+      this.english.set(texts);
       this.assets.set(assets);
       if (generated) this.generated.set(generated);
     })();

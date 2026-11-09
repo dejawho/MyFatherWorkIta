@@ -1,12 +1,12 @@
 <section class="paper sheet">
-  <h1 class="heading">Help</h1>
+  <h1 class="heading">{{ tr('Help') }}</h1>
   @if (installNote()) {
     <aside class="install-note">
       <ng-container *ngTemplateOutlet="installState" />
     </aside>
   }
 
-  <cr-tabs #tabBar [tabs]="tabs" [(selected)]="active" panelId="help" />
+  <cr-tabs #tabBar [tabs]="tabs()" [(selected)]="active" panelId="help" />
   <div id="help" class="panel" role="tabpanel" [attr.aria-labelledby]="tabBar.tabId(active())">
     @switch (active()) {
       @case ('playing') {
@@ -18,15 +18,18 @@
             <ng-container *ngTemplateOutlet="picture; context: { $implicit: 'app' }" />
           </div>
           <div>
-            <h2>Installing</h2>
+            <h2>{{ tr('Installing') }}</h2>
             <p>
-              Installed, Chronicle opens full screen, works offline and keeps your games safe
-              (Safari clears a website’s data after about a week without a visit).
+              {{
+                tr(
+                  'Installed, Chronicle opens full screen, works offline and keeps your games safe (Safari clears a website’s data after about a week without a visit).'
+                )
+              }}
             </p>
             @if (!installNote()) {
               <ng-container *ngTemplateOutlet="installState" />
             }
-            <cr-rich-text class="steps" [text]="installSteps" />
+            <cr-rich-text class="steps" [text]="installSteps()" />
           </div>
         </section>
         <ng-container *ngTemplateOutlet="topics; context: { $implicit: saves }" />
@@ -36,23 +39,33 @@
       }
     }
   </div>
-  <button type="button" class="btn" (click)="back()">Back</button>
+  <button type="button" class="btn" (click)="back()">{{ tr('Back') }}</button>
 </section>
 
 <!-- Whether this device can install Chronicle, and the way to do it. -->
 <ng-template #installState>
   @if (install.installed()) {
-    <p class="state">✓ Chronicle is installed on this device.</p>
+    <p class="state">✓ {{ tr('Chronicle is installed on this device.') }}</p>
   } @else if (install.canPrompt()) {
     <p class="state">
-      Install Chronicle on this device: it opens full screen, works offline and keeps your games
-      safe.
+      {{
+        tr(
+          'Install Chronicle on this device: it opens full screen, works offline and keeps your games safe.'
+        )
+      }}
     </p>
-    <button type="button" class="btn confirm" (click)="install.prompt()">Install</button>
+    <button type="button" class="btn confirm" (click)="install.prompt()">
+      {{ tr('Install') }}
+    </button>
   } @else if (install.apple) {
     <p class="state">
-      To install Chronicle on this device, tap Share, then <em>Add to Home Screen</em> – before your
-      first game: the installed app keeps its own saves.
+      <cr-rich-text
+        [text]="
+          tr(
+            'To install Chronicle on this device, tap Share, then *Add to Home Screen* – before your first game: the installed app keeps its own saves.'
+          )
+        "
+      />
     </p>
   }
 </ng-template>
@@ -66,10 +79,10 @@
         </div>
       }
       <div>
-        <h2>{{ topic.title }}</h2>
-        <cr-rich-text [text]="topic.text" />
+        <h2>{{ tr(topic.title) }}</h2>
+        <cr-rich-text [text]="tr(topic.text)" />
         @if (topic.note) {
-          <p class="note">{{ topic.note }}</p>
+          <p class="note">{{ tr(topic.note) }}</p>
         }
       </div>
     </section>
@@ -85,8 +98,8 @@
     @case ('panel') {
       <!-- An action panel as on a location page (the storybook's own look, see StoryOutput). -->
       <span class="sample-panel" aria-hidden="true">
-        <strong>An action</strong>
-        <span>Tap the panel once you have taken it.</span>
+        <strong>{{ tr('An action') }}</strong>
+        <span>{{ tr('Tap the panel once you have taken it.') }}</span>
         <span class="go">›</span>
       </span>
     }
@@ -95,7 +108,9 @@
     }
     @case ('versions') {
       <span class="versions" aria-hidden="true">
-        <span>Original</span><span>Easy</span><span>Short</span>
+        <span>{{ tr('Original') }}</span
+        ><span>{{ tr('Easy') }}</span
+        ><span>{{ tr('Short') }}</span>
       </span>
     }
     @case ('hand') {

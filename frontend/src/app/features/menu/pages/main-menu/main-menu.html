@@ -9,17 +9,17 @@
       <h1 class="heading">My Father's Work</h1>
     }
   </div>
-  <p class="sub">Chronicle · an unofficial companion app</p>
+  <p class="sub">Chronicle · {{ tr('an unofficial companion app') }}</p>
 
   @if (whatsNew.unseen()) {
     <p class="updated" role="status">
-      <span>Chronicle has been updated to {{ whatsNew.version }}.</span>
-      <a routerLink="/whats-new">See what's new</a>
+      <span>{{ tr('Chronicle has been updated to {0}.', whatsNew.version) }}</span>
+      <a routerLink="/whats-new">{{ tr("See what's new") }}</a>
       <button
         type="button"
         class="dismiss"
         (click)="whatsNew.markSeen()"
-        aria-label="Dismiss the update note"
+        [attr.aria-label]="tr('Dismiss the update note')"
       >
         ×
       </button>
@@ -28,20 +28,20 @@
     <!-- Installed, Chronicle opens full screen, works offline and keeps its saves safe. -->
     <p class="updated" role="status">
       @if (hint === 'prompt') {
-        <span
-          >Install Chronicle: it opens full screen, works offline and keeps your games safe.</span
-        >
-        <button type="button" class="link" (click)="install.prompt()">Install</button>
+        <span>{{
+          tr('Install Chronicle: it opens full screen, works offline and keeps your games safe.')
+        }}</span>
+        <button type="button" class="link" (click)="install.prompt()">{{ tr('Install') }}</button>
       } @else {
-        <span
-          >Before your first game, tap Share → Add to Home Screen: your games stay safe there.</span
-        >
+        <span>{{
+          tr('Before your first game, tap Share → Add to Home Screen: your games stay safe there.')
+        }}</span>
       }
       <button
         type="button"
         class="dismiss"
         (click)="install.dismiss()"
-        aria-label="Dismiss the install note"
+        [attr.aria-label]="tr('Dismiss the install note')"
       >
         ×
       </button>
@@ -59,7 +59,7 @@
       {{ t('UI/MainMenu/Viewarea/GridButtons/NewGame/Text (TMP)', 'New game') }}
     </button>
     @if (saves.value()?.length) {
-      <a class="btn" routerLink="/saves">Saved games</a>
+      <a class="btn" routerLink="/saves">{{ tr('Saved games') }}</a>
     }
     <button type="button" class="btn" (click)="settingsOpen.set(true)">
       {{ t('UI/MainMenu/Viewarea/GridButtons/Setting/Text (TMP)', 'Settings') }}
@@ -67,7 +67,7 @@
     <a class="btn" routerLink="/endings">{{
       t('UI/MainMenu/Viewarea/GridButtons/Endings/Text (TMP)', 'Endings')
     }}</a>
-    <a class="btn" routerLink="/help">Help</a>
+    <a class="btn" routerLink="/help">{{ tr('Help') }}</a>
   </nav>
 </section>
 
@@ -75,7 +75,7 @@
   [open]="settingsOpen()"
   [dismissable]="true"
   (closed)="settingsOpen.set(false)"
-  label="Settings"
+  [label]="tr('Settings')"
 >
   <cr-settings-panel (done)="settingsOpen.set(false)" />
 </cr-modal>

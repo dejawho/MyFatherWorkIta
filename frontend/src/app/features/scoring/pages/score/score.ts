@@ -13,6 +13,7 @@ import type { Out } from '@chronicle/engine';
 import { Game } from '../../../../core/services/game';
 import { Library } from '../../../../core/services/library';
 import { bugReportUrl } from '../../../../core/utils/bug-report';
+import { I18n } from '../../../../core/services/i18n';
 
 interface Player {
   index: number;
@@ -73,6 +74,7 @@ export function rankPlayers(players: Player[]): {
   styleUrl: './score.css',
 })
 export class Score {
+  protected readonly tr = inject(I18n).tr;
   protected readonly library = inject(Library);
   protected readonly game = inject(Game);
   private readonly router = inject(Router);
@@ -146,7 +148,7 @@ export class Score {
   protected names(players: { name: string }[]): string {
     const names = players.map((p) => p.name);
     return names.length > 1
-      ? `${names.slice(0, -1).join(', ')} and ${names.at(-1)}`
+      ? this.tr('{0} and {1}', names.slice(0, -1).join(', '), names.at(-1)!)
       : names.join('');
   }
 
@@ -200,8 +202,8 @@ export class Score {
   protected tieNote(i: number): string | undefined {
     const points = this.bonus()[i];
     if (points === undefined) return undefined;
-    if (this.contenders().length === 1) return 'Completed Masterwork';
-    return `${points} Estate Upgrade${points === 1 ? '' : 's'}`;
+    if (this.contenders().length === 1) return this.tr('Completed Masterwork');
+    return this.tr(points === 1 ? '{0} Estate Upgrade' : '{0} Estate Upgrades', points);
   }
 
   protected isWinner(i: number): boolean {
@@ -221,7 +223,7 @@ export class Score {
     const { ranking, familyWins } = this.result();
     const link = this.link();
     if (!link) return;
-    this.game.click(link, { winnerName: familyWins ? FAMILY : ranking[0]!.name });
+    this.game.click(link, { winnerName: familyWins ? this.tr(FAMILY) : ranking[0]!.name });
     // A story error stays here, shown below, instead of back on the page that opened scoring.
     if (!this.game.error()) await this.router.navigate(['/play']);
   }

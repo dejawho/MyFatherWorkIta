@@ -7,6 +7,7 @@ import { RichText } from '../rich-text/rich-text';
 import { ScreenCard } from '../screen-card/screen-card';
 import type { TextOut } from '../../../../core/utils/story-output';
 import { BoxLines } from '../box-lines/box-lines';
+import { I18n } from '../../../../core/services/i18n';
 
 type Block = Extract<Out, { t: 'block' }>;
 type Link = Extract<Out, { t: 'link' }>;
@@ -35,6 +36,7 @@ function links(out: Out[]): Link[] {
   styleUrl: './story-output.css',
 })
 export class StoryOutput {
+  protected readonly tr = inject(I18n).tr;
   protected readonly game = inject(Game);
   protected readonly library = inject(Library);
   readonly items = input.required<Out[]>();

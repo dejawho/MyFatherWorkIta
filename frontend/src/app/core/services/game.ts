@@ -1,4 +1,4 @@
-import { computed, inject, Injectable, signal } from '@angular/core';
+import { computed, effect, inject, Injectable, signal, untracked } from '@angular/core';
 import {
   resolveText,
   PLAYER_NAME_VARIABLES,
@@ -53,7 +53,8 @@ export class Game {
   readonly saveId = signal<string | undefined>(undefined);
   /** Loaded content of the current scenario (undefined until loaded). */
   readonly content = signal<ScenarioContent | undefined>(undefined);
-  private readonly loading = new Map<ScenarioId, Promise<ScenarioContent>>();
+  /** Loaded content by scenario and language (`cost-of-disease/it`). */
+  private readonly loading = new Map<string, Promise<ScenarioContent>>();
 
   readonly setup = signal<GameSetup | undefined>(undefined);
   readonly view = signal<StoryView | undefined>(undefined);
@@ -107,6 +108,16 @@ export class Game {
   /** States before the last choices, newest last. */
   private readonly undoSteps = signal<UndoStep[]>([]);
   readonly canUndo = computed(() => this.undoSteps().length > 0);
+
+  constructor() {
+    // Another language: the page being played shows its texts in it at once.
+    effect(() => {
+      this.settings.language();
+      untracked(() => {
+        if (this.content()) void this.loadContent();
+      });
+    });
+  }
 
   /** Looks up a string; placeholders are filled by the rich-text renderer. */
   text(key: string, kind: TextKind = 'instruction'): string {
@@ -356,12 +367,13 @@ export class Game {
     return content;
   }
 
-  /** Loads (once) a scenario's content, without making it the current one. */
-  contentOf(id: ScenarioId): Promise<ScenarioContent> {
-    let loading = this.loading.get(id);
+  /** Loads (once) a scenario's content in a language, without making it the current one. */
+  contentOf(id: ScenarioId, language = this.settings.language()): Promise<ScenarioContent> {
+    const key = `${id}/${language}`;
+    let loading = this.loading.get(key);
     if (!loading) {
-      loading = loadContent(id);
-      this.loading.set(id, loading);
+      loading = loadContent(id, language);
+      this.loading.set(key, loading);
     }
     return loading;
   }

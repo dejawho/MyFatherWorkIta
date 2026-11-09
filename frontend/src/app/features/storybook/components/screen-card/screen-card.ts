@@ -22,6 +22,7 @@ import {
 } from '../../../../core/utils/rounds';
 import { Modal } from '../../../../shared/components/modal/modal';
 import { RichText } from '../rich-text/rich-text';
+import { I18n } from '../../../../core/services/i18n';
 
 type Screen = Extract<Out, { t: 'ui' }>;
 
@@ -32,7 +33,7 @@ type Screen = Extract<Out, { t: 'ui' }>;
 /** A text's sentences, one step each ("Remove all pieces. Return the cards." → two). */
 function sentences(text: string): string[] {
   return text
-    .split(/(?<=[.!?](?:\*\*)?)\s+(?=[A-Z*{])/)
+    .split(/(?<=[.!?](?:\*\*)?)\s+(?=[A-ZÀ-Ý*{])/)
     .map((s) => s.trim())
     .filter(Boolean);
 }
@@ -45,6 +46,7 @@ function sentences(text: string): string[] {
   styleUrl: './screen-card.css',
 })
 export class ScreenCard implements OnInit, OnDestroy {
+  protected readonly tr = inject(I18n).tr;
   protected readonly game = inject(Game);
   protected readonly library = inject(Library);
   protected readonly router = inject(Router);

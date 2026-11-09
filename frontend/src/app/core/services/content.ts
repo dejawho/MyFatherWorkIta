@@ -24,12 +24,26 @@ async function json<T>(url: string, signal?: AbortSignal): Promise<T> {
   return (await res.json()) as T;
 }
 
-export async function loadContent(id: ScenarioId, signal?: AbortSignal): Promise<ScenarioContent> {
+/**
+ * A scenario with its texts in `language`. A text not translated yet keeps its English entry
+ * (all versions of it), so a page never mixes two languages in one text.
+ */
+export async function loadContent(
+  id: ScenarioId,
+  language = 'en',
+  signal?: AbortSignal,
+): Promise<ScenarioContent> {
   const base = `content/${id}`;
-  const [scenario, strings, extras] = await Promise.all([
+  const [scenario, strings, translated, extras] = await Promise.all([
     json<Scenario>(`${base}/scenario.json`, signal),
     json<StringTable>(`${base}/strings.en.json`, signal),
+    language === 'en'
+      ? {}
+      : json<StringTable>(`${base}/strings.${language}.json`, signal).catch((e: unknown) => {
+          if (signal?.aborted) throw e;
+          return {};
+        }),
     json<ScenarioExtras>(`${base}/extras.json`, signal),
   ]);
-  return { scenario, strings, extras };
+  return { scenario, strings: { ...strings, ...translated }, extras };
 }

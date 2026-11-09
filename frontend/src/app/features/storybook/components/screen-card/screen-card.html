@@ -6,7 +6,7 @@
           {{ text('UI/Help/Viewarea/EndOfRound/DetailsPanel/title', 'End of Round') }}
         </h2>
         @if (marker(); as src) {
-          <img class="marker" [src]="src" [alt]="'Round ' + r.round + ' of ' + rounds" />
+          <img class="marker" [src]="src" [alt]="tr('Round {0} of {1}', r.round, rounds)" />
         }
         @if (roundSteps(); as s) {
           <p class="ended"><cr-rich-text [text]="s.ended" /></p>
@@ -18,7 +18,7 @@
         }
         <div class="actions">
           <button crAutofocus type="button" class="btn confirm" (click)="continue()">
-            {{ lastRound() ? 'Done' : 'Next round' }}
+            {{ lastRound() ? tr('Done') : tr('Next round') }}
           </button>
         </div>
       </cr-modal>
@@ -35,22 +35,24 @@
       <div class="actions">
         <!-- A special setup continues with a passage of its own; the others close. -->
         @if (screen().link !== undefined) {
-          <button crAutofocus type="button" class="btn confirm" (click)="continue()">Done</button>
+          <button crAutofocus type="button" class="btn confirm" (click)="continue()">
+            {{ tr('Done') }}
+          </button>
         } @else {
           <button crAutofocus type="button" class="btn confirm" (click)="dismissed.set(true)">
-            Done
+            {{ tr('Done') }}
           </button>
         }
       </div>
     </cr-modal>
   }
   @case ('specialEvent') {
-    <cr-modal [open]="!dismissed()" label="Special event">
+    <cr-modal [open]="!dismissed()" [label]="tr('Special event')">
       <div class="special">
         @if (library.ui('popup-panels/special-event-assets/special-event-text'); as src) {
-          <img class="special-title" [src]="src" alt="Special event" />
+          <img class="special-title" [src]="src" [alt]="tr('Special event')" />
         } @else {
-          <h2 class="heading title">Special Event</h2>
+          <h2 class="heading title">{{ tr('Special Event') }}</h2>
         }
       </div>
       <div class="actions">
@@ -61,17 +63,23 @@
     </cr-modal>
   }
   @case ('bidding') {
-    <cr-modal [label]="voting() ? 'Secret vote' : 'Secret bid'">
-      <h2 class="heading title">{{ voting() ? 'Secret Vote' : 'Secret Bid' }}</h2>
+    <cr-modal [label]="voting() ? tr('Secret vote') : tr('Secret bid')">
+      <h2 class="heading title">{{ voting() ? tr('Secret Vote') : tr('Secret Bid') }}</h2>
       <!-- One height for all phases: the frame doesn't jump as the countdown runs. -->
       <div class="phases">
         @switch (phase()) {
           @case ('ready') {
             @if (voting()) {
               <p>
-                Everyone secretly decides how to vote. Start the countdown when you are all ready.
+                {{
+                  tr(
+                    'Everyone secretly decides how to vote. Start the countdown when you are all ready.'
+                  )
+                }}
               </p>
-              <p>When you see the word 'REVEAL', simultaneously show everyone your vote.</p>
+              <p>
+                {{ tr("When you see the word 'REVEAL', simultaneously show everyone your vote.") }}
+              </p>
             } @else {
               <p>{{ text('UI/BidingSystem/ViewArea/Prompt/details1') }}</p>
               <p>{{ text('UI/BidingSystem/ViewArea/Prompt/details2') }}</p>
@@ -80,7 +88,7 @@
               <button crAutofocus type="button" class="btn confirm" (click)="startCountdown()">
                 {{
                   voting()
-                    ? 'Start Voting'
+                    ? tr('Start Voting')
                     : text('UI/BidingSystem/ViewArea/Prompt/start/Text (TMP)', 'Start Bidding')
                 }}
               </button>

@@ -7,6 +7,7 @@ import { Library } from '../../../../core/services/library';
 import { RichText } from '../../../storybook/components/rich-text/rich-text';
 import { RoundBar } from '../../../../shared/components/round-bar/round-bar';
 import { Tabs } from '../../../../shared/components/tabs/tabs';
+import { I18n } from '../../../../core/services/i18n';
 
 /** What a topic shows beside its text: the thing on screen it is about. */
 type Picture =
@@ -91,7 +92,7 @@ const SETTINGS: Topic[] = [
   },
   {
     title: 'Language',
-    text: 'Chronicle is in English for now; more languages may follow.',
+    text: 'Chronicle speaks English and Italian. A text not translated yet stays in English, and the voice-over reads only the English text.',
   },
   {
     title: 'Paper',
@@ -108,7 +109,7 @@ const INSTALL_STEPS = [
   '**Android:** in the browser’s menu, choose *Install app* or *Add to home screen*.',
   '**iPhone and iPad:** tap Share, then *Add to Home Screen* – before your first game: the installed app keeps its own saves, separate from Safari’s.',
   '**Computer:** Chrome and Edge show an install button in the address bar; Safari on a Mac: File → *Add to Dock*.',
-].join('\n');
+];
 
 const TABS = [
   { id: 'playing', label: 'Playing' },
@@ -129,15 +130,18 @@ const TABS = [
   styleUrl: './help.css',
 })
 export class Help {
+  protected readonly tr = inject(I18n).tr;
   protected readonly library = inject(Library);
   protected readonly install = inject(Install);
   private readonly router = inject(Router);
   private readonly location = inject(Location);
 
-  protected readonly tabs = TABS;
+  protected readonly tabs = computed(() => TABS.map((t) => ({ ...t, label: this.tr(t.label) })));
   protected readonly wide = WIDE;
   protected readonly active = signal('playing');
-  protected readonly installSteps = INSTALL_STEPS;
+  protected readonly installSteps = computed(() =>
+    INSTALL_STEPS.map((step) => this.tr(step)).join('\n'),
+  );
   protected readonly saves = SAVES;
   protected readonly settings = SETTINGS;
   protected readonly playing = computed<Topic[]>(() => [

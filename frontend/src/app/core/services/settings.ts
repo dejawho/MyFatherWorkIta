@@ -13,7 +13,18 @@ export const LANGUAGES: { code: string; name: string; versions: Record<ReadingMo
     name: 'English',
     versions: { full: 'Original', easy: 'Easy (beta)', short: 'Short (beta)' },
   },
+  {
+    code: 'it',
+    name: 'Italiano',
+    versions: { full: 'Originale', easy: 'Facile (beta)', short: 'Breve (beta)' },
+  },
 ];
+
+/** The device's language when Chronicle has it, otherwise English. */
+function deviceLanguage(): string {
+  const code = navigator.language.slice(0, 2);
+  return LANGUAGES.some((l) => l.code === code) ? code : 'en';
+}
 
 /** Light or dark paper; `auto` follows the system. */
 export type Theme = 'auto' | 'light' | 'dark';
@@ -32,7 +43,7 @@ interface Stored {
 
 const KEY = 'chronicle.settings';
 const DEFAULTS: Stored = {
-  language: 'en',
+  language: deviceLanguage(),
   voice: 'female',
   music: 0.5,
   effects: 0.8,

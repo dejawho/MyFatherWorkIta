@@ -41,12 +41,12 @@
         @for (a of achievements(); track a.text) {
           <li [class.locked]="!a.done">
             <strong>{{ a.text }}</strong>
-            <small>{{ a.done ? 'Unlocked' : 'Locked' }}</small>
+            <small>{{ a.done ? tr('Unlocked') : tr('Locked') }}</small>
           </li>
         }
       </ul>
     }
   </div>
 
-  <a class="btn" routerLink="/">Back</a>
+  <a class="btn" routerLink="/">{{ tr('Back') }}</a>
 </section>

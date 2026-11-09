@@ -12,9 +12,9 @@
     type="button"
     class="sound"
     (click)="settings.muted.set(!settings.muted())"
-    [attr.aria-label]="settings.muted() ? 'Turn sound on' : 'Mute all sound'"
+    [attr.aria-label]="settings.muted() ? tr('Turn sound on') : tr('Mute all sound')"
     [attr.aria-pressed]="settings.muted()"
-    [title]="settings.muted() ? 'Turn sound on' : 'Mute all sound'"
+    [title]="settings.muted() ? tr('Turn sound on') : tr('Mute all sound')"
   >
     <span class="speaker" [class.off]="settings.muted()" aria-hidden="true"></span>
   </button>

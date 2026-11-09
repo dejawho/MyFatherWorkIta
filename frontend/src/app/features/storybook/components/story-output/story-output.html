@@ -38,7 +38,7 @@
       } @else if (o.id === primaryLink()) {
         <button type="button" class="btn continue-inline" (click)="game.tap(o.id)">
           @if (o.role === 'continue') {
-            Continue
+            {{ tr('Continue') }}
           } @else {
             <cr-rich-text [text]="game.text(o.key)" [args]="o.args" />
           }
@@ -104,6 +104,6 @@
     <cr-story-output [items]="trim(p.details.children)" [hideLink]="p.action?.id" />
   </div>
   @if (p.done) {
-    <span class="mark">✓ Done</span>
+    <span class="mark">✓ {{ tr('Done') }}</span>
   }
 </ng-template>

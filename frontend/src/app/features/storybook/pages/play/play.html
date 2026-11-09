@@ -1,14 +1,14 @@
 @if (game.view(); as view) {
   @if (handover(); as notice) {
     <!-- A dialog, so it queues ahead of the page's own pop-ups instead of under them. -->
-    <cr-modal [fullscreen]="true" label="Pass the storybook">
+    <cr-modal [fullscreen]="true" [label]="tr('Pass the storybook')">
       <div class="handover">
         <div class="hand" aria-hidden="true"></div>
         @for (line of notice; track $index) {
           <p><cr-rich-text [text]="game.text(line.key)" [args]="line.args" /></p>
         }
         <button crAutofocus type="button" class="btn confirm" (click)="showPage()">
-          Ready – show the page
+          {{ tr('Ready – show the page') }}
         </button>
       </div>
     </cr-modal>
@@ -16,7 +16,12 @@
   <header class="bar">
     <!-- Two buttons on each side keep the title centred. -->
     <div class="start">
-      <button type="button" class="icon-btn" (click)="logOpen.set(true)" aria-label="Log book">
+      <button
+        type="button"
+        class="icon-btn"
+        (click)="logOpen.set(true)"
+        [attr.aria-label]="tr('Log book')"
+      >
         @if (library.ui('general/book-icon-1'); as src) {
           <img [src]="src" alt="" />
         } @else {
@@ -27,9 +32,9 @@
         type="button"
         class="icon-btn"
         (click)="settings.muted.set(!settings.muted())"
-        [attr.aria-label]="settings.muted() ? 'Turn sound on' : 'Mute all sound'"
+        [attr.aria-label]="settings.muted() ? tr('Turn sound on') : tr('Mute all sound')"
         [attr.aria-pressed]="settings.muted()"
-        [title]="settings.muted() ? 'Turn sound on' : 'Mute all sound'"
+        [title]="settings.muted() ? tr('Turn sound on') : tr('Mute all sound')"
       >
         <span class="speaker" [class.off]="settings.muted()" aria-hidden="true"></span>
       </button>
@@ -40,7 +45,7 @@
           <cr-rich-text [text]="game.title()" />
         }
       </h1>
-      <p class="clock" [attr.aria-label]="'Play time ' + playTime()">⏱ {{ playTime() }}</p>
+      <p class="clock" [attr.aria-label]="tr('Play time {0}', playTime())">⏱ {{ playTime() }}</p>
     </div>
     <div class="end">
       @if (game.canUndo()) {
@@ -48,13 +53,18 @@
           type="button"
           class="icon-btn"
           (click)="confirmUndo.set(true)"
-          aria-label="Undo last choice"
-          title="Undo last choice"
+          [attr.aria-label]="tr('Undo last choice')"
+          [title]="tr('Undo last choice')"
         >
           ↶
         </button>
       }
-      <button type="button" class="icon-btn" (click)="pauseOpen.set(true)" aria-label="Menu">
+      <button
+        type="button"
+        class="icon-btn"
+        (click)="pauseOpen.set(true)"
+        [attr.aria-label]="tr('Menu')"
+      >
         ☰
       </button>
     </div>
@@ -97,10 +107,10 @@
             {{ library.text('@ViewShareEnding.EndingText', 'ending.') }}
           </p>
         }
-        <p class="played">Played in {{ playTime() }}</p>
+        <p class="played">{{ tr('Played in {0}', playTime()) }}</p>
         <div class="row">
-          <a class="btn" routerLink="/endings">Endings</a>
-          <button type="button" class="btn" (click)="toTitle()">Main menu</button>
+          <a class="btn" routerLink="/endings">{{ tr('Endings') }}</a>
+          <button type="button" class="btn" (click)="toTitle()">{{ tr('Main menu') }}</button>
         </div>
       </footer>
     }
@@ -108,12 +118,19 @@
     @if (game.error(); as error) {
       <p class="error" role="alert">
         {{ error }}
-        <a [href]="bugReport(error)" target="_blank" rel="noopener">Report this error ↗</a>
+        <a [href]="bugReport(error)" target="_blank" rel="noopener"
+          >{{ tr('Report this error') }} ↗</a
+        >
       </p>
     }
   </article>
 
-  <cr-modal [open]="logOpen()" [dismissable]="true" (closed)="logOpen.set(false)" label="Log book">
+  <cr-modal
+    [open]="logOpen()"
+    [dismissable]="true"
+    (closed)="logOpen.set(false)"
+    [label]="tr('Log book')"
+  >
     <cr-log-book (done)="logOpen.set(false)" />
   </cr-modal>
 
@@ -122,16 +139,18 @@
     [open]="confirmUndo()"
     [dismissable]="true"
     (closed)="confirmUndo.set(false)"
-    label="Undo last choice"
+    [label]="tr('Undo last choice')"
   >
     <div class="undo">
-      <h2 class="heading">Undo last choice?</h2>
-      <p>This shows the previous page again. Make sure it isn't another player's secret.</p>
+      <h2 class="heading">{{ tr('Undo last choice?') }}</h2>
+      <p>
+        {{ tr("This shows the previous page again. Make sure it isn't another player's secret.") }}
+      </p>
       <div class="row">
         <button crAutofocus type="button" class="btn" (click)="confirmUndo.set(false)">
-          Cancel
+          {{ tr('Cancel') }}
         </button>
-        <button type="button" class="btn confirm" (click)="undo()">Undo</button>
+        <button type="button" class="btn confirm" (click)="undo()">{{ tr('Undo') }}</button>
       </div>
     </div>
   </cr-modal>
@@ -140,7 +159,7 @@
     [open]="pauseOpen()"
     [dismissable]="true"
     (closed)="pauseOpen.set(false)"
-    label="Paused"
+    [label]="tr('Paused')"
   >
     <h2 class="heading paused">
       {{
@@ -150,32 +169,38 @@
         )
       }}
     </h2>
-    <p class="paused-time">Play time {{ playTime() }}</p>
-    <cr-settings-panel [showHeading]="false" doneLabel="Resume" (done)="pauseOpen.set(false)">
-      <button actions type="button" class="btn minor" (click)="toHelp()">Help</button>
-      <button actions type="button" class="btn minor" (click)="toTitle()">Main menu</button>
+    <p class="paused-time">{{ tr('Play time {0}', playTime()) }}</p>
+    <cr-settings-panel
+      [showHeading]="false"
+      [doneLabel]="tr('Resume')"
+      (done)="pauseOpen.set(false)"
+    >
+      <button actions type="button" class="btn minor" (click)="toHelp()">{{ tr('Help') }}</button>
+      <button actions type="button" class="btn minor" (click)="toTitle()">
+        {{ tr('Main menu') }}
+      </button>
     </cr-settings-panel>
     <p class="report">
-      Something wrong on this page?
-      <a [href]="bugReport()" target="_blank" rel="noopener">Report a bug ↗</a>
+      {{ tr('Something wrong on this page?') }}
+      <a [href]="bugReport()" target="_blank" rel="noopener">{{ tr('Report a bug') }} ↗</a>
     </p>
   </cr-modal>
 } @else if (game.error(); as error) {
   <section class="paper empty">
-    <p class="error" role="alert">The storybook could not be opened: {{ error }}</p>
-    <a class="btn" routerLink="/">Main menu</a>
-    <a [href]="bugReport(error)" target="_blank" rel="noopener">Report this error ↗</a>
+    <p class="error" role="alert">{{ tr('The storybook could not be opened: {0}', error) }}</p>
+    <a class="btn" routerLink="/">{{ tr('Main menu') }}</a>
+    <a [href]="bugReport(error)" target="_blank" rel="noopener">{{ tr('Report this error') }} ↗</a>
   </section>
 } @else if (resuming()) {
-  <p class="loading">Opening the storybook…</p>
+  <p class="loading">{{ tr('Opening the storybook…') }}</p>
 } @else if (notResumed(); as reason) {
   <section class="paper empty">
-    <p role="alert">Your saved game can’t be continued. {{ reason }}</p>
-    <a class="btn" routerLink="/">Back to the title</a>
+    <p role="alert">{{ tr('Your saved game can’t be continued. {0}', tr(reason)) }}</p>
+    <a class="btn" routerLink="/">{{ tr('Back to the title') }}</a>
   </section>
 } @else {
   <section class="paper empty">
-    <p>No game in progress.</p>
-    <a class="btn" routerLink="/">Back to the title</a>
+    <p>{{ tr('No game in progress.') }}</p>
+    <a class="btn" routerLink="/">{{ tr('Back to the title') }}</a>
   </section>
 }

@@ -1,8 +1,8 @@
 <section class="paper sheet">
-  <h1 class="heading">Saved games</h1>
+  <h1 class="heading">{{ tr('Saved games') }}</h1>
 
   @if (loaded() && !items().length) {
-    <p class="empty">No saved games on this device.</p>
+    <p class="empty">{{ tr('No saved games on this device.') }}</p>
   }
   <ul class="games">
     @for (save of items(); track save.id) {
@@ -25,8 +25,8 @@
           type="button"
           class="delete"
           (click)="toDelete.set(save)"
-          [attr.aria-label]="'Delete the game of ' + save.village"
-          title="Delete"
+          [attr.aria-label]="tr('Delete the game of {0}', save.village)"
+          [title]="tr('Delete')"
         >
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3" />
@@ -36,7 +36,7 @@
     }
   </ul>
 
-  <a class="btn" routerLink="/">Back</a>
+  <a class="btn" routerLink="/">{{ tr('Back') }}</a>
 </section>
 
 <ng-template #about let-save>
@@ -46,7 +46,7 @@
     <cr-round-bar class="rounds" aria-hidden="true" [done]="save.roundsShown" />
   }
   <span class="standing" [class.sr-only]="save.underWay">{{ save.standing }}</span>
-  <small>Last played {{ save.lastPlayed }} · played for {{ save.played }}</small>
+  <small>{{ tr('Last played {0} · played for {1}', save.lastPlayed, save.played) }}</small>
 </ng-template>
 
 @let deleting = toDelete();
@@ -54,12 +54,14 @@
   [open]="!!deleting"
   [dismissable]="true"
   (closed)="toDelete.set(undefined)"
-  label="Delete a saved game"
+  [label]="tr('Delete a saved game')"
 >
-  <p class="question">Delete the game of {{ deleting?.village }}?</p>
-  <p class="consequence">It can’t be brought back.</p>
+  <p class="question">{{ tr('Delete the game of {0}?', deleting?.village ?? '') }}</p>
+  <p class="consequence">{{ tr('It can’t be brought back.') }}</p>
   <div class="row">
-    <button crAutofocus type="button" class="btn" (click)="toDelete.set(undefined)">Cancel</button>
-    <button type="button" class="btn danger" (click)="remove()">Delete</button>
+    <button crAutofocus type="button" class="btn" (click)="toDelete.set(undefined)">
+      {{ tr('Cancel') }}
+    </button>
+    <button type="button" class="btn danger" (click)="remove()">{{ tr('Delete') }}</button>
   </div>
 </cr-modal>

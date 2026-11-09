@@ -70,7 +70,8 @@ The original app's stories were written in Twine and compiled to C#. Chronicle c
 once into plain data, one folder per scenario in `content/`:
 
 - **`scenario.json`** – passages as a tree of nodes (text, links, conditions, variables, …)
-- **`strings.en.json`** – all text by key, each with optional _Easy_ and _Short_ versions
+- **`strings.en.json`** – all text by key, each with optional _Easy_ and _Short_ versions;
+  `strings.it.json` is the Italian translation
 - **`extras.json`** – end-of-round texts, log book entries and which pages have voice-over
 
 All three scenarios are converted and frozen: `content/` is now edited directly (the converter

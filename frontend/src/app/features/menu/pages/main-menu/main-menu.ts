@@ -17,6 +17,7 @@ import { WhatsNew } from '../../../../core/services/whats-new';
 import { Modal } from '../../../../shared/components/modal/modal';
 import { SettingsPanel } from '../../../../shared/components/settings-panel/settings-panel';
 import { TitleScene } from '../../components/title-scene/title-scene';
+import { I18n } from '../../../../core/services/i18n';
 
 /**
  * Title screen, laid out like the original's: continue, new game, settings, endings, help – and
@@ -30,6 +31,7 @@ import { TitleScene } from '../../components/title-scene/title-scene';
   styleUrl: './main-menu.css',
 })
 export class MainMenu {
+  protected readonly tr = inject(I18n).tr;
   protected readonly library = inject(Library);
   protected readonly whatsNew = inject(WhatsNew);
   protected readonly install = inject(Install);

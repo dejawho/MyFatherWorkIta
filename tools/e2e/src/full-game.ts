@@ -68,7 +68,8 @@ if (failures.length) {
 async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]): Promise<void> {
   console.log(`\n${scenario.title}`);
   current = scenario.id;
-  const context = await browser.newContext({ viewport: { width: 430, height: 900 } });
+  // In English whatever the machine's language: the steps find buttons by their English text.
+  const context = await browser.newContext({ viewport: { width: 430, height: 900 }, locale: 'en-US' });
   const page = await context.newPage();
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(String(e)));

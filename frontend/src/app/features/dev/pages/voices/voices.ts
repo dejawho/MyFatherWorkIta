@@ -35,7 +35,7 @@ export class Voices {
       Promise.all(
         SCENARIOS.filter((s) => intros[s.id]).map(async (s) => ({
           ...s,
-          content: await loadContent(s.id, abortSignal),
+          content: await loadContent(s.id, 'en', abortSignal),
         })),
       ),
   });

@@ -1,7 +1,7 @@
 <section class="paper sheet">
   @if (!link()) {
-    <p>Scoring opens at the end of the game.</p>
-    <a class="btn" routerLink="/play">Back to the story</a>
+    <p>{{ tr('Scoring opens at the end of the game.') }}</p>
+    <a class="btn" routerLink="/play">{{ tr('Back to the story') }}</a>
   } @else if (phase() === 'entry') {
     <h1 class="heading">{{ t('UI/Scoring/ViewArea/Title', 'Score Entry') }}</h1>
     <!-- Scores, and below them only the tie-breakers a tie calls for: one page, one button. -->
@@ -24,7 +24,7 @@
                   min="0"
                   inputmode="numeric"
                   enterkeyhint="next"
-                  [attr.aria-label]="'Score of ' + p.name"
+                  [attr.aria-label]="tr('Score of {0}', p.name)"
                   [value]="scores()[p.index] ?? ''"
                   (input)="setScore(p.index, $any($event.target).value)"
                   (keydown.enter)="next($event)"
@@ -39,7 +39,7 @@
         <section class="tie" aria-live="polite">
           <h2 class="heading">{{ t('UI/TieBreak/ViewArea/Title', 'Tie Breaker') }}</h2>
           <p class="question">
-            {{ names(tied()) }} are tied for first. Who completed their Masterwork?
+            {{ tr('{0} are tied for first. Who completed their Masterwork?', names(tied())) }}
           </p>
           <div class="toggles">
             @for (p of tied(); track p.index) {
@@ -56,7 +56,9 @@
           </div>
 
           @if (needsUpgrades()) {
-            <p class="question">Still tied – how many Estate Upgrades does each have?</p>
+            <p class="question">
+              {{ tr('Still tied – how many Estate Upgrades does each have?') }}
+            </p>
             <table>
               <tbody>
                 @for (p of contenders(); track p.index) {
@@ -68,7 +70,7 @@
                         min="0"
                         inputmode="numeric"
                         enterkeyhint="next"
-                        [attr.aria-label]="'Estate Upgrades of ' + p.name"
+                        [attr.aria-label]="tr('Estate Upgrades of {0}', p.name)"
                         [value]="upgrades()[p.index] ?? ''"
                         (input)="setUpgrades(p.index, $any($event.target).value)"
                         (keydown.enter)="next($event)"
@@ -83,14 +85,14 @@
       }
     </div>
     <button type="button" class="btn" [disabled]="!ready()" (click)="phase.set('ranking')">
-      Show ranking
+      {{ tr('Show ranking') }}
     </button>
   } @else {
     <h1 class="heading">{{ t('UI/RankingPage/ViewArea/Title', 'Rankings') }}</h1>
     <ol class="ranking">
       @for (p of result().ranking; track p.index; let i = $index) {
         <li>
-          <span class="place">{{ ordinals[result().places[i]! - 1] }}</span>
+          <span class="place">{{ tr(ordinals[result().places[i]! - 1]!) }}</span>
           <span class="name">
             {{ p.name }}
             @if (tieNote(p.index); as note) {
@@ -99,21 +101,27 @@
           </span>
           <span class="score">{{ scoreOf(p.index) }}</span>
           @if (isWinner(i) && library.ui('ranking/mfw-crown-icon'); as crown) {
-            <img class="crown" [src]="crown" alt="winner" />
+            <img class="crown" [src]="crown" [alt]="tr('winner')" />
           }
         </li>
       }
     </ol>
     @if (result().familyWins) {
-      <p class="family">{{ family }} share the victory.</p>
+      <p class="family">{{ tr('{0} share the victory.', tr(family)) }}</p>
     }
     @if (game.error(); as error) {
       <p class="error" role="alert">
-        The ending could not be opened: {{ error }}
-        <a [href]="bugReport(error)" target="_blank" rel="noopener">Report this error ↗</a>
+        {{ tr('The ending could not be opened: {0}', error) }}
+        <a [href]="bugReport(error)" target="_blank" rel="noopener"
+          >{{ tr('Report this error') }} ↗</a
+        >
       </p>
     }
-    <button crAutofocus type="button" class="btn" (click)="finish()">To the ending</button>
-    <button type="button" class="back" (click)="phase.set('entry')">‹ Change scores</button>
+    <button crAutofocus type="button" class="btn" (click)="finish()">
+      {{ tr('To the ending') }}
+    </button>
+    <button type="button" class="back" (click)="phase.set('entry')">
+      ‹ {{ tr('Change scores') }}
+    </button>
   }
 </section>

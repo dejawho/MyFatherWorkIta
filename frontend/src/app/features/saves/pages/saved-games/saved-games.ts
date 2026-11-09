@@ -19,17 +19,19 @@ import { Autofocus } from '../../../../shared/directives/autofocus/autofocus';
 import { Modal } from '../../../../shared/components/modal/modal';
 import { RoundBar } from '../../../../shared/components/round-bar/round-bar';
 import { formatDuration } from '../../../../shared/utils/duration';
+import { I18n } from '../../../../core/services/i18n';
 
 const lastPlayed = new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' });
 
 /** Where a saved game stands, without giving the story away. */
-function standing(save: SaveSummary): string {
-  if (save.status === 'changed') return `Can’t be continued: ${NOT_RESUMED.changed.toLowerCase()}`;
-  if (save.status === 'newer') return NOT_RESUMED.newer;
-  if (save.finished) return 'Finished';
-  if (save.roundsDone >= ROUNDS) return 'Final scoring';
+function standing(save: SaveSummary, tr: I18n['tr']): string {
+  if (save.status === 'changed')
+    return tr('Can’t be continued: {0}', tr(NOT_RESUMED.changed).toLowerCase());
+  if (save.status === 'newer') return tr(NOT_RESUMED.newer);
+  if (save.finished) return tr('Finished');
+  if (save.roundsDone >= ROUNDS) return tr('Final scoring');
   const { generation, round } = roundPosition(save.roundsDone + 1);
-  return `Generation ${generationNumeral(generation)}, round ${round}`;
+  return tr('Generation {0}, round {1}', generationNumeral(generation), round);
 }
 
 /** The games saved on this device: tap one to continue it, or delete it. */
@@ -41,6 +43,7 @@ function standing(save: SaveSummary): string {
   styleUrl: './saved-games.css',
 })
 export class SavedGamesPage {
+  protected readonly tr = inject(I18n).tr;
   private readonly savedGames = inject(SavedGames);
   private readonly game = inject(Game);
   private readonly router = inject(Router);
@@ -53,7 +56,7 @@ export class SavedGamesPage {
     (this.saves.value() ?? []).map((save) => ({
       ...save,
       title: SCENARIOS.find((s) => s.id === save.scenario)?.title ?? save.scenario,
-      standing: standing(save),
+      standing: standing(save, this.tr),
       /** Under way: the round bar says where it stands, so the text is for screen readers. */
       underWay: save.status === 'ok' && !save.finished && save.roundsDone < ROUNDS,
       /** For the round bar: a finished game shows all rounds played. */

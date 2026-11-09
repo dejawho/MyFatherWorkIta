@@ -23,7 +23,7 @@
     }
 
     @case ('players') {
-      <h1 class="heading">Players</h1>
+      <h1 class="heading">{{ tr('Players') }}</h1>
       <p>
         {{
           t(
@@ -140,7 +140,7 @@
               <img [src]="src" alt="" />
             }
             <strong>{{ t(s.titleKey, s.title) }}</strong>
-            <span>{{ s.available ? t(s.detailsKey) : 'Coming later' }}</span>
+            <span>{{ s.available ? t(s.detailsKey) : tr('Coming later') }}</span>
           </button>
         }
       </div>
@@ -148,6 +148,6 @@
   }
 
   @if (step() !== 'voice') {
-    <button type="button" class="back" (click)="back()">‹ Back</button>
+    <button type="button" class="back" (click)="back()">‹ {{ tr('Back') }}</button>
   }
 </section>

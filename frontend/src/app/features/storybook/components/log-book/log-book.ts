@@ -11,6 +11,7 @@ import {
 import { Game } from '../../../../core/services/game';
 import { Library } from '../../../../core/services/library';
 import { RichText } from '../rich-text/rich-text';
+import { I18n } from '../../../../core/services/i18n';
 
 const PER_PAGE = 4;
 
@@ -23,6 +24,7 @@ const PER_PAGE = 4;
   styleUrl: './log-book.css',
 })
 export class LogBook implements OnInit {
+  protected readonly tr = inject(I18n).tr;
   protected readonly game = inject(Game);
   protected readonly library = inject(Library);
   readonly done = output<void>();

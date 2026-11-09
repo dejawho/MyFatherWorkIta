@@ -1,4 +1,4 @@
-<h2 class="heading">Log Book</h2>
+<h2 class="heading">{{ tr('Log Book') }}</h2>
 @if (entries().length) {
   <ol class="entries" [start]="page() * perPage + 1">
     @for (e of visible(); track e.passage + $index) {
@@ -15,7 +15,7 @@
       class="arrow"
       [disabled]="page() === 0"
       (click)="page.set(page() - 1)"
-      aria-label="Previous page"
+      [attr.aria-label]="tr('Previous page')"
     >
       @if (library.ui('log-book/previous-page-arrow'); as src) {
         <img [src]="src" alt="" />
@@ -29,7 +29,7 @@
       class="arrow"
       [disabled]="page() + 1 >= pages()"
       (click)="page.set(page() + 1)"
-      aria-label="Next page"
+      [attr.aria-label]="tr('Next page')"
     >
       @if (library.ui('log-book/next-page-arrow'); as src) {
         <img [src]="src" alt="" />
@@ -39,8 +39,8 @@
     </button>
   </nav>
 } @else {
-  <p class="empty">Nothing recorded yet.</p>
+  <p class="empty">{{ tr('Nothing recorded yet.') }}</p>
 }
 <div class="actions">
-  <button crAutofocus type="button" class="btn" (click)="done.emit()">Close</button>
+  <button crAutofocus type="button" class="btn" (click)="done.emit()">{{ tr('Close') }}</button>
 </div>

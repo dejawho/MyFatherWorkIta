@@ -102,6 +102,8 @@ export class AudioPlayer {
    */
   playVoice(passage: string, mode: ReadingMode): void {
     this.stopVoice();
+    // The voice-over reads the English text.
+    if (this.settings.language() !== 'en') return;
     const src = this.library.voiceOver(passage, this.settings.voice(), mode);
     if (!src || this.settings.voiceOver() === 0) return;
     this.voice = new Audio(src);

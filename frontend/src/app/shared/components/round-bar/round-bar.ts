@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
 import { Library } from '../../../core/services/library';
 import { generationNumeral, ROUNDS, roundPosition } from '../../../core/utils/rounds';
+import { I18n } from '../../../core/services/i18n';
 
 /** "I-1" … "III-3" for a round of the whole game (from 1). */
 function slotLabel(n: number): string {
@@ -29,6 +30,7 @@ function slotLabel(n: number): string {
   styleUrl: './round-bar.css',
 })
 export class RoundBar {
+  protected readonly tr = inject(I18n).tr;
   private readonly library = inject(Library);
   /** Rounds completed so far; the next one is being played, unless all are done. */
   readonly done = input.required<number>();
@@ -41,9 +43,9 @@ export class RoundBar {
     label: slotLabel(i + 1),
   }));
   protected readonly label = computed(() => {
-    if (this.done() >= ROUNDS) return 'All rounds played';
+    if (this.done() >= ROUNDS) return this.tr('All rounds played');
     const { generation, round } = roundPosition(this.done() + 1);
-    return `Generation ${generationNumeral(generation)}, round ${round}`;
+    return this.tr('Generation {0}, round {1}', generationNumeral(generation), round);
   });
   protected readonly tube = computed(() => {
     const src = this.library.ui('progress-bar/mfw-progress-bar');

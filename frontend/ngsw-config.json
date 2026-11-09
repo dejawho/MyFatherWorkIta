@@ -33,7 +33,7 @@
       "resources": {
         "files": [
           "/content/*/*.json",
-          "/content/ui.en.json",
+          "/content/ui.*.json",
           "/content/changelog.md",
           "/content/assets/manifest.json",
           "/content/assets/voices.json",

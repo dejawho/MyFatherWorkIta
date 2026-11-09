@@ -11,6 +11,8 @@ import { RouterLink } from '@angular/router';
 import { AppUpdate } from '../../../../core/services/app-update';
 import { bugReportUrl, REPOSITORY } from '../../../../core/utils/bug-report';
 import { compareVersions, WhatsNew as Notes } from '../../../../core/services/whats-new';
+import { I18n } from '../../../../core/services/i18n';
+import { Settings } from '../../../../core/services/settings';
 
 /**
  * The changelog, shipped with the app so it reads offline. Opening it counts as seen. When
@@ -24,6 +26,8 @@ import { compareVersions, WhatsNew as Notes } from '../../../../core/services/wh
   styleUrl: './whats-new.css',
 })
 export class WhatsNew {
+  protected readonly tr = inject(I18n).tr;
+  protected readonly settings = inject(Settings);
   protected readonly notes = inject(Notes);
   protected readonly update = inject(AppUpdate);
   /** Asked for each time the page opens; nothing when offline. */

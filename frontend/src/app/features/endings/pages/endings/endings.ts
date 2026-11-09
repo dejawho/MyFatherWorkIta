@@ -14,6 +14,7 @@ import { Library } from '../../../../core/services/library';
 import { SaveStore } from '../../../../core/services/save-store';
 import { Settings } from '../../../../core/services/settings';
 import { Tabs } from '../../../../shared/components/tabs/tabs';
+import { I18n } from '../../../../core/services/i18n';
 
 /**
  * Endings and achievements unlocked on this device, one scenario at a time (first the current
@@ -31,6 +32,7 @@ const SCENARIOS_IN_ORIGINAL: string[] = ['cost-of-disease', 'fear-of-the-unknown
   styleUrl: './endings.css',
 })
 export class Endings {
+  protected readonly tr = inject(I18n).tr;
   private readonly library = inject(Library);
   private readonly game = inject(Game);
   private readonly saves = inject(SaveStore);
@@ -58,8 +60,8 @@ export class Endings {
   });
   /** Ending titles need the scenario's strings. */
   private readonly content = resource({
-    params: () => this.scenario(),
-    loader: ({ params }) => this.game.contentOf(params),
+    params: () => ({ id: this.scenario(), language: this.settings.language() }),
+    loader: ({ params }) => this.game.contentOf(params.id, params.language),
   });
 
   protected readonly endings = computed(() => {
@@ -98,9 +100,9 @@ export class Endings {
     const name = this.scenarioName();
     const total = this.endings().length;
     return [
-      { text: reachEnd || `Reach the end of ${name}.`, done: this.unlockedCount() > 0 },
+      { text: reachEnd || this.tr('Reach the end of {0}.', name), done: this.unlockedCount() > 0 },
       {
-        text: allEndings || `Complete all ${total} Endings in ${name}.`,
+        text: allEndings || this.tr('Complete all {0} Endings in {1}.', total, name),
         done: total > 0 && this.unlockedCount() === total,
       },
     ];

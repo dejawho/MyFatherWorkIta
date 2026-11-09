@@ -11,6 +11,7 @@ import {
 } from '@angular/core';
 import { Settings } from '../../../core/services/settings';
 import { ModalStack, type StackedModal } from './modal-stack';
+import { I18n } from '../../../core/services/i18n';
 
 /**
  * A modal dialog on the native `<dialog>` element (focus trap, Esc and top layer for free).
@@ -24,6 +25,7 @@ import { ModalStack, type StackedModal } from './modal-stack';
   styleUrl: './modal.css',
 })
 export class Modal implements StackedModal {
+  protected readonly tr = inject(I18n).tr;
   readonly open = input(true);
   readonly label = input('');
   readonly dismissable = input(false);

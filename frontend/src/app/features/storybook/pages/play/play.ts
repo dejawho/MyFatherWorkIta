@@ -30,6 +30,7 @@ import { Modal } from '../../../../shared/components/modal/modal';
 import { SettingsPanel } from '../../../../shared/components/settings-panel/settings-panel';
 import { handoverNotice, noticeLink, onlyWay, pageBody } from '../../utils/page-layout';
 import { startPlaySession } from '../../utils/play-session';
+import { I18n } from '../../../../core/services/i18n';
 
 /** The storybook: current passage, log book, pause menu, prompts and endings. */
 @Component({
@@ -52,6 +53,7 @@ import { startPlaySession } from '../../utils/play-session';
   styleUrl: './play.css',
 })
 export class Play {
+  protected readonly tr = inject(I18n).tr;
   /** A bug report that names the current passage (and the error, if any). */
   protected bugReport(error?: string): string {
     const passage = this.game.view()?.passage;

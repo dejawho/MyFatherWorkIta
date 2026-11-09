@@ -43,7 +43,8 @@ content/ (JSON, edited directly) ──engine──▶ story tester
 - **Content model** (`engine/src/schema.ts`): a scenario is variables plus passages; a passage is
   a tree of nodes (text, links, conditions, variable updates, prompts, app screens, blocks). All
   text lives in string tables by key (`strings.en.json`), each entry `{ full, easy?, short? }`
-  with review flags. Text kinds: `narrative` (flavour text), `instruction`, `command` (about the
+  with review flags. Another language is `strings.<code>.json` with the same keys (Italian:
+  `strings.it.json`, terms in `docs/glossary.it.md`); a key it lacks shows the English entry. Text kinds: `narrative` (flavour text), `instruction`, `command` (about the
   app, e.g. hand-overs), `title`. A language or reading mode is a text-only change; game state
   cannot drift between them.
 - **Engine** (`engine/`): a small TypeScript runtime that plays that data (Harlowe semantics such
@@ -62,7 +63,10 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   `Game` service drives the engine, saves after every step (IndexedDB) and keeps undo steps;
   what a page shows (steps taken for the players, layout, hand-overs) is decided by plain
   functions in `utils/` folders, tested without Angular;
-  settings live in localStorage; a service worker makes it work offline.
+  settings live in localStorage; a service worker makes it work offline. Languages: the
+  original's screen texts come from `content/ui.<code>.json` (Library), the app's own texts
+  from `I18n.tr('English text')`, looked up in `core/i18n/<code>.ts`; add every new text there.
+  The voice-over is English only.
 
 ### Frontend layout (`frontend/src/app/`)
 
@@ -73,8 +77,9 @@ Feature-based, one folder per component, each with its own `.ts`, `.html`, `.css
 app.ts / app.html / app.css      shell: backdrop, update and error notices, footer
 app.routes.ts, app.config.ts
 core/services/                   app-wide singletons: game, library (assets, screen texts,
-                                 voices), audio, settings, save-store, saved-games, content,
-                                 whats-new, app-update, app-errors, install
+                                 voices), audio, settings, i18n, page-title, save-store,
+                                 saved-games, content, whats-new, app-update, app-errors, install
+core/i18n/                       the app's own texts per language, keyed by their English text
 core/utils/                      plain helpers: steps the app takes for the players
                                  (auto-steps), page output, rounds, save migration,
                                  bug-report links, wake lock
@@ -155,4 +160,5 @@ Next, roughly in order:
 3. Review Easy and Short at the table.
 4. Voice-over for every new story text (M7): voice packs outside git, names generated in the
    browser.
-5. Other UI languages; app-store builds (Capacitor) later, if needed.
+5. Italian is in (story, screen texts and app; a few texts of _A Time of War_ still English);
+   review it at the table. App-store builds (Capacitor) later, if needed.
