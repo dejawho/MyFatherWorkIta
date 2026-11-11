@@ -58,6 +58,7 @@ const STORYBOOK_ILLUSTRATIONS: Record<string, string> = {
   'cost-of-disease': 'generation-ending/bgs/b-illustration1-oj-v004',
   'fear-of-the-unknown': 'generation-ending/bgs/b-illustration2-oj-v004',
   'a-time-of-war': 'generation-ending/bgs/b-illustration3-oj-v004',
+  'the-thinning-veil': 'generation-ending/bgs/b-illustration2-oj-v004',
 };
 const DIM = 'linear-gradient(rgb(0 0 0 / 0.45), rgb(0 0 0 / 0.6))';
 

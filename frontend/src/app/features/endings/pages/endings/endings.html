@@ -12,7 +12,7 @@
             [attr.aria-pressed]="scenario() === s.id"
             (click)="scenario.set(s.id)"
           >
-            {{ s.title }}
+            {{ tr(s.title) }}
           </button>
         }
       </div>

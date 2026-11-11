@@ -8,6 +8,9 @@
       "path": "tools/story-tester"
     },
     {
+      "path": "tools/scenario-author"
+    },
+    {
       "path": "tools/e2e"
     }
   ]

@@ -55,7 +55,7 @@ export class SavedGamesPage {
   protected readonly items = computed(() =>
     (this.saves.value() ?? []).map((save) => ({
       ...save,
-      title: SCENARIOS.find((s) => s.id === save.scenario)?.title ?? save.scenario,
+      title: this.tr(SCENARIOS.find((s) => s.id === save.scenario)?.title ?? save.scenario),
       standing: standing(save, this.tr),
       /** Under way: the round bar says where it stands, so the text is for screen readers. */
       underWay: save.status === 'ok' && !save.finished && save.roundsDone < ROUNDS,

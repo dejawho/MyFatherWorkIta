@@ -147,13 +147,18 @@ export class Setup {
   }
 }
 
-/** The three scenarios as the original's chooser shows them; those not converted yet are locked. */
+/**
+ * The three scenarios as the original's chooser shows them (texts from its screen texts), then
+ * the fan-made ones (texts from the app's own, `details` in English); those not converted yet
+ * are locked.
+ */
 const SCENARIOS_UI = [
   {
     id: 'cost-of-disease',
     title: 'The Cost of Disease',
     titleKey: 'UI/Scenarios/Viewarea/costOfDiseaseBtn/costofDiseaseTitle',
     detailsKey: 'UI/Scenarios/Viewarea/costOfDiseaseBtn/costofDiseaseDetails',
+    details: '',
     image: 'scenario/mfw-scenario-1',
     available: isScenarioId('cost-of-disease'),
   },
@@ -162,6 +167,7 @@ const SCENARIOS_UI = [
     title: 'Fear of the Unknown',
     titleKey: 'UI/Scenarios/Viewarea/FearoftheUnknownBtn/industryForeverTitle',
     detailsKey: 'UI/Scenarios/Viewarea/FearoftheUnknownBtn/industryForeverDetails',
+    details: '',
     image: 'scenario/mfw-scenario-2',
     available: isScenarioId('fear-of-the-unknown'),
   },
@@ -170,7 +176,20 @@ const SCENARIOS_UI = [
     title: 'A Time of War',
     titleKey: 'UI/Scenarios/Viewarea/timeOfWarBtn/timeOfWarTitle',
     detailsKey: 'UI/Scenarios/Viewarea/timeOfWarBtn/timeOfWarDetails',
+    details: '',
     image: 'scenario/mfw-scenario-3',
     available: isScenarioId('a-time-of-war'),
+  },
+  {
+    id: 'the-thinning-veil',
+    title: 'The Thinning Veil',
+    titleKey: '',
+    detailsKey: '',
+    details:
+      "An unofficial, fan-made scenario: the dead knock at the walls of your father's estate. It uses some components of The Cost of Disease.",
+    // No art of its own: the caravan under the moon, from one of the original's illustrations.
+    image: 'generation-ending/bgs/b-illustration1-oj-v004',
+    imagePosition: '26% 50%',
+    available: isScenarioId('the-thinning-veil'),
   },
 ];

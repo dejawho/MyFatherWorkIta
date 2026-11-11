@@ -137,10 +137,12 @@
         @for (s of scenarioCards; track s.id) {
           <button type="button" class="scenario" [disabled]="!s.available" (click)="start(s.id)">
             @if (library.ui(s.image); as src) {
-              <img [src]="src" alt="" />
+              <img [src]="src" alt="" [style.object-position]="s.imagePosition" />
             }
-            <strong>{{ t(s.titleKey, s.title) }}</strong>
-            <span>{{ s.available ? t(s.detailsKey) : tr('Coming later') }}</span>
+            <strong>{{ s.titleKey ? t(s.titleKey, s.title) : tr(s.title) }}</strong>
+            <span>{{
+              !s.available ? tr('Coming later') : s.detailsKey ? t(s.detailsKey) : tr(s.details)
+            }}</span>
           </button>
         }
       </div>

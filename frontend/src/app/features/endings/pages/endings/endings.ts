@@ -51,8 +51,8 @@ export class Endings {
   ]);
   protected readonly scenarios = SCENARIOS;
   protected readonly scenario = signal<ScenarioId>(this.game.scenarioId());
-  protected readonly scenarioName = computed(
-    () => SCENARIOS.find((s) => s.id === this.scenario())?.title ?? '',
+  protected readonly scenarioName = computed(() =>
+    this.tr(SCENARIOS.find((s) => s.id === this.scenario())?.title ?? ''),
   );
   private readonly unlocks = resource({
     params: () => this.scenario(),
@@ -67,9 +67,15 @@ export class Endings {
   protected readonly endings = computed(() => {
     const { scenario, strings } = this.content.value() ?? {};
     const reached = this.unlocks.value()?.endings ?? {};
-    const order = this.library
+    const listed = this.library
       .list('@PassageTracker.endingPassageList')
       .filter((p) => scenario?.passages[p]);
+    // A scenario the original does not list keeps its endings in story order.
+    const order = listed.length
+      ? listed
+      : Object.values(scenario?.passages ?? {})
+          .filter((p) => p.tags.includes('ending'))
+          .map((p) => p.name);
     return order.map((passage) => {
       const title = scenario?.passages[passage]?.body.find(
         (n) => n.t === 'text' && n.kind === 'title',
@@ -94,8 +100,8 @@ export class Endings {
   protected readonly achievements = computed(() => {
     // The original lists the first-ending achievements of all scenarios, then the all-endings ones.
     const index = SCENARIOS_IN_ORIGINAL.indexOf(this.scenario());
-    const [reachEnd, allEndings] = [index, index + 3].map(
-      (i) => this.library.list('@ViewEndings.specialAchievement')[i] ?? '',
+    const [reachEnd, allEndings] = [index, index + 3].map((i) =>
+      index < 0 ? '' : (this.library.list('@ViewEndings.specialAchievement')[i] ?? ''),
     );
     const name = this.scenarioName();
     const total = this.endings().length;

@@ -12,7 +12,9 @@ vars:
   # `podman compose` hands over to docker-compose, which talks to Podman's API socket.
   COMPOSE_SOCKET: '{{if eq .CONTAINER_ENGINE "podman"}}systemctl --user start podman.socket && {{end}}'
   # Playable scenarios: what project:check tests.
-  SCENARIOS: cost-of-disease fear-of-the-unknown a-time-of-war
+  SCENARIOS: cost-of-disease fear-of-the-unknown a-time-of-war the-thinning-veil
+  # Scenarios written as text (content/<id>/src), built by tools/scenario-author.
+  AUTHORED: the-thinning-veil
 
 tasks:
   # Dependencies
@@ -57,6 +59,8 @@ tasks:
       - task: frontend:build
       - task: content:voices:script
         vars: { CLI_ARGS: --check }
+      - for: { var: AUTHORED }
+        cmd: node tools/scenario-author/src/cli.ts {{.ITEM}} --check
       - for: { var: SCENARIOS }
         task: content:test
         vars: { ID: '{{.ITEM}}' }
@@ -119,9 +123,24 @@ tasks:
     desc: "Generated voice-over with Kokoro (needs uv and ffmpeg; settings in tools/voice/voices.json). CLI_ARGS: passages, --voices emma,george, --try \"any text\""
     cmd: uv run -q tools/voice/generate.py {{.CLI_ARGS}}
 
+  content:voices:gpu:
+    desc: "Generated voice-over with Chatterbox (the Italian voices) in a Docker container with the NVIDIA GPU. CLI_ARGS as content:voices, e.g. -- --scenario cost-of-disease --voices sara,nicola"
+    cmd: >-
+      docker run --rm --gpus all -v "{{.ROOT_DIR}}:/work" -v "$HOME/.cache/huggingface:/root/.cache/huggingface"
+      -v chronicle-pip:/root/.cache/pip -w /work python:3.12-slim sh -c
+      "apt-get update -qq && apt-get install -y -qq ffmpeg
+      && pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+      && pip install -q chatterbox-tts==0.1.7 && python tools/voice/generate.py {{.CLI_ARGS}}"
+
   content:voices:script:
     desc: "Voice actor's script of the voiced pages, from strings.en.json into content/voice-script/ (committed; -- --check fails while it is out of date)."
     cmd: python3 tools/voice/script.py {{.CLI_ARGS}}
+
+  content:build:
+    desc: "Build a scenario written as text (content/<ID>/src/*.story) into its scenario.json, extras and string tables."
+    vars:
+      ID: '{{.ID | default "the-thinning-veil"}}'
+    cmd: node tools/scenario-author/src/cli.ts {{.ID}}
 
   content:test:
     desc: "Story tester: static checks + coverage-guided exploration, spoiler-free summary (vars: ID, SECONDS; CLI_ARGS e.g. -- --spoilers)."

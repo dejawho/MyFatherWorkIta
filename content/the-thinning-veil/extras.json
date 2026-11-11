@@ -1,0 +1,56 @@
+{
+ "endOfRound": {
+  "G1R1": {
+   "round": 1,
+   "text": "round.G1R1.end",
+   "then": "round.G1R1.then"
+  },
+  "G1R2": {
+   "round": 2,
+   "text": "round.G1R2.end",
+   "then": "round.G1R2.then"
+  },
+  "G1R3": {
+   "round": 0,
+   "text": "round.G1R3.end",
+   "then": "round.G1R3.then"
+  },
+  "G2R1": {
+   "round": 4,
+   "text": "round.G2R1.end",
+   "then": "round.G1R1.then"
+  },
+  "G2R2": {
+   "round": 5,
+   "text": "round.G2R2.end",
+   "then": "round.G1R2.then"
+  },
+  "G2R3": {
+   "round": 0,
+   "text": "round.G2R3.end",
+   "then": "round.G1R3.then"
+  },
+  "G3R1": {
+   "round": 7,
+   "text": "round.G3R1.end",
+   "then": "round.G1R1.then"
+  },
+  "G3R2": {
+   "round": 8,
+   "text": "round.G3R2.end",
+   "then": "round.G3R2.then"
+  },
+  "G3R3": {
+   "round": 0,
+   "text": "round.G3R3.end",
+   "then": "round.G3R3.then"
+  }
+ },
+ "logBook": {},
+ "voiceOver": {
+  "Prologo": {},
+  "G1Intro": {},
+  "G2Intro": {},
+  "G3Intro": {}
+ }
+}

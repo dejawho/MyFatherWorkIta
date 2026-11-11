@@ -29,6 +29,7 @@ const SCENARIOS = [
   { id: 'cost-of-disease', title: 'The Cost of Disease' },
   { id: 'fear-of-the-unknown', title: 'Fear of the Unknown' },
   { id: 'a-time-of-war', title: 'A Time of War' },
+  { id: 'the-thinning-veil', title: 'The Thinning Veil' },
 ].filter((s) => !values.scenario || s.id === values.scenario);
 if (!SCENARIOS.length) {
   console.error(`Unknown scenario ${values.scenario}`);
@@ -55,7 +56,10 @@ const browser = await chromium.launch({ executablePath: values.chrome, args: ['-
 try {
   for (const scenario of SCENARIOS) await playGame(browser, scenario);
 } finally {
-  await browser.close();
+  // With some Chrome versions (seen on Windows) close() never settles although Chrome has
+  // quit; every check is done by then, so it gets a time limit.
+  await Promise.race([browser.close(), new Promise((resolve) => setTimeout(resolve, 15_000).unref())]);
+  server.closeAllConnections();
   server.close();
 }
 
@@ -63,6 +67,8 @@ if (failures.length) {
   console.error(`\n${failures.length} check(s) failed:\n${failures.map((f) => `  ${f}`).join('\n')}`);
   process.exit(1);
 }
+// Explicitly: a browser that did not close would otherwise keep the test running.
+process.exit(0);
 
 /** One whole game of a scenario, in a fresh profile (no saves, unlocks or settings). */
 async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]): Promise<void> {
@@ -75,6 +81,9 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
   page.on('pageerror', (e) => errors.push(String(e)));
   page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
   const button = (name: RegExp | string) => page.getByRole('button', { name });
+  // The scenario's own card or tab: its name starts with the title (another card's description
+  // may mention it).
+  const titled = new RegExp(`^\\s*${scenario.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`);
   const shotOf = (name: string) => shot(page, `${scenario.id}-${name}`);
 
   try {
@@ -95,7 +104,7 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
     await button(/continue/i).click(); // village
     await button(/continue/i).click(); // village introduction
     await shotOf('1-scenario');
-    await button(scenario.title).click();
+    await button(titled).click();
     await page.waitForURL('**/play');
     await page.locator('article.passage').waitFor();
     check(true, 'setup flow leads into the story');
@@ -196,7 +205,7 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
     console.log('endings gallery');
     await page.goto(url + 'endings');
     // A reload starts on the first scenario; the switcher shows the others.
-    await button(scenario.title).click();
+    await button(titled).click();
     await page.locator('h1', { hasText: scenario.title }).waitFor();
     await page.locator('.slots li').first().waitFor();
     check((await page.locator('.slots li:not(.locked)').count()) === 1, 'the gallery shows the unlocked ending');

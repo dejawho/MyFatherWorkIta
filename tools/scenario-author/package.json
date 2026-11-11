@@ -1,0 +1,14 @@
+{
+  "name": "@chronicle/scenario-author",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Builds scenarios written as text into the story data the app plays",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test 'src/**/*.test.ts'"
+  },
+  "dependencies": {
+    "@chronicle/engine": "*"
+  }
+}

@@ -1,0 +1,1541 @@
+{
+ "common.setupContinue": {
+  "full": "Continue"
+ },
+ "Preparativi.1": {
+  "full": "**Setup**"
+ },
+ "Preparativi.2": {
+  "full": "Complete the standard setup for {0} players as shown in the rulebook. *Note that the {icon:AngryMob_Icon} track and starting player will be set by the Storybook in the coming pages.*"
+ },
+ "Preparativi.3": {
+  "full": "{icon:ScenarioBox3D_Disease}"
+ },
+ "Preparativi.4": {
+  "full": "This unofficial scenario uses some components from the **The Cost of Disease** Scenario Box. Keep it close at hand, but **do not open it**: the Storybook will tell you which components to take, and when. Everything else must stay in the box, unseen."
+ },
+ "Preparativi.5": {
+  "full": "Click here to continue..."
+ },
+ "Prologo.1": {
+  "full": "**The Halász File**"
+ },
+ "Prologo.2": {
+  "full": "**Dr Ferenc Halász – Society for Psychical Research, Budapest – *3 March 1923.***"
+ },
+ "Prologo.3": {
+  "full": "Esteemed colleagues,"
+ },
+ "Prologo.4": {
+  "full": "I write to you from the village I told you of, where I arrived on the evening train with an umbrella that proved entirely useless. The parish priest, a kind and very tired man, handed me the keys to the old sacristy. Behind a walnut wardrobe was a door, crudely bricked up; behind the door, six crates of documents."
+ },
+ "Prologo.5": {
+  "full": "Séance minutes, letters never sent, torn diary pages, cuttings from the local gazette, telegrams whose ink has long since faded to violet. They cover fifty years and three generations of a single family: scientists, or something they liked to call by that name, who for half a century tried to speak with the dead. And not, it would seem, always without an answer."
+ },
+ "Prologo.6": {
+  "full": "I have resolved to sort and transcribe them before forming any judgement. The first document is the record of a wake. I ask you to read it as I did: with the scepticism the Society demands, and with the window shut."
+ },
+ "Prologo.7": {
+  "full": "*Your most devoted, F. Halász*"
+ },
+ "Prologo.8": {
+  "full": "Click to continue..."
+ },
+ "PreparaFolla.1": {
+  "full": "Place the Suspicion Marker on space **{0}** and the {icon:AngryMob_Icon} marker one space to its left. Give the {icon:StartPlayerToken} marker to **{1}**."
+ },
+ "Traguardi.1": {
+  "full": "{icon:StorybookToken} **Creepy 3**"
+ },
+ "Traguardi.2": {
+  "full": "The first time a player reaches space 3 of the {icon:Creepy_Icon} track this Generation,"
+ },
+ "Traguardi.3": {
+  "full": "click here."
+ },
+ "Traguardi.4": {
+  "full": "{icon:StorybookToken} **Insanity 3**"
+ },
+ "Traguardi.5": {
+  "full": "The first time a player reaches space 3 of the {icon:Insanity_Icon} track this Generation,"
+ },
+ "Traguardi.7": {
+  "full": "{icon:StorybookToken} **Occult Journal**"
+ },
+ "Traguardi.8": {
+  "full": "The first time a player reaches Level 2 of the Occult Journal Track this Generation,"
+ },
+ "Traguardi.10": {
+  "full": "{icon:StorybookToken} **15VP**"
+ },
+ "Traguardi.11": {
+  "full": "The first time a player reaches 15VP this Generation,"
+ },
+ "PosaTraguardi.1": {
+  "full": "**Take 4 {icon:StorybookToken} tokens.**"
+ },
+ "PosaTraguardi.2": {
+  "full": "Place one on **space 3** of the {icon:Creepy_Icon} track, one on **space 3** of the {icon:Insanity_Icon} track and one on **space 15** of the Victory Point Track. The fourth goes at the top of the **Level 2 column of the Occult Journal Track**: it counts for every player."
+ },
+ "PosaTraguardi.3": {
+  "full": "When a player's marker reaches one of these tokens, that player clicks the matching entry in the Storybook and reads a message. Then the token returns to the supply."
+ },
+ "TkCreepy.1": {
+  "full": "**Someone Is Watching You**"
+ },
+ "TkCreepy.2": {
+  "full": "For some days now, when you walk through {0}, people cross themselves. Children stop playing, dogs lower their tails. At night, under your window, there are bare footprints that lead up to the wall and never come back. Whatever it is, it has decided that you are the most interesting person in town."
+ },
+ "TkCreepy.3": {
+  "full": "One morning, on the doorstep, you find a gift. Better not to wonder where it came from."
+ },
+ "TkCreepy.4": {
+  "full": "Gain 1 {icon:Bodies_Icon}. Return the {icon:StorybookToken} token to the supply."
+ },
+ "TkCreepy.5": {
+  "full": "Back to the Round"
+ },
+ "TkInsanity.1": {
+  "full": "**The Voices**"
+ },
+ "TkInsanity.2": {
+  "full": "At first it is only a murmur, like a room full of people in the house next door. Then you make out the words. Then the voices: an old woman looking for a ring, a child who counts to a hundred and starts again, a man who keeps repeating the same address. None of them seems to know they are dead."
+ },
+ "TkInsanity.3": {
+  "full": "You take notes. You could not say whether you do it for science or to make them be quiet."
+ },
+ "TkInsanity.4": {
+  "full": "Gain 1 Occult Knowledge. Return the {icon:StorybookToken} token to the supply."
+ },
+ "TkOccult.1": {
+  "full": "**The Book of the Dead**"
+ },
+ "TkOccult.2": {
+  "full": "One morning you open the Journal and find a page you did not write. The handwriting slants backwards, the ink is still wet, and the formula it describes is wrong in one place only, as if whoever wrote it wanted to see whether you would notice."
+ },
+ "TkOccult.3": {
+  "full": "You notice. Beneath the correction, someone has added a single word: *\"Good.\"*"
+ },
+ "TkOccult.4": {
+  "full": "Draw an Experiment from the deck of your choice. Return the {icon:StorybookToken} token to the supply."
+ },
+ "TkVP.1": {
+  "full": "**The Name on Everyone's Lips**"
+ },
+ "TkVP.2": {
+  "full": "Your name is going round {0}: at the market, in church, in the taverns. Some say it with fear, others with admiration, all of them in a low voice. A few days later a black-edged card invites you \"to a dinner among people who will not resign themselves\"; inside the envelope, as a courtesy, there is money."
+ },
+ "TkVP.3": {
+  "full": "The wax seal is black, with an open eye."
+ },
+ "TkVP.4": {
+  "full": "Gain $2. Return the {icon:StorybookToken} token to the supply."
+ },
+ "ChiSei.1": {
+  "full": "Who is reading?"
+ },
+ "ChiSei.2": {
+  "full": "{0}"
+ },
+ "G1Intro.1": {
+  "full": "**GENERATION I: Knocking in the Dark**"
+ },
+ "G1Intro.2": {
+  "full": "**Record of the wake – {0}, *2 November 1848.***"
+ },
+ "G1Intro.3": {
+  "full": "Father was buried on the Day of the Dead, under a thin rain that could not make up its mind to fall. The village came to the cemetery in good numbers, but stayed on the far side of the low wall: no one would go near the grave, and the gravedigger worked quickly, without looking in. It was said the old man had spent his last years shut up in the estate with machines that hummed through the night, and that from the windows of his laboratory there sometimes came a light of a colour no one could name."
+ },
+ "G1Intro.4": {
+  "full": "The heirs had arrived on the coach the evening before, each from a different city, each with a trunk and the same letter from the notary. The estate was theirs, and with it the debts, the instruments, the animals in their cages and Father's Journal: a leather-bound notebook swollen with notes, sketches and formulae. On the last page he had written there was a single sentence, underlined twice, so hard that the pen had cut the paper:"
+ },
+ "G1Intro.5": {
+  "full": "*\"Death is not a closed door: it is a veil. And veils can be lifted.\"*"
+ },
+ "G1Intro.6": {
+  "full": "Father Anzelm blessed the body, closed his prayer book and told the heirs, loudly enough for everyone to hear, that he would pray for their souls with particular devotion."
+ },
+ "G1Intro.7": {
+  "full": "That night, in the estate, something began to knock on the walls."
+ },
+ "G1ColpiA.1": {
+  "full": "**Pass the Storybook to {0}.**"
+ },
+ "G1ColpiA.2": {
+  "full": "**The Knocking**"
+ },
+ "G1ColpiA.3": {
+  "full": "**Diary of {0} – *night of 2 November 1848.***"
+ },
+ "G1ColpiA.4": {
+  "full": "I cannot sleep. The room they gave me was our father's: the bed still holds the shape of his body, and the air smells of camphor and acid. I put out the candle an hour ago when I hear the first knock."
+ },
+ "G1ColpiA.5": {
+  "full": "It comes from the wall behind the headboard. A sharp knock, like a knuckle on wood. Then two. Then one. Then nothing, for so long that I almost convince myself I dreamt it; and then they begin again, always the same, patient, like someone knocking at a door who knows there is someone at home."
+ },
+ "G1ColpiA.6": {
+  "full": "In his library I saw a little French book on talking tables: one knock for yes, two for no. It comes back to me now, in the dark, and I wish it had not."
+ },
+ "G1ColpiA.7": {
+  "full": "What do you do?"
+ },
+ "G1ColpiA.8": {
+  "full": "Answer the knocks."
+ },
+ "G1ColpiA.9": {
+  "full": "Send for Father Anzelm."
+ },
+ "G1ColpiA.10": {
+  "full": "Pull the pillow over your head."
+ },
+ "G1ColpiA.11": {
+  "full": "I sit up in bed and knock once, just once, with my knuckle, on the cold wall."
+ },
+ "G1ColpiA.12": {
+  "full": "From the other side, once."
+ },
+ "G1ColpiA.13": {
+  "full": "I ask, in the lowest voice, whether it is him. One knock. I ask whether he is at peace. Two knocks, so hard that the jug trembles on the chest of drawers. Then silence, and a smell of wax, though there is no candle lit in the room. In the morning my fingers are numb and the Journal lies open on the pillow, at a page I do not remember ever reading."
+ },
+ "G1ColpiA.14": {
+  "full": "Gain 1 Occult Knowledge and 1 {icon:Insanity_Icon}."
+ },
+ "G1ColpiA.15": {
+  "full": "I wake the servant and send him to the village with the lantern. Father Anzelm arrives an hour later, his stole over his nightshirt and holy water in an apothecary's bottle. He blesses the wall, the bed, the window and, to be thorough, me as well."
+ },
+ "G1ColpiA.16": {
+  "full": "The knocking stops at once. The priest, however, lingers on the threshold longer than he needs to, looking around: the cages, the alembics, the Journal open on the table. Before leaving he shakes my hand and leaves me a few coins \"for the household, until everything is in order\". It feels more like a down payment than charity."
+ },
+ "G1ColpiA.17": {
+  "full": "Gain $2."
+ },
+ "G1ColpiA.18": {
+  "full": "I slip under the covers and press the pillow over my ears, as we did as children during storms. The knocking goes on for a long time, muffled, and at some point it seems to move: from the wall to the floor, from the floor to the headboard, a hand's breadth from my ear. Then, at last, it stops."
+ },
+ "G1ColpiA.19": {
+  "full": "At dawn I draw back the curtain. On the wall, at the height of my head, the plaster has worn away in a small, regular circle, as if rubbed by a knuckle that had knocked there for years."
+ },
+ "G1ColpiA.20": {
+  "full": "Nothing happens. For now."
+ },
+ "G1ColpiFine.1": {
+  "full": "**The Next Morning**"
+ },
+ "G1ColpiFine.2": {
+  "full": "At breakfast no one mentions the knocking. The coffee is too strong, the bread is yesterday's and everyone has dark rings under their eyes. Someone makes a joke about the mice in the attic, and no one laughs."
+ },
+ "G1ColpiFine.3": {
+  "full": "From the dining-room window you can see the village: a few wooden houses huddled around the church, smoke from the chimneys, the market waking up. It is a poor, suspicious place. But Father has left his heirs an estate, a laboratory and a name that still makes people lower their voices; and a name, for those who know how to use it, is worth as much as capital."
+ },
+ "G1ColpiFine.4": {
+  "full": "Continue..."
+ },
+ "G1R1.1": {
+  "full": "**THE THINNING VEIL – Early Years**"
+ },
+ "G1R1.2": {
+  "full": "Open the Village Chronicle to the **The Cost of Disease** section ({icon:S1_ScenarioIcon}) and turn to **page 1**."
+ },
+ "G1R1.3": {
+  "full": "**First Round Event**"
+ },
+ "G1R1.4": {
+  "full": "A caravan has stopped at the edge of the village. They say a woman travels in it who talks with the dead, and that the dead answer her."
+ },
+ "G1R1.5": {
+  "full": "Click here at the end of the Round to move on to the next Round..."
+ },
+ "round.G1R1.end": {
+  "full": "The Early Years of the First Generation have ended."
+ },
+ "round.G1R1.then": {
+  "full": "Then perform all Start of Round actions for the Middle Years before continuing."
+ },
+ "G1Seduta.1": {
+  "full": "**The First Séance**"
+ },
+ "G1Seduta.2": {
+  "full": "**Diary of {0} – *December 1848.***"
+ },
+ "G1Seduta.3": {
+  "full": "Madame Vámos's wagon is painted midnight blue and covered in flaking gold stars. It has tall wheels, velvet curtains and, on the door, an open hand with an eye in its palm. It has stood at the edge of the village for three weeks, and in three weeks half the widows of {0} have climbed into it at least once, behind the priest's back."
+ },
+ "G1Seduta.4": {
+  "full": "This morning the medium came to the estate in person. She is a small woman of indeterminate age, wrapped in a black shawl; she speaks softly, with an accent I cannot place, and has very white, very cold hands. She said she had heard the knocking. Not that someone had told her about the knocking: that she had *heard* it, from the road, passing the gate on the night of the dead."
+ },
+ "G1Seduta.5": {
+  "full": "\"Your father has something to say,\" she told us. \"And he does not speak gladly to those who will not listen.\" Then she invited all of us to a séance in her wagon, tomorrow at midnight. She asked for no money. That, more than anything else, worries me."
+ },
+ "G1SedutaVoto.1": {
+  "full": "**Attend?**"
+ },
+ "G1SedutaVoto.2": {
+  "full": "Each player takes a Voting token and chooses in secret. When everyone has chosen, reveal your votes together."
+ },
+ "G1SedutaVoto.3": {
+  "full": "YAY: you attend Madame Vámos's séance."
+ },
+ "G1SedutaVoto.4": {
+  "full": "NAY: you stay at the estate."
+ },
+ "G1SedutaVoto.5": {
+  "full": "Click to start the vote..."
+ },
+ "G1SedutaEsito.1": {
+  "full": "**Who Went?**"
+ },
+ "G1SedutaEsito.2": {
+  "full": "How many players voted YAY?"
+ },
+ "G1SedutaRacconto.1": {
+  "full": "**The Little Table**"
+ },
+ "G1SedutaRacconto.2": {
+  "full": "No one goes. Madame Vámos lights the candles, sits at the little table and waits until dawn before empty chairs. The baker's boy, who passes by at four, swears he heard her talking to someone, and heard someone answer."
+ },
+ "G1SedutaRacconto.3": {
+  "full": "That night, at the estate, the knocking doubles. It knocks on every wall, every door, the headboard of every bed. It knocks like someone who has been left out in the cold."
+ },
+ "G1SedutaRacconto.4": {
+  "full": "All the heirs sit around the little round table, in the wagon that smells of incense and horse. Madame asks them to join hands; her fingers are icy. She recites something in a language no one recognises, then falls silent, and in the silence the table creaks, tilts and rises a hand's breadth off the floor, with every hand still upon it."
+ },
+ "G1SedutaRacconto.5": {
+  "full": "It stays suspended for the space of a breath. Then it drops with a single, sharp knock. Madame opens her eyes and smiles like someone who has just had good news. \"He recognised you,\" she says. \"All of you.\""
+ },
+ "G1SedutaRacconto.6": {
+  "full": "Only some of the heirs climb into the wagon. The others stay at the estate, in front of the fire, telling one another that someone in the family must keep a little common sense."
+ },
+ "G1SedutaRacconto.7": {
+  "full": "Around one in the morning, from the direction of the village, comes a scream. Then another. Then a laugh, which could be anyone's. Those who return at dawn will not say what they saw; but their hands are as cold as Madame's, and all morning they keep looking at the walls."
+ },
+ "G1SedutaRacconto.8": {
+  "full": "Those who voted YAY gain 1 Occult Knowledge and 1 {icon:Insanity_Icon}."
+ },
+ "G1SedutaRacconto.9": {
+  "full": "Those who voted NAY move back 1 space on the {icon:Creepy_Icon} track."
+ },
+ "G1Patroni.1": {
+  "full": "**The Sermon**"
+ },
+ "G1Patroni.2": {
+  "full": "**{0} Gazette – *January 1849.***"
+ },
+ "G1Patroni.3": {
+  "full": "**THE WITCH OF THE WAGON.** Last Sunday the Reverend Father Anzelm devoted his entire sermon to what he called, without mincing words, \"the witch of the wagon\". He reminded the faithful that the dead rest in the hands of God and not in the drawers of a little table, and that whoever disturbs them for money disturbs Him too. He then added, looking towards the pews at the back, that certain recently arrived families would do well to remember it."
+ },
+ "G1Patroni.4": {
+  "full": "The sermon was much appreciated. On Monday, however, this newspaper observed an unusual coming and going of ladies in black on the road to the estate. The widows of {0} have lost husbands, sons and brothers to the cold, the fevers and hunger; they want news of their loved ones, and for one's loved ones, as everyone knows, no expense is spared."
+ },
+ "G1Patroni.6": {
+  "full": "From the **The Cost of Disease** Scenario Box, take the **Charity tokens** {icon:S1_HeartToken} and the **6 Dubious Bartering cards**. In this scenario the hearts are the **Comfort** you give to grieving families."
+ },
+ "G1Patroni.7": {
+  "full": "Shuffle the Dubious Bartering cards and give one face up to each player: it is their patron. Return the others to the box."
+ },
+ "G1Patroni.8": {
+  "full": "Place the Charity tokens in the supply."
+ },
+ "G1Patroni.9": {
+  "full": "Also take the box's **10 Estate Upgrades** and shuffle them into the Generation I/II Upgrade deck."
+ },
+ "G1R2.1": {
+  "full": "**THE THINNING VEIL – Middle Years**"
+ },
+ "G1R2.2": {
+  "full": "Turn to **page 2** of the Village Chronicle, **The Cost of Disease** section ({icon:S1_ScenarioIcon})."
+ },
+ "G1R2.3": {
+  "full": "{icon:S1_HeartToken} **Comfort**"
+ },
+ "G1R2.4": {
+  "full": "Your patron gives you a heart each time you do what their Dubious Bartering card says. At the Church, the heart printed on the page gains you a Charity token."
+ },
+ "G1R2.5": {
+  "full": "**Second Round Event**"
+ },
+ "G1R2.6": {
+  "full": "Someone in the village writes letters, and does not sign them. The envelopes arrive without stamps, and no one has seen them arrive."
+ },
+ "round.G1R2.end": {
+  "full": "The Middle Years of the First Generation have ended."
+ },
+ "round.G1R2.then": {
+  "full": "Then perform all Start of Round actions for the Late Years before continuing."
+ },
+ "G1Lettere.1": {
+  "full": "**Unsigned Letters**"
+ },
+ "G1Lettere.2": {
+  "full": "In the middle years the family begins to receive post the postman never delivered. The letters appear under the door, in the bread basket, once even inside Father's Journal, locked in the writing desk. They are envelopes of heavy paper, with no address and no signature, sealed with black wax; in the wax, an open eye."
+ },
+ "G1Lettere.3": {
+  "full": "Inside, each time, a few lines in an elegant, old-fashioned hand. The **Circle of the Last Hour** greets the heirs of the great scientist, knows their work, admires their courage and wishes to meet them, one by one, somewhere discreet. They need only present themselves at the address given and speak the right word."
+ },
+ "G1Lettere.5": {
+  "full": "From the **The Cost of Disease** Scenario Box, take the **Letter cards** and keep only the **4** that name the **Builder's Office** or the **Cemetery**. Return the others to the box."
+ },
+ "G1Lettere.6": {
+  "full": "Shuffle them and give one face down to each player. Each player reads their own in secret."
+ },
+ "G1R3.1": {
+  "full": "**THE THINNING VEIL – Late Years**"
+ },
+ "G1R3.2": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 1**."
+ },
+ "G1R3.3": {
+  "full": "Turn to **page 3** of the Village Chronicle, **The Cost of Disease** section ({icon:S1_ScenarioIcon})."
+ },
+ "G1R3.4": {
+  "full": "{icon:Storybook} **Letter card**"
+ },
+ "G1R3.5": {
+  "full": "When you visit the Location named on your Letter card, reveal it and"
+ },
+ "G1R3.6": {
+  "full": "click here to enter the password."
+ },
+ "G1R3.7": {
+  "full": "**End of the Generation**"
+ },
+ "G1R3.8": {
+  "full": "The village will have to decide what to do about the woman in the wagon."
+ },
+ "G1R3.9": {
+  "full": "Click here at the End of the Generation to continue..."
+ },
+ "round.G1R3.end": {
+  "full": "The Late Years of the First Generation have ended."
+ },
+ "round.G1R3.then": {
+  "full": "Perform the End of Round actions, then continue with the Storybook before the End of the Generation."
+ },
+ "G1Parola.1": {
+  "full": "Write the password from your Letter card."
+ },
+ "G1ParolaVerifica.1": {
+  "full": "**No Answer**"
+ },
+ "G1ParolaVerifica.2": {
+  "full": "The Circle does not recognise this word. Check your Letter card."
+ },
+ "G1ParolaVerifica.3": {
+  "full": "Try again."
+ },
+ "G1ParolaVerifica.4": {
+  "full": "Back to the Round."
+ },
+ "G1Patto.1": {
+  "full": "**This page is secret: do not show it to the others.**"
+ },
+ "G1Patto.2": {
+  "full": "**The Circle of the Last Hour**"
+ },
+ "G1Patto.3": {
+  "full": "Gain 2VP, as your Letter card says."
+ },
+ "G1Patto.4": {
+  "full": "A tall man is waiting for you, in a coat too elegant for {0}, with a black carnation in his buttonhole. He does not ask who you are. He calls you by name, offers you his arm and walks with you, slowly, as old friends do."
+ },
+ "G1Patto.5": {
+  "full": "\"The Circle of the Last Hour,\" he says, \"is a small society of people who will not resign themselves. We have all lost someone; and we have all discovered that the dead are not as far away as the priests say. Madame Vámos is our voice. Your father was… let us say a correspondent.\""
+ },
+ "G1Patto.6": {
+  "full": "He hands you an envelope, swollen with pages. \"Here are things he knew and had no time to teach you. They are yours. In return we ask only a promise: that one day, when the Circle asks you, you will open the door.\""
+ },
+ "G1Patto.7": {
+  "full": "He does not say which door. He smiles as if you already knew."
+ },
+ "G1Patto.8": {
+  "full": "Accept."
+ },
+ "G1Patto.9": {
+  "full": "Refuse."
+ },
+ "G1Patto.10": {
+  "full": "You shake the man's hand. It is as cold as Madame's, and in yours it does not warm. \"The Circle thanks you,\" he says, and walks away without turning round."
+ },
+ "G1Patto.11": {
+  "full": "The envelope weighs more than it should. That evening, reading it by lamplight, you notice that some of the pages are written in your father's hand, and that one of them is dated two weeks after his death."
+ },
+ "G1Patto.12": {
+  "full": "Gain 2 Occult Knowledge and 1 {icon:Creepy_Icon}. Return the Letter card to the box."
+ },
+ "G1Patto.13": {
+  "full": "You hand back the envelope unopened. The man takes no offence; if anything, he seems almost pleased, like someone who has won a small bet with himself. \"Refusal is also a form of attention,\" he says. \"We shall meet again.\" He presses a few coins into your hand \"for the trouble\" and walks away."
+ },
+ "G1Patto.14": {
+  "full": "The next day, at the Cemetery, there is a black carnation on your father's grave. The earth around the headstone has been disturbed, as if someone had pressed an ear to it to listen."
+ },
+ "G1Patto.15": {
+  "full": "Gain $3. Return the Letter card to the box."
+ },
+ "G1Fine.1": {
+  "full": "**The Woman in the Wagon**"
+ },
+ "G1Fine.2": {
+  "full": "**Minutes of the council of {0} – *autumn 1856.***"
+ },
+ "G1Fine.3": {
+  "full": "The council meets in the room above the inn, because the town hall roof leaks. Present are Mayor Bódi, the notary, three landowners, the schoolmaster and, on a chair of his own, Father Anzelm, who has no vote but does have the right to speak, and exercises it for an hour and a half."
+ },
+ "G1Fine.4": {
+  "full": "There is only one item on the agenda: whether Mrs Eszter Vámos, by profession a \"consoler\", may remain in {0}. In eight years her wagon has become a house with its shutters always closed; her parlour, every Thursday, fills with people who go in weeping and come out smiling; and the Circle of the Last Hour, which no one admits to attending, has bought two plots beside the cemetery."
+ },
+ "G1Fine.5": {
+  "full": "The priest speaks of heresy, of fraud, of grief exploited. The notary speaks of taxes duly paid. The Mayor does not speak: he listens, and counts. In the end it is decided, as is the custom in {0} for thorny matters, to let the village's most important families vote as well. And the most important, by now, is the heirs'."
+ },
+ "G1FineVoto.1": {
+  "full": "**Does She Stay or Go?**"
+ },
+ "G1FineVoto.3": {
+  "full": "YAY: Madame Vámos stays in the village."
+ },
+ "G1FineVoto.4": {
+  "full": "NAY: Madame Vámos is driven out."
+ },
+ "G1FineVoto.5": {
+  "full": "Tally the votes *(in case of a tie, the Start Player decides)*."
+ },
+ "G1FineEsito.1": {
+  "full": "**The Vote Is Closed**"
+ },
+ "G1FineEsito.2": {
+  "full": "**Choose the result of the vote:**"
+ },
+ "G1FineEsito.3": {
+  "full": "Madame Vámos stays. (YAY)"
+ },
+ "G1FineEsito.4": {
+  "full": "Madame Vámos is driven out. (NAY)"
+ },
+ "G1Domande.1": {
+  "full": "**Before Dark**"
+ },
+ "G1Domande.2": {
+  "full": "Madame Vámos stays. That same evening the windows of her house light up one by one, and from the parlour comes the sound of a piano that no one in {0} has ever seen delivered. The following week the Circle of the Last Hour rents a house on the square, right opposite the church, and hangs a brass plate on it with an open eye. Father Anzelm has the death knell rung for an hour, though no one has died."
+ },
+ "G1Domande.3": {
+  "full": "The wagon, tidied up for the occasion, leaves the village at dawn. Madame Vámos sits on the box, upright, without looking back; only as she passes the estate gate does she raise a white hand, as if waving to someone at the window. There was no one at the window."
+ },
+ "G1Domande.4": {
+  "full": "The next morning, on the estate door, someone has drawn an open eye in charcoal. The servant washes it three times. After the third, the eye is still there, only a little fainter, as if looking up from under water."
+ },
+ "G1Domande.5": {
+  "full": "Before the tracks are reset, the Storybook needs to know how each of your scientists leaves this world."
+ },
+ "G1DomA.1": {
+  "full": "**The Last Page of {0}**"
+ },
+ "G1DomA.2": {
+  "full": "{0}, which space is your {icon:Insanity_Icon} marker on?"
+ },
+ "G1DomA.3": {
+  "full": "{0}, how many Charity tokens {icon:S1_HeartToken} do you have?"
+ },
+ "G1DomChiusura.2": {
+  "full": "**Dr Halász's note.**"
+ },
+ "G1DomChiusura.3": {
+  "full": "The papers of the first generation break off here. The parish registers show that the family's scientists died in the years that followed, one after another, of different illnesses and at different ages, and that they were buried in the cemetery of {0}, beside their father. The priest notes with a certain satisfaction that the knocking on the estate's walls stopped with the last funeral."
+ },
+ "G1DomChiusura.4": {
+  "full": "He also notes, with less satisfaction, that none of those funerals could be held after sunset: as soon as it grew dark, the bearers refused to lift the coffin. They said someone inside was knocking."
+ },
+ "G1DomChiusura.5": {
+  "full": "Remove all pieces from the board and perform the End of the Generation. Return unused {icon:StorybookToken} tokens and the players' Charity tokens {icon:S1_HeartToken} to the supply."
+ },
+ "G2Intro.1": {
+  "full": "**GENERATION II: The Fog**"
+ },
+ "G2Intro.2": {
+  "full": "**Dr Halász's note to the file.**"
+ },
+ "G2Intro.3": {
+  "full": "The second crate opens with a gap of seventeen years. The papers of the first generation stop in 1856; the next begin in the spring of 1873, when the heirs' children took possession of the estate, the laboratory and the Journal, which had by then grown to two and a half volumes."
+ },
+ "G2Intro.4": {
+  "full": "The village had grown. Where the wooden houses had stood there were half-timbered ones with painted beams, a paved street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but no less stubborn. And there was, as one of the new heirs wrote in a letter to a sister, \"this thing they call the veil here, as if it were a matter of weather, like the rain or the fog\"."
+ },
+ "G2Intro.6": {
+  "full": "Take the **Vanity Estate Upgrades** from the **The Cost of Disease** Scenario Box and add them to those available."
+ },
+ "G2Antenati.1": {
+  "full": "**The Séance of the Ancestors**"
+ },
+ "G2Antenati.2": {
+  "full": "Madame Vámos had not aged: so, at least, everyone swore. The Circle of the Last Hour no longer hid. It had premises on the square, a band for funerals and two hundred members, and that year it bought the land behind the town hall to build a temple on."
+ },
+ "G2Antenati.3": {
+  "full": "Of the woman in the wagon only the stories remained, and a curious habit: every now and then an eye drawn in charcoal appeared on the doors of the houses of {0}. No one admitted to drawing it, and no one rubbed it out. The Circle of the Last Hour, people said, still met; but no one knew where, or who belonged to it."
+ },
+ "G2Antenati.4": {
+  "full": "The knocking on the walls had stopped with the last funeral of the first generation, and for seventeen years the estate had been a house like any other: cold in winter, damp in summer, full of things no one dared throw away."
+ },
+ "G2Antenati.5": {
+  "full": "The first night the new heirs sleep there, the knocking begins again. But this time, after the knocking, come the voices; and they are voices each of them knows very well, because they belong to those who brought them into the world."
+ },
+ "G2Antenati.6": {
+  "full": "Each player in turn reads their ancestor's message without showing it to the others. They may tell it, lie about it or keep quiet."
+ },
+ "G2AntA.2": {
+  "full": "**A Voice from the Other Side**"
+ },
+ "G2AntA.3": {
+  "full": "The voice comes before the knocking: a dense whisper, without pauses, that neither greets you nor asks how you are. It speaks of formulae, of proportions, of an error in the third notebook that must be corrected at once, at once, before it is too late. You recognise the voice of the one who brought you into the world, and you recognise the tone too: it is the same as on the nights when no one came out of the laboratory."
+ },
+ "G2AntA.4": {
+  "full": "\"You finish it,\" it repeats. \"You finish it, you finish it.\" At dawn your hand aches and there are three dense pages in a handwriting that is not yours."
+ },
+ "G2AntA.5": {
+  "full": "It is not knocking: it is a quick, irregular tapping, like fingers drumming on a table in impatience. Then the voice, feverish, halfway through a sentence begun who knows when: \"...and the numbers don't add up, they never add up, but you'll make them add up...\""
+ },
+ "G2AntA.6": {
+  "full": "You try to ask whether they are suffering. They do not listen; they never listened to you. When the tapping stops, you realise that you are drumming too, to the same rhythm, and cannot stop."
+ },
+ "G2AntA.7": {
+  "full": "Draw a Compulsion card."
+ },
+ "G2AntA.8": {
+  "full": "There is only one knock, gentle, like a hand laid on the door. Then the voice, calm, almost amused: it asks whether you are eating enough, whether the greenhouse roof still leaks, whether you remember the miller's widow. \"Tell her I'm well,\" it says."
+ },
+ "G2AntA.9": {
+  "full": "You understand it is not speaking of itself. It is speaking of all the families it comforted in life, who now, on the other side, keep it company. Before leaving it blesses you, as it used to when you set off on a journey."
+ },
+ "G2AntA.10": {
+  "full": "The room smells of warm bread and lavender: the smell of the estate kitchen, many years ago. The voice does not knock. It speaks softly, as at a sickbed, and tells you that it is not cold on the other side, and that the people it comforted in life came to welcome it."
+ },
+ "G2AntA.11": {
+  "full": "\"You have time,\" it says. \"Use it for the living.\" In the morning, on the bedside table, there is something that was not there the night before."
+ },
+ "G2AntA.12": {
+  "full": "Gain $2 or 1 Knowledge of your choice."
+ },
+ "G2AntA.13": {
+  "full": "The voice is low and wary, like someone speaking in a room where someone else is listening. \"Listen carefully, because I won't be able to say it again. Many years ago I made a promise to the Circle, to a man with a black carnation. I thought I had sold something worthless. I was wrong.\""
+ },
+ "G2AntA.14": {
+  "full": "Then it tells you what was promised, word for word, and who will have to open the door when the Circle knocks: you. \"Tell no one,\" it ends. \"But remember it. The day will come when you need to know how a promise is broken.\""
+ },
+ "G2AntA.15": {
+  "full": "Before the voice comes the smell: carnations and freshly dug earth. \"The Circle is watching you,\" it whispers. \"It watches all of us: those who signed and those born of those who signed.\""
+ },
+ "G2AntA.16": {
+  "full": "It tells you of the envelope, of the pages written by a dead hand, of the promise to open a door. Then it tells you something the Circle does not know you know: the promise binds the blood, but the blood can choose not to keep it. At a price. What that price is, it has no time to say: the knocking stops halfway."
+ },
+ "G2AntA.17": {
+  "full": "Gain 1 Occult Knowledge. The Storybook will remember this secret."
+ },
+ "G2AntA.18": {
+  "full": "One knock, two, one: the same rhythm you heard told a thousand times at the table, by the voice that is speaking to you now. \"That night I answered before anyone else,\" it says. \"The door opened a little for me, and it never closed again.\""
+ },
+ "G2AntA.19": {
+  "full": "Then, hurriedly, like someone afraid of being interrupted, it dictates to you the beginning of an experiment it never had the courage to attempt in life. You write until the candle burns out."
+ },
+ "G2AntA.20": {
+  "full": "The voice wastes no time on greetings. \"You know how to answer, don't you? Once for yes, twice for no. I taught you, even if you don't remember: I used to tap on the side of your cradle, and you laughed.\""
+ },
+ "G2AntA.21": {
+  "full": "A shiver. \"I answered, the first night, and since then everyone over here can hear me. Now they can hear you too.\" When the voice falls silent, there is the outline of an experiment on the table, and on the bedroom wall there are knuckle marks, small ones, at the height of a cradle."
+ },
+ "G2AntA.22": {
+  "full": "Gain 1 {icon:Insanity_Icon} and draw an Experiment from the deck of your choice."
+ },
+ "G2AntA.23": {
+  "full": "Distant, irregular knocking, like someone knocking at another house, in another street. You answer: nothing happens. You call out: the silence grows thicker."
+ },
+ "G2AntA.24": {
+  "full": "Perhaps the one who brought you into the world does not want to speak to you. Perhaps they cannot. Perhaps, you think with a relief you are a little ashamed of, they are simply resting in peace."
+ },
+ "G2AntA.25": {
+  "full": "You wait until dawn with the candle lit. You hear knocking on the walls of the other rooms, muffled voices, weeping, a laugh. On your wall, nothing."
+ },
+ "G2AntA.26": {
+  "full": "Only towards five does a very faint knock come, just one, which might mean yes, or might only be the wood settling in the cold."
+ },
+ "G2AntA.27": {
+  "full": "Nothing happens."
+ },
+ "G2AntFine.1": {
+  "full": "**The Silence**"
+ },
+ "G2AntFine.2": {
+  "full": "At dawn the voices fall silent. At breakfast the family is strangely courteous: the butter is passed, the weather discussed, and everyone avoids meeting anyone's eye."
+ },
+ "G2AntFine.3": {
+  "full": "Each of them heard something. No one knows what the others heard. And all of them, at least for a moment, thought about lying."
+ },
+ "G2R1.1": {
+  "full": "**THE FOG – Early Years**"
+ },
+ "G2R1.2": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 4**."
+ },
+ "G2R1.3": {
+  "full": "Open the Village Chronicle to the **The Cost of Disease** section ({icon:S1_ScenarioIcon}) and turn to **page 4**."
+ },
+ "G2R1.4": {
+  "full": "{icon:Storybook} **The Temple of the Circle – Construction Site**"
+ },
+ "G2R1.5": {
+  "full": "When one of your pieces visits the Construction Site, pay $3 to fund the Temple of the Circle and"
+ },
+ "G2R1.7": {
+  "full": "{icon:Storybook} **The Blessing – Church**"
+ },
+ "G2R1.8": {
+  "full": "When one of your pieces visits the Church, you may pay $2 for a mass for your dead:"
+ },
+ "G2R1.11": {
+  "full": "In the second volume of the Journal, between a recipe and a farrier's bill, there is the drawing of a machine for talking with the dead."
+ },
+ "round.G2R1.end": {
+  "full": "The Early Years of the Second Generation have ended."
+ },
+ "G2Tempio.1": {
+  "full": "**The Temple**"
+ },
+ "G2Tempio.2": {
+  "full": "You pay the masons in cash, in front of everyone. The Temple's foundations rise quickly, more quickly than they should: the masons say that at night someone works in their place, and that in the morning they find the stones already squared."
+ },
+ "G2Tempio.3": {
+  "full": "Madame Vámos comes to see the building site. She shakes your hand and calls you by name in front of everyone, as one does with family. That evening the widows of the Circle light a candle for your dead."
+ },
+ "G2Tempio.4": {
+  "full": "Gain 1 Charity token {icon:S1_HeartToken}."
+ },
+ "G2Messa.1": {
+  "full": "**The Mass**"
+ },
+ "G2Messa.2": {
+  "full": "Old Father Anzelm says a mass for your family's dead, in the empty church, with a single altar boy who yawns. At the end he takes you by the arm, with a strength you did not expect. \"I buried them all, your people,\" he says. \"Let them stay where I put them.\""
+ },
+ "G2Messa.3": {
+  "full": "That night, for the first time in months, no one knocks in your room, and you sleep until broad daylight."
+ },
+ "G2Messa.4": {
+  "full": "Move back 1 space on the {icon:Insanity_Icon} track."
+ },
+ "G2Telegrafo.1": {
+  "full": "**The Telegraph of the Dead**"
+ },
+ "G2Telegrafo.2": {
+  "full": "**Diary of {0} – *1875.***"
+ },
+ "G2Telegrafo.3": {
+  "full": "In the second volume of the Journal, between a recipe for preserving tissue and a farrier's bill, I found the design. Three plates drawn in Indian ink, with a care Grandfather gave to nothing else. He calls it the **Telegraph of the Dead**."
+ },
+ "G2Telegrafo.4": {
+  "full": "A battery of glass jars; miles of copper wire wound around a soft-iron core; a keyboard of twenty-six bone keys; and at its centre a needle suspended in a flask full of a gas he calls \"veil air\". According to his calculations the dead do not speak: they alter the current, ever so slightly. A sensitive enough needle is all it takes to read them."
+ },
+ "G2Telegrafo.5": {
+  "full": "In the margin of the third plate there is a note in pencil: *\"I did not have the time. They will.\"* Building the first stage requires gears, many more than we have in the house. Each of us will have to decide how much work to take away from our own experiments."
+ },
+ "G2TelegrafoOfferta.1": {
+  "full": "**Who Contributes?**"
+ },
+ "G2TelegrafoOfferta.2": {
+  "full": "Each player secretly takes in hand as many {icon:Gears_Icon} as they wish to offer, even none. When everyone is ready, reveal your offers together."
+ },
+ "G2TelegrafoOfferta.3": {
+  "full": "Click to start the offer..."
+ },
+ "G2TelegrafoEsito.1": {
+  "full": "**The First Wire**"
+ },
+ "G2TelegrafoEsito.2": {
+  "full": "How many {icon:Gears_Icon} did you offer in total?"
+ },
+ "G2TelegrafoEsito.3": {
+  "full": "The first stage of the Telegraph takes up an entire wall of the laboratory. On the night they switch it on, the glass jars hum, the lamps dim throughout the house and the needle, in its flask, begins to tremble."
+ },
+ "G2TelegrafoEsito.4": {
+  "full": "It is not the trembling of the current: it is slower, more stubborn, like a finger searching for a letter on a keyboard. It stops on a bone key. Then on another. Before anyone can read the word, a fuse blows, and in the dark, for a moment, someone laughs."
+ },
+ "G2TelegrafoEsito.5": {
+  "full": "The offered {icon:Gears_Icon} return to the supply. Whoever offered the most gains 3VP (in case of a tie, all tied players do)."
+ },
+ "G2TelegrafoEsito.6": {
+  "full": "The gears collected are barely enough for the base. The design goes back into the drawer, under the second volume of the Journal, and the pieces go back to those who offered them."
+ },
+ "G2TelegrafoEsito.7": {
+  "full": "That night the knocking on the walls is slower than usual, almost dragging. If the dead can be disappointed, they are."
+ },
+ "G2TelegrafoEsito.8": {
+  "full": "The offered {icon:Gears_Icon} return to the players."
+ },
+ "G2Nebbia.1": {
+  "full": "**The Fog Comes Down**"
+ },
+ "G2Nebbia.2": {
+  "full": "**{0} Gazette – *autumn 1876.***"
+ },
+ "G2Nebbia.3": {
+  "full": "**THE FOG WILL NOT LIFT.** For eleven days a dense, whitish fog has covered {0} from dawn to dusk, and from dusk to dawn. The district doctor speaks of miasmas from the pond; the apothecary, of fumes from the estate; Father Anzelm, of a punishment. Lanterns light no further than three paces. Yesterday the coach arrived six hours late: the coachman swears he drove in circles around the cemetery all night."
+ },
+ "G2Nebbia.4": {
+  "full": "Stranger still are the accounts this newspaper continues to receive. Mrs Tóth saw her husband, nine years dead, waiting for her at the corner by the apothecary. The baker heard his mother calling him from the oven. Three children played all afternoon with a friend none of the adults saw, and whose name no one knows. Readers are advised not to go out unless necessary, and not to answer anyone who calls their name from the fog."
+ },
+ "G2Nebbia.6": {
+  "full": "From the **The Cost of Disease** Scenario Box, take the **Creepy tokens** {icon:Creepy_Icon}: they are the **Presences**."
+ },
+ "G2Nebbia.7": {
+  "full": "Place one {icon:Creepy_Icon} token on the **Cemetery**, one on the **Fortune Teller** and one on the **Hospital**."
+ },
+ "G2Nebbia.8": {
+  "full": "Place one {icon:Creepy_Icon} token on the **Cemetery** and one on the **Fortune Teller**."
+ },
+ "G2Nebbia.9": {
+  "full": "When a player takes an action at a Location with Presences, they gain 1 {icon:Creepy_Icon} for each {icon:Creepy_Icon} token on that Location."
+ },
+ "G2R2.1": {
+  "full": "**THE FOG – Middle Years**"
+ },
+ "G2R2.2": {
+  "full": "Open the Village Chronicle to the **The Cost of Disease** section ({icon:S1_ScenarioIcon}) and turn to **page 8**. Put the Presences back on the Locations with the same name."
+ },
+ "G2R2.3": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 6**. Put the Presences back on the Locations with the same name; those without a Location return to the box."
+ },
+ "G2R2.4": {
+  "full": "{icon:Storybook} **Private Séances – Pub**"
+ },
+ "G2R2.5": {
+  "full": "The little room at the back of the Pub is where private séances are held. When one of your pieces visits the Pub,"
+ },
+ "G2R2.7": {
+  "full": "{icon:Storybook} **The Possessed – Asylum Program**"
+ },
+ "G2R2.8": {
+  "full": "Father Anzelm treats the \"possessed\" in the Asylum Program. When one of your pieces visits it,"
+ },
+ "G2R2.11": {
+  "full": "In the fog the veil is as thin as wet paper. Someone means to take advantage of it."
+ },
+ "round.G2R2.end": {
+  "full": "The Middle Years of the Second Generation have ended."
+ },
+ "G2Pub.2": {
+  "full": "**A Private Séance**"
+ },
+ "G2Pub.3": {
+  "full": "In the little room at the back of the Pub, behind a velvet curtain, Madame Vámos receives anyone who buys the landlord a drink and asks no questions."
+ },
+ "G2Pub.4": {
+  "full": "Madame Vámos is gone, but her chair, in the little room at the back of the Pub, is still in its place. Whoever sits down before it, hands on the little table, hears her voice."
+ },
+ "G2Pub.5": {
+  "full": "In the little room at the back of the Pub a pale girl, who says she was a pupil of the woman in the wagon, holds séances for a few coins."
+ },
+ "G2Pub.6": {
+  "full": "The medium's voice turns hoarse and masculine: it is a miller who died of cholera, she says, who trusted banks even less than priests. He describes a loose brick behind the stove of an abandoned mill. You go there the next day, the fog up to your knees. The brick is there. Behind it is a tin box full of coins, and no one, as far as you know, will ever come to claim it."
+ },
+ "G2Pub.7": {
+  "full": "Gain $3."
+ },
+ "G2Pub.8": {
+  "full": "The medium's hands grip yours for a long time. Then a name comes: that of the person in town who fears you most and spreads rumours about you. It is a name you know. The next day you call on them with a basket of fruit and a smile. The rumours, mysteriously, die away."
+ },
+ "G2Pub.9": {
+  "full": "Move back 1 space on the {icon:Creepy_Icon} track."
+ },
+ "G2Pub.10": {
+  "full": "In the middle of a sentence the medium's voice changes: it becomes lower, slower, with an accent you have only heard in family stories. It is Grandfather. He calls you by name, your name, and tells you that in the fog the veil is as thin as wet paper, and that a single finger would be enough to pierce it. Then the candle goes out, and the voice falls silent."
+ },
+ "G2Asilo.1": {
+  "full": "**The Cure**"
+ },
+ "G2Asilo.2": {
+  "full": "The Asylum Program is an old whitewashed barracks, with barred windows and an iron cross on the gate. Father Anzelm, stooped now, runs it with the help of two nuns and an enormous orderly who never speaks. The fog has brought the \"possessed\" here: people who speak with voices not their own, who write in languages they never studied, who knock on the walls for hours."
+ },
+ "G2Asilo.3": {
+  "full": "The cure is harsh: icy baths, prayers, leather straps, silence. In some way it does you good to see how thin the line is between them and you. But the man in cell number seven, when you pass, stops knocking and greets you by your name, in your grandfather's voice."
+ },
+ "G2Asilo.4": {
+  "full": "Move back 2 spaces on the {icon:Insanity_Icon} track and gain 1 {icon:Creepy_Icon}."
+ },
+ "G2GrandeSeduta.1": {
+  "full": "**The Great Séance of the Fog**"
+ },
+ "G2GrandeSeduta.2": {
+  "full": "**Séance minutes no. 113 – {0}, *All Saints' night, 1878.***"
+ },
+ "G2GrandeSeduta.3": {
+  "full": "For All Saints' night Madame Vámos summons the whole village to the Temple of the Circle, or to what has been built of it. Two hundred come, with lanterns, through the fog. In the middle of the hall stands a round table, with a chair for each heir of the estate and two more: one for Madame, one empty."
+ },
+ "G2GrandeSeduta.4": {
+  "full": "Madame announces that tonight, with the help of the founder's blood, she will try to summon him: the man who first wrote that veils can be lifted. The minutes are taken by {0}, at the medium's wish, \"so that they are written by a hand of the family\"."
+ },
+ "G2GrandeSeduta.5": {
+  "full": "Without a medium, the family manages on its own. On All Saints' night the heirs sit around the old table in the laboratory, the one Grandfather used for his experiments in magnetism, with the Journal open at its last page and an empty chair at the head of the table. The minutes are taken by {0}."
+ },
+ "G2GrandeSeduta.6": {
+  "full": "Outside, the fog presses against the windows. None of them has ever conducted a séance; all of them, however, have read enough to know how it is done. That, more than anything else, is what is frightening."
+ },
+ "G2GrandeSeduta.7": {
+  "full": "At midnight the candle flame in the middle of the table bends towards the empty chair, as if in a breath of air. It is time to decide."
+ },
+ "G2GrandeSedutaVoto.1": {
+  "full": "**Summon Father?**"
+ },
+ "G2GrandeSedutaVoto.3": {
+  "full": "YAY: you summon Father."
+ },
+ "G2GrandeSedutaVoto.4": {
+  "full": "NAY: you break off the séance."
+ },
+ "G2GrandeSedutaEsito.3": {
+  "full": "You summon Father. (YAY)"
+ },
+ "G2GrandeSedutaEsito.4": {
+  "full": "You break off the séance. (NAY)"
+ },
+ "G2Ectoplasma.1": {
+  "full": "**The Ectoplasm**"
+ },
+ "G2Ectoplasma.2": {
+  "full": "Madame Vámos closes her eyes and stiffens in her chair. Her lips part, and from her mouth a white, luminous substance begins to emerge, slowly, like a smoke with weight. It stretches across the table towards the empty chair and takes the shape of a hand. Then of an arm. Someone screams. The light becomes blinding."
+ },
+ "G2Ectoplasma.3": {
+  "full": "When the dark returns, there is only her black shawl on Madame's chair. Of her body, no trace. On the table remains a pool of white substance, still warm, which someone, with a trembling hand, gathers into a vial."
+ },
+ "G2Ectoplasma.4": {
+  "full": "Madame Vámos throws her head back. From her mouth comes a white, stringy substance that gathers on the table in a small, glowing pool. The empty chair creaks, as if someone had just sat down in it. Then Madame coughs, wipes her lips with a handkerchief and says, in her usual voice: \"He was here.\""
+ },
+ "G2Ectoplasma.5": {
+  "full": "The doctor, the next day, will say it was gauze soaked in phosphorus. But the substance someone gathers into a vial still glows, months later."
+ },
+ "G2Ectoplasma.6": {
+  "full": "At midnight the youngest person at the table begins to speak in a voice that is not their own: low, slow, impatient. It utters three words in a dead language, then coughs, and from their mouth comes a white, stringy substance that glows in the dark."
+ },
+ "G2Ectoplasma.7": {
+  "full": "In the morning no one remembers who fetched a vial from the laboratory to gather it. But the vial is full."
+ },
+ "G2Ectoplasma.8": {
+  "full": "Whoever has the highest {icon:Insanity_Icon} takes the vial (in case of a tie, the Start Player chooses among those tied)."
+ },
+ "G2Fiala.1": {
+  "full": "**The Vial**"
+ },
+ "G2Fiala.2": {
+  "full": "**{0}** takes the **Vial token** from the **The Cost of Disease** Scenario Box and keeps it in front of them until the end of the game."
+ },
+ "G2SedutaInterrotta.1": {
+  "full": "**The Candles Go Out**"
+ },
+ "G2SedutaInterrotta.2": {
+  "full": "Someone leaps up and throws open the shutters. The candle goes out; the empty chair tips over by itself, with a thud. For a long moment no one breathes."
+ },
+ "G2SedutaInterrotta.3": {
+  "full": "Then, outside, the fog thins a little, and for the first time in months the moon can be seen. Whatever was waiting on the other side of the table has gone. But it has gone away angry, and all winter long, at the estate, the doors slam by themselves."
+ },
+ "G2Segreti.1": {
+  "full": "**Madame's Secrets**"
+ },
+ "G2Segreti.2": {
+  "full": "A few weeks after the séance, Madame Vámos sends each heir a black-edged card. She does not have much time left, she writes; or perhaps she has too much. In any case the moment has come to leave someone her most precious secret: the way not to die entirely."
+ },
+ "G2Segreti.3": {
+  "full": "She will sell it to one person only: whoever can show they care for it most. \"My spiritual children,\" she adds at the bottom of the card, \"will understand that even eternity has a price.\""
+ },
+ "G2Segreti.4": {
+  "full": "Each player secretly takes in hand the money they wish to offer. When everyone is ready, reveal your offers together. Whoever offers the most pays and takes an **Immortality card**; the others take back their money."
+ },
+ "G2SegretiEsito.1": {
+  "full": "**The Secret of Eternal Life**"
+ },
+ "G2SegretiEsito.2": {
+  "full": "Whoever offered the most draws an **Immortality card** at random from the **The Cost of Disease** Scenario Box. The printed text applies exactly as written."
+ },
+ "G2R3.1": {
+  "full": "**THE FOG – Late Years**"
+ },
+ "G2R3.2": {
+  "full": "Open the Village Chronicle to the **The Cost of Disease** section ({icon:S1_ScenarioIcon}) and turn to **page 9**. Put the Presences back on the Locations with the same name."
+ },
+ "G2R3.3": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 7**. Put the Presences back on the Locations with the same name."
+ },
+ "G2R3.4": {
+  "full": "{icon:Storybook} **Private Séances – Pub and Seedy Pub**"
+ },
+ "G2R3.5": {
+  "full": "When one of your pieces visits the Pub or a Seedy Pub,"
+ },
+ "G2R3.8": {
+  "full": "When one of your pieces visits the Asylum Program,"
+ },
+ "G2R3.10": {
+  "full": "{icon:Storybook} **The Telegraph – Perform Experiment**"
+ },
+ "G2R3.11": {
+  "full": "When you complete an **Engineering** Experiment, you may give up its VP to work on the Telegraph:"
+ },
+ "G2R3.14": {
+  "full": "Mayor Bódi, son of the one who sat on the council in 1856, is ill, and is looking for a political heir."
+ },
+ "round.G2R3.end": {
+  "full": "The Late Years of the Second Generation have ended."
+ },
+ "G2Contributo.1": {
+  "full": "**A Copper Wire**"
+ },
+ "G2Contributo.2": {
+  "full": "With the last wire soldered, the second stage of the Telegraph comes to life. The glass jars light up with a milky glow, the bone keyboard vibrates, and the needle no longer trembles: it moves decisively from key to key and, for the first time, spells out a whole word."
+ },
+ "G2Contributo.3": {
+  "full": "It is a name. No one in the family knows it; but the next morning, at the cemetery, they find it carved on a headstone the gravedigger swears he has never seen."
+ },
+ "G2Contributo.4": {
+  "full": "Piece by piece, without waiting for anyone's consent, the first stage of the Telegraph is finally mounted against the laboratory wall. When you switch it on, the lamps throughout the house dim, and the needle, in its flask, begins to tremble. It is searching for a letter. It has not found it yet."
+ },
+ "G2Contributo.5": {
+  "full": "You solder another length of wire, calibrate the needle, replace a cracked jar. The machine grows, but the needle stays still: pieces are still missing. As you put the tools away, you seem to hear a knock, impatient, from inside the flask."
+ },
+ "G2Contributo.6": {
+  "full": "You do not gain the Experiment's VP: instead, gain 1 Engineering Knowledge."
+ },
+ "G2Fine.1": {
+  "full": "**The Mayor's Heir**"
+ },
+ "G2Fine.2": {
+  "full": "**{0} Gazette – *1881.***"
+ },
+ "G2Fine.3": {
+  "full": "**THE MAYOR AND HIS FRIENDSHIPS.** Mayor Bódi, who inherited the office from his father as others inherit a watch, has long been ill and does not hide it. Nor does he hide that he is looking, among the notable families of {0}, for someone to protect in the years to come, and to be protected by in turn."
+ },
+ "G2Fine.4": {
+  "full": "Rumour has it that the families of the estate have already made their offers, in money and in favours. This newspaper is unable to confirm it, and its editor has been asked not to insist."
+ },
+ "G2Fine.5": {
+  "full": "Each player secretly takes in hand the money they wish to offer. When everyone is ready, reveal your offers together. Whoever offers the most pays and takes the **Mayor Coin**; the others take back their money."
+ },
+ "G2Sindaco.1": {
+  "full": "**The Mayor's Favour**"
+ },
+ "G2Sindaco.2": {
+  "full": "Who won the bidding?"
+ },
+ "G2SindacoMoneta.1": {
+  "full": "**The Coin**"
+ },
+ "G2SindacoMoneta.2": {
+  "full": "**{0}** takes the **Mayor Coin** from the **The Cost of Disease** Scenario Box. In the Third Generation, whoever has the Mayor Coin does not pay the extra $1 when visiting a Location that is already occupied."
+ },
+ "G2Domande.2": {
+  "full": "The late years pass quickly, as they always do for those with too much to do. The fog rises and falls with the seasons, but never quite goes away: it withdraws into the ditches, the cemetery, behind the estate's greenhouses, and waits."
+ },
+ "G2DomChiusura.3": {
+  "full": "The papers of the second generation also close with a series of funerals. I wanted to check the headstones in person, one by one, with a lantern, because in the fog of the cemetery (yes, it is still there) nothing could be read. The dates are those in the registers. But beneath each date, in smaller letters, the stonemason has also carved the hour; and all those hours fall between midnight and three."
+ },
+ "G2DomChiusura.4": {
+  "full": "The stonemason, questioned by a colleague of mine in 1902, declared that he had never carved any hour."
+ },
+ "G2DomChiusura.5": {
+  "full": "Remove all pieces from the board and perform the End of the Generation. Return unused {icon:StorybookToken} tokens and the players' Charity tokens {icon:S1_HeartToken} to the supply. The Presences {icon:Creepy_Icon} return to the box."
+ },
+ "G3Intro.1": {
+  "full": "**GENERATION III: The Great Séance**"
+ },
+ "G3Intro.2": {
+  "full": "**Telegram – {0}, *March 1898.***"
+ },
+ "G3Intro.3": {
+  "full": "LAST OF THE FAMILY BURIED YESTERDAY STOP ESTATE YOURS STOP NOTARY WAITING STOP DO NOT ARRIVE AFTER SUNSET STOP"
+ },
+ "G3Intro.4": {
+  "full": "The telegram reached the new heirs in distant cities, in offices, laboratories and colleges. When they stepped off the train (for now the train went there too) they found a small town that no longer resembled the village of the family stories: street lamps along the main road, a telegraph office, a bank with columns of imitation marble and, in the café on the square, a phonograph that played Viennese waltzes for anyone who dropped in a coin."
+ },
+ "G3Citta.1": {
+  "full": "**The Town**"
+ },
+ "G3Citta.2": {
+  "full": "And there was the Circle. The Circle of the Last Hour no longer needed to hide, nor to advertise: it owned the undertaker's, half the buildings on the square and the majority of the town council. Its members wore a small silver eye in their buttonholes, and wore it with pride."
+ },
+ "G3Citta.3": {
+  "full": "And there was the Church. After years of sermons, trials and excommunications, the bishop had got what he wanted: the Circle of the Last Hour was outlawed, its séances a crime, and whoever spoke with the dead ended up before the church court. Father Benedek, Father Anzelm's successor, kept a register of names; the family's appeared in it more than once."
+ },
+ "G3Citta.4": {
+  "full": "And there was, still, the old war. The Circle of the Last Hour and the parish of Father Benedek, Father Anzelm's successor, fought over the souls of {0} one by one, with the tenacity of two neighbours quarrelling over a boundary wall. The wall, in this case, was the veil."
+ },
+ "G3Citta.5": {
+  "full": "Madame Vámos, to hear people tell it, was the same age as fifty years before. No one knew where she lived. Everyone knew where to find her."
+ },
+ "G3Citta.6": {
+  "full": "Of Madame Vámos there remained a black shawl, displayed under glass in the Temple of the Circle, and an empty chair no one dared move."
+ },
+ "G3Antenati.1": {
+  "full": "**The Second Séance of the Ancestors**"
+ },
+ "G3Antenati.2": {
+  "full": "Now the family's dead are two generations. On the first night at the estate the knocking begins again, punctual as a clock, but denser: two different rhythms that overlap, interrupt and correct each other."
+ },
+ "G3Antenati.3": {
+  "full": "When the voices come, each heir hears two: that of their parent, and an older, fainter one, known only from portraits. They do not always agree."
+ },
+ "G3Antenati.4": {
+  "full": "Each player in turn reads their ancestors' message without showing it to the others. They may tell it, lie about it or keep quiet."
+ },
+ "G3AntA.2": {
+  "full": "**Two Voices**"
+ },
+ "G3AntA.3": {
+  "full": "The two voices speak together, one over the other, about the same thing: a formula, an obsession, an idea that consumed two lives and now seeks a third. When one stops to draw breath, the other finishes the sentence."
+ },
+ "G3AntA.4": {
+  "full": "They do not quarrel. They agree on everything, and that is what frightens you. At dawn you realise you are finishing their sentences out loud."
+ },
+ "G3AntA.5": {
+  "full": "\"It runs in the family,\" says the older voice, with a kind of pride. \"It runs in the family,\" repeats your parent's voice, with a kind of apology."
+ },
+ "G3AntA.6": {
+  "full": "Then both explain to you, all night long, an idea that will never leave you. In the morning you do not remember the words. You remember only that you must do something, and that you must do it soon."
+ },
+ "G3AntA.7": {
+  "full": "Draw two Compulsion cards and keep one."
+ },
+ "G3AntA.8": {
+  "full": "Your parent's voice is feverish: it speaks in a rush, contradicts itself, starts over, asks you to finish a piece of work it does not explain. Then, softly, the other, older voice breaks in: \"Calm. Let the living breathe.\""
+ },
+ "G3AntA.9": {
+  "full": "For a while the feverish voice falls silent. But before dawn it returns, alone, and whispers one last thing in your ear."
+ },
+ "G3AntA.10": {
+  "full": "Quick, nervous knocking, like fingers that cannot keep still. It is the voice you know best, but you have never heard it like this: anxious, hungry, full of numbers. The older voice tries to cover it with an old family lullaby, out of tune and patient."
+ },
+ "G3AntA.11": {
+  "full": "You fall asleep halfway through the lullaby. You wake with an idea in your head that is not yours."
+ },
+ "G3AntA.13": {
+  "full": "The two voices come together, and they are serene. They tell you of a crowd on the other side: the families your family has comforted in fifty years of mourning, who have now lined up to give thanks. \"They will not leave you unprotected,\" says the older voice."
+ },
+ "G3AntA.14": {
+  "full": "In the morning, for the first time since you came here, the neighbourhood dogs greet you joyfully; and in the letterbox there is an unsigned envelope, with money inside."
+ },
+ "G3AntA.15": {
+  "full": "No knocking: a rustle, like many people tiptoeing into a room. Your ancestors' voices introduce you, one at a time, to dozens of strangers: the miller's widow, a child who died of fever, a miner, a seamstress. Each of them shakes your hand, cold and light. \"We owe you a favour,\" they say."
+ },
+ "G3AntA.16": {
+  "full": "The next day, in town, people greet you in the street, and the grocer will not take your money."
+ },
+ "G3AntA.17": {
+  "full": "Move back 2 spaces on the {icon:Creepy_Icon} track and gain $2."
+ },
+ "G3AntA.18": {
+  "full": "Your parent's voice is low, like someone afraid of being overheard. \"The promise to the Circle. You don't know it, but I do: it was revealed to me by the one who came before me, and now it's your turn to carry it.\""
+ },
+ "G3AntA.19": {
+  "full": "Then the older voice, faint, adds the rest: how the promise is broken, and how it can be made to cost dearly to whoever demanded it. It has you write everything on the back of a family photograph."
+ },
+ "G3AntA.20": {
+  "full": "\"The Circle will knock,\" says the older voice. \"It will knock for you, because it was I who signed.\" \"And you will not open,\" adds the other, \"or you will open on our terms.\""
+ },
+ "G3AntA.21": {
+  "full": "All night long the two voices teach you the exact words, the dates, the names: enough to break the promise, or to blackmail those who keep it. In the morning you have a file of notes and a very clear idea of what it is worth."
+ },
+ "G3AntA.22": {
+  "full": "Gain 2 Occult Knowledge."
+ },
+ "G3AntA.23": {
+  "full": "The voices are weak and distant, as on a crackling telegraph line. You make out your name, then a word that might be \"careful\" or \"patience\", and then nothing more."
+ },
+ "G3AntA.24": {
+  "full": "For your family the veil is still thick. Perhaps that is a blessing."
+ },
+ "G3AntA.25": {
+  "full": "You wait a long time. At last come two very faint knocks, one for each of the voices you hoped to hear; and then a rustle of paper, as if someone were leafing through a book on the other side of the wall."
+ },
+ "G3AntA.26": {
+  "full": "In the morning the Journal is open at a page of notes that will be useful to you."
+ },
+ "G3AntA.27": {
+  "full": "Gain 1 Knowledge of your choice."
+ },
+ "G3AntFine.1": {
+  "full": "**The Morning**"
+ },
+ "G3AntFine.2": {
+  "full": "The next morning, even before breakfast, someone knocks at the front door. Knocks normally, thank goodness. It is an elderly man, with a white beard and a doctor's bag, who introduces himself as Dr Lukács, professor at the University and, by his own account, \"the last reasonable man in {0}\"."
+ },
+ "G3AntFine.3": {
+  "full": "Lukács is seventy, has an excellent memory and a single obsession: to prove that no one in {0} has ever spoken with the dead. \"I attended the Circle's séances for twenty years, taking notes,\" he says. \"I have seen tables fly and ghosts made of gauze and phosphorus. I have gathered evidence. All I need is someone from the family willing to help me.\""
+ },
+ "G3R1.1": {
+  "full": "**THE GREAT SÉANCE – Early Years**"
+ },
+ "G3R1.2": {
+  "full": "Open the Village Chronicle to the **The Cost of Disease** section ({icon:S1_ScenarioIcon}) and turn to **page 10**."
+ },
+ "G3R1.3": {
+  "full": "{icon:Storybook} **Dr Lukács – University**"
+ },
+ "G3R1.4": {
+  "full": "Dr Lukács is gathering evidence against the Circle. When one of your pieces visits the University, you may help him:"
+ },
+ "G3R1.6": {
+  "full": "{icon:Storybook} **The Undertaker's – Funeral Home**"
+ },
+ "G3R1.7": {
+  "full": "When one of your pieces visits the Funeral Home,"
+ },
+ "G3R1.10": {
+  "full": "New shops open on the square, all in the same month, all paid for in cash."
+ },
+ "round.G3R1.end": {
+  "full": "The Early Years of the Third Generation have ended."
+ },
+ "G3Lukacs.1": {
+  "full": "**The Evidence**"
+ },
+ "G3Lukacs.2": {
+  "full": "In his study at the University Dr Lukács has put together a small museum of fraud. There are threads of black silk, very fine, for lifting a table; a pair of shoes with hollow heels, for knocking on the floor without moving one's hands; a gauze mask still stained with phosphorus; and a bundle of receipts from a smith, made out to the Circle of the Last Hour, for \"work on the walls\" of private houses."
+ },
+ "G3Lukacs.3": {
+  "full": "You help him catalogue everything, compare the dates, piece together who knew what. It is long, painstaking, reassuring work. When you leave, the world seems a simpler place."
+ },
+ "G3Lukacs.4": {
+  "full": "Gain 1 Chemistry Knowledge and move back 1 space on the {icon:Creepy_Icon} track."
+ },
+ "G3Pompe.1": {
+  "full": "**The Undertaker's**"
+ },
+ "G3Pompe.2": {
+  "full": "The Circle's undertaker's is the most elegant in the region: black marble, violet velvet, an organ that plays by itself. Here the dead are washed, perfumed, dressed in white and buried with a silver bell tied to the wrist, joined by a cord to another bell above the grave. \"So that they can ring,\" the director explains with a professional smile. \"Should they ever wish to.\""
+ },
+ "G3Pompe.3": {
+  "full": "In the back room he shows you the burial register. Beside several names, in pencil, there is a small cross and a date later than the funeral: the days on which the bell rang. Then he offers you, at a special price, something for your laboratory. You do not ask which coffin it came from."
+ },
+ "G3Pompe.4": {
+  "full": "Gain 1 {icon:Bodies_Icon} and 1 {icon:Creepy_Icon}."
+ },
+ "G3Facciate.1": {
+  "full": "**New Shops**"
+ },
+ "G3Facciate.2": {
+  "full": "**{0} Gazette – *1901.***"
+ },
+ "G3Facciate.3": {
+  "full": "**NEW SHOPS, FEW CUSTOMERS.** In the last month several new shops have opened in {0}, one after another, all with freshly painted signs and spotless windows. According to the land registry they were paid for in cash by a Budapest company whose partners no one knows. None seems to have many customers; all stay open late."
+ },
+ "G3Facciate.4": {
+  "full": "Dr Lukács, asked by this newspaper, has no doubt: they are fronts for the Circle of the Last Hour, behind which the spiritualist society carries on its activities away from prying eyes. The Circle, asked in its turn, replied with a black-edged card: \"Trade, too, is a form of consolation.\""
+ },
+ "G3Facciate.6": {
+  "full": "From the **The Cost of Disease** Scenario Box, take the **5 Suspicious Buildings**, shuffle them and place **{0}** of them next to the Village Chronicle, shop side up. They are village Locations like any other. Return the others to the box without looking at them."
+ },
+ "G3Facciate.7": {
+  "full": "**Unmasking:** when, in the same Round, at least two different players have placed a piece on the same Suspicious Building, flip it at the end of the Round: the back says what it was hiding, and those who helped unmask it gain the VP shown."
+ },
+ "G3R2.1": {
+  "full": "**THE GREAT SÉANCE – Middle Years**"
+ },
+ "G3R2.2": {
+  "full": "Turn to **page 11** of the Village Chronicle, **The Cost of Disease** section ({icon:S1_ScenarioIcon}). The Suspicious Buildings stay next to the Chronicle."
+ },
+ "G3R2.4": {
+  "full": "The Telegraph is almost finished. When you complete a **C** Experiment, you may give up its VP to finish it:"
+ },
+ "G3R2.10": {
+  "full": "Will the Circle's fronts withstand the heirs' scrutiny?"
+ },
+ "round.G3R2.end": {
+  "full": "The Middle Years of the Third Generation have ended."
+ },
+ "round.G3R2.then": {
+  "full": "Flip the unmasked Suspicious Buildings, then continue with the Storybook."
+ },
+ "G3Telegrafo.2": {
+  "full": "You solder the last wire with trembling hands. Before you can even turn the switch, the Telegraph turns itself on: the glass jars light up one after another, like the windows of a house at sunset, and a low hum fills the laboratory, the estate, perhaps the whole town."
+ },
+ "G3Telegrafo.3": {
+  "full": "The needle rises, hesitates, then begins to tap on the bone keys, slowly, decisively. It taps out a name: your family's. Then it stops, and waits, like someone who has rung a doorbell."
+ },
+ "G3Telegrafo.4": {
+  "full": "You do not gain the Experiment's VP: instead, gain 5VP."
+ },
+ "G3Conteggio.1": {
+  "full": "**The Fronts**"
+ },
+ "G3Conteggio.2": {
+  "full": "How many Suspicious Buildings have been unmasked so far?"
+ },
+ "G3Conteggio.3": {
+  "full": "**THE SCANDAL OF THE CIRCLE.** The Gazette publishes on its front page, across six columns, the evidence gathered by Dr Lukács: the smith's receipts, the unmasked shops, the confessions of two former members. Membership of the Circle of the Last Hour collapses within a week; on the square someone throws stones at its windows."
+ },
+ "G3Conteggio.4": {
+  "full": "Madame Vámos, summoned by the magistrate, does not appear. They say she has packed her bags; they also say she has no bags to pack."
+ },
+ "G3Conteggio.5": {
+  "full": "At the estate, that night, the knocking on the walls is fainter than usual. Almost shy."
+ },
+ "G3Conteggio.7": {
+  "full": "No one has touched the fronts. The Circle's shops stay open late, with spotless windows and few customers; Dr Lukács writes furious letters to the Gazette, which does not publish them."
+ },
+ "G3Conteggio.8": {
+  "full": "The Circle, in silence, gives thanks: one morning each heir finds a fresh black carnation on the doorstep."
+ },
+ "G3Conteggio.9": {
+  "full": "One front has fallen, and what was behind it went round the town in a day. But the others are still standing, and the Circle denies everything with great dignity."
+ },
+ "G3Conteggio.10": {
+  "full": "{0} no longer knows whom to believe. People go to mass on Sundays and to séances on Thursdays, just to be safe."
+ },
+ "G3R3.1": {
+  "full": "**THE GREAT SÉANCE – Late Years**"
+ },
+ "G3R3.2": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 21**."
+ },
+ "G3R3.3": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 11**."
+ },
+ "G3R3.4": {
+  "full": "Open the Village Chronicle to the **Fear of the Unknown** section ({icon:S2_ScenarioIcon}) and turn to **page 20**."
+ },
+ "G3R3.5": {
+  "full": "The Suspicious Buildings stay next to the Chronicle."
+ },
+ "G3R3.7": {
+  "full": "When you complete a **C** Experiment, you may give up its VP to finish the Telegraph:"
+ },
+ "G3R3.9": {
+  "full": "**The Great Séance**"
+ },
+ "G3R3.10": {
+  "full": "At the end of this Generation, the whole town will sit down around the same table."
+ },
+ "round.G3R3.end": {
+  "full": "The Late Years of the Third Generation have ended."
+ },
+ "round.G3R3.then": {
+  "full": "Perform the End of Round actions, then continue with the Storybook for the Great Séance."
+ },
+ "G3GrandeSeduta.2": {
+  "full": "**Last séance minutes – {0}, *31 December 1905.***"
+ },
+ "G3GrandeSeduta.3": {
+  "full": "On the last night of 1905 {0} gathers in the great hall of the town hall: the mayor, the council, the Circle, the parish, Dr Lukács with his notebook and, in the middle, the family of the estate. Two hundred people seated in concentric circles, hands joined with their neighbours', the lamps out. No one remembers who called the meeting. Everyone, however, has come."
+ },
+ "G3GrandeSeduta.4": {
+  "full": "At a quarter to midnight the knocking begins. Not on the walls: everywhere. In the floor, in the ceiling, in the chairs, in each person's chest. Fifty-seven years after that first night, the veil has never been so thin."
+ },
+ "G3GrandeSeduta.5": {
+  "full": "Someone has brought the Telegraph from the estate on a cart and connected it to the town hall's electric wires. The needle taps by itself, impatient, awaiting instructions."
+ },
+ "G3GrandeSeduta.6": {
+  "full": "The Telegraph is on. Now it can be decided what to make it say."
+ },
+ "G3GrandeSeduta.8": {
+  "full": "In the air, in the middle of the hall, a thin crack opens, as in a pane of glass. On the other side there is a cold light, and something moving."
+ },
+ "G3GrandeSeduta.9": {
+  "full": "The veil tears beneath your fingers."
+ },
+ "G3GrandeSeduta.11": {
+  "full": "The veil trembles, but holds. When the lamps come back on, every eye is on the Circle's table."
+ },
+ "G3GrandeSeduta.12": {
+  "full": "The veil holds. It remains to decide what to do about the Circle."
+ },
+ "G3VotoTelegrafo.1": {
+  "full": "**What Will the Telegraph Say?**"
+ },
+ "G3VotoTelegrafo.3": {
+  "full": "YAY: you listen to Father."
+ },
+ "G3VotoTelegrafo.4": {
+  "full": "NAY: you use the Telegraph to seal the veil."
+ },
+ "G3EsitoTelegrafo.3": {
+  "full": "You listen to Father. (YAY)"
+ },
+ "G3EsitoTelegrafo.4": {
+  "full": "You seal the veil. (NAY)"
+ },
+ "G3VotoVelo.1": {
+  "full": "**Open the Veil?**"
+ },
+ "G3VotoVelo.3": {
+  "full": "YAY: you open the veil."
+ },
+ "G3VotoVelo.4": {
+  "full": "NAY: you resist."
+ },
+ "G3EsitoVelo.3": {
+  "full": "You open the veil. (YAY)"
+ },
+ "G3EsitoVelo.4": {
+  "full": "You resist. (NAY)"
+ },
+ "G3VotoCircolo.1": {
+  "full": "**The Circle**"
+ },
+ "G3VotoCircolo.3": {
+  "full": "YAY: you join the Circle."
+ },
+ "G3VotoCircolo.4": {
+  "full": "NAY: you unmask the Circle in front of everyone."
+ },
+ "G3EsitoCircolo.3": {
+  "full": "You join the Circle. (YAY)"
+ },
+ "G3EsitoCircolo.4": {
+  "full": "You unmask the Circle. (NAY)"
+ },
+ "G3Possesso.2": {
+  "full": "**{0}**, look at the {icon:Insanity_Icon} track: is your marker the furthest ahead of all (ties included)?"
+ },
+ "G3Possesso.3": {
+  "full": "Yes."
+ },
+ "G3Possesso.4": {
+  "full": "No."
+ },
+ "Punteggio.1": {
+  "full": "**Scoring**"
+ },
+ "Punteggio.2": {
+  "full": "Each Estate Upgrade is worth 1VP."
+ },
+ "Punteggio.3": {
+  "full": "Add the points of the Vanity Estate Upgrades."
+ },
+ "Punteggio.4": {
+  "full": "-3VP for each Maladjustment received at the End of this Generation."
+ },
+ "Punteggio.5": {
+  "full": "THE PLAYER WITH THE MOST POINTS WINS THE GAME."
+ },
+ "Punteggio.6": {
+  "full": "Click to record the scores for posterity..."
+ },
+ "FinaleSquarciato.1": {
+  "full": "**The Torn Veil**"
+ },
+ "FinaleSquarciato.2": {
+  "full": "**Letter from {0} to Dr Halász – *1923.***"
+ },
+ "FinaleSquarciato.3": {
+  "full": "Dear Doctor, you ask me what happened on the night of 31 December 1905. I will tell you, even though you will not believe me, and even though you need only step out of the sacristy and take a few steps across the square to see it with your own eyes."
+ },
+ "FinaleSquarciato.4": {
+  "full": "We voted to open. The Telegraph, or the medium, or our joined hands (I no longer know which was the key) turned in the lock, and the veil tore like an old curtain. There was no flash, no thunder. Only a great cold, and then the door of the hall opening by itself, and people coming in. People we knew. People we had buried."
+ },
+ "FinaleSquarciato.5": {
+  "full": "They stayed. In {0} the dead walk with the living, sit at their tables, vote in the council, complain about the price of bread. At first you could tell them apart: they were paler, quieter, and cast no shadow. Now it is no longer so simple."
+ },
+ "FinaleSquarciato.6": {
+  "full": "You ask me from which side of the veil I am writing to you. Honestly, Doctor, some years ago I stopped asking myself."
+ },
+ "FinaleSquarciato.7": {
+  "full": "THE END?"
+ },
+ "FinaleSilenzio.1": {
+  "full": "**The Great Silence**"
+ },
+ "FinaleSilenzio.3": {
+  "full": "Dear Doctor, the Telegraph was finished. One had only to turn a dial to hear Father's voice; one had only to turn it the other way to close the door for ever. We voted to close it."
+ },
+ "FinaleSilenzio.4": {
+  "full": "The machine screamed for an hour, then fell silent. Since that night no séance has ever worked again: not in {0}, not in Vienna, not in London. Tables stay on the floor, mediums have taken to the stage, and your Society studies nothing with great rigour. I apologise."
+ },
+ "FinaleSilenzio.5": {
+  "full": "Father's voice, too, stayed on the other side. We will never know what he wanted to tell us. Sometimes, at night, I lay my hand on the wall of my room, the one where they used to knock, and wait. The wall is cold, and mute, and I sleep very well."
+ },
+ "FinaleSilenzio.6": {
+  "full": "That is what I cannot forgive myself."
+ },
+ "FinaleTruffa.1": {
+  "full": "**The Great Fraud**"
+ },
+ "FinaleTruffa.3": {
+  "full": "Dear Doctor, it was all a trick. Dr Lukács had always said so, and in the end we proved it in front of all {0}: threads of black silk to lift the table, a smith in on it for the knocking in the walls, gauze and phosphorus for the ectoplasm, and a network of informers (widows, innkeepers, the sexton) who told the Circle everyone's secrets. The voices of the dead were the voices of the living, well paid."
+ },
+ "FinaleTruffa.4": {
+  "full": "Our family became famous. We wrote books, gave lectures in Budapest and Paris, exposed thirty-two mediums in eleven countries. Your Society even awarded us a medal, which I keep in a drawer."
+ },
+ "FinaleTruffa.5": {
+  "full": "I am writing, though, to tell you something I have never said in public. The smith, when questioned, confessed to having knocked on the walls of the estate for twenty years, on the Circle's orders. But the knocking on the first night, on 2 November 1848, was not his doing: he was six years old at the time."
+ },
+ "FinaleTruffa.6": {
+  "full": "And on certain nights, even today, someone knocks at the estate. One knock, then two, then one."
+ },
+ "FinaleVoce.1": {
+  "full": "**Father's Voice**"
+ },
+ "FinaleVoce.3": {
+  "full": "Dear Doctor, the Telegraph tapped for three days and three nights. The needle ran over the bone keys faster than we could transcribe, and we took turns at the table, in two-hour shifts, our fingers black with ink. It was him, beyond any doubt: the same abbreviations, the same spelling mistakes, the same impatience as in the Journal."
+ },
+ "FinaleVoce.4": {
+  "full": "He did not ask how we were. He did not tell us what it was like on the other side. He dictated, and nothing else: formulae, tables, drawings described point by point. It was the last part of his Masterwork, the part death had kept him from finishing. At the end of the third night the needle stopped, went back to the centre and tapped out one last sentence: *\"Now leave me in peace.\"*"
+ },
+ "FinaleVoce.5": {
+  "full": "We did. The Masterwork is finished, Doctor, and was published under his name. The Telegraph is dismantled, in the attic. We have never switched it on again."
+ },
+ "FinaleVoce.6": {
+  "full": "Not out of respect: for fear that someone else might answer."
+ },
+ "FinaleRogo.1": {
+  "full": "**The Pyre**"
+ },
+ "FinaleRogo.3": {
+  "full": "Dear Doctor, the Church won, and it was not a gentle victory. The bishop came to {0} in the spring of 1906 with a decree, two gendarmes and a list of names. Our family was at the top."
+ },
+ "FinaleRogo.4": {
+  "full": "The Circle's premises burned on the night of Pentecost. The fire, somehow, leapt the road and reached the estate. The greenhouses burned, the cages, the laboratory, the volumes of the Journal. The Telegraph, as it melted, made a sound the firemen described as a wail."
+ },
+ "FinaleRogo.5": {
+  "full": "On the ashes the bishop had a chapel built, dedicated to the souls in purgatory. I go there every Sunday, like everyone. The priest says its walls are the quietest in the diocese, and he is right: no one ever knocks there."
+ },
+ "FinaleRogo.6": {
+  "full": "But in the crypt, beneath the altar, where the laboratory used to be, the sexton stopped going down years ago."
+ },
+ "FinaleSocieta.1": {
+  "full": "**The Society of the Last Hour**"
+ },
+ "FinaleSocieta.3": {
+  "full": "Dear Doctor, you ask me who governs {0}. Formally the town council, and a mayor who still bears the Bódi name. In practice, since that night in 1905, every decision passes first across a little table."
+ },
+ "FinaleSocieta.4": {
+  "full": "The Great Séance ended with our family at the head of the Circle of the Last Hour, and the Circle welcomed us as one welcomes a long-awaited heir. The undertaker's, the bank, the newspaper, the school: everything belongs to us, or to someone who owes us a favour. The widows bless us. So, they say, do the dead."
+ },
+ "FinaleSocieta.5": {
+  "full": "Do not imagine it is a comfortable power. Every Thursday evening we consult those who came before us, and the dead are demanding counsellors: they forget nothing, forgive nothing, and have all the time in the world."
+ },
+ "FinaleSocieta.6": {
+  "full": "I write to you with their permission. They asked me to tell you that your work has been noticed, and that, whenever you wish, there will be a chair for you too at our table. I advise you not to wish it."
+ },
+ "FinalePossessione.1": {
+  "full": "**Possession**"
+ },
+ "FinalePossessione.3": {
+  "full": "Dear Doctor, I recognise you by your handwriting. You, on the other hand, will not recognise mine: it is not that of the person who signs this letter. Since the night of the Great Séance, when the vial broke in the hands of {0}, this hand has written for me."
+ },
+ "FinalePossessione.4": {
+  "full": "Allow me to introduce myself, though perhaps you have already understood: Eszter Vámos, consoler. For half a century they called me a fraud, a witch, a prophetess, a saint. They were all a little right. The secret of eternal life, Doctor, was never for sale: it was in that vial. One had only to find the right person, mad enough to let me in."
+ },
+ "FinalePossessione.5": {
+  "full": "This body is younger than mine, and has warmer hands: I use it with care. I write to you because you are reading my minutes, and I have always had a soft spot for those who read me attentively."
+ },
+ "FinalePossessione.6": {
+  "full": "Come and see me, when you have finished. I will keep an empty chair for you."
+ },
+ "FinaleNebbia.1": {
+  "full": "**The Eternal Fog**"
+ },
+ "FinaleNebbia.2": {
+  "full": "**Dr Halász's note – *1923.***"
+ },
+ "FinaleNebbia.3": {
+  "full": "I searched for a long time for a living heir to question, as I did for the other documents in the file. I found none. The papers stop on the night of 31 December 1905, halfway through a record: the veil was torn, and the family voted not to cross it. Then, says the last line, \"the fog came in through the windows\"."
+ },
+ "FinaleNebbia.4": {
+  "full": "Since 1906 {0} no longer appears on any map. Trains do not stop there, the telegraph does not answer, and travellers who try to reach it tell of walking for hours in a white fog, around a cemetery, before finding themselves back where they started."
+ },
+ "FinaleNebbia.5": {
+  "full": "You will ask me, then, where I found these crates. I ask myself too. I remember the evening train, the umbrella, the kind and very tired priest. I do not remember how I left the village."
+ },
+ "FinaleNebbia.6": {
+  "full": "I am writing from my study in Budapest. From the window, for three days, I have seen nothing but fog. And someone, politely, is knocking."
+ }
+}

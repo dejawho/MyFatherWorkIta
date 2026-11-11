@@ -3,7 +3,7 @@
  * Output is spoiler-free (counts, anonymous ending labels); details go to the report file
  * or are printed with --spoilers.
  *
- * Usage: node tools/story-tester/src/cli.ts [id] [--content content] [--players 2,3,4,5]
+ * Usage: node tools/story-tester/src/cli.ts [id] [--content content] [--players 2,3,4,5 (or tester.json)]
  *          [--max-states N] [--seconds N] [--spoilers] [--reports build/reports]
  *
  * Known, accepted issues live in content/<id>/known-issues.json:
@@ -28,7 +28,8 @@ const { values, positionals } = parseArgs({
   options: {
     content: { type: 'string', default: 'content' },
     reports: { type: 'string', default: 'build/reports' },
-    players: { type: 'string', default: '2,3,4,5' },
+    // Default: the scenario's own (content/<id>/tester.json, `{ "players": "2,3,4" }`), else 2–5.
+    players: { type: 'string' },
     seconds: { type: 'string', default: '240' },
     plateau: { type: 'string', default: '30' },
     seed: { type: 'string', default: '1' },
@@ -58,7 +59,8 @@ const candidates = promptCandidates(scenario, ['townname']);
 const setupChoices = new Map([['townname', candidates.get('townname')!]]);
 const control = controlVariables(scenario);
 console.log(`  ${control.size} of ${Object.keys(scenario.variables).length} variables decide the path`);
-const playerCounts = values.players.split(',').map(Number);
+const settings = existsSync(join(dir, 'tester.json')) ? read<{ players?: string }>('tester.json') : {};
+const playerCounts = (values.players ?? settings.players ?? '2,3,4,5').split(',').map(Number);
 const perRun = Number(values.seconds) * 1000 / playerCounts.length;
 const runs: { players: number; r: ExploreResult }[] = [];
 const branches = new Map<IfNode, Set<number>>();

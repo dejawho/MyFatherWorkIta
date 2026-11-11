@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "../../build/types/scenario-author",
+    "tsBuildInfoFile": "../../build/types/scenario-author.tsbuildinfo"
+  },
+  "include": ["src"],
+  "references": [{ "path": "../../engine" }]
+}

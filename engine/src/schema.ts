@@ -229,6 +229,11 @@ export interface StringEntry {
    * the flag tracks what is left to review.
    */
   shortReviewed?: boolean;
+  /**
+   * Not translated yet: `full` repeats the text of the language the story was written in
+   * (scenarios written for this project, tools/scenario-author). Voice-over skips it.
+   */
+  untranslated?: boolean;
 }
 
 /** One language: key → text. */
@@ -268,13 +273,23 @@ export interface AssetManifest {
   missing: string[];
 }
 
+/** A generated narrator: it reads the story in one language. */
+export interface GeneratedVoice {
+  /** Name shown in the settings. */
+  label: string;
+  /** The language of the text it reads (`en`, `it`, …). */
+  language: string;
+  /** The original recording it stands in for in other versions and languages. */
+  like: 'female' | 'male';
+}
+
 /**
  * Generated voice-over (`assets/voices.json`, written by tools/voice): voices beside the
  * original recordings, and per passage and voice a clip for each reading mode with its own text.
  */
 export interface GeneratedVoices {
-  /** Voice id → name shown in the settings. */
-  voices: Record<string, string>;
+  /** Voice id → the voice. */
+  voices: Record<string, GeneratedVoice>;
   clips: Record<string, Record<string, Partial<Record<ReadingMode, string>>>>;
   /** Scenario id → its introduction's passage, for the voice test page. */
   intros?: Record<string, string>;
