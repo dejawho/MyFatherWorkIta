@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.9.1](https://github.com/dejawho/MyFatherWorkIta/compare/v0.9.0...v0.9.1) (2026-11-11)
+
+
+### Bug Fixes
+
+* about names Pigro as the author of this version ([3630b78](https://github.com/dejawho/MyFatherWorkIta/commit/3630b78a10e57d00c4e2114e796ac6be5793bee0))
+* bug reports and source links lead to this repository, with credit to the original app ([33d47ea](https://github.com/dejawho/MyFatherWorkIta/commit/33d47ea0b59af8d6bea7ed73d7edc4f1df89a91a))
+
 ## [0.9.0](https://github.com/dejawho/MyFatherWorkIta/compare/v0.8.0...v0.9.0) (2026-11-11)
 
 
