@@ -55,7 +55,7 @@ export class Voices {
         if (mode !== 'full' && paragraphs.every((p, i) => p === full[i])) return [];
         const narrators = this.library
           .allVoices()
-          .filter((v) => mode === 'full' || !v.original)
+          .filter((v) => v.language === 'en' && (mode === 'full' || !v.original))
           .map((v) => ({ ...v, src: this.library.voiceOver(passage, v.value, mode) }));
         return [{ mode, label, paragraphs, narrators }];
       });

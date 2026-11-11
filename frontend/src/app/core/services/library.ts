@@ -6,6 +6,7 @@ import {
   type ReadingMode,
   type UiText,
 } from '@chronicle/engine';
+import { NO_VOICE, narratorsFor, standIn, type VoiceChoice } from '../utils/narrators';
 import { I18n } from './i18n';
 import { Settings } from './settings';
 
@@ -13,22 +14,12 @@ const BASE = 'content';
 
 /**
  * The original app's voices, named by its screen texts. They only read the original English
- * text; with another version or language the generated `standIn` takes over.
+ * text; with another version or language a generated voice `like` them takes over.
  */
 const ORIGINAL_VOICES = [
-  {
-    value: 'female',
-    key: 'UI/VoiceTrack/Viewarea/Prompt/Female/Lable',
-    fallback: 'Feminine',
-    standIn: 'emma',
-  },
-  {
-    value: 'male',
-    key: 'UI/VoiceTrack/Viewarea/Prompt/Male/Lable',
-    fallback: 'Masculine',
-    standIn: 'george',
-  },
-];
+  { value: 'female', key: 'UI/VoiceTrack/Viewarea/Prompt/Female/Lable', fallback: 'Feminine' },
+  { value: 'male', key: 'UI/VoiceTrack/Viewarea/Prompt/Male/Lable', fallback: 'Masculine' },
+] as const;
 
 /**
  * Content shared by all scenarios: the original app's screen texts and the asset manifest
@@ -59,15 +50,13 @@ export class Library {
         .catch(() => ({}))
         .then((texts) => this.translations.update((t) => ({ ...t, [language]: texts })));
     });
-    // An original narrator chosen while the text is not the original: its stand-in reads instead.
+    // A narrator that cannot read the text chosen now (another language or version): a voice
+    // like it takes over, so female stays female from English to Italian and back.
     effect(() => {
+      if (!Object.keys(this.generated().voices).length) return; // not loaded yet
       const voice = this.settings.voice();
-      const original = ORIGINAL_VOICES.find((v) => v.value === voice);
-      const voices = this.generated().voices;
-      if (original && !this.originalText() && Object.keys(voices).length)
-        this.settings.voice.set(
-          original.standIn in voices ? original.standIn : Object.keys(voices)[0]!,
-        );
+      const instead = standIn(voice, this.voices(), this.allVoices());
+      if (instead !== voice) this.settings.voice.set(instead);
     });
   }
 
@@ -77,22 +66,34 @@ export class Library {
   );
 
   /** Every voice: the original recordings, then the generated voices. */
-  readonly allVoices = computed(() => [
+  readonly allVoices = computed<VoiceChoice[]>(() => [
     ...ORIGINAL_VOICES.map((v) => ({
       value: v.value,
       label: this.tr('{0} (original)', this.text(v.key, v.fallback)),
       original: true,
+      language: 'en',
+      like: v.value,
     })),
-    ...Object.entries(this.generated().voices).map(([value, name]) => ({
+    ...Object.entries(this.generated().voices).map(([value, v]) => ({
       value,
-      label: this.tr('{0} (generated)', name),
+      label: this.tr('{0} (generated)', v.label),
       original: false,
+      language: v.language,
+      like: v.like,
     })),
   ]);
 
-  /** Voice choices: the original recordings only with the original text. */
-  readonly voices = computed(() =>
-    this.allVoices().filter((v) => this.originalText() || !v.original),
+  /**
+   * Narrator choices: the voices that read the story in the chosen language (the original
+   * recordings only the original English text), then no voice at all.
+   */
+  readonly voices = computed<VoiceChoice[]>(() =>
+    narratorsFor(this.allVoices(), this.settings.language(), this.originalText(), {
+      value: NO_VOICE,
+      label: this.tr('No voice'),
+      original: false,
+      language: '',
+    }),
   );
 
   /** Scenario id → its introduction's passage (voice test page). */

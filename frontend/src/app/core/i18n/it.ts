@@ -157,10 +157,11 @@ export const IT: Record<string, string> = {
   'Sound effects': 'Effetti sonori',
   'Easy and Short change only the story, never the rules. Pages without them yet show the original.':
     "Facile e Breve cambiano solo la storia, mai le regole. Le pagine che non le hanno ancora mostrano l'originale.",
-  'The original recordings only read the original English text.':
-    'La voce narrante legge solo il testo inglese: in italiano non ce n’è ancora una.',
+  'The original recordings only read the original English text. Each language has its own generated voices.':
+    'Le registrazioni originali leggono solo il testo inglese originale. Ogni lingua ha le sue voci generate.',
   '{0} (original)': '{0} (originale)',
   '{0} (generated)': '{0} (generata)',
+  'No voice': 'Nessuna voce',
 
   // Help
   Playing: 'Giocare',
@@ -213,11 +214,11 @@ export const IT: Record<string, string> = {
   'Version of the story': 'Versione della storia',
   '**Original** is the story as it was written. **Easy** tells it in plain English, for players whose first language isn’t English; **Short** tells it in about a third of the words. Both are in beta. They change only the story – instructions and rules stay word for word – and a page without its own Easy or Short text shows the original. Switch at any time, also during a game.':
     "**Originale** è la storia così come è stata scritta. **Facile** la racconta in un linguaggio semplice; **Breve** la racconta con circa un terzo delle parole. Entrambe sono in beta. Cambiano solo la storia (istruzioni e regole restano parola per parola) e una pagina senza un proprio testo Facile o Breve mostra l'originale. Potete cambiare in qualsiasi momento, anche durante una partita.",
-  'Some pages are read aloud. The original recordings read only the original text; the generated voices also read Easy and Short.':
-    'Alcune pagine vengono lette ad alta voce, solo in inglese. Le registrazioni originali leggono solo il testo originale; le voci generate leggono anche Facile e Breve.',
+  'Some pages are read aloud, unless you choose No voice. The original recordings read only the original English text; the generated voices also read Easy and Short, each in its own language.':
+    'Alcune pagine vengono lette ad alta voce, a meno che non scegliate Nessuna voce. Le registrazioni originali leggono solo il testo inglese originale; le voci generate leggono anche Facile e Breve, ognuna nella sua lingua.',
   Language: 'Lingua',
-  'Chronicle speaks English and Italian. A text not translated yet stays in English, and the voice-over reads only the English text.':
-    'Chronicle parla inglese e italiano. Un testo non ancora tradotto resta in inglese, e la voce narrante legge solo il testo inglese.',
+  'Chronicle speaks English and Italian. A text not translated yet stays in English. The narrator reads in the chosen language; a page not translated yet is not read aloud.':
+    'Chronicle parla inglese e italiano. Un testo non ancora tradotto resta in inglese. La voce narrante legge nella lingua scelta; una pagina non ancora tradotta non viene letta.',
   'Light or dark paper; Automatic follows your device.':
     'Carta chiara o scura; Automatica segue il tuo dispositivo.',
   'Your device’s Back button': 'Il tasto Indietro del dispositivo',
@@ -264,4 +265,9 @@ export const IT: Record<string, string> = {
   'MIT licence': 'licenza MIT',
   'Fonts: EB Garamond, IM Fell English SC and Cinzel (SIL Open Font License).':
     'Caratteri: EB Garamond, IM Fell English SC e Cinzel (SIL Open Font License).',
+
+  // Fan-made scenarios
+  'The Thinning Veil': 'Il Velo Sottile',
+  "An unofficial, fan-made scenario: the dead knock at the walls of your father's estate. It uses some components of The Cost of Disease.":
+    'Uno scenario non ufficiale, creato dai fan: i morti bussano alle pareti della tenuta di vostro padre. Usa alcuni componenti di The Cost of Disease.',
 };

@@ -10,6 +10,16 @@
     "easy": "audio/voice/george/atimeofwarintro-easy.mp3",
     "full": "audio/voice/george/atimeofwarintro.mp3",
     "short": "audio/voice/george/atimeofwarintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/atimeofwarintro-easy.mp3",
+    "full": "audio/voice/nicola/atimeofwarintro.mp3",
+    "short": "audio/voice/nicola/atimeofwarintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/atimeofwarintro-easy.mp3",
+    "full": "audio/voice/sara/atimeofwarintro.mp3",
+    "short": "audio/voice/sara/atimeofwarintro-short.mp3"
    }
   },
   "CreatureDemands": {
@@ -22,6 +32,16 @@
     "easy": "audio/voice/george/creaturedemands-easy.mp3",
     "full": "audio/voice/george/creaturedemands.mp3",
     "short": "audio/voice/george/creaturedemands-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/creaturedemands-easy.mp3",
+    "full": "audio/voice/nicola/creaturedemands.mp3",
+    "short": "audio/voice/nicola/creaturedemands-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/creaturedemands-easy.mp3",
+    "full": "audio/voice/sara/creaturedemands.mp3",
+    "short": "audio/voice/sara/creaturedemands-short.mp3"
    }
   },
   "CreatureIntro": {
@@ -34,6 +54,16 @@
     "easy": "audio/voice/george/creatureintro-easy.mp3",
     "full": "audio/voice/george/creatureintro.mp3",
     "short": "audio/voice/george/creatureintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/creatureintro-easy.mp3",
+    "full": "audio/voice/nicola/creatureintro.mp3",
+    "short": "audio/voice/nicola/creatureintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/creatureintro-easy.mp3",
+    "full": "audio/voice/sara/creatureintro.mp3",
+    "short": "audio/voice/sara/creatureintro-short.mp3"
    }
   },
   "DevastationIntro": {
@@ -46,6 +76,16 @@
     "easy": "audio/voice/george/devastationintro-easy.mp3",
     "full": "audio/voice/george/devastationintro.mp3",
     "short": "audio/voice/george/devastationintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/devastationintro-easy.mp3",
+    "full": "audio/voice/nicola/devastationintro.mp3",
+    "short": "audio/voice/nicola/devastationintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/devastationintro-easy.mp3",
+    "full": "audio/voice/sara/devastationintro.mp3",
+    "short": "audio/voice/sara/devastationintro-short.mp3"
    }
   },
   "FearoftheUnknownStart": {
@@ -58,6 +98,16 @@
     "easy": "audio/voice/george/fearoftheunknownstart-easy.mp3",
     "full": "audio/voice/george/fearoftheunknownstart.mp3",
     "short": "audio/voice/george/fearoftheunknownstart-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/fearoftheunknownstart-easy.mp3",
+    "full": "audio/voice/nicola/fearoftheunknownstart.mp3",
+    "short": "audio/voice/nicola/fearoftheunknownstart-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/fearoftheunknownstart-easy.mp3",
+    "full": "audio/voice/sara/fearoftheunknownstart.mp3",
+    "short": "audio/voice/sara/fearoftheunknownstart-short.mp3"
    }
   },
   "ForeignIntro": {
@@ -70,6 +120,58 @@
     "easy": "audio/voice/george/foreignintro-easy.mp3",
     "full": "audio/voice/george/foreignintro.mp3",
     "short": "audio/voice/george/foreignintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/foreignintro-easy.mp3",
+    "full": "audio/voice/nicola/foreignintro.mp3",
+    "short": "audio/voice/nicola/foreignintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/foreignintro-easy.mp3",
+    "full": "audio/voice/sara/foreignintro.mp3",
+    "short": "audio/voice/sara/foreignintro-short.mp3"
+   }
+  },
+  "G1Intro": {
+   "emma": {
+    "full": "audio/voice/emma/g1intro.mp3"
+   },
+   "george": {
+    "full": "audio/voice/george/g1intro.mp3"
+   },
+   "nicola": {
+    "full": "audio/voice/nicola/g1intro.mp3"
+   },
+   "sara": {
+    "full": "audio/voice/sara/g1intro.mp3"
+   }
+  },
+  "G2Intro": {
+   "emma": {
+    "full": "audio/voice/emma/g2intro.mp3"
+   },
+   "george": {
+    "full": "audio/voice/george/g2intro.mp3"
+   },
+   "nicola": {
+    "full": "audio/voice/nicola/g2intro.mp3"
+   },
+   "sara": {
+    "full": "audio/voice/sara/g2intro.mp3"
+   }
+  },
+  "G3Intro": {
+   "emma": {
+    "full": "audio/voice/emma/g3intro.mp3"
+   },
+   "george": {
+    "full": "audio/voice/george/g3intro.mp3"
+   },
+   "nicola": {
+    "full": "audio/voice/nicola/g3intro.mp3"
+   },
+   "sara": {
+    "full": "audio/voice/sara/g3intro.mp3"
    }
   },
   "GloomyHunterIntro": {
@@ -82,6 +184,16 @@
     "easy": "audio/voice/george/gloomyhunterintro-easy.mp3",
     "full": "audio/voice/george/gloomyhunterintro.mp3",
     "short": "audio/voice/george/gloomyhunterintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/gloomyhunterintro-easy.mp3",
+    "full": "audio/voice/nicola/gloomyhunterintro.mp3",
+    "short": "audio/voice/nicola/gloomyhunterintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/gloomyhunterintro-easy.mp3",
+    "full": "audio/voice/sara/gloomyhunterintro.mp3",
+    "short": "audio/voice/sara/gloomyhunterintro-short.mp3"
    }
   },
   "GloomyWolvesIntro": {
@@ -94,6 +206,16 @@
     "easy": "audio/voice/george/gloomywolvesintro-easy.mp3",
     "full": "audio/voice/george/gloomywolvesintro.mp3",
     "short": "audio/voice/george/gloomywolvesintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/gloomywolvesintro-easy.mp3",
+    "full": "audio/voice/nicola/gloomywolvesintro.mp3",
+    "short": "audio/voice/nicola/gloomywolvesintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/gloomywolvesintro-easy.mp3",
+    "full": "audio/voice/sara/gloomywolvesintro.mp3",
+    "short": "audio/voice/sara/gloomywolvesintro-short.mp3"
    }
   },
   "Hospitalintro": {
@@ -106,6 +228,16 @@
     "easy": "audio/voice/george/hospitalintro-easy.mp3",
     "full": "audio/voice/george/hospitalintro.mp3",
     "short": "audio/voice/george/hospitalintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/hospitalintro-easy.mp3",
+    "full": "audio/voice/nicola/hospitalintro.mp3",
+    "short": "audio/voice/nicola/hospitalintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/hospitalintro-easy.mp3",
+    "full": "audio/voice/sara/hospitalintro.mp3",
+    "short": "audio/voice/sara/hospitalintro-short.mp3"
    }
   },
   "IntroMartial-Monarchists": {
@@ -118,6 +250,16 @@
     "easy": "audio/voice/george/intromartial-monarchists-easy.mp3",
     "full": "audio/voice/george/intromartial-monarchists.mp3",
     "short": "audio/voice/george/intromartial-monarchists-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/intromartial-monarchists-easy.mp3",
+    "full": "audio/voice/nicola/intromartial-monarchists.mp3",
+    "short": "audio/voice/nicola/intromartial-monarchists-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/intromartial-monarchists-easy.mp3",
+    "full": "audio/voice/sara/intromartial-monarchists.mp3",
+    "short": "audio/voice/sara/intromartial-monarchists-short.mp3"
    }
   },
   "IntroMartial-Separatists": {
@@ -130,6 +272,16 @@
     "easy": "audio/voice/george/intromartial-separatists-easy.mp3",
     "full": "audio/voice/george/intromartial-separatists.mp3",
     "short": "audio/voice/george/intromartial-separatists-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/intromartial-separatists-easy.mp3",
+    "full": "audio/voice/nicola/intromartial-separatists.mp3",
+    "short": "audio/voice/nicola/intromartial-separatists-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/intromartial-separatists-easy.mp3",
+    "full": "audio/voice/sara/intromartial-separatists.mp3",
+    "short": "audio/voice/sara/intromartial-separatists-short.mp3"
    }
   },
   "IsolationIntro": {
@@ -142,6 +294,16 @@
     "easy": "audio/voice/george/isolationintro-easy.mp3",
     "full": "audio/voice/george/isolationintro.mp3",
     "short": "audio/voice/george/isolationintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/isolationintro-easy.mp3",
+    "full": "audio/voice/nicola/isolationintro.mp3",
+    "short": "audio/voice/nicola/isolationintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/isolationintro-easy.mp3",
+    "full": "audio/voice/sara/isolationintro.mp3",
+    "short": "audio/voice/sara/isolationintro-short.mp3"
    }
   },
   "LiberalIntro": {
@@ -154,6 +316,16 @@
     "easy": "audio/voice/george/liberalintro-easy.mp3",
     "full": "audio/voice/george/liberalintro.mp3",
     "short": "audio/voice/george/liberalintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/liberalintro-easy.mp3",
+    "full": "audio/voice/nicola/liberalintro.mp3",
+    "short": "audio/voice/nicola/liberalintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/liberalintro-easy.mp3",
+    "full": "audio/voice/sara/liberalintro.mp3",
+    "short": "audio/voice/sara/liberalintro-short.mp3"
    }
   },
   "MonarchReignIntro": {
@@ -166,6 +338,16 @@
     "easy": "audio/voice/george/monarchreignintro-easy.mp3",
     "full": "audio/voice/george/monarchreignintro.mp3",
     "short": "audio/voice/george/monarchreignintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/monarchreignintro-easy.mp3",
+    "full": "audio/voice/nicola/monarchreignintro.mp3",
+    "short": "audio/voice/nicola/monarchreignintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/monarchreignintro-easy.mp3",
+    "full": "audio/voice/sara/monarchreignintro.mp3",
+    "short": "audio/voice/sara/monarchreignintro-short.mp3"
    }
   },
   "NoUniversityIntro": {
@@ -178,6 +360,16 @@
     "easy": "audio/voice/george/nouniversityintro-easy.mp3",
     "full": "audio/voice/george/nouniversityintro.mp3",
     "short": "audio/voice/george/nouniversityintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/nouniversityintro-easy.mp3",
+    "full": "audio/voice/nicola/nouniversityintro.mp3",
+    "short": "audio/voice/nicola/nouniversityintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/nouniversityintro-easy.mp3",
+    "full": "audio/voice/sara/nouniversityintro.mp3",
+    "short": "audio/voice/sara/nouniversityintro-short.mp3"
    }
   },
   "ParadoxIntro": {
@@ -190,6 +382,16 @@
     "easy": "audio/voice/george/paradoxintro-easy.mp3",
     "full": "audio/voice/george/paradoxintro.mp3",
     "short": "audio/voice/george/paradoxintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/paradoxintro-easy.mp3",
+    "full": "audio/voice/nicola/paradoxintro.mp3",
+    "short": "audio/voice/nicola/paradoxintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/paradoxintro-easy.mp3",
+    "full": "audio/voice/sara/paradoxintro.mp3",
+    "short": "audio/voice/sara/paradoxintro-short.mp3"
    }
   },
   "PeaceIntro": {
@@ -202,6 +404,16 @@
     "easy": "audio/voice/george/peaceintro-easy.mp3",
     "full": "audio/voice/george/peaceintro.mp3",
     "short": "audio/voice/george/peaceintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/peaceintro-easy.mp3",
+    "full": "audio/voice/nicola/peaceintro.mp3",
+    "short": "audio/voice/nicola/peaceintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/peaceintro-easy.mp3",
+    "full": "audio/voice/sara/peaceintro.mp3",
+    "short": "audio/voice/sara/peaceintro-short.mp3"
    }
   },
   "PrivatizedIntro": {
@@ -214,6 +426,30 @@
     "easy": "audio/voice/george/privatizedintro-easy.mp3",
     "full": "audio/voice/george/privatizedintro.mp3",
     "short": "audio/voice/george/privatizedintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/privatizedintro-easy.mp3",
+    "full": "audio/voice/nicola/privatizedintro.mp3",
+    "short": "audio/voice/nicola/privatizedintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/privatizedintro-easy.mp3",
+    "full": "audio/voice/sara/privatizedintro.mp3",
+    "short": "audio/voice/sara/privatizedintro-short.mp3"
+   }
+  },
+  "Prologo": {
+   "emma": {
+    "full": "audio/voice/emma/prologo.mp3"
+   },
+   "george": {
+    "full": "audio/voice/george/prologo.mp3"
+   },
+   "nicola": {
+    "full": "audio/voice/nicola/prologo.mp3"
+   },
+   "sara": {
+    "full": "audio/voice/sara/prologo.mp3"
    }
   },
   "ProsperityHunterIntro": {
@@ -226,6 +462,16 @@
     "easy": "audio/voice/george/prosperityhunterintro-easy.mp3",
     "full": "audio/voice/george/prosperityhunterintro.mp3",
     "short": "audio/voice/george/prosperityhunterintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/prosperityhunterintro-easy.mp3",
+    "full": "audio/voice/nicola/prosperityhunterintro.mp3",
+    "short": "audio/voice/nicola/prosperityhunterintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/prosperityhunterintro-easy.mp3",
+    "full": "audio/voice/sara/prosperityhunterintro.mp3",
+    "short": "audio/voice/sara/prosperityhunterintro-short.mp3"
    }
   },
   "ProsperityWolvesIntro": {
@@ -238,6 +484,16 @@
     "easy": "audio/voice/george/prosperitywolvesintro-easy.mp3",
     "full": "audio/voice/george/prosperitywolvesintro.mp3",
     "short": "audio/voice/george/prosperitywolvesintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/prosperitywolvesintro-easy.mp3",
+    "full": "audio/voice/nicola/prosperitywolvesintro.mp3",
+    "short": "audio/voice/nicola/prosperitywolvesintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/prosperitywolvesintro-easy.mp3",
+    "full": "audio/voice/sara/prosperitywolvesintro.mp3",
+    "short": "audio/voice/sara/prosperitywolvesintro-short.mp3"
    }
   },
   "Scenario5Start": {
@@ -250,6 +506,16 @@
     "easy": "audio/voice/george/scenario5start-easy.mp3",
     "full": "audio/voice/george/scenario5start.mp3",
     "short": "audio/voice/george/scenario5start-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/scenario5start-easy.mp3",
+    "full": "audio/voice/nicola/scenario5start.mp3",
+    "short": "audio/voice/nicola/scenario5start-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/scenario5start-easy.mp3",
+    "full": "audio/voice/sara/scenario5start.mp3",
+    "short": "audio/voice/sara/scenario5start-short.mp3"
    }
   },
   "TTIntro3": {
@@ -262,6 +528,16 @@
     "easy": "audio/voice/george/ttintro3-easy.mp3",
     "full": "audio/voice/george/ttintro3.mp3",
     "short": "audio/voice/george/ttintro3-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/ttintro3-easy.mp3",
+    "full": "audio/voice/nicola/ttintro3.mp3",
+    "short": "audio/voice/nicola/ttintro3-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/ttintro3-easy.mp3",
+    "full": "audio/voice/sara/ttintro3.mp3",
+    "short": "audio/voice/sara/ttintro3-short.mp3"
    }
   },
   "TensionIntro": {
@@ -274,6 +550,16 @@
     "easy": "audio/voice/george/tensionintro-easy.mp3",
     "full": "audio/voice/george/tensionintro.mp3",
     "short": "audio/voice/george/tensionintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/tensionintro-easy.mp3",
+    "full": "audio/voice/nicola/tensionintro.mp3",
+    "short": "audio/voice/nicola/tensionintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/tensionintro-easy.mp3",
+    "full": "audio/voice/sara/tensionintro.mp3",
+    "short": "audio/voice/sara/tensionintro-short.mp3"
    }
   },
   "TimeTravelintro1": {
@@ -286,6 +572,16 @@
     "easy": "audio/voice/george/timetravelintro1-easy.mp3",
     "full": "audio/voice/george/timetravelintro1.mp3",
     "short": "audio/voice/george/timetravelintro1-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/timetravelintro1-easy.mp3",
+    "full": "audio/voice/nicola/timetravelintro1.mp3",
+    "short": "audio/voice/nicola/timetravelintro1-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/timetravelintro1-easy.mp3",
+    "full": "audio/voice/sara/timetravelintro1.mp3",
+    "short": "audio/voice/sara/timetravelintro1-short.mp3"
    }
   },
   "UniversityIntro": {
@@ -298,6 +594,16 @@
     "easy": "audio/voice/george/universityintro-easy.mp3",
     "full": "audio/voice/george/universityintro.mp3",
     "short": "audio/voice/george/universityintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/universityintro-easy.mp3",
+    "full": "audio/voice/nicola/universityintro.mp3",
+    "short": "audio/voice/nicola/universityintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/universityintro-easy.mp3",
+    "full": "audio/voice/sara/universityintro.mp3",
+    "short": "audio/voice/sara/universityintro-short.mp3"
    }
   },
   "WarningEvent": {
@@ -310,6 +616,16 @@
     "easy": "audio/voice/george/warningevent-easy.mp3",
     "full": "audio/voice/george/warningevent.mp3",
     "short": "audio/voice/george/warningevent-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/warningevent-easy.mp3",
+    "full": "audio/voice/nicola/warningevent.mp3",
+    "short": "audio/voice/nicola/warningevent-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/warningevent-easy.mp3",
+    "full": "audio/voice/sara/warningevent.mp3",
+    "short": "audio/voice/sara/warningevent-short.mp3"
    }
   },
   "WarningIntro": {
@@ -322,16 +638,45 @@
     "easy": "audio/voice/george/warningintro-easy.mp3",
     "full": "audio/voice/george/warningintro.mp3",
     "short": "audio/voice/george/warningintro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/warningintro-easy.mp3",
+    "full": "audio/voice/nicola/warningintro.mp3",
+    "short": "audio/voice/nicola/warningintro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/warningintro-easy.mp3",
+    "full": "audio/voice/sara/warningintro.mp3",
+    "short": "audio/voice/sara/warningintro-short.mp3"
    }
   }
  },
  "intros": {
   "a-time-of-war": "ATimeofWarIntro",
   "cost-of-disease": "Scenario5Start",
-  "fear-of-the-unknown": "FearoftheUnknownStart"
+  "fear-of-the-unknown": "FearoftheUnknownStart",
+  "the-thinning-veil": "Prologo"
  },
  "voices": {
-  "emma": "Emma",
-  "george": "George"
+  "emma": {
+   "label": "Emma",
+   "language": "en",
+   "like": "female"
+  },
+  "george": {
+   "label": "George",
+   "language": "en",
+   "like": "male"
+  },
+  "nicola": {
+   "label": "Nicola",
+   "language": "it",
+   "like": "male"
+  },
+  "sara": {
+   "label": "Sara",
+   "language": "it",
+   "like": "female"
+  }
  }
 }

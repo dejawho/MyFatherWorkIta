@@ -29,10 +29,12 @@ installable web app that also works offline.
   English (_Easy_) or condensed (_Short_), switchable mid-game. Only the story is rewritten,
   never the rules – but these versions were written with AI help, are not fully reviewed yet
   and **can contain mistakes**. When in doubt, switch back to _Original_.
-- **Generated voices:** the pages that have voice-over in the original can also be read by two
-  generated voices (Emma and George, made with [Kokoro](https://github.com/hexgrad/kokoro)),
-  in all three versions – except a page that names a value only known during play. The
-  original recordings only read the original text.
+- **Generated voices:** the pages that have voice-over in the original can also be read by
+  generated voices, in all three versions – except a page that names a value only known during
+  play: Emma and George in English (made with [Kokoro](https://github.com/hexgrad/kokoro)),
+  Sara and Nicola in Italian (made with
+  [Chatterbox](https://github.com/resemble-ai/chatterbox)). The original recordings only read the
+  original English text, and the narrator can be turned off.
 - **Never loses a game:** saves on every step and resumes after a reload; log book, play time
   and an endings gallery for each scenario.
 - **Installable and offline:** a web app (PWA) for phones, tablets and computers – once

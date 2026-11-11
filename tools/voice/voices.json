@@ -6,7 +6,8 @@
  "intros": {
   "cost-of-disease": "Scenario5Start",
   "fear-of-the-unknown": "FearoftheUnknownStart",
-  "a-time-of-war": "ATimeofWarIntro"
+  "a-time-of-war": "ATimeofWarIntro",
+  "the-thinning-veil": "Prologo"
  },
  "paragraphPause": 0.6,
  "loudness": -14,
@@ -15,6 +16,8 @@
  "voices": {
   "emma": {
    "label": "Emma",
+   "language": "en",
+   "like": "female",
    "kokoro": "bf_emma",
    "lang": "en-gb",
    "speed": 0.95,
@@ -22,9 +25,29 @@
   },
   "george": {
    "label": "George",
+   "language": "en",
+   "like": "male",
    "kokoro": "bm_george",
    "lang": "en-gb",
    "speed": 0.95,
+   "filter": "equalizer=f=7000:t=q:w=1.2:g=-3,highshelf=f=9000:g=-3"
+  },
+  "sara": {
+   "label": "Sara",
+   "language": "it",
+   "like": "female",
+   "engine": "chatterbox",
+   "reference": "refs/sara.wav",
+   "lang": "it",
+   "filter": "deesser=i=1:m=0.8:f=0.4,equalizer=f=7000:t=q:w=1.2:g=-5,highshelf=f=9000:g=-3"
+  },
+  "nicola": {
+   "label": "Nicola",
+   "language": "it",
+   "like": "male",
+   "engine": "chatterbox",
+   "reference": "refs/nicola.wav",
+   "lang": "it",
    "filter": "equalizer=f=7000:t=q:w=1.2:g=-3,highshelf=f=9000:g=-3"
   }
  }

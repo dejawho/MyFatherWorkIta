@@ -1,7 +1,10 @@
 import { effect, Injectable, signal } from '@angular/core';
 import type { ReadingMode } from '@chronicle/engine';
 
-/** `female`/`male`: the original recordings; anything else a generated voice (Library.voices). */
+/**
+ * `female`/`male`: the original recordings; `none`: no voice-over; anything else a generated
+ * voice (Library.voices).
+ */
 export type Voice = string;
 /**
  * Languages of the story and the reading modes (versions) each one has; the settings only

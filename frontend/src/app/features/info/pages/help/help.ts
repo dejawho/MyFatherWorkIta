@@ -88,11 +88,11 @@ const SETTINGS: Topic[] = [
   },
   {
     title: 'Narrator',
-    text: 'Some pages are read aloud. The original recordings read only the original text; the generated voices also read Easy and Short.',
+    text: 'Some pages are read aloud, unless you choose No voice. The original recordings read only the original English text; the generated voices also read Easy and Short, each in its own language.',
   },
   {
     title: 'Language',
-    text: 'Chronicle speaks English and Italian. A text not translated yet stays in English, and the voice-over reads only the English text.',
+    text: 'Chronicle speaks English and Italian. A text not translated yet stays in English. The narrator reads in the chosen language; a page not translated yet is not read aloud.',
   },
   {
     title: 'Paper',
