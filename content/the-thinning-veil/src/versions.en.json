@@ -1,0 +1,802 @@
+{
+ "vi scrivo dal villaggio di cui vi avevo parlato, dove sono arrivato con il treno della sera e un ombrello che non è servito a nulla. Il parroco, un uomo gentile e molto stanco, mi ha consegnato le chiavi della sacrestia vecchia. Dietro un armadio di noce c'era una porta murata alla meglio; dietro la porta, sei casse di documenti.": {
+  "easy": "I am writing to you from the village I told you about. I arrived on the evening train, with an umbrella that did not help at all. The parish priest, a kind and very tired man, gave me the keys to the old sacristy. Behind a wooden wardrobe there was a door closed up with bricks. Behind the door there were six crates full of documents.",
+  "short": "I write from the village I told you of. The priest gave me the keys to the old sacristy: behind a bricked-up door were six crates of documents."
+ },
+ "Verbali di seduta, lettere mai spedite, pagine di diario strappate, ritagli della gazzetta locale, telegrammi con l'inchiostro ormai viola. Coprono cinquant'anni e tre generazioni della stessa famiglia: scienziati, o qualcosa che a loro piaceva chiamare così, che per mezzo secolo cercarono di parlare con i morti. E, a quanto pare, non sempre senza risposta.": {
+  "easy": "There are séance records, letters that were never sent, torn diary pages, articles from the local newspaper and old telegrams. They tell the story of fifty years and three generations of the same family: scientists, or so they called themselves, who for half a century tried to talk to the dead. And it seems that sometimes someone answered.",
+  "short": "Minutes, letters, diaries and telegrams: fifty years of a family of scientists who tried to speak with the dead. And sometimes, it seems, were answered."
+ },
+ "Ho deciso di ordinarli e di trascriverli prima di formulare qualunque giudizio. Il primo documento è il verbale di una veglia funebre. Vi chiedo di leggerlo come l'ho letto io: con lo scetticismo che la Società esige, e con la finestra chiusa.": {
+  "easy": "I decided to put the documents in order and copy them before I judge anything. The first document is about a wake. I ask you to read it the way I did: with the doubt the Society asks for, and with the window closed.",
+  "short": "I have sorted and copied them. The first is the record of a wake: read it with scepticism, and with the window shut."
+ },
+ "Da qualche giorno, quando attraversi {0}, la gente si fa il segno della croce. I bambini smettono di giocare, i cani abbassano la coda. Di notte, sotto la tua finestra, ci sono impronte di piedi nudi che arrivano fino al muro e poi non tornano indietro. Qualunque cosa sia, ha deciso che sei la persona più interessante del paese.": {
+  "easy": "For some days now, when you walk through {0}, people make the sign of the cross. Children stop playing and dogs lower their tails. At night, under your window, there are bare footprints: they go up to the wall and do not come back. Something has decided that you are the most interesting person in town.",
+  "short": "In {0} people cross themselves as you pass. Under your window, bare footprints lead to the wall and never come back. Something has chosen you."
+ },
+ "Una mattina, sulla soglia, trovi un regalo. È meglio non chiedersi da dove venga.": {
+  "easy": "One morning you find a gift in front of your door. It is better not to ask where it comes from."
+ },
+ "All'inizio è solo un brusio, come una stanza piena di gente nella casa accanto. Poi distingui le parole. Poi le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto.": {
+  "easy": "At first you hear only a murmur, like many people in a room of the house next door. Then you understand the words. Then you hear the voices: an old woman looking for a ring, a child who counts to a hundred and starts again, a man who always repeats the same address. None of them seems to know they are dead.",
+  "short": "First a murmur, then voices: an old woman seeking a ring, a child counting, a man repeating an address. None of them knows they are dead."
+ },
+ "Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.": {
+  "easy": "One morning you open the Journal and find a page you did not write. The handwriting leans backwards and the ink is still wet. The formula on the page has only one mistake, as if the writer wanted to see if you would notice.",
+  "short": "In the Journal is a page you did not write, the ink still wet, with a single mistake, like a test."
+ },
+ "Te ne accorgi. Sotto la correzione, qualcuno ha aggiunto una parola sola: *\"Bene.\"*": {
+  "easy": "You notice. Under your correction, someone has written one word: *\"Good.\"*"
+ },
+ "Il tuo nome gira per {0}: al mercato, in chiesa, nelle osterie. Alcuni lo dicono con paura, altri con ammirazione, tutti a bassa voce. Pochi giorni dopo un biglietto listato a lutto ti invita \"a una cena tra persone che non si rassegnano\"; dentro la busta, a titolo di cortesia, c'è del denaro.": {
+  "easy": "In {0} everyone talks about you: at the market, in church, in the taverns. Some are afraid, others admire you, but they all speak quietly. A few days later you receive a card with a black border: it invites you \"to a dinner among people who will not resign themselves\". Inside the envelope, as a kindness, there is money.",
+  "short": "All {0} is talking about you, quietly. A black-edged card invites you \"to a dinner among people who will not resign themselves\", with money inside."
+ },
+ "Il padre fu sepolto il giorno dei morti, sotto una pioggia sottile che non si decideva a cadere. Il villaggio venne al cimitero in buon numero, ma restò al di là del muretto: nessuno volle avvicinarsi alla fossa, e il becchino lavorò in fretta, senza guardare dentro. Si raccontava che il vecchio avesse passato gli ultimi anni chiuso nella tenuta con macchine che ronzavano di notte, e che dalle finestre del suo laboratorio uscisse, a volte, una luce di un colore che nessuno sapeva nominare.": {
+  "easy": "Father was buried on the Day of the Dead, under a light rain. Many people from the village came to the cemetery, but they stayed behind the low wall: no one wanted to go near the grave, and the gravedigger worked fast without looking in. People said that in his last years the old man had stayed shut up in the estate, with machines that made noise at night. Sometimes, from the windows of his laboratory, came a light of a strange colour that no one could describe.",
+  "short": "Father was buried on the Day of the Dead. The village kept behind the cemetery wall: people said the old man had worked at night on humming machines, amid lights of a nameless colour."
+ },
+ "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:": {
+  "easy": "The heirs had arrived the evening before by coach. Each came from a different city, with a trunk and the same letter from the notary. Now the estate was theirs, and so were the debts, the instruments, the animals in the cages and Father's Journal: a leather notebook full of notes, drawings and formulae. On the last page there was only one sentence, underlined twice, so hard that the pen had cut the paper:",
+  "short": "The heirs inherited the estate, the debts, the laboratory and Father's Journal. On its last page, one sentence, underlined so hard it cut the paper:"
+ },
+ "Padre Anzelm benedisse la salma, chiuse il libro delle preghiere e disse agli eredi, a voce abbastanza alta perché lo sentissero tutti, che avrebbe pregato per la loro anima con particolare impegno.": {
+  "easy": "Father Anzelm blessed the body and closed his prayer book. Then he told the heirs, loudly enough for everyone to hear, that he would pray very hard for their souls.",
+  "short": "Father Anzelm blessed the body and promised, loudly, to pray hard for the heirs' souls."
+ },
+ "Non riesco a dormire. La camera che mi hanno dato era quella di nostro padre: il letto ha ancora la forma del suo corpo, e l'aria sa di canfora e di acido. Ho spento la candela da un'ora quando sento il primo colpo.": {
+  "easy": "I cannot sleep. They gave me our father's room: the bed still has the shape of his body and the air smells of camphor and acid. I put out the candle an hour ago, and then I hear the first knock.",
+  "short": "I lie awake in our father's room. Then I hear the first knock."
+ },
+ "Viene dalla parete dietro la testiera. Un colpo secco, come di nocca sul legno. Poi due. Poi uno. Poi niente, così a lungo che quasi mi convinco di averlo sognato; e allora ricominciano, sempre uguali, pazienti, come chi bussa a una porta sapendo che in casa c'è qualcuno.": {
+  "easy": "The sound comes from the wall behind the bed. A sharp knock, like a knuckle on wood. Then two knocks. Then one. Then nothing, for so long that I almost think I dreamt it. Then they start again, always the same and patient, like someone knocking at a door who knows someone is home.",
+  "short": "Knocks on the wall behind the bed: one, two, one. Then silence, and again, patient, like someone who knows you are home."
+ },
+ "Nella sua biblioteca ho visto un libretto francese sui tavolini parlanti: un colpo per dire sì, due per dire no. Mi torna in mente adesso, nel buio, e vorrei che non mi fosse tornato in mente.": {
+  "easy": "In his library I saw a little French book about talking tables: one knock means yes, two mean no. I remember it now, in the dark, and I wish I did not.",
+  "short": "I remember a little book from his library: one knock for yes, two for no. I wish I did not."
+ },
+ "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il Journal aperto sul cuscino, a una pagina che non ricordo di aver mai letto.": {
+  "easy": "I ask, very quietly, if it is him. One knock. I ask if he is at peace. Two knocks, so strong that the jug shakes on the chest of drawers. Then silence, and a smell of wax, even though no candle is lit in the room. In the morning my fingers are numb and the Journal is open on the pillow, at a page I do not remember ever reading.",
+  "short": "Is it him? One knock. Is he at peace? Two knocks, very hard. In the morning the Journal lies open on my pillow, at a page I never read."
+ },
+ "Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per scrupolo, anche me.": {
+  "easy": "I wake the servant and send him to the village with the lantern. Father Anzelm arrives an hour later, with his stole over his nightshirt and holy water in a chemist's bottle. He blesses the wall, the bed, the window and, to be safe, me too.",
+  "short": "I send for Father Anzelm. He comes in his nightshirt and blesses the wall, the bed and, to be thorough, me."
+ },
+ "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il Journal aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità.": {
+  "easy": "The knocking stops at once. But the priest stays at the door longer than he needs to and looks around: the cages, the glass instruments, the Journal open on the table. Before he leaves he shakes my hand and gives me a few coins \"for the household, until everything is in order\". It feels more like an advance than help.",
+  "short": "The knocking stops. The priest looks around a long time, then leaves me a few coins \"for the household\". It feels like a down payment."
+ },
+ "Mi infilo sotto le coperte e premo il cuscino sulle orecchie, come da bambini durante i temporali. I colpi continuano a lungo, attutiti, e a un certo punto mi sembra che si spostino: dalla parete al pavimento, dal pavimento alla testiera, a un palmo dal mio orecchio. Poi, finalmente, smettono.": {
+  "easy": "I get under the covers and press the pillow on my ears, as we did as children during storms. The knocking goes on for a long time, more softly. At some point it seems to move: from the wall to the floor, from the floor to the bed, very close to my ear. Then, at last, it ends.",
+  "short": "Under the covers, pillow over my ears, I hear the knocking creep closer, right up to my ear. Then at last it stops."
+ },
+ "All'alba scosto la tenda. Sulla parete, all'altezza della mia testa, l'intonaco è scrostato in un cerchio piccolo e regolare, come consumato da una nocca che abbia bussato per anni.": {
+  "easy": "At dawn I open the curtain. On the wall, at the height of my head, the plaster is worn away in a small, regular circle, as if a knuckle had knocked there for years.",
+  "short": "At dawn there is a small worn circle on the wall, as if a knuckle had knocked there for years."
+ },
+ "A colazione nessuno parla dei colpi. Il caffè è troppo forte, il pane è di ieri e tutti hanno gli occhi cerchiati. Qualcuno fa una battuta sui topi della soffitta, e nessuno ride.": {
+  "easy": "At breakfast no one talks about the knocking. The coffee is too strong, the bread is old and everyone looks tired. Someone makes a joke about the mice in the attic, but no one laughs.",
+  "short": "At breakfast no one mentions the knocking, and no one laughs at the jokes about mice."
+ },
+ "Dalla finestra della sala da pranzo si vede il villaggio: poche case di legno strette intorno alla chiesa, il fumo dei camini, il mercato che si sveglia. È un posto povero e sospettoso. Ma il padre ha lasciato agli eredi una tenuta, un laboratorio e un nome che fa ancora abbassare la voce alla gente; e un nome, per chi sa usarlo, vale quanto un capitale.": {
+  "easy": "From the dining-room window you can see the village: a few wooden houses near the church, smoke from the chimneys, the market opening. It is a poor place where people do not trust strangers. But Father has left his heirs an estate, a laboratory and a name that still makes people speak quietly. And a name, if you know how to use it, is worth a lot of money.",
+  "short": "The village is poor and suspicious. But Father left his heirs an estate, a laboratory and a name that still makes people lower their voices: capital, for those who know how to use it."
+ },
+ "Una carovana si è fermata ai margini del villaggio. Si dice che a bordo viaggi una donna che parla con i morti, e che i morti le rispondano.": {
+  "easy": "A caravan has stopped near the village. People say that a woman travels in it who talks to the dead, and that the dead answer her.",
+  "short": "The wagon of a woman who talks with the dead has come to the village."
+ },
+ "Il carro di Madame Vámos è dipinto di blu notte e coperto di stelle d'oro scrostate. Ha ruote alte, tende di velluto e, sulla porta, una mano aperta con un occhio nel palmo. È fermo ai margini del villaggio da tre settimane, e in tre settimane metà delle vedove di {0} ci sono salite almeno una volta, di nascosto dal parroco.": {
+  "easy": "Madame Vámos's wagon is painted dark blue and covered in worn gold stars. It has tall wheels, velvet curtains and, on the door, a picture of an open hand with an eye in the palm. It has been near the village for three weeks, and in that time half the widows of {0} have gone inside at least once, without telling the priest.",
+  "short": "Madame Vámos's wagon, midnight blue with a hand and an eye on the door, has stood there three weeks. Half the widows of {0} have secretly been inside."
+ },
+ "Stamattina la medium si è presentata alla tenuta in persona. È una donna piccola, di età indefinibile, avvolta in uno scialle nero; parla piano, con un accento che non riesco a collocare, e ha mani molto bianche e molto fredde. Ha detto di aver sentito i colpi. Non che qualcuno le ha raccontato dei colpi: che li ha *sentiti*, dalla strada, passando davanti al cancello nella notte dei morti.": {
+  "easy": "This morning the medium came to the estate. She is a small woman, and it is hard to tell how old she is. She wears a black shawl, speaks softly with a strange accent, and has very white, very cold hands. She said she had heard the knocking. No one had told her about it: she had *heard* it herself, from the road, passing the gate on the night of the dead.",
+  "short": "The medium, small and ageless, came to the estate. She says she *heard* the knocking from the road, on the night of the dead."
+ },
+ "\"Vostro padre ha qualcosa da dire\", ci ha detto. \"E non parla volentieri a chi non lo ascolta.\" Poi ha invitato tutti noi a una seduta nel suo carro, domani a mezzanotte. Non ha chiesto denaro. Questo, più di tutto il resto, mi preoccupa.": {
+  "easy": "\"Your father has something to say,\" she told us. \"And he does not like to speak to people who will not listen.\" Then she invited all of us to a séance in her wagon, tomorrow at midnight. She did not ask for money. That worries me more than anything.",
+  "short": "\"Your father has something to say.\" She invited us to a séance tomorrow at midnight, free of charge. That is what worries me."
+ },
+ "Nessuno va. Madame Vámos accende le candele, siede al tavolino e aspetta fino all'alba davanti a sedie vuote. Il garzone del fornaio, che passa di lì alle quattro, giura di averla sentita parlare con qualcuno, e di aver sentito qualcuno rispondere.": {
+  "easy": "No one goes. Madame Vámos lights the candles, sits at the little table and waits until dawn in front of empty chairs. The baker's boy walks past at four and swears he heard her talking to someone, and heard someone answer.",
+  "short": "No one goes. Madame waits until dawn before empty chairs; the baker's boy swears he heard her talking, and someone answering."
+ },
+ "Quella notte, alla tenuta, i colpi raddoppiano. Bussano a tutte le pareti, a tutte le porte, alla testiera di ogni letto. Bussano come chi è stato lasciato fuori al freddo.": {
+  "easy": "That night, at the estate, there are twice as many knocks. They knock on every wall, every door, everyone's bed. They knock like someone who has been left outside in the cold.",
+  "short": "That night the knocking doubles, everywhere, like someone left out in the cold."
+ },
+ "Tutti gli eredi siedono intorno al tavolino rotondo, nel carro che sa di incenso e di cavallo. Madame chiede di unire le mani; le sue dita sono gelide. Recita qualcosa in una lingua che nessuno riconosce, poi tace, e nel silenzio il tavolino scricchiola, si inclina e si solleva da terra di un palmo, con tutte le mani sopra.": {
+  "easy": "All the heirs sit around the little round table, in the wagon that smells of incense and horse. Madame asks them to hold hands; her fingers are freezing. She says something in a language no one knows, then she is silent. In the silence the table creaks, tips and rises a hand's width off the floor, with all their hands on it.",
+  "short": "The heirs join hands around the table. Madame recites unknown words, and the table rises a hand's breadth off the floor."
+ },
+ "Resta sospeso per il tempo di un respiro. Poi ricade con un colpo solo, secco. Madame apre gli occhi e sorride come chi ha appena ricevuto buone notizie. \"Vi ha riconosciuto\", dice. \"Tutti.\"": {
+  "easy": "It stays in the air for the time of one breath. Then it falls with a single sharp knock. Madame opens her eyes and smiles, like someone who has just had good news. \"He recognised you,\" she says. \"All of you.\"",
+  "short": "The table drops with one knock. Madame smiles: \"He recognised you. All of you.\""
+ },
+ "Solo alcuni degli eredi salgono sul carro. Gli altri restano alla tenuta, davanti al camino, a ripetersi che qualcuno, in famiglia, deve pur conservare un po' di buon senso.": {
+  "easy": "Only some of the heirs get into the wagon. The others stay at the estate, in front of the fire, and tell each other that someone in the family must have a little common sense.",
+  "short": "Only some of the heirs go; the others stay home, out of common sense."
+ },
+ "Verso l'una di notte, dalla direzione del villaggio, arriva un grido. Poi un altro. Poi una risata, che potrebbe essere di chiunque. Chi torna all'alba non vuole raccontare che cosa ha visto; ma ha le mani fredde come quelle di Madame, e per tutta la mattina continua a guardare le pareti.": {
+  "easy": "Around one in the morning, a scream comes from the village. Then another. Then a laugh, but it is not clear whose. Those who come back at dawn do not want to say what they saw. But their hands are as cold as Madame's, and all morning they look at the walls.",
+  "short": "In the night, screams and a laugh from the village. Those who return at dawn say nothing, their hands cold as Madame's, eyes on the walls."
+ },
+ "**LA STREGA DEL CARRO.** Domenica scorsa il reverendo Padre Anzelm ha dedicato l'intero sermone a quella che ha chiamato, senza giri di parole, \"la strega del carro\". Ha ricordato ai fedeli che i morti riposano nelle mani di Dio e non nei cassetti di un tavolino, e che chi li disturba per denaro disturba anche Lui. Ha poi aggiunto, guardando verso i banchi in fondo, che certe famiglie arrivate di recente farebbero bene a ricordarselo.": {
+  "easy": "**THE WITCH OF THE WAGON.** Last Sunday Father Anzelm spoke for the whole sermon about what he called, very clearly, \"the witch of the wagon\". He reminded the faithful that the dead rest with God, not inside a little table, and that whoever disturbs them for money also disturbs God. Then, looking at the pews at the back, he said that some families who had arrived recently should remember this.",
+  "short": "**THE WITCH OF THE WAGON.** Father Anzelm's sermon was about \"the witch of the wagon\": the dead rest with God, and certain newly arrived families would do well to remember it."
+ },
+ "Il sermone è stato molto apprezzato. Lunedì, tuttavia, questo giornale ha potuto osservare un insolito via vai di signore in nero sulla strada della tenuta. Le vedove di {0} hanno perso mariti, figli e fratelli per il freddo, le febbri e la fame; vogliono notizie dei loro cari, e per i propri cari, si sa, non si bada a spese.": {
+  "easy": "People liked the sermon very much. On Monday, however, this newspaper saw many ladies dressed in black coming and going on the road to the estate. The widows of {0} have lost husbands, sons and brothers to the cold, fevers and hunger. They want news of their loved ones, and for loved ones, as everyone knows, people pay gladly.",
+  "short": "On Monday, though, many widows of {0} take the road to the estate: they want news of their dead, and will pay for it."
+ },
+ "Qualcuno nel villaggio scrive lettere, e non le firma. Le buste arrivano senza francobollo, e nessuno le ha viste arrivare.": {
+  "easy": "Someone in the village writes letters without signing them. The envelopes come without stamps, and no one sees them arrive."
+ },
+ "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.": {
+  "easy": "In the middle years the family receives letters that the postman never brought. The letters appear under the door, in the bread basket, once even inside Father's Journal, locked in the desk. They are envelopes of heavy paper, with no address and no signature, closed with black wax. In the wax there is the picture of an open eye.",
+  "short": "Letters arrive that no one delivered, even inside the locked Journal. No address, no signature: only an open eye in black wax."
+ },
+ "Dentro, ogni volta, poche righe in una calligrafia elegante e antiquata. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce i loro lavori, ammira il loro coraggio e desidera incontrarli, uno per uno, in un luogo discreto. Basterà presentarsi all'indirizzo indicato e pronunciare la parola giusta.": {
+  "easy": "Inside there are always a few lines, in elegant, old-fashioned handwriting. The **Circle of the Last Hour** greets the heirs of the great scientist, knows their work, admires their courage and wants to meet them, one at a time, in a private place. They only need to go to the address given and say the right word.",
+  "short": "The **Circle of the Last Hour** wishes to meet the heirs, one by one, in secret: go to the address given and say the right word."
+ },
+ "Ti aspetta un uomo alto, in un cappotto troppo elegante per {0}, con un garofano nero all'occhiello. Non ti chiede chi sei. Ti chiama per nome, ti offre il braccio e cammina con te, lentamente, come si fa tra vecchi amici.": {
+  "easy": "A tall man is waiting for you, with a coat too elegant for {0} and a black carnation in his buttonhole. He does not ask who you are. He calls you by name, gives you his arm and walks with you, slowly, as old friends do.",
+  "short": "A tall man with a black carnation awaits you. He knows your name and walks with you like an old friend."
+ },
+ "\"Il Circolo dell'Ultima Ora\", dice, \"è una piccola società di persone che non si rassegnano. Abbiamo perso qualcuno, tutti quanti; e tutti abbiamo scoperto che i morti non sono lontani come dicono i preti. Madame Vámos è la nostra voce. Vostro padre era… diciamo un corrispondente.\"": {
+  "easy": "\"The Circle of the Last Hour,\" he says, \"is a small group of people who will not resign themselves. We have all lost someone, and we have all found out that the dead are not as far away as the priests say. Madame Vámos is our voice. Your father was… let us say a correspondent.\"",
+  "short": "\"We are people who will not resign ourselves: the dead are not as far as the priests say. Madame Vámos is our voice. Your father was… a correspondent.\""
+ },
+ "Ti porge una busta, gonfia di fogli. \"Qui ci sono cose che lui sapeva e che non ha avuto il tempo di insegnarvi. Sono vostre. In cambio chiediamo soltanto una promessa: che un giorno, quando il Circolo ve lo chiederà, aprirete la porta.\"": {
+  "easy": "He gives you an envelope full of pages. \"Here are things he knew and did not have time to teach you. They are yours. In return we want only a promise: that one day, when the Circle asks you, you will open the door.\"",
+  "short": "He hands you an envelope: \"What your father knew. In return, a promise: when the Circle asks, you will open the door.\""
+ },
+ "Stringi la mano dell'uomo. È fredda come quella di Madame, e nella tua non si scalda. \"Il Circolo vi ringrazia\", dice, e si allontana senza voltarsi.": {
+  "easy": "You shake the man's hand. It is as cold as Madame's and it does not get warm in yours. \"The Circle thanks you,\" he says, and leaves without turning round.",
+  "short": "His hand is as cold as Madame's. \"The Circle thanks you.\""
+ },
+ "La busta pesa più di quanto dovrebbe. Quella sera, leggendola alla luce della lampada, ti accorgi che alcune pagine sono scritte con la calligrafia di tuo padre, e che una di esse porta la data di due settimane dopo la sua morte.": {
+  "easy": "The envelope is heavier than it should be. That evening you read it by the light of the lamp and see that some pages are written by your father. One of them has a date two weeks after his death.",
+  "short": "The envelope holds pages in your father's hand. One is dated two weeks after his death."
+ },
+ "Restituisci la busta senza aprirla. L'uomo non si offende; anzi, sembra quasi soddisfatto, come chi ha vinto una piccola scommessa con se stesso. \"Anche il rifiuto è una forma di attenzione\", dice. \"Ci rivedremo.\" Ti mette in mano qualche moneta \"per il disturbo\" e si allontana.": {
+  "easy": "You give the envelope back without opening it. The man is not offended. In fact, he seems almost happy, like someone who has won a small bet with himself. \"Saying no is also a way of paying attention,\" he says. \"We will meet again.\" He gives you a few coins \"for the trouble\" and leaves.",
+  "short": "You return the envelope unopened. The man seems almost pleased. \"We shall meet again.\" He leaves you a few coins and goes."
+ },
+ "Il giorno dopo, al Cemetery, sulla tomba di tuo padre c'è un garofano nero. Il terriccio intorno alla lapide è smosso, come se qualcuno ci avesse appoggiato l'orecchio per ascoltare.": {
+  "easy": "The next day, at the Cemetery, there is a black carnation on your father's grave. The earth around the headstone has been moved, as if someone had put an ear to it to listen.",
+  "short": "The next day there is a black carnation on your father's grave, and the earth has been disturbed."
+ },
+ "Il consiglio si riunisce nella sala sopra la locanda, perché in municipio piove dentro. Siedono il Sindaco Bódi, il notaio, tre possidenti, il maestro di scuola e, su una sedia a parte, Padre Anzelm, che non ha diritto di voto ma ha diritto di parola, e lo esercita per un'ora e mezza.": {
+  "easy": "The council meets in the room above the inn, because rain comes into the town hall. There are Mayor Bódi, the notary, three landowners, the schoolmaster and, on a separate chair, Father Anzelm. He cannot vote but he can speak, and he speaks for an hour and a half.",
+  "short": "The council meets above the inn. Father Anzelm has no vote, but speaks for an hour and a half."
+ },
+ "La questione all'ordine del giorno è una sola: se la signora Eszter Vámos, di professione \"consolatrice\", possa restare a {0}. In otto anni il suo carro è diventato una casa con le persiane sempre chiuse; il suo salotto, ogni giovedì, si riempie di gente che entra piangendo ed esce sorridendo; e il Circolo dell'Ultima Ora, che nessuno ammette di frequentare, ha comprato due terreni accanto al cimitero.": {
+  "easy": "There is only one question to decide: can Mrs Eszter Vámos, whose job is \"consoler\", stay in {0}? In eight years her wagon has become a house with the shutters always closed. Every Thursday her parlour fills with people who go in crying and come out smiling. And the Circle of the Last Hour, which no one admits to joining, has bought two plots near the cemetery.",
+  "short": "The question: may the \"consoler\" Eszter Vámos stay in {0}? In eight years her parlour has filled with the grieving, and the Circle has bought land beside the cemetery."
+ },
+ "Il parroco parla di eresia, di truffa, di lutti sfruttati. Il notaio parla di tasse regolarmente pagate. Il Sindaco non parla: ascolta, e conta. Alla fine si decide, com'è uso a {0} per le faccende spinose, di far votare anche le famiglie più importanti del villaggio. E la più importante, ormai, è quella degli eredi.": {
+  "easy": "The priest talks about heresy, cheating, and grief used to make money. The notary says she pays her taxes. The Mayor does not speak: he listens and counts. In the end they decide, as {0} always does with difficult questions, to let the most important families of the village vote too. And by now the most important is the heirs' family.",
+  "short": "The priest cries heresy, the notary recalls taxes paid. In the end, as is the custom in {0}, the important families vote too. And the most important is the heirs'."
+ },
+ "Madame Vámos resta. La sera stessa le finestre della sua casa si illuminano una a una, e dal salotto arriva il suono di un pianoforte che nessuno, a {0}, ha mai visto entrare. La settimana dopo il Circolo dell'Ultima Ora affitta una casa in piazza, proprio di fronte alla chiesa, e ci appende una targa d'ottone con un occhio aperto. Padre Anzelm fa suonare le campane a morto per un'ora, senza che sia morto nessuno.": {
+  "easy": "Madame Vámos stays. That same evening the windows of her house light up one after another, and from the parlour comes the sound of a piano that no one in {0} ever saw arrive. The next week the Circle of the Last Hour rents a house on the square, right in front of the church, and puts up a brass sign with an open eye. Father Anzelm has the funeral bells rung for an hour, even though no one has died.",
+  "short": "Madame Vámos stays, and the Circle opens premises on the square, opposite the church, with a brass eye on the door. Father Anzelm has the death knell rung."
+ },
+ "Il carro, rimesso in ordine per l'occasione, lascia il villaggio all'alba. Madame Vámos siede a cassetta, dritta, senza guardarsi indietro; solo quando passa davanti al cancello della tenuta alza una mano bianca, come per salutare qualcuno alla finestra. Alla finestra non c'era nessuno.": {
+  "easy": "The wagon, tidied up for the occasion, leaves the village at dawn. Madame Vámos sits at the front, straight, and never turns round. Only when she passes the estate gate does she raise a white hand, as if waving to someone at the window. But there was no one at the window.",
+  "short": "At dawn the wagon leaves. Passing the estate, Madame waves to someone at the window. There was no one at the window."
+ },
+ "La mattina dopo, sulla porta della tenuta, qualcuno ha disegnato con il carbone un occhio aperto. Il servitore lo lava tre volte. Alla terza l'occhio è ancora lì, appena più sbiadito, come se guardasse da sotto l'acqua.": {
+  "easy": "The next morning someone has drawn an open eye in charcoal on the estate door. The servant washes it three times. After the third time the eye is still there, only a little lighter, as if it were looking up from under water.",
+  "short": "A charcoal eye appears on the estate door. The servant washes it three times, but it stays."
+ },
+ "I documenti della prima generazione si interrompono qui. Dai registri della parrocchia risulta che gli scienziati della famiglia morirono negli anni seguenti, uno dopo l'altro, di malattie diverse e in età diverse, e che furono sepolti nel cimitero di {0}, accanto al padre. Il parroco annota con una certa soddisfazione che i colpi alle pareti della tenuta cessarono con l'ultimo funerale.": {
+  "easy": "The papers of the first generation end here. The parish records say that the family's scientists died in the following years, one at a time, of different illnesses and at different ages. They were buried in the cemetery of {0}, near their father. The priest writes, rather pleased, that the knocking on the estate's walls ended with the last funeral.",
+  "short": "The first generation's scientists died in the years that followed and were buried in {0}, beside their father. With the last funeral, the priest notes, the knocking stopped."
+ },
+ "Annota anche, con meno soddisfazione, che nessuno di quei funerali si poté celebrare dopo il tramonto: appena faceva buio, i portatori si rifiutavano di sollevare la bara. Dicevano che dentro qualcuno bussava.": {
+  "easy": "He also writes, less pleased, that none of those funerals could take place after sunset: when it got dark, the men would no longer lift the coffin. They said someone inside was knocking.",
+  "short": "But no funeral could be held after sunset: in the dark, the bearers heard knocking inside the coffin."
+ },
+ "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del Journal, che nel frattempo era diventato due volumi e mezzo.": {
+  "easy": "The second crate jumps forward seventeen years. The papers of the first generation end in 1856. The others begin in the spring of 1873, when the heirs' children took over the estate, the laboratory and the Journal, which was now two and a half volumes long.",
+  "short": "The second crate resumes in 1873: the heirs' children take the estate, the laboratory and the Journal, now two and a half volumes."
+ },
+ "Il villaggio era cresciuto. Al posto delle case di legno c'erano case a graticcio con le travi dipinte, una strada lastricata, un ufficio postale, due locande e un medico. Il parroco era sempre Padre Anzelm, più vecchio e più magro, ma non meno ostinato. E c'era, scrive uno dei nuovi eredi in una lettera alla sorella, \"questa cosa che qui chiamano il velo, come se fosse un fatto del tempo, come la pioggia o la nebbia\".": {
+  "easy": "The village was bigger. Instead of wooden houses there were houses with painted beams, a stone street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but as stubborn as before. And there was, one of the new heirs writes to a sister, \"this thing they call the veil here, as if it were the weather, like the rain or the fog\".",
+  "short": "The village has grown; Father Anzelm is older but as stubborn as ever. And there is \"this thing they call the veil here, like the rain or the fog\"."
+ },
+ "Madame Vámos non era invecchiata: così, almeno, giuravano tutti. Il Circolo dell'Ultima Ora non si nascondeva più. Aveva una sede in piazza, una banda per i funerali e duecento iscritti, e quell'anno comprò il terreno dietro il municipio per costruirci un tempio.": {
+  "easy": "Madame Vámos had not grown older: at least, that is what everyone said. The Circle of the Last Hour no longer hid. It had premises on the square, a band for funerals and two hundred members, and that year it bought the land behind the town hall to build a temple.",
+  "short": "Madame Vámos had not aged, and the Circle, now two hundred strong, bought land to build a temple."
+ },
+ "Della donna del carro restavano solo le storie, e un'abitudine curiosa: sulle porte delle case di {0} compariva ogni tanto un occhio disegnato con il carbone. Nessuno ammetteva di disegnarlo, nessuno lo cancellava. Il Circolo dell'Ultima Ora, si diceva, si riuniva ancora; ma non si sapeva dove, né chi ne facesse parte.": {
+  "easy": "Of the woman in the wagon only the stories were left, and a strange habit: every now and then, on the doors of the houses of {0}, an eye drawn in charcoal appeared. No one said they had drawn it, and no one rubbed it out. People said the Circle of the Last Hour still met, but no one knew where, or who belonged to it.",
+  "short": "Of the woman in the wagon only stories remained, and charcoal eyes on the doors of {0}. The Circle still met, no one knew where."
+ },
+ "I colpi alle pareti erano cessati con l'ultimo funerale della prima generazione, e per diciassette anni la tenuta era stata una casa come le altre: fredda d'inverno, umida d'estate, piena di cose che nessuno osava buttare.": {
+  "easy": "The knocking on the walls had ended with the last funeral of the first generation. For seventeen years the estate had been a normal house: cold in winter, damp in summer, full of things no one had the courage to throw away.",
+  "short": "For seventeen years the estate had been quiet, like any other house."
+ },
+ "La prima notte che i nuovi eredi vi dormono, i colpi ricominciano. Ma questa volta, dopo i colpi, vengono le voci; e sono voci che ognuno di loro conosce benissimo, perché sono quelle di chi li ha messi al mondo.": {
+  "easy": "The first night the new heirs sleep there, the knocking starts again. But this time, after the knocking, the voices come. They are voices each of them knows very well: they are the voices of their parents.",
+  "short": "On the first night the knocking returns, and after it the voices: their parents' voices."
+ },
+ "La voce arriva prima dei colpi: un bisbiglio fitto, senza pause, che non saluta e non chiede come stai. Parla di formule, di proporzioni, di un errore nel terzo quaderno che va corretto subito, subito, prima che sia tardi. Riconosci la voce di chi ti ha messo al mondo, e riconosci anche il tono: è lo stesso delle notti in cui dal laboratorio non usciva nessuno.": {
+  "easy": "The voice comes before the knocking. It is a fast whisper, with no pauses, that does not greet you or ask how you are. It talks about formulae, numbers, a mistake in the third notebook that must be fixed now, before it is too late. It is the voice of your father or your mother, and you know the tone too: the same as on the nights spent shut in the laboratory.",
+  "short": "A whisper without pauses: formulae, numbers, a mistake to fix at once. It is your parent's voice, in the tone of nights in the laboratory."
+ },
+ "\"Finisci tu\", ripete. \"Finisci tu, finisci tu.\" All'alba hai la mano indolenzita e tre pagine fitte di una calligrafia che non è la tua.": {
+  "easy": "\"You finish it,\" it says again and again. \"You finish it, you finish it.\" At dawn your hand hurts and you have three full pages in handwriting that is not yours.",
+  "short": "\"You finish it.\" At dawn you have three pages in a hand not your own."
+ },
+ "Non sono colpi: è un ticchettio rapido e irregolare, come dita che tamburellano su un tavolo per l'impazienza. Poi la voce, febbrile, a metà di una frase cominciata chissà quando: \"...e i numeri non tornano, non tornano mai, ma tu li farai tornare...\"": {
+  "easy": "It is not knocking: it is a fast, uneven tapping, like fingers beating on a table out of impatience. Then the voice comes, agitated, in the middle of a sentence started who knows when: \"...and the numbers don't add up, they never add up, but you'll make them add up...\"",
+  "short": "An impatient tapping, then the voice: \"...the numbers never add up, but you'll make them add up...\""
+ },
+ "Provi a chiedere se soffre. Non ti ascolta; non ti ha mai ascoltato. Quando il ticchettio smette, ti accorgi che stai tamburellando anche tu, con lo stesso ritmo, e non riesci a smettere.": {
+  "easy": "You try to ask if they are suffering. They do not listen to you, just as they never did. When the tapping ends, you notice that you are tapping your fingers too, with the same rhythm, and you cannot stop.",
+  "short": "They do not listen, as always. Then you notice that you are drumming too, and cannot stop."
+ },
+ "Il colpo è uno solo, lieve, come una mano posata sulla porta. Poi la voce, calma, quasi divertita: ti chiede se mangi abbastanza, se il tetto della serra perde ancora, se ti ricordi della vedova del mugnaio. \"Dille che sto bene\", dice.": {
+  "easy": "There is just one knock, soft, like a hand resting on the door. Then the voice, calm, almost amused: it asks if you eat enough, if the greenhouse roof still has holes, if you remember the miller's widow. \"Tell her I'm well,\" it says.",
+  "short": "One gentle knock, then a calm voice asking if you eat enough. \"Tell the miller's widow I'm well.\""
+ },
+ "Capisci che non parla di sé. Parla di tutte le famiglie che ha consolato in vita, e che adesso, dall'altra parte, le fanno compagnia. Prima di andarsene ti benedice, come faceva quando partivi per un viaggio.": {
+  "easy": "You understand that it is not talking about itself. It is talking about all the families it helped in life, who now, on the other side, stay close to it. Before leaving it blesses you, as it did when you went on a journey.",
+  "short": "The families it comforted in life now keep it company. Before leaving, it blesses you."
+ },
+ "Nella stanza c'è profumo di pane caldo e di lavanda: l'odore della cucina della tenuta, tanti anni fa. La voce non bussa. Parla piano, come accanto al letto di un malato, e ti racconta che dall'altra parte non fa freddo, e che le persone consolate in vita sono venute ad accoglierla.": {
+  "easy": "The room smells of warm bread and lavender: the smell of the estate kitchen, many years ago. The voice does not knock. It speaks softly, as next to a sick person's bed, and tells you that it is not cold on the other side, and that the people it helped in life came to welcome it.",
+  "short": "A smell of warm bread and lavender. A gentle voice tells you it is not cold on the other side, and that it is not alone."
+ },
+ "\"Hai tempo\", dice. \"Usalo per i vivi.\" Al mattino, sul comodino, c'è qualcosa che la sera prima non c'era.": {
+  "easy": "\"You have time,\" it says. \"Use it for the living.\" In the morning, on the bedside table, there is something that was not there the evening before.",
+  "short": "\"Use your time for the living.\" In the morning there is a gift on the bedside table."
+ },
+ "La voce è bassa, guardinga, come chi parla in una stanza dove c'è qualcun altro. \"Ascolta bene, perché non potrò ripeterlo. Tanti anni fa ho fatto una promessa al Circolo, a un uomo con un garofano nero. Credevo di aver venduto una cosa da niente. Mi sbagliavo.\"": {
+  "easy": "The voice is low and careful, like someone speaking in a room where another person is listening. \"Listen carefully, because I won't be able to say this again. Many years ago I made a promise to the Circle, to a man with a black carnation. I thought I had sold something worth nothing. I was wrong.\"",
+  "short": "A low, wary voice: \"Long ago I made a promise to the Circle. I thought it was worth little. I was wrong.\""
+ },
+ "Poi ti dice che cosa aveva promesso, parola per parola, e chi dovrà aprire la porta quando il Circolo busserà: tu. \"Non dirlo a nessuno\", conclude. \"Ma ricordalo. Verrà il giorno in cui ti servirà sapere come si scioglie una promessa.\"": {
+  "easy": "Then it tells you exactly what was promised, and who will have to open the door when the Circle knocks: you. \"Tell no one,\" it says at the end. \"But remember it. One day you will need to know how to break a promise.\"",
+  "short": "It tells you the promise, word for word: you will be the one to open the door. \"Remember it. One day you must know how to break it.\""
+ },
+ "Prima della voce arriva l'odore: garofani e terra smossa. \"Il Circolo ti tiene d'occhio\", sussurra. \"Tiene d'occhio tutti noi: chi ha firmato e chi è nato da chi ha firmato.\"": {
+  "easy": "Before the voice comes the smell: carnations and freshly dug earth. \"The Circle is watching you,\" it whispers. \"It watches all of us: those who signed and those born to those who signed.\"",
+  "short": "A smell of carnations and earth. \"The Circle is watching you: those who signed, and their children.\""
+ },
+ "Ti racconta della busta, delle pagine scritte da una mano morta, della promessa di aprire una porta. Poi ti dice una cosa che il Circolo non sa che tu sai: la promessa vale per il sangue, ma il sangue può scegliere di non mantenerla. A un prezzo. Quale sia, non fa in tempo a dirlo: i colpi si interrompono a metà.": {
+  "easy": "It tells you about the envelope, the pages written by a dead hand and the promise to open a door. Then it tells you something the Circle does not know you know: the promise binds the whole family, but the family can choose not to keep it. There is a price, though. What it is, the voice cannot say: the knocking stops halfway.",
+  "short": "The promise binds the blood, but the blood may choose not to keep it. At a price, which the broken-off knocking never names."
+ },
+ "Un colpo, due, uno: lo stesso ritmo che hai sentito raccontare mille volte, a tavola, dalla voce che adesso ti parla. \"Quella notte risposi prima di tutti\", dice. \"La porta si è aperta un poco per me, e non si è più richiusa.\"": {
+  "easy": "One knock, two, one: the same rhythm you heard described a thousand times at the table, by the voice that is speaking to you now. \"That night I answered first,\" it says. \"The door opened a little for me, and it never closed again.\"",
+  "short": "One, two, one. \"That night I answered first. The door opened a little, and never closed again.\""
+ },
+ "Poi, in fretta, come chi teme di essere interrotto, ti detta l'inizio di un esperimento che in vita non ebbe mai il coraggio di tentare. Scrivi finché la candela non si consuma.": {
+  "easy": "Then, quickly, like someone afraid of being interrupted, it dictates the start of an experiment it never had the courage to try in life. You write until the candle is finished.",
+  "short": "It hurriedly dictates an experiment it never dared try in life. You write until the candle dies."
+ },
+ "La voce non perde tempo con i saluti. \"Tu sai rispondere, vero? Una volta per sì, due per no. Te l'ho insegnato io, anche se non lo ricordi: battevo sulla parete della tua culla, e tu ridevi.\"": {
+  "easy": "The voice does not waste time on greetings. \"You know how to answer, don't you? Once for yes, twice for no. I taught you, even if you don't remember: I tapped on your cradle, and you laughed.\"",
+  "short": "\"You know how to answer, don't you? Once for yes, twice for no. I taught you, in your cradle.\""
+ },
+ "Un brivido. \"Io risposi, la prima notte, e da allora di qua mi sentono tutti. Adesso sentono anche te.\" Quando la voce tace, sul tavolo c'è lo schema di un esperimento, e sulla parete della camera ci sono segni di nocche, piccoli, all'altezza di una culla.": {
+  "easy": "You shiver. \"I answered, the first night, and since then everyone here can hear me. Now they can hear you too.\" When the voice stops, there is the drawing of an experiment on the table. And on the bedroom wall there are small knuckle marks, at the height of a cradle.",
+  "short": "\"Since I answered, everyone over here can hear me. Now they hear you too.\" The outline of an experiment is left on the table."
+ },
+ "Colpi lontani, irregolari, come di qualcuno che bussa in un'altra casa, in un'altra via. Rispondi: non succede niente. Chiami: il silenzio si fa più fitto.": {
+  "easy": "Distant, uneven knocking, like someone knocking at another house, in another street. You answer, but nothing happens. You call out, and the silence gets deeper.",
+  "short": "Distant knocking. You answer, you call: only silence."
+ },
+ "Forse chi ti ha messo al mondo non vuole parlarti. Forse non può. Forse, pensi con un sollievo di cui ti vergogni un poco, sta semplicemente riposando in pace.": {
+  "easy": "Maybe your father or your mother does not want to talk to you. Maybe they cannot. Or maybe, you think with a relief that makes you a little ashamed, they are just resting in peace.",
+  "short": "Maybe they will not speak to you. Maybe they are simply at peace."
+ },
+ "Aspetti fino all'alba con la candela accesa. Senti i colpi alle pareti delle altre camere, le voci attutite, un pianto, una risata. Alla tua parete, niente.": {
+  "easy": "You wait until dawn with the candle lit. You hear knocking on the walls of the other rooms, faraway voices, crying, a laugh. On your wall, nothing.",
+  "short": "Until dawn you hear knocks and voices in the other rooms. On your wall, nothing."
+ },
+ "Solo verso le cinque arriva un colpo leggerissimo, uno solo, che potrebbe voler dire sì, oppure essere soltanto il legno che si assesta per il freddo.": {
+  "easy": "Only around five does a very soft knock come, just one. Maybe it means yes. Or maybe it is only the wood moving in the cold.",
+  "short": "At five, one knock: perhaps a yes, perhaps the wood settling."
+ },
+ "All'alba le voci tacciono. A colazione la famiglia è stranamente cortese: ci si passa il burro, si parla del tempo, si evita di guardarsi negli occhi.": {
+  "easy": "At dawn the voices stop. At breakfast the family is strangely polite: they pass the butter, talk about the weather and no one looks anyone else in the eye.",
+  "short": "At breakfast everyone is polite, and no one meets anyone's eye."
+ },
+ "Ognuno ha sentito qualcosa. Nessuno sa che cosa abbiano sentito gli altri. E tutti, almeno per un momento, hanno pensato di mentire.": {
+  "easy": "Each of them heard something. No one knows what the others heard. And all of them, at least for a moment, thought about telling a lie."
+ },
+ "Nel secondo volume del Journal, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.": {
+  "easy": "In the second volume of the Journal, between a recipe and a blacksmith's bill, there is the drawing of a machine for talking to the dead."
+ },
+ "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, più in fretta di quanto dovrebbero: i muratori dicono che di notte qualcuno lavora al posto loro, e che al mattino trovano le pietre già squadrate.": {
+  "easy": "You pay the builders in cash, in front of everyone. The Temple's foundations grow fast, too fast: the builders say that at night someone works in their place, and that in the morning they find the stones already cut.",
+  "short": "You pay the masons. The Temple rises too fast: at night, they say, someone works in their place."
+ },
+ "Madame Vámos passa a vedere il cantiere. Ti stringe la mano e ti chiama per nome davanti a tutti, come si fa con le persone di famiglia. Le vedove del Circolo, quella sera, accendono una candela per i tuoi morti.": {
+  "easy": "Madame Vámos comes to see the building site. She shakes your hand and calls you by name in front of everyone, as people do with family. That evening the widows of the Circle light a candle for your dead.",
+  "short": "Madame Vámos calls you by name in front of everyone, and the Circle's widows light a candle for your dead."
+ },
+ "Il vecchio Padre Anzelm celebra una messa per i morti della tua famiglia, nella chiesa vuota, con un solo chierichetto che sbadiglia. Alla fine ti prende per un braccio, con una forza che non ti aspettavi. \"Li ho seppelliti tutti, i tuoi\", dice. \"Lascia che restino dove li ho messi.\"": {
+  "easy": "Old Father Anzelm says a mass for your family's dead, in the empty church, with only one altar boy, who yawns. At the end he takes your arm, with a strength you did not expect. \"I buried them all, your family,\" he says. \"Let them stay where I put them.\"",
+  "short": "After mass, old Father Anzelm grips your arm: \"I buried them all, your people. Let them stay where I put them.\""
+ },
+ "Quella notte, per la prima volta da mesi, nella tua camera non bussa nessuno, e dormi fino a giorno fatto.": {
+  "easy": "That night, for the first time in months, no one knocks in your room, and you sleep until it is full daylight."
+ },
+ "Nel secondo volume del Journal, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.": {
+  "easy": "In the second volume of the Journal, between a recipe for preserving tissue and a blacksmith's bill, I found the design. There are three drawings in ink, made with a care Grandfather gave to nothing else. He calls it the **Telegraph of the Dead**.",
+  "short": "In the Journal I found Grandfather's design, drawn with rare care: the **Telegraph of the Dead**."
+ },
+ "Una batteria di vasi di vetro; chilometri di filo di rame avvolti intorno a un nucleo di ferro dolce; una tastiera di ventisei tasti d'osso; e al centro un ago sospeso in un'ampolla piena di un gas che lui chiama \"aria del velo\". Secondo i suoi calcoli i morti non parlano: modificano, appena un poco, la corrente. Basta un ago abbastanza sensibile per leggerli.": {
+  "easy": "There are glass jars connected together, miles of copper wire wound around a piece of iron, a keyboard of twenty-six bone keys. In the middle there is a needle inside a flask full of a gas he calls \"veil air\". According to his calculations the dead do not speak: they change the electric current, very slightly. A very sensitive needle is enough to read them.",
+  "short": "Glass jars, copper wire, a bone keyboard and a needle in a flask of \"veil air\". The dead, he believed, barely move the current: a sensitive needle can read them."
+ },
+ "Ai margini della terza tavola c'è una nota a matita: *\"Non ho avuto il tempo. Lo avranno loro.\"* Per costruire il primo stadio servono ingranaggi, molti più di quanti ne abbiamo in casa. Ognuno di noi dovrà decidere quanto lavoro sottrarre ai propri esperimenti.": {
+  "easy": "On the edge of the third drawing there is a note in pencil: *\"I did not have the time. They will.\"* To build the first part we need many gears, many more than we have in the house. Each of us will have to decide how much work to take away from our own experiments.",
+  "short": "In the margin, in pencil: *\"I did not have the time. They will.\"* It needs gears, and each of us must decide how many to spare."
+ },
+ "Il primo stadio del Telegrafo occupa un'intera parete del laboratorio. La notte in cui lo accendono, i vasi di vetro ronzano, le lampade si abbassano in tutta la casa e l'ago, nell'ampolla, comincia a tremare.": {
+  "easy": "The first part of the Telegraph takes up a whole wall of the laboratory. On the night they switch it on, the glass jars hum, the lights in the whole house get dimmer and the needle, inside the flask, starts to shake.",
+  "short": "The Telegraph fills a whole wall. When they switch it on, the lights dim and the needle begins to tremble."
+ },
+ "Non è il tremito della corrente: è più lento, più ostinato, come un dito che cerca una lettera su una tastiera. Si ferma su un tasto d'osso. Poi su un altro. Prima che qualcuno riesca a leggere la parola, salta un fusibile, e nel buio, per un attimo, qualcuno ride.": {
+  "easy": "It is not shaking because of the current: it moves more slowly and more surely, like a finger looking for a letter on a keyboard. It stops on a bone key. Then on another. Before anyone can read the word, a fuse blows, and in the dark, for a moment, someone laughs.",
+  "short": "The needle seeks letters, key by key. Before the word can be read a fuse blows, and in the dark someone laughs."
+ },
+ "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva offerti.": {
+  "easy": "The gears collected are only just enough for the base. The design goes back in the drawer, under the second volume of the Journal, and the pieces go back to the people who gave them.",
+  "short": "There are not enough gears. The design goes back into the drawer."
+ },
+ "Quella notte i colpi alle pareti sono più lenti del solito, quasi strascicati. Se i morti possono essere delusi, lo sono.": {
+  "easy": "That night the knocking on the walls is slower than usual, almost tired. If the dead can be disappointed, they are."
+ },
+ "**LA NEBBIA NON SI ALZA.** Da undici giorni una nebbia densa e bianchiccia copre {0} dall'alba al tramonto, e dal tramonto all'alba. Il medico condotto parla di miasmi dello stagno; il farmacista, di fumi della tenuta; Padre Anzelm, di un castigo. Le lanterne non illuminano oltre tre passi. Ieri la diligenza è arrivata con sei ore di ritardo: il cocchiere giura di aver girato in tondo tutta la notte intorno al cimitero.": {
+  "easy": "**THE FOG WILL NOT LIFT.** For eleven days a thick white fog has covered {0} day and night. The doctor says it comes from the pond, the chemist says it comes from the estate, Father Anzelm says it is a punishment. Lanterns light only three steps ahead. Yesterday the coach arrived six hours late: the driver swears he went round and round the cemetery all night.",
+  "short": "**THE FOG WILL NOT LIFT.** For eleven days fog has covered {0} day and night. The coach circled the cemetery all night."
+ },
+ "Più strane ancora sono le testimonianze che questa redazione continua a ricevere. La signora Tóth ha visto il marito, morto da nove anni, aspettarla all'angolo della farmacia. Il fornaio ha sentito la madre chiamarlo dal forno. Tre bambini hanno giocato tutto il pomeriggio con un amico che nessuno degli adulti ha visto, e di cui nessuno conosce il nome. Si consiglia ai lettori di non uscire senza necessità, e di non rispondere a chi li chiama per nome dalla nebbia.": {
+  "easy": "Even stranger are the stories that reach the newspaper. Mrs Tóth saw her husband, dead for nine years, waiting for her at the corner by the chemist's. The baker heard his mother calling him from the oven. Three children played all afternoon with a friend no adult saw, and whose name no one knows. We advise readers not to go out unless they must, and not to answer anyone who calls their name from the fog.",
+  "short": "The dead are seen in the fog: a husband nine years buried, a mother calling from the oven, a nameless child. Do not answer anyone who calls you from the fog."
+ },
+ "Nella nebbia il velo è sottile come carta bagnata. Qualcuno vuole approfittarne.": {
+  "easy": "In the fog the veil is as thin as wet paper. Someone wants to use it for their own good."
+ },
+ "Nella saletta in fondo al Pub, dietro una tenda di velluto, Madame Vámos riceve chiunque offra un bicchiere all'oste e non faccia domande.": {
+  "easy": "In the small room at the back of the Pub, behind a velvet curtain, Madame Vámos sees anyone who buys the landlord a drink and asks no questions.",
+  "short": "At the back of the Pub, Madame Vámos receives those who ask no questions."
+ },
+ "Madame Vámos non c'è più, ma la sua sedia, nella saletta in fondo al Pub, è ancora al suo posto. Chi ci si siede davanti, con le mani sul tavolino, sente la sua voce.": {
+  "easy": "Madame Vámos is gone, but her chair is still in the small room at the back of the Pub. Whoever sits in front of it, with their hands on the little table, hears her voice.",
+  "short": "Madame is gone, but whoever sits before her chair still hears her voice."
+ },
+ "Nella saletta in fondo al Pub una ragazza pallida, che dice di essere stata allieva della donna del carro, tiene sedute per pochi soldi.": {
+  "easy": "In the small room at the back of the Pub a pale girl, who says she studied with the woman in the wagon, holds séances for a little money.",
+  "short": "At the back of the Pub, a pupil of the woman in the wagon holds séances for a few coins."
+ },
+ "La voce della medium si fa roca, maschile: è un mugnaio morto di colera, dice, che si fidava delle banche ancora meno che dei preti. Ti descrive un mattone smosso dietro la stufa di un mulino abbandonato. Ci vai il giorno dopo, con la nebbia alle ginocchia. Il mattone c'è. Dietro c'è una scatola di latta piena di monete, e nessuno, che tu sappia, verrà mai a reclamarla.": {
+  "easy": "The medium's voice becomes rough, like a man's: it is a miller who died of cholera, she says, who trusted banks even less than priests. He describes a loose brick behind the stove of an abandoned mill. You go there the next day, with fog up to your knees. The brick is there. Behind it is a tin box full of coins, and no one, as far as you know, will ever come to take it.",
+  "short": "A miller who died of cholera speaks and points you to a loose brick in an abandoned mill. Behind it is a box of coins no one will claim."
+ },
+ "Le mani della medium stringono le tue, a lungo. Poi arriva un nome: quello di chi, in paese, ti teme più di tutti e sparge voci sul tuo conto. È un nome che conosci. Il giorno dopo vai a trovarlo con un cesto di frutta e un sorriso. Le voci, misteriosamente, si spengono.": {
+  "easy": "The medium holds your hands for a long time. Then she says a name: that of the person in town who is most afraid of you and says bad things about you. You know that name. The next day you visit them with a basket of fruit and a smile. The rumours, strangely, stop.",
+  "short": "The medium names the one spreading rumours about you. A visit with a basket of fruit, and the rumours die away."
+ },
+ "A metà di una frase la voce della medium cambia: diventa più bassa, più lenta, con un accento che hai sentito solo nelle storie di famiglia. È il nonno. Ti chiama per nome, il tuo, e ti dice che nella nebbia il velo è sottile come carta bagnata, e che basterebbe un dito per bucarlo. Poi la candela si spegne, e la voce tace.": {
+  "easy": "In the middle of a sentence the medium's voice changes: it gets lower and slower, with an accent you have only heard in family stories. It is Grandfather. He calls you by name and tells you that in the fog the veil is as thin as wet paper: one finger would be enough to make a hole in it. Then the candle goes out, and the voice is silent.",
+  "short": "The medium's voice becomes Grandfather's: \"In the fog the veil is as thin as wet paper. One finger could pierce it.\" Then the candle goes out."
+ },
+ "L'Asylum Program è una vecchia caserma imbiancata a calce, con le finestre a sbarre e una croce di ferro sul cancello. Padre Anzelm, ormai curvo, lo dirige con l'aiuto di due suore e di un infermiere enorme che non parla mai. Qui la nebbia ha portato i \"posseduti\": gente che parla con voci non sue, che scrive in lingue mai studiate, che bussa alle pareti per ore.": {
+  "easy": "The Asylum Program is an old barracks painted white, with bars on the windows and an iron cross on the gate. Father Anzelm, bent with age now, runs it with two nuns and a huge orderly who never speaks. The fog has brought the \"possessed\" here: people who speak with voices not their own, who write in languages they never learned, who knock on the walls for hours.",
+  "short": "At the Asylum Program, Father Anzelm treats the fog's \"possessed\": people who speak in others' voices and knock on the walls for hours."
+ },
+ "La cura è severa: bagni gelati, preghiere, cinghie di cuoio, silenzio. Ti fa bene, in qualche modo, vedere quanto è sottile il confine tra loro e te. Ma l'uomo della cella numero sette, quando passi, smette di bussare e ti saluta con il tuo nome, e con la voce di tuo nonno.": {
+  "easy": "The cure is hard: freezing baths, prayers, leather straps, silence. In a way it does you good to see how small the difference is between them and you. But the man in cell number seven, when you walk past, stops knocking and says hello using your name, and your grandfather's voice.",
+  "short": "The cure is harsh, and it does you good. But the man in cell seven greets you by name, in your grandfather's voice."
+ },
+ "Per la notte di Ognissanti Madame Vámos convoca tutto il villaggio nel Tempio del Circolo, o in quello che ne è stato costruito. Vengono in duecento, con le lanterne, attraverso la nebbia. Al centro della sala c'è un tavolo rotondo, con una sedia per ogni erede della tenuta e due in più: una per Madame, una vuota.": {
+  "easy": "For All Saints' night Madame Vámos invites the whole village to the Temple of the Circle, or to the part of it that has been built. Two hundred people come, with lanterns, through the fog. In the middle of the hall there is a round table, with a chair for each heir of the estate and two more chairs: one for Madame and one empty.",
+  "short": "On All Saints' night two hundred people cross the fog to the Temple. At the table, a chair for each heir, one for Madame, and one empty."
+ },
+ "Madame annuncia che stanotte, con l'aiuto del sangue del fondatore, proverà a evocare lui: l'uomo che per primo scrisse che i veli si sollevano. Il verbale lo redige {0}, per volontà della medium, \"perché resti scritto da una mano di famiglia\".": {
+  "easy": "Madame says that tonight, with the help of the founder's blood, she will try to call him: the man who first wrote that veils can be lifted. {0} writes the record, because the medium wants it: \"so it is written by a hand of the family\".",
+  "short": "Madame will try to summon the founder, with the help of his blood. {0} takes the minutes, \"a hand of the family\"."
+ },
+ "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il Journal aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}.": {
+  "easy": "There is no medium, so the family does it alone. On All Saints' night the heirs sit around the old table in the laboratory, the one Grandfather used for his experiments with magnetism. The Journal is open at the last page and there is an empty chair at the head of the table. {0} writes the record.",
+  "short": "Without a medium, the heirs sit alone around the old laboratory table, an empty chair at its head. {0} takes the minutes."
+ },
+ "Fuori la nebbia preme contro i vetri. Nessuno di loro ha mai condotto una seduta; tutti, però, hanno letto abbastanza per sapere come si fa. È questa, più di tutto il resto, la cosa che fa paura.": {
+  "easy": "Outside, the fog presses against the windows. None of them has ever led a séance, but they have all read enough to know how to do it. That is exactly what is most frightening.",
+  "short": "None of them has ever led a séance, but all of them know how. That is what is frightening."
+ },
+ "A mezzanotte la fiamma della candela, al centro del tavolo, si piega verso la sedia vuota, come per un soffio. È il momento di decidere.": {
+  "easy": "At midnight the candle flame, in the middle of the table, bends towards the empty chair, as if blown by a breath of air. It is time to decide.",
+  "short": "At midnight the flame bends towards the empty chair. It is time to decide."
+ },
+ "Madame Vámos chiude gli occhi e si irrigidisce sulla sedia. Le sue labbra si schiudono, e dalla bocca comincia a uscire una sostanza bianca e luminosa, lenta, come un fumo che pesa. Si allunga sul tavolo verso la sedia vuota e prende la forma di una mano. Poi di un braccio. Qualcuno grida. La luce si fa accecante.": {
+  "easy": "Madame Vámos closes her eyes and goes stiff in her chair. She opens her lips, and slowly a white, glowing substance begins to come out of her mouth, like heavy smoke. It stretches across the table towards the empty chair and takes the shape of a hand. Then an arm. Someone screams. The light becomes very bright.",
+  "short": "A white, glowing substance pours from Madame's mouth, stretches towards the empty chair and takes the shape of a hand. The light blinds everyone."
+ },
+ "Quando torna il buio, sulla sedia di Madame c'è soltanto il suo scialle nero. Del corpo, nessuna traccia. Sul tavolo resta una pozza di sostanza bianca, ancora tiepida, che qualcuno, con mano tremante, raccoglie in una fiala.": {
+  "easy": "When the dark comes back, there is only her black shawl on Madame's chair. Her body is gone. On the table there is a pool of white substance, still warm, and someone, with a shaking hand, puts it into a vial.",
+  "short": "In the dark, only her shawl is left on Madame's chair. Someone gathers the white substance on the table into a vial."
+ },
+ "Madame Vámos rovescia la testa all'indietro. Dalla sua bocca esce una sostanza bianca e filamentosa, che si raccoglie sul tavolo in una piccola pozza luminosa. La sedia vuota scricchiola, come se qualcuno vi si fosse appena seduto. Poi Madame tossisce, si pulisce le labbra con un fazzoletto e dice, con la sua voce di sempre: \"Era qui\".": {
+  "easy": "Madame Vámos tips her head back. From her mouth comes a white, stringy substance that makes a small glowing pool on the table. The empty chair creaks, as if someone had just sat down. Then Madame coughs, wipes her lips with a handkerchief and says, in her normal voice: \"He was here.\"",
+  "short": "A white, glowing substance flows from Madame's mouth; the empty chair creaks. Then Madame wipes her lips: \"He was here.\""
+ },
+ "Il medico, il giorno dopo, dirà che era garza imbevuta di fosforo. Ma la sostanza che qualcuno raccoglie in una fiala, mesi dopo, brilla ancora.": {
+  "easy": "The next day the doctor will say it was gauze soaked in phosphorus. But the substance someone put in a vial is still glowing, months later.",
+  "short": "Gauze and phosphorus, the doctor will say. But the vial still glows months later."
+ },
+ "A mezzanotte la persona più giovane seduta al tavolo comincia a parlare con una voce che non è la sua: bassa, lenta, impaziente. Pronuncia tre parole in una lingua morta, poi tossisce, e dalla sua bocca esce una sostanza bianca e filamentosa che brilla nel buio.": {
+  "easy": "At midnight the youngest person at the table starts to speak with a voice that is not their own: low, slow, impatient. It says three words in an ancient language, then coughs, and a white, stringy substance that glows in the dark comes out of their mouth.",
+  "short": "At midnight the youngest speaks in a voice not their own, then coughs up a white substance that glows in the dark."
+ },
+ "Al mattino nessuno ricorda chi abbia preso una fiala dal laboratorio per raccoglierla. Ma la fiala è piena.": {
+  "easy": "In the morning no one remembers who took a vial from the laboratory to collect it. But the vial is full.",
+  "short": "No one remembers who gathered it. But the vial is full."
+ },
+ "Qualcuno si alza di scatto e spalanca le imposte. La candela si spegne; la sedia vuota si rovescia da sola, con un tonfo. Per un lungo momento nessuno respira.": {
+  "easy": "Someone suddenly stands up and opens the shutters. The candle goes out. The empty chair falls over by itself, with a thud. For a long moment no one breathes.",
+  "short": "Someone throws open the shutters. The candle goes out and the empty chair falls by itself."
+ },
+ "Poi, fuori, la nebbia si dirada un poco, e per la prima volta da mesi si vede la luna. Qualunque cosa stesse aspettando dall'altra parte del tavolo, se n'è andata. Ma se n'è andata arrabbiata, e per tutto l'inverno, alla tenuta, le porte sbattono da sole.": {
+  "easy": "Then, outside, the fog gets a little thinner, and for the first time in months you can see the moon. Whatever was waiting on the other side of the table has gone. But it has gone away angry, and all winter, at the estate, the doors slam by themselves.",
+  "short": "The fog thins and the moon returns. Whatever was waiting has gone, but angry: all winter the doors slam by themselves."
+ },
+ "Qualche settimana dopo la seduta, Madame Vámos manda a ogni erede un biglietto listato a lutto. Non ha più molto tempo, scrive; o forse ne ha troppo. In ogni caso è venuto il momento di lasciare a qualcuno il suo segreto più prezioso: il modo di non morire del tutto.": {
+  "easy": "A few weeks after the séance, Madame Vámos sends each heir a card with a black border. She writes that she does not have much time left, or perhaps she has too much. Anyway, the moment has come to leave someone her most precious secret: the way not to die completely.",
+  "short": "Madame Vámos writes to the heirs: it is time to leave someone her most precious secret, the way not to die entirely."
+ },
+ "Lo venderà a una persona soltanto: a chi saprà dimostrare di tenerci di più. \"I miei figli spirituali\", aggiunge in fondo al biglietto, \"capiranno che anche l'eternità ha un prezzo.\"": {
+  "easy": "She will sell it to only one person: whoever shows they want it most. \"My spiritual children,\" she writes at the end of the card, \"will understand that even eternity costs something.\"",
+  "short": "She will sell it to whoever wants it most: \"even eternity has a price\"."
+ },
+ "Il Sindaco Bódi, figlio di quello che sedeva al consiglio nel 1856, è malato, e cerca un erede politico.": {
+  "easy": "Mayor Bódi, son of the man who was on the council in 1856, is ill and is looking for someone to take his place in politics."
+ },
+ "Con l'ultimo filo saldato, il secondo stadio del Telegrafo prende vita. I vasi di vetro si illuminano di una luce lattiginosa, la tastiera d'osso vibra, e l'ago non trema più: si sposta deciso da un tasto all'altro e, per la prima volta, compone una parola intera.": {
+  "easy": "When the last wire is soldered, the second part of the Telegraph switches on. The glass jars give a milk-white light, the bone keyboard vibrates and the needle no longer shakes: it moves surely from key to key and, for the first time, writes a whole word.",
+  "short": "With the last wire soldered, the Telegraph comes alive, and for the first time the needle spells a whole word."
+ },
+ "È un nome. Nessuno in famiglia lo conosce; ma la mattina dopo, al cimitero, lo trovano inciso su una lapide che il becchino giura di non aver mai visto.": {
+  "easy": "It is a name. No one in the family knows it. But the next morning, at the cemetery, they find it written on a headstone the gravedigger swears he has never seen.",
+  "short": "It is an unknown name. The next day they find it on a headstone no one had ever seen."
+ },
+ "Pezzo dopo pezzo, senza aspettare il consenso di nessuno, il primo stadio del Telegrafo è finalmente montato contro la parete del laboratorio. Quando lo accendi, le lampade di tutta la casa si abbassano, e l'ago, nell'ampolla, comincia a tremare. Cerca una lettera. Non la trova ancora.": {
+  "easy": "Piece by piece, without waiting for anyone's permission, the first part of the Telegraph is finally built against the laboratory wall. When you switch it on, the lights in the whole house get dimmer and the needle, inside the flask, starts to shake. It is looking for a letter. It cannot find it yet.",
+  "short": "On your own, you build the Telegraph's first stage. When you switch it on the needle trembles, seeking a letter it cannot yet find."
+ },
+ "Saldi un altro tratto di filo, tari l'ago, sostituisci un vaso incrinato. La macchina cresce, ma l'ago resta immobile: mancano ancora dei pezzi. Mentre metti via gli attrezzi, ti sembra di sentire un colpo, impaziente, dall'interno dell'ampolla.": {
+  "easy": "You solder another piece of wire, adjust the needle, replace a broken jar. The machine grows, but the needle does not move: some pieces are still missing. As you put the tools away, you think you hear an impatient knock inside the flask.",
+  "short": "The machine grows, but the needle stays still. As you put the tools away, an impatient knock comes from the flask."
+ },
+ "**IL SINDACO E LE SUE AMICIZIE.** Il Sindaco Bódi, che ha ereditato la carica dal padre come altri ereditano un orologio, è malato da tempo e non lo nasconde. Non nasconde nemmeno di cercare, tra le famiglie notabili di {0}, qualcuno da proteggere negli anni a venire, e da cui farsi proteggere a sua volta.": {
+  "easy": "**THE MAYOR AND HIS FRIENDS.** Mayor Bódi got his job from his father, the way other people inherit a watch. He has been ill for a long time and does not hide it. He also does not hide that he is looking, among the important families of {0}, for someone to protect in the coming years, who will protect him in return.",
+  "short": "**THE MAYOR AND HIS FRIENDSHIPS.** Mayor Bódi, ill, is looking among the families of {0} for someone to protect, and be protected by."
+ },
+ "Corre voce che le famiglie della tenuta abbiano già fatto le loro offerte, in denaro e in favori. Questo giornale non è in grado di confermarlo, e il suo direttore è stato pregato di non insistere.": {
+  "easy": "People say the families of the estate have already made their offers, with money and favours. This newspaper cannot confirm it, and its editor has been asked not to ask questions.",
+  "short": "They say the estate's families have already made their offers. The newspaper cannot confirm it."
+ },
+ "Gli anni della vecchiaia passano in fretta, come passano sempre per chi ha troppo da fare. La nebbia sale e scende con le stagioni, ma non se ne va mai del tutto: si ritira nei fossi, nel cimitero, dietro le serre della tenuta, e aspetta.": {
+  "easy": "The late years go by quickly, as always for people with too many things to do. The fog rises and falls with the seasons, but it never goes away completely: it hides in the ditches, in the cemetery, behind the estate's greenhouses, and waits.",
+  "short": "The late years pass quickly. The fog never quite leaves: it withdraws into the ditches and the cemetery, and waits."
+ },
+ "Anche le carte della seconda generazione si chiudono con una serie di funerali. Ho voluto controllare le lapidi di persona, una per una, con la lanterna, perché nella nebbia del cimitero (sì, c'è ancora) non si leggeva nulla. Le date sono quelle dei registri. Ma sotto ogni data, in un carattere più piccolo, il lapicida ha inciso anche l'ora; e tutte quelle ore cadono tra la mezzanotte e le tre.": {
+  "easy": "The papers of the second generation also end with a series of funerals. I wanted to check the headstones myself, one by one, with a lantern, because in the fog of the cemetery (yes, it is still there) nothing could be read. The dates are the same as in the records. But under each date, in smaller letters, the hour is carved too. And all those hours are between midnight and three.",
+  "short": "The second generation also ends in the cemetery, in the fog. Under each date on the headstones an hour is carved: always between midnight and three."
+ },
+ "Il lapicida, interrogato da un mio collega nel 1902, dichiarò di non aver mai inciso alcuna ora.": {
+  "easy": "The stonemason, questioned by a colleague of mine in 1902, said he had never carved any hour."
+ },
+ "Il telegramma raggiunse i nuovi eredi in città lontane, in uffici, laboratori, collegi. Quando scesero dal treno (perché ora anche lì arrivava il treno) trovarono una cittadina che non somigliava più al villaggio delle storie di famiglia: lampioni lungo la strada principale, un ufficio del telegrafo, una banca con le colonne di finto marmo e, nel caffè della piazza, un fonografo che suonava valzer viennesi a chiunque infilasse una moneta.": {
+  "easy": "The telegram reached the new heirs in faraway cities, in offices, laboratories, schools. When they got off the train (now the train went there too) they found a small town very different from the village of the family stories. There were street lamps along the main road, a telegraph office, a bank with fake marble columns and, in the café on the square, a phonograph that played Viennese waltzes for anyone who put in a coin.",
+  "short": "The telegram reached the new heirs far away. Off the train, they found a modern little town: street lamps, a telegraph, a bank and a phonograph playing waltzes."
+ },
+ "E c'era il Circolo. Il Circolo dell'Ultima Ora non aveva più bisogno di nascondersi, né di farsi pubblicità: possedeva le pompe funebri, metà degli edifici della piazza e la maggioranza del consiglio comunale. I suoi iscritti portavano all'occhiello un piccolo occhio d'argento, e lo portavano con orgoglio.": {
+  "easy": "And there was the Circle. The Circle of the Last Hour no longer had to hide, and did not need to make itself known: it owned the undertaker's, half the buildings on the square and most of the town council. Its members wore a small silver eye on their jackets, and were proud to wear it.",
+  "short": "The Circle now owned the undertaker's, half the square and the town council. Its members proudly wore a silver eye."
+ },
+ "E c'era la Chiesa. Dopo anni di prediche, processi e scomuniche, il vescovo aveva ottenuto ciò che voleva: il Circolo dell'Ultima Ora era fuorilegge, le sue sedute un reato, e chi parlava con i morti finiva davanti al tribunale ecclesiastico. Padre Benedek, il successore di Padre Anzelm, teneva un registro di nomi; quello della famiglia vi compariva più volte.": {
+  "easy": "And there was the Church. After years of sermons, trials and excommunications, the bishop had got what he wanted: the Circle of the Last Hour was banned, its séances were a crime, and anyone who spoke to the dead ended up before the Church court. Father Benedek, who had taken Father Anzelm's place, kept a list of names. The family's name was on it several times.",
+  "short": "The Church had won: the Circle was outlawed and séances a crime. Father Benedek kept a register of names, and the family's appeared more than once."
+ },
+ "E c'era, ancora, la vecchia guerra. Il Circolo dell'Ultima Ora e la parrocchia di Padre Benedek, il successore di Padre Anzelm, si contendevano le anime di {0} una per una, con la tenacia di due vicini che litigano per un muro di confine. Il muro, in questo caso, era il velo.": {
+  "easy": "And the old war was still going on. The Circle of the Last Hour and the parish of Father Benedek, who had taken Father Anzelm's place, fought over the souls of {0} one at a time, like two neighbours quarrelling over the wall between their land. In this case, the wall was the veil.",
+  "short": "The Circle and Father Benedek's parish still fought over the souls of {0}, like neighbours over a boundary wall. The wall was the veil."
+ },
+ "Madame Vámos, a sentire la gente, aveva la stessa età di cinquant'anni prima. Nessuno sapeva dove abitasse. Tutti sapevano dove trovarla.": {
+  "easy": "People said that Madame Vámos was the same age as fifty years before. No one knew where she lived. Everyone knew where to find her."
+ },
+ "Di Madame Vámos restavano uno scialle nero, esposto sotto vetro nel Tempio del Circolo, e una sedia vuota che nessuno osava spostare.": {
+  "easy": "Of Madame Vámos there was only a black shawl, kept in a glass case in the Temple of the Circle, and an empty chair that no one dared to move."
+ },
+ "Ora i morti della famiglia sono due generazioni. La prima notte nella tenuta i colpi ricominciano, puntuali come un orologio, ma più fitti: due ritmi diversi che si sovrappongono, si interrompono, si correggono a vicenda.": {
+  "easy": "Now the family's dead are two generations. On the first night at the estate the knocking starts again, regular as a clock, but faster: two different rhythms that mix, interrupt and correct each other.",
+  "short": "On the first night the knocking returns, but now there are two rhythms, correcting each other."
+ },
+ "Quando arrivano le voci, ogni erede ne sente due: quella del genitore, e una più antica, più fioca, conosciuta soltanto nei ritratti. Non sempre vanno d'accordo.": {
+  "easy": "When the voices come, each heir hears two: their parent's, and an older, weaker one that they know only from portraits. They do not always agree.",
+  "short": "Each heir hears two voices: a parent and an older ancestor. They do not always agree."
+ },
+ "Le due voci parlano insieme, una sopra l'altra, della stessa cosa: una formula, un'ossessione, un'idea che ha consumato due vite e adesso cerca la terza. Quando una si ferma per riprendere fiato, l'altra continua la frase.": {
+  "easy": "The two voices talk together, one over the other, about the same thing: a formula, an obsession, an idea that has used up two lives and now looks for a third. When one stops to breathe, the other finishes the sentence.",
+  "short": "Two voices, one obsession, which consumed two lives and now seeks a third."
+ },
+ "Non litigano. Sono d'accordo su tutto, ed è questo che ti spaventa. All'alba ti accorgi che stai finendo le loro frasi a voce alta.": {
+  "easy": "They do not argue. They agree about everything, and that is what scares you. At dawn you notice you are finishing their sentences out loud.",
+  "short": "They agree on everything. At dawn you are finishing their sentences aloud."
+ },
+ "\"È di famiglia\", dice la voce più antica, con una specie di orgoglio. \"È di famiglia\", ripete la voce del tuo genitore, con una specie di scusa.": {
+  "easy": "\"It runs in the family,\" says the older voice, almost proudly. \"It runs in the family,\" your parent's voice repeats, almost as if saying sorry."
+ },
+ "Poi entrambe ti spiegano, per tutta la notte, un'idea che non ti lascerà più. Al mattino non ricordi le parole. Ricordi solo che devi fare qualcosa, e che devi farlo presto.": {
+  "easy": "Then both of them explain to you, all night, an idea that will never leave you. In the morning you do not remember the words. You only remember that you must do something, and that you must do it soon.",
+  "short": "All night they explain an idea to you. In the morning you only know you must act, and soon."
+ },
+ "La voce del tuo genitore è febbrile: parla in fretta, si contraddice, ricomincia da capo, ti chiede di finire un lavoro che non ti spiega. Poi, piano, interviene l'altra voce, più antica: \"Calma. Lascia respirare chi è ancora vivo.\"": {
+  "easy": "Your parent's voice is agitated: it speaks fast, says one thing and then the opposite, starts again, asks you to finish a job without saying which. Then, softly, the other, older voice speaks: \"Calm. Let the living breathe.\"",
+  "short": "Your parent's voice is feverish and confused. The other, older one calms it: \"Let the living breathe.\""
+ },
+ "Per un poco la voce febbrile tace. Ma prima dell'alba torna, da sola, e ti sussurra un'ultima cosa all'orecchio.": {
+  "easy": "For a while the agitated voice is quiet. But before dawn it comes back, alone, and whispers one last thing in your ear."
+ },
+ "Colpi rapidi, nervosi, come di dita che non sanno stare ferme. È la voce che conosci meglio, ma non l'hai mai sentita così: ansiosa, affamata, piena di numeri. La voce più antica prova a coprirla con una vecchia ninna nanna di famiglia, stonata e paziente.": {
+  "easy": "Fast, nervous knocking, like fingers that cannot stay still. It is the voice you know best, but you have never heard it like this: anxious, hungry, full of numbers. The older voice tries to cover it with an old family lullaby, out of tune and patient.",
+  "short": "The voice you know best is anxious and full of numbers. The older one tries to soothe it with a lullaby."
+ },
+ "Ti addormenti a metà della ninna nanna. Ti svegli con un'idea in testa che non è tua.": {
+  "easy": "You fall asleep in the middle of the lullaby. When you wake up, there is an idea in your head that is not yours."
+ },
+ "Le due voci arrivano insieme, e sono serene. Ti raccontano di una folla, dall'altra parte: le famiglie che la tua famiglia ha consolato in cinquant'anni di lutti, e che ora si sono messe in fila per ringraziare. \"Non ti lasceranno senza protezione\", dice la voce più antica.": {
+  "easy": "The two voices come together, and they are calm. They tell you about a crowd on the other side: the families your family has helped in fifty years of grief. Now they are all in line to say thank you. \"They will not leave you without protection,\" says the older voice.",
+  "short": "On the other side, the families comforted over fifty years have lined up to give thanks. \"They will protect you,\" says the older voice."
+ },
+ "Al mattino, per la prima volta da quando sei qui, i cani del vicinato ti fanno le feste; e nella cassetta delle lettere c'è una busta senza firma, con dentro del denaro.": {
+  "easy": "In the morning, for the first time since you came here, the neighbours' dogs are happy to see you. And in the letterbox there is an unsigned envelope with money inside.",
+  "short": "In the morning the dogs greet you happily, and there is an envelope of money in the letterbox."
+ },
+ "Nessun colpo: un fruscio, come di tante persone che entrano in punta di piedi in una stanza. Le voci dei tuoi antenati ti presentano, uno alla volta, decine di sconosciuti: la vedova del mugnaio, un bambino morto di febbre, un minatore, una sarta. Ognuno ti stringe la mano, fredda e leggera. \"Ti dobbiamo un favore\", dicono.": {
+  "easy": "No knocking: only a rustle, like many people quietly coming into a room. Your ancestors' voices introduce you, one at a time, to dozens of strangers: the miller's widow, a child who died of fever, a miner, a dressmaker. Each one shakes your hand, cold and light. \"We owe you a favour,\" they say.",
+  "short": "A rustle of footsteps: your ancestors introduce you to dozens of dead the family once comforted. \"We owe you a favour.\""
+ },
+ "Il giorno dopo, in paese, la gente ti saluta per strada, e il droghiere non vuole essere pagato.": {
+  "easy": "The next day, in town, people say hello to you in the street, and the grocer does not want your money."
+ },
+ "La voce del tuo genitore è bassa, come di chi teme di essere ascoltato. \"La promessa al Circolo. Tu non la conosci, ma io sì: me la rivelò chi venne prima di me, e ora tocca a te portarla.\"": {
+  "easy": "Your parent's voice is low, like someone afraid of being heard. \"The promise to the Circle. You don't know it, but I do: the one who came before me told me, and now it's your turn to carry it.\"",
+  "short": "\"The promise to the Circle. The one before me revealed it to me. Now it's your turn.\""
+ },
+ "Poi la voce più antica, fioca, aggiunge il resto: come si scioglie la promessa, e come la si può far pagare cara a chi l'ha pretesa. Ti fa scrivere tutto sul retro di una fotografia di famiglia.": {
+  "easy": "Then the older voice, weak, tells you the rest: how to break the promise, and how to make the one who wanted it pay dearly. It makes you write everything on the back of a family photograph.",
+  "short": "The older voice tells you how to break the promise, and make it cost dearly. You write it all on the back of a photograph."
+ },
+ "\"Il Circolo busserà\", dice la voce più antica. \"Busserà a te, perché sono io ad aver firmato.\" \"E tu non aprirai\", aggiunge l'altra, \"oppure aprirai alle nostre condizioni.\"": {
+  "easy": "\"The Circle will knock,\" says the older voice. \"It will knock at your door, because I was the one who signed.\" \"And you will not open,\" says the other, \"or you will open on our terms.\"",
+  "short": "\"The Circle will knock for you.\" \"And you will not open, or you will open on our terms.\""
+ },
+ "Per tutta la notte le due voci ti insegnano le parole esatte, le date, i nomi: abbastanza per sciogliere la promessa, o per ricattare chi la custodisce. Al mattino hai un fascicolo di appunti e un'idea molto chiara di quanto valga.": {
+  "easy": "All night the two voices teach you the exact words, the dates, the names: enough to break the promise, or to blackmail the people who keep it. In the morning you have a folder of notes and you know very well what it is worth.",
+  "short": "All night you learn words, dates and names: enough to break the promise, or blackmail those who keep it."
+ },
+ "Le voci sono deboli, lontane, come su una linea del telegrafo disturbata. Distingui il tuo nome, poi una parola che potrebbe essere \"attenzione\" oppure \"pazienza\", e poi più niente.": {
+  "easy": "The voices are weak and far away, like on a bad telegraph line. You hear your name, then a word that may be \"careful\" or may be \"patience\", and then nothing more.",
+  "short": "Faint, crackling voices: your name, an unclear word, then nothing."
+ },
+ "Aspetti a lungo. Alla fine arrivano due colpi lievissimi, uno per ciascuna delle voci che speravi di sentire; e poi un fruscio di carta, come se qualcuno sfogliasse un libro dall'altra parte del muro.": {
+  "easy": "You wait a long time. In the end two very soft knocks come, one for each of the voices you hoped to hear. Then a rustle of paper, as if someone were turning the pages of a book on the other side of the wall.",
+  "short": "After a long wait, two faint knocks and a rustle of pages behind the wall."
+ },
+ "La mattina dopo, prima ancora di colazione, qualcuno bussa alla porta principale. Bussa normalmente, per fortuna. È un uomo anziano, con la barba bianca e una borsa da medico, che si presenta come il dottor Lukács, professore all'University e, a suo dire, \"l'ultimo uomo ragionevole di {0}\".": {
+  "easy": "The next morning, even before breakfast, someone knocks at the front door. Luckily, they knock in a normal way. It is an old man with a white beard and a doctor's bag. He says he is Dr Lukács, professor at the University and, in his own words, \"the last reasonable man in {0}\".",
+  "short": "In the morning Dr Lukács of the University knocks, normally, thank goodness: \"the last reasonable man in {0}\"."
+ },
+ "Lukács ha settant'anni, una memoria eccellente e un'unica ossessione: dimostrare che a {0} nessuno ha mai parlato con i morti. \"Ho assistito alle sedute del Circolo per vent'anni, prendendo appunti\", dice. \"Ho visto tavolini volare e fantasmi fatti di garza e fosforo. Ho raccolto prove. Mi serve solo qualcuno della famiglia disposto ad aiutarmi.\"": {
+  "easy": "Lukács is seventy, has an excellent memory and only one obsession: to prove that no one in {0} has ever spoken to the dead. \"I went to the Circle's séances for twenty years and took notes,\" he says. \"I have seen tables fly and ghosts made of gauze and phosphorus. I have collected evidence. I only need someone from the family who wants to help me.\"",
+  "short": "Lukács wants to prove that no one in {0} ever spoke with the dead. He has twenty years of notes and evidence: he needs someone from the family."
+ },
+ "In piazza aprono negozi nuovi, tutti nello stesso mese, tutti pagati in contanti.": {
+  "easy": "New shops open on the square, all in the same month and all paid for in cash."
+ },
+ "Nel suo studio all'University il dottor Lukács ha messo insieme un piccolo museo della frode. Ci sono fili di seta nera, sottilissimi, per sollevare un tavolino; un paio di scarpe con il tacco cavo, per bussare sul pavimento senza muovere le mani; una maschera di garza ancora macchiata di fosforo; e un pacco di ricevute di un fabbro, intestate al Circolo dell'Ultima Ora, per \"lavori ai muri\" in case private.": {
+  "easy": "In his study at the University Dr Lukács has made a small museum of tricks. There are very thin black silk threads for lifting a table; a pair of shoes with hollow heels, for knocking on the floor without using your hands; a gauze mask still dirty with phosphorus; and many receipts from a blacksmith, in the name of the Circle of the Last Hour, for \"work on the walls\" in private houses.",
+  "short": "Lukács has a small museum of fraud: silk threads to lift tables, shoes for knocking, a phosphorus mask and receipts from a smith the Circle paid for \"work on the walls\"."
+ },
+ "Lo aiuti a catalogare tutto, a confrontare le date, a ricostruire chi sapeva che cosa. È un lavoro lungo, minuzioso, rassicurante. Quando esci, il mondo ti sembra un posto più semplice.": {
+  "easy": "You help him put everything in order, compare the dates, work out who knew what. It is long, careful work, and it calms you. When you leave, the world seems simpler.",
+  "short": "You help him sort the evidence. When you leave, the world seems simpler."
+ },
+ "Le pompe funebri del Circolo sono le più eleganti della regione: marmo nero, velluto viola, un organo che suona da solo. Qui i morti vengono lavati, profumati, vestiti di bianco e sepolti con un campanello d'argento legato al polso, collegato da un filo a un altro campanello sopra la tomba. \"Per poter suonare\", spiega il direttore con un sorriso professionale. \"Se mai volessero.\"": {
+  "easy": "The Circle's undertaker's is the most elegant in the region: black marble, purple velvet, an organ that plays by itself. Here the dead are washed, perfumed, dressed in white and buried with a silver bell on the wrist. A cord connects it to another bell above the grave. \"So they can ring,\" the director explains with a professional smile. \"If they ever want to.\"",
+  "short": "At the Circle's undertaker's the dead are buried with a bell on the wrist, joined to one above the grave. \"Should they ever wish to ring,\" the director smiles."
+ },
+ "Nel retrobottega ti mostra il registro delle sepolture. Accanto a diversi nomi, a matita, ci sono una crocetta e una data successiva al funerale: i giorni in cui il campanello ha suonato. Poi ti offre, a prezzo di favore, qualcosa per il tuo laboratorio. Non chiedi da quale cassa venga.": {
+  "easy": "In the back room he shows you the burial book. Next to several names, in pencil, there is a small cross and a date after the funeral: the days when the bell rang. Then he offers you, at a good price, something for your laboratory. You do not ask which coffin it came from.",
+  "short": "In the register, beside some names, is the date the bell rang. Then he sells you something for the laboratory. You do not ask where it came from."
+ },
+ "**NEGOZI NUOVI, CLIENTI POCHI.** Nell'ultimo mese a {0} hanno aperto, una dopo l'altra, alcune botteghe nuove, tutte con le insegne fresche di vernice e le vetrine impeccabili. Le ha pagate in contanti, a quanto risulta al catasto, una società di Budapest di cui nessuno conosce i soci. Nessuna sembra avere molti clienti; tutte restano aperte fino a tardi.": {
+  "easy": "**NEW SHOPS, FEW CUSTOMERS.** In the last month some new shops have opened in {0}, one after another, all with freshly painted signs and perfect windows. According to the land office, a Budapest company paid for them in cash, but no one knows who its partners are. None of the shops seems to have many customers, but they all stay open late.",
+  "short": "**NEW SHOPS, FEW CUSTOMERS.** New shops in {0}, paid in cash by a mysterious Budapest company. Few customers, yet they stay open late."
+ },
+ "Il dottor Lukács, interpellato da questo giornale, non ha dubbi: sono facciate del Circolo dell'Ultima Ora, dietro le quali la società spiritista continua le sue attività lontano da occhi indiscreti. Il Circolo, interpellato a sua volta, ha risposto con un biglietto listato a lutto: \"Anche il commercio è una forma di consolazione.\"": {
+  "easy": "Dr Lukács, interviewed by this newspaper, is sure: these shops are a cover for the Circle of the Last Hour, which carries on its activities behind them in secret. The Circle replied with a black-bordered card: \"Trade is also a way to console.\"",
+  "short": "Lukács says they are fronts for the Circle. The Circle replies: \"Trade, too, is a form of consolation.\""
+ },
+ "Saldi l'ultimo filo con le mani che tremano. Prima ancora che tu possa girare l'interruttore, il Telegrafo si accende da solo: i vasi di vetro si illuminano uno dopo l'altro, come le finestre di una casa al tramonto, e un ronzio basso riempie il laboratorio, la tenuta, forse l'intera città.": {
+  "easy": "You solder the last wire with shaking hands. Before you can turn the switch, the Telegraph turns on by itself. The glass jars light up one after another, like the windows of a house at sunset, and a low hum fills the laboratory, the estate, maybe the whole town.",
+  "short": "At the last wire the Telegraph switches itself on, and a hum fills the estate, perhaps the town."
+ },
+ "L'ago si alza, esita, poi comincia a battere sui tasti d'osso, lento, deciso. Batte un nome: quello della tua famiglia. Poi si ferma, e aspetta, come chi ha suonato un campanello.": {
+  "easy": "The needle rises, waits a moment, then begins to tap on the bone keys, slowly and surely. It writes a name: your family's. Then it stops and waits, like someone who has rung a doorbell.",
+  "short": "The needle taps out your family's name, then waits, like someone who has rung a doorbell."
+ },
+ "**LO SCANDALO DEL CIRCOLO.** La Gazzetta pubblica in prima pagina, su sei colonne, le prove raccolte dal dottor Lukács: le ricevute del fabbro, le botteghe smascherate, le confessioni di due ex iscritti. Le iscrizioni al Circolo dell'Ultima Ora crollano in una settimana; in piazza qualcuno lancia sassi contro le sue finestre.": {
+  "easy": "**THE SCANDAL OF THE CIRCLE.** The Gazette publishes on its front page, across six columns, the evidence found by Dr Lukács: the blacksmith's receipts, the exposed shops, the confessions of two former members. In a week almost everyone leaves the Circle of the Last Hour, and on the square someone throws stones at its windows.",
+  "short": "**THE SCANDAL OF THE CIRCLE.** The Gazette prints Lukács's evidence. Within a week the Circle loses its members, and stones fly on the square."
+ },
+ "Madame Vámos, convocata dal pretore, non si presenta. Si dice che abbia fatto le valigie; si dice anche che non abbia nessuna valigia da fare.": {
+  "easy": "Madame Vámos is called by the judge, but she does not come. Some say she has packed her bags. Others say she has no bags to pack."
+ },
+ "Nessuno ha toccato le facciate. Le botteghe del Circolo restano aperte fino a tardi, con le vetrine impeccabili e pochi clienti; il dottor Lukács scrive lettere furiose alla Gazzetta, che non le pubblica.": {
+  "easy": "No one has touched the fake shops. The Circle's shops stay open late, with perfect windows and few customers. Dr Lukács writes angry letters to the Gazette, but the Gazette does not print them.",
+  "short": "No one has touched the fronts, and the Gazette does not print Lukács's furious letters."
+ },
+ "Il Circolo, in silenzio, ringrazia: una mattina ogni erede trova sulla soglia un garofano nero, fresco.": {
+  "easy": "The Circle, without a word, says thank you: one morning each heir finds a fresh black carnation in front of the door."
+ },
+ "Una facciata è caduta, e quello che c'era dietro ha fatto il giro della città in un giorno. Ma le altre restano in piedi, e il Circolo smentisce tutto con grande dignità.": {
+  "easy": "One fake shop has been exposed, and in a day the whole town knows what it was hiding. But the others are still open, and the Circle denies everything with great dignity.",
+  "short": "One front has fallen, but the others hold, and the Circle denies everything."
+ },
+ "{0} non sa più a chi credere. La gente va a messa la domenica e alle sedute il giovedì, per non sbagliare.": {
+  "easy": "In {0} no one knows whom to believe any more. To be safe, people go to mass on Sunday and to séances on Thursday."
+ },
+ "Alla fine di questa Generazione, tutta la città si siederà intorno allo stesso tavolo.": {
+  "easy": "At the end of this Generation, the whole town will sit at the same table."
+ },
+ "L'ultima notte del 1905 {0} si riunisce nella sala grande del municipio: il sindaco, il consiglio, il Circolo, la parrocchia, il dottor Lukács con il suo taccuino e, al centro, la famiglia della tenuta. Duecento persone sedute in cerchi concentrici, le mani intrecciate a quelle dei vicini, le lampade spente. Nessuno ricorda chi l'abbia convocata. Tutti, però, sono venuti.": {
+  "easy": "On the last night of 1905 all of {0} meets in the great hall of the town hall: the mayor, the council, the Circle, the parish, Dr Lukács with his notebook and, in the middle, the family of the estate. Two hundred people sit in circles, each holding their neighbours' hands, and the lights are off. No one remembers who called them. But everyone has come.",
+  "short": "On the last night of 1905 two hundred people sit in circles in the town hall of {0}, hand in hand, in the dark. No one knows who summoned them, but all have come."
+ },
+ "A mezzanotte meno un quarto i colpi cominciano. Non alle pareti: dappertutto. Nel pavimento, nel soffitto, nelle sedie, nel petto di ciascuno. Cinquantasette anni dopo quella prima notte, il velo non è mai stato così sottile.": {
+  "easy": "At a quarter to twelve the knocking begins. Not on the walls: everywhere. In the floor, in the ceiling, in the chairs, in everyone's chest. Fifty-seven years after that first night, the veil has never been so thin.",
+  "short": "At a quarter to midnight the knocking starts everywhere, even in their chests. The veil has never been so thin."
+ },
+ "Qualcuno ha portato il Telegrafo dalla tenuta su un carro e l'ha collegato ai fili della luce del municipio. L'ago batte da solo, impaziente, in attesa di istruzioni.": {
+  "easy": "Someone has brought the Telegraph from the estate on a cart and connected it to the town hall's electric wires. The needle taps by itself, impatient, waiting for instructions.",
+  "short": "The Telegraph, wired to the town hall's lights, taps by itself, impatient."
+ },
+ "Nell'aria, al centro della sala, si apre una crepa sottile, come in un vetro. Dall'altra parte c'è una luce fredda, e qualcosa che si muove.": {
+  "easy": "In the air, in the middle of the hall, a thin crack opens, like in glass. On the other side there is a cold light, and something moving."
+ },
+ "Il velo trema, ma tiene. Quando le lampade si riaccendono, tutti gli occhi sono sul tavolo del Circolo.": {
+  "easy": "The veil shakes, but it holds. When the lights come back on, everyone looks at the Circle's table."
+ },
+ "Egregio dottore, mi chiede che cosa accadde la notte del 31 dicembre 1905. Glielo dirò, anche se non mi crederà, e anche se le basterebbe uscire dalla sacrestia e fare due passi in piazza per vederlo con i suoi occhi.": {
+  "easy": "Dear Doctor, you ask me what happened on the night of 31 December 1905. I will tell you, even if you will not believe me. And even though you only need to leave the sacristy and walk a little on the square to see it with your own eyes.",
+  "short": "Dear Doctor, you ask about the night of 31 December 1905. You will not believe me, but you need only step into the square to see."
+ },
+ "Votammo di aprire. Il Telegrafo, o la medium, o le nostre mani intrecciate (non so più quale fosse la chiave) girarono nella serratura, e il velo si squarciò come una tenda vecchia. Non ci fu un lampo, né un tuono. Solo un gran freddo, e poi la porta della sala che si apriva da sola, e la gente che entrava. Gente che conoscevamo. Gente che avevamo seppellito.": {
+  "easy": "We voted to open. The Telegraph, or the medium, or our joined hands (I no longer know what the key was) turned in the lock, and the veil tore like an old curtain. There was no flash and no thunder. Only a great cold. Then the door of the hall opened by itself, and people came in. People we knew. People we had buried.",
+  "short": "We voted to open, and the veil tore like an old curtain. In a great cold, people we had buried came in through the door."
+ },
+ "Sono rimasti. A {0} i morti camminano con i vivi, siedono alle loro tavole, votano al consiglio, si lamentano del prezzo del pane. All'inizio si distinguevano: erano più pallidi, più silenziosi, e non facevano ombra. Adesso non è più così semplice.": {
+  "easy": "They stayed. In {0} the dead walk with the living, eat at their tables, vote in the council, complain about the price of bread. At first it was easy to recognise them: they were paler, quieter, and had no shadow. Now it is not so easy.",
+  "short": "They stayed. In {0} the dead live among the living. At first you could tell them apart. Not any more."
+ },
+ "Lei mi chiede da quale parte del velo le scrivo. Onestamente, dottore, da qualche anno ho smesso di chiedermelo.": {
+  "easy": "You ask me which side of the veil I am writing from. Honestly, Doctor, I stopped asking myself some years ago."
+ },
+ "Egregio dottore, il Telegrafo era finito. Bastava girare una manopola per sentire la voce del padre; bastava girarla nel verso opposto per chiudere la porta per sempre. Votammo di chiuderla.": {
+  "easy": "Dear Doctor, the Telegraph was finished. You only had to turn a dial to hear Father's voice, and turn it the other way to close the door for ever. We voted to close it.",
+  "short": "Dear Doctor, with the Telegraph we could hear Father or close the door for ever. We voted to close it."
+ },
+ "La macchina urlò per un'ora, poi tacque. Da quella notte nessuna seduta ha più funzionato: non a {0}, non a Vienna, non a Londra. I tavolini restano a terra, le medium si sono date al teatro, e la sua Società studia il nulla con grande rigore. Me ne scuso.": {
+  "easy": "The machine screamed for an hour, then stopped. Since that night no séance has ever worked again: not in {0}, not in Vienna, not in London. Tables stay on the floor, mediums work in the theatre, and your Society studies nothing very seriously. I am sorry.",
+  "short": "The machine screamed, then fell silent. Since then no séance has worked anywhere. My apologies to your Society."
+ },
+ "Anche la voce del padre è rimasta dall'altra parte. Non sapremo mai che cosa volesse dirci. A volte, la notte, appoggio la mano sulla parete della mia camera, quella dove una volta bussavano, e aspetto. La parete è fredda, e muta, e io dormo benissimo.": {
+  "easy": "Father's voice also stayed on the other side. We will never know what he wanted to tell us. Sometimes, at night, I put my hand on the wall of my room, the one where they used to knock, and wait. The wall is cold and silent, and I sleep very well.",
+  "short": "We will never know what Father wanted to tell us. Sometimes at night I touch the wall where they used to knock. It is silent, and I sleep very well."
+ },
+ "Egregio dottore, era tutto un trucco. Il dottor Lukács lo aveva sempre detto, e alla fine lo dimostrammo davanti a tutta {0}: fili di seta nera per sollevare il tavolino, un fabbro complice per i colpi nei muri, garza e fosforo per l'ectoplasma, e una rete di informatori (vedove, osti, il sagrestano) che raccontavano al Circolo i segreti di tutti. Le voci dei morti erano voci di vivi, ben pagate.": {
+  "easy": "Dear Doctor, it was all a trick. Dr Lukács had always said so, and in the end we proved it in front of all {0}. There were black silk threads to lift the table, a blacksmith working with them for the knocking in the walls, gauze and phosphorus for the ectoplasm, and many spies (widows, innkeepers, the sexton) who told the Circle everyone's secrets. The voices of the dead were the voices of the living, well paid.",
+  "short": "Dear Doctor, it was all a trick: silk threads, a smith in on it, gauze and phosphorus, a network of informers. The voices of the dead were the living, well paid."
+ },
+ "La nostra famiglia divenne celebre. Scrivemmo libri, tenemmo conferenze a Budapest e a Parigi, smascherammo trentadue medium in undici paesi. La sua Società ci ha perfino conferito una medaglia, che conservo in un cassetto.": {
+  "easy": "Our family became famous. We wrote books, gave talks in Budapest and Paris and exposed thirty-two cheating mediums in eleven countries. Your Society even gave us a medal, which I keep in a drawer.",
+  "short": "We became famous: books, lectures, thirty-two mediums exposed. And a medal, in a drawer."
+ },
+ "Le scrivo però per dirle una cosa che non ho mai detto in pubblico. Il fabbro, interrogato, confessò di aver battuto sui muri della tenuta per vent'anni, su ordine del Circolo. Ma i colpi della prima notte, quelli del 2 novembre 1848, non li aveva fatti lui: allora aveva sei anni.": {
+  "easy": "But I am writing to tell you something I have never said in public. The blacksmith, when questioned, admitted he had knocked on the walls of the estate for twenty years, because the Circle asked him to. But the knocking on the first night, 2 November 1848, was not his: he was six years old then.",
+  "short": "But the smith, who knocked for the Circle for twenty years, was six years old on the first night, in 1848."
+ },
+ "E certe notti, ancora oggi, alla tenuta qualcuno bussa. Un colpo, poi due, poi uno.": {
+  "easy": "And some nights, even today, someone knocks at the estate. One knock, then two, then one."
+ },
+ "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del Journal.": {
+  "easy": "Dear Doctor, the Telegraph tapped for three days and three nights. The needle ran over the bone keys faster than we could write, and we took turns at the table every two hours, with fingers black with ink. It was him, without doubt: the same abbreviations, the same mistakes, the same impatience as in the Journal.",
+  "short": "Dear Doctor, the Telegraph tapped for three days and nights, and we transcribed in shifts. It was him: the same mistakes, the same impatience as the Journal."
+ },
+ "Non ci chiese come stavamo. Non ci disse com'era, dall'altra parte. Dettò, e basta: formule, tavole, disegni descritti punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte gli aveva impedito di finire. Alla fine della terza notte l'ago si fermò, tornò al centro e batté un'ultima frase: *\"Ora lasciatemi in pace.\"*": {
+  "easy": "He did not ask how we were. He did not tell us what it was like on the other side. He just dictated: formulae, tables, drawings explained point by point. It was the last part of his Masterwork, the part death had not let him finish. At the end of the third night the needle stopped, went back to the middle and wrote one last sentence: *\"Now leave me in peace.\"*",
+  "short": "He asked nothing: he dictated the last part of his Masterwork. Then the needle tapped: *\"Now leave me in peace.\"*"
+ },
+ "Lo abbiamo fatto. Il Masterwork è finito, dottore, ed è stato pubblicato con il suo nome. Il Telegrafo è smontato, in soffitta. Non lo abbiamo più acceso.": {
+  "easy": "We did. The Masterwork is finished, Doctor, and it was published with his name. The Telegraph is taken apart, in the attic. We have never switched it on again.",
+  "short": "The Masterwork was published. The Telegraph is in the attic, dismantled."
+ },
+ "Egregio dottore, la Chiesa ha vinto, e non è stata una vittoria gentile. Il vescovo arrivò a {0} nella primavera del 1906 con un decreto, due gendarmi e una lista di nomi. La nostra famiglia era in cima.": {
+  "easy": "Dear Doctor, the Church won, and it was not a gentle victory. The bishop came to {0} in the spring of 1906 with a decree, two policemen and a list of names. Our family's name was first.",
+  "short": "Dear Doctor, the Church won. The bishop came in 1906 with a list of names, and ours was first."
+ },
+ "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del Journal. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.": {
+  "easy": "The Circle's building burned on the night of Pentecost. Somehow the fire crossed the road and reached the estate. The greenhouses, the cages, the laboratory and the volumes of the Journal burned. The Telegraph, as it melted, made a noise the firemen described as a cry of pain.",
+  "short": "At Pentecost the Circle burned, and the fire reached the estate. The Telegraph melted with a wail."
+ },
+ "Sulle ceneri il vescovo ha fatto costruire una cappella dedicata alle anime del purgatorio. Ci vado ogni domenica, come tutti. Il parroco dice che le sue pareti sono le più silenziose della diocesi, e ha ragione: lì non bussa mai nessuno.": {
+  "easy": "On the ashes the bishop had a chapel built for the souls in purgatory. I go there every Sunday, like everyone. The priest says its walls are the quietest in the diocese, and he is right: no one ever knocks there.",
+  "short": "A chapel now stands on the ashes. Its walls are the quietest in the diocese."
+ },
+ "Ma nella cripta, sotto l'altare, dove un tempo c'era il laboratorio, il sagrestano ha smesso di scendere da anni.": {
+  "easy": "But in the crypt, under the altar, where the laboratory used to be, the sexton has not gone down for years."
+ },
+ "Egregio dottore, lei mi chiede chi governa {0}. Formalmente il consiglio comunale, e un sindaco che porta ancora il nome dei Bódi. In pratica, da quella notte del 1905, ogni decisione passa prima da un tavolino.": {
+  "easy": "Dear Doctor, you ask me who is in charge in {0}. On paper, the town council, and a mayor who is still called Bódi. In reality, since that night in 1905, every decision goes first across a little table.",
+  "short": "Dear Doctor, the council governs {0}. But since 1905 every decision passes first across a little table."
+ },
+ "La Grande Seduta finì con la nostra famiglia alla testa del Circolo dell'Ultima Ora, e il Circolo ci accolse come si accoglie un erede atteso a lungo. Le pompe funebri, la banca, il giornale, la scuola: tutto ci appartiene, o appartiene a qualcuno che ci deve un favore. Le vedove ci benedicono. I morti, dicono, anche.": {
+  "easy": "The Great Séance ended with our family leading the Circle of the Last Hour, and the Circle welcomed us like an heir it had waited for a long time. The undertaker's, the bank, the newspaper, the school: everything is ours, or belongs to someone who owes us a favour. The widows bless us. And, people say, so do the dead.",
+  "short": "We lead the Circle, and everything is ours or owes us a favour. The widows bless us, and so do the dead."
+ },
+ "Non creda che sia un potere comodo. Ogni giovedì sera consultiamo chi ci ha preceduto, e i morti sono consiglieri esigenti: non dimenticano niente, non perdonano niente, e hanno tutto il tempo del mondo.": {
+  "easy": "Do not think it is a comfortable power. Every Thursday evening we ask advice from those who came before us, and the dead are difficult advisers: they forget nothing, forgive nothing, and have all the time in the world.",
+  "short": "But the dead are demanding counsellors: they forget nothing, forgive nothing, and have all the time in the world."
+ },
+ "Le scrivo con il loro permesso. Mi hanno chiesto di dirle che il suo lavoro è stato notato, e che, quando vorrà, al nostro tavolo ci sarà una sedia anche per lei. Le consiglio di non volerlo.": {
+  "easy": "I am writing with their permission. They asked me to tell you that your work has been noticed, and that, whenever you want, there will be a chair for you too at our table. I advise you not to want it.",
+  "short": "They ask me to tell you there is a chair for you at our table. I advise you not to want it."
+ },
+ "Caro dottore, la riconosco dalla calligrafia. Lei, invece, non riconoscerà la mia: non è quella di chi firma questa lettera. Da quando, la notte della Grande Seduta, la fiala si è rotta tra le mani di {0}, questa mano scrive per me.": {
+  "easy": "Dear Doctor, I recognise you by your handwriting. You, however, will not recognise mine: it is not the handwriting of the person who signs this letter. Since the night of the Great Séance, when the vial broke in the hands of {0}, this hand has written for me.",
+  "short": "Dear Doctor, you will not recognise my hand. Since the vial broke in the hands of {0}, this hand has written for me."
+ },
+ "Mi presento, anche se forse ha già capito: Eszter Vámos, consolatrice. Per mezzo secolo mi hanno chiamata truffatrice, strega, profetessa, santa. Avevano tutti un po' di ragione. Il segreto della vita eterna, dottore, non era in vendita: era in quella fiala. Bastava trovare la persona giusta, abbastanza folle da lasciarmi entrare.": {
+  "easy": "Let me introduce myself, though perhaps you have already understood: Eszter Vámos, consoler. For fifty years they called me a cheat, a witch, a prophet, a saint. They were all a little right. The secret of eternal life, Doctor, was not for sale: it was in that vial. I only had to find the right person, mad enough to let me in.",
+  "short": "I am Eszter Vámos, consoler. The secret of eternal life was in that vial: I only needed someone mad enough to let me in."
+ },
+ "Questo corpo è più giovane del mio, e ha mani più calde: me ne servo con cura. Le scrivo perché lei sta leggendo i miei verbali, e io ho sempre avuto un debole per chi mi legge con attenzione.": {
+  "easy": "This body is younger than mine and has warmer hands: I use it carefully. I am writing to you because you are reading my records, and I have always liked people who read me carefully.",
+  "short": "This body is young, and I use it with care. I write because you read my minutes so attentively."
+ },
+ "Ho cercato a lungo un erede vivente da interrogare, come ho fatto per gli altri documenti del fascicolo. Non l'ho trovato. Le carte si fermano alla notte del 31 dicembre 1905, a metà di un verbale: il velo era strappato, e la famiglia votò di non attraversarlo. Poi, dice l'ultima riga, \"la nebbia entrò dalle finestre\".": {
+  "easy": "I looked for a long time for a living heir to question, as I did for the other documents in the file. I did not find one. The papers end on the night of 31 December 1905, in the middle of a record: the veil was torn, and the family voted not to cross it. Then, says the last line, \"the fog came in through the windows\".",
+  "short": "I found no living heir. The papers stop on 31 December 1905: the veil was torn, the family did not cross it, and \"the fog came in through the windows\"."
+ },
+ "Dal 1906 {0} non compare più sulle carte geografiche. I treni non vi si fermano, il telegrafo non risponde, e i viaggiatori che provano ad arrivarci raccontano di aver camminato per ore in una nebbia bianca, intorno a un cimitero, prima di ritrovarsi al punto di partenza.": {
+  "easy": "Since 1906 {0} is no longer on any map. Trains do not stop there, the telegraph does not answer, and travellers who try to get there say they walked for hours in a white fog, around a cemetery, before finding themselves back where they started.",
+  "short": "Since 1906 {0} has vanished from the maps. Those who try to reach it walk for hours in the fog, around a cemetery, and end up where they began."
+ },
+ "Mi chiederete, allora, dove ho trovato queste casse. Me lo chiedo anch'io. Ricordo il treno della sera, l'ombrello, il parroco gentile e molto stanco. Non ricordo come sono uscito dal villaggio.": {
+  "easy": "So you will ask me where I found these crates. I ask myself too. I remember the evening train, the umbrella, the kind and very tired priest. I do not remember how I left the village.",
+  "short": "Where did I find these crates? I remember the train, the umbrella, the priest. I do not remember leaving the village."
+ },
+ "Scrivo dal mio studio di Budapest. Dalla finestra, da tre giorni, non vedo che nebbia. E qualcuno, educatamente, bussa.": {
+  "easy": "I am writing from my study in Budapest. For three days I have seen only fog from the window. And someone, politely, is knocking."
+ },
+ "Alla tenuta, quella notte, i colpi alle pareti sono più deboli del solito. Quasi timidi.": {
+  "easy": "That night, at the estate, the knocking on the walls is softer than usual. Almost shy."
+ }
+}

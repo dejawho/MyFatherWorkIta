@@ -134,44 +134,68 @@
   },
   "G1Intro": {
    "emma": {
-    "full": "audio/voice/emma/g1intro.mp3"
+    "easy": "audio/voice/emma/g1intro-easy.mp3",
+    "full": "audio/voice/emma/g1intro.mp3",
+    "short": "audio/voice/emma/g1intro-short.mp3"
    },
    "george": {
-    "full": "audio/voice/george/g1intro.mp3"
+    "easy": "audio/voice/george/g1intro-easy.mp3",
+    "full": "audio/voice/george/g1intro.mp3",
+    "short": "audio/voice/george/g1intro-short.mp3"
    },
    "nicola": {
-    "full": "audio/voice/nicola/g1intro.mp3"
+    "easy": "audio/voice/nicola/g1intro-easy.mp3",
+    "full": "audio/voice/nicola/g1intro.mp3",
+    "short": "audio/voice/nicola/g1intro-short.mp3"
    },
    "sara": {
-    "full": "audio/voice/sara/g1intro.mp3"
+    "easy": "audio/voice/sara/g1intro-easy.mp3",
+    "full": "audio/voice/sara/g1intro.mp3",
+    "short": "audio/voice/sara/g1intro-short.mp3"
    }
   },
   "G2Intro": {
    "emma": {
-    "full": "audio/voice/emma/g2intro.mp3"
+    "easy": "audio/voice/emma/g2intro-easy.mp3",
+    "full": "audio/voice/emma/g2intro.mp3",
+    "short": "audio/voice/emma/g2intro-short.mp3"
    },
    "george": {
-    "full": "audio/voice/george/g2intro.mp3"
+    "easy": "audio/voice/george/g2intro-easy.mp3",
+    "full": "audio/voice/george/g2intro.mp3",
+    "short": "audio/voice/george/g2intro-short.mp3"
    },
    "nicola": {
-    "full": "audio/voice/nicola/g2intro.mp3"
+    "easy": "audio/voice/nicola/g2intro-easy.mp3",
+    "full": "audio/voice/nicola/g2intro.mp3",
+    "short": "audio/voice/nicola/g2intro-short.mp3"
    },
    "sara": {
-    "full": "audio/voice/sara/g2intro.mp3"
+    "easy": "audio/voice/sara/g2intro-easy.mp3",
+    "full": "audio/voice/sara/g2intro.mp3",
+    "short": "audio/voice/sara/g2intro-short.mp3"
    }
   },
   "G3Intro": {
    "emma": {
-    "full": "audio/voice/emma/g3intro.mp3"
+    "easy": "audio/voice/emma/g3intro-easy.mp3",
+    "full": "audio/voice/emma/g3intro.mp3",
+    "short": "audio/voice/emma/g3intro-short.mp3"
    },
    "george": {
-    "full": "audio/voice/george/g3intro.mp3"
+    "easy": "audio/voice/george/g3intro-easy.mp3",
+    "full": "audio/voice/george/g3intro.mp3",
+    "short": "audio/voice/george/g3intro-short.mp3"
    },
    "nicola": {
-    "full": "audio/voice/nicola/g3intro.mp3"
+    "easy": "audio/voice/nicola/g3intro-easy.mp3",
+    "full": "audio/voice/nicola/g3intro.mp3",
+    "short": "audio/voice/nicola/g3intro-short.mp3"
    },
    "sara": {
-    "full": "audio/voice/sara/g3intro.mp3"
+    "easy": "audio/voice/sara/g3intro-easy.mp3",
+    "full": "audio/voice/sara/g3intro.mp3",
+    "short": "audio/voice/sara/g3intro-short.mp3"
    }
   },
   "GloomyHunterIntro": {
@@ -440,16 +464,24 @@
   },
   "Prologo": {
    "emma": {
-    "full": "audio/voice/emma/prologo.mp3"
+    "easy": "audio/voice/emma/prologo-easy.mp3",
+    "full": "audio/voice/emma/prologo.mp3",
+    "short": "audio/voice/emma/prologo-short.mp3"
    },
    "george": {
-    "full": "audio/voice/george/prologo.mp3"
+    "easy": "audio/voice/george/prologo-easy.mp3",
+    "full": "audio/voice/george/prologo.mp3",
+    "short": "audio/voice/george/prologo-short.mp3"
    },
    "nicola": {
-    "full": "audio/voice/nicola/prologo.mp3"
+    "easy": "audio/voice/nicola/prologo-easy.mp3",
+    "full": "audio/voice/nicola/prologo.mp3",
+    "short": "audio/voice/nicola/prologo-short.mp3"
    },
    "sara": {
-    "full": "audio/voice/sara/prologo.mp3"
+    "easy": "audio/voice/sara/prologo-easy.mp3",
+    "full": "audio/voice/sara/prologo.mp3",
+    "short": "audio/voice/sara/prologo-short.mp3"
    }
   },
   "ProsperityHunterIntro": {

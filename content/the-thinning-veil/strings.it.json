@@ -27,13 +27,19 @@
   "full": "Egregi colleghi,"
  },
  "Prologo.4": {
-  "full": "vi scrivo dal villaggio di cui vi avevo parlato, dove sono arrivato con il treno della sera e un ombrello che non è servito a nulla. Il parroco, un uomo gentile e molto stanco, mi ha consegnato le chiavi della sacrestia vecchia. Dietro un armadio di noce c'era una porta murata alla meglio; dietro la porta, sei casse di documenti."
+  "full": "vi scrivo dal villaggio di cui vi avevo parlato, dove sono arrivato con il treno della sera e un ombrello che non è servito a nulla. Il parroco, un uomo gentile e molto stanco, mi ha consegnato le chiavi della sacrestia vecchia. Dietro un armadio di noce c'era una porta murata alla meglio; dietro la porta, sei casse di documenti.",
+  "easy": "vi scrivo dal villaggio di cui vi avevo parlato. Sono arrivato con il treno della sera e con un ombrello che non mi è servito. Il parroco, un uomo gentile e molto stanco, mi ha dato le chiavi della vecchia sacrestia. Dietro un armadio di legno c'era una porta chiusa con dei mattoni. Dietro la porta c'erano sei casse piene di documenti.",
+  "short": "vi scrivo dal villaggio di cui vi parlai. Il parroco mi ha dato le chiavi della vecchia sacrestia: dietro una porta murata c'erano sei casse di documenti."
  },
  "Prologo.5": {
-  "full": "Verbali di seduta, lettere mai spedite, pagine di diario strappate, ritagli della gazzetta locale, telegrammi con l'inchiostro ormai viola. Coprono cinquant'anni e tre generazioni della stessa famiglia: scienziati, o qualcosa che a loro piaceva chiamare così, che per mezzo secolo cercarono di parlare con i morti. E, a quanto pare, non sempre senza risposta."
+  "full": "Verbali di seduta, lettere mai spedite, pagine di diario strappate, ritagli della gazzetta locale, telegrammi con l'inchiostro ormai viola. Coprono cinquant'anni e tre generazioni della stessa famiglia: scienziati, o qualcosa che a loro piaceva chiamare così, che per mezzo secolo cercarono di parlare con i morti. E, a quanto pare, non sempre senza risposta.",
+  "easy": "Ci sono verbali di sedute, lettere mai spedite, pagine strappate di diari, articoli del giornale locale e vecchi telegrammi. Raccontano cinquant'anni e tre generazioni della stessa famiglia: scienziati, o almeno così si chiamavano, che per mezzo secolo cercarono di parlare con i morti. E sembra che a volte qualcuno abbia risposto.",
+  "short": "Verbali, lettere, diari e telegrammi: cinquant'anni di una famiglia di scienziati che cercò di parlare con i morti. E a volte, pare, ebbe risposta."
  },
  "Prologo.6": {
-  "full": "Ho deciso di ordinarli e di trascriverli prima di formulare qualunque giudizio. Il primo documento è il verbale di una veglia funebre. Vi chiedo di leggerlo come l'ho letto io: con lo scetticismo che la Società esige, e con la finestra chiusa."
+  "full": "Ho deciso di ordinarli e di trascriverli prima di formulare qualunque giudizio. Il primo documento è il verbale di una veglia funebre. Vi chiedo di leggerlo come l'ho letto io: con lo scetticismo che la Società esige, e con la finestra chiusa.",
+  "easy": "Ho deciso di mettere in ordine i documenti e di copiarli prima di dare un giudizio. Il primo documento racconta una veglia funebre. Vi chiedo di leggerlo come l'ho letto io: con lo scetticismo che la Società chiede, e con la finestra chiusa.",
+  "short": "Li ho ordinati e trascritti. Il primo è il verbale di una veglia funebre: leggetelo con scetticismo, e con la finestra chiusa."
  },
  "Prologo.7": {
   "full": "*Vostro devotissimo, F. Halász*"
@@ -84,10 +90,13 @@
   "full": "**Qualcuno ti guarda**"
  },
  "TkCreepy.2": {
-  "full": "Da qualche giorno, quando attraversi {0}, la gente si fa il segno della croce. I bambini smettono di giocare, i cani abbassano la coda. Di notte, sotto la tua finestra, ci sono impronte di piedi nudi che arrivano fino al muro e poi non tornano indietro. Qualunque cosa sia, ha deciso che sei la persona più interessante del paese."
+  "full": "Da qualche giorno, quando attraversi {0}, la gente si fa il segno della croce. I bambini smettono di giocare, i cani abbassano la coda. Di notte, sotto la tua finestra, ci sono impronte di piedi nudi che arrivano fino al muro e poi non tornano indietro. Qualunque cosa sia, ha deciso che sei la persona più interessante del paese.",
+  "easy": "Da qualche giorno, quando passi per {0}, la gente si fa il segno della croce. I bambini smettono di giocare e i cani abbassano la coda. Di notte, sotto la tua finestra, ci sono impronte di piedi nudi: arrivano fino al muro e non tornano indietro. Qualcosa ha deciso che sei la persona più interessante del paese.",
+  "short": "A {0} la gente si fa il segno della croce quando passi. Sotto la tua finestra ci sono impronte di piedi nudi che arrivano al muro e non tornano. Qualcosa ti ha scelto."
  },
  "TkCreepy.3": {
-  "full": "Una mattina, sulla soglia, trovi un regalo. È meglio non chiedersi da dove venga."
+  "full": "Una mattina, sulla soglia, trovi un regalo. È meglio non chiedersi da dove venga.",
+  "easy": "Una mattina trovi un regalo davanti alla porta. Meglio non chiedersi da dove arrivi."
  },
  "TkCreepy.4": {
   "full": "Guadagni 1 {icon:Bodies_Icon}. Rimetti il token {icon:StorybookToken} nella riserva."
@@ -99,7 +108,9 @@
   "full": "**Le voci**"
  },
  "TkInsanity.2": {
-  "full": "All'inizio è solo un brusio, come una stanza piena di gente nella casa accanto. Poi distingui le parole. Poi le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto."
+  "full": "All'inizio è solo un brusio, come una stanza piena di gente nella casa accanto. Poi distingui le parole. Poi le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto.",
+  "easy": "All'inizio senti solo un brusio, come tante persone in una stanza della casa accanto. Poi capisci le parole. Poi senti le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto.",
+  "short": "Prima un brusio, poi le voci: una vecchia che cerca un anello, un bambino che conta, un uomo che ripete un indirizzo. Nessuno sa di essere morto."
  },
  "TkInsanity.3": {
   "full": "Prendi appunti. Non sapresti dire se lo fai per la scienza o per farli tacere."
@@ -111,10 +122,13 @@
   "full": "**Il libro dei morti**"
  },
  "TkOccult.2": {
-  "full": "Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi."
+  "full": "Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.",
+  "easy": "Una mattina apri il Journal e trovi una pagina che non hai scritto tu. La scrittura è inclinata all'indietro e l'inchiostro è ancora bagnato. La formula sulla pagina ha un solo errore, come se chi l'ha scritta volesse vedere se te ne accorgi.",
+  "short": "Nel Journal c'è una pagina che non hai scritto, con l'inchiostro ancora fresco e un solo errore, come una prova."
  },
  "TkOccult.3": {
-  "full": "Te ne accorgi. Sotto la correzione, qualcuno ha aggiunto una parola sola: *\"Bene.\"*"
+  "full": "Te ne accorgi. Sotto la correzione, qualcuno ha aggiunto una parola sola: *\"Bene.\"*",
+  "easy": "Te ne accorgi. Sotto la tua correzione qualcuno ha scritto una sola parola: *\"Bene.\"*"
  },
  "TkOccult.4": {
   "full": "Pesca un Esperimento dal mazzo che preferisci. Rimetti il token {icon:StorybookToken} nella riserva."
@@ -123,7 +137,9 @@
   "full": "**Il nome sulla bocca di tutti**"
  },
  "TkVP.2": {
-  "full": "Il tuo nome gira per {0}: al mercato, in chiesa, nelle osterie. Alcuni lo dicono con paura, altri con ammirazione, tutti a bassa voce. Pochi giorni dopo un biglietto listato a lutto ti invita \"a una cena tra persone che non si rassegnano\"; dentro la busta, a titolo di cortesia, c'è del denaro."
+  "full": "Il tuo nome gira per {0}: al mercato, in chiesa, nelle osterie. Alcuni lo dicono con paura, altri con ammirazione, tutti a bassa voce. Pochi giorni dopo un biglietto listato a lutto ti invita \"a una cena tra persone che non si rassegnano\"; dentro la busta, a titolo di cortesia, c'è del denaro.",
+  "easy": "A {0} tutti parlano di te: al mercato, in chiesa, nelle osterie. Alcuni hanno paura, altri ti ammirano, ma tutti parlano a bassa voce. Pochi giorni dopo ricevi un biglietto con il bordo nero: ti invitano \"a una cena tra persone che non si rassegnano\". Dentro la busta, come gentilezza, c'è del denaro.",
+  "short": "A {0} tutti parlano di te, a bassa voce. Un biglietto listato a lutto ti invita \"a una cena tra persone che non si rassegnano\", con del denaro dentro."
  },
  "TkVP.3": {
   "full": "Il sigillo di ceralacca è nero, con un occhio aperto."
@@ -144,16 +160,22 @@
   "full": "**Verbale della veglia funebre – {0}, *2 novembre 1848.***"
  },
  "G1Intro.3": {
-  "full": "Il padre fu sepolto il giorno dei morti, sotto una pioggia sottile che non si decideva a cadere. Il villaggio venne al cimitero in buon numero, ma restò al di là del muretto: nessuno volle avvicinarsi alla fossa, e il becchino lavorò in fretta, senza guardare dentro. Si raccontava che il vecchio avesse passato gli ultimi anni chiuso nella tenuta con macchine che ronzavano di notte, e che dalle finestre del suo laboratorio uscisse, a volte, una luce di un colore che nessuno sapeva nominare."
+  "full": "Il padre fu sepolto il giorno dei morti, sotto una pioggia sottile che non si decideva a cadere. Il villaggio venne al cimitero in buon numero, ma restò al di là del muretto: nessuno volle avvicinarsi alla fossa, e il becchino lavorò in fretta, senza guardare dentro. Si raccontava che il vecchio avesse passato gli ultimi anni chiuso nella tenuta con macchine che ronzavano di notte, e che dalle finestre del suo laboratorio uscisse, a volte, una luce di un colore che nessuno sapeva nominare.",
+  "easy": "Il padre fu sepolto il giorno dei morti, sotto una pioggia leggera. Molte persone del villaggio vennero al cimitero, ma restarono dietro il muretto: nessuno volle avvicinarsi alla tomba, e il becchino lavorò in fretta senza guardare dentro. Si diceva che negli ultimi anni il vecchio fosse rimasto chiuso nella tenuta, con macchine che facevano rumore di notte. A volte, dalle finestre del suo laboratorio, usciva una luce di un colore strano, che nessuno sapeva descrivere.",
+  "short": "Il padre fu sepolto il giorno dei morti. Il villaggio restò dietro il muretto del cimitero: si diceva che il vecchio lavorasse di notte a macchine che ronzavano, tra luci di un colore senza nome."
  },
  "G1Intro.4": {
-  "full": "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:"
+  "full": "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:",
+  "easy": "Gli eredi erano arrivati la sera prima con la diligenza. Ognuno veniva da una città diversa, con un baule e la stessa lettera del notaio. Ora la tenuta era loro, e anche i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno di pelle pieno di appunti, disegni e formule. Sull'ultima pagina c'era una sola frase, sottolineata due volte, così forte che la penna aveva tagliato la carta:",
+  "short": "Gli eredi ricevettero la tenuta, i debiti, il laboratorio e il Journal del padre. Sull'ultima pagina, una frase sottolineata fino a incidere la carta:"
  },
  "G1Intro.5": {
   "full": "*\"La morte non è una porta chiusa: è un velo. E i veli si sollevano.\"*"
  },
  "G1Intro.6": {
-  "full": "Padre Anzelm benedisse la salma, chiuse il libro delle preghiere e disse agli eredi, a voce abbastanza alta perché lo sentissero tutti, che avrebbe pregato per la loro anima con particolare impegno."
+  "full": "Padre Anzelm benedisse la salma, chiuse il libro delle preghiere e disse agli eredi, a voce abbastanza alta perché lo sentissero tutti, che avrebbe pregato per la loro anima con particolare impegno.",
+  "easy": "Padre Anzelm benedisse il corpo e chiuse il libro delle preghiere. Poi disse agli eredi, abbastanza forte perché tutti sentissero, che avrebbe pregato molto per la loro anima.",
+  "short": "Padre Anzelm benedisse la salma e promise, ad alta voce, di pregare con impegno per l'anima degli eredi."
  },
  "G1Intro.7": {
   "full": "Quella notte, nella tenuta, qualcosa cominciò a bussare alle pareti."
@@ -168,13 +190,19 @@
   "full": "**Diario di {0} – *notte del 2 novembre 1848.***"
  },
  "G1ColpiA.4": {
-  "full": "Non riesco a dormire. La camera che mi hanno dato era quella di nostro padre: il letto ha ancora la forma del suo corpo, e l'aria sa di canfora e di acido. Ho spento la candela da un'ora quando sento il primo colpo."
+  "full": "Non riesco a dormire. La camera che mi hanno dato era quella di nostro padre: il letto ha ancora la forma del suo corpo, e l'aria sa di canfora e di acido. Ho spento la candela da un'ora quando sento il primo colpo.",
+  "easy": "Non riesco a dormire. Mi hanno dato la camera di nostro padre: il letto ha ancora la forma del suo corpo e l'aria sa di canfora e di acido. Ho spento la candela da un'ora, quando sento il primo colpo.",
+  "short": "Dormo nella camera di nostro padre e non prendo sonno. Poi sento il primo colpo."
  },
  "G1ColpiA.5": {
-  "full": "Viene dalla parete dietro la testiera. Un colpo secco, come di nocca sul legno. Poi due. Poi uno. Poi niente, così a lungo che quasi mi convinco di averlo sognato; e allora ricominciano, sempre uguali, pazienti, come chi bussa a una porta sapendo che in casa c'è qualcuno."
+  "full": "Viene dalla parete dietro la testiera. Un colpo secco, come di nocca sul legno. Poi due. Poi uno. Poi niente, così a lungo che quasi mi convinco di averlo sognato; e allora ricominciano, sempre uguali, pazienti, come chi bussa a una porta sapendo che in casa c'è qualcuno.",
+  "easy": "Il rumore viene dalla parete dietro il letto. Un colpo secco, come una nocca sul legno. Poi due colpi. Poi uno. Poi niente, per tanto tempo che quasi penso di averlo sognato. Poi ricominciano, sempre uguali e pazienti, come chi bussa a una porta e sa che in casa c'è qualcuno.",
+  "short": "Bussano alla parete dietro il letto: uno, due, uno. Poi silenzio, e di nuovo, paziente, come chi sa che in casa c'è qualcuno."
  },
  "G1ColpiA.6": {
-  "full": "Nella sua biblioteca ho visto un libretto francese sui tavolini parlanti: un colpo per dire sì, due per dire no. Mi torna in mente adesso, nel buio, e vorrei che non mi fosse tornato in mente."
+  "full": "Nella sua biblioteca ho visto un libretto francese sui tavolini parlanti: un colpo per dire sì, due per dire no. Mi torna in mente adesso, nel buio, e vorrei che non mi fosse tornato in mente.",
+  "easy": "Nella sua biblioteca ho visto un libretto francese sui tavolini che parlano: un colpo vuol dire sì, due vogliono dire no. Me lo ricordo adesso, al buio, e vorrei non ricordarlo.",
+  "short": "Ricordo un libretto della sua biblioteca: un colpo per sì, due per no. Vorrei non ricordarlo."
  },
  "G1ColpiA.7": {
   "full": "Che cosa fai?"
@@ -195,25 +223,35 @@
   "full": "Dall'altra parte, una volta."
  },
  "G1ColpiA.13": {
-  "full": "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il Journal aperto sul cuscino, a una pagina che non ricordo di aver mai letto."
+  "full": "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il Journal aperto sul cuscino, a una pagina che non ricordo di aver mai letto.",
+  "easy": "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul mobile. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. La mattina ho le dita addormentate e il Journal è aperto sul cuscino, su una pagina che non ricordo di aver mai letto.",
+  "short": "Chiedo se è lui: un colpo. Se è in pace: due colpi, fortissimi. Al mattino il Journal è aperto sul cuscino, a una pagina che non ho mai letto."
  },
  "G1ColpiA.14": {
   "full": "Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}."
  },
  "G1ColpiA.15": {
-  "full": "Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per scrupolo, anche me."
+  "full": "Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per scrupolo, anche me.",
+  "easy": "Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per sicurezza, anche me.",
+  "short": "Mando a chiamare Padre Anzelm. Arriva in camicia da notte e benedice la parete, il letto e, per scrupolo, anche me."
  },
  "G1ColpiA.16": {
-  "full": "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il Journal aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità."
+  "full": "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il Journal aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità.",
+  "easy": "I colpi si fermano subito. Ma il prete resta sulla porta più del necessario e si guarda intorno: le gabbie, gli strumenti di vetro, il Journal aperto sul tavolo. Prima di andare via mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Sembra più un anticipo che un aiuto.",
+  "short": "I colpi tacciono. Il prete si guarda a lungo intorno, poi mi lascia qualche moneta \"per le spese di casa\". Sembra un acconto."
  },
  "G1ColpiA.17": {
   "full": "Guadagni $2."
  },
  "G1ColpiA.18": {
-  "full": "Mi infilo sotto le coperte e premo il cuscino sulle orecchie, come da bambini durante i temporali. I colpi continuano a lungo, attutiti, e a un certo punto mi sembra che si spostino: dalla parete al pavimento, dal pavimento alla testiera, a un palmo dal mio orecchio. Poi, finalmente, smettono."
+  "full": "Mi infilo sotto le coperte e premo il cuscino sulle orecchie, come da bambini durante i temporali. I colpi continuano a lungo, attutiti, e a un certo punto mi sembra che si spostino: dalla parete al pavimento, dal pavimento alla testiera, a un palmo dal mio orecchio. Poi, finalmente, smettono.",
+  "easy": "Mi metto sotto le coperte e premo il cuscino sulle orecchie, come facevamo da bambini durante i temporali. I colpi continuano a lungo, più piano. A un certo punto sembra che si spostino: dalla parete al pavimento, dal pavimento al letto, vicinissimi al mio orecchio. Poi, finalmente, finiscono.",
+  "short": "Sotto le coperte, con il cuscino sulle orecchie, sento i colpi avvicinarsi fino al mio orecchio. Poi, finalmente, smettono."
  },
  "G1ColpiA.19": {
-  "full": "All'alba scosto la tenda. Sulla parete, all'altezza della mia testa, l'intonaco è scrostato in un cerchio piccolo e regolare, come consumato da una nocca che abbia bussato per anni."
+  "full": "All'alba scosto la tenda. Sulla parete, all'altezza della mia testa, l'intonaco è scrostato in un cerchio piccolo e regolare, come consumato da una nocca che abbia bussato per anni.",
+  "easy": "All'alba apro la tenda. Sulla parete, all'altezza della mia testa, l'intonaco è consumato in un piccolo cerchio regolare, come se una nocca avesse bussato lì per anni.",
+  "short": "All'alba, sulla parete, c'è un piccolo cerchio consumato, come da una nocca che bussa da anni."
  },
  "G1ColpiA.20": {
   "full": "Non succede niente. Per ora."
@@ -222,10 +260,14 @@
   "full": "**Il mattino dopo**"
  },
  "G1ColpiFine.2": {
-  "full": "A colazione nessuno parla dei colpi. Il caffè è troppo forte, il pane è di ieri e tutti hanno gli occhi cerchiati. Qualcuno fa una battuta sui topi della soffitta, e nessuno ride."
+  "full": "A colazione nessuno parla dei colpi. Il caffè è troppo forte, il pane è di ieri e tutti hanno gli occhi cerchiati. Qualcuno fa una battuta sui topi della soffitta, e nessuno ride.",
+  "easy": "A colazione nessuno parla dei colpi. Il caffè è troppo forte, il pane è vecchio e tutti hanno l'aria stanca. Qualcuno fa uno scherzo sui topi della soffitta, ma nessuno ride.",
+  "short": "A colazione nessuno parla dei colpi, e nessuno ride agli scherzi sui topi."
  },
  "G1ColpiFine.3": {
-  "full": "Dalla finestra della sala da pranzo si vede il villaggio: poche case di legno strette intorno alla chiesa, il fumo dei camini, il mercato che si sveglia. È un posto povero e sospettoso. Ma il padre ha lasciato agli eredi una tenuta, un laboratorio e un nome che fa ancora abbassare la voce alla gente; e un nome, per chi sa usarlo, vale quanto un capitale."
+  "full": "Dalla finestra della sala da pranzo si vede il villaggio: poche case di legno strette intorno alla chiesa, il fumo dei camini, il mercato che si sveglia. È un posto povero e sospettoso. Ma il padre ha lasciato agli eredi una tenuta, un laboratorio e un nome che fa ancora abbassare la voce alla gente; e un nome, per chi sa usarlo, vale quanto un capitale.",
+  "easy": "Dalla finestra della sala da pranzo si vede il villaggio: poche case di legno vicine alla chiesa, il fumo dei camini, il mercato che apre. È un posto povero e diffidente. Ma il padre ha lasciato agli eredi una tenuta, un laboratorio e un nome che fa ancora parlare piano la gente. E un nome, se lo sai usare, vale quanto molto denaro.",
+  "short": "Il villaggio è povero e sospettoso. Ma il padre ha lasciato agli eredi una tenuta, un laboratorio e un nome che fa ancora abbassare la voce: un capitale, per chi sa usarlo."
  },
  "G1ColpiFine.4": {
   "full": "Continua..."
@@ -240,7 +282,9 @@
   "full": "**Evento del primo Round**"
  },
  "G1R1.4": {
-  "full": "Una carovana si è fermata ai margini del villaggio. Si dice che a bordo viaggi una donna che parla con i morti, e che i morti le rispondano."
+  "full": "Una carovana si è fermata ai margini del villaggio. Si dice che a bordo viaggi una donna che parla con i morti, e che i morti le rispondano.",
+  "easy": "Un carro si è fermato vicino al villaggio. Dicono che sopra viaggi una donna che parla con i morti, e che i morti le rispondano.",
+  "short": "Al villaggio è arrivato il carro di una donna che parla con i morti."
  },
  "G1R1.5": {
   "full": "Clicca qui alla fine del Round per passare al Round successivo..."
@@ -258,13 +302,19 @@
   "full": "**Diario di {0} – *dicembre 1848.***"
  },
  "G1Seduta.3": {
-  "full": "Il carro di Madame Vámos è dipinto di blu notte e coperto di stelle d'oro scrostate. Ha ruote alte, tende di velluto e, sulla porta, una mano aperta con un occhio nel palmo. È fermo ai margini del villaggio da tre settimane, e in tre settimane metà delle vedove di {0} ci sono salite almeno una volta, di nascosto dal parroco."
+  "full": "Il carro di Madame Vámos è dipinto di blu notte e coperto di stelle d'oro scrostate. Ha ruote alte, tende di velluto e, sulla porta, una mano aperta con un occhio nel palmo. È fermo ai margini del villaggio da tre settimane, e in tre settimane metà delle vedove di {0} ci sono salite almeno una volta, di nascosto dal parroco.",
+  "easy": "Il carro di Madame Vámos è dipinto di blu scuro e coperto di stelle d'oro rovinate. Ha ruote alte, tende di velluto e, sulla porta, il disegno di una mano aperta con un occhio nel palmo. È fermo vicino al villaggio da tre settimane, e in questo tempo metà delle vedove di {0} ci sono salite almeno una volta, senza dirlo al parroco.",
+  "short": "Il carro di Madame Vámos, blu notte con una mano e un occhio sulla porta, è fermo da tre settimane. Metà delle vedove di {0} ci sono salite di nascosto."
  },
  "G1Seduta.4": {
-  "full": "Stamattina la medium si è presentata alla tenuta in persona. È una donna piccola, di età indefinibile, avvolta in uno scialle nero; parla piano, con un accento che non riesco a collocare, e ha mani molto bianche e molto fredde. Ha detto di aver sentito i colpi. Non che qualcuno le ha raccontato dei colpi: che li ha *sentiti*, dalla strada, passando davanti al cancello nella notte dei morti."
+  "full": "Stamattina la medium si è presentata alla tenuta in persona. È una donna piccola, di età indefinibile, avvolta in uno scialle nero; parla piano, con un accento che non riesco a collocare, e ha mani molto bianche e molto fredde. Ha detto di aver sentito i colpi. Non che qualcuno le ha raccontato dei colpi: che li ha *sentiti*, dalla strada, passando davanti al cancello nella notte dei morti.",
+  "easy": "Questa mattina la medium è venuta alla tenuta. È una donna piccola, e non si capisce quanti anni abbia. Porta uno scialle nero, parla piano, con un accento strano, e ha mani bianchissime e freddissime. Ha detto di aver sentito i colpi. Nessuno gliene aveva parlato: li ha *sentiti* lei, dalla strada, passando davanti al cancello nella notte dei morti.",
+  "short": "La medium, piccola e senza età, è venuta alla tenuta. Dice di aver *sentito* i colpi dalla strada, la notte dei morti."
  },
  "G1Seduta.5": {
-  "full": "\"Vostro padre ha qualcosa da dire\", ci ha detto. \"E non parla volentieri a chi non lo ascolta.\" Poi ha invitato tutti noi a una seduta nel suo carro, domani a mezzanotte. Non ha chiesto denaro. Questo, più di tutto il resto, mi preoccupa."
+  "full": "\"Vostro padre ha qualcosa da dire\", ci ha detto. \"E non parla volentieri a chi non lo ascolta.\" Poi ha invitato tutti noi a una seduta nel suo carro, domani a mezzanotte. Non ha chiesto denaro. Questo, più di tutto il resto, mi preoccupa.",
+  "easy": "\"Vostro padre ha qualcosa da dire\", ci ha detto. \"E non parla volentieri a chi non lo ascolta.\" Poi ci ha invitati tutti a una seduta nel suo carro, domani a mezzanotte. Non ha chiesto soldi. Questo, più di tutto, mi preoccupa.",
+  "short": "\"Vostro padre ha qualcosa da dire.\" Ci ha invitati a una seduta, domani a mezzanotte, gratis. È questo che mi preoccupa."
  },
  "G1SedutaVoto.1": {
   "full": "**Partecipare?**"
@@ -291,22 +341,34 @@
   "full": "**Il tavolino**"
  },
  "G1SedutaRacconto.2": {
-  "full": "Nessuno va. Madame Vámos accende le candele, siede al tavolino e aspetta fino all'alba davanti a sedie vuote. Il garzone del fornaio, che passa di lì alle quattro, giura di averla sentita parlare con qualcuno, e di aver sentito qualcuno rispondere."
+  "full": "Nessuno va. Madame Vámos accende le candele, siede al tavolino e aspetta fino all'alba davanti a sedie vuote. Il garzone del fornaio, che passa di lì alle quattro, giura di averla sentita parlare con qualcuno, e di aver sentito qualcuno rispondere.",
+  "easy": "Non va nessuno. Madame Vámos accende le candele, si siede al tavolino e aspetta fino all'alba davanti a sedie vuote. Il ragazzo del fornaio passa di lì alle quattro e giura di averla sentita parlare con qualcuno, e di aver sentito qualcuno rispondere.",
+  "short": "Non va nessuno. Madame aspetta fino all'alba davanti a sedie vuote; il garzone del fornaio giura di averla sentita parlare, e qualcuno rispondere."
  },
  "G1SedutaRacconto.3": {
-  "full": "Quella notte, alla tenuta, i colpi raddoppiano. Bussano a tutte le pareti, a tutte le porte, alla testiera di ogni letto. Bussano come chi è stato lasciato fuori al freddo."
+  "full": "Quella notte, alla tenuta, i colpi raddoppiano. Bussano a tutte le pareti, a tutte le porte, alla testiera di ogni letto. Bussano come chi è stato lasciato fuori al freddo.",
+  "easy": "Quella notte, alla tenuta, i colpi sono il doppio. Bussano su tutte le pareti, a tutte le porte, sul letto di ognuno. Bussano come qualcuno lasciato fuori al freddo.",
+  "short": "Quella notte i colpi raddoppiano, ovunque, come di chi è rimasto fuori al freddo."
  },
  "G1SedutaRacconto.4": {
-  "full": "Tutti gli eredi siedono intorno al tavolino rotondo, nel carro che sa di incenso e di cavallo. Madame chiede di unire le mani; le sue dita sono gelide. Recita qualcosa in una lingua che nessuno riconosce, poi tace, e nel silenzio il tavolino scricchiola, si inclina e si solleva da terra di un palmo, con tutte le mani sopra."
+  "full": "Tutti gli eredi siedono intorno al tavolino rotondo, nel carro che sa di incenso e di cavallo. Madame chiede di unire le mani; le sue dita sono gelide. Recita qualcosa in una lingua che nessuno riconosce, poi tace, e nel silenzio il tavolino scricchiola, si inclina e si solleva da terra di un palmo, con tutte le mani sopra.",
+  "easy": "Tutti gli eredi si siedono intorno al tavolino rotondo, nel carro che sa di incenso e di cavallo. Madame chiede di tenersi per mano; le sue dita sono gelate. Dice qualcosa in una lingua che nessuno conosce, poi tace. Nel silenzio il tavolino scricchiola, si piega e si alza da terra di un palmo, con tutte le mani sopra.",
+  "short": "Gli eredi si tengono per mano intorno al tavolino. Madame recita parole sconosciute, e il tavolino si solleva da terra di un palmo."
  },
  "G1SedutaRacconto.5": {
-  "full": "Resta sospeso per il tempo di un respiro. Poi ricade con un colpo solo, secco. Madame apre gli occhi e sorride come chi ha appena ricevuto buone notizie. \"Vi ha riconosciuto\", dice. \"Tutti.\""
+  "full": "Resta sospeso per il tempo di un respiro. Poi ricade con un colpo solo, secco. Madame apre gli occhi e sorride come chi ha appena ricevuto buone notizie. \"Vi ha riconosciuto\", dice. \"Tutti.\"",
+  "easy": "Resta in aria per il tempo di un respiro. Poi cade giù con un solo colpo secco. Madame apre gli occhi e sorride, come chi ha appena avuto una bella notizia. \"Vi ha riconosciuto\", dice. \"Tutti.\"",
+  "short": "Il tavolino ricade con un colpo solo. Madame sorride: \"Vi ha riconosciuto. Tutti.\""
  },
  "G1SedutaRacconto.6": {
-  "full": "Solo alcuni degli eredi salgono sul carro. Gli altri restano alla tenuta, davanti al camino, a ripetersi che qualcuno, in famiglia, deve pur conservare un po' di buon senso."
+  "full": "Solo alcuni degli eredi salgono sul carro. Gli altri restano alla tenuta, davanti al camino, a ripetersi che qualcuno, in famiglia, deve pur conservare un po' di buon senso.",
+  "easy": "Solo alcuni eredi salgono sul carro. Gli altri restano alla tenuta, davanti al camino, e si ripetono che qualcuno in famiglia deve avere un po' di buon senso.",
+  "short": "Solo alcuni eredi vanno; gli altri restano a casa, per buon senso."
  },
  "G1SedutaRacconto.7": {
-  "full": "Verso l'una di notte, dalla direzione del villaggio, arriva un grido. Poi un altro. Poi una risata, che potrebbe essere di chiunque. Chi torna all'alba non vuole raccontare che cosa ha visto; ma ha le mani fredde come quelle di Madame, e per tutta la mattina continua a guardare le pareti."
+  "full": "Verso l'una di notte, dalla direzione del villaggio, arriva un grido. Poi un altro. Poi una risata, che potrebbe essere di chiunque. Chi torna all'alba non vuole raccontare che cosa ha visto; ma ha le mani fredde come quelle di Madame, e per tutta la mattina continua a guardare le pareti.",
+  "easy": "Verso l'una di notte, dal villaggio, arriva un grido. Poi un altro. Poi una risata, ma non si capisce di chi. Chi torna all'alba non vuole raccontare che cosa ha visto. Però ha le mani fredde come quelle di Madame, e per tutta la mattina guarda le pareti.",
+  "short": "Nella notte, grida e una risata dal villaggio. Chi torna all'alba non parla, ha le mani fredde come Madame e guarda le pareti."
  },
  "G1SedutaRacconto.8": {
   "full": "Chi ha votato YAY guadagna 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}."
@@ -321,10 +383,14 @@
   "full": "**Gazzetta di {0} – *gennaio 1849.***"
  },
  "G1Patroni.3": {
-  "full": "**LA STREGA DEL CARRO.** Domenica scorsa il reverendo Padre Anzelm ha dedicato l'intero sermone a quella che ha chiamato, senza giri di parole, \"la strega del carro\". Ha ricordato ai fedeli che i morti riposano nelle mani di Dio e non nei cassetti di un tavolino, e che chi li disturba per denaro disturba anche Lui. Ha poi aggiunto, guardando verso i banchi in fondo, che certe famiglie arrivate di recente farebbero bene a ricordarselo."
+  "full": "**LA STREGA DEL CARRO.** Domenica scorsa il reverendo Padre Anzelm ha dedicato l'intero sermone a quella che ha chiamato, senza giri di parole, \"la strega del carro\". Ha ricordato ai fedeli che i morti riposano nelle mani di Dio e non nei cassetti di un tavolino, e che chi li disturba per denaro disturba anche Lui. Ha poi aggiunto, guardando verso i banchi in fondo, che certe famiglie arrivate di recente farebbero bene a ricordarselo.",
+  "easy": "**LA STREGA DEL CARRO.** Domenica scorsa Padre Anzelm ha parlato per tutta la messa di quella che ha chiamato, molto chiaramente, \"la strega del carro\". Ha ricordato ai fedeli che i morti riposano con Dio, non dentro un tavolino, e che chi li disturba per soldi disturba anche Dio. Poi, guardando verso i banchi in fondo, ha detto che alcune famiglie arrivate da poco dovrebbero ricordarlo.",
+  "short": "**LA STREGA DEL CARRO.** Padre Anzelm ha dedicato il sermone alla \"strega del carro\": i morti riposano con Dio, e certe famiglie arrivate da poco farebbero bene a ricordarlo."
  },
  "G1Patroni.4": {
-  "full": "Il sermone è stato molto apprezzato. Lunedì, tuttavia, questo giornale ha potuto osservare un insolito via vai di signore in nero sulla strada della tenuta. Le vedove di {0} hanno perso mariti, figli e fratelli per il freddo, le febbri e la fame; vogliono notizie dei loro cari, e per i propri cari, si sa, non si bada a spese."
+  "full": "Il sermone è stato molto apprezzato. Lunedì, tuttavia, questo giornale ha potuto osservare un insolito via vai di signore in nero sulla strada della tenuta. Le vedove di {0} hanno perso mariti, figli e fratelli per il freddo, le febbri e la fame; vogliono notizie dei loro cari, e per i propri cari, si sa, non si bada a spese.",
+  "easy": "Il sermone è piaciuto molto. Lunedì, però, questo giornale ha visto molte signore vestite di nero andare e venire sulla strada della tenuta. Le vedove di {0} hanno perso mariti, figli e fratelli per il freddo, le febbri e la fame. Vogliono notizie delle persone care, e per le persone care, si sa, si spende volentieri.",
+  "short": "Il lunedì, però, molte vedove di {0} prendono la strada della tenuta: vogliono notizie dei loro morti, e per questo non badano a spese."
  },
  "G1Patroni.6": {
   "full": "Dalla Scatola di **The Cost of Disease** prendete i **Charity token** {icon:S1_HeartToken} e le **6 Dubious Bartering card**. In questo scenario i cuori sono il **Conforto** che date alle famiglie in lutto."
@@ -354,7 +420,8 @@
   "full": "**Evento del secondo Round**"
  },
  "G1R2.6": {
-  "full": "Qualcuno nel villaggio scrive lettere, e non le firma. Le buste arrivano senza francobollo, e nessuno le ha viste arrivare."
+  "full": "Qualcuno nel villaggio scrive lettere, e non le firma. Le buste arrivano senza francobollo, e nessuno le ha viste arrivare.",
+  "easy": "Qualcuno nel villaggio scrive lettere senza firmarle. Le buste arrivano senza francobollo, e nessuno le vede arrivare."
  },
  "round.G1R2.end": {
   "full": "La Maturità della Prima Generazione è finita."
@@ -366,10 +433,14 @@
   "full": "**Lettere senza firma**"
  },
  "G1Lettere.2": {
-  "full": "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto."
+  "full": "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.",
+  "easy": "Negli anni della maturità la famiglia riceve lettere che il postino non ha mai portato. Le lettere appaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nella scrivania. Sono buste di carta pesante, senza indirizzo e senza firma, chiuse con ceralacca nera. Nella ceralacca c'è il disegno di un occhio aperto.",
+  "short": "Arrivano lettere che nessuno ha consegnato, perfino dentro il Journal chiuso a chiave. Nessun indirizzo, nessuna firma: solo un occhio aperto nella ceralacca nera."
  },
  "G1Lettere.3": {
-  "full": "Dentro, ogni volta, poche righe in una calligrafia elegante e antiquata. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce i loro lavori, ammira il loro coraggio e desidera incontrarli, uno per uno, in un luogo discreto. Basterà presentarsi all'indirizzo indicato e pronunciare la parola giusta."
+  "full": "Dentro, ogni volta, poche righe in una calligrafia elegante e antiquata. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce i loro lavori, ammira il loro coraggio e desidera incontrarli, uno per uno, in un luogo discreto. Basterà presentarsi all'indirizzo indicato e pronunciare la parola giusta.",
+  "easy": "Dentro ci sono sempre poche righe, scritte con una calligrafia elegante e antica. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce il loro lavoro, ammira il loro coraggio e vuole incontrarli, uno alla volta, in un posto riservato. Basta andare all'indirizzo indicato e dire la parola giusta.",
+  "short": "Il **Circolo dell'Ultima Ora** vuole incontrare gli eredi, uno per uno, in segreto: basta andare all'indirizzo indicato e dire la parola giusta."
  },
  "G1Lettere.5": {
   "full": "Dalla Scatola di **The Cost of Disease** prendete le **Letter card** e tenete solo le **4** che nominano il **Builder's Office** o il **Cemetery**. Rimettete le altre nella scatola."
@@ -435,13 +506,19 @@
   "full": "Guadagni 2VP, come dice la tua Letter card."
  },
  "G1Patto.4": {
-  "full": "Ti aspetta un uomo alto, in un cappotto troppo elegante per {0}, con un garofano nero all'occhiello. Non ti chiede chi sei. Ti chiama per nome, ti offre il braccio e cammina con te, lentamente, come si fa tra vecchi amici."
+  "full": "Ti aspetta un uomo alto, in un cappotto troppo elegante per {0}, con un garofano nero all'occhiello. Non ti chiede chi sei. Ti chiama per nome, ti offre il braccio e cammina con te, lentamente, come si fa tra vecchi amici.",
+  "easy": "Ti aspetta un uomo alto, con un cappotto troppo elegante per {0} e un garofano nero all'occhiello. Non ti chiede chi sei. Ti chiama per nome, ti dà il braccio e cammina con te, piano, come fanno i vecchi amici.",
+  "short": "Ti aspetta un uomo alto con un garofano nero. Conosce il tuo nome e cammina con te come un vecchio amico."
  },
  "G1Patto.5": {
-  "full": "\"Il Circolo dell'Ultima Ora\", dice, \"è una piccola società di persone che non si rassegnano. Abbiamo perso qualcuno, tutti quanti; e tutti abbiamo scoperto che i morti non sono lontani come dicono i preti. Madame Vámos è la nostra voce. Vostro padre era… diciamo un corrispondente.\""
+  "full": "\"Il Circolo dell'Ultima Ora\", dice, \"è una piccola società di persone che non si rassegnano. Abbiamo perso qualcuno, tutti quanti; e tutti abbiamo scoperto che i morti non sono lontani come dicono i preti. Madame Vámos è la nostra voce. Vostro padre era… diciamo un corrispondente.\"",
+  "easy": "\"Il Circolo dell'Ultima Ora\", dice, \"è un piccolo gruppo di persone che non si rassegnano. Tutti abbiamo perso qualcuno, e tutti abbiamo scoperto che i morti non sono lontani come dicono i preti. Madame Vámos è la nostra voce. Vostro padre era… diciamo un corrispondente.\"",
+  "short": "\"Siamo persone che non si rassegnano: i morti non sono lontani come dicono i preti. Madame Vámos è la nostra voce. Vostro padre era… un corrispondente.\""
  },
  "G1Patto.6": {
-  "full": "Ti porge una busta, gonfia di fogli. \"Qui ci sono cose che lui sapeva e che non ha avuto il tempo di insegnarvi. Sono vostre. In cambio chiediamo soltanto una promessa: che un giorno, quando il Circolo ve lo chiederà, aprirete la porta.\""
+  "full": "Ti porge una busta, gonfia di fogli. \"Qui ci sono cose che lui sapeva e che non ha avuto il tempo di insegnarvi. Sono vostre. In cambio chiediamo soltanto una promessa: che un giorno, quando il Circolo ve lo chiederà, aprirete la porta.\"",
+  "easy": "Ti dà una busta piena di fogli. \"Qui ci sono cose che lui sapeva e che non ha avuto il tempo di insegnarvi. Sono vostre. In cambio vogliamo solo una promessa: che un giorno, quando il Circolo ve lo chiederà, aprirete la porta.\"",
+  "short": "Ti porge una busta: \"Le cose che vostro padre sapeva. In cambio, una promessa: quando il Circolo ve lo chiederà, aprirete la porta.\""
  },
  "G1Patto.7": {
   "full": "Non dice quale porta. Sorride come se lo sapessi già."
@@ -453,19 +530,27 @@
   "full": "Rifiuti."
  },
  "G1Patto.10": {
-  "full": "Stringi la mano dell'uomo. È fredda come quella di Madame, e nella tua non si scalda. \"Il Circolo vi ringrazia\", dice, e si allontana senza voltarsi."
+  "full": "Stringi la mano dell'uomo. È fredda come quella di Madame, e nella tua non si scalda. \"Il Circolo vi ringrazia\", dice, e si allontana senza voltarsi.",
+  "easy": "Stringi la mano dell'uomo. È fredda come quella di Madame e non si scalda nella tua. \"Il Circolo vi ringrazia\", dice, e va via senza voltarsi.",
+  "short": "La sua mano è fredda come quella di Madame. \"Il Circolo vi ringrazia.\""
  },
  "G1Patto.11": {
-  "full": "La busta pesa più di quanto dovrebbe. Quella sera, leggendola alla luce della lampada, ti accorgi che alcune pagine sono scritte con la calligrafia di tuo padre, e che una di esse porta la data di due settimane dopo la sua morte."
+  "full": "La busta pesa più di quanto dovrebbe. Quella sera, leggendola alla luce della lampada, ti accorgi che alcune pagine sono scritte con la calligrafia di tuo padre, e che una di esse porta la data di due settimane dopo la sua morte.",
+  "easy": "La busta è più pesante del normale. Quella sera la leggi alla luce della lampada e vedi che alcune pagine sono scritte da tuo padre. Una di queste ha una data di due settimane dopo la sua morte.",
+  "short": "Nella busta ci sono pagine scritte da tuo padre. Una è datata due settimane dopo la sua morte."
  },
  "G1Patto.12": {
   "full": "Guadagni 2 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Creepy_Icon}. Rimetti la Letter card nella scatola."
  },
  "G1Patto.13": {
-  "full": "Restituisci la busta senza aprirla. L'uomo non si offende; anzi, sembra quasi soddisfatto, come chi ha vinto una piccola scommessa con se stesso. \"Anche il rifiuto è una forma di attenzione\", dice. \"Ci rivedremo.\" Ti mette in mano qualche moneta \"per il disturbo\" e si allontana."
+  "full": "Restituisci la busta senza aprirla. L'uomo non si offende; anzi, sembra quasi soddisfatto, come chi ha vinto una piccola scommessa con se stesso. \"Anche il rifiuto è una forma di attenzione\", dice. \"Ci rivedremo.\" Ti mette in mano qualche moneta \"per il disturbo\" e si allontana.",
+  "easy": "Ridai la busta senza aprirla. L'uomo non si offende. Anzi, sembra quasi contento, come chi ha vinto una piccola scommessa con se stesso. \"Anche dire di no è un modo di fare attenzione\", dice. \"Ci rivedremo.\" Ti dà qualche moneta \"per il disturbo\" e va via.",
+  "short": "Restituisci la busta chiusa. L'uomo sembra quasi soddisfatto. \"Ci rivedremo.\" Ti lascia qualche moneta e se ne va."
  },
  "G1Patto.14": {
-  "full": "Il giorno dopo, al Cemetery, sulla tomba di tuo padre c'è un garofano nero. Il terriccio intorno alla lapide è smosso, come se qualcuno ci avesse appoggiato l'orecchio per ascoltare."
+  "full": "Il giorno dopo, al Cemetery, sulla tomba di tuo padre c'è un garofano nero. Il terriccio intorno alla lapide è smosso, come se qualcuno ci avesse appoggiato l'orecchio per ascoltare.",
+  "easy": "Il giorno dopo, al Cemetery, sulla tomba di tuo padre c'è un garofano nero. La terra intorno alla lapide è smossa, come se qualcuno ci avesse appoggiato l'orecchio per ascoltare.",
+  "short": "Il giorno dopo, sulla tomba di tuo padre, c'è un garofano nero, e la terra è smossa."
  },
  "G1Patto.15": {
   "full": "Guadagni $3. Rimetti la Letter card nella scatola."
@@ -477,13 +562,19 @@
   "full": "**Verbale del consiglio di {0} – *autunno 1856.***"
  },
  "G1Fine.3": {
-  "full": "Il consiglio si riunisce nella sala sopra la locanda, perché in municipio piove dentro. Siedono il Sindaco Bódi, il notaio, tre possidenti, il maestro di scuola e, su una sedia a parte, Padre Anzelm, che non ha diritto di voto ma ha diritto di parola, e lo esercita per un'ora e mezza."
+  "full": "Il consiglio si riunisce nella sala sopra la locanda, perché in municipio piove dentro. Siedono il Sindaco Bódi, il notaio, tre possidenti, il maestro di scuola e, su una sedia a parte, Padre Anzelm, che non ha diritto di voto ma ha diritto di parola, e lo esercita per un'ora e mezza.",
+  "easy": "Il consiglio si riunisce nella sala sopra la locanda, perché nel municipio entra la pioggia. Ci sono il Sindaco Bódi, il notaio, tre proprietari terrieri, il maestro e, su una sedia a parte, Padre Anzelm. Lui non può votare ma può parlare, e parla per un'ora e mezza.",
+  "short": "Il consiglio si riunisce sopra la locanda. Padre Anzelm non vota, ma parla per un'ora e mezza."
  },
  "G1Fine.4": {
-  "full": "La questione all'ordine del giorno è una sola: se la signora Eszter Vámos, di professione \"consolatrice\", possa restare a {0}. In otto anni il suo carro è diventato una casa con le persiane sempre chiuse; il suo salotto, ogni giovedì, si riempie di gente che entra piangendo ed esce sorridendo; e il Circolo dell'Ultima Ora, che nessuno ammette di frequentare, ha comprato due terreni accanto al cimitero."
+  "full": "La questione all'ordine del giorno è una sola: se la signora Eszter Vámos, di professione \"consolatrice\", possa restare a {0}. In otto anni il suo carro è diventato una casa con le persiane sempre chiuse; il suo salotto, ogni giovedì, si riempie di gente che entra piangendo ed esce sorridendo; e il Circolo dell'Ultima Ora, che nessuno ammette di frequentare, ha comprato due terreni accanto al cimitero.",
+  "easy": "C'è una sola domanda da decidere: la signora Eszter Vámos, che di lavoro fa la \"consolatrice\", può restare a {0}? In otto anni il suo carro è diventato una casa con le persiane sempre chiuse. Ogni giovedì il suo salotto si riempie di gente che entra piangendo ed esce sorridendo. E il Circolo dell'Ultima Ora, che nessuno ammette di frequentare, ha comprato due terreni vicino al cimitero.",
+  "short": "Si decide se la \"consolatrice\" Eszter Vámos possa restare a {0}. In otto anni il suo salotto si è riempito di gente in lutto, e il Circolo ha comprato terreni accanto al cimitero."
  },
  "G1Fine.5": {
-  "full": "Il parroco parla di eresia, di truffa, di lutti sfruttati. Il notaio parla di tasse regolarmente pagate. Il Sindaco non parla: ascolta, e conta. Alla fine si decide, com'è uso a {0} per le faccende spinose, di far votare anche le famiglie più importanti del villaggio. E la più importante, ormai, è quella degli eredi."
+  "full": "Il parroco parla di eresia, di truffa, di lutti sfruttati. Il notaio parla di tasse regolarmente pagate. Il Sindaco non parla: ascolta, e conta. Alla fine si decide, com'è uso a {0} per le faccende spinose, di far votare anche le famiglie più importanti del villaggio. E la più importante, ormai, è quella degli eredi.",
+  "easy": "Il parroco parla di eresia, di imbroglio, di dolore usato per guadagnare. Il notaio dice che lei paga le tasse. Il Sindaco non parla: ascolta e conta. Alla fine si decide, come si fa sempre a {0} per le questioni difficili, di far votare anche le famiglie più importanti del villaggio. E ormai la più importante è quella degli eredi.",
+  "short": "Il parroco grida all'eresia, il notaio ricorda le tasse pagate. Alla fine, come d'uso a {0}, votano anche le famiglie importanti. E la più importante è quella degli eredi."
  },
  "G1FineVoto.1": {
   "full": "**Resta o se ne va?**"
@@ -513,13 +604,19 @@
   "full": "**Prima del buio**"
  },
  "G1Domande.2": {
-  "full": "Madame Vámos resta. La sera stessa le finestre della sua casa si illuminano una a una, e dal salotto arriva il suono di un pianoforte che nessuno, a {0}, ha mai visto entrare. La settimana dopo il Circolo dell'Ultima Ora affitta una casa in piazza, proprio di fronte alla chiesa, e ci appende una targa d'ottone con un occhio aperto. Padre Anzelm fa suonare le campane a morto per un'ora, senza che sia morto nessuno."
+  "full": "Madame Vámos resta. La sera stessa le finestre della sua casa si illuminano una a una, e dal salotto arriva il suono di un pianoforte che nessuno, a {0}, ha mai visto entrare. La settimana dopo il Circolo dell'Ultima Ora affitta una casa in piazza, proprio di fronte alla chiesa, e ci appende una targa d'ottone con un occhio aperto. Padre Anzelm fa suonare le campane a morto per un'ora, senza che sia morto nessuno.",
+  "easy": "Madame Vámos resta. La sera stessa le finestre della sua casa si accendono una dopo l'altra, e dal salotto si sente un pianoforte che nessuno a {0} ha mai visto arrivare. La settimana dopo il Circolo dell'Ultima Ora affitta una casa in piazza, proprio davanti alla chiesa, e ci mette una targa d'ottone con un occhio aperto. Padre Anzelm fa suonare le campane dei funerali per un'ora, anche se non è morto nessuno.",
+  "short": "Madame Vámos resta, e il Circolo apre una sede in piazza, davanti alla chiesa, con un occhio d'ottone sulla porta. Padre Anzelm fa suonare le campane a morto."
  },
  "G1Domande.3": {
-  "full": "Il carro, rimesso in ordine per l'occasione, lascia il villaggio all'alba. Madame Vámos siede a cassetta, dritta, senza guardarsi indietro; solo quando passa davanti al cancello della tenuta alza una mano bianca, come per salutare qualcuno alla finestra. Alla finestra non c'era nessuno."
+  "full": "Il carro, rimesso in ordine per l'occasione, lascia il villaggio all'alba. Madame Vámos siede a cassetta, dritta, senza guardarsi indietro; solo quando passa davanti al cancello della tenuta alza una mano bianca, come per salutare qualcuno alla finestra. Alla finestra non c'era nessuno.",
+  "easy": "Il carro, sistemato per l'occasione, lascia il villaggio all'alba. Madame Vámos è seduta davanti, dritta, e non si gira mai. Solo quando passa davanti al cancello della tenuta alza una mano bianca, come per salutare qualcuno alla finestra. Ma alla finestra non c'era nessuno.",
+  "short": "All'alba il carro se ne va. Passando davanti alla tenuta, Madame saluta qualcuno alla finestra. Alla finestra non c'era nessuno."
  },
  "G1Domande.4": {
-  "full": "La mattina dopo, sulla porta della tenuta, qualcuno ha disegnato con il carbone un occhio aperto. Il servitore lo lava tre volte. Alla terza l'occhio è ancora lì, appena più sbiadito, come se guardasse da sotto l'acqua."
+  "full": "La mattina dopo, sulla porta della tenuta, qualcuno ha disegnato con il carbone un occhio aperto. Il servitore lo lava tre volte. Alla terza l'occhio è ancora lì, appena più sbiadito, come se guardasse da sotto l'acqua.",
+  "easy": "La mattina dopo qualcuno ha disegnato con il carbone un occhio aperto sulla porta della tenuta. Il servitore lo lava tre volte. Dopo la terza volta l'occhio è ancora lì, solo un po' più chiaro, come se guardasse da sotto l'acqua.",
+  "short": "Sulla porta della tenuta compare un occhio di carbone. Il servitore lo lava tre volte, ma resta."
  },
  "G1Domande.5": {
   "full": "Prima di azzerare i tracciati, lo Storybook ha bisogno di sapere come lascia questo mondo ognuno dei vostri scienziati."
@@ -537,10 +634,14 @@
   "full": "**Nota del dott. Halász.**"
  },
  "G1DomChiusura.3": {
-  "full": "I documenti della prima generazione si interrompono qui. Dai registri della parrocchia risulta che gli scienziati della famiglia morirono negli anni seguenti, uno dopo l'altro, di malattie diverse e in età diverse, e che furono sepolti nel cimitero di {0}, accanto al padre. Il parroco annota con una certa soddisfazione che i colpi alle pareti della tenuta cessarono con l'ultimo funerale."
+  "full": "I documenti della prima generazione si interrompono qui. Dai registri della parrocchia risulta che gli scienziati della famiglia morirono negli anni seguenti, uno dopo l'altro, di malattie diverse e in età diverse, e che furono sepolti nel cimitero di {0}, accanto al padre. Il parroco annota con una certa soddisfazione che i colpi alle pareti della tenuta cessarono con l'ultimo funerale.",
+  "easy": "I documenti della prima generazione finiscono qui. I registri della parrocchia dicono che gli scienziati della famiglia morirono negli anni dopo, uno alla volta, di malattie diverse e a età diverse. Furono sepolti nel cimitero di {0}, vicino al padre. Il parroco scrive, abbastanza contento, che i colpi alle pareti della tenuta finirono con l'ultimo funerale.",
+  "short": "Gli scienziati della prima generazione morirono negli anni seguenti e furono sepolti a {0}, accanto al padre. Con l'ultimo funerale, annota il parroco, i colpi cessarono."
  },
  "G1DomChiusura.4": {
-  "full": "Annota anche, con meno soddisfazione, che nessuno di quei funerali si poté celebrare dopo il tramonto: appena faceva buio, i portatori si rifiutavano di sollevare la bara. Dicevano che dentro qualcuno bussava."
+  "full": "Annota anche, con meno soddisfazione, che nessuno di quei funerali si poté celebrare dopo il tramonto: appena faceva buio, i portatori si rifiutavano di sollevare la bara. Dicevano che dentro qualcuno bussava.",
+  "easy": "Scrive anche, meno contento, che nessuno di quei funerali si poté fare dopo il tramonto: quando faceva buio, gli uomini non volevano più sollevare la bara. Dicevano che dentro qualcuno bussava.",
+  "short": "Ma nessun funerale si poté fare dopo il tramonto: al buio, i portatori sentivano bussare dentro la bara."
  },
  "G1DomChiusura.5": {
   "full": "Rimuovete tutti i pezzi dal tabellone ed eseguite la Fine della Generazione. Rimettete nella riserva i token {icon:StorybookToken} non usati e i Charity token {icon:S1_HeartToken} dei giocatori."
@@ -552,10 +653,14 @@
   "full": "**Nota del dott. Halász al fascicolo.**"
  },
  "G2Intro.3": {
-  "full": "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del Journal, che nel frattempo era diventato due volumi e mezzo."
+  "full": "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del Journal, che nel frattempo era diventato due volumi e mezzo.",
+  "easy": "La seconda cassa salta avanti di diciassette anni. Le carte della prima generazione finiscono nel 1856. Le altre cominciano nella primavera del 1873, quando i figli degli eredi presero la tenuta, il laboratorio e il Journal, che ormai era lungo due volumi e mezzo.",
+  "short": "La seconda cassa riparte nel 1873: i figli degli eredi prendono la tenuta, il laboratorio e il Journal, ormai di due volumi e mezzo."
  },
  "G2Intro.4": {
-  "full": "Il villaggio era cresciuto. Al posto delle case di legno c'erano case a graticcio con le travi dipinte, una strada lastricata, un ufficio postale, due locande e un medico. Il parroco era sempre Padre Anzelm, più vecchio e più magro, ma non meno ostinato. E c'era, scrive uno dei nuovi eredi in una lettera alla sorella, \"questa cosa che qui chiamano il velo, come se fosse un fatto del tempo, come la pioggia o la nebbia\"."
+  "full": "Il villaggio era cresciuto. Al posto delle case di legno c'erano case a graticcio con le travi dipinte, una strada lastricata, un ufficio postale, due locande e un medico. Il parroco era sempre Padre Anzelm, più vecchio e più magro, ma non meno ostinato. E c'era, scrive uno dei nuovi eredi in una lettera alla sorella, \"questa cosa che qui chiamano il velo, come se fosse un fatto del tempo, come la pioggia o la nebbia\".",
+  "easy": "Il villaggio era più grande. Al posto delle case di legno c'erano case con le travi dipinte, una strada di pietra, un ufficio postale, due locande e un medico. Il parroco era ancora Padre Anzelm, più vecchio e più magro, ma testardo come prima. E c'era, scrive uno dei nuovi eredi alla sorella, \"questa cosa che qui chiamano il velo, come se fosse il tempo che fa, come la pioggia o la nebbia\".",
+  "short": "Il villaggio è cresciuto; Padre Anzelm è più vecchio ma ostinato come prima. E c'è \"questa cosa che qui chiamano il velo, come la pioggia o la nebbia\"."
  },
  "G2Intro.6": {
   "full": "Prendete dalla Scatola di **The Cost of Disease** le **Vanity Estate Upgrade** e aggiungetele a quelle disponibili."
@@ -564,16 +669,24 @@
   "full": "**La Seduta degli Antenati**"
  },
  "G2Antenati.2": {
-  "full": "Madame Vámos non era invecchiata: così, almeno, giuravano tutti. Il Circolo dell'Ultima Ora non si nascondeva più. Aveva una sede in piazza, una banda per i funerali e duecento iscritti, e quell'anno comprò il terreno dietro il municipio per costruirci un tempio."
+  "full": "Madame Vámos non era invecchiata: così, almeno, giuravano tutti. Il Circolo dell'Ultima Ora non si nascondeva più. Aveva una sede in piazza, una banda per i funerali e duecento iscritti, e quell'anno comprò il terreno dietro il municipio per costruirci un tempio.",
+  "easy": "Madame Vámos non era invecchiata: almeno, così dicevano tutti. Il Circolo dell'Ultima Ora non si nascondeva più. Aveva una sede in piazza, una banda per i funerali e duecento membri, e quell'anno comprò il terreno dietro il municipio per costruire un tempio.",
+  "short": "Madame Vámos non era invecchiata, e il Circolo, ormai con duecento iscritti, comprò un terreno per costruire un tempio."
  },
  "G2Antenati.3": {
-  "full": "Della donna del carro restavano solo le storie, e un'abitudine curiosa: sulle porte delle case di {0} compariva ogni tanto un occhio disegnato con il carbone. Nessuno ammetteva di disegnarlo, nessuno lo cancellava. Il Circolo dell'Ultima Ora, si diceva, si riuniva ancora; ma non si sapeva dove, né chi ne facesse parte."
+  "full": "Della donna del carro restavano solo le storie, e un'abitudine curiosa: sulle porte delle case di {0} compariva ogni tanto un occhio disegnato con il carbone. Nessuno ammetteva di disegnarlo, nessuno lo cancellava. Il Circolo dell'Ultima Ora, si diceva, si riuniva ancora; ma non si sapeva dove, né chi ne facesse parte.",
+  "easy": "Della donna del carro restavano solo le storie e un'abitudine strana: ogni tanto, sulle porte delle case di {0}, appariva un occhio disegnato con il carbone. Nessuno diceva di averlo disegnato, e nessuno lo cancellava. Si diceva che il Circolo dell'Ultima Ora si incontrasse ancora, ma nessuno sapeva dove, né chi ne facesse parte.",
+  "short": "Della donna del carro restavano le storie, e occhi di carbone sulle porte di {0}. Il Circolo si riuniva ancora, nessuno sapeva dove."
  },
  "G2Antenati.4": {
-  "full": "I colpi alle pareti erano cessati con l'ultimo funerale della prima generazione, e per diciassette anni la tenuta era stata una casa come le altre: fredda d'inverno, umida d'estate, piena di cose che nessuno osava buttare."
+  "full": "I colpi alle pareti erano cessati con l'ultimo funerale della prima generazione, e per diciassette anni la tenuta era stata una casa come le altre: fredda d'inverno, umida d'estate, piena di cose che nessuno osava buttare.",
+  "easy": "I colpi alle pareti erano finiti con l'ultimo funerale della prima generazione. Per diciassette anni la tenuta era stata una casa normale: fredda d'inverno, umida d'estate, piena di cose che nessuno aveva il coraggio di buttare.",
+  "short": "Per diciassette anni la tenuta era stata silenziosa, come una casa qualunque."
  },
  "G2Antenati.5": {
-  "full": "La prima notte che i nuovi eredi vi dormono, i colpi ricominciano. Ma questa volta, dopo i colpi, vengono le voci; e sono voci che ognuno di loro conosce benissimo, perché sono quelle di chi li ha messi al mondo."
+  "full": "La prima notte che i nuovi eredi vi dormono, i colpi ricominciano. Ma questa volta, dopo i colpi, vengono le voci; e sono voci che ognuno di loro conosce benissimo, perché sono quelle di chi li ha messi al mondo.",
+  "easy": "La prima notte che i nuovi eredi dormono lì, i colpi ricominciano. Ma questa volta dopo i colpi arrivano le voci. Sono voci che ognuno di loro conosce benissimo: sono quelle dei loro genitori.",
+  "short": "La prima notte i colpi ricominciano, e dopo i colpi le voci: quelle dei loro genitori."
  },
  "G2Antenati.6": {
   "full": "Ogni giocatore, a turno, legge il messaggio del proprio antenato senza mostrarlo agli altri. Può raccontarlo, mentire o tacere."
@@ -582,76 +695,116 @@
   "full": "**Una voce dall'altra parte**"
  },
  "G2AntA.3": {
-  "full": "La voce arriva prima dei colpi: un bisbiglio fitto, senza pause, che non saluta e non chiede come stai. Parla di formule, di proporzioni, di un errore nel terzo quaderno che va corretto subito, subito, prima che sia tardi. Riconosci la voce di chi ti ha messo al mondo, e riconosci anche il tono: è lo stesso delle notti in cui dal laboratorio non usciva nessuno."
+  "full": "La voce arriva prima dei colpi: un bisbiglio fitto, senza pause, che non saluta e non chiede come stai. Parla di formule, di proporzioni, di un errore nel terzo quaderno che va corretto subito, subito, prima che sia tardi. Riconosci la voce di chi ti ha messo al mondo, e riconosci anche il tono: è lo stesso delle notti in cui dal laboratorio non usciva nessuno.",
+  "easy": "La voce arriva prima dei colpi. È un bisbiglio veloce, senza pause, che non ti saluta e non ti chiede come stai. Parla di formule, di numeri, di un errore nel terzo quaderno che bisogna correggere subito, prima che sia tardi. È la voce di tuo padre o di tua madre, e conosci anche il tono: è lo stesso delle notti passate chiusi in laboratorio.",
+  "short": "Un bisbiglio senza pause: formule, numeri, un errore da correggere subito. È la voce di chi ti ha messo al mondo, con il tono delle notti in laboratorio."
  },
  "G2AntA.4": {
-  "full": "\"Finisci tu\", ripete. \"Finisci tu, finisci tu.\" All'alba hai la mano indolenzita e tre pagine fitte di una calligrafia che non è la tua."
+  "full": "\"Finisci tu\", ripete. \"Finisci tu, finisci tu.\" All'alba hai la mano indolenzita e tre pagine fitte di una calligrafia che non è la tua.",
+  "easy": "\"Finiscilo tu\", ripete. \"Finiscilo tu, finiscilo tu.\" All'alba ti fa male la mano e hai tre pagine piene di una scrittura che non è la tua.",
+  "short": "\"Finisci tu.\" All'alba hai tre pagine scritte con una calligrafia non tua."
  },
  "G2AntA.5": {
-  "full": "Non sono colpi: è un ticchettio rapido e irregolare, come dita che tamburellano su un tavolo per l'impazienza. Poi la voce, febbrile, a metà di una frase cominciata chissà quando: \"...e i numeri non tornano, non tornano mai, ma tu li farai tornare...\""
+  "full": "Non sono colpi: è un ticchettio rapido e irregolare, come dita che tamburellano su un tavolo per l'impazienza. Poi la voce, febbrile, a metà di una frase cominciata chissà quando: \"...e i numeri non tornano, non tornano mai, ma tu li farai tornare...\"",
+  "easy": "Non sono colpi: è un ticchettio veloce e irregolare, come dita che battono sul tavolo per l'impazienza. Poi arriva la voce, agitata, a metà di una frase iniziata chissà quando: \"...e i numeri non tornano, non tornano mai, ma tu li farai tornare...\"",
+  "short": "Un ticchettio impaziente, poi la voce: \"...i numeri non tornano mai, ma tu li farai tornare...\""
  },
  "G2AntA.6": {
-  "full": "Provi a chiedere se soffre. Non ti ascolta; non ti ha mai ascoltato. Quando il ticchettio smette, ti accorgi che stai tamburellando anche tu, con lo stesso ritmo, e non riesci a smettere."
+  "full": "Provi a chiedere se soffre. Non ti ascolta; non ti ha mai ascoltato. Quando il ticchettio smette, ti accorgi che stai tamburellando anche tu, con lo stesso ritmo, e non riesci a smettere.",
+  "easy": "Provi a chiedere se soffre. Non ti ascolta, come non ti ha mai ascoltato. Quando il ticchettio finisce, ti accorgi che anche tu stai battendo le dita con lo stesso ritmo, e non riesci a fermarti.",
+  "short": "Non ti ascolta, come sempre. Poi ti accorgi che anche tu tamburelli, e non riesci a smettere."
  },
  "G2AntA.7": {
   "full": "Pesca una carta Compulsion."
  },
  "G2AntA.8": {
-  "full": "Il colpo è uno solo, lieve, come una mano posata sulla porta. Poi la voce, calma, quasi divertita: ti chiede se mangi abbastanza, se il tetto della serra perde ancora, se ti ricordi della vedova del mugnaio. \"Dille che sto bene\", dice."
+  "full": "Il colpo è uno solo, lieve, come una mano posata sulla porta. Poi la voce, calma, quasi divertita: ti chiede se mangi abbastanza, se il tetto della serra perde ancora, se ti ricordi della vedova del mugnaio. \"Dille che sto bene\", dice.",
+  "easy": "C'è un solo colpo, leggero, come una mano appoggiata alla porta. Poi la voce, tranquilla, quasi divertita: ti chiede se mangi abbastanza, se il tetto della serra ha ancora buchi, se ti ricordi della vedova del mugnaio. \"Dille che sto bene\", dice.",
+  "short": "Un colpo lieve, poi una voce calma che ti chiede se mangi abbastanza. \"Di' alla vedova del mugnaio che sto bene.\""
  },
  "G2AntA.9": {
-  "full": "Capisci che non parla di sé. Parla di tutte le famiglie che ha consolato in vita, e che adesso, dall'altra parte, le fanno compagnia. Prima di andarsene ti benedice, come faceva quando partivi per un viaggio."
+  "full": "Capisci che non parla di sé. Parla di tutte le famiglie che ha consolato in vita, e che adesso, dall'altra parte, le fanno compagnia. Prima di andarsene ti benedice, come faceva quando partivi per un viaggio.",
+  "easy": "Capisci che non parla di sé. Parla di tutte le famiglie che ha aiutato in vita, e che ora, dall'altra parte, le stanno vicino. Prima di andare via ti benedice, come faceva quando partivi per un viaggio.",
+  "short": "Le famiglie che ha consolato in vita ora le fanno compagnia. Prima di andarsene, ti benedice."
  },
  "G2AntA.10": {
-  "full": "Nella stanza c'è profumo di pane caldo e di lavanda: l'odore della cucina della tenuta, tanti anni fa. La voce non bussa. Parla piano, come accanto al letto di un malato, e ti racconta che dall'altra parte non fa freddo, e che le persone consolate in vita sono venute ad accoglierla."
+  "full": "Nella stanza c'è profumo di pane caldo e di lavanda: l'odore della cucina della tenuta, tanti anni fa. La voce non bussa. Parla piano, come accanto al letto di un malato, e ti racconta che dall'altra parte non fa freddo, e che le persone consolate in vita sono venute ad accoglierla.",
+  "easy": "Nella stanza c'è profumo di pane caldo e di lavanda: l'odore della cucina della tenuta, tanti anni fa. La voce non bussa. Parla piano, come vicino al letto di un malato, e ti dice che dall'altra parte non fa freddo, e che le persone aiutate in vita sono venute ad accoglierla.",
+  "short": "Profumo di pane caldo e lavanda. Una voce gentile ti dice che dall'altra parte non fa freddo, e che non è sola."
  },
  "G2AntA.11": {
-  "full": "\"Hai tempo\", dice. \"Usalo per i vivi.\" Al mattino, sul comodino, c'è qualcosa che la sera prima non c'era."
+  "full": "\"Hai tempo\", dice. \"Usalo per i vivi.\" Al mattino, sul comodino, c'è qualcosa che la sera prima non c'era.",
+  "easy": "\"Hai tempo\", dice. \"Usalo per i vivi.\" La mattina, sul comodino, c'è qualcosa che la sera prima non c'era.",
+  "short": "\"Usa il tuo tempo per i vivi.\" Al mattino, sul comodino, trovi un dono."
  },
  "G2AntA.12": {
   "full": "Guadagni $2 oppure 1 Conoscenza (Knowledge) a scelta."
  },
  "G2AntA.13": {
-  "full": "La voce è bassa, guardinga, come chi parla in una stanza dove c'è qualcun altro. \"Ascolta bene, perché non potrò ripeterlo. Tanti anni fa ho fatto una promessa al Circolo, a un uomo con un garofano nero. Credevo di aver venduto una cosa da niente. Mi sbagliavo.\""
+  "full": "La voce è bassa, guardinga, come chi parla in una stanza dove c'è qualcun altro. \"Ascolta bene, perché non potrò ripeterlo. Tanti anni fa ho fatto una promessa al Circolo, a un uomo con un garofano nero. Credevo di aver venduto una cosa da niente. Mi sbagliavo.\"",
+  "easy": "La voce è bassa e prudente, come quella di chi parla in una stanza dove c'è qualcun altro. \"Ascolta bene, perché non potrò ripeterlo. Tanti anni fa ho fatto una promessa al Circolo, a un uomo con un garofano nero. Pensavo di aver venduto una cosa senza valore. Mi sbagliavo.\"",
+  "short": "Una voce bassa, guardinga: \"Tanti anni fa ho fatto una promessa al Circolo. Credevo valesse poco. Mi sbagliavo.\""
  },
  "G2AntA.14": {
-  "full": "Poi ti dice che cosa aveva promesso, parola per parola, e chi dovrà aprire la porta quando il Circolo busserà: tu. \"Non dirlo a nessuno\", conclude. \"Ma ricordalo. Verrà il giorno in cui ti servirà sapere come si scioglie una promessa.\""
+  "full": "Poi ti dice che cosa aveva promesso, parola per parola, e chi dovrà aprire la porta quando il Circolo busserà: tu. \"Non dirlo a nessuno\", conclude. \"Ma ricordalo. Verrà il giorno in cui ti servirà sapere come si scioglie una promessa.\"",
+  "easy": "Poi ti dice esattamente che cosa aveva promesso, e chi dovrà aprire la porta quando il Circolo busserà: tu. \"Non dirlo a nessuno\", dice alla fine. \"Ma ricordalo. Un giorno ti servirà sapere come si rompe una promessa.\"",
+  "short": "Ti rivela la promessa, parola per parola: sarai tu ad aprire la porta. \"Ricordalo. Un giorno dovrai sapere come si scioglie.\""
  },
  "G2AntA.15": {
-  "full": "Prima della voce arriva l'odore: garofani e terra smossa. \"Il Circolo ti tiene d'occhio\", sussurra. \"Tiene d'occhio tutti noi: chi ha firmato e chi è nato da chi ha firmato.\""
+  "full": "Prima della voce arriva l'odore: garofani e terra smossa. \"Il Circolo ti tiene d'occhio\", sussurra. \"Tiene d'occhio tutti noi: chi ha firmato e chi è nato da chi ha firmato.\"",
+  "easy": "Prima della voce arriva l'odore: garofani e terra smossa. \"Il Circolo ti osserva\", sussurra. \"Osserva tutti noi: chi ha firmato e chi è nato da chi ha firmato.\"",
+  "short": "Odore di garofani e terra. \"Il Circolo ti osserva: osserva chi ha firmato, e i loro figli.\""
  },
  "G2AntA.16": {
-  "full": "Ti racconta della busta, delle pagine scritte da una mano morta, della promessa di aprire una porta. Poi ti dice una cosa che il Circolo non sa che tu sai: la promessa vale per il sangue, ma il sangue può scegliere di non mantenerla. A un prezzo. Quale sia, non fa in tempo a dirlo: i colpi si interrompono a metà."
+  "full": "Ti racconta della busta, delle pagine scritte da una mano morta, della promessa di aprire una porta. Poi ti dice una cosa che il Circolo non sa che tu sai: la promessa vale per il sangue, ma il sangue può scegliere di non mantenerla. A un prezzo. Quale sia, non fa in tempo a dirlo: i colpi si interrompono a metà.",
+  "easy": "Ti racconta della busta, delle pagine scritte da una mano morta e della promessa di aprire una porta. Poi ti dice una cosa che il Circolo non sa che tu sai: la promessa vale per tutta la famiglia, ma la famiglia può scegliere di non mantenerla. C'è però un prezzo. Quale sia, non riesce a dirlo: i colpi si fermano a metà.",
+  "short": "La promessa lega il sangue, ma il sangue può scegliere di non mantenerla. A un prezzo, che i colpi interrotti non fanno in tempo a dire."
  },
  "G2AntA.17": {
   "full": "Guadagni 1 Conoscenza Occulta (Occult Knowledge). Lo Storybook si ricorderà di questo segreto."
  },
  "G2AntA.18": {
-  "full": "Un colpo, due, uno: lo stesso ritmo che hai sentito raccontare mille volte, a tavola, dalla voce che adesso ti parla. \"Quella notte risposi prima di tutti\", dice. \"La porta si è aperta un poco per me, e non si è più richiusa.\""
+  "full": "Un colpo, due, uno: lo stesso ritmo che hai sentito raccontare mille volte, a tavola, dalla voce che adesso ti parla. \"Quella notte risposi prima di tutti\", dice. \"La porta si è aperta un poco per me, e non si è più richiusa.\"",
+  "easy": "Un colpo, due, uno: lo stesso ritmo che hai sentito raccontare mille volte, a tavola, dalla voce che ora ti parla. \"Quella notte ho risposto per primo\", dice. \"La porta si è aperta un po' per me, e non si è più chiusa.\"",
+  "short": "Uno, due, uno. \"Quella notte risposi per primo. La porta si aprì un poco, e non si richiuse più.\""
  },
  "G2AntA.19": {
-  "full": "Poi, in fretta, come chi teme di essere interrotto, ti detta l'inizio di un esperimento che in vita non ebbe mai il coraggio di tentare. Scrivi finché la candela non si consuma."
+  "full": "Poi, in fretta, come chi teme di essere interrotto, ti detta l'inizio di un esperimento che in vita non ebbe mai il coraggio di tentare. Scrivi finché la candela non si consuma.",
+  "easy": "Poi, in fretta, come chi ha paura di essere interrotto, ti detta l'inizio di un esperimento che in vita non ebbe mai il coraggio di provare. Scrivi finché la candela non finisce.",
+  "short": "Ti detta in fretta un esperimento mai tentato in vita. Scrivi fino all'ultima candela."
  },
  "G2AntA.20": {
-  "full": "La voce non perde tempo con i saluti. \"Tu sai rispondere, vero? Una volta per sì, due per no. Te l'ho insegnato io, anche se non lo ricordi: battevo sulla parete della tua culla, e tu ridevi.\""
+  "full": "La voce non perde tempo con i saluti. \"Tu sai rispondere, vero? Una volta per sì, due per no. Te l'ho insegnato io, anche se non lo ricordi: battevo sulla parete della tua culla, e tu ridevi.\"",
+  "easy": "La voce non perde tempo a salutare. \"Tu sai rispondere, vero? Una volta per sì, due per no. Te l'ho insegnato io, anche se non te lo ricordi: battevo sulla tua culla, e tu ridevi.\"",
+  "short": "\"Sai rispondere, vero? Una volta per sì, due per no. Te l'ho insegnato io, quando eri nella culla.\""
  },
  "G2AntA.21": {
-  "full": "Un brivido. \"Io risposi, la prima notte, e da allora di qua mi sentono tutti. Adesso sentono anche te.\" Quando la voce tace, sul tavolo c'è lo schema di un esperimento, e sulla parete della camera ci sono segni di nocche, piccoli, all'altezza di una culla."
+  "full": "Un brivido. \"Io risposi, la prima notte, e da allora di qua mi sentono tutti. Adesso sentono anche te.\" Quando la voce tace, sul tavolo c'è lo schema di un esperimento, e sulla parete della camera ci sono segni di nocche, piccoli, all'altezza di una culla.",
+  "easy": "Senti un brivido. \"Io ho risposto, la prima notte, e da allora qui mi sentono tutti. Ora sentono anche te.\" Quando la voce smette, sul tavolo c'è il disegno di un esperimento. E sulla parete della camera ci sono piccoli segni di nocche, all'altezza di una culla.",
+  "short": "\"Da quando ho risposto, di qua mi sentono tutti. Ora sentono anche te.\" Sul tavolo resta lo schema di un esperimento."
  },
  "G2AntA.22": {
   "full": "Guadagni 1 {icon:Insanity_Icon} e pesca un Esperimento dal mazzo che preferisci."
  },
  "G2AntA.23": {
-  "full": "Colpi lontani, irregolari, come di qualcuno che bussa in un'altra casa, in un'altra via. Rispondi: non succede niente. Chiami: il silenzio si fa più fitto."
+  "full": "Colpi lontani, irregolari, come di qualcuno che bussa in un'altra casa, in un'altra via. Rispondi: non succede niente. Chiami: il silenzio si fa più fitto.",
+  "easy": "Colpi lontani e irregolari, come qualcuno che bussa in un'altra casa, in un'altra strada. Rispondi, ma non succede niente. Chiami, e il silenzio diventa più profondo.",
+  "short": "Colpi lontani. Rispondi, chiami: solo silenzio."
  },
  "G2AntA.24": {
-  "full": "Forse chi ti ha messo al mondo non vuole parlarti. Forse non può. Forse, pensi con un sollievo di cui ti vergogni un poco, sta semplicemente riposando in pace."
+  "full": "Forse chi ti ha messo al mondo non vuole parlarti. Forse non può. Forse, pensi con un sollievo di cui ti vergogni un poco, sta semplicemente riposando in pace.",
+  "easy": "Forse tuo padre o tua madre non vuole parlarti. Forse non può. O forse, pensi con un sollievo che ti fa un po' vergognare, sta solo riposando in pace.",
+  "short": "Forse non vuole parlarti. Forse, semplicemente, riposa in pace."
  },
  "G2AntA.25": {
-  "full": "Aspetti fino all'alba con la candela accesa. Senti i colpi alle pareti delle altre camere, le voci attutite, un pianto, una risata. Alla tua parete, niente."
+  "full": "Aspetti fino all'alba con la candela accesa. Senti i colpi alle pareti delle altre camere, le voci attutite, un pianto, una risata. Alla tua parete, niente.",
+  "easy": "Aspetti fino all'alba con la candela accesa. Senti i colpi sulle pareti delle altre camere, voci lontane, un pianto, una risata. Sulla tua parete, niente.",
+  "short": "Fino all'alba senti colpi e voci nelle altre camere. Alla tua parete, niente."
  },
  "G2AntA.26": {
-  "full": "Solo verso le cinque arriva un colpo leggerissimo, uno solo, che potrebbe voler dire sì, oppure essere soltanto il legno che si assesta per il freddo."
+  "full": "Solo verso le cinque arriva un colpo leggerissimo, uno solo, che potrebbe voler dire sì, oppure essere soltanto il legno che si assesta per il freddo.",
+  "easy": "Solo verso le cinque arriva un colpo leggerissimo, uno solo. Forse vuol dire sì. O forse è solo il legno che si muove per il freddo.",
+  "short": "Alle cinque, un colpo solo: forse un sì, forse il legno che si assesta."
  },
  "G2AntA.27": {
   "full": "Non succede niente."
@@ -660,10 +813,13 @@
   "full": "**Il silenzio**"
  },
  "G2AntFine.2": {
-  "full": "All'alba le voci tacciono. A colazione la famiglia è stranamente cortese: ci si passa il burro, si parla del tempo, si evita di guardarsi negli occhi."
+  "full": "All'alba le voci tacciono. A colazione la famiglia è stranamente cortese: ci si passa il burro, si parla del tempo, si evita di guardarsi negli occhi.",
+  "easy": "All'alba le voci si fermano. A colazione la famiglia è stranamente gentile: ci si passa il burro, si parla del tempo e nessuno guarda gli altri negli occhi.",
+  "short": "A colazione tutti sono gentili, e nessuno guarda gli altri negli occhi."
  },
  "G2AntFine.3": {
-  "full": "Ognuno ha sentito qualcosa. Nessuno sa che cosa abbiano sentito gli altri. E tutti, almeno per un momento, hanno pensato di mentire."
+  "full": "Ognuno ha sentito qualcosa. Nessuno sa che cosa abbiano sentito gli altri. E tutti, almeno per un momento, hanno pensato di mentire.",
+  "easy": "Ognuno ha sentito qualcosa. Nessuno sa che cosa hanno sentito gli altri. E tutti, almeno per un momento, hanno pensato di dire una bugia."
  },
  "G2R1.1": {
   "full": "**LA NEBBIA – Giovinezza**"
@@ -687,7 +843,8 @@
   "full": "Quando un tuo pezzo visita la Church, puoi pagare $2 per una messa per i tuoi morti:"
  },
  "G2R1.11": {
-  "full": "Nel secondo volume del Journal, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti."
+  "full": "Nel secondo volume del Journal, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.",
+  "easy": "Nel secondo volume del Journal, tra una ricetta e un conto del fabbro, c'è il disegno di una macchina per parlare con i morti."
  },
  "round.G2R1.end": {
   "full": "La Giovinezza della Seconda Generazione è finita."
@@ -696,10 +853,14 @@
   "full": "**Il Tempio**"
  },
  "G2Tempio.2": {
-  "full": "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, più in fretta di quanto dovrebbero: i muratori dicono che di notte qualcuno lavora al posto loro, e che al mattino trovano le pietre già squadrate."
+  "full": "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, più in fretta di quanto dovrebbero: i muratori dicono che di notte qualcuno lavora al posto loro, e che al mattino trovano le pietre già squadrate.",
+  "easy": "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, troppo in fretta: i muratori dicono che di notte qualcuno lavora al posto loro, e che la mattina trovano le pietre già tagliate.",
+  "short": "Paghi i muratori. Il Tempio cresce troppo in fretta: di notte, dicono, qualcuno lavora al posto loro."
  },
  "G2Tempio.3": {
-  "full": "Madame Vámos passa a vedere il cantiere. Ti stringe la mano e ti chiama per nome davanti a tutti, come si fa con le persone di famiglia. Le vedove del Circolo, quella sera, accendono una candela per i tuoi morti."
+  "full": "Madame Vámos passa a vedere il cantiere. Ti stringe la mano e ti chiama per nome davanti a tutti, come si fa con le persone di famiglia. Le vedove del Circolo, quella sera, accendono una candela per i tuoi morti.",
+  "easy": "Madame Vámos viene a vedere il cantiere. Ti stringe la mano e ti chiama per nome davanti a tutti, come si fa con le persone di famiglia. Quella sera le vedove del Circolo accendono una candela per i tuoi morti.",
+  "short": "Madame Vámos ti chiama per nome davanti a tutti, e le vedove del Circolo accendono una candela per i tuoi morti."
  },
  "G2Tempio.4": {
   "full": "Guadagni 1 Charity token {icon:S1_HeartToken}."
@@ -708,10 +869,13 @@
   "full": "**La messa**"
  },
  "G2Messa.2": {
-  "full": "Il vecchio Padre Anzelm celebra una messa per i morti della tua famiglia, nella chiesa vuota, con un solo chierichetto che sbadiglia. Alla fine ti prende per un braccio, con una forza che non ti aspettavi. \"Li ho seppelliti tutti, i tuoi\", dice. \"Lascia che restino dove li ho messi.\""
+  "full": "Il vecchio Padre Anzelm celebra una messa per i morti della tua famiglia, nella chiesa vuota, con un solo chierichetto che sbadiglia. Alla fine ti prende per un braccio, con una forza che non ti aspettavi. \"Li ho seppelliti tutti, i tuoi\", dice. \"Lascia che restino dove li ho messi.\"",
+  "easy": "Il vecchio Padre Anzelm dice una messa per i morti della tua famiglia, nella chiesa vuota, con un solo chierichetto che sbadiglia. Alla fine ti prende per il braccio, con una forza che non ti aspettavi. \"Li ho seppelliti tutti, i tuoi\", dice. \"Lascia che restino dove li ho messi.\"",
+  "short": "Dopo la messa, il vecchio Padre Anzelm ti stringe il braccio: \"Li ho seppelliti tutti, i tuoi. Lascia che restino dove li ho messi.\""
  },
  "G2Messa.3": {
-  "full": "Quella notte, per la prima volta da mesi, nella tua camera non bussa nessuno, e dormi fino a giorno fatto."
+  "full": "Quella notte, per la prima volta da mesi, nella tua camera non bussa nessuno, e dormi fino a giorno fatto.",
+  "easy": "Quella notte, per la prima volta da mesi, nessuno bussa nella tua camera, e dormi fino a giorno pieno."
  },
  "G2Messa.4": {
   "full": "Arretra di 1 casella sul tracciato {icon:Insanity_Icon}."
@@ -723,13 +887,19 @@
   "full": "**Diario di {0} – *1875.***"
  },
  "G2Telegrafo.3": {
-  "full": "Nel secondo volume del Journal, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**."
+  "full": "Nel secondo volume del Journal, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.",
+  "easy": "Nel secondo volume del Journal, tra una ricetta per conservare i tessuti e un conto del fabbro, ho trovato il progetto. Sono tre disegni fatti a inchiostro, con una cura che il nonno non metteva in nient'altro. Lo chiama **Telegrafo dei Morti**.",
+  "short": "Nel Journal ho trovato il progetto del nonno, disegnato con una cura rara: il **Telegrafo dei Morti**."
  },
  "G2Telegrafo.4": {
-  "full": "Una batteria di vasi di vetro; chilometri di filo di rame avvolti intorno a un nucleo di ferro dolce; una tastiera di ventisei tasti d'osso; e al centro un ago sospeso in un'ampolla piena di un gas che lui chiama \"aria del velo\". Secondo i suoi calcoli i morti non parlano: modificano, appena un poco, la corrente. Basta un ago abbastanza sensibile per leggerli."
+  "full": "Una batteria di vasi di vetro; chilometri di filo di rame avvolti intorno a un nucleo di ferro dolce; una tastiera di ventisei tasti d'osso; e al centro un ago sospeso in un'ampolla piena di un gas che lui chiama \"aria del velo\". Secondo i suoi calcoli i morti non parlano: modificano, appena un poco, la corrente. Basta un ago abbastanza sensibile per leggerli.",
+  "easy": "Ci sono vasi di vetro collegati tra loro, chilometri di filo di rame avvolti intorno a un pezzo di ferro, una tastiera di ventisei tasti d'osso. Al centro c'è un ago dentro un'ampolla piena di un gas che lui chiama \"aria del velo\". Secondo i suoi calcoli i morti non parlano: cambiano, di pochissimo, la corrente elettrica. Basta un ago molto sensibile per leggerli.",
+  "short": "Vasi di vetro, filo di rame, una tastiera d'osso e un ago in un'ampolla di \"aria del velo\". I morti, secondo lui, muovono appena la corrente: basta un ago sensibile per leggerli."
  },
  "G2Telegrafo.5": {
-  "full": "Ai margini della terza tavola c'è una nota a matita: *\"Non ho avuto il tempo. Lo avranno loro.\"* Per costruire il primo stadio servono ingranaggi, molti più di quanti ne abbiamo in casa. Ognuno di noi dovrà decidere quanto lavoro sottrarre ai propri esperimenti."
+  "full": "Ai margini della terza tavola c'è una nota a matita: *\"Non ho avuto il tempo. Lo avranno loro.\"* Per costruire il primo stadio servono ingranaggi, molti più di quanti ne abbiamo in casa. Ognuno di noi dovrà decidere quanto lavoro sottrarre ai propri esperimenti.",
+  "easy": "Sul bordo del terzo disegno c'è una nota a matita: *\"Non ho avuto il tempo. Lo avranno loro.\"* Per costruire la prima parte servono molti ingranaggi, molti più di quelli che abbiamo in casa. Ognuno di noi dovrà decidere quanto lavoro togliere ai propri esperimenti.",
+  "short": "A margine, a matita: *\"Non ho avuto il tempo. Lo avranno loro.\"* Servono ingranaggi, e ognuno deciderà quanti toglierne ai propri esperimenti."
  },
  "G2TelegrafoOfferta.1": {
   "full": "**Chi contribuisce?**"
@@ -747,19 +917,26 @@
   "full": "Quanti {icon:Gears_Icon} avete offerto in tutto?"
  },
  "G2TelegrafoEsito.3": {
-  "full": "Il primo stadio del Telegrafo occupa un'intera parete del laboratorio. La notte in cui lo accendono, i vasi di vetro ronzano, le lampade si abbassano in tutta la casa e l'ago, nell'ampolla, comincia a tremare."
+  "full": "Il primo stadio del Telegrafo occupa un'intera parete del laboratorio. La notte in cui lo accendono, i vasi di vetro ronzano, le lampade si abbassano in tutta la casa e l'ago, nell'ampolla, comincia a tremare.",
+  "easy": "La prima parte del Telegrafo occupa un'intera parete del laboratorio. La notte in cui lo accendono, i vasi di vetro ronzano, le luci di tutta la casa si abbassano e l'ago, dentro l'ampolla, comincia a tremare.",
+  "short": "Il Telegrafo occupa un'intera parete. Quando lo accendono, le luci si abbassano e l'ago comincia a tremare."
  },
  "G2TelegrafoEsito.4": {
-  "full": "Non è il tremito della corrente: è più lento, più ostinato, come un dito che cerca una lettera su una tastiera. Si ferma su un tasto d'osso. Poi su un altro. Prima che qualcuno riesca a leggere la parola, salta un fusibile, e nel buio, per un attimo, qualcuno ride."
+  "full": "Non è il tremito della corrente: è più lento, più ostinato, come un dito che cerca una lettera su una tastiera. Si ferma su un tasto d'osso. Poi su un altro. Prima che qualcuno riesca a leggere la parola, salta un fusibile, e nel buio, per un attimo, qualcuno ride.",
+  "easy": "Non trema per la corrente: si muove più lento e più deciso, come un dito che cerca una lettera su una tastiera. Si ferma su un tasto d'osso. Poi su un altro. Prima che qualcuno riesca a leggere la parola, salta un fusibile, e al buio, per un momento, qualcuno ride.",
+  "short": "L'ago cerca le lettere, tasto dopo tasto. Prima che si legga la parola salta un fusibile, e nel buio qualcuno ride."
  },
  "G2TelegrafoEsito.5": {
   "full": "Gli {icon:Gears_Icon} offerti tornano nella riserva. Chi ha offerto di più guadagna 3VP (in caso di parità, tutti i pari)."
  },
  "G2TelegrafoEsito.6": {
-  "full": "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva offerti."
+  "full": "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva offerti.",
+  "easy": "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva dati.",
+  "short": "Gli ingranaggi non bastano. Il progetto torna nel cassetto."
  },
  "G2TelegrafoEsito.7": {
-  "full": "Quella notte i colpi alle pareti sono più lenti del solito, quasi strascicati. Se i morti possono essere delusi, lo sono."
+  "full": "Quella notte i colpi alle pareti sono più lenti del solito, quasi strascicati. Se i morti possono essere delusi, lo sono.",
+  "easy": "Quella notte i colpi alle pareti sono più lenti del solito, quasi stanchi. Se i morti possono essere delusi, lo sono."
  },
  "G2TelegrafoEsito.8": {
   "full": "Gli {icon:Gears_Icon} offerti tornano ai giocatori."
@@ -771,10 +948,14 @@
   "full": "**Gazzetta di {0} – *autunno 1876.***"
  },
  "G2Nebbia.3": {
-  "full": "**LA NEBBIA NON SI ALZA.** Da undici giorni una nebbia densa e bianchiccia copre {0} dall'alba al tramonto, e dal tramonto all'alba. Il medico condotto parla di miasmi dello stagno; il farmacista, di fumi della tenuta; Padre Anzelm, di un castigo. Le lanterne non illuminano oltre tre passi. Ieri la diligenza è arrivata con sei ore di ritardo: il cocchiere giura di aver girato in tondo tutta la notte intorno al cimitero."
+  "full": "**LA NEBBIA NON SI ALZA.** Da undici giorni una nebbia densa e bianchiccia copre {0} dall'alba al tramonto, e dal tramonto all'alba. Il medico condotto parla di miasmi dello stagno; il farmacista, di fumi della tenuta; Padre Anzelm, di un castigo. Le lanterne non illuminano oltre tre passi. Ieri la diligenza è arrivata con sei ore di ritardo: il cocchiere giura di aver girato in tondo tutta la notte intorno al cimitero.",
+  "easy": "**LA NEBBIA NON SI ALZA.** Da undici giorni una nebbia fitta e bianca copre {0} di giorno e di notte. Il medico dice che viene dallo stagno, il farmacista dice che viene dalla tenuta, Padre Anzelm dice che è un castigo. Le lanterne illuminano solo tre passi. Ieri la diligenza è arrivata con sei ore di ritardo: il cocchiere giura di aver girato in tondo intorno al cimitero per tutta la notte.",
+  "short": "**LA NEBBIA NON SI ALZA.** Da undici giorni la nebbia copre {0} giorno e notte. La diligenza ha girato tutta la notte intorno al cimitero."
  },
  "G2Nebbia.4": {
-  "full": "Più strane ancora sono le testimonianze che questa redazione continua a ricevere. La signora Tóth ha visto il marito, morto da nove anni, aspettarla all'angolo della farmacia. Il fornaio ha sentito la madre chiamarlo dal forno. Tre bambini hanno giocato tutto il pomeriggio con un amico che nessuno degli adulti ha visto, e di cui nessuno conosce il nome. Si consiglia ai lettori di non uscire senza necessità, e di non rispondere a chi li chiama per nome dalla nebbia."
+  "full": "Più strane ancora sono le testimonianze che questa redazione continua a ricevere. La signora Tóth ha visto il marito, morto da nove anni, aspettarla all'angolo della farmacia. Il fornaio ha sentito la madre chiamarlo dal forno. Tre bambini hanno giocato tutto il pomeriggio con un amico che nessuno degli adulti ha visto, e di cui nessuno conosce il nome. Si consiglia ai lettori di non uscire senza necessità, e di non rispondere a chi li chiama per nome dalla nebbia.",
+  "easy": "Ancora più strane sono le storie che arrivano al giornale. La signora Tóth ha visto il marito, morto da nove anni, che l'aspettava all'angolo della farmacia. Il fornaio ha sentito la madre che lo chiamava dal forno. Tre bambini hanno giocato tutto il pomeriggio con un amico che nessun adulto ha visto, e di cui nessuno sa il nome. Consigliamo ai lettori di non uscire se non serve, e di non rispondere a chi li chiama per nome dalla nebbia.",
+  "short": "Nella nebbia si vedono i morti: un marito sepolto da nove anni, una madre che chiama dal forno, un bambino senza nome. Non rispondete a chi vi chiama dalla nebbia."
  },
  "G2Nebbia.6": {
   "full": "Dalla Scatola di **The Cost of Disease** prendete i **Creepy token** {icon:Creepy_Icon}: sono le **Presenze**."
@@ -810,7 +991,8 @@
   "full": "Padre Anzelm cura i \"posseduti\" nell'Asylum Program. Quando un tuo pezzo lo visita,"
  },
  "G2R2.11": {
-  "full": "Nella nebbia il velo è sottile come carta bagnata. Qualcuno vuole approfittarne."
+  "full": "Nella nebbia il velo è sottile come carta bagnata. Qualcuno vuole approfittarne.",
+  "easy": "Nella nebbia il velo è sottile come carta bagnata. Qualcuno vuole usarlo a suo vantaggio."
  },
  "round.G2R2.end": {
   "full": "La Maturità della Seconda Generazione è finita."
@@ -819,37 +1001,53 @@
   "full": "**Seduta privata**"
  },
  "G2Pub.3": {
-  "full": "Nella saletta in fondo al Pub, dietro una tenda di velluto, Madame Vámos riceve chiunque offra un bicchiere all'oste e non faccia domande."
+  "full": "Nella saletta in fondo al Pub, dietro una tenda di velluto, Madame Vámos riceve chiunque offra un bicchiere all'oste e non faccia domande.",
+  "easy": "Nella stanzetta in fondo al Pub, dietro una tenda di velluto, Madame Vámos riceve chi offre da bere all'oste e non fa domande.",
+  "short": "In fondo al Pub, Madame Vámos riceve chi non fa domande."
  },
  "G2Pub.4": {
-  "full": "Madame Vámos non c'è più, ma la sua sedia, nella saletta in fondo al Pub, è ancora al suo posto. Chi ci si siede davanti, con le mani sul tavolino, sente la sua voce."
+  "full": "Madame Vámos non c'è più, ma la sua sedia, nella saletta in fondo al Pub, è ancora al suo posto. Chi ci si siede davanti, con le mani sul tavolino, sente la sua voce.",
+  "easy": "Madame Vámos non c'è più, ma la sua sedia è ancora nella stanzetta in fondo al Pub. Chi si siede davanti, con le mani sul tavolino, sente la sua voce.",
+  "short": "Madame non c'è più, ma chi siede davanti alla sua sedia sente ancora la sua voce."
  },
  "G2Pub.5": {
-  "full": "Nella saletta in fondo al Pub una ragazza pallida, che dice di essere stata allieva della donna del carro, tiene sedute per pochi soldi."
+  "full": "Nella saletta in fondo al Pub una ragazza pallida, che dice di essere stata allieva della donna del carro, tiene sedute per pochi soldi.",
+  "easy": "Nella stanzetta in fondo al Pub una ragazza pallida, che dice di aver studiato con la donna del carro, fa sedute per pochi soldi.",
+  "short": "In fondo al Pub, un'allieva della donna del carro tiene sedute per pochi soldi."
  },
  "G2Pub.6": {
-  "full": "La voce della medium si fa roca, maschile: è un mugnaio morto di colera, dice, che si fidava delle banche ancora meno che dei preti. Ti descrive un mattone smosso dietro la stufa di un mulino abbandonato. Ci vai il giorno dopo, con la nebbia alle ginocchia. Il mattone c'è. Dietro c'è una scatola di latta piena di monete, e nessuno, che tu sappia, verrà mai a reclamarla."
+  "full": "La voce della medium si fa roca, maschile: è un mugnaio morto di colera, dice, che si fidava delle banche ancora meno che dei preti. Ti descrive un mattone smosso dietro la stufa di un mulino abbandonato. Ci vai il giorno dopo, con la nebbia alle ginocchia. Il mattone c'è. Dietro c'è una scatola di latta piena di monete, e nessuno, che tu sappia, verrà mai a reclamarla.",
+  "easy": "La voce della medium diventa roca, da uomo: è un mugnaio morto di colera, dice, che si fidava delle banche ancora meno che dei preti. Ti descrive un mattone che si muove dietro la stufa di un mulino abbandonato. Ci vai il giorno dopo, con la nebbia fino alle ginocchia. Il mattone c'è. Dietro c'è una scatola di latta piena di monete, e nessuno, per quanto ne sai, verrà mai a prenderla.",
+  "short": "Parla un mugnaio morto di colera e ti indica un mattone smosso in un mulino abbandonato. Dietro c'è una scatola di monete che nessuno reclamerà."
  },
  "G2Pub.7": {
   "full": "Guadagni $3."
  },
  "G2Pub.8": {
-  "full": "Le mani della medium stringono le tue, a lungo. Poi arriva un nome: quello di chi, in paese, ti teme più di tutti e sparge voci sul tuo conto. È un nome che conosci. Il giorno dopo vai a trovarlo con un cesto di frutta e un sorriso. Le voci, misteriosamente, si spengono."
+  "full": "Le mani della medium stringono le tue, a lungo. Poi arriva un nome: quello di chi, in paese, ti teme più di tutti e sparge voci sul tuo conto. È un nome che conosci. Il giorno dopo vai a trovarlo con un cesto di frutta e un sorriso. Le voci, misteriosamente, si spengono.",
+  "easy": "La medium ti tiene le mani a lungo. Poi dice un nome: quello della persona che in paese ha più paura di te e racconta cose cattive su di te. Conosci quel nome. Il giorno dopo vai a trovarla con un cesto di frutta e un sorriso. Le voci, stranamente, finiscono.",
+  "short": "La medium ti dice chi sparge voci su di te. Una visita con un cesto di frutta, e le voci si spengono."
  },
  "G2Pub.9": {
   "full": "Arretra di 1 casella sul tracciato {icon:Creepy_Icon}."
  },
  "G2Pub.10": {
-  "full": "A metà di una frase la voce della medium cambia: diventa più bassa, più lenta, con un accento che hai sentito solo nelle storie di famiglia. È il nonno. Ti chiama per nome, il tuo, e ti dice che nella nebbia il velo è sottile come carta bagnata, e che basterebbe un dito per bucarlo. Poi la candela si spegne, e la voce tace."
+  "full": "A metà di una frase la voce della medium cambia: diventa più bassa, più lenta, con un accento che hai sentito solo nelle storie di famiglia. È il nonno. Ti chiama per nome, il tuo, e ti dice che nella nebbia il velo è sottile come carta bagnata, e che basterebbe un dito per bucarlo. Poi la candela si spegne, e la voce tace.",
+  "easy": "A metà di una frase la voce della medium cambia: diventa più bassa e più lenta, con un accento che hai sentito solo nelle storie di famiglia. È il nonno. Ti chiama per nome e ti dice che nella nebbia il velo è sottile come carta bagnata: basterebbe un dito per bucarlo. Poi la candela si spegne, e la voce tace.",
+  "short": "La voce della medium diventa quella del nonno: \"Nella nebbia il velo è sottile come carta bagnata. Basta un dito per bucarlo.\" Poi la candela si spegne."
  },
  "G2Asilo.1": {
   "full": "**La cura**"
  },
  "G2Asilo.2": {
-  "full": "L'Asylum Program è una vecchia caserma imbiancata a calce, con le finestre a sbarre e una croce di ferro sul cancello. Padre Anzelm, ormai curvo, lo dirige con l'aiuto di due suore e di un infermiere enorme che non parla mai. Qui la nebbia ha portato i \"posseduti\": gente che parla con voci non sue, che scrive in lingue mai studiate, che bussa alle pareti per ore."
+  "full": "L'Asylum Program è una vecchia caserma imbiancata a calce, con le finestre a sbarre e una croce di ferro sul cancello. Padre Anzelm, ormai curvo, lo dirige con l'aiuto di due suore e di un infermiere enorme che non parla mai. Qui la nebbia ha portato i \"posseduti\": gente che parla con voci non sue, che scrive in lingue mai studiate, che bussa alle pareti per ore.",
+  "easy": "L'Asylum Program è una vecchia caserma dipinta di bianco, con le sbarre alle finestre e una croce di ferro sul cancello. Padre Anzelm, ormai curvo, lo dirige con due suore e un infermiere enorme che non parla mai. La nebbia ha portato qui i \"posseduti\": persone che parlano con voci non loro, che scrivono in lingue che non hanno mai studiato, che bussano alle pareti per ore.",
+  "short": "All'Asylum Program, Padre Anzelm cura i \"posseduti\" della nebbia: gente che parla con voci altrui e bussa alle pareti per ore."
  },
  "G2Asilo.3": {
-  "full": "La cura è severa: bagni gelati, preghiere, cinghie di cuoio, silenzio. Ti fa bene, in qualche modo, vedere quanto è sottile il confine tra loro e te. Ma l'uomo della cella numero sette, quando passi, smette di bussare e ti saluta con il tuo nome, e con la voce di tuo nonno."
+  "full": "La cura è severa: bagni gelati, preghiere, cinghie di cuoio, silenzio. Ti fa bene, in qualche modo, vedere quanto è sottile il confine tra loro e te. Ma l'uomo della cella numero sette, quando passi, smette di bussare e ti saluta con il tuo nome, e con la voce di tuo nonno.",
+  "easy": "La cura è dura: bagni gelati, preghiere, cinghie di cuoio, silenzio. In qualche modo ti fa bene vedere quanto è piccola la differenza tra loro e te. Ma l'uomo della cella numero sette, quando passi, smette di bussare e ti saluta con il tuo nome, e con la voce di tuo nonno.",
+  "short": "La cura è dura, e ti fa bene. Ma l'uomo della cella sette ti saluta per nome, con la voce di tuo nonno."
  },
  "G2Asilo.4": {
   "full": "Arretra di 2 caselle sul tracciato {icon:Insanity_Icon} e guadagni 1 {icon:Creepy_Icon}."
@@ -861,19 +1059,29 @@
   "full": "**Verbale di seduta n. 113 – {0}, *notte di Ognissanti, 1878.***"
  },
  "G2GrandeSeduta.3": {
-  "full": "Per la notte di Ognissanti Madame Vámos convoca tutto il villaggio nel Tempio del Circolo, o in quello che ne è stato costruito. Vengono in duecento, con le lanterne, attraverso la nebbia. Al centro della sala c'è un tavolo rotondo, con una sedia per ogni erede della tenuta e due in più: una per Madame, una vuota."
+  "full": "Per la notte di Ognissanti Madame Vámos convoca tutto il villaggio nel Tempio del Circolo, o in quello che ne è stato costruito. Vengono in duecento, con le lanterne, attraverso la nebbia. Al centro della sala c'è un tavolo rotondo, con una sedia per ogni erede della tenuta e due in più: una per Madame, una vuota.",
+  "easy": "Per la notte di Ognissanti Madame Vámos invita tutto il villaggio nel Tempio del Circolo, o in quella parte che è stata costruita. Arrivano in duecento, con le lanterne, attraverso la nebbia. In mezzo alla sala c'è un tavolo rotondo, con una sedia per ogni erede della tenuta e due sedie in più: una per Madame e una vuota.",
+  "short": "La notte di Ognissanti duecento persone attraversano la nebbia fino al Tempio. Al tavolo, una sedia per ogni erede, una per Madame e una vuota."
  },
  "G2GrandeSeduta.4": {
-  "full": "Madame annuncia che stanotte, con l'aiuto del sangue del fondatore, proverà a evocare lui: l'uomo che per primo scrisse che i veli si sollevano. Il verbale lo redige {0}, per volontà della medium, \"perché resti scritto da una mano di famiglia\"."
+  "full": "Madame annuncia che stanotte, con l'aiuto del sangue del fondatore, proverà a evocare lui: l'uomo che per primo scrisse che i veli si sollevano. Il verbale lo redige {0}, per volontà della medium, \"perché resti scritto da una mano di famiglia\".",
+  "easy": "Madame dice che stanotte, con l'aiuto del sangue del fondatore, proverà a chiamare lui: l'uomo che per primo scrisse che i veli si sollevano. Il verbale lo scrive {0}, perché la medium lo vuole: \"così resta scritto da una mano di famiglia\".",
+  "short": "Madame proverà a evocare il fondatore, con l'aiuto del suo sangue. Il verbale lo scrive {0}, \"una mano di famiglia\"."
  },
  "G2GrandeSeduta.5": {
-  "full": "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il Journal aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}."
+  "full": "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il Journal aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}.",
+  "easy": "Non c'è una medium, quindi la famiglia fa da sola. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti sul magnetismo. Il Journal è aperto sull'ultima pagina e c'è una sedia vuota a capotavola. Il verbale lo scrive {0}.",
+  "short": "Senza medium, gli eredi si siedono da soli intorno al vecchio tavolino del laboratorio, con una sedia vuota a capotavola. Il verbale lo scrive {0}."
  },
  "G2GrandeSeduta.6": {
-  "full": "Fuori la nebbia preme contro i vetri. Nessuno di loro ha mai condotto una seduta; tutti, però, hanno letto abbastanza per sapere come si fa. È questa, più di tutto il resto, la cosa che fa paura."
+  "full": "Fuori la nebbia preme contro i vetri. Nessuno di loro ha mai condotto una seduta; tutti, però, hanno letto abbastanza per sapere come si fa. È questa, più di tutto il resto, la cosa che fa paura.",
+  "easy": "Fuori la nebbia preme contro le finestre. Nessuno di loro ha mai guidato una seduta, ma tutti hanno letto abbastanza per sapere come si fa. È proprio questo che fa più paura.",
+  "short": "Nessuno ha mai condotto una seduta, ma tutti sanno come si fa. È questo che fa paura."
  },
  "G2GrandeSeduta.7": {
-  "full": "A mezzanotte la fiamma della candela, al centro del tavolo, si piega verso la sedia vuota, come per un soffio. È il momento di decidere."
+  "full": "A mezzanotte la fiamma della candela, al centro del tavolo, si piega verso la sedia vuota, come per un soffio. È il momento di decidere.",
+  "easy": "A mezzanotte la fiamma della candela, in mezzo al tavolo, si piega verso la sedia vuota, come per un soffio d'aria. È il momento di decidere.",
+  "short": "A mezzanotte la fiamma si piega verso la sedia vuota. È il momento di decidere."
  },
  "G2GrandeSedutaVoto.1": {
   "full": "**Evocare il padre?**"
@@ -894,22 +1102,34 @@
   "full": "**L'ectoplasma**"
  },
  "G2Ectoplasma.2": {
-  "full": "Madame Vámos chiude gli occhi e si irrigidisce sulla sedia. Le sue labbra si schiudono, e dalla bocca comincia a uscire una sostanza bianca e luminosa, lenta, come un fumo che pesa. Si allunga sul tavolo verso la sedia vuota e prende la forma di una mano. Poi di un braccio. Qualcuno grida. La luce si fa accecante."
+  "full": "Madame Vámos chiude gli occhi e si irrigidisce sulla sedia. Le sue labbra si schiudono, e dalla bocca comincia a uscire una sostanza bianca e luminosa, lenta, come un fumo che pesa. Si allunga sul tavolo verso la sedia vuota e prende la forma di una mano. Poi di un braccio. Qualcuno grida. La luce si fa accecante.",
+  "easy": "Madame Vámos chiude gli occhi e diventa rigida sulla sedia. Apre le labbra, e dalla bocca comincia a uscire, piano, una sostanza bianca e luminosa, come un fumo pesante. Si allunga sul tavolo verso la sedia vuota e prende la forma di una mano. Poi di un braccio. Qualcuno grida. La luce diventa fortissima.",
+  "short": "Dalla bocca di Madame esce una sostanza bianca e luminosa che si allunga verso la sedia vuota e prende forma di mano. La luce acceca tutti."
  },
  "G2Ectoplasma.3": {
-  "full": "Quando torna il buio, sulla sedia di Madame c'è soltanto il suo scialle nero. Del corpo, nessuna traccia. Sul tavolo resta una pozza di sostanza bianca, ancora tiepida, che qualcuno, con mano tremante, raccoglie in una fiala."
+  "full": "Quando torna il buio, sulla sedia di Madame c'è soltanto il suo scialle nero. Del corpo, nessuna traccia. Sul tavolo resta una pozza di sostanza bianca, ancora tiepida, che qualcuno, con mano tremante, raccoglie in una fiala.",
+  "easy": "Quando torna il buio, sulla sedia di Madame c'è solo il suo scialle nero. Il suo corpo non c'è più. Sul tavolo resta una pozza di sostanza bianca, ancora tiepida, e qualcuno, con la mano che trema, la mette in una fiala.",
+  "short": "Al buio, sulla sedia di Madame resta solo lo scialle. Qualcuno raccoglie in una fiala la sostanza bianca rimasta sul tavolo."
  },
  "G2Ectoplasma.4": {
-  "full": "Madame Vámos rovescia la testa all'indietro. Dalla sua bocca esce una sostanza bianca e filamentosa, che si raccoglie sul tavolo in una piccola pozza luminosa. La sedia vuota scricchiola, come se qualcuno vi si fosse appena seduto. Poi Madame tossisce, si pulisce le labbra con un fazzoletto e dice, con la sua voce di sempre: \"Era qui\"."
+  "full": "Madame Vámos rovescia la testa all'indietro. Dalla sua bocca esce una sostanza bianca e filamentosa, che si raccoglie sul tavolo in una piccola pozza luminosa. La sedia vuota scricchiola, come se qualcuno vi si fosse appena seduto. Poi Madame tossisce, si pulisce le labbra con un fazzoletto e dice, con la sua voce di sempre: \"Era qui\".",
+  "easy": "Madame Vámos piega la testa all'indietro. Dalla sua bocca esce una sostanza bianca, a fili, che sul tavolo forma una piccola pozza luminosa. La sedia vuota scricchiola, come se qualcuno si fosse appena seduto. Poi Madame tossisce, si pulisce le labbra con un fazzoletto e dice, con la sua voce normale: \"Era qui\".",
+  "short": "Dalla bocca di Madame esce una sostanza bianca e luminosa; la sedia vuota scricchiola. Poi Madame si pulisce le labbra: \"Era qui\"."
  },
  "G2Ectoplasma.5": {
-  "full": "Il medico, il giorno dopo, dirà che era garza imbevuta di fosforo. Ma la sostanza che qualcuno raccoglie in una fiala, mesi dopo, brilla ancora."
+  "full": "Il medico, il giorno dopo, dirà che era garza imbevuta di fosforo. Ma la sostanza che qualcuno raccoglie in una fiala, mesi dopo, brilla ancora.",
+  "easy": "Il giorno dopo il medico dirà che era garza bagnata di fosforo. Ma la sostanza che qualcuno ha messo in una fiala brilla ancora, mesi dopo.",
+  "short": "Garza e fosforo, dirà il medico. Ma la fiala, mesi dopo, brilla ancora."
  },
  "G2Ectoplasma.6": {
-  "full": "A mezzanotte la persona più giovane seduta al tavolo comincia a parlare con una voce che non è la sua: bassa, lenta, impaziente. Pronuncia tre parole in una lingua morta, poi tossisce, e dalla sua bocca esce una sostanza bianca e filamentosa che brilla nel buio."
+  "full": "A mezzanotte la persona più giovane seduta al tavolo comincia a parlare con una voce che non è la sua: bassa, lenta, impaziente. Pronuncia tre parole in una lingua morta, poi tossisce, e dalla sua bocca esce una sostanza bianca e filamentosa che brilla nel buio.",
+  "easy": "A mezzanotte la persona più giovane al tavolo comincia a parlare con una voce che non è la sua: bassa, lenta, impaziente. Dice tre parole in una lingua antica, poi tossisce, e dalla bocca le esce una sostanza bianca, a fili, che brilla al buio.",
+  "short": "A mezzanotte la persona più giovane parla con una voce non sua, poi tossisce una sostanza bianca che brilla al buio."
  },
  "G2Ectoplasma.7": {
-  "full": "Al mattino nessuno ricorda chi abbia preso una fiala dal laboratorio per raccoglierla. Ma la fiala è piena."
+  "full": "Al mattino nessuno ricorda chi abbia preso una fiala dal laboratorio per raccoglierla. Ma la fiala è piena.",
+  "easy": "La mattina nessuno ricorda chi abbia preso una fiala dal laboratorio per raccoglierla. Ma la fiala è piena.",
+  "short": "Nessuno ricorda chi l'abbia raccolta. Ma la fiala è piena."
  },
  "G2Ectoplasma.8": {
   "full": "Chi ha l'{icon:Insanity_Icon} più alta prende la fiala (in caso di parità, il Primo Giocatore sceglie tra i pari)."
@@ -924,19 +1144,27 @@
   "full": "**Le candele si spengono**"
  },
  "G2SedutaInterrotta.2": {
-  "full": "Qualcuno si alza di scatto e spalanca le imposte. La candela si spegne; la sedia vuota si rovescia da sola, con un tonfo. Per un lungo momento nessuno respira."
+  "full": "Qualcuno si alza di scatto e spalanca le imposte. La candela si spegne; la sedia vuota si rovescia da sola, con un tonfo. Per un lungo momento nessuno respira.",
+  "easy": "Qualcuno si alza di colpo e apre le imposte. La candela si spegne. La sedia vuota cade da sola, con un tonfo. Per un lungo momento nessuno respira.",
+  "short": "Qualcuno spalanca le imposte. La candela si spegne e la sedia vuota cade da sola."
  },
  "G2SedutaInterrotta.3": {
-  "full": "Poi, fuori, la nebbia si dirada un poco, e per la prima volta da mesi si vede la luna. Qualunque cosa stesse aspettando dall'altra parte del tavolo, se n'è andata. Ma se n'è andata arrabbiata, e per tutto l'inverno, alla tenuta, le porte sbattono da sole."
+  "full": "Poi, fuori, la nebbia si dirada un poco, e per la prima volta da mesi si vede la luna. Qualunque cosa stesse aspettando dall'altra parte del tavolo, se n'è andata. Ma se n'è andata arrabbiata, e per tutto l'inverno, alla tenuta, le porte sbattono da sole.",
+  "easy": "Poi, fuori, la nebbia diventa un po' meno fitta, e per la prima volta da mesi si vede la luna. Quello che aspettava dall'altra parte del tavolo se n'è andato. Ma se n'è andato arrabbiato, e per tutto l'inverno, alla tenuta, le porte sbattono da sole.",
+  "short": "La nebbia si dirada e torna la luna. Ciò che aspettava se n'è andato, ma arrabbiato: per tutto l'inverno le porte sbattono da sole."
  },
  "G2Segreti.1": {
   "full": "**I segreti di Madame**"
  },
  "G2Segreti.2": {
-  "full": "Qualche settimana dopo la seduta, Madame Vámos manda a ogni erede un biglietto listato a lutto. Non ha più molto tempo, scrive; o forse ne ha troppo. In ogni caso è venuto il momento di lasciare a qualcuno il suo segreto più prezioso: il modo di non morire del tutto."
+  "full": "Qualche settimana dopo la seduta, Madame Vámos manda a ogni erede un biglietto listato a lutto. Non ha più molto tempo, scrive; o forse ne ha troppo. In ogni caso è venuto il momento di lasciare a qualcuno il suo segreto più prezioso: il modo di non morire del tutto.",
+  "easy": "Qualche settimana dopo la seduta, Madame Vámos manda a ogni erede un biglietto con il bordo nero. Scrive che non ha più molto tempo, o forse ne ha troppo. Comunque è arrivato il momento di lasciare a qualcuno il suo segreto più prezioso: il modo di non morire del tutto.",
+  "short": "Madame Vámos scrive agli eredi: è tempo di lasciare a qualcuno il suo segreto più prezioso, il modo di non morire del tutto."
  },
  "G2Segreti.3": {
-  "full": "Lo venderà a una persona soltanto: a chi saprà dimostrare di tenerci di più. \"I miei figli spirituali\", aggiunge in fondo al biglietto, \"capiranno che anche l'eternità ha un prezzo.\""
+  "full": "Lo venderà a una persona soltanto: a chi saprà dimostrare di tenerci di più. \"I miei figli spirituali\", aggiunge in fondo al biglietto, \"capiranno che anche l'eternità ha un prezzo.\"",
+  "easy": "Lo venderà a una sola persona: a chi dimostrerà di volerlo di più. \"I miei figli spirituali\", scrive alla fine del biglietto, \"capiranno che anche l'eternità costa qualcosa.\"",
+  "short": "Lo venderà a chi lo vorrà di più: \"anche l'eternità ha un prezzo\"."
  },
  "G2Segreti.4": {
   "full": "Ogni giocatore prende in mano in segreto il denaro che vuole offrire. Quando tutti sono pronti, rivelate insieme le offerte. Chi offre di più paga e prende una **Immortality card**; gli altri riprendono il loro denaro."
@@ -972,7 +1200,8 @@
   "full": "Quando completi un Esperimento **Engineering**, puoi rinunciare ai suoi VP per lavorare al Telegrafo:"
  },
  "G2R3.14": {
-  "full": "Il Sindaco Bódi, figlio di quello che sedeva al consiglio nel 1856, è malato, e cerca un erede politico."
+  "full": "Il Sindaco Bódi, figlio di quello che sedeva al consiglio nel 1856, è malato, e cerca un erede politico.",
+  "easy": "Il Sindaco Bódi, figlio di quello che era nel consiglio nel 1856, è malato e cerca qualcuno che prenda il suo posto in politica."
  },
  "round.G2R3.end": {
   "full": "La Vecchiaia della Seconda Generazione è finita."
@@ -981,16 +1210,24 @@
   "full": "**Un filo di rame**"
  },
  "G2Contributo.2": {
-  "full": "Con l'ultimo filo saldato, il secondo stadio del Telegrafo prende vita. I vasi di vetro si illuminano di una luce lattiginosa, la tastiera d'osso vibra, e l'ago non trema più: si sposta deciso da un tasto all'altro e, per la prima volta, compone una parola intera."
+  "full": "Con l'ultimo filo saldato, il secondo stadio del Telegrafo prende vita. I vasi di vetro si illuminano di una luce lattiginosa, la tastiera d'osso vibra, e l'ago non trema più: si sposta deciso da un tasto all'altro e, per la prima volta, compone una parola intera.",
+  "easy": "Quando l'ultimo filo è saldato, la seconda parte del Telegrafo si accende. I vasi di vetro fanno una luce bianca come il latte, la tastiera d'osso vibra e l'ago non trema più: passa sicuro da un tasto all'altro e, per la prima volta, scrive una parola intera.",
+  "short": "Saldato l'ultimo filo, il Telegrafo prende vita, e per la prima volta l'ago compone una parola intera."
  },
  "G2Contributo.3": {
-  "full": "È un nome. Nessuno in famiglia lo conosce; ma la mattina dopo, al cimitero, lo trovano inciso su una lapide che il becchino giura di non aver mai visto."
+  "full": "È un nome. Nessuno in famiglia lo conosce; ma la mattina dopo, al cimitero, lo trovano inciso su una lapide che il becchino giura di non aver mai visto.",
+  "easy": "È un nome. Nessuno in famiglia lo conosce. Ma la mattina dopo, al cimitero, lo trovano scritto su una lapide che il becchino giura di non aver mai visto.",
+  "short": "È un nome sconosciuto. Il giorno dopo lo trovano su una lapide che nessuno aveva mai visto."
  },
  "G2Contributo.4": {
-  "full": "Pezzo dopo pezzo, senza aspettare il consenso di nessuno, il primo stadio del Telegrafo è finalmente montato contro la parete del laboratorio. Quando lo accendi, le lampade di tutta la casa si abbassano, e l'ago, nell'ampolla, comincia a tremare. Cerca una lettera. Non la trova ancora."
+  "full": "Pezzo dopo pezzo, senza aspettare il consenso di nessuno, il primo stadio del Telegrafo è finalmente montato contro la parete del laboratorio. Quando lo accendi, le lampade di tutta la casa si abbassano, e l'ago, nell'ampolla, comincia a tremare. Cerca una lettera. Non la trova ancora.",
+  "easy": "Un pezzo alla volta, senza aspettare il permesso di nessuno, la prima parte del Telegrafo è finalmente montata contro la parete del laboratorio. Quando la accendi, le luci di tutta la casa si abbassano e l'ago, dentro l'ampolla, comincia a tremare. Cerca una lettera. Ancora non la trova.",
+  "short": "Da solo, monti il primo stadio del Telegrafo. Quando lo accendi l'ago trema, cercando una lettera che ancora non trova."
  },
  "G2Contributo.5": {
-  "full": "Saldi un altro tratto di filo, tari l'ago, sostituisci un vaso incrinato. La macchina cresce, ma l'ago resta immobile: mancano ancora dei pezzi. Mentre metti via gli attrezzi, ti sembra di sentire un colpo, impaziente, dall'interno dell'ampolla."
+  "full": "Saldi un altro tratto di filo, tari l'ago, sostituisci un vaso incrinato. La macchina cresce, ma l'ago resta immobile: mancano ancora dei pezzi. Mentre metti via gli attrezzi, ti sembra di sentire un colpo, impaziente, dall'interno dell'ampolla.",
+  "easy": "Saldi un altro pezzo di filo, sistemi l'ago, cambi un vaso rotto. La macchina cresce, ma l'ago non si muove: mancano ancora dei pezzi. Mentre metti via gli attrezzi, ti sembra di sentire un colpo impaziente dentro l'ampolla.",
+  "short": "La macchina cresce, ma l'ago resta fermo. Mentre riponi gli attrezzi, dall'ampolla arriva un colpo impaziente."
  },
  "G2Contributo.6": {
   "full": "Non guadagni i VP dell'Esperimento: guadagni invece 1 Conoscenza Ingegneristica (Engineering Knowledge)."
@@ -1002,10 +1239,14 @@
   "full": "**Gazzetta di {0} – *1881.***"
  },
  "G2Fine.3": {
-  "full": "**IL SINDACO E LE SUE AMICIZIE.** Il Sindaco Bódi, che ha ereditato la carica dal padre come altri ereditano un orologio, è malato da tempo e non lo nasconde. Non nasconde nemmeno di cercare, tra le famiglie notabili di {0}, qualcuno da proteggere negli anni a venire, e da cui farsi proteggere a sua volta."
+  "full": "**IL SINDACO E LE SUE AMICIZIE.** Il Sindaco Bódi, che ha ereditato la carica dal padre come altri ereditano un orologio, è malato da tempo e non lo nasconde. Non nasconde nemmeno di cercare, tra le famiglie notabili di {0}, qualcuno da proteggere negli anni a venire, e da cui farsi proteggere a sua volta.",
+  "easy": "**IL SINDACO E I SUOI AMICI.** Il Sindaco Bódi ha avuto la carica dal padre, come altri ricevono in eredità un orologio. È malato da tempo e non lo nasconde. Non nasconde neanche che cerca, tra le famiglie importanti di {0}, qualcuno da proteggere nei prossimi anni, e che a sua volta protegga lui.",
+  "short": "**IL SINDACO E LE SUE AMICIZIE.** Il Sindaco Bódi, malato, cerca tra le famiglie di {0} qualcuno da proteggere, e da cui farsi proteggere."
  },
  "G2Fine.4": {
-  "full": "Corre voce che le famiglie della tenuta abbiano già fatto le loro offerte, in denaro e in favori. Questo giornale non è in grado di confermarlo, e il suo direttore è stato pregato di non insistere."
+  "full": "Corre voce che le famiglie della tenuta abbiano già fatto le loro offerte, in denaro e in favori. Questo giornale non è in grado di confermarlo, e il suo direttore è stato pregato di non insistere.",
+  "easy": "Si dice che le famiglie della tenuta abbiano già fatto le loro offerte, con denaro e favori. Questo giornale non può confermarlo, e al suo direttore è stato chiesto di non fare domande.",
+  "short": "Si dice che le famiglie della tenuta abbiano già fatto le loro offerte. Il giornale non può confermarlo."
  },
  "G2Fine.5": {
   "full": "Ogni giocatore prende in mano in segreto il denaro che vuole offrire. Quando tutti sono pronti, rivelate insieme le offerte. Chi offre di più paga e prende la **Mayor Coin**; gli altri riprendono il loro denaro."
@@ -1023,13 +1264,18 @@
   "full": "**{0}** prende la **Mayor Coin** dalla Scatola di **The Cost of Disease**. Nella Terza Generazione, chi ha la Mayor Coin non paga il $1 in più quando visita un Luogo già occupato."
  },
  "G2Domande.2": {
-  "full": "Gli anni della vecchiaia passano in fretta, come passano sempre per chi ha troppo da fare. La nebbia sale e scende con le stagioni, ma non se ne va mai del tutto: si ritira nei fossi, nel cimitero, dietro le serre della tenuta, e aspetta."
+  "full": "Gli anni della vecchiaia passano in fretta, come passano sempre per chi ha troppo da fare. La nebbia sale e scende con le stagioni, ma non se ne va mai del tutto: si ritira nei fossi, nel cimitero, dietro le serre della tenuta, e aspetta.",
+  "easy": "Gli anni della vecchiaia passano in fretta, come sempre per chi ha troppe cose da fare. La nebbia sale e scende con le stagioni, ma non va mai via del tutto: si nasconde nei fossi, nel cimitero, dietro le serre della tenuta, e aspetta.",
+  "short": "La vecchiaia passa in fretta. La nebbia non se ne va mai del tutto: si ritira nei fossi e nel cimitero, e aspetta."
  },
  "G2DomChiusura.3": {
-  "full": "Anche le carte della seconda generazione si chiudono con una serie di funerali. Ho voluto controllare le lapidi di persona, una per una, con la lanterna, perché nella nebbia del cimitero (sì, c'è ancora) non si leggeva nulla. Le date sono quelle dei registri. Ma sotto ogni data, in un carattere più piccolo, il lapicida ha inciso anche l'ora; e tutte quelle ore cadono tra la mezzanotte e le tre."
+  "full": "Anche le carte della seconda generazione si chiudono con una serie di funerali. Ho voluto controllare le lapidi di persona, una per una, con la lanterna, perché nella nebbia del cimitero (sì, c'è ancora) non si leggeva nulla. Le date sono quelle dei registri. Ma sotto ogni data, in un carattere più piccolo, il lapicida ha inciso anche l'ora; e tutte quelle ore cadono tra la mezzanotte e le tre.",
+  "easy": "Anche le carte della seconda generazione finiscono con una serie di funerali. Ho voluto controllare le lapidi io stesso, una per una, con la lanterna, perché nella nebbia del cimitero (sì, c'è ancora) non si leggeva niente. Le date sono le stesse dei registri. Ma sotto ogni data, in lettere più piccole, è scritta anche l'ora. E tutte quelle ore sono tra la mezzanotte e le tre.",
+  "short": "Anche la seconda generazione finisce al cimitero, nella nebbia. Sotto ogni data, sulle lapidi, è incisa un'ora: sempre tra la mezzanotte e le tre."
  },
  "G2DomChiusura.4": {
-  "full": "Il lapicida, interrogato da un mio collega nel 1902, dichiarò di non aver mai inciso alcuna ora."
+  "full": "Il lapicida, interrogato da un mio collega nel 1902, dichiarò di non aver mai inciso alcuna ora.",
+  "easy": "Il lapicida, interrogato da un mio collega nel 1902, disse di non aver mai scritto nessuna ora."
  },
  "G2DomChiusura.5": {
   "full": "Rimuovete tutti i pezzi dal tabellone ed eseguite la Fine della Generazione. Rimettete nella riserva i token {icon:StorybookToken} non usati e i Charity token {icon:S1_HeartToken} dei giocatori. Le Presenze {icon:Creepy_Icon} tornano nella scatola."
@@ -1044,34 +1290,48 @@
   "full": "ULTIMO DELLA FAMIGLIA SEPOLTO IERI STOP TENUTA VOSTRA STOP NOTAIO ATTENDE STOP NON ARRIVATE DOPO IL TRAMONTO STOP"
  },
  "G3Intro.4": {
-  "full": "Il telegramma raggiunse i nuovi eredi in città lontane, in uffici, laboratori, collegi. Quando scesero dal treno (perché ora anche lì arrivava il treno) trovarono una cittadina che non somigliava più al villaggio delle storie di famiglia: lampioni lungo la strada principale, un ufficio del telegrafo, una banca con le colonne di finto marmo e, nel caffè della piazza, un fonografo che suonava valzer viennesi a chiunque infilasse una moneta."
+  "full": "Il telegramma raggiunse i nuovi eredi in città lontane, in uffici, laboratori, collegi. Quando scesero dal treno (perché ora anche lì arrivava il treno) trovarono una cittadina che non somigliava più al villaggio delle storie di famiglia: lampioni lungo la strada principale, un ufficio del telegrafo, una banca con le colonne di finto marmo e, nel caffè della piazza, un fonografo che suonava valzer viennesi a chiunque infilasse una moneta.",
+  "easy": "Il telegramma arrivò ai nuovi eredi in città lontane, in uffici, laboratori, scuole. Quando scesero dal treno (ora il treno arrivava anche lì) trovarono una piccola città molto diversa dal villaggio delle storie di famiglia. C'erano lampioni lungo la strada principale, un ufficio del telegrafo, una banca con colonne di finto marmo e, nel caffè della piazza, un fonografo che suonava valzer viennesi a chi metteva una moneta.",
+  "short": "Il telegramma raggiunse i nuovi eredi lontano. Scesi dal treno, trovarono una cittadina moderna: lampioni, telegrafo, una banca e un fonografo che suonava valzer."
  },
  "G3Citta.1": {
   "full": "**La città**"
  },
  "G3Citta.2": {
-  "full": "E c'era il Circolo. Il Circolo dell'Ultima Ora non aveva più bisogno di nascondersi, né di farsi pubblicità: possedeva le pompe funebri, metà degli edifici della piazza e la maggioranza del consiglio comunale. I suoi iscritti portavano all'occhiello un piccolo occhio d'argento, e lo portavano con orgoglio."
+  "full": "E c'era il Circolo. Il Circolo dell'Ultima Ora non aveva più bisogno di nascondersi, né di farsi pubblicità: possedeva le pompe funebri, metà degli edifici della piazza e la maggioranza del consiglio comunale. I suoi iscritti portavano all'occhiello un piccolo occhio d'argento, e lo portavano con orgoglio.",
+  "easy": "E c'era il Circolo. Il Circolo dell'Ultima Ora non doveva più nascondersi, e non aveva bisogno di farsi conoscere: aveva le pompe funebri, metà degli edifici della piazza e la maggior parte del consiglio comunale. I suoi membri portavano sulla giacca un piccolo occhio d'argento, ed erano orgogliosi di portarlo.",
+  "short": "Il Circolo ormai possedeva le pompe funebri, mezza piazza e il consiglio comunale. I suoi iscritti portavano con orgoglio un occhio d'argento."
  },
  "G3Citta.3": {
-  "full": "E c'era la Chiesa. Dopo anni di prediche, processi e scomuniche, il vescovo aveva ottenuto ciò che voleva: il Circolo dell'Ultima Ora era fuorilegge, le sue sedute un reato, e chi parlava con i morti finiva davanti al tribunale ecclesiastico. Padre Benedek, il successore di Padre Anzelm, teneva un registro di nomi; quello della famiglia vi compariva più volte."
+  "full": "E c'era la Chiesa. Dopo anni di prediche, processi e scomuniche, il vescovo aveva ottenuto ciò che voleva: il Circolo dell'Ultima Ora era fuorilegge, le sue sedute un reato, e chi parlava con i morti finiva davanti al tribunale ecclesiastico. Padre Benedek, il successore di Padre Anzelm, teneva un registro di nomi; quello della famiglia vi compariva più volte.",
+  "easy": "E c'era la Chiesa. Dopo anni di prediche, processi e scomuniche, il vescovo aveva ottenuto quello che voleva: il Circolo dell'Ultima Ora era vietato, le sue sedute erano un reato, e chi parlava con i morti finiva davanti al tribunale della Chiesa. Padre Benedek, che aveva preso il posto di Padre Anzelm, teneva un elenco di nomi. Il nome della famiglia c'era più volte.",
+  "short": "La Chiesa aveva vinto: il Circolo era fuorilegge e le sedute un reato. Padre Benedek teneva un registro di nomi, e quello della famiglia c'era più volte."
  },
  "G3Citta.4": {
-  "full": "E c'era, ancora, la vecchia guerra. Il Circolo dell'Ultima Ora e la parrocchia di Padre Benedek, il successore di Padre Anzelm, si contendevano le anime di {0} una per una, con la tenacia di due vicini che litigano per un muro di confine. Il muro, in questo caso, era il velo."
+  "full": "E c'era, ancora, la vecchia guerra. Il Circolo dell'Ultima Ora e la parrocchia di Padre Benedek, il successore di Padre Anzelm, si contendevano le anime di {0} una per una, con la tenacia di due vicini che litigano per un muro di confine. Il muro, in questo caso, era il velo.",
+  "easy": "E c'era ancora la vecchia guerra. Il Circolo dell'Ultima Ora e la parrocchia di Padre Benedek, che aveva preso il posto di Padre Anzelm, si contendevano le anime di {0} una alla volta, come due vicini che litigano per il muro tra i loro terreni. In questo caso, il muro era il velo.",
+  "short": "Il Circolo e la parrocchia di Padre Benedek si contendevano ancora le anime di {0}, come due vicini per un muro di confine. Il muro era il velo."
  },
  "G3Citta.5": {
-  "full": "Madame Vámos, a sentire la gente, aveva la stessa età di cinquant'anni prima. Nessuno sapeva dove abitasse. Tutti sapevano dove trovarla."
+  "full": "Madame Vámos, a sentire la gente, aveva la stessa età di cinquant'anni prima. Nessuno sapeva dove abitasse. Tutti sapevano dove trovarla.",
+  "easy": "La gente diceva che Madame Vámos aveva la stessa età di cinquant'anni prima. Nessuno sapeva dove abitasse. Tutti sapevano dove trovarla."
  },
  "G3Citta.6": {
-  "full": "Di Madame Vámos restavano uno scialle nero, esposto sotto vetro nel Tempio del Circolo, e una sedia vuota che nessuno osava spostare."
+  "full": "Di Madame Vámos restavano uno scialle nero, esposto sotto vetro nel Tempio del Circolo, e una sedia vuota che nessuno osava spostare.",
+  "easy": "Di Madame Vámos restavano uno scialle nero, chiuso in una teca di vetro nel Tempio del Circolo, e una sedia vuota che nessuno aveva il coraggio di spostare."
  },
  "G3Antenati.1": {
   "full": "**La seconda Seduta degli Antenati**"
  },
  "G3Antenati.2": {
-  "full": "Ora i morti della famiglia sono due generazioni. La prima notte nella tenuta i colpi ricominciano, puntuali come un orologio, ma più fitti: due ritmi diversi che si sovrappongono, si interrompono, si correggono a vicenda."
+  "full": "Ora i morti della famiglia sono due generazioni. La prima notte nella tenuta i colpi ricominciano, puntuali come un orologio, ma più fitti: due ritmi diversi che si sovrappongono, si interrompono, si correggono a vicenda.",
+  "easy": "Ora i morti della famiglia sono due generazioni. La prima notte nella tenuta i colpi ricominciano, precisi come un orologio, ma più fitti: due ritmi diversi che si mescolano, si interrompono e si correggono a vicenda.",
+  "short": "La prima notte i colpi ricominciano, ma i ritmi ora sono due, e si correggono a vicenda."
  },
  "G3Antenati.3": {
-  "full": "Quando arrivano le voci, ogni erede ne sente due: quella del genitore, e una più antica, più fioca, conosciuta soltanto nei ritratti. Non sempre vanno d'accordo."
+  "full": "Quando arrivano le voci, ogni erede ne sente due: quella del genitore, e una più antica, più fioca, conosciuta soltanto nei ritratti. Non sempre vanno d'accordo.",
+  "easy": "Quando arrivano le voci, ogni erede ne sente due: quella del genitore e una più antica e più debole, che conosce solo dai ritratti. Non sempre sono d'accordo.",
+  "short": "Ogni erede sente due voci: il genitore e un antenato più antico. Non sempre vanno d'accordo."
  },
  "G3Antenati.4": {
   "full": "Ogni giocatore, a turno, legge il messaggio dei propri antenati senza mostrarlo agli altri. Può raccontarlo, mentire o tacere."
@@ -1080,70 +1340,102 @@
   "full": "**Due voci**"
  },
  "G3AntA.3": {
-  "full": "Le due voci parlano insieme, una sopra l'altra, della stessa cosa: una formula, un'ossessione, un'idea che ha consumato due vite e adesso cerca la terza. Quando una si ferma per riprendere fiato, l'altra continua la frase."
+  "full": "Le due voci parlano insieme, una sopra l'altra, della stessa cosa: una formula, un'ossessione, un'idea che ha consumato due vite e adesso cerca la terza. Quando una si ferma per riprendere fiato, l'altra continua la frase.",
+  "easy": "Le due voci parlano insieme, una sopra l'altra, della stessa cosa: una formula, un'ossessione, un'idea che ha consumato due vite e ora ne cerca una terza. Quando una si ferma per respirare, l'altra continua la frase.",
+  "short": "Due voci, una sola ossessione, che ha consumato due vite e ora cerca la terza."
  },
  "G3AntA.4": {
-  "full": "Non litigano. Sono d'accordo su tutto, ed è questo che ti spaventa. All'alba ti accorgi che stai finendo le loro frasi a voce alta."
+  "full": "Non litigano. Sono d'accordo su tutto, ed è questo che ti spaventa. All'alba ti accorgi che stai finendo le loro frasi a voce alta.",
+  "easy": "Non litigano. Sono d'accordo su tutto, ed è questo che ti fa paura. All'alba ti accorgi che stai finendo le loro frasi ad alta voce.",
+  "short": "Sono d'accordo su tutto. All'alba finisci le loro frasi ad alta voce."
  },
  "G3AntA.5": {
-  "full": "\"È di famiglia\", dice la voce più antica, con una specie di orgoglio. \"È di famiglia\", ripete la voce del tuo genitore, con una specie di scusa."
+  "full": "\"È di famiglia\", dice la voce più antica, con una specie di orgoglio. \"È di famiglia\", ripete la voce del tuo genitore, con una specie di scusa.",
+  "easy": "\"È una cosa di famiglia\", dice la voce più antica, quasi con orgoglio. \"È una cosa di famiglia\", ripete la voce del tuo genitore, quasi chiedendo scusa."
  },
  "G3AntA.6": {
-  "full": "Poi entrambe ti spiegano, per tutta la notte, un'idea che non ti lascerà più. Al mattino non ricordi le parole. Ricordi solo che devi fare qualcosa, e che devi farlo presto."
+  "full": "Poi entrambe ti spiegano, per tutta la notte, un'idea che non ti lascerà più. Al mattino non ricordi le parole. Ricordi solo che devi fare qualcosa, e che devi farlo presto.",
+  "easy": "Poi tutte e due ti spiegano, per tutta la notte, un'idea che non ti lascerà mai più. La mattina non ricordi le parole. Ricordi solo che devi fare qualcosa, e che devi farlo presto.",
+  "short": "Per tutta la notte ti spiegano un'idea. Al mattino sai solo che devi agire, e presto."
  },
  "G3AntA.7": {
   "full": "Pesca due carte Compulsion e tienine una."
  },
  "G3AntA.8": {
-  "full": "La voce del tuo genitore è febbrile: parla in fretta, si contraddice, ricomincia da capo, ti chiede di finire un lavoro che non ti spiega. Poi, piano, interviene l'altra voce, più antica: \"Calma. Lascia respirare chi è ancora vivo.\""
+  "full": "La voce del tuo genitore è febbrile: parla in fretta, si contraddice, ricomincia da capo, ti chiede di finire un lavoro che non ti spiega. Poi, piano, interviene l'altra voce, più antica: \"Calma. Lascia respirare chi è ancora vivo.\"",
+  "easy": "La voce del tuo genitore è agitata: parla in fretta, dice una cosa e poi il contrario, ricomincia, ti chiede di finire un lavoro senza spiegarti quale. Poi, piano, parla l'altra voce, quella più antica: \"Calma. Lascia respirare chi è ancora vivo.\"",
+  "short": "La voce del tuo genitore è febbrile e confusa. L'altra, più antica, la calma: \"Lascia respirare chi è ancora vivo.\""
  },
  "G3AntA.9": {
-  "full": "Per un poco la voce febbrile tace. Ma prima dell'alba torna, da sola, e ti sussurra un'ultima cosa all'orecchio."
+  "full": "Per un poco la voce febbrile tace. Ma prima dell'alba torna, da sola, e ti sussurra un'ultima cosa all'orecchio.",
+  "easy": "Per un po' la voce agitata tace. Ma prima dell'alba torna, da sola, e ti sussurra un'ultima cosa all'orecchio."
  },
  "G3AntA.10": {
-  "full": "Colpi rapidi, nervosi, come di dita che non sanno stare ferme. È la voce che conosci meglio, ma non l'hai mai sentita così: ansiosa, affamata, piena di numeri. La voce più antica prova a coprirla con una vecchia ninna nanna di famiglia, stonata e paziente."
+  "full": "Colpi rapidi, nervosi, come di dita che non sanno stare ferme. È la voce che conosci meglio, ma non l'hai mai sentita così: ansiosa, affamata, piena di numeri. La voce più antica prova a coprirla con una vecchia ninna nanna di famiglia, stonata e paziente.",
+  "easy": "Colpi veloci e nervosi, come dita che non riescono a stare ferme. È la voce che conosci meglio, ma non l'hai mai sentita così: ansiosa, affamata, piena di numeri. La voce più antica cerca di coprirla con una vecchia ninna nanna di famiglia, stonata e paziente.",
+  "short": "La voce che conosci meglio è ansiosa e piena di numeri. Quella più antica prova a calmarla con una ninna nanna."
  },
  "G3AntA.11": {
-  "full": "Ti addormenti a metà della ninna nanna. Ti svegli con un'idea in testa che non è tua."
+  "full": "Ti addormenti a metà della ninna nanna. Ti svegli con un'idea in testa che non è tua.",
+  "easy": "Ti addormenti a metà della ninna nanna. Quando ti svegli, hai in testa un'idea che non è tua."
  },
  "G3AntA.13": {
-  "full": "Le due voci arrivano insieme, e sono serene. Ti raccontano di una folla, dall'altra parte: le famiglie che la tua famiglia ha consolato in cinquant'anni di lutti, e che ora si sono messe in fila per ringraziare. \"Non ti lasceranno senza protezione\", dice la voce più antica."
+  "full": "Le due voci arrivano insieme, e sono serene. Ti raccontano di una folla, dall'altra parte: le famiglie che la tua famiglia ha consolato in cinquant'anni di lutti, e che ora si sono messe in fila per ringraziare. \"Non ti lasceranno senza protezione\", dice la voce più antica.",
+  "easy": "Le due voci arrivano insieme, e sono tranquille. Ti raccontano di una folla, dall'altra parte: le famiglie che la tua famiglia ha aiutato in cinquant'anni di lutti. Ora sono tutte in fila per ringraziare. \"Non ti lasceranno senza protezione\", dice la voce più antica.",
+  "short": "Dall'altra parte, le famiglie consolate in cinquant'anni sono in fila per ringraziare. \"Ti proteggeranno\", dice la voce più antica."
  },
  "G3AntA.14": {
-  "full": "Al mattino, per la prima volta da quando sei qui, i cani del vicinato ti fanno le feste; e nella cassetta delle lettere c'è una busta senza firma, con dentro del denaro."
+  "full": "Al mattino, per la prima volta da quando sei qui, i cani del vicinato ti fanno le feste; e nella cassetta delle lettere c'è una busta senza firma, con dentro del denaro.",
+  "easy": "La mattina, per la prima volta da quando sei qui, i cani dei vicini ti fanno le feste. E nella cassetta delle lettere c'è una busta senza firma, con dentro del denaro.",
+  "short": "Al mattino i cani ti fanno le feste, e nella cassetta c'è una busta di denaro."
  },
  "G3AntA.15": {
-  "full": "Nessun colpo: un fruscio, come di tante persone che entrano in punta di piedi in una stanza. Le voci dei tuoi antenati ti presentano, uno alla volta, decine di sconosciuti: la vedova del mugnaio, un bambino morto di febbre, un minatore, una sarta. Ognuno ti stringe la mano, fredda e leggera. \"Ti dobbiamo un favore\", dicono."
+  "full": "Nessun colpo: un fruscio, come di tante persone che entrano in punta di piedi in una stanza. Le voci dei tuoi antenati ti presentano, uno alla volta, decine di sconosciuti: la vedova del mugnaio, un bambino morto di febbre, un minatore, una sarta. Ognuno ti stringe la mano, fredda e leggera. \"Ti dobbiamo un favore\", dicono.",
+  "easy": "Nessun colpo: solo un fruscio, come tante persone che entrano piano in una stanza. Le voci dei tuoi antenati ti presentano, uno alla volta, decine di sconosciuti: la vedova del mugnaio, un bambino morto di febbre, un minatore, una sarta. Ognuno ti stringe la mano, fredda e leggera. \"Ti dobbiamo un favore\", dicono.",
+  "short": "Un fruscio di passi: i tuoi antenati ti presentano decine di morti consolati dalla famiglia. \"Ti dobbiamo un favore.\""
  },
  "G3AntA.16": {
-  "full": "Il giorno dopo, in paese, la gente ti saluta per strada, e il droghiere non vuole essere pagato."
+  "full": "Il giorno dopo, in paese, la gente ti saluta per strada, e il droghiere non vuole essere pagato.",
+  "easy": "Il giorno dopo, in paese, la gente ti saluta per strada, e il droghiere non vuole i tuoi soldi."
  },
  "G3AntA.17": {
   "full": "Arretra di 2 caselle sul tracciato {icon:Creepy_Icon} e guadagni $2."
  },
  "G3AntA.18": {
-  "full": "La voce del tuo genitore è bassa, come di chi teme di essere ascoltato. \"La promessa al Circolo. Tu non la conosci, ma io sì: me la rivelò chi venne prima di me, e ora tocca a te portarla.\""
+  "full": "La voce del tuo genitore è bassa, come di chi teme di essere ascoltato. \"La promessa al Circolo. Tu non la conosci, ma io sì: me la rivelò chi venne prima di me, e ora tocca a te portarla.\"",
+  "easy": "La voce del tuo genitore è bassa, come quella di chi ha paura di essere sentito. \"La promessa al Circolo. Tu non la conosci, ma io sì: me l'ha detta chi è venuto prima di me, e ora tocca a te portarla.\"",
+  "short": "\"La promessa al Circolo. Me la rivelò chi venne prima di me. Ora tocca a te.\""
  },
  "G3AntA.19": {
-  "full": "Poi la voce più antica, fioca, aggiunge il resto: come si scioglie la promessa, e come la si può far pagare cara a chi l'ha pretesa. Ti fa scrivere tutto sul retro di una fotografia di famiglia."
+  "full": "Poi la voce più antica, fioca, aggiunge il resto: come si scioglie la promessa, e come la si può far pagare cara a chi l'ha pretesa. Ti fa scrivere tutto sul retro di una fotografia di famiglia.",
+  "easy": "Poi la voce più antica, debole, dice il resto: come si rompe la promessa, e come la si può far pagare cara a chi l'ha voluta. Ti fa scrivere tutto dietro una fotografia di famiglia.",
+  "short": "La voce più antica ti spiega come sciogliere la promessa, e farla pagare cara. Scrivi tutto dietro una fotografia."
  },
  "G3AntA.20": {
-  "full": "\"Il Circolo busserà\", dice la voce più antica. \"Busserà a te, perché sono io ad aver firmato.\" \"E tu non aprirai\", aggiunge l'altra, \"oppure aprirai alle nostre condizioni.\""
+  "full": "\"Il Circolo busserà\", dice la voce più antica. \"Busserà a te, perché sono io ad aver firmato.\" \"E tu non aprirai\", aggiunge l'altra, \"oppure aprirai alle nostre condizioni.\"",
+  "easy": "\"Il Circolo busserà\", dice la voce più antica. \"Busserà da te, perché ho firmato io.\" \"E tu non aprirai\", dice l'altra, \"oppure aprirai alle nostre condizioni.\"",
+  "short": "\"Il Circolo busserà da te.\" \"E tu non aprirai, o aprirai alle nostre condizioni.\""
  },
  "G3AntA.21": {
-  "full": "Per tutta la notte le due voci ti insegnano le parole esatte, le date, i nomi: abbastanza per sciogliere la promessa, o per ricattare chi la custodisce. Al mattino hai un fascicolo di appunti e un'idea molto chiara di quanto valga."
+  "full": "Per tutta la notte le due voci ti insegnano le parole esatte, le date, i nomi: abbastanza per sciogliere la promessa, o per ricattare chi la custodisce. Al mattino hai un fascicolo di appunti e un'idea molto chiara di quanto valga.",
+  "easy": "Per tutta la notte le due voci ti insegnano le parole precise, le date, i nomi: abbastanza per rompere la promessa, o per ricattare chi la custodisce. La mattina hai un fascicolo di appunti e sai molto bene quanto vale.",
+  "short": "Tutta la notte impari parole, date e nomi: abbastanza per sciogliere la promessa, o ricattare chi la custodisce."
  },
  "G3AntA.22": {
   "full": "Guadagni 2 Conoscenza Occulta (Occult Knowledge)."
  },
  "G3AntA.23": {
-  "full": "Le voci sono deboli, lontane, come su una linea del telegrafo disturbata. Distingui il tuo nome, poi una parola che potrebbe essere \"attenzione\" oppure \"pazienza\", e poi più niente."
+  "full": "Le voci sono deboli, lontane, come su una linea del telegrafo disturbata. Distingui il tuo nome, poi una parola che potrebbe essere \"attenzione\" oppure \"pazienza\", e poi più niente.",
+  "easy": "Le voci sono deboli e lontane, come su una linea del telegrafo disturbata. Senti il tuo nome, poi una parola che forse è \"attenzione\" o forse \"pazienza\", e poi più niente.",
+  "short": "Voci lontane, disturbate: il tuo nome, una parola incerta, poi niente."
  },
  "G3AntA.24": {
   "full": "Per la tua famiglia il velo è ancora spesso. Forse è una fortuna."
  },
  "G3AntA.25": {
-  "full": "Aspetti a lungo. Alla fine arrivano due colpi lievissimi, uno per ciascuna delle voci che speravi di sentire; e poi un fruscio di carta, come se qualcuno sfogliasse un libro dall'altra parte del muro."
+  "full": "Aspetti a lungo. Alla fine arrivano due colpi lievissimi, uno per ciascuna delle voci che speravi di sentire; e poi un fruscio di carta, come se qualcuno sfogliasse un libro dall'altra parte del muro.",
+  "easy": "Aspetti a lungo. Alla fine arrivano due colpi leggerissimi, uno per ognuna delle voci che speravi di sentire. Poi un fruscio di carta, come se qualcuno sfogliasse un libro dall'altra parte del muro.",
+  "short": "Dopo una lunga attesa, due colpi lievissimi e un fruscio di pagine dietro il muro."
  },
  "G3AntA.26": {
   "full": "Al mattino il Journal è aperto su una pagina di appunti che ti sarà utile."
@@ -1155,10 +1447,14 @@
   "full": "**Il mattino**"
  },
  "G3AntFine.2": {
-  "full": "La mattina dopo, prima ancora di colazione, qualcuno bussa alla porta principale. Bussa normalmente, per fortuna. È un uomo anziano, con la barba bianca e una borsa da medico, che si presenta come il dottor Lukács, professore all'University e, a suo dire, \"l'ultimo uomo ragionevole di {0}\"."
+  "full": "La mattina dopo, prima ancora di colazione, qualcuno bussa alla porta principale. Bussa normalmente, per fortuna. È un uomo anziano, con la barba bianca e una borsa da medico, che si presenta come il dottor Lukács, professore all'University e, a suo dire, \"l'ultimo uomo ragionevole di {0}\".",
+  "easy": "La mattina dopo, prima ancora di colazione, qualcuno bussa alla porta principale. Per fortuna bussa in modo normale. È un uomo anziano con la barba bianca e una borsa da medico. Dice di essere il dottor Lukács, professore all'University e, secondo lui, \"l'ultimo uomo ragionevole di {0}\".",
+  "short": "Al mattino bussa, normalmente per fortuna, il dottor Lukács dell'University: \"l'ultimo uomo ragionevole di {0}\"."
  },
  "G3AntFine.3": {
-  "full": "Lukács ha settant'anni, una memoria eccellente e un'unica ossessione: dimostrare che a {0} nessuno ha mai parlato con i morti. \"Ho assistito alle sedute del Circolo per vent'anni, prendendo appunti\", dice. \"Ho visto tavolini volare e fantasmi fatti di garza e fosforo. Ho raccolto prove. Mi serve solo qualcuno della famiglia disposto ad aiutarmi.\""
+  "full": "Lukács ha settant'anni, una memoria eccellente e un'unica ossessione: dimostrare che a {0} nessuno ha mai parlato con i morti. \"Ho assistito alle sedute del Circolo per vent'anni, prendendo appunti\", dice. \"Ho visto tavolini volare e fantasmi fatti di garza e fosforo. Ho raccolto prove. Mi serve solo qualcuno della famiglia disposto ad aiutarmi.\"",
+  "easy": "Lukács ha settant'anni, un'ottima memoria e una sola ossessione: dimostrare che a {0} nessuno ha mai parlato con i morti. \"Sono andato alle sedute del Circolo per vent'anni e ho preso appunti\", dice. \"Ho visto tavolini volare e fantasmi fatti di garza e fosforo. Ho raccolto delle prove. Mi serve solo qualcuno della famiglia che voglia aiutarmi.\"",
+  "short": "Lukács vuole dimostrare che a {0} nessuno ha mai parlato con i morti. Ha vent'anni di appunti e prove: gli serve qualcuno della famiglia."
  },
  "G3R1.1": {
   "full": "**LA GRANDE SEDUTA – Giovinezza**"
@@ -1179,7 +1475,8 @@
   "full": "Quando un tuo pezzo visita la Funeral Home,"
  },
  "G3R1.10": {
-  "full": "In piazza aprono negozi nuovi, tutti nello stesso mese, tutti pagati in contanti."
+  "full": "In piazza aprono negozi nuovi, tutti nello stesso mese, tutti pagati in contanti.",
+  "easy": "In piazza aprono negozi nuovi, tutti nello stesso mese e tutti pagati in contanti."
  },
  "round.G3R1.end": {
   "full": "La Giovinezza della Terza Generazione è finita."
@@ -1188,10 +1485,14 @@
   "full": "**Le prove**"
  },
  "G3Lukacs.2": {
-  "full": "Nel suo studio all'University il dottor Lukács ha messo insieme un piccolo museo della frode. Ci sono fili di seta nera, sottilissimi, per sollevare un tavolino; un paio di scarpe con il tacco cavo, per bussare sul pavimento senza muovere le mani; una maschera di garza ancora macchiata di fosforo; e un pacco di ricevute di un fabbro, intestate al Circolo dell'Ultima Ora, per \"lavori ai muri\" in case private."
+  "full": "Nel suo studio all'University il dottor Lukács ha messo insieme un piccolo museo della frode. Ci sono fili di seta nera, sottilissimi, per sollevare un tavolino; un paio di scarpe con il tacco cavo, per bussare sul pavimento senza muovere le mani; una maschera di garza ancora macchiata di fosforo; e un pacco di ricevute di un fabbro, intestate al Circolo dell'Ultima Ora, per \"lavori ai muri\" in case private.",
+  "easy": "Nel suo studio all'University il dottor Lukács ha fatto un piccolo museo degli imbrogli. Ci sono fili di seta nera, sottilissimi, per sollevare un tavolino; un paio di scarpe con il tacco vuoto, per bussare sul pavimento senza usare le mani; una maschera di garza ancora sporca di fosforo; e tante ricevute di un fabbro, a nome del Circolo dell'Ultima Ora, per \"lavori ai muri\" in case private.",
+  "short": "Lukács ha un piccolo museo della frode: fili di seta per sollevare tavolini, scarpe per bussare, una maschera al fosforo e ricevute di un fabbro pagato dal Circolo per \"lavori ai muri\"."
  },
  "G3Lukacs.3": {
-  "full": "Lo aiuti a catalogare tutto, a confrontare le date, a ricostruire chi sapeva che cosa. È un lavoro lungo, minuzioso, rassicurante. Quando esci, il mondo ti sembra un posto più semplice."
+  "full": "Lo aiuti a catalogare tutto, a confrontare le date, a ricostruire chi sapeva che cosa. È un lavoro lungo, minuzioso, rassicurante. Quando esci, il mondo ti sembra un posto più semplice.",
+  "easy": "Lo aiuti a mettere tutto in ordine, a confrontare le date, a capire chi sapeva che cosa. È un lavoro lungo e preciso, e ti tranquillizza. Quando esci, il mondo ti sembra più semplice.",
+  "short": "Lo aiuti a ordinare le prove. Quando esci, il mondo ti sembra più semplice."
  },
  "G3Lukacs.4": {
   "full": "Guadagni 1 Conoscenza Chimica (Chemistry Knowledge) e arretra di 1 casella sul tracciato {icon:Creepy_Icon}."
@@ -1200,10 +1501,14 @@
   "full": "**Le pompe funebri**"
  },
  "G3Pompe.2": {
-  "full": "Le pompe funebri del Circolo sono le più eleganti della regione: marmo nero, velluto viola, un organo che suona da solo. Qui i morti vengono lavati, profumati, vestiti di bianco e sepolti con un campanello d'argento legato al polso, collegato da un filo a un altro campanello sopra la tomba. \"Per poter suonare\", spiega il direttore con un sorriso professionale. \"Se mai volessero.\""
+  "full": "Le pompe funebri del Circolo sono le più eleganti della regione: marmo nero, velluto viola, un organo che suona da solo. Qui i morti vengono lavati, profumati, vestiti di bianco e sepolti con un campanello d'argento legato al polso, collegato da un filo a un altro campanello sopra la tomba. \"Per poter suonare\", spiega il direttore con un sorriso professionale. \"Se mai volessero.\"",
+  "easy": "Le pompe funebri del Circolo sono le più eleganti della regione: marmo nero, velluto viola, un organo che suona da solo. Qui i morti vengono lavati, profumati, vestiti di bianco e sepolti con un campanello d'argento al polso. Un filo lo collega a un altro campanello sopra la tomba. \"Così possono suonare\", spiega il direttore con un sorriso da professionista. \"Se mai lo volessero.\"",
+  "short": "Alle pompe funebri del Circolo i morti vengono sepolti con un campanello al polso, collegato a uno sopra la tomba. \"Se mai volessero suonare\", sorride il direttore."
  },
  "G3Pompe.3": {
-  "full": "Nel retrobottega ti mostra il registro delle sepolture. Accanto a diversi nomi, a matita, ci sono una crocetta e una data successiva al funerale: i giorni in cui il campanello ha suonato. Poi ti offre, a prezzo di favore, qualcosa per il tuo laboratorio. Non chiedi da quale cassa venga."
+  "full": "Nel retrobottega ti mostra il registro delle sepolture. Accanto a diversi nomi, a matita, ci sono una crocetta e una data successiva al funerale: i giorni in cui il campanello ha suonato. Poi ti offre, a prezzo di favore, qualcosa per il tuo laboratorio. Non chiedi da quale cassa venga.",
+  "easy": "Nella stanza sul retro ti mostra il registro delle sepolture. Vicino a diversi nomi, a matita, ci sono una piccola croce e una data dopo il funerale: i giorni in cui il campanello ha suonato. Poi ti offre, a un buon prezzo, qualcosa per il tuo laboratorio. Non chiedi da quale bara venga.",
+  "short": "Nel registro, accanto ad alcuni nomi, c'è la data in cui il campanello ha suonato. Poi ti vende qualcosa per il laboratorio. Non chiedi da dove venga."
  },
  "G3Pompe.4": {
   "full": "Guadagni 1 {icon:Bodies_Icon} e 1 {icon:Creepy_Icon}."
@@ -1215,10 +1520,14 @@
   "full": "**Gazzetta di {0} – *1901.***"
  },
  "G3Facciate.3": {
-  "full": "**NEGOZI NUOVI, CLIENTI POCHI.** Nell'ultimo mese a {0} hanno aperto, una dopo l'altra, alcune botteghe nuove, tutte con le insegne fresche di vernice e le vetrine impeccabili. Le ha pagate in contanti, a quanto risulta al catasto, una società di Budapest di cui nessuno conosce i soci. Nessuna sembra avere molti clienti; tutte restano aperte fino a tardi."
+  "full": "**NEGOZI NUOVI, CLIENTI POCHI.** Nell'ultimo mese a {0} hanno aperto, una dopo l'altra, alcune botteghe nuove, tutte con le insegne fresche di vernice e le vetrine impeccabili. Le ha pagate in contanti, a quanto risulta al catasto, una società di Budapest di cui nessuno conosce i soci. Nessuna sembra avere molti clienti; tutte restano aperte fino a tardi.",
+  "easy": "**NEGOZI NUOVI, POCHI CLIENTI.** Nell'ultimo mese a {0} hanno aperto, uno dopo l'altro, alcuni negozi nuovi, tutti con le insegne appena dipinte e le vetrine perfette. Secondo il catasto li ha pagati in contanti una società di Budapest, ma nessuno sa chi siano i soci. Nessun negozio sembra avere molti clienti, ma tutti restano aperti fino a tardi.",
+  "short": "**NEGOZI NUOVI, CLIENTI POCHI.** A {0} hanno aperto botteghe pagate in contanti da una misteriosa società di Budapest. Pochi clienti, ma restano aperte fino a tardi."
  },
  "G3Facciate.4": {
-  "full": "Il dottor Lukács, interpellato da questo giornale, non ha dubbi: sono facciate del Circolo dell'Ultima Ora, dietro le quali la società spiritista continua le sue attività lontano da occhi indiscreti. Il Circolo, interpellato a sua volta, ha risposto con un biglietto listato a lutto: \"Anche il commercio è una forma di consolazione.\""
+  "full": "Il dottor Lukács, interpellato da questo giornale, non ha dubbi: sono facciate del Circolo dell'Ultima Ora, dietro le quali la società spiritista continua le sue attività lontano da occhi indiscreti. Il Circolo, interpellato a sua volta, ha risposto con un biglietto listato a lutto: \"Anche il commercio è una forma di consolazione.\"",
+  "easy": "Il dottor Lukács, intervistato da questo giornale, è sicuro: questi negozi sono una copertura del Circolo dell'Ultima Ora, che dietro di loro continua le sue attività in segreto. Il Circolo ha risposto con un biglietto dal bordo nero: \"Anche il commercio è un modo di consolare.\"",
+  "short": "Per Lukács sono facciate del Circolo. Il Circolo risponde: \"Anche il commercio è una forma di consolazione.\""
  },
  "G3Facciate.6": {
   "full": "Dalla Scatola di **The Cost of Disease** prendete le **5 Suspicious Building**, mescolatele e mettetene **{0}** accanto alla Village Chronicle, dal lato del negozio. Sono Luoghi del villaggio come gli altri. Rimettete le altre nella scatola senza guardarle."
@@ -1245,10 +1554,14 @@
   "full": "Girate le Suspicious Building smascherate, poi continuate con lo Storybook."
  },
  "G3Telegrafo.2": {
-  "full": "Saldi l'ultimo filo con le mani che tremano. Prima ancora che tu possa girare l'interruttore, il Telegrafo si accende da solo: i vasi di vetro si illuminano uno dopo l'altro, come le finestre di una casa al tramonto, e un ronzio basso riempie il laboratorio, la tenuta, forse l'intera città."
+  "full": "Saldi l'ultimo filo con le mani che tremano. Prima ancora che tu possa girare l'interruttore, il Telegrafo si accende da solo: i vasi di vetro si illuminano uno dopo l'altro, come le finestre di una casa al tramonto, e un ronzio basso riempie il laboratorio, la tenuta, forse l'intera città.",
+  "easy": "Saldi l'ultimo filo con le mani che tremano. Prima che tu possa girare l'interruttore, il Telegrafo si accende da solo. I vasi di vetro si illuminano uno dopo l'altro, come le finestre di una casa al tramonto, e un ronzio basso riempie il laboratorio, la tenuta, forse tutta la città.",
+  "short": "All'ultimo filo il Telegrafo si accende da solo, e un ronzio riempie la tenuta, forse la città."
  },
  "G3Telegrafo.3": {
-  "full": "L'ago si alza, esita, poi comincia a battere sui tasti d'osso, lento, deciso. Batte un nome: quello della tua famiglia. Poi si ferma, e aspetta, come chi ha suonato un campanello."
+  "full": "L'ago si alza, esita, poi comincia a battere sui tasti d'osso, lento, deciso. Batte un nome: quello della tua famiglia. Poi si ferma, e aspetta, come chi ha suonato un campanello.",
+  "easy": "L'ago si alza, aspetta un momento, poi comincia a battere sui tasti d'osso, lento e sicuro. Scrive un nome: quello della tua famiglia. Poi si ferma e aspetta, come chi ha suonato un campanello.",
+  "short": "L'ago batte il nome della tua famiglia, poi aspetta, come chi ha suonato un campanello."
  },
  "G3Telegrafo.4": {
   "full": "Non guadagni i VP dell'Esperimento: guadagni invece 5VP."
@@ -1260,25 +1573,35 @@
   "full": "Quante Suspicious Building sono state smascherate finora?"
  },
  "G3Conteggio.3": {
-  "full": "**LO SCANDALO DEL CIRCOLO.** La Gazzetta pubblica in prima pagina, su sei colonne, le prove raccolte dal dottor Lukács: le ricevute del fabbro, le botteghe smascherate, le confessioni di due ex iscritti. Le iscrizioni al Circolo dell'Ultima Ora crollano in una settimana; in piazza qualcuno lancia sassi contro le sue finestre."
+  "full": "**LO SCANDALO DEL CIRCOLO.** La Gazzetta pubblica in prima pagina, su sei colonne, le prove raccolte dal dottor Lukács: le ricevute del fabbro, le botteghe smascherate, le confessioni di due ex iscritti. Le iscrizioni al Circolo dell'Ultima Ora crollano in una settimana; in piazza qualcuno lancia sassi contro le sue finestre.",
+  "easy": "**LO SCANDALO DEL CIRCOLO.** La Gazzetta pubblica in prima pagina, su sei colonne, le prove trovate dal dottor Lukács: le ricevute del fabbro, i negozi scoperti, le confessioni di due ex membri. In una settimana quasi tutti lasciano il Circolo dell'Ultima Ora, e in piazza qualcuno tira sassi contro le sue finestre.",
+  "short": "**LO SCANDALO DEL CIRCOLO.** La Gazzetta pubblica le prove di Lukács. In una settimana il Circolo perde gli iscritti, e in piazza volano sassi."
  },
  "G3Conteggio.4": {
-  "full": "Madame Vámos, convocata dal pretore, non si presenta. Si dice che abbia fatto le valigie; si dice anche che non abbia nessuna valigia da fare."
+  "full": "Madame Vámos, convocata dal pretore, non si presenta. Si dice che abbia fatto le valigie; si dice anche che non abbia nessuna valigia da fare.",
+  "easy": "Madame Vámos viene chiamata dal giudice, ma non si presenta. Alcuni dicono che ha fatto le valigie. Altri dicono che non ha nessuna valigia da fare."
  },
  "G3Conteggio.5": {
-  "full": "Alla tenuta, quella notte, i colpi alle pareti sono più deboli del solito. Quasi timidi."
+  "full": "Alla tenuta, quella notte, i colpi alle pareti sono più deboli del solito. Quasi timidi.",
+  "easy": "Quella notte, alla tenuta, i colpi alle pareti sono più leggeri del solito. Quasi timidi."
  },
  "G3Conteggio.7": {
-  "full": "Nessuno ha toccato le facciate. Le botteghe del Circolo restano aperte fino a tardi, con le vetrine impeccabili e pochi clienti; il dottor Lukács scrive lettere furiose alla Gazzetta, che non le pubblica."
+  "full": "Nessuno ha toccato le facciate. Le botteghe del Circolo restano aperte fino a tardi, con le vetrine impeccabili e pochi clienti; il dottor Lukács scrive lettere furiose alla Gazzetta, che non le pubblica.",
+  "easy": "Nessuno ha toccato i negozi falsi. I negozi del Circolo restano aperti fino a tardi, con le vetrine perfette e pochi clienti. Il dottor Lukács scrive lettere arrabbiate alla Gazzetta, ma la Gazzetta non le pubblica.",
+  "short": "Nessuno ha toccato le facciate, e la Gazzetta non pubblica le lettere furiose di Lukács."
  },
  "G3Conteggio.8": {
-  "full": "Il Circolo, in silenzio, ringrazia: una mattina ogni erede trova sulla soglia un garofano nero, fresco."
+  "full": "Il Circolo, in silenzio, ringrazia: una mattina ogni erede trova sulla soglia un garofano nero, fresco.",
+  "easy": "Il Circolo, senza dire niente, ringrazia: una mattina ogni erede trova davanti alla porta un garofano nero, fresco."
  },
  "G3Conteggio.9": {
-  "full": "Una facciata è caduta, e quello che c'era dietro ha fatto il giro della città in un giorno. Ma le altre restano in piedi, e il Circolo smentisce tutto con grande dignità."
+  "full": "Una facciata è caduta, e quello che c'era dietro ha fatto il giro della città in un giorno. Ma le altre restano in piedi, e il Circolo smentisce tutto con grande dignità.",
+  "easy": "Un negozio falso è stato scoperto, e in un giorno tutta la città sa che cosa nascondeva. Ma gli altri sono ancora aperti, e il Circolo nega tutto con grande dignità.",
+  "short": "Una facciata è caduta, ma le altre resistono, e il Circolo smentisce tutto."
  },
  "G3Conteggio.10": {
-  "full": "{0} non sa più a chi credere. La gente va a messa la domenica e alle sedute il giovedì, per non sbagliare."
+  "full": "{0} non sa più a chi credere. La gente va a messa la domenica e alle sedute il giovedì, per non sbagliare.",
+  "easy": "A {0} nessuno sa più a chi credere. Per non sbagliare, la gente va a messa la domenica e alle sedute il giovedì."
  },
  "G3R3.1": {
   "full": "**LA GRANDE SEDUTA – Vecchiaia**"
@@ -1302,7 +1625,8 @@
   "full": "**La Grande Seduta**"
  },
  "G3R3.10": {
-  "full": "Alla fine di questa Generazione, tutta la città si siederà intorno allo stesso tavolo."
+  "full": "Alla fine di questa Generazione, tutta la città si siederà intorno allo stesso tavolo.",
+  "easy": "Alla fine di questa Generazione, tutta la città si siederà allo stesso tavolo."
  },
  "round.G3R3.end": {
   "full": "La Vecchiaia della Terza Generazione è finita."
@@ -1314,25 +1638,33 @@
   "full": "**Ultimo verbale di seduta – {0}, *31 dicembre 1905.***"
  },
  "G3GrandeSeduta.3": {
-  "full": "L'ultima notte del 1905 {0} si riunisce nella sala grande del municipio: il sindaco, il consiglio, il Circolo, la parrocchia, il dottor Lukács con il suo taccuino e, al centro, la famiglia della tenuta. Duecento persone sedute in cerchi concentrici, le mani intrecciate a quelle dei vicini, le lampade spente. Nessuno ricorda chi l'abbia convocata. Tutti, però, sono venuti."
+  "full": "L'ultima notte del 1905 {0} si riunisce nella sala grande del municipio: il sindaco, il consiglio, il Circolo, la parrocchia, il dottor Lukács con il suo taccuino e, al centro, la famiglia della tenuta. Duecento persone sedute in cerchi concentrici, le mani intrecciate a quelle dei vicini, le lampade spente. Nessuno ricorda chi l'abbia convocata. Tutti, però, sono venuti.",
+  "easy": "L'ultima notte del 1905 tutta {0} si riunisce nella grande sala del municipio: il sindaco, il consiglio, il Circolo, la parrocchia, il dottor Lukács con il suo quaderno e, in mezzo, la famiglia della tenuta. Ci sono duecento persone sedute in cerchio, ognuna tiene la mano dei vicini, e le luci sono spente. Nessuno ricorda chi li abbia chiamati. Ma sono venuti tutti.",
+  "short": "L'ultima notte del 1905 duecento persone si siedono in cerchio nel municipio di {0}, mano nella mano, al buio. Nessuno sa chi le abbia convocate, ma sono venute tutte."
  },
  "G3GrandeSeduta.4": {
-  "full": "A mezzanotte meno un quarto i colpi cominciano. Non alle pareti: dappertutto. Nel pavimento, nel soffitto, nelle sedie, nel petto di ciascuno. Cinquantasette anni dopo quella prima notte, il velo non è mai stato così sottile."
+  "full": "A mezzanotte meno un quarto i colpi cominciano. Non alle pareti: dappertutto. Nel pavimento, nel soffitto, nelle sedie, nel petto di ciascuno. Cinquantasette anni dopo quella prima notte, il velo non è mai stato così sottile.",
+  "easy": "Alle undici e tre quarti cominciano i colpi. Non sulle pareti: ovunque. Nel pavimento, nel soffitto, nelle sedie, nel petto di ognuno. Cinquantasette anni dopo quella prima notte, il velo non è mai stato così sottile.",
+  "short": "Alle undici e tre quarti i colpi cominciano ovunque, perfino nel petto. Il velo non è mai stato così sottile."
  },
  "G3GrandeSeduta.5": {
-  "full": "Qualcuno ha portato il Telegrafo dalla tenuta su un carro e l'ha collegato ai fili della luce del municipio. L'ago batte da solo, impaziente, in attesa di istruzioni."
+  "full": "Qualcuno ha portato il Telegrafo dalla tenuta su un carro e l'ha collegato ai fili della luce del municipio. L'ago batte da solo, impaziente, in attesa di istruzioni.",
+  "easy": "Qualcuno ha portato il Telegrafo dalla tenuta su un carro e l'ha collegato ai fili elettrici del municipio. L'ago batte da solo, impaziente, e aspetta istruzioni.",
+  "short": "Il Telegrafo, collegato alla luce del municipio, batte da solo, impaziente."
  },
  "G3GrandeSeduta.6": {
   "full": "Il Telegrafo è acceso. Ora si può decidere che cosa fargli dire."
  },
  "G3GrandeSeduta.8": {
-  "full": "Nell'aria, al centro della sala, si apre una crepa sottile, come in un vetro. Dall'altra parte c'è una luce fredda, e qualcosa che si muove."
+  "full": "Nell'aria, al centro della sala, si apre una crepa sottile, come in un vetro. Dall'altra parte c'è una luce fredda, e qualcosa che si muove.",
+  "easy": "Nell'aria, in mezzo alla sala, si apre una crepa sottile, come in un vetro. Dall'altra parte c'è una luce fredda, e qualcosa che si muove."
  },
  "G3GrandeSeduta.9": {
   "full": "Il velo si strappa sotto le vostre dita."
  },
  "G3GrandeSeduta.11": {
-  "full": "Il velo trema, ma tiene. Quando le lampade si riaccendono, tutti gli occhi sono sul tavolo del Circolo."
+  "full": "Il velo trema, ma tiene. Quando le lampade si riaccendono, tutti gli occhi sono sul tavolo del Circolo.",
+  "easy": "Il velo trema, ma resiste. Quando le luci si riaccendono, tutti guardano il tavolo del Circolo."
  },
  "G3GrandeSeduta.12": {
   "full": "Il velo resiste. Resta da decidere che cosa fare del Circolo."
@@ -1416,16 +1748,23 @@
   "full": "**Lettera di {0} al dott. Halász – *1923.***"
  },
  "FinaleSquarciato.3": {
-  "full": "Egregio dottore, mi chiede che cosa accadde la notte del 31 dicembre 1905. Glielo dirò, anche se non mi crederà, e anche se le basterebbe uscire dalla sacrestia e fare due passi in piazza per vederlo con i suoi occhi."
+  "full": "Egregio dottore, mi chiede che cosa accadde la notte del 31 dicembre 1905. Glielo dirò, anche se non mi crederà, e anche se le basterebbe uscire dalla sacrestia e fare due passi in piazza per vederlo con i suoi occhi.",
+  "easy": "Egregio dottore, mi chiede che cosa successe la notte del 31 dicembre 1905. Glielo racconto, anche se non mi crederà. E anche se le basterebbe uscire dalla sacrestia e camminare un po' in piazza per vederlo con i suoi occhi.",
+  "short": "Egregio dottore, mi chiede della notte del 31 dicembre 1905. Non mi crederà, ma le basta uscire in piazza per vederlo."
  },
  "FinaleSquarciato.4": {
-  "full": "Votammo di aprire. Il Telegrafo, o la medium, o le nostre mani intrecciate (non so più quale fosse la chiave) girarono nella serratura, e il velo si squarciò come una tenda vecchia. Non ci fu un lampo, né un tuono. Solo un gran freddo, e poi la porta della sala che si apriva da sola, e la gente che entrava. Gente che conoscevamo. Gente che avevamo seppellito."
+  "full": "Votammo di aprire. Il Telegrafo, o la medium, o le nostre mani intrecciate (non so più quale fosse la chiave) girarono nella serratura, e il velo si squarciò come una tenda vecchia. Non ci fu un lampo, né un tuono. Solo un gran freddo, e poi la porta della sala che si apriva da sola, e la gente che entrava. Gente che conoscevamo. Gente che avevamo seppellito.",
+  "easy": "Votammo di aprire. Il Telegrafo, o la medium, o le nostre mani unite (non so più che cosa fosse la chiave) girarono nella serratura, e il velo si strappò come una vecchia tenda. Non ci fu un lampo, né un tuono. Solo un gran freddo. Poi la porta della sala si aprì da sola, e la gente entrò. Gente che conoscevamo. Gente che avevamo sepolto.",
+  "short": "Votammo di aprire, e il velo si strappò come una tenda vecchia. Con un gran freddo, dalla porta entrò gente che avevamo sepolto."
  },
  "FinaleSquarciato.5": {
-  "full": "Sono rimasti. A {0} i morti camminano con i vivi, siedono alle loro tavole, votano al consiglio, si lamentano del prezzo del pane. All'inizio si distinguevano: erano più pallidi, più silenziosi, e non facevano ombra. Adesso non è più così semplice."
+  "full": "Sono rimasti. A {0} i morti camminano con i vivi, siedono alle loro tavole, votano al consiglio, si lamentano del prezzo del pane. All'inizio si distinguevano: erano più pallidi, più silenziosi, e non facevano ombra. Adesso non è più così semplice.",
+  "easy": "Sono rimasti. A {0} i morti camminano insieme ai vivi, mangiano alle loro tavole, votano nel consiglio, si lamentano del prezzo del pane. All'inizio era facile riconoscerli: erano più pallidi, più silenziosi, e non facevano ombra. Adesso non è più così facile.",
+  "short": "Sono rimasti. A {0} i morti vivono con i vivi. All'inizio si riconoscevano. Ora non più."
  },
  "FinaleSquarciato.6": {
-  "full": "Lei mi chiede da quale parte del velo le scrivo. Onestamente, dottore, da qualche anno ho smesso di chiedermelo."
+  "full": "Lei mi chiede da quale parte del velo le scrivo. Onestamente, dottore, da qualche anno ho smesso di chiedermelo.",
+  "easy": "Lei mi chiede da quale lato del velo le scrivo. Sinceramente, dottore, da qualche anno ho smesso di chiedermelo."
  },
  "FinaleSquarciato.7": {
   "full": "FINE?"
@@ -1434,13 +1773,19 @@
   "full": "**Il Grande Silenzio**"
  },
  "FinaleSilenzio.3": {
-  "full": "Egregio dottore, il Telegrafo era finito. Bastava girare una manopola per sentire la voce del padre; bastava girarla nel verso opposto per chiudere la porta per sempre. Votammo di chiuderla."
+  "full": "Egregio dottore, il Telegrafo era finito. Bastava girare una manopola per sentire la voce del padre; bastava girarla nel verso opposto per chiudere la porta per sempre. Votammo di chiuderla.",
+  "easy": "Egregio dottore, il Telegrafo era finito. Bastava girare una manopola per sentire la voce del padre, e girarla dall'altra parte per chiudere la porta per sempre. Votammo di chiuderla.",
+  "short": "Egregio dottore, con il Telegrafo potevamo sentire il padre o chiudere la porta per sempre. Votammo di chiuderla."
  },
  "FinaleSilenzio.4": {
-  "full": "La macchina urlò per un'ora, poi tacque. Da quella notte nessuna seduta ha più funzionato: non a {0}, non a Vienna, non a Londra. I tavolini restano a terra, le medium si sono date al teatro, e la sua Società studia il nulla con grande rigore. Me ne scuso."
+  "full": "La macchina urlò per un'ora, poi tacque. Da quella notte nessuna seduta ha più funzionato: non a {0}, non a Vienna, non a Londra. I tavolini restano a terra, le medium si sono date al teatro, e la sua Società studia il nulla con grande rigore. Me ne scuso.",
+  "easy": "La macchina urlò per un'ora, poi si fermò. Da quella notte nessuna seduta ha più funzionato: non a {0}, non a Vienna, non a Londra. I tavolini restano a terra, le medium fanno teatro, e la sua Società studia il nulla con grande serietà. Mi dispiace.",
+  "short": "La macchina urlò, poi tacque. Da allora nessuna seduta funziona più, in nessun luogo. Me ne scuso con la sua Società."
  },
  "FinaleSilenzio.5": {
-  "full": "Anche la voce del padre è rimasta dall'altra parte. Non sapremo mai che cosa volesse dirci. A volte, la notte, appoggio la mano sulla parete della mia camera, quella dove una volta bussavano, e aspetto. La parete è fredda, e muta, e io dormo benissimo."
+  "full": "Anche la voce del padre è rimasta dall'altra parte. Non sapremo mai che cosa volesse dirci. A volte, la notte, appoggio la mano sulla parete della mia camera, quella dove una volta bussavano, e aspetto. La parete è fredda, e muta, e io dormo benissimo.",
+  "easy": "Anche la voce del padre è rimasta dall'altra parte. Non sapremo mai che cosa voleva dirci. A volte, di notte, metto la mano sulla parete della mia camera, quella dove una volta bussavano, e aspetto. La parete è fredda e muta, e io dormo benissimo.",
+  "short": "Non sapremo mai che cosa volesse dirci il padre. A volte, di notte, tocco la parete dove bussavano. È muta, e dormo benissimo."
  },
  "FinaleSilenzio.6": {
   "full": "È questo che non mi perdono."
@@ -1449,28 +1794,41 @@
   "full": "**La Grande Truffa**"
  },
  "FinaleTruffa.3": {
-  "full": "Egregio dottore, era tutto un trucco. Il dottor Lukács lo aveva sempre detto, e alla fine lo dimostrammo davanti a tutta {0}: fili di seta nera per sollevare il tavolino, un fabbro complice per i colpi nei muri, garza e fosforo per l'ectoplasma, e una rete di informatori (vedove, osti, il sagrestano) che raccontavano al Circolo i segreti di tutti. Le voci dei morti erano voci di vivi, ben pagate."
+  "full": "Egregio dottore, era tutto un trucco. Il dottor Lukács lo aveva sempre detto, e alla fine lo dimostrammo davanti a tutta {0}: fili di seta nera per sollevare il tavolino, un fabbro complice per i colpi nei muri, garza e fosforo per l'ectoplasma, e una rete di informatori (vedove, osti, il sagrestano) che raccontavano al Circolo i segreti di tutti. Le voci dei morti erano voci di vivi, ben pagate.",
+  "easy": "Egregio dottore, era tutto un trucco. Il dottor Lukács lo aveva sempre detto, e alla fine lo dimostrammo davanti a tutta {0}. C'erano fili di seta nera per sollevare il tavolino, un fabbro d'accordo con loro per i colpi nei muri, garza e fosforo per l'ectoplasma, e tante spie (vedove, osti, il sagrestano) che raccontavano al Circolo i segreti di tutti. Le voci dei morti erano voci di vivi, ben pagate.",
+  "short": "Egregio dottore, era tutto un trucco: fili di seta, un fabbro complice, garza e fosforo, una rete di informatori. Le voci dei morti erano voci di vivi, ben pagate."
  },
  "FinaleTruffa.4": {
-  "full": "La nostra famiglia divenne celebre. Scrivemmo libri, tenemmo conferenze a Budapest e a Parigi, smascherammo trentadue medium in undici paesi. La sua Società ci ha perfino conferito una medaglia, che conservo in un cassetto."
+  "full": "La nostra famiglia divenne celebre. Scrivemmo libri, tenemmo conferenze a Budapest e a Parigi, smascherammo trentadue medium in undici paesi. La sua Società ci ha perfino conferito una medaglia, che conservo in un cassetto.",
+  "easy": "La nostra famiglia diventò famosa. Scrivemmo libri, facemmo conferenze a Budapest e a Parigi e scoprimmo trentadue medium imbroglioni in undici paesi. La sua Società ci ha perfino dato una medaglia, che tengo in un cassetto.",
+  "short": "Diventammo celebri: libri, conferenze, trentadue medium smascherati. E una medaglia, in un cassetto."
  },
  "FinaleTruffa.5": {
-  "full": "Le scrivo però per dirle una cosa che non ho mai detto in pubblico. Il fabbro, interrogato, confessò di aver battuto sui muri della tenuta per vent'anni, su ordine del Circolo. Ma i colpi della prima notte, quelli del 2 novembre 1848, non li aveva fatti lui: allora aveva sei anni."
+  "full": "Le scrivo però per dirle una cosa che non ho mai detto in pubblico. Il fabbro, interrogato, confessò di aver battuto sui muri della tenuta per vent'anni, su ordine del Circolo. Ma i colpi della prima notte, quelli del 2 novembre 1848, non li aveva fatti lui: allora aveva sei anni.",
+  "easy": "Ma le scrivo per dirle una cosa che non ho mai detto in pubblico. Il fabbro, interrogato, ammise di aver bussato sui muri della tenuta per vent'anni, perché glielo chiedeva il Circolo. Ma i colpi della prima notte, il 2 novembre 1848, non li aveva fatti lui: allora aveva sei anni.",
+  "short": "Ma il fabbro, che bussò per vent'anni per il Circolo, nel 1848, la prima notte, aveva sei anni."
  },
  "FinaleTruffa.6": {
-  "full": "E certe notti, ancora oggi, alla tenuta qualcuno bussa. Un colpo, poi due, poi uno."
+  "full": "E certe notti, ancora oggi, alla tenuta qualcuno bussa. Un colpo, poi due, poi uno.",
+  "easy": "E alcune notti, ancora oggi, qualcuno bussa alla tenuta. Un colpo, poi due, poi uno."
  },
  "FinaleVoce.1": {
   "full": "**La Voce del Padre**"
  },
  "FinaleVoce.3": {
-  "full": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del Journal."
+  "full": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del Journal.",
+  "easy": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più veloce di quanto riuscissimo a scrivere, e ci davamo il cambio al tavolo ogni due ore, con le dita nere d'inchiostro. Era lui, senza dubbio: le stesse abbreviazioni, gli stessi errori, la stessa impazienza del Journal.",
+  "short": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti, e trascrivemmo a turni. Era lui: gli stessi errori, la stessa impazienza del Journal."
  },
  "FinaleVoce.4": {
-  "full": "Non ci chiese come stavamo. Non ci disse com'era, dall'altra parte. Dettò, e basta: formule, tavole, disegni descritti punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte gli aveva impedito di finire. Alla fine della terza notte l'ago si fermò, tornò al centro e batté un'ultima frase: *\"Ora lasciatemi in pace.\"*"
+  "full": "Non ci chiese come stavamo. Non ci disse com'era, dall'altra parte. Dettò, e basta: formule, tavole, disegni descritti punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte gli aveva impedito di finire. Alla fine della terza notte l'ago si fermò, tornò al centro e batté un'ultima frase: *\"Ora lasciatemi in pace.\"*",
+  "easy": "Non ci chiese come stavamo. Non ci disse com'era dall'altra parte. Dettò, e basta: formule, tabelle, disegni spiegati punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte non gli aveva lasciato finire. Alla fine della terza notte l'ago si fermò, tornò al centro e scrisse un'ultima frase: *\"Ora lasciatemi in pace.\"*",
+  "short": "Non chiese nulla: dettò l'ultima parte del suo Masterwork. Poi l'ago batté: *\"Ora lasciatemi in pace.\"*"
  },
  "FinaleVoce.5": {
-  "full": "Lo abbiamo fatto. Il Masterwork è finito, dottore, ed è stato pubblicato con il suo nome. Il Telegrafo è smontato, in soffitta. Non lo abbiamo più acceso."
+  "full": "Lo abbiamo fatto. Il Masterwork è finito, dottore, ed è stato pubblicato con il suo nome. Il Telegrafo è smontato, in soffitta. Non lo abbiamo più acceso.",
+  "easy": "Lo abbiamo fatto. Il Masterwork è finito, dottore, ed è stato pubblicato con il suo nome. Il Telegrafo è smontato, in soffitta. Non lo abbiamo più acceso.",
+  "short": "Il Masterwork è stato pubblicato. Il Telegrafo è in soffitta, smontato."
  },
  "FinaleVoce.6": {
   "full": "Non per rispetto: per paura che risponda qualcun altro."
@@ -1479,43 +1837,64 @@
   "full": "**Il Rogo**"
  },
  "FinaleRogo.3": {
-  "full": "Egregio dottore, la Chiesa ha vinto, e non è stata una vittoria gentile. Il vescovo arrivò a {0} nella primavera del 1906 con un decreto, due gendarmi e una lista di nomi. La nostra famiglia era in cima."
+  "full": "Egregio dottore, la Chiesa ha vinto, e non è stata una vittoria gentile. Il vescovo arrivò a {0} nella primavera del 1906 con un decreto, due gendarmi e una lista di nomi. La nostra famiglia era in cima.",
+  "easy": "Egregio dottore, ha vinto la Chiesa, e non è stata una vittoria gentile. Il vescovo arrivò a {0} nella primavera del 1906 con un decreto, due gendarmi e una lista di nomi. Il nome della nostra famiglia era il primo.",
+  "short": "Egregio dottore, ha vinto la Chiesa. Il vescovo arrivò nel 1906 con una lista di nomi, e il nostro era il primo."
  },
  "FinaleRogo.4": {
-  "full": "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del Journal. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento."
+  "full": "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del Journal. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.",
+  "easy": "La sede del Circolo bruciò la notte di Pentecoste. In qualche modo il fuoco passò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio e i volumi del Journal. Il Telegrafo, mentre si scioglieva, fece un rumore che i pompieri descrissero come un lamento.",
+  "short": "A Pentecoste bruciò il Circolo, e il fuoco raggiunse la tenuta. Il Telegrafo si sciolse con un lamento."
  },
  "FinaleRogo.5": {
-  "full": "Sulle ceneri il vescovo ha fatto costruire una cappella dedicata alle anime del purgatorio. Ci vado ogni domenica, come tutti. Il parroco dice che le sue pareti sono le più silenziose della diocesi, e ha ragione: lì non bussa mai nessuno."
+  "full": "Sulle ceneri il vescovo ha fatto costruire una cappella dedicata alle anime del purgatorio. Ci vado ogni domenica, come tutti. Il parroco dice che le sue pareti sono le più silenziose della diocesi, e ha ragione: lì non bussa mai nessuno.",
+  "easy": "Sulle ceneri il vescovo ha fatto costruire una cappella per le anime del purgatorio. Ci vado ogni domenica, come tutti. Il parroco dice che le sue pareti sono le più silenziose della diocesi, e ha ragione: lì non bussa mai nessuno.",
+  "short": "Sulle ceneri ora c'è una cappella. Le sue pareti sono le più silenziose della diocesi."
  },
  "FinaleRogo.6": {
-  "full": "Ma nella cripta, sotto l'altare, dove un tempo c'era il laboratorio, il sagrestano ha smesso di scendere da anni."
+  "full": "Ma nella cripta, sotto l'altare, dove un tempo c'era il laboratorio, il sagrestano ha smesso di scendere da anni.",
+  "easy": "Ma nella cripta, sotto l'altare, dove una volta c'era il laboratorio, il sagrestano non scende più da anni."
  },
  "FinaleSocieta.1": {
   "full": "**La Società dell'Ultima Ora**"
  },
  "FinaleSocieta.3": {
-  "full": "Egregio dottore, lei mi chiede chi governa {0}. Formalmente il consiglio comunale, e un sindaco che porta ancora il nome dei Bódi. In pratica, da quella notte del 1905, ogni decisione passa prima da un tavolino."
+  "full": "Egregio dottore, lei mi chiede chi governa {0}. Formalmente il consiglio comunale, e un sindaco che porta ancora il nome dei Bódi. In pratica, da quella notte del 1905, ogni decisione passa prima da un tavolino.",
+  "easy": "Egregio dottore, lei mi chiede chi comanda a {0}. Sulla carta il consiglio comunale, e un sindaco che si chiama ancora Bódi. In realtà, da quella notte del 1905, ogni decisione passa prima da un tavolino.",
+  "short": "Egregio dottore, a {0} governa il consiglio. Ma dal 1905 ogni decisione passa prima da un tavolino."
  },
  "FinaleSocieta.4": {
-  "full": "La Grande Seduta finì con la nostra famiglia alla testa del Circolo dell'Ultima Ora, e il Circolo ci accolse come si accoglie un erede atteso a lungo. Le pompe funebri, la banca, il giornale, la scuola: tutto ci appartiene, o appartiene a qualcuno che ci deve un favore. Le vedove ci benedicono. I morti, dicono, anche."
+  "full": "La Grande Seduta finì con la nostra famiglia alla testa del Circolo dell'Ultima Ora, e il Circolo ci accolse come si accoglie un erede atteso a lungo. Le pompe funebri, la banca, il giornale, la scuola: tutto ci appartiene, o appartiene a qualcuno che ci deve un favore. Le vedove ci benedicono. I morti, dicono, anche.",
+  "easy": "La Grande Seduta finì con la nostra famiglia a capo del Circolo dell'Ultima Ora, e il Circolo ci accolse come un erede che si aspettava da tanto. Le pompe funebri, la banca, il giornale, la scuola: tutto è nostro, o di qualcuno che ci deve un favore. Le vedove ci benedicono. E, dicono, anche i morti.",
+  "short": "Guidiamo il Circolo, e tutto è nostro o ci deve un favore. Ci benedicono le vedove, e anche i morti."
  },
  "FinaleSocieta.5": {
-  "full": "Non creda che sia un potere comodo. Ogni giovedì sera consultiamo chi ci ha preceduto, e i morti sono consiglieri esigenti: non dimenticano niente, non perdonano niente, e hanno tutto il tempo del mondo."
+  "full": "Non creda che sia un potere comodo. Ogni giovedì sera consultiamo chi ci ha preceduto, e i morti sono consiglieri esigenti: non dimenticano niente, non perdonano niente, e hanno tutto il tempo del mondo.",
+  "easy": "Non pensi che sia un potere comodo. Ogni giovedì sera chiediamo consiglio a chi è venuto prima di noi, e i morti sono consiglieri difficili: non dimenticano niente, non perdonano niente, e hanno tutto il tempo del mondo.",
+  "short": "Ma i morti sono consiglieri esigenti: non dimenticano, non perdonano, e hanno tutto il tempo del mondo."
  },
  "FinaleSocieta.6": {
-  "full": "Le scrivo con il loro permesso. Mi hanno chiesto di dirle che il suo lavoro è stato notato, e che, quando vorrà, al nostro tavolo ci sarà una sedia anche per lei. Le consiglio di non volerlo."
+  "full": "Le scrivo con il loro permesso. Mi hanno chiesto di dirle che il suo lavoro è stato notato, e che, quando vorrà, al nostro tavolo ci sarà una sedia anche per lei. Le consiglio di non volerlo.",
+  "easy": "Le scrivo con il loro permesso. Mi hanno chiesto di dirle che il suo lavoro è stato notato, e che, quando vorrà, al nostro tavolo ci sarà una sedia anche per lei. Le consiglio di non volerlo.",
+  "short": "Mi chiedono di dirle che al nostro tavolo c'è una sedia anche per lei. Le consiglio di non volerla."
  },
  "FinalePossessione.1": {
   "full": "**Possessione**"
  },
  "FinalePossessione.3": {
-  "full": "Caro dottore, la riconosco dalla calligrafia. Lei, invece, non riconoscerà la mia: non è quella di chi firma questa lettera. Da quando, la notte della Grande Seduta, la fiala si è rotta tra le mani di {0}, questa mano scrive per me."
+  "full": "Caro dottore, la riconosco dalla calligrafia. Lei, invece, non riconoscerà la mia: non è quella di chi firma questa lettera. Da quando, la notte della Grande Seduta, la fiala si è rotta tra le mani di {0}, questa mano scrive per me.",
+  "easy": "Caro dottore, la riconosco dalla sua scrittura. Lei invece non riconoscerà la mia: non è la scrittura di chi firma questa lettera. Dalla notte della Grande Seduta, quando la fiala si è rotta tra le mani di {0}, questa mano scrive per me.",
+  "short": "Caro dottore, non riconoscerà la mia calligrafia. Da quando la fiala si è rotta tra le mani di {0}, questa mano scrive per me."
  },
  "FinalePossessione.4": {
-  "full": "Mi presento, anche se forse ha già capito: Eszter Vámos, consolatrice. Per mezzo secolo mi hanno chiamata truffatrice, strega, profetessa, santa. Avevano tutti un po' di ragione. Il segreto della vita eterna, dottore, non era in vendita: era in quella fiala. Bastava trovare la persona giusta, abbastanza folle da lasciarmi entrare."
+  "full": "Mi presento, anche se forse ha già capito: Eszter Vámos, consolatrice. Per mezzo secolo mi hanno chiamata truffatrice, strega, profetessa, santa. Avevano tutti un po' di ragione. Il segreto della vita eterna, dottore, non era in vendita: era in quella fiala. Bastava trovare la persona giusta, abbastanza folle da lasciarmi entrare.",
+  "easy": "Mi presento, anche se forse ha già capito: Eszter Vámos, consolatrice. Per cinquant'anni mi hanno chiamata imbrogliona, strega, profetessa, santa. Tutti avevano un po' di ragione. Il segreto della vita eterna, dottore, non si vendeva: era in quella fiala. Bastava trovare la persona giusta, abbastanza pazza da farmi entrare.",
+  "short": "Sono Eszter Vámos, consolatrice. Il segreto della vita eterna era in quella fiala: bastava qualcuno abbastanza folle da lasciarmi entrare."
  },
  "FinalePossessione.5": {
-  "full": "Questo corpo è più giovane del mio, e ha mani più calde: me ne servo con cura. Le scrivo perché lei sta leggendo i miei verbali, e io ho sempre avuto un debole per chi mi legge con attenzione."
+  "full": "Questo corpo è più giovane del mio, e ha mani più calde: me ne servo con cura. Le scrivo perché lei sta leggendo i miei verbali, e io ho sempre avuto un debole per chi mi legge con attenzione.",
+  "easy": "Questo corpo è più giovane del mio e ha mani più calde: lo uso con attenzione. Le scrivo perché lei sta leggendo i miei verbali, e a me sono sempre piaciute le persone che mi leggono con attenzione.",
+  "short": "Questo corpo è giovane, e lo uso con cura. Le scrivo perché lei legge i miei verbali con attenzione."
  },
  "FinalePossessione.6": {
   "full": "Venga a trovarmi, quando avrà finito. Terrò una sedia vuota per lei."
@@ -1527,15 +1906,22 @@
   "full": "**Nota del dott. Halász – *1923.***"
  },
  "FinaleNebbia.3": {
-  "full": "Ho cercato a lungo un erede vivente da interrogare, come ho fatto per gli altri documenti del fascicolo. Non l'ho trovato. Le carte si fermano alla notte del 31 dicembre 1905, a metà di un verbale: il velo era strappato, e la famiglia votò di non attraversarlo. Poi, dice l'ultima riga, \"la nebbia entrò dalle finestre\"."
+  "full": "Ho cercato a lungo un erede vivente da interrogare, come ho fatto per gli altri documenti del fascicolo. Non l'ho trovato. Le carte si fermano alla notte del 31 dicembre 1905, a metà di un verbale: il velo era strappato, e la famiglia votò di non attraversarlo. Poi, dice l'ultima riga, \"la nebbia entrò dalle finestre\".",
+  "easy": "Ho cercato a lungo un erede ancora vivo da interrogare, come ho fatto per gli altri documenti del fascicolo. Non l'ho trovato. Le carte finiscono la notte del 31 dicembre 1905, a metà di un verbale: il velo era strappato, e la famiglia votò di non attraversarlo. Poi, dice l'ultima riga, \"la nebbia entrò dalle finestre\".",
+  "short": "Non ho trovato eredi vivi. Le carte si fermano al 31 dicembre 1905: il velo era strappato, la famiglia non lo attraversò, e \"la nebbia entrò dalle finestre\"."
  },
  "FinaleNebbia.4": {
-  "full": "Dal 1906 {0} non compare più sulle carte geografiche. I treni non vi si fermano, il telegrafo non risponde, e i viaggiatori che provano ad arrivarci raccontano di aver camminato per ore in una nebbia bianca, intorno a un cimitero, prima di ritrovarsi al punto di partenza."
+  "full": "Dal 1906 {0} non compare più sulle carte geografiche. I treni non vi si fermano, il telegrafo non risponde, e i viaggiatori che provano ad arrivarci raccontano di aver camminato per ore in una nebbia bianca, intorno a un cimitero, prima di ritrovarsi al punto di partenza.",
+  "easy": "Dal 1906 {0} non è più sulle carte geografiche. I treni non si fermano lì, il telegrafo non risponde, e i viaggiatori che provano ad arrivarci raccontano di aver camminato per ore in una nebbia bianca, intorno a un cimitero, prima di ritrovarsi al punto di partenza.",
+  "short": "Dal 1906 {0} è sparita dalle carte. Chi prova ad arrivarci gira per ore nella nebbia, intorno a un cimitero, e torna al punto di partenza."
  },
  "FinaleNebbia.5": {
-  "full": "Mi chiederete, allora, dove ho trovato queste casse. Me lo chiedo anch'io. Ricordo il treno della sera, l'ombrello, il parroco gentile e molto stanco. Non ricordo come sono uscito dal villaggio."
+  "full": "Mi chiederete, allora, dove ho trovato queste casse. Me lo chiedo anch'io. Ricordo il treno della sera, l'ombrello, il parroco gentile e molto stanco. Non ricordo come sono uscito dal villaggio.",
+  "easy": "Allora mi chiederete dove ho trovato queste casse. Me lo chiedo anch'io. Ricordo il treno della sera, l'ombrello, il parroco gentile e molto stanco. Non ricordo come sono uscito dal villaggio.",
+  "short": "Dove ho trovato queste casse? Ricordo il treno, l'ombrello, il parroco. Non ricordo come sono uscito dal villaggio."
  },
  "FinaleNebbia.6": {
-  "full": "Scrivo dal mio studio di Budapest. Dalla finestra, da tre giorni, non vedo che nebbia. E qualcuno, educatamente, bussa."
+  "full": "Scrivo dal mio studio di Budapest. Dalla finestra, da tre giorni, non vedo che nebbia. E qualcuno, educatamente, bussa.",
+  "easy": "Vi scrivo dal mio studio di Budapest. Da tre giorni, dalla finestra, vedo solo nebbia. E qualcuno, gentilmente, bussa."
  }
 }

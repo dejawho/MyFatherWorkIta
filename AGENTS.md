@@ -66,7 +66,9 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   (`content/<id>/src/*.story`; syntax at the top of `src/compile.ts`) into `scenario.json`,
   `extras.json` and the string tables. Used by the fan-made _The Thinning Veil_, written in
   Italian first: `strings.it.json` is its source text, `strings.en.json` takes English from
-  `src/en.json` and falls back to the Italian. Edit the `.story` files, never the built JSON.
+  `src/en.json` and falls back to the Italian; Easy and Short come from
+  `src/versions.<lang>.json` (both keyed by the Italian text). Edit the `.story` and these
+  files, never the built JSON.
   Its design (spoilers) is in `docs/custom/the-thinning-veil/design.it.md`.
 - **Voice generator** (`tools/voice/`, Python via `uv`): generated voices for voiced pages in
   every reading mode, each in one language. English: Emma, George (Kokoro, CPU,
@@ -184,5 +186,5 @@ Next, roughly in order:
 5. Italian is in (story with its literals, screen texts and app); review it at the table.
    App-store builds (Capacitor) later, if needed.
 6. Fan-made scenario _Il Velo Sottile_ (`the-thinning-veil`): skeleton done (all pages and logic,
-   8/8 endings in the tester, playable); Italian and English text complete; next a play-test at
-   the table.
+   8/8 endings in the tester, playable); Italian and English text complete, with Easy and Short
+   (beta); next a play-test at the table.

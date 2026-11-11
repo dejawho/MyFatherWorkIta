@@ -21,6 +21,30 @@ table.
 >
 > *Your most devoted, F. Halász*
 
+### Easy · `prologo-easy.mp3` · 175 words
+
+> Esteemed colleagues,
+>
+> I am writing to you from the village I told you about. I arrived on the evening train, with an umbrella that did not help at all. The parish priest, a kind and very tired man, gave me the keys to the old sacristy. Behind a wooden wardrobe there was a door closed up with bricks. Behind the door there were six crates full of documents.
+>
+> There are séance records, letters that were never sent, torn diary pages, articles from the local newspaper and old telegrams. They tell the story of fifty years and three generations of the same family: scientists, or so they called themselves, who for half a century tried to talk to the dead. And it seems that sometimes someone answered.
+>
+> I decided to put the documents in order and copy them before I judge anything. The first document is about a wake. I ask you to read it the way I did: with the doubt the Society asks for, and with the window closed.
+>
+> *Your most devoted, F. Halász*
+
+### Short · `prologo-short.mp3` · 84 words
+
+> Esteemed colleagues,
+>
+> I write from the village I told you of. The priest gave me the keys to the old sacristy: behind a bricked-up door were six crates of documents.
+>
+> Minutes, letters, diaries and telegrams: fifty years of a family of scientists who tried to speak with the dead. And sometimes, it seems, were answered.
+>
+> I have sorted and copied them. The first is the record of a wake: read it with scepticism, and with the window shut.
+>
+> *Your most devoted, F. Halász*
+
 ## Page 2: G1Intro
 
 ### Full · `g1intro.mp3` · 234 words
@@ -35,6 +59,30 @@ table.
 >
 > That night, in the estate, something began to knock on the walls.
 
+### Easy · `g1intro-easy.mp3` · 220 words
+
+> Father was buried on the Day of the Dead, under a light rain. Many people from the village came to the cemetery, but they stayed behind the low wall: no one wanted to go near the grave, and the gravedigger worked fast without looking in. People said that in his last years the old man had stayed shut up in the estate, with machines that made noise at night. Sometimes, from the windows of his laboratory, came a light of a strange colour that no one could describe.
+>
+> The heirs had arrived the evening before by coach. Each came from a different city, with a trunk and the same letter from the notary. Now the estate was theirs, and so were the debts, the instruments, the animals in the cages and Father's Journal: a leather notebook full of notes, drawings and formulae. On the last page there was only one sentence, underlined twice, so hard that the pen had cut the paper:
+>
+> *"Death is not a closed door: it is a veil. And veils can be lifted."*
+>
+> Father Anzelm blessed the body and closed his prayer book. Then he told the heirs, loudly enough for everyone to hear, that he would pray very hard for their souls.
+>
+> That night, in the estate, something began to knock on the walls.
+
+### Short · `g1intro-short.mp3` · 102 words
+
+> Father was buried on the Day of the Dead. The village kept behind the cemetery wall: people said the old man had worked at night on humming machines, amid lights of a nameless colour.
+>
+> The heirs inherited the estate, the debts, the laboratory and Father's Journal. On its last page, one sentence, underlined so hard it cut the paper:
+>
+> *"Death is not a closed door: it is a veil. And veils can be lifted."*
+>
+> Father Anzelm blessed the body and promised, loudly, to pray hard for the heirs' souls.
+>
+> That night, in the estate, something began to knock on the walls.
+
 ## Page 3: G2Intro
 
 ### Full · `g2intro.mp3` · 131 words
@@ -43,6 +91,18 @@ table.
 >
 > The village had grown. Where the wooden houses had stood there were half-timbered ones with painted beams, a paved street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but no less stubborn. And there was, as one of the new heirs wrote in a letter to a sister, "this thing they call the veil here, as if it were a matter of weather, like the rain or the fog".
 
+### Easy · `g2intro-easy.mp3` · 116 words
+
+> The second crate jumps forward seventeen years. The papers of the first generation end in 1856. The others begin in the spring of 1873, when the heirs' children took over the estate, the laboratory and the Journal, which was now two and a half volumes long.
+>
+> The village was bigger. Instead of wooden houses there were houses with painted beams, a stone street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but as stubborn as before. And there was, one of the new heirs writes to a sister, "this thing they call the veil here, as if it were the weather, like the rain or the fog".
+
+### Short · `g2intro-short.mp3` · 52 words
+
+> The second crate resumes in 1873: the heirs' children take the estate, the laboratory and the Journal, now two and a half volumes.
+>
+> The village has grown; Father Anzelm is older but as stubborn as ever. And there is "this thing they call the veil here, like the rain or the fog".
+
 ## Page 4: G3Intro
 
 ### Full · `g3intro.mp3` · 97 words
@@ -50,3 +110,15 @@ table.
 > LAST OF THE FAMILY BURIED YESTERDAY STOP ESTATE YOURS STOP NOTARY WAITING STOP DO NOT ARRIVE AFTER SUNSET STOP
 >
 > The telegram reached the new heirs in distant cities, in offices, laboratories and colleges. When they stepped off the train (for now the train went there too) they found a small town that no longer resembled the village of the family stories: street lamps along the main road, a telegraph office, a bank with columns of imitation marble and, in the café on the square, a phonograph that played Viennese waltzes for anyone who dropped in a coin.
+
+### Easy · `g3intro-easy.mp3` · 95 words
+
+> LAST OF THE FAMILY BURIED YESTERDAY STOP ESTATE YOURS STOP NOTARY WAITING STOP DO NOT ARRIVE AFTER SUNSET STOP
+>
+> The telegram reached the new heirs in faraway cities, in offices, laboratories, schools. When they got off the train (now the train went there too) they found a small town very different from the village of the family stories. There were street lamps along the main road, a telegraph office, a bank with fake marble columns and, in the café on the square, a phonograph that played Viennese waltzes for anyone who put in a coin.
+
+### Short · `g3intro-short.mp3` · 47 words
+
+> LAST OF THE FAMILY BURIED YESTERDAY STOP ESTATE YOURS STOP NOTARY WAITING STOP DO NOT ARRIVE AFTER SUNSET STOP
+>
+> The telegram reached the new heirs far away. Off the train, they found a modern little town: street lamps, a telegraph, a bank and a phonograph playing waltzes.

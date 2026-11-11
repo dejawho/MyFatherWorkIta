@@ -27,13 +27,19 @@
   "full": "Esteemed colleagues,"
  },
  "Prologo.4": {
-  "full": "I write to you from the village I told you of, where I arrived on the evening train with an umbrella that proved entirely useless. The parish priest, a kind and very tired man, handed me the keys to the old sacristy. Behind a walnut wardrobe was a door, crudely bricked up; behind the door, six crates of documents."
+  "full": "I write to you from the village I told you of, where I arrived on the evening train with an umbrella that proved entirely useless. The parish priest, a kind and very tired man, handed me the keys to the old sacristy. Behind a walnut wardrobe was a door, crudely bricked up; behind the door, six crates of documents.",
+  "easy": "I am writing to you from the village I told you about. I arrived on the evening train, with an umbrella that did not help at all. The parish priest, a kind and very tired man, gave me the keys to the old sacristy. Behind a wooden wardrobe there was a door closed up with bricks. Behind the door there were six crates full of documents.",
+  "short": "I write from the village I told you of. The priest gave me the keys to the old sacristy: behind a bricked-up door were six crates of documents."
  },
  "Prologo.5": {
-  "full": "Séance minutes, letters never sent, torn diary pages, cuttings from the local gazette, telegrams whose ink has long since faded to violet. They cover fifty years and three generations of a single family: scientists, or something they liked to call by that name, who for half a century tried to speak with the dead. And not, it would seem, always without an answer."
+  "full": "Séance minutes, letters never sent, torn diary pages, cuttings from the local gazette, telegrams whose ink has long since faded to violet. They cover fifty years and three generations of a single family: scientists, or something they liked to call by that name, who for half a century tried to speak with the dead. And not, it would seem, always without an answer.",
+  "easy": "There are séance records, letters that were never sent, torn diary pages, articles from the local newspaper and old telegrams. They tell the story of fifty years and three generations of the same family: scientists, or so they called themselves, who for half a century tried to talk to the dead. And it seems that sometimes someone answered.",
+  "short": "Minutes, letters, diaries and telegrams: fifty years of a family of scientists who tried to speak with the dead. And sometimes, it seems, were answered."
  },
  "Prologo.6": {
-  "full": "I have resolved to sort and transcribe them before forming any judgement. The first document is the record of a wake. I ask you to read it as I did: with the scepticism the Society demands, and with the window shut."
+  "full": "I have resolved to sort and transcribe them before forming any judgement. The first document is the record of a wake. I ask you to read it as I did: with the scepticism the Society demands, and with the window shut.",
+  "easy": "I decided to put the documents in order and copy them before I judge anything. The first document is about a wake. I ask you to read it the way I did: with the doubt the Society asks for, and with the window closed.",
+  "short": "I have sorted and copied them. The first is the record of a wake: read it with scepticism, and with the window shut."
  },
  "Prologo.7": {
   "full": "*Your most devoted, F. Halász*"
@@ -84,10 +90,13 @@
   "full": "**Someone Is Watching You**"
  },
  "TkCreepy.2": {
-  "full": "For some days now, when you walk through {0}, people cross themselves. Children stop playing, dogs lower their tails. At night, under your window, there are bare footprints that lead up to the wall and never come back. Whatever it is, it has decided that you are the most interesting person in town."
+  "full": "For some days now, when you walk through {0}, people cross themselves. Children stop playing, dogs lower their tails. At night, under your window, there are bare footprints that lead up to the wall and never come back. Whatever it is, it has decided that you are the most interesting person in town.",
+  "easy": "For some days now, when you walk through {0}, people make the sign of the cross. Children stop playing and dogs lower their tails. At night, under your window, there are bare footprints: they go up to the wall and do not come back. Something has decided that you are the most interesting person in town.",
+  "short": "In {0} people cross themselves as you pass. Under your window, bare footprints lead to the wall and never come back. Something has chosen you."
  },
  "TkCreepy.3": {
-  "full": "One morning, on the doorstep, you find a gift. Better not to wonder where it came from."
+  "full": "One morning, on the doorstep, you find a gift. Better not to wonder where it came from.",
+  "easy": "One morning you find a gift in front of your door. It is better not to ask where it comes from."
  },
  "TkCreepy.4": {
   "full": "Gain 1 {icon:Bodies_Icon}. Return the {icon:StorybookToken} token to the supply."
@@ -99,7 +108,9 @@
   "full": "**The Voices**"
  },
  "TkInsanity.2": {
-  "full": "At first it is only a murmur, like a room full of people in the house next door. Then you make out the words. Then the voices: an old woman looking for a ring, a child who counts to a hundred and starts again, a man who keeps repeating the same address. None of them seems to know they are dead."
+  "full": "At first it is only a murmur, like a room full of people in the house next door. Then you make out the words. Then the voices: an old woman looking for a ring, a child who counts to a hundred and starts again, a man who keeps repeating the same address. None of them seems to know they are dead.",
+  "easy": "At first you hear only a murmur, like many people in a room of the house next door. Then you understand the words. Then you hear the voices: an old woman looking for a ring, a child who counts to a hundred and starts again, a man who always repeats the same address. None of them seems to know they are dead.",
+  "short": "First a murmur, then voices: an old woman seeking a ring, a child counting, a man repeating an address. None of them knows they are dead."
  },
  "TkInsanity.3": {
   "full": "You take notes. You could not say whether you do it for science or to make them be quiet."
@@ -111,10 +122,13 @@
   "full": "**The Book of the Dead**"
  },
  "TkOccult.2": {
-  "full": "One morning you open the Journal and find a page you did not write. The handwriting slants backwards, the ink is still wet, and the formula it describes is wrong in one place only, as if whoever wrote it wanted to see whether you would notice."
+  "full": "One morning you open the Journal and find a page you did not write. The handwriting slants backwards, the ink is still wet, and the formula it describes is wrong in one place only, as if whoever wrote it wanted to see whether you would notice.",
+  "easy": "One morning you open the Journal and find a page you did not write. The handwriting leans backwards and the ink is still wet. The formula on the page has only one mistake, as if the writer wanted to see if you would notice.",
+  "short": "In the Journal is a page you did not write, the ink still wet, with a single mistake, like a test."
  },
  "TkOccult.3": {
-  "full": "You notice. Beneath the correction, someone has added a single word: *\"Good.\"*"
+  "full": "You notice. Beneath the correction, someone has added a single word: *\"Good.\"*",
+  "easy": "You notice. Under your correction, someone has written one word: *\"Good.\"*"
  },
  "TkOccult.4": {
   "full": "Draw an Experiment from the deck of your choice. Return the {icon:StorybookToken} token to the supply."
@@ -123,7 +137,9 @@
   "full": "**The Name on Everyone's Lips**"
  },
  "TkVP.2": {
-  "full": "Your name is going round {0}: at the market, in church, in the taverns. Some say it with fear, others with admiration, all of them in a low voice. A few days later a black-edged card invites you \"to a dinner among people who will not resign themselves\"; inside the envelope, as a courtesy, there is money."
+  "full": "Your name is going round {0}: at the market, in church, in the taverns. Some say it with fear, others with admiration, all of them in a low voice. A few days later a black-edged card invites you \"to a dinner among people who will not resign themselves\"; inside the envelope, as a courtesy, there is money.",
+  "easy": "In {0} everyone talks about you: at the market, in church, in the taverns. Some are afraid, others admire you, but they all speak quietly. A few days later you receive a card with a black border: it invites you \"to a dinner among people who will not resign themselves\". Inside the envelope, as a kindness, there is money.",
+  "short": "All {0} is talking about you, quietly. A black-edged card invites you \"to a dinner among people who will not resign themselves\", with money inside."
  },
  "TkVP.3": {
   "full": "The wax seal is black, with an open eye."
@@ -144,16 +160,22 @@
   "full": "**Record of the wake – {0}, *2 November 1848.***"
  },
  "G1Intro.3": {
-  "full": "Father was buried on the Day of the Dead, under a thin rain that could not make up its mind to fall. The village came to the cemetery in good numbers, but stayed on the far side of the low wall: no one would go near the grave, and the gravedigger worked quickly, without looking in. It was said the old man had spent his last years shut up in the estate with machines that hummed through the night, and that from the windows of his laboratory there sometimes came a light of a colour no one could name."
+  "full": "Father was buried on the Day of the Dead, under a thin rain that could not make up its mind to fall. The village came to the cemetery in good numbers, but stayed on the far side of the low wall: no one would go near the grave, and the gravedigger worked quickly, without looking in. It was said the old man had spent his last years shut up in the estate with machines that hummed through the night, and that from the windows of his laboratory there sometimes came a light of a colour no one could name.",
+  "easy": "Father was buried on the Day of the Dead, under a light rain. Many people from the village came to the cemetery, but they stayed behind the low wall: no one wanted to go near the grave, and the gravedigger worked fast without looking in. People said that in his last years the old man had stayed shut up in the estate, with machines that made noise at night. Sometimes, from the windows of his laboratory, came a light of a strange colour that no one could describe.",
+  "short": "Father was buried on the Day of the Dead. The village kept behind the cemetery wall: people said the old man had worked at night on humming machines, amid lights of a nameless colour."
  },
  "G1Intro.4": {
-  "full": "The heirs had arrived on the coach the evening before, each from a different city, each with a trunk and the same letter from the notary. The estate was theirs, and with it the debts, the instruments, the animals in their cages and Father's Journal: a leather-bound notebook swollen with notes, sketches and formulae. On the last page he had written there was a single sentence, underlined twice, so hard that the pen had cut the paper:"
+  "full": "The heirs had arrived on the coach the evening before, each from a different city, each with a trunk and the same letter from the notary. The estate was theirs, and with it the debts, the instruments, the animals in their cages and Father's Journal: a leather-bound notebook swollen with notes, sketches and formulae. On the last page he had written there was a single sentence, underlined twice, so hard that the pen had cut the paper:",
+  "easy": "The heirs had arrived the evening before by coach. Each came from a different city, with a trunk and the same letter from the notary. Now the estate was theirs, and so were the debts, the instruments, the animals in the cages and Father's Journal: a leather notebook full of notes, drawings and formulae. On the last page there was only one sentence, underlined twice, so hard that the pen had cut the paper:",
+  "short": "The heirs inherited the estate, the debts, the laboratory and Father's Journal. On its last page, one sentence, underlined so hard it cut the paper:"
  },
  "G1Intro.5": {
   "full": "*\"Death is not a closed door: it is a veil. And veils can be lifted.\"*"
  },
  "G1Intro.6": {
-  "full": "Father Anzelm blessed the body, closed his prayer book and told the heirs, loudly enough for everyone to hear, that he would pray for their souls with particular devotion."
+  "full": "Father Anzelm blessed the body, closed his prayer book and told the heirs, loudly enough for everyone to hear, that he would pray for their souls with particular devotion.",
+  "easy": "Father Anzelm blessed the body and closed his prayer book. Then he told the heirs, loudly enough for everyone to hear, that he would pray very hard for their souls.",
+  "short": "Father Anzelm blessed the body and promised, loudly, to pray hard for the heirs' souls."
  },
  "G1Intro.7": {
   "full": "That night, in the estate, something began to knock on the walls."
@@ -168,13 +190,19 @@
   "full": "**Diary of {0} – *night of 2 November 1848.***"
  },
  "G1ColpiA.4": {
-  "full": "I cannot sleep. The room they gave me was our father's: the bed still holds the shape of his body, and the air smells of camphor and acid. I put out the candle an hour ago when I hear the first knock."
+  "full": "I cannot sleep. The room they gave me was our father's: the bed still holds the shape of his body, and the air smells of camphor and acid. I put out the candle an hour ago when I hear the first knock.",
+  "easy": "I cannot sleep. They gave me our father's room: the bed still has the shape of his body and the air smells of camphor and acid. I put out the candle an hour ago, and then I hear the first knock.",
+  "short": "I lie awake in our father's room. Then I hear the first knock."
  },
  "G1ColpiA.5": {
-  "full": "It comes from the wall behind the headboard. A sharp knock, like a knuckle on wood. Then two. Then one. Then nothing, for so long that I almost convince myself I dreamt it; and then they begin again, always the same, patient, like someone knocking at a door who knows there is someone at home."
+  "full": "It comes from the wall behind the headboard. A sharp knock, like a knuckle on wood. Then two. Then one. Then nothing, for so long that I almost convince myself I dreamt it; and then they begin again, always the same, patient, like someone knocking at a door who knows there is someone at home.",
+  "easy": "The sound comes from the wall behind the bed. A sharp knock, like a knuckle on wood. Then two knocks. Then one. Then nothing, for so long that I almost think I dreamt it. Then they start again, always the same and patient, like someone knocking at a door who knows someone is home.",
+  "short": "Knocks on the wall behind the bed: one, two, one. Then silence, and again, patient, like someone who knows you are home."
  },
  "G1ColpiA.6": {
-  "full": "In his library I saw a little French book on talking tables: one knock for yes, two for no. It comes back to me now, in the dark, and I wish it had not."
+  "full": "In his library I saw a little French book on talking tables: one knock for yes, two for no. It comes back to me now, in the dark, and I wish it had not.",
+  "easy": "In his library I saw a little French book about talking tables: one knock means yes, two mean no. I remember it now, in the dark, and I wish I did not.",
+  "short": "I remember a little book from his library: one knock for yes, two for no. I wish I did not."
  },
  "G1ColpiA.7": {
   "full": "What do you do?"
@@ -195,25 +223,35 @@
   "full": "From the other side, once."
  },
  "G1ColpiA.13": {
-  "full": "I ask, in the lowest voice, whether it is him. One knock. I ask whether he is at peace. Two knocks, so hard that the jug trembles on the chest of drawers. Then silence, and a smell of wax, though there is no candle lit in the room. In the morning my fingers are numb and the Journal lies open on the pillow, at a page I do not remember ever reading."
+  "full": "I ask, in the lowest voice, whether it is him. One knock. I ask whether he is at peace. Two knocks, so hard that the jug trembles on the chest of drawers. Then silence, and a smell of wax, though there is no candle lit in the room. In the morning my fingers are numb and the Journal lies open on the pillow, at a page I do not remember ever reading.",
+  "easy": "I ask, very quietly, if it is him. One knock. I ask if he is at peace. Two knocks, so strong that the jug shakes on the chest of drawers. Then silence, and a smell of wax, even though no candle is lit in the room. In the morning my fingers are numb and the Journal is open on the pillow, at a page I do not remember ever reading.",
+  "short": "Is it him? One knock. Is he at peace? Two knocks, very hard. In the morning the Journal lies open on my pillow, at a page I never read."
  },
  "G1ColpiA.14": {
   "full": "Gain 1 Occult Knowledge and 1 {icon:Insanity_Icon}."
  },
  "G1ColpiA.15": {
-  "full": "I wake the servant and send him to the village with the lantern. Father Anzelm arrives an hour later, his stole over his nightshirt and holy water in an apothecary's bottle. He blesses the wall, the bed, the window and, to be thorough, me as well."
+  "full": "I wake the servant and send him to the village with the lantern. Father Anzelm arrives an hour later, his stole over his nightshirt and holy water in an apothecary's bottle. He blesses the wall, the bed, the window and, to be thorough, me as well.",
+  "easy": "I wake the servant and send him to the village with the lantern. Father Anzelm arrives an hour later, with his stole over his nightshirt and holy water in a chemist's bottle. He blesses the wall, the bed, the window and, to be safe, me too.",
+  "short": "I send for Father Anzelm. He comes in his nightshirt and blesses the wall, the bed and, to be thorough, me."
  },
  "G1ColpiA.16": {
-  "full": "The knocking stops at once. The priest, however, lingers on the threshold longer than he needs to, looking around: the cages, the alembics, the Journal open on the table. Before leaving he shakes my hand and leaves me a few coins \"for the household, until everything is in order\". It feels more like a down payment than charity."
+  "full": "The knocking stops at once. The priest, however, lingers on the threshold longer than he needs to, looking around: the cages, the alembics, the Journal open on the table. Before leaving he shakes my hand and leaves me a few coins \"for the household, until everything is in order\". It feels more like a down payment than charity.",
+  "easy": "The knocking stops at once. But the priest stays at the door longer than he needs to and looks around: the cages, the glass instruments, the Journal open on the table. Before he leaves he shakes my hand and gives me a few coins \"for the household, until everything is in order\". It feels more like an advance than help.",
+  "short": "The knocking stops. The priest looks around a long time, then leaves me a few coins \"for the household\". It feels like a down payment."
  },
  "G1ColpiA.17": {
   "full": "Gain $2."
  },
  "G1ColpiA.18": {
-  "full": "I slip under the covers and press the pillow over my ears, as we did as children during storms. The knocking goes on for a long time, muffled, and at some point it seems to move: from the wall to the floor, from the floor to the headboard, a hand's breadth from my ear. Then, at last, it stops."
+  "full": "I slip under the covers and press the pillow over my ears, as we did as children during storms. The knocking goes on for a long time, muffled, and at some point it seems to move: from the wall to the floor, from the floor to the headboard, a hand's breadth from my ear. Then, at last, it stops.",
+  "easy": "I get under the covers and press the pillow on my ears, as we did as children during storms. The knocking goes on for a long time, more softly. At some point it seems to move: from the wall to the floor, from the floor to the bed, very close to my ear. Then, at last, it ends.",
+  "short": "Under the covers, pillow over my ears, I hear the knocking creep closer, right up to my ear. Then at last it stops."
  },
  "G1ColpiA.19": {
-  "full": "At dawn I draw back the curtain. On the wall, at the height of my head, the plaster has worn away in a small, regular circle, as if rubbed by a knuckle that had knocked there for years."
+  "full": "At dawn I draw back the curtain. On the wall, at the height of my head, the plaster has worn away in a small, regular circle, as if rubbed by a knuckle that had knocked there for years.",
+  "easy": "At dawn I open the curtain. On the wall, at the height of my head, the plaster is worn away in a small, regular circle, as if a knuckle had knocked there for years.",
+  "short": "At dawn there is a small worn circle on the wall, as if a knuckle had knocked there for years."
  },
  "G1ColpiA.20": {
   "full": "Nothing happens. For now."
@@ -222,10 +260,14 @@
   "full": "**The Next Morning**"
  },
  "G1ColpiFine.2": {
-  "full": "At breakfast no one mentions the knocking. The coffee is too strong, the bread is yesterday's and everyone has dark rings under their eyes. Someone makes a joke about the mice in the attic, and no one laughs."
+  "full": "At breakfast no one mentions the knocking. The coffee is too strong, the bread is yesterday's and everyone has dark rings under their eyes. Someone makes a joke about the mice in the attic, and no one laughs.",
+  "easy": "At breakfast no one talks about the knocking. The coffee is too strong, the bread is old and everyone looks tired. Someone makes a joke about the mice in the attic, but no one laughs.",
+  "short": "At breakfast no one mentions the knocking, and no one laughs at the jokes about mice."
  },
  "G1ColpiFine.3": {
-  "full": "From the dining-room window you can see the village: a few wooden houses huddled around the church, smoke from the chimneys, the market waking up. It is a poor, suspicious place. But Father has left his heirs an estate, a laboratory and a name that still makes people lower their voices; and a name, for those who know how to use it, is worth as much as capital."
+  "full": "From the dining-room window you can see the village: a few wooden houses huddled around the church, smoke from the chimneys, the market waking up. It is a poor, suspicious place. But Father has left his heirs an estate, a laboratory and a name that still makes people lower their voices; and a name, for those who know how to use it, is worth as much as capital.",
+  "easy": "From the dining-room window you can see the village: a few wooden houses near the church, smoke from the chimneys, the market opening. It is a poor place where people do not trust strangers. But Father has left his heirs an estate, a laboratory and a name that still makes people speak quietly. And a name, if you know how to use it, is worth a lot of money.",
+  "short": "The village is poor and suspicious. But Father left his heirs an estate, a laboratory and a name that still makes people lower their voices: capital, for those who know how to use it."
  },
  "G1ColpiFine.4": {
   "full": "Continue..."
@@ -240,7 +282,9 @@
   "full": "**First Round Event**"
  },
  "G1R1.4": {
-  "full": "A caravan has stopped at the edge of the village. They say a woman travels in it who talks with the dead, and that the dead answer her."
+  "full": "A caravan has stopped at the edge of the village. They say a woman travels in it who talks with the dead, and that the dead answer her.",
+  "easy": "A caravan has stopped near the village. People say that a woman travels in it who talks to the dead, and that the dead answer her.",
+  "short": "The wagon of a woman who talks with the dead has come to the village."
  },
  "G1R1.5": {
   "full": "Click here at the end of the Round to move on to the next Round..."
@@ -258,13 +302,19 @@
   "full": "**Diary of {0} – *December 1848.***"
  },
  "G1Seduta.3": {
-  "full": "Madame Vámos's wagon is painted midnight blue and covered in flaking gold stars. It has tall wheels, velvet curtains and, on the door, an open hand with an eye in its palm. It has stood at the edge of the village for three weeks, and in three weeks half the widows of {0} have climbed into it at least once, behind the priest's back."
+  "full": "Madame Vámos's wagon is painted midnight blue and covered in flaking gold stars. It has tall wheels, velvet curtains and, on the door, an open hand with an eye in its palm. It has stood at the edge of the village for three weeks, and in three weeks half the widows of {0} have climbed into it at least once, behind the priest's back.",
+  "easy": "Madame Vámos's wagon is painted dark blue and covered in worn gold stars. It has tall wheels, velvet curtains and, on the door, a picture of an open hand with an eye in the palm. It has been near the village for three weeks, and in that time half the widows of {0} have gone inside at least once, without telling the priest.",
+  "short": "Madame Vámos's wagon, midnight blue with a hand and an eye on the door, has stood there three weeks. Half the widows of {0} have secretly been inside."
  },
  "G1Seduta.4": {
-  "full": "This morning the medium came to the estate in person. She is a small woman of indeterminate age, wrapped in a black shawl; she speaks softly, with an accent I cannot place, and has very white, very cold hands. She said she had heard the knocking. Not that someone had told her about the knocking: that she had *heard* it, from the road, passing the gate on the night of the dead."
+  "full": "This morning the medium came to the estate in person. She is a small woman of indeterminate age, wrapped in a black shawl; she speaks softly, with an accent I cannot place, and has very white, very cold hands. She said she had heard the knocking. Not that someone had told her about the knocking: that she had *heard* it, from the road, passing the gate on the night of the dead.",
+  "easy": "This morning the medium came to the estate. She is a small woman, and it is hard to tell how old she is. She wears a black shawl, speaks softly with a strange accent, and has very white, very cold hands. She said she had heard the knocking. No one had told her about it: she had *heard* it herself, from the road, passing the gate on the night of the dead.",
+  "short": "The medium, small and ageless, came to the estate. She says she *heard* the knocking from the road, on the night of the dead."
  },
  "G1Seduta.5": {
-  "full": "\"Your father has something to say,\" she told us. \"And he does not speak gladly to those who will not listen.\" Then she invited all of us to a séance in her wagon, tomorrow at midnight. She asked for no money. That, more than anything else, worries me."
+  "full": "\"Your father has something to say,\" she told us. \"And he does not speak gladly to those who will not listen.\" Then she invited all of us to a séance in her wagon, tomorrow at midnight. She asked for no money. That, more than anything else, worries me.",
+  "easy": "\"Your father has something to say,\" she told us. \"And he does not like to speak to people who will not listen.\" Then she invited all of us to a séance in her wagon, tomorrow at midnight. She did not ask for money. That worries me more than anything.",
+  "short": "\"Your father has something to say.\" She invited us to a séance tomorrow at midnight, free of charge. That is what worries me."
  },
  "G1SedutaVoto.1": {
   "full": "**Attend?**"
@@ -291,22 +341,34 @@
   "full": "**The Little Table**"
  },
  "G1SedutaRacconto.2": {
-  "full": "No one goes. Madame Vámos lights the candles, sits at the little table and waits until dawn before empty chairs. The baker's boy, who passes by at four, swears he heard her talking to someone, and heard someone answer."
+  "full": "No one goes. Madame Vámos lights the candles, sits at the little table and waits until dawn before empty chairs. The baker's boy, who passes by at four, swears he heard her talking to someone, and heard someone answer.",
+  "easy": "No one goes. Madame Vámos lights the candles, sits at the little table and waits until dawn in front of empty chairs. The baker's boy walks past at four and swears he heard her talking to someone, and heard someone answer.",
+  "short": "No one goes. Madame waits until dawn before empty chairs; the baker's boy swears he heard her talking, and someone answering."
  },
  "G1SedutaRacconto.3": {
-  "full": "That night, at the estate, the knocking doubles. It knocks on every wall, every door, the headboard of every bed. It knocks like someone who has been left out in the cold."
+  "full": "That night, at the estate, the knocking doubles. It knocks on every wall, every door, the headboard of every bed. It knocks like someone who has been left out in the cold.",
+  "easy": "That night, at the estate, there are twice as many knocks. They knock on every wall, every door, everyone's bed. They knock like someone who has been left outside in the cold.",
+  "short": "That night the knocking doubles, everywhere, like someone left out in the cold."
  },
  "G1SedutaRacconto.4": {
-  "full": "All the heirs sit around the little round table, in the wagon that smells of incense and horse. Madame asks them to join hands; her fingers are icy. She recites something in a language no one recognises, then falls silent, and in the silence the table creaks, tilts and rises a hand's breadth off the floor, with every hand still upon it."
+  "full": "All the heirs sit around the little round table, in the wagon that smells of incense and horse. Madame asks them to join hands; her fingers are icy. She recites something in a language no one recognises, then falls silent, and in the silence the table creaks, tilts and rises a hand's breadth off the floor, with every hand still upon it.",
+  "easy": "All the heirs sit around the little round table, in the wagon that smells of incense and horse. Madame asks them to hold hands; her fingers are freezing. She says something in a language no one knows, then she is silent. In the silence the table creaks, tips and rises a hand's width off the floor, with all their hands on it.",
+  "short": "The heirs join hands around the table. Madame recites unknown words, and the table rises a hand's breadth off the floor."
  },
  "G1SedutaRacconto.5": {
-  "full": "It stays suspended for the space of a breath. Then it drops with a single, sharp knock. Madame opens her eyes and smiles like someone who has just had good news. \"He recognised you,\" she says. \"All of you.\""
+  "full": "It stays suspended for the space of a breath. Then it drops with a single, sharp knock. Madame opens her eyes and smiles like someone who has just had good news. \"He recognised you,\" she says. \"All of you.\"",
+  "easy": "It stays in the air for the time of one breath. Then it falls with a single sharp knock. Madame opens her eyes and smiles, like someone who has just had good news. \"He recognised you,\" she says. \"All of you.\"",
+  "short": "The table drops with one knock. Madame smiles: \"He recognised you. All of you.\""
  },
  "G1SedutaRacconto.6": {
-  "full": "Only some of the heirs climb into the wagon. The others stay at the estate, in front of the fire, telling one another that someone in the family must keep a little common sense."
+  "full": "Only some of the heirs climb into the wagon. The others stay at the estate, in front of the fire, telling one another that someone in the family must keep a little common sense.",
+  "easy": "Only some of the heirs get into the wagon. The others stay at the estate, in front of the fire, and tell each other that someone in the family must have a little common sense.",
+  "short": "Only some of the heirs go; the others stay home, out of common sense."
  },
  "G1SedutaRacconto.7": {
-  "full": "Around one in the morning, from the direction of the village, comes a scream. Then another. Then a laugh, which could be anyone's. Those who return at dawn will not say what they saw; but their hands are as cold as Madame's, and all morning they keep looking at the walls."
+  "full": "Around one in the morning, from the direction of the village, comes a scream. Then another. Then a laugh, which could be anyone's. Those who return at dawn will not say what they saw; but their hands are as cold as Madame's, and all morning they keep looking at the walls.",
+  "easy": "Around one in the morning, a scream comes from the village. Then another. Then a laugh, but it is not clear whose. Those who come back at dawn do not want to say what they saw. But their hands are as cold as Madame's, and all morning they look at the walls.",
+  "short": "In the night, screams and a laugh from the village. Those who return at dawn say nothing, their hands cold as Madame's, eyes on the walls."
  },
  "G1SedutaRacconto.8": {
   "full": "Those who voted YAY gain 1 Occult Knowledge and 1 {icon:Insanity_Icon}."
@@ -321,10 +383,14 @@
   "full": "**{0} Gazette – *January 1849.***"
  },
  "G1Patroni.3": {
-  "full": "**THE WITCH OF THE WAGON.** Last Sunday the Reverend Father Anzelm devoted his entire sermon to what he called, without mincing words, \"the witch of the wagon\". He reminded the faithful that the dead rest in the hands of God and not in the drawers of a little table, and that whoever disturbs them for money disturbs Him too. He then added, looking towards the pews at the back, that certain recently arrived families would do well to remember it."
+  "full": "**THE WITCH OF THE WAGON.** Last Sunday the Reverend Father Anzelm devoted his entire sermon to what he called, without mincing words, \"the witch of the wagon\". He reminded the faithful that the dead rest in the hands of God and not in the drawers of a little table, and that whoever disturbs them for money disturbs Him too. He then added, looking towards the pews at the back, that certain recently arrived families would do well to remember it.",
+  "easy": "**THE WITCH OF THE WAGON.** Last Sunday Father Anzelm spoke for the whole sermon about what he called, very clearly, \"the witch of the wagon\". He reminded the faithful that the dead rest with God, not inside a little table, and that whoever disturbs them for money also disturbs God. Then, looking at the pews at the back, he said that some families who had arrived recently should remember this.",
+  "short": "**THE WITCH OF THE WAGON.** Father Anzelm's sermon was about \"the witch of the wagon\": the dead rest with God, and certain newly arrived families would do well to remember it."
  },
  "G1Patroni.4": {
-  "full": "The sermon was much appreciated. On Monday, however, this newspaper observed an unusual coming and going of ladies in black on the road to the estate. The widows of {0} have lost husbands, sons and brothers to the cold, the fevers and hunger; they want news of their loved ones, and for one's loved ones, as everyone knows, no expense is spared."
+  "full": "The sermon was much appreciated. On Monday, however, this newspaper observed an unusual coming and going of ladies in black on the road to the estate. The widows of {0} have lost husbands, sons and brothers to the cold, the fevers and hunger; they want news of their loved ones, and for one's loved ones, as everyone knows, no expense is spared.",
+  "easy": "People liked the sermon very much. On Monday, however, this newspaper saw many ladies dressed in black coming and going on the road to the estate. The widows of {0} have lost husbands, sons and brothers to the cold, fevers and hunger. They want news of their loved ones, and for loved ones, as everyone knows, people pay gladly.",
+  "short": "On Monday, though, many widows of {0} take the road to the estate: they want news of their dead, and will pay for it."
  },
  "G1Patroni.6": {
   "full": "From the **The Cost of Disease** Scenario Box, take the **Charity tokens** {icon:S1_HeartToken} and the **6 Dubious Bartering cards**. In this scenario the hearts are the **Comfort** you give to grieving families."
@@ -354,7 +420,8 @@
   "full": "**Second Round Event**"
  },
  "G1R2.6": {
-  "full": "Someone in the village writes letters, and does not sign them. The envelopes arrive without stamps, and no one has seen them arrive."
+  "full": "Someone in the village writes letters, and does not sign them. The envelopes arrive without stamps, and no one has seen them arrive.",
+  "easy": "Someone in the village writes letters without signing them. The envelopes come without stamps, and no one sees them arrive."
  },
  "round.G1R2.end": {
   "full": "The Middle Years of the First Generation have ended."
@@ -366,10 +433,14 @@
   "full": "**Unsigned Letters**"
  },
  "G1Lettere.2": {
-  "full": "In the middle years the family begins to receive post the postman never delivered. The letters appear under the door, in the bread basket, once even inside Father's Journal, locked in the writing desk. They are envelopes of heavy paper, with no address and no signature, sealed with black wax; in the wax, an open eye."
+  "full": "In the middle years the family begins to receive post the postman never delivered. The letters appear under the door, in the bread basket, once even inside Father's Journal, locked in the writing desk. They are envelopes of heavy paper, with no address and no signature, sealed with black wax; in the wax, an open eye.",
+  "easy": "In the middle years the family receives letters that the postman never brought. The letters appear under the door, in the bread basket, once even inside Father's Journal, locked in the desk. They are envelopes of heavy paper, with no address and no signature, closed with black wax. In the wax there is the picture of an open eye.",
+  "short": "Letters arrive that no one delivered, even inside the locked Journal. No address, no signature: only an open eye in black wax."
  },
  "G1Lettere.3": {
-  "full": "Inside, each time, a few lines in an elegant, old-fashioned hand. The **Circle of the Last Hour** greets the heirs of the great scientist, knows their work, admires their courage and wishes to meet them, one by one, somewhere discreet. They need only present themselves at the address given and speak the right word."
+  "full": "Inside, each time, a few lines in an elegant, old-fashioned hand. The **Circle of the Last Hour** greets the heirs of the great scientist, knows their work, admires their courage and wishes to meet them, one by one, somewhere discreet. They need only present themselves at the address given and speak the right word.",
+  "easy": "Inside there are always a few lines, in elegant, old-fashioned handwriting. The **Circle of the Last Hour** greets the heirs of the great scientist, knows their work, admires their courage and wants to meet them, one at a time, in a private place. They only need to go to the address given and say the right word.",
+  "short": "The **Circle of the Last Hour** wishes to meet the heirs, one by one, in secret: go to the address given and say the right word."
  },
  "G1Lettere.5": {
   "full": "From the **The Cost of Disease** Scenario Box, take the **Letter cards** and keep only the **4** that name the **Builder's Office** or the **Cemetery**. Return the others to the box."
@@ -435,13 +506,19 @@
   "full": "Gain 2VP, as your Letter card says."
  },
  "G1Patto.4": {
-  "full": "A tall man is waiting for you, in a coat too elegant for {0}, with a black carnation in his buttonhole. He does not ask who you are. He calls you by name, offers you his arm and walks with you, slowly, as old friends do."
+  "full": "A tall man is waiting for you, in a coat too elegant for {0}, with a black carnation in his buttonhole. He does not ask who you are. He calls you by name, offers you his arm and walks with you, slowly, as old friends do.",
+  "easy": "A tall man is waiting for you, with a coat too elegant for {0} and a black carnation in his buttonhole. He does not ask who you are. He calls you by name, gives you his arm and walks with you, slowly, as old friends do.",
+  "short": "A tall man with a black carnation awaits you. He knows your name and walks with you like an old friend."
  },
  "G1Patto.5": {
-  "full": "\"The Circle of the Last Hour,\" he says, \"is a small society of people who will not resign themselves. We have all lost someone; and we have all discovered that the dead are not as far away as the priests say. Madame Vámos is our voice. Your father was… let us say a correspondent.\""
+  "full": "\"The Circle of the Last Hour,\" he says, \"is a small society of people who will not resign themselves. We have all lost someone; and we have all discovered that the dead are not as far away as the priests say. Madame Vámos is our voice. Your father was… let us say a correspondent.\"",
+  "easy": "\"The Circle of the Last Hour,\" he says, \"is a small group of people who will not resign themselves. We have all lost someone, and we have all found out that the dead are not as far away as the priests say. Madame Vámos is our voice. Your father was… let us say a correspondent.\"",
+  "short": "\"We are people who will not resign ourselves: the dead are not as far as the priests say. Madame Vámos is our voice. Your father was… a correspondent.\""
  },
  "G1Patto.6": {
-  "full": "He hands you an envelope, swollen with pages. \"Here are things he knew and had no time to teach you. They are yours. In return we ask only a promise: that one day, when the Circle asks you, you will open the door.\""
+  "full": "He hands you an envelope, swollen with pages. \"Here are things he knew and had no time to teach you. They are yours. In return we ask only a promise: that one day, when the Circle asks you, you will open the door.\"",
+  "easy": "He gives you an envelope full of pages. \"Here are things he knew and did not have time to teach you. They are yours. In return we want only a promise: that one day, when the Circle asks you, you will open the door.\"",
+  "short": "He hands you an envelope: \"What your father knew. In return, a promise: when the Circle asks, you will open the door.\""
  },
  "G1Patto.7": {
   "full": "He does not say which door. He smiles as if you already knew."
@@ -453,19 +530,27 @@
   "full": "Refuse."
  },
  "G1Patto.10": {
-  "full": "You shake the man's hand. It is as cold as Madame's, and in yours it does not warm. \"The Circle thanks you,\" he says, and walks away without turning round."
+  "full": "You shake the man's hand. It is as cold as Madame's, and in yours it does not warm. \"The Circle thanks you,\" he says, and walks away without turning round.",
+  "easy": "You shake the man's hand. It is as cold as Madame's and it does not get warm in yours. \"The Circle thanks you,\" he says, and leaves without turning round.",
+  "short": "His hand is as cold as Madame's. \"The Circle thanks you.\""
  },
  "G1Patto.11": {
-  "full": "The envelope weighs more than it should. That evening, reading it by lamplight, you notice that some of the pages are written in your father's hand, and that one of them is dated two weeks after his death."
+  "full": "The envelope weighs more than it should. That evening, reading it by lamplight, you notice that some of the pages are written in your father's hand, and that one of them is dated two weeks after his death.",
+  "easy": "The envelope is heavier than it should be. That evening you read it by the light of the lamp and see that some pages are written by your father. One of them has a date two weeks after his death.",
+  "short": "The envelope holds pages in your father's hand. One is dated two weeks after his death."
  },
  "G1Patto.12": {
   "full": "Gain 2 Occult Knowledge and 1 {icon:Creepy_Icon}. Return the Letter card to the box."
  },
  "G1Patto.13": {
-  "full": "You hand back the envelope unopened. The man takes no offence; if anything, he seems almost pleased, like someone who has won a small bet with himself. \"Refusal is also a form of attention,\" he says. \"We shall meet again.\" He presses a few coins into your hand \"for the trouble\" and walks away."
+  "full": "You hand back the envelope unopened. The man takes no offence; if anything, he seems almost pleased, like someone who has won a small bet with himself. \"Refusal is also a form of attention,\" he says. \"We shall meet again.\" He presses a few coins into your hand \"for the trouble\" and walks away.",
+  "easy": "You give the envelope back without opening it. The man is not offended. In fact, he seems almost happy, like someone who has won a small bet with himself. \"Saying no is also a way of paying attention,\" he says. \"We will meet again.\" He gives you a few coins \"for the trouble\" and leaves.",
+  "short": "You return the envelope unopened. The man seems almost pleased. \"We shall meet again.\" He leaves you a few coins and goes."
  },
  "G1Patto.14": {
-  "full": "The next day, at the Cemetery, there is a black carnation on your father's grave. The earth around the headstone has been disturbed, as if someone had pressed an ear to it to listen."
+  "full": "The next day, at the Cemetery, there is a black carnation on your father's grave. The earth around the headstone has been disturbed, as if someone had pressed an ear to it to listen.",
+  "easy": "The next day, at the Cemetery, there is a black carnation on your father's grave. The earth around the headstone has been moved, as if someone had put an ear to it to listen.",
+  "short": "The next day there is a black carnation on your father's grave, and the earth has been disturbed."
  },
  "G1Patto.15": {
   "full": "Gain $3. Return the Letter card to the box."
@@ -477,13 +562,19 @@
   "full": "**Minutes of the council of {0} – *autumn 1856.***"
  },
  "G1Fine.3": {
-  "full": "The council meets in the room above the inn, because the town hall roof leaks. Present are Mayor Bódi, the notary, three landowners, the schoolmaster and, on a chair of his own, Father Anzelm, who has no vote but does have the right to speak, and exercises it for an hour and a half."
+  "full": "The council meets in the room above the inn, because the town hall roof leaks. Present are Mayor Bódi, the notary, three landowners, the schoolmaster and, on a chair of his own, Father Anzelm, who has no vote but does have the right to speak, and exercises it for an hour and a half.",
+  "easy": "The council meets in the room above the inn, because rain comes into the town hall. There are Mayor Bódi, the notary, three landowners, the schoolmaster and, on a separate chair, Father Anzelm. He cannot vote but he can speak, and he speaks for an hour and a half.",
+  "short": "The council meets above the inn. Father Anzelm has no vote, but speaks for an hour and a half."
  },
  "G1Fine.4": {
-  "full": "There is only one item on the agenda: whether Mrs Eszter Vámos, by profession a \"consoler\", may remain in {0}. In eight years her wagon has become a house with its shutters always closed; her parlour, every Thursday, fills with people who go in weeping and come out smiling; and the Circle of the Last Hour, which no one admits to attending, has bought two plots beside the cemetery."
+  "full": "There is only one item on the agenda: whether Mrs Eszter Vámos, by profession a \"consoler\", may remain in {0}. In eight years her wagon has become a house with its shutters always closed; her parlour, every Thursday, fills with people who go in weeping and come out smiling; and the Circle of the Last Hour, which no one admits to attending, has bought two plots beside the cemetery.",
+  "easy": "There is only one question to decide: can Mrs Eszter Vámos, whose job is \"consoler\", stay in {0}? In eight years her wagon has become a house with the shutters always closed. Every Thursday her parlour fills with people who go in crying and come out smiling. And the Circle of the Last Hour, which no one admits to joining, has bought two plots near the cemetery.",
+  "short": "The question: may the \"consoler\" Eszter Vámos stay in {0}? In eight years her parlour has filled with the grieving, and the Circle has bought land beside the cemetery."
  },
  "G1Fine.5": {
-  "full": "The priest speaks of heresy, of fraud, of grief exploited. The notary speaks of taxes duly paid. The Mayor does not speak: he listens, and counts. In the end it is decided, as is the custom in {0} for thorny matters, to let the village's most important families vote as well. And the most important, by now, is the heirs'."
+  "full": "The priest speaks of heresy, of fraud, of grief exploited. The notary speaks of taxes duly paid. The Mayor does not speak: he listens, and counts. In the end it is decided, as is the custom in {0} for thorny matters, to let the village's most important families vote as well. And the most important, by now, is the heirs'.",
+  "easy": "The priest talks about heresy, cheating, and grief used to make money. The notary says she pays her taxes. The Mayor does not speak: he listens and counts. In the end they decide, as {0} always does with difficult questions, to let the most important families of the village vote too. And by now the most important is the heirs' family.",
+  "short": "The priest cries heresy, the notary recalls taxes paid. In the end, as is the custom in {0}, the important families vote too. And the most important is the heirs'."
  },
  "G1FineVoto.1": {
   "full": "**Does She Stay or Go?**"
@@ -513,13 +604,19 @@
   "full": "**Before Dark**"
  },
  "G1Domande.2": {
-  "full": "Madame Vámos stays. That same evening the windows of her house light up one by one, and from the parlour comes the sound of a piano that no one in {0} has ever seen delivered. The following week the Circle of the Last Hour rents a house on the square, right opposite the church, and hangs a brass plate on it with an open eye. Father Anzelm has the death knell rung for an hour, though no one has died."
+  "full": "Madame Vámos stays. That same evening the windows of her house light up one by one, and from the parlour comes the sound of a piano that no one in {0} has ever seen delivered. The following week the Circle of the Last Hour rents a house on the square, right opposite the church, and hangs a brass plate on it with an open eye. Father Anzelm has the death knell rung for an hour, though no one has died.",
+  "easy": "Madame Vámos stays. That same evening the windows of her house light up one after another, and from the parlour comes the sound of a piano that no one in {0} ever saw arrive. The next week the Circle of the Last Hour rents a house on the square, right in front of the church, and puts up a brass sign with an open eye. Father Anzelm has the funeral bells rung for an hour, even though no one has died.",
+  "short": "Madame Vámos stays, and the Circle opens premises on the square, opposite the church, with a brass eye on the door. Father Anzelm has the death knell rung."
  },
  "G1Domande.3": {
-  "full": "The wagon, tidied up for the occasion, leaves the village at dawn. Madame Vámos sits on the box, upright, without looking back; only as she passes the estate gate does she raise a white hand, as if waving to someone at the window. There was no one at the window."
+  "full": "The wagon, tidied up for the occasion, leaves the village at dawn. Madame Vámos sits on the box, upright, without looking back; only as she passes the estate gate does she raise a white hand, as if waving to someone at the window. There was no one at the window.",
+  "easy": "The wagon, tidied up for the occasion, leaves the village at dawn. Madame Vámos sits at the front, straight, and never turns round. Only when she passes the estate gate does she raise a white hand, as if waving to someone at the window. But there was no one at the window.",
+  "short": "At dawn the wagon leaves. Passing the estate, Madame waves to someone at the window. There was no one at the window."
  },
  "G1Domande.4": {
-  "full": "The next morning, on the estate door, someone has drawn an open eye in charcoal. The servant washes it three times. After the third, the eye is still there, only a little fainter, as if looking up from under water."
+  "full": "The next morning, on the estate door, someone has drawn an open eye in charcoal. The servant washes it three times. After the third, the eye is still there, only a little fainter, as if looking up from under water.",
+  "easy": "The next morning someone has drawn an open eye in charcoal on the estate door. The servant washes it three times. After the third time the eye is still there, only a little lighter, as if it were looking up from under water.",
+  "short": "A charcoal eye appears on the estate door. The servant washes it three times, but it stays."
  },
  "G1Domande.5": {
   "full": "Before the tracks are reset, the Storybook needs to know how each of your scientists leaves this world."
@@ -537,10 +634,14 @@
   "full": "**Dr Halász's note.**"
  },
  "G1DomChiusura.3": {
-  "full": "The papers of the first generation break off here. The parish registers show that the family's scientists died in the years that followed, one after another, of different illnesses and at different ages, and that they were buried in the cemetery of {0}, beside their father. The priest notes with a certain satisfaction that the knocking on the estate's walls stopped with the last funeral."
+  "full": "The papers of the first generation break off here. The parish registers show that the family's scientists died in the years that followed, one after another, of different illnesses and at different ages, and that they were buried in the cemetery of {0}, beside their father. The priest notes with a certain satisfaction that the knocking on the estate's walls stopped with the last funeral.",
+  "easy": "The papers of the first generation end here. The parish records say that the family's scientists died in the following years, one at a time, of different illnesses and at different ages. They were buried in the cemetery of {0}, near their father. The priest writes, rather pleased, that the knocking on the estate's walls ended with the last funeral.",
+  "short": "The first generation's scientists died in the years that followed and were buried in {0}, beside their father. With the last funeral, the priest notes, the knocking stopped."
  },
  "G1DomChiusura.4": {
-  "full": "He also notes, with less satisfaction, that none of those funerals could be held after sunset: as soon as it grew dark, the bearers refused to lift the coffin. They said someone inside was knocking."
+  "full": "He also notes, with less satisfaction, that none of those funerals could be held after sunset: as soon as it grew dark, the bearers refused to lift the coffin. They said someone inside was knocking.",
+  "easy": "He also writes, less pleased, that none of those funerals could take place after sunset: when it got dark, the men would no longer lift the coffin. They said someone inside was knocking.",
+  "short": "But no funeral could be held after sunset: in the dark, the bearers heard knocking inside the coffin."
  },
  "G1DomChiusura.5": {
   "full": "Remove all pieces from the board and perform the End of the Generation. Return unused {icon:StorybookToken} tokens and the players' Charity tokens {icon:S1_HeartToken} to the supply."
@@ -552,10 +653,14 @@
   "full": "**Dr Halász's note to the file.**"
  },
  "G2Intro.3": {
-  "full": "The second crate opens with a gap of seventeen years. The papers of the first generation stop in 1856; the next begin in the spring of 1873, when the heirs' children took possession of the estate, the laboratory and the Journal, which had by then grown to two and a half volumes."
+  "full": "The second crate opens with a gap of seventeen years. The papers of the first generation stop in 1856; the next begin in the spring of 1873, when the heirs' children took possession of the estate, the laboratory and the Journal, which had by then grown to two and a half volumes.",
+  "easy": "The second crate jumps forward seventeen years. The papers of the first generation end in 1856. The others begin in the spring of 1873, when the heirs' children took over the estate, the laboratory and the Journal, which was now two and a half volumes long.",
+  "short": "The second crate resumes in 1873: the heirs' children take the estate, the laboratory and the Journal, now two and a half volumes."
  },
  "G2Intro.4": {
-  "full": "The village had grown. Where the wooden houses had stood there were half-timbered ones with painted beams, a paved street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but no less stubborn. And there was, as one of the new heirs wrote in a letter to a sister, \"this thing they call the veil here, as if it were a matter of weather, like the rain or the fog\"."
+  "full": "The village had grown. Where the wooden houses had stood there were half-timbered ones with painted beams, a paved street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but no less stubborn. And there was, as one of the new heirs wrote in a letter to a sister, \"this thing they call the veil here, as if it were a matter of weather, like the rain or the fog\".",
+  "easy": "The village was bigger. Instead of wooden houses there were houses with painted beams, a stone street, a post office, two inns and a doctor. The priest was still Father Anzelm, older and thinner, but as stubborn as before. And there was, one of the new heirs writes to a sister, \"this thing they call the veil here, as if it were the weather, like the rain or the fog\".",
+  "short": "The village has grown; Father Anzelm is older but as stubborn as ever. And there is \"this thing they call the veil here, like the rain or the fog\"."
  },
  "G2Intro.6": {
   "full": "Take the **Vanity Estate Upgrades** from the **The Cost of Disease** Scenario Box and add them to those available."
@@ -564,16 +669,24 @@
   "full": "**The Séance of the Ancestors**"
  },
  "G2Antenati.2": {
-  "full": "Madame Vámos had not aged: so, at least, everyone swore. The Circle of the Last Hour no longer hid. It had premises on the square, a band for funerals and two hundred members, and that year it bought the land behind the town hall to build a temple on."
+  "full": "Madame Vámos had not aged: so, at least, everyone swore. The Circle of the Last Hour no longer hid. It had premises on the square, a band for funerals and two hundred members, and that year it bought the land behind the town hall to build a temple on.",
+  "easy": "Madame Vámos had not grown older: at least, that is what everyone said. The Circle of the Last Hour no longer hid. It had premises on the square, a band for funerals and two hundred members, and that year it bought the land behind the town hall to build a temple.",
+  "short": "Madame Vámos had not aged, and the Circle, now two hundred strong, bought land to build a temple."
  },
  "G2Antenati.3": {
-  "full": "Of the woman in the wagon only the stories remained, and a curious habit: every now and then an eye drawn in charcoal appeared on the doors of the houses of {0}. No one admitted to drawing it, and no one rubbed it out. The Circle of the Last Hour, people said, still met; but no one knew where, or who belonged to it."
+  "full": "Of the woman in the wagon only the stories remained, and a curious habit: every now and then an eye drawn in charcoal appeared on the doors of the houses of {0}. No one admitted to drawing it, and no one rubbed it out. The Circle of the Last Hour, people said, still met; but no one knew where, or who belonged to it.",
+  "easy": "Of the woman in the wagon only the stories were left, and a strange habit: every now and then, on the doors of the houses of {0}, an eye drawn in charcoal appeared. No one said they had drawn it, and no one rubbed it out. People said the Circle of the Last Hour still met, but no one knew where, or who belonged to it.",
+  "short": "Of the woman in the wagon only stories remained, and charcoal eyes on the doors of {0}. The Circle still met, no one knew where."
  },
  "G2Antenati.4": {
-  "full": "The knocking on the walls had stopped with the last funeral of the first generation, and for seventeen years the estate had been a house like any other: cold in winter, damp in summer, full of things no one dared throw away."
+  "full": "The knocking on the walls had stopped with the last funeral of the first generation, and for seventeen years the estate had been a house like any other: cold in winter, damp in summer, full of things no one dared throw away.",
+  "easy": "The knocking on the walls had ended with the last funeral of the first generation. For seventeen years the estate had been a normal house: cold in winter, damp in summer, full of things no one had the courage to throw away.",
+  "short": "For seventeen years the estate had been quiet, like any other house."
  },
  "G2Antenati.5": {
-  "full": "The first night the new heirs sleep there, the knocking begins again. But this time, after the knocking, come the voices; and they are voices each of them knows very well, because they belong to those who brought them into the world."
+  "full": "The first night the new heirs sleep there, the knocking begins again. But this time, after the knocking, come the voices; and they are voices each of them knows very well, because they belong to those who brought them into the world.",
+  "easy": "The first night the new heirs sleep there, the knocking starts again. But this time, after the knocking, the voices come. They are voices each of them knows very well: they are the voices of their parents.",
+  "short": "On the first night the knocking returns, and after it the voices: their parents' voices."
  },
  "G2Antenati.6": {
   "full": "Each player in turn reads their ancestor's message without showing it to the others. They may tell it, lie about it or keep quiet."
@@ -582,76 +695,116 @@
   "full": "**A Voice from the Other Side**"
  },
  "G2AntA.3": {
-  "full": "The voice comes before the knocking: a dense whisper, without pauses, that neither greets you nor asks how you are. It speaks of formulae, of proportions, of an error in the third notebook that must be corrected at once, at once, before it is too late. You recognise the voice of the one who brought you into the world, and you recognise the tone too: it is the same as on the nights when no one came out of the laboratory."
+  "full": "The voice comes before the knocking: a dense whisper, without pauses, that neither greets you nor asks how you are. It speaks of formulae, of proportions, of an error in the third notebook that must be corrected at once, at once, before it is too late. You recognise the voice of the one who brought you into the world, and you recognise the tone too: it is the same as on the nights when no one came out of the laboratory.",
+  "easy": "The voice comes before the knocking. It is a fast whisper, with no pauses, that does not greet you or ask how you are. It talks about formulae, numbers, a mistake in the third notebook that must be fixed now, before it is too late. It is the voice of your father or your mother, and you know the tone too: the same as on the nights spent shut in the laboratory.",
+  "short": "A whisper without pauses: formulae, numbers, a mistake to fix at once. It is your parent's voice, in the tone of nights in the laboratory."
  },
  "G2AntA.4": {
-  "full": "\"You finish it,\" it repeats. \"You finish it, you finish it.\" At dawn your hand aches and there are three dense pages in a handwriting that is not yours."
+  "full": "\"You finish it,\" it repeats. \"You finish it, you finish it.\" At dawn your hand aches and there are three dense pages in a handwriting that is not yours.",
+  "easy": "\"You finish it,\" it says again and again. \"You finish it, you finish it.\" At dawn your hand hurts and you have three full pages in handwriting that is not yours.",
+  "short": "\"You finish it.\" At dawn you have three pages in a hand not your own."
  },
  "G2AntA.5": {
-  "full": "It is not knocking: it is a quick, irregular tapping, like fingers drumming on a table in impatience. Then the voice, feverish, halfway through a sentence begun who knows when: \"...and the numbers don't add up, they never add up, but you'll make them add up...\""
+  "full": "It is not knocking: it is a quick, irregular tapping, like fingers drumming on a table in impatience. Then the voice, feverish, halfway through a sentence begun who knows when: \"...and the numbers don't add up, they never add up, but you'll make them add up...\"",
+  "easy": "It is not knocking: it is a fast, uneven tapping, like fingers beating on a table out of impatience. Then the voice comes, agitated, in the middle of a sentence started who knows when: \"...and the numbers don't add up, they never add up, but you'll make them add up...\"",
+  "short": "An impatient tapping, then the voice: \"...the numbers never add up, but you'll make them add up...\""
  },
  "G2AntA.6": {
-  "full": "You try to ask whether they are suffering. They do not listen; they never listened to you. When the tapping stops, you realise that you are drumming too, to the same rhythm, and cannot stop."
+  "full": "You try to ask whether they are suffering. They do not listen; they never listened to you. When the tapping stops, you realise that you are drumming too, to the same rhythm, and cannot stop.",
+  "easy": "You try to ask if they are suffering. They do not listen to you, just as they never did. When the tapping ends, you notice that you are tapping your fingers too, with the same rhythm, and you cannot stop.",
+  "short": "They do not listen, as always. Then you notice that you are drumming too, and cannot stop."
  },
  "G2AntA.7": {
   "full": "Draw a Compulsion card."
  },
  "G2AntA.8": {
-  "full": "There is only one knock, gentle, like a hand laid on the door. Then the voice, calm, almost amused: it asks whether you are eating enough, whether the greenhouse roof still leaks, whether you remember the miller's widow. \"Tell her I'm well,\" it says."
+  "full": "There is only one knock, gentle, like a hand laid on the door. Then the voice, calm, almost amused: it asks whether you are eating enough, whether the greenhouse roof still leaks, whether you remember the miller's widow. \"Tell her I'm well,\" it says.",
+  "easy": "There is just one knock, soft, like a hand resting on the door. Then the voice, calm, almost amused: it asks if you eat enough, if the greenhouse roof still has holes, if you remember the miller's widow. \"Tell her I'm well,\" it says.",
+  "short": "One gentle knock, then a calm voice asking if you eat enough. \"Tell the miller's widow I'm well.\""
  },
  "G2AntA.9": {
-  "full": "You understand it is not speaking of itself. It is speaking of all the families it comforted in life, who now, on the other side, keep it company. Before leaving it blesses you, as it used to when you set off on a journey."
+  "full": "You understand it is not speaking of itself. It is speaking of all the families it comforted in life, who now, on the other side, keep it company. Before leaving it blesses you, as it used to when you set off on a journey.",
+  "easy": "You understand that it is not talking about itself. It is talking about all the families it helped in life, who now, on the other side, stay close to it. Before leaving it blesses you, as it did when you went on a journey.",
+  "short": "The families it comforted in life now keep it company. Before leaving, it blesses you."
  },
  "G2AntA.10": {
-  "full": "The room smells of warm bread and lavender: the smell of the estate kitchen, many years ago. The voice does not knock. It speaks softly, as at a sickbed, and tells you that it is not cold on the other side, and that the people it comforted in life came to welcome it."
+  "full": "The room smells of warm bread and lavender: the smell of the estate kitchen, many years ago. The voice does not knock. It speaks softly, as at a sickbed, and tells you that it is not cold on the other side, and that the people it comforted in life came to welcome it.",
+  "easy": "The room smells of warm bread and lavender: the smell of the estate kitchen, many years ago. The voice does not knock. It speaks softly, as next to a sick person's bed, and tells you that it is not cold on the other side, and that the people it helped in life came to welcome it.",
+  "short": "A smell of warm bread and lavender. A gentle voice tells you it is not cold on the other side, and that it is not alone."
  },
  "G2AntA.11": {
-  "full": "\"You have time,\" it says. \"Use it for the living.\" In the morning, on the bedside table, there is something that was not there the night before."
+  "full": "\"You have time,\" it says. \"Use it for the living.\" In the morning, on the bedside table, there is something that was not there the night before.",
+  "easy": "\"You have time,\" it says. \"Use it for the living.\" In the morning, on the bedside table, there is something that was not there the evening before.",
+  "short": "\"Use your time for the living.\" In the morning there is a gift on the bedside table."
  },
  "G2AntA.12": {
   "full": "Gain $2 or 1 Knowledge of your choice."
  },
  "G2AntA.13": {
-  "full": "The voice is low and wary, like someone speaking in a room where someone else is listening. \"Listen carefully, because I won't be able to say it again. Many years ago I made a promise to the Circle, to a man with a black carnation. I thought I had sold something worthless. I was wrong.\""
+  "full": "The voice is low and wary, like someone speaking in a room where someone else is listening. \"Listen carefully, because I won't be able to say it again. Many years ago I made a promise to the Circle, to a man with a black carnation. I thought I had sold something worthless. I was wrong.\"",
+  "easy": "The voice is low and careful, like someone speaking in a room where another person is listening. \"Listen carefully, because I won't be able to say this again. Many years ago I made a promise to the Circle, to a man with a black carnation. I thought I had sold something worth nothing. I was wrong.\"",
+  "short": "A low, wary voice: \"Long ago I made a promise to the Circle. I thought it was worth little. I was wrong.\""
  },
  "G2AntA.14": {
-  "full": "Then it tells you what was promised, word for word, and who will have to open the door when the Circle knocks: you. \"Tell no one,\" it ends. \"But remember it. The day will come when you need to know how a promise is broken.\""
+  "full": "Then it tells you what was promised, word for word, and who will have to open the door when the Circle knocks: you. \"Tell no one,\" it ends. \"But remember it. The day will come when you need to know how a promise is broken.\"",
+  "easy": "Then it tells you exactly what was promised, and who will have to open the door when the Circle knocks: you. \"Tell no one,\" it says at the end. \"But remember it. One day you will need to know how to break a promise.\"",
+  "short": "It tells you the promise, word for word: you will be the one to open the door. \"Remember it. One day you must know how to break it.\""
  },
  "G2AntA.15": {
-  "full": "Before the voice comes the smell: carnations and freshly dug earth. \"The Circle is watching you,\" it whispers. \"It watches all of us: those who signed and those born of those who signed.\""
+  "full": "Before the voice comes the smell: carnations and freshly dug earth. \"The Circle is watching you,\" it whispers. \"It watches all of us: those who signed and those born of those who signed.\"",
+  "easy": "Before the voice comes the smell: carnations and freshly dug earth. \"The Circle is watching you,\" it whispers. \"It watches all of us: those who signed and those born to those who signed.\"",
+  "short": "A smell of carnations and earth. \"The Circle is watching you: those who signed, and their children.\""
  },
  "G2AntA.16": {
-  "full": "It tells you of the envelope, of the pages written by a dead hand, of the promise to open a door. Then it tells you something the Circle does not know you know: the promise binds the blood, but the blood can choose not to keep it. At a price. What that price is, it has no time to say: the knocking stops halfway."
+  "full": "It tells you of the envelope, of the pages written by a dead hand, of the promise to open a door. Then it tells you something the Circle does not know you know: the promise binds the blood, but the blood can choose not to keep it. At a price. What that price is, it has no time to say: the knocking stops halfway.",
+  "easy": "It tells you about the envelope, the pages written by a dead hand and the promise to open a door. Then it tells you something the Circle does not know you know: the promise binds the whole family, but the family can choose not to keep it. There is a price, though. What it is, the voice cannot say: the knocking stops halfway.",
+  "short": "The promise binds the blood, but the blood may choose not to keep it. At a price, which the broken-off knocking never names."
  },
  "G2AntA.17": {
   "full": "Gain 1 Occult Knowledge. The Storybook will remember this secret."
  },
  "G2AntA.18": {
-  "full": "One knock, two, one: the same rhythm you heard told a thousand times at the table, by the voice that is speaking to you now. \"That night I answered before anyone else,\" it says. \"The door opened a little for me, and it never closed again.\""
+  "full": "One knock, two, one: the same rhythm you heard told a thousand times at the table, by the voice that is speaking to you now. \"That night I answered before anyone else,\" it says. \"The door opened a little for me, and it never closed again.\"",
+  "easy": "One knock, two, one: the same rhythm you heard described a thousand times at the table, by the voice that is speaking to you now. \"That night I answered first,\" it says. \"The door opened a little for me, and it never closed again.\"",
+  "short": "One, two, one. \"That night I answered first. The door opened a little, and never closed again.\""
  },
  "G2AntA.19": {
-  "full": "Then, hurriedly, like someone afraid of being interrupted, it dictates to you the beginning of an experiment it never had the courage to attempt in life. You write until the candle burns out."
+  "full": "Then, hurriedly, like someone afraid of being interrupted, it dictates to you the beginning of an experiment it never had the courage to attempt in life. You write until the candle burns out.",
+  "easy": "Then, quickly, like someone afraid of being interrupted, it dictates the start of an experiment it never had the courage to try in life. You write until the candle is finished.",
+  "short": "It hurriedly dictates an experiment it never dared try in life. You write until the candle dies."
  },
  "G2AntA.20": {
-  "full": "The voice wastes no time on greetings. \"You know how to answer, don't you? Once for yes, twice for no. I taught you, even if you don't remember: I used to tap on the side of your cradle, and you laughed.\""
+  "full": "The voice wastes no time on greetings. \"You know how to answer, don't you? Once for yes, twice for no. I taught you, even if you don't remember: I used to tap on the side of your cradle, and you laughed.\"",
+  "easy": "The voice does not waste time on greetings. \"You know how to answer, don't you? Once for yes, twice for no. I taught you, even if you don't remember: I tapped on your cradle, and you laughed.\"",
+  "short": "\"You know how to answer, don't you? Once for yes, twice for no. I taught you, in your cradle.\""
  },
  "G2AntA.21": {
-  "full": "A shiver. \"I answered, the first night, and since then everyone over here can hear me. Now they can hear you too.\" When the voice falls silent, there is the outline of an experiment on the table, and on the bedroom wall there are knuckle marks, small ones, at the height of a cradle."
+  "full": "A shiver. \"I answered, the first night, and since then everyone over here can hear me. Now they can hear you too.\" When the voice falls silent, there is the outline of an experiment on the table, and on the bedroom wall there are knuckle marks, small ones, at the height of a cradle.",
+  "easy": "You shiver. \"I answered, the first night, and since then everyone here can hear me. Now they can hear you too.\" When the voice stops, there is the drawing of an experiment on the table. And on the bedroom wall there are small knuckle marks, at the height of a cradle.",
+  "short": "\"Since I answered, everyone over here can hear me. Now they hear you too.\" The outline of an experiment is left on the table."
  },
  "G2AntA.22": {
   "full": "Gain 1 {icon:Insanity_Icon} and draw an Experiment from the deck of your choice."
  },
  "G2AntA.23": {
-  "full": "Distant, irregular knocking, like someone knocking at another house, in another street. You answer: nothing happens. You call out: the silence grows thicker."
+  "full": "Distant, irregular knocking, like someone knocking at another house, in another street. You answer: nothing happens. You call out: the silence grows thicker.",
+  "easy": "Distant, uneven knocking, like someone knocking at another house, in another street. You answer, but nothing happens. You call out, and the silence gets deeper.",
+  "short": "Distant knocking. You answer, you call: only silence."
  },
  "G2AntA.24": {
-  "full": "Perhaps the one who brought you into the world does not want to speak to you. Perhaps they cannot. Perhaps, you think with a relief you are a little ashamed of, they are simply resting in peace."
+  "full": "Perhaps the one who brought you into the world does not want to speak to you. Perhaps they cannot. Perhaps, you think with a relief you are a little ashamed of, they are simply resting in peace.",
+  "easy": "Maybe your father or your mother does not want to talk to you. Maybe they cannot. Or maybe, you think with a relief that makes you a little ashamed, they are just resting in peace.",
+  "short": "Maybe they will not speak to you. Maybe they are simply at peace."
  },
  "G2AntA.25": {
-  "full": "You wait until dawn with the candle lit. You hear knocking on the walls of the other rooms, muffled voices, weeping, a laugh. On your wall, nothing."
+  "full": "You wait until dawn with the candle lit. You hear knocking on the walls of the other rooms, muffled voices, weeping, a laugh. On your wall, nothing.",
+  "easy": "You wait until dawn with the candle lit. You hear knocking on the walls of the other rooms, faraway voices, crying, a laugh. On your wall, nothing.",
+  "short": "Until dawn you hear knocks and voices in the other rooms. On your wall, nothing."
  },
  "G2AntA.26": {
-  "full": "Only towards five does a very faint knock come, just one, which might mean yes, or might only be the wood settling in the cold."
+  "full": "Only towards five does a very faint knock come, just one, which might mean yes, or might only be the wood settling in the cold.",
+  "easy": "Only around five does a very soft knock come, just one. Maybe it means yes. Or maybe it is only the wood moving in the cold.",
+  "short": "At five, one knock: perhaps a yes, perhaps the wood settling."
  },
  "G2AntA.27": {
   "full": "Nothing happens."
@@ -660,10 +813,13 @@
   "full": "**The Silence**"
  },
  "G2AntFine.2": {
-  "full": "At dawn the voices fall silent. At breakfast the family is strangely courteous: the butter is passed, the weather discussed, and everyone avoids meeting anyone's eye."
+  "full": "At dawn the voices fall silent. At breakfast the family is strangely courteous: the butter is passed, the weather discussed, and everyone avoids meeting anyone's eye.",
+  "easy": "At dawn the voices stop. At breakfast the family is strangely polite: they pass the butter, talk about the weather and no one looks anyone else in the eye.",
+  "short": "At breakfast everyone is polite, and no one meets anyone's eye."
  },
  "G2AntFine.3": {
-  "full": "Each of them heard something. No one knows what the others heard. And all of them, at least for a moment, thought about lying."
+  "full": "Each of them heard something. No one knows what the others heard. And all of them, at least for a moment, thought about lying.",
+  "easy": "Each of them heard something. No one knows what the others heard. And all of them, at least for a moment, thought about telling a lie."
  },
  "G2R1.1": {
   "full": "**THE FOG – Early Years**"
@@ -687,7 +843,8 @@
   "full": "When one of your pieces visits the Church, you may pay $2 for a mass for your dead:"
  },
  "G2R1.11": {
-  "full": "In the second volume of the Journal, between a recipe and a farrier's bill, there is the drawing of a machine for talking with the dead."
+  "full": "In the second volume of the Journal, between a recipe and a farrier's bill, there is the drawing of a machine for talking with the dead.",
+  "easy": "In the second volume of the Journal, between a recipe and a blacksmith's bill, there is the drawing of a machine for talking to the dead."
  },
  "round.G2R1.end": {
   "full": "The Early Years of the Second Generation have ended."
@@ -696,10 +853,14 @@
   "full": "**The Temple**"
  },
  "G2Tempio.2": {
-  "full": "You pay the masons in cash, in front of everyone. The Temple's foundations rise quickly, more quickly than they should: the masons say that at night someone works in their place, and that in the morning they find the stones already squared."
+  "full": "You pay the masons in cash, in front of everyone. The Temple's foundations rise quickly, more quickly than they should: the masons say that at night someone works in their place, and that in the morning they find the stones already squared.",
+  "easy": "You pay the builders in cash, in front of everyone. The Temple's foundations grow fast, too fast: the builders say that at night someone works in their place, and that in the morning they find the stones already cut.",
+  "short": "You pay the masons. The Temple rises too fast: at night, they say, someone works in their place."
  },
  "G2Tempio.3": {
-  "full": "Madame Vámos comes to see the building site. She shakes your hand and calls you by name in front of everyone, as one does with family. That evening the widows of the Circle light a candle for your dead."
+  "full": "Madame Vámos comes to see the building site. She shakes your hand and calls you by name in front of everyone, as one does with family. That evening the widows of the Circle light a candle for your dead.",
+  "easy": "Madame Vámos comes to see the building site. She shakes your hand and calls you by name in front of everyone, as people do with family. That evening the widows of the Circle light a candle for your dead.",
+  "short": "Madame Vámos calls you by name in front of everyone, and the Circle's widows light a candle for your dead."
  },
  "G2Tempio.4": {
   "full": "Gain 1 Charity token {icon:S1_HeartToken}."
@@ -708,10 +869,13 @@
   "full": "**The Mass**"
  },
  "G2Messa.2": {
-  "full": "Old Father Anzelm says a mass for your family's dead, in the empty church, with a single altar boy who yawns. At the end he takes you by the arm, with a strength you did not expect. \"I buried them all, your people,\" he says. \"Let them stay where I put them.\""
+  "full": "Old Father Anzelm says a mass for your family's dead, in the empty church, with a single altar boy who yawns. At the end he takes you by the arm, with a strength you did not expect. \"I buried them all, your people,\" he says. \"Let them stay where I put them.\"",
+  "easy": "Old Father Anzelm says a mass for your family's dead, in the empty church, with only one altar boy, who yawns. At the end he takes your arm, with a strength you did not expect. \"I buried them all, your family,\" he says. \"Let them stay where I put them.\"",
+  "short": "After mass, old Father Anzelm grips your arm: \"I buried them all, your people. Let them stay where I put them.\""
  },
  "G2Messa.3": {
-  "full": "That night, for the first time in months, no one knocks in your room, and you sleep until broad daylight."
+  "full": "That night, for the first time in months, no one knocks in your room, and you sleep until broad daylight.",
+  "easy": "That night, for the first time in months, no one knocks in your room, and you sleep until it is full daylight."
  },
  "G2Messa.4": {
   "full": "Move back 1 space on the {icon:Insanity_Icon} track."
@@ -723,13 +887,19 @@
   "full": "**Diary of {0} – *1875.***"
  },
  "G2Telegrafo.3": {
-  "full": "In the second volume of the Journal, between a recipe for preserving tissue and a farrier's bill, I found the design. Three plates drawn in Indian ink, with a care Grandfather gave to nothing else. He calls it the **Telegraph of the Dead**."
+  "full": "In the second volume of the Journal, between a recipe for preserving tissue and a farrier's bill, I found the design. Three plates drawn in Indian ink, with a care Grandfather gave to nothing else. He calls it the **Telegraph of the Dead**.",
+  "easy": "In the second volume of the Journal, between a recipe for preserving tissue and a blacksmith's bill, I found the design. There are three drawings in ink, made with a care Grandfather gave to nothing else. He calls it the **Telegraph of the Dead**.",
+  "short": "In the Journal I found Grandfather's design, drawn with rare care: the **Telegraph of the Dead**."
  },
  "G2Telegrafo.4": {
-  "full": "A battery of glass jars; miles of copper wire wound around a soft-iron core; a keyboard of twenty-six bone keys; and at its centre a needle suspended in a flask full of a gas he calls \"veil air\". According to his calculations the dead do not speak: they alter the current, ever so slightly. A sensitive enough needle is all it takes to read them."
+  "full": "A battery of glass jars; miles of copper wire wound around a soft-iron core; a keyboard of twenty-six bone keys; and at its centre a needle suspended in a flask full of a gas he calls \"veil air\". According to his calculations the dead do not speak: they alter the current, ever so slightly. A sensitive enough needle is all it takes to read them.",
+  "easy": "There are glass jars connected together, miles of copper wire wound around a piece of iron, a keyboard of twenty-six bone keys. In the middle there is a needle inside a flask full of a gas he calls \"veil air\". According to his calculations the dead do not speak: they change the electric current, very slightly. A very sensitive needle is enough to read them.",
+  "short": "Glass jars, copper wire, a bone keyboard and a needle in a flask of \"veil air\". The dead, he believed, barely move the current: a sensitive needle can read them."
  },
  "G2Telegrafo.5": {
-  "full": "In the margin of the third plate there is a note in pencil: *\"I did not have the time. They will.\"* Building the first stage requires gears, many more than we have in the house. Each of us will have to decide how much work to take away from our own experiments."
+  "full": "In the margin of the third plate there is a note in pencil: *\"I did not have the time. They will.\"* Building the first stage requires gears, many more than we have in the house. Each of us will have to decide how much work to take away from our own experiments.",
+  "easy": "On the edge of the third drawing there is a note in pencil: *\"I did not have the time. They will.\"* To build the first part we need many gears, many more than we have in the house. Each of us will have to decide how much work to take away from our own experiments.",
+  "short": "In the margin, in pencil: *\"I did not have the time. They will.\"* It needs gears, and each of us must decide how many to spare."
  },
  "G2TelegrafoOfferta.1": {
   "full": "**Who Contributes?**"
@@ -747,19 +917,26 @@
   "full": "How many {icon:Gears_Icon} did you offer in total?"
  },
  "G2TelegrafoEsito.3": {
-  "full": "The first stage of the Telegraph takes up an entire wall of the laboratory. On the night they switch it on, the glass jars hum, the lamps dim throughout the house and the needle, in its flask, begins to tremble."
+  "full": "The first stage of the Telegraph takes up an entire wall of the laboratory. On the night they switch it on, the glass jars hum, the lamps dim throughout the house and the needle, in its flask, begins to tremble.",
+  "easy": "The first part of the Telegraph takes up a whole wall of the laboratory. On the night they switch it on, the glass jars hum, the lights in the whole house get dimmer and the needle, inside the flask, starts to shake.",
+  "short": "The Telegraph fills a whole wall. When they switch it on, the lights dim and the needle begins to tremble."
  },
  "G2TelegrafoEsito.4": {
-  "full": "It is not the trembling of the current: it is slower, more stubborn, like a finger searching for a letter on a keyboard. It stops on a bone key. Then on another. Before anyone can read the word, a fuse blows, and in the dark, for a moment, someone laughs."
+  "full": "It is not the trembling of the current: it is slower, more stubborn, like a finger searching for a letter on a keyboard. It stops on a bone key. Then on another. Before anyone can read the word, a fuse blows, and in the dark, for a moment, someone laughs.",
+  "easy": "It is not shaking because of the current: it moves more slowly and more surely, like a finger looking for a letter on a keyboard. It stops on a bone key. Then on another. Before anyone can read the word, a fuse blows, and in the dark, for a moment, someone laughs.",
+  "short": "The needle seeks letters, key by key. Before the word can be read a fuse blows, and in the dark someone laughs."
  },
  "G2TelegrafoEsito.5": {
   "full": "The offered {icon:Gears_Icon} return to the supply. Whoever offered the most gains 3VP (in case of a tie, all tied players do)."
  },
  "G2TelegrafoEsito.6": {
-  "full": "The gears collected are barely enough for the base. The design goes back into the drawer, under the second volume of the Journal, and the pieces go back to those who offered them."
+  "full": "The gears collected are barely enough for the base. The design goes back into the drawer, under the second volume of the Journal, and the pieces go back to those who offered them.",
+  "easy": "The gears collected are only just enough for the base. The design goes back in the drawer, under the second volume of the Journal, and the pieces go back to the people who gave them.",
+  "short": "There are not enough gears. The design goes back into the drawer."
  },
  "G2TelegrafoEsito.7": {
-  "full": "That night the knocking on the walls is slower than usual, almost dragging. If the dead can be disappointed, they are."
+  "full": "That night the knocking on the walls is slower than usual, almost dragging. If the dead can be disappointed, they are.",
+  "easy": "That night the knocking on the walls is slower than usual, almost tired. If the dead can be disappointed, they are."
  },
  "G2TelegrafoEsito.8": {
   "full": "The offered {icon:Gears_Icon} return to the players."
@@ -771,10 +948,14 @@
   "full": "**{0} Gazette – *autumn 1876.***"
  },
  "G2Nebbia.3": {
-  "full": "**THE FOG WILL NOT LIFT.** For eleven days a dense, whitish fog has covered {0} from dawn to dusk, and from dusk to dawn. The district doctor speaks of miasmas from the pond; the apothecary, of fumes from the estate; Father Anzelm, of a punishment. Lanterns light no further than three paces. Yesterday the coach arrived six hours late: the coachman swears he drove in circles around the cemetery all night."
+  "full": "**THE FOG WILL NOT LIFT.** For eleven days a dense, whitish fog has covered {0} from dawn to dusk, and from dusk to dawn. The district doctor speaks of miasmas from the pond; the apothecary, of fumes from the estate; Father Anzelm, of a punishment. Lanterns light no further than three paces. Yesterday the coach arrived six hours late: the coachman swears he drove in circles around the cemetery all night.",
+  "easy": "**THE FOG WILL NOT LIFT.** For eleven days a thick white fog has covered {0} day and night. The doctor says it comes from the pond, the chemist says it comes from the estate, Father Anzelm says it is a punishment. Lanterns light only three steps ahead. Yesterday the coach arrived six hours late: the driver swears he went round and round the cemetery all night.",
+  "short": "**THE FOG WILL NOT LIFT.** For eleven days fog has covered {0} day and night. The coach circled the cemetery all night."
  },
  "G2Nebbia.4": {
-  "full": "Stranger still are the accounts this newspaper continues to receive. Mrs Tóth saw her husband, nine years dead, waiting for her at the corner by the apothecary. The baker heard his mother calling him from the oven. Three children played all afternoon with a friend none of the adults saw, and whose name no one knows. Readers are advised not to go out unless necessary, and not to answer anyone who calls their name from the fog."
+  "full": "Stranger still are the accounts this newspaper continues to receive. Mrs Tóth saw her husband, nine years dead, waiting for her at the corner by the apothecary. The baker heard his mother calling him from the oven. Three children played all afternoon with a friend none of the adults saw, and whose name no one knows. Readers are advised not to go out unless necessary, and not to answer anyone who calls their name from the fog.",
+  "easy": "Even stranger are the stories that reach the newspaper. Mrs Tóth saw her husband, dead for nine years, waiting for her at the corner by the chemist's. The baker heard his mother calling him from the oven. Three children played all afternoon with a friend no adult saw, and whose name no one knows. We advise readers not to go out unless they must, and not to answer anyone who calls their name from the fog.",
+  "short": "The dead are seen in the fog: a husband nine years buried, a mother calling from the oven, a nameless child. Do not answer anyone who calls you from the fog."
  },
  "G2Nebbia.6": {
   "full": "From the **The Cost of Disease** Scenario Box, take the **Creepy tokens** {icon:Creepy_Icon}: they are the **Presences**."
@@ -810,7 +991,8 @@
   "full": "Father Anzelm treats the \"possessed\" in the Asylum Program. When one of your pieces visits it,"
  },
  "G2R2.11": {
-  "full": "In the fog the veil is as thin as wet paper. Someone means to take advantage of it."
+  "full": "In the fog the veil is as thin as wet paper. Someone means to take advantage of it.",
+  "easy": "In the fog the veil is as thin as wet paper. Someone wants to use it for their own good."
  },
  "round.G2R2.end": {
   "full": "The Middle Years of the Second Generation have ended."
@@ -819,37 +1001,53 @@
   "full": "**A Private Séance**"
  },
  "G2Pub.3": {
-  "full": "In the little room at the back of the Pub, behind a velvet curtain, Madame Vámos receives anyone who buys the landlord a drink and asks no questions."
+  "full": "In the little room at the back of the Pub, behind a velvet curtain, Madame Vámos receives anyone who buys the landlord a drink and asks no questions.",
+  "easy": "In the small room at the back of the Pub, behind a velvet curtain, Madame Vámos sees anyone who buys the landlord a drink and asks no questions.",
+  "short": "At the back of the Pub, Madame Vámos receives those who ask no questions."
  },
  "G2Pub.4": {
-  "full": "Madame Vámos is gone, but her chair, in the little room at the back of the Pub, is still in its place. Whoever sits down before it, hands on the little table, hears her voice."
+  "full": "Madame Vámos is gone, but her chair, in the little room at the back of the Pub, is still in its place. Whoever sits down before it, hands on the little table, hears her voice.",
+  "easy": "Madame Vámos is gone, but her chair is still in the small room at the back of the Pub. Whoever sits in front of it, with their hands on the little table, hears her voice.",
+  "short": "Madame is gone, but whoever sits before her chair still hears her voice."
  },
  "G2Pub.5": {
-  "full": "In the little room at the back of the Pub a pale girl, who says she was a pupil of the woman in the wagon, holds séances for a few coins."
+  "full": "In the little room at the back of the Pub a pale girl, who says she was a pupil of the woman in the wagon, holds séances for a few coins.",
+  "easy": "In the small room at the back of the Pub a pale girl, who says she studied with the woman in the wagon, holds séances for a little money.",
+  "short": "At the back of the Pub, a pupil of the woman in the wagon holds séances for a few coins."
  },
  "G2Pub.6": {
-  "full": "The medium's voice turns hoarse and masculine: it is a miller who died of cholera, she says, who trusted banks even less than priests. He describes a loose brick behind the stove of an abandoned mill. You go there the next day, the fog up to your knees. The brick is there. Behind it is a tin box full of coins, and no one, as far as you know, will ever come to claim it."
+  "full": "The medium's voice turns hoarse and masculine: it is a miller who died of cholera, she says, who trusted banks even less than priests. He describes a loose brick behind the stove of an abandoned mill. You go there the next day, the fog up to your knees. The brick is there. Behind it is a tin box full of coins, and no one, as far as you know, will ever come to claim it.",
+  "easy": "The medium's voice becomes rough, like a man's: it is a miller who died of cholera, she says, who trusted banks even less than priests. He describes a loose brick behind the stove of an abandoned mill. You go there the next day, with fog up to your knees. The brick is there. Behind it is a tin box full of coins, and no one, as far as you know, will ever come to take it.",
+  "short": "A miller who died of cholera speaks and points you to a loose brick in an abandoned mill. Behind it is a box of coins no one will claim."
  },
  "G2Pub.7": {
   "full": "Gain $3."
  },
  "G2Pub.8": {
-  "full": "The medium's hands grip yours for a long time. Then a name comes: that of the person in town who fears you most and spreads rumours about you. It is a name you know. The next day you call on them with a basket of fruit and a smile. The rumours, mysteriously, die away."
+  "full": "The medium's hands grip yours for a long time. Then a name comes: that of the person in town who fears you most and spreads rumours about you. It is a name you know. The next day you call on them with a basket of fruit and a smile. The rumours, mysteriously, die away.",
+  "easy": "The medium holds your hands for a long time. Then she says a name: that of the person in town who is most afraid of you and says bad things about you. You know that name. The next day you visit them with a basket of fruit and a smile. The rumours, strangely, stop.",
+  "short": "The medium names the one spreading rumours about you. A visit with a basket of fruit, and the rumours die away."
  },
  "G2Pub.9": {
   "full": "Move back 1 space on the {icon:Creepy_Icon} track."
  },
  "G2Pub.10": {
-  "full": "In the middle of a sentence the medium's voice changes: it becomes lower, slower, with an accent you have only heard in family stories. It is Grandfather. He calls you by name, your name, and tells you that in the fog the veil is as thin as wet paper, and that a single finger would be enough to pierce it. Then the candle goes out, and the voice falls silent."
+  "full": "In the middle of a sentence the medium's voice changes: it becomes lower, slower, with an accent you have only heard in family stories. It is Grandfather. He calls you by name, your name, and tells you that in the fog the veil is as thin as wet paper, and that a single finger would be enough to pierce it. Then the candle goes out, and the voice falls silent.",
+  "easy": "In the middle of a sentence the medium's voice changes: it gets lower and slower, with an accent you have only heard in family stories. It is Grandfather. He calls you by name and tells you that in the fog the veil is as thin as wet paper: one finger would be enough to make a hole in it. Then the candle goes out, and the voice is silent.",
+  "short": "The medium's voice becomes Grandfather's: \"In the fog the veil is as thin as wet paper. One finger could pierce it.\" Then the candle goes out."
  },
  "G2Asilo.1": {
   "full": "**The Cure**"
  },
  "G2Asilo.2": {
-  "full": "The Asylum Program is an old whitewashed barracks, with barred windows and an iron cross on the gate. Father Anzelm, stooped now, runs it with the help of two nuns and an enormous orderly who never speaks. The fog has brought the \"possessed\" here: people who speak with voices not their own, who write in languages they never studied, who knock on the walls for hours."
+  "full": "The Asylum Program is an old whitewashed barracks, with barred windows and an iron cross on the gate. Father Anzelm, stooped now, runs it with the help of two nuns and an enormous orderly who never speaks. The fog has brought the \"possessed\" here: people who speak with voices not their own, who write in languages they never studied, who knock on the walls for hours.",
+  "easy": "The Asylum Program is an old barracks painted white, with bars on the windows and an iron cross on the gate. Father Anzelm, bent with age now, runs it with two nuns and a huge orderly who never speaks. The fog has brought the \"possessed\" here: people who speak with voices not their own, who write in languages they never learned, who knock on the walls for hours.",
+  "short": "At the Asylum Program, Father Anzelm treats the fog's \"possessed\": people who speak in others' voices and knock on the walls for hours."
  },
  "G2Asilo.3": {
-  "full": "The cure is harsh: icy baths, prayers, leather straps, silence. In some way it does you good to see how thin the line is between them and you. But the man in cell number seven, when you pass, stops knocking and greets you by your name, in your grandfather's voice."
+  "full": "The cure is harsh: icy baths, prayers, leather straps, silence. In some way it does you good to see how thin the line is between them and you. But the man in cell number seven, when you pass, stops knocking and greets you by your name, in your grandfather's voice.",
+  "easy": "The cure is hard: freezing baths, prayers, leather straps, silence. In a way it does you good to see how small the difference is between them and you. But the man in cell number seven, when you walk past, stops knocking and says hello using your name, and your grandfather's voice.",
+  "short": "The cure is harsh, and it does you good. But the man in cell seven greets you by name, in your grandfather's voice."
  },
  "G2Asilo.4": {
   "full": "Move back 2 spaces on the {icon:Insanity_Icon} track and gain 1 {icon:Creepy_Icon}."
@@ -861,19 +1059,29 @@
   "full": "**Séance minutes no. 113 – {0}, *All Saints' night, 1878.***"
  },
  "G2GrandeSeduta.3": {
-  "full": "For All Saints' night Madame Vámos summons the whole village to the Temple of the Circle, or to what has been built of it. Two hundred come, with lanterns, through the fog. In the middle of the hall stands a round table, with a chair for each heir of the estate and two more: one for Madame, one empty."
+  "full": "For All Saints' night Madame Vámos summons the whole village to the Temple of the Circle, or to what has been built of it. Two hundred come, with lanterns, through the fog. In the middle of the hall stands a round table, with a chair for each heir of the estate and two more: one for Madame, one empty.",
+  "easy": "For All Saints' night Madame Vámos invites the whole village to the Temple of the Circle, or to the part of it that has been built. Two hundred people come, with lanterns, through the fog. In the middle of the hall there is a round table, with a chair for each heir of the estate and two more chairs: one for Madame and one empty.",
+  "short": "On All Saints' night two hundred people cross the fog to the Temple. At the table, a chair for each heir, one for Madame, and one empty."
  },
  "G2GrandeSeduta.4": {
-  "full": "Madame announces that tonight, with the help of the founder's blood, she will try to summon him: the man who first wrote that veils can be lifted. The minutes are taken by {0}, at the medium's wish, \"so that they are written by a hand of the family\"."
+  "full": "Madame announces that tonight, with the help of the founder's blood, she will try to summon him: the man who first wrote that veils can be lifted. The minutes are taken by {0}, at the medium's wish, \"so that they are written by a hand of the family\".",
+  "easy": "Madame says that tonight, with the help of the founder's blood, she will try to call him: the man who first wrote that veils can be lifted. {0} writes the record, because the medium wants it: \"so it is written by a hand of the family\".",
+  "short": "Madame will try to summon the founder, with the help of his blood. {0} takes the minutes, \"a hand of the family\"."
  },
  "G2GrandeSeduta.5": {
-  "full": "Without a medium, the family manages on its own. On All Saints' night the heirs sit around the old table in the laboratory, the one Grandfather used for his experiments in magnetism, with the Journal open at its last page and an empty chair at the head of the table. The minutes are taken by {0}."
+  "full": "Without a medium, the family manages on its own. On All Saints' night the heirs sit around the old table in the laboratory, the one Grandfather used for his experiments in magnetism, with the Journal open at its last page and an empty chair at the head of the table. The minutes are taken by {0}.",
+  "easy": "There is no medium, so the family does it alone. On All Saints' night the heirs sit around the old table in the laboratory, the one Grandfather used for his experiments with magnetism. The Journal is open at the last page and there is an empty chair at the head of the table. {0} writes the record.",
+  "short": "Without a medium, the heirs sit alone around the old laboratory table, an empty chair at its head. {0} takes the minutes."
  },
  "G2GrandeSeduta.6": {
-  "full": "Outside, the fog presses against the windows. None of them has ever conducted a séance; all of them, however, have read enough to know how it is done. That, more than anything else, is what is frightening."
+  "full": "Outside, the fog presses against the windows. None of them has ever conducted a séance; all of them, however, have read enough to know how it is done. That, more than anything else, is what is frightening.",
+  "easy": "Outside, the fog presses against the windows. None of them has ever led a séance, but they have all read enough to know how to do it. That is exactly what is most frightening.",
+  "short": "None of them has ever led a séance, but all of them know how. That is what is frightening."
  },
  "G2GrandeSeduta.7": {
-  "full": "At midnight the candle flame in the middle of the table bends towards the empty chair, as if in a breath of air. It is time to decide."
+  "full": "At midnight the candle flame in the middle of the table bends towards the empty chair, as if in a breath of air. It is time to decide.",
+  "easy": "At midnight the candle flame, in the middle of the table, bends towards the empty chair, as if blown by a breath of air. It is time to decide.",
+  "short": "At midnight the flame bends towards the empty chair. It is time to decide."
  },
  "G2GrandeSedutaVoto.1": {
   "full": "**Summon Father?**"
@@ -894,22 +1102,34 @@
   "full": "**The Ectoplasm**"
  },
  "G2Ectoplasma.2": {
-  "full": "Madame Vámos closes her eyes and stiffens in her chair. Her lips part, and from her mouth a white, luminous substance begins to emerge, slowly, like a smoke with weight. It stretches across the table towards the empty chair and takes the shape of a hand. Then of an arm. Someone screams. The light becomes blinding."
+  "full": "Madame Vámos closes her eyes and stiffens in her chair. Her lips part, and from her mouth a white, luminous substance begins to emerge, slowly, like a smoke with weight. It stretches across the table towards the empty chair and takes the shape of a hand. Then of an arm. Someone screams. The light becomes blinding.",
+  "easy": "Madame Vámos closes her eyes and goes stiff in her chair. She opens her lips, and slowly a white, glowing substance begins to come out of her mouth, like heavy smoke. It stretches across the table towards the empty chair and takes the shape of a hand. Then an arm. Someone screams. The light becomes very bright.",
+  "short": "A white, glowing substance pours from Madame's mouth, stretches towards the empty chair and takes the shape of a hand. The light blinds everyone."
  },
  "G2Ectoplasma.3": {
-  "full": "When the dark returns, there is only her black shawl on Madame's chair. Of her body, no trace. On the table remains a pool of white substance, still warm, which someone, with a trembling hand, gathers into a vial."
+  "full": "When the dark returns, there is only her black shawl on Madame's chair. Of her body, no trace. On the table remains a pool of white substance, still warm, which someone, with a trembling hand, gathers into a vial.",
+  "easy": "When the dark comes back, there is only her black shawl on Madame's chair. Her body is gone. On the table there is a pool of white substance, still warm, and someone, with a shaking hand, puts it into a vial.",
+  "short": "In the dark, only her shawl is left on Madame's chair. Someone gathers the white substance on the table into a vial."
  },
  "G2Ectoplasma.4": {
-  "full": "Madame Vámos throws her head back. From her mouth comes a white, stringy substance that gathers on the table in a small, glowing pool. The empty chair creaks, as if someone had just sat down in it. Then Madame coughs, wipes her lips with a handkerchief and says, in her usual voice: \"He was here.\""
+  "full": "Madame Vámos throws her head back. From her mouth comes a white, stringy substance that gathers on the table in a small, glowing pool. The empty chair creaks, as if someone had just sat down in it. Then Madame coughs, wipes her lips with a handkerchief and says, in her usual voice: \"He was here.\"",
+  "easy": "Madame Vámos tips her head back. From her mouth comes a white, stringy substance that makes a small glowing pool on the table. The empty chair creaks, as if someone had just sat down. Then Madame coughs, wipes her lips with a handkerchief and says, in her normal voice: \"He was here.\"",
+  "short": "A white, glowing substance flows from Madame's mouth; the empty chair creaks. Then Madame wipes her lips: \"He was here.\""
  },
  "G2Ectoplasma.5": {
-  "full": "The doctor, the next day, will say it was gauze soaked in phosphorus. But the substance someone gathers into a vial still glows, months later."
+  "full": "The doctor, the next day, will say it was gauze soaked in phosphorus. But the substance someone gathers into a vial still glows, months later.",
+  "easy": "The next day the doctor will say it was gauze soaked in phosphorus. But the substance someone put in a vial is still glowing, months later.",
+  "short": "Gauze and phosphorus, the doctor will say. But the vial still glows months later."
  },
  "G2Ectoplasma.6": {
-  "full": "At midnight the youngest person at the table begins to speak in a voice that is not their own: low, slow, impatient. It utters three words in a dead language, then coughs, and from their mouth comes a white, stringy substance that glows in the dark."
+  "full": "At midnight the youngest person at the table begins to speak in a voice that is not their own: low, slow, impatient. It utters three words in a dead language, then coughs, and from their mouth comes a white, stringy substance that glows in the dark.",
+  "easy": "At midnight the youngest person at the table starts to speak with a voice that is not their own: low, slow, impatient. It says three words in an ancient language, then coughs, and a white, stringy substance that glows in the dark comes out of their mouth.",
+  "short": "At midnight the youngest speaks in a voice not their own, then coughs up a white substance that glows in the dark."
  },
  "G2Ectoplasma.7": {
-  "full": "In the morning no one remembers who fetched a vial from the laboratory to gather it. But the vial is full."
+  "full": "In the morning no one remembers who fetched a vial from the laboratory to gather it. But the vial is full.",
+  "easy": "In the morning no one remembers who took a vial from the laboratory to collect it. But the vial is full.",
+  "short": "No one remembers who gathered it. But the vial is full."
  },
  "G2Ectoplasma.8": {
   "full": "Whoever has the highest {icon:Insanity_Icon} takes the vial (in case of a tie, the Start Player chooses among those tied)."
@@ -924,19 +1144,27 @@
   "full": "**The Candles Go Out**"
  },
  "G2SedutaInterrotta.2": {
-  "full": "Someone leaps up and throws open the shutters. The candle goes out; the empty chair tips over by itself, with a thud. For a long moment no one breathes."
+  "full": "Someone leaps up and throws open the shutters. The candle goes out; the empty chair tips over by itself, with a thud. For a long moment no one breathes.",
+  "easy": "Someone suddenly stands up and opens the shutters. The candle goes out. The empty chair falls over by itself, with a thud. For a long moment no one breathes.",
+  "short": "Someone throws open the shutters. The candle goes out and the empty chair falls by itself."
  },
  "G2SedutaInterrotta.3": {
-  "full": "Then, outside, the fog thins a little, and for the first time in months the moon can be seen. Whatever was waiting on the other side of the table has gone. But it has gone away angry, and all winter long, at the estate, the doors slam by themselves."
+  "full": "Then, outside, the fog thins a little, and for the first time in months the moon can be seen. Whatever was waiting on the other side of the table has gone. But it has gone away angry, and all winter long, at the estate, the doors slam by themselves.",
+  "easy": "Then, outside, the fog gets a little thinner, and for the first time in months you can see the moon. Whatever was waiting on the other side of the table has gone. But it has gone away angry, and all winter, at the estate, the doors slam by themselves.",
+  "short": "The fog thins and the moon returns. Whatever was waiting has gone, but angry: all winter the doors slam by themselves."
  },
  "G2Segreti.1": {
   "full": "**Madame's Secrets**"
  },
  "G2Segreti.2": {
-  "full": "A few weeks after the séance, Madame Vámos sends each heir a black-edged card. She does not have much time left, she writes; or perhaps she has too much. In any case the moment has come to leave someone her most precious secret: the way not to die entirely."
+  "full": "A few weeks after the séance, Madame Vámos sends each heir a black-edged card. She does not have much time left, she writes; or perhaps she has too much. In any case the moment has come to leave someone her most precious secret: the way not to die entirely.",
+  "easy": "A few weeks after the séance, Madame Vámos sends each heir a card with a black border. She writes that she does not have much time left, or perhaps she has too much. Anyway, the moment has come to leave someone her most precious secret: the way not to die completely.",
+  "short": "Madame Vámos writes to the heirs: it is time to leave someone her most precious secret, the way not to die entirely."
  },
  "G2Segreti.3": {
-  "full": "She will sell it to one person only: whoever can show they care for it most. \"My spiritual children,\" she adds at the bottom of the card, \"will understand that even eternity has a price.\""
+  "full": "She will sell it to one person only: whoever can show they care for it most. \"My spiritual children,\" she adds at the bottom of the card, \"will understand that even eternity has a price.\"",
+  "easy": "She will sell it to only one person: whoever shows they want it most. \"My spiritual children,\" she writes at the end of the card, \"will understand that even eternity costs something.\"",
+  "short": "She will sell it to whoever wants it most: \"even eternity has a price\"."
  },
  "G2Segreti.4": {
   "full": "Each player secretly takes in hand the money they wish to offer. When everyone is ready, reveal your offers together. Whoever offers the most pays and takes an **Immortality card**; the others take back their money."
@@ -972,7 +1200,8 @@
   "full": "When you complete an **Engineering** Experiment, you may give up its VP to work on the Telegraph:"
  },
  "G2R3.14": {
-  "full": "Mayor Bódi, son of the one who sat on the council in 1856, is ill, and is looking for a political heir."
+  "full": "Mayor Bódi, son of the one who sat on the council in 1856, is ill, and is looking for a political heir.",
+  "easy": "Mayor Bódi, son of the man who was on the council in 1856, is ill and is looking for someone to take his place in politics."
  },
  "round.G2R3.end": {
   "full": "The Late Years of the Second Generation have ended."
@@ -981,16 +1210,24 @@
   "full": "**A Copper Wire**"
  },
  "G2Contributo.2": {
-  "full": "With the last wire soldered, the second stage of the Telegraph comes to life. The glass jars light up with a milky glow, the bone keyboard vibrates, and the needle no longer trembles: it moves decisively from key to key and, for the first time, spells out a whole word."
+  "full": "With the last wire soldered, the second stage of the Telegraph comes to life. The glass jars light up with a milky glow, the bone keyboard vibrates, and the needle no longer trembles: it moves decisively from key to key and, for the first time, spells out a whole word.",
+  "easy": "When the last wire is soldered, the second part of the Telegraph switches on. The glass jars give a milk-white light, the bone keyboard vibrates and the needle no longer shakes: it moves surely from key to key and, for the first time, writes a whole word.",
+  "short": "With the last wire soldered, the Telegraph comes alive, and for the first time the needle spells a whole word."
  },
  "G2Contributo.3": {
-  "full": "It is a name. No one in the family knows it; but the next morning, at the cemetery, they find it carved on a headstone the gravedigger swears he has never seen."
+  "full": "It is a name. No one in the family knows it; but the next morning, at the cemetery, they find it carved on a headstone the gravedigger swears he has never seen.",
+  "easy": "It is a name. No one in the family knows it. But the next morning, at the cemetery, they find it written on a headstone the gravedigger swears he has never seen.",
+  "short": "It is an unknown name. The next day they find it on a headstone no one had ever seen."
  },
  "G2Contributo.4": {
-  "full": "Piece by piece, without waiting for anyone's consent, the first stage of the Telegraph is finally mounted against the laboratory wall. When you switch it on, the lamps throughout the house dim, and the needle, in its flask, begins to tremble. It is searching for a letter. It has not found it yet."
+  "full": "Piece by piece, without waiting for anyone's consent, the first stage of the Telegraph is finally mounted against the laboratory wall. When you switch it on, the lamps throughout the house dim, and the needle, in its flask, begins to tremble. It is searching for a letter. It has not found it yet.",
+  "easy": "Piece by piece, without waiting for anyone's permission, the first part of the Telegraph is finally built against the laboratory wall. When you switch it on, the lights in the whole house get dimmer and the needle, inside the flask, starts to shake. It is looking for a letter. It cannot find it yet.",
+  "short": "On your own, you build the Telegraph's first stage. When you switch it on the needle trembles, seeking a letter it cannot yet find."
  },
  "G2Contributo.5": {
-  "full": "You solder another length of wire, calibrate the needle, replace a cracked jar. The machine grows, but the needle stays still: pieces are still missing. As you put the tools away, you seem to hear a knock, impatient, from inside the flask."
+  "full": "You solder another length of wire, calibrate the needle, replace a cracked jar. The machine grows, but the needle stays still: pieces are still missing. As you put the tools away, you seem to hear a knock, impatient, from inside the flask.",
+  "easy": "You solder another piece of wire, adjust the needle, replace a broken jar. The machine grows, but the needle does not move: some pieces are still missing. As you put the tools away, you think you hear an impatient knock inside the flask.",
+  "short": "The machine grows, but the needle stays still. As you put the tools away, an impatient knock comes from the flask."
  },
  "G2Contributo.6": {
   "full": "You do not gain the Experiment's VP: instead, gain 1 Engineering Knowledge."
@@ -1002,10 +1239,14 @@
   "full": "**{0} Gazette – *1881.***"
  },
  "G2Fine.3": {
-  "full": "**THE MAYOR AND HIS FRIENDSHIPS.** Mayor Bódi, who inherited the office from his father as others inherit a watch, has long been ill and does not hide it. Nor does he hide that he is looking, among the notable families of {0}, for someone to protect in the years to come, and to be protected by in turn."
+  "full": "**THE MAYOR AND HIS FRIENDSHIPS.** Mayor Bódi, who inherited the office from his father as others inherit a watch, has long been ill and does not hide it. Nor does he hide that he is looking, among the notable families of {0}, for someone to protect in the years to come, and to be protected by in turn.",
+  "easy": "**THE MAYOR AND HIS FRIENDS.** Mayor Bódi got his job from his father, the way other people inherit a watch. He has been ill for a long time and does not hide it. He also does not hide that he is looking, among the important families of {0}, for someone to protect in the coming years, who will protect him in return.",
+  "short": "**THE MAYOR AND HIS FRIENDSHIPS.** Mayor Bódi, ill, is looking among the families of {0} for someone to protect, and be protected by."
  },
  "G2Fine.4": {
-  "full": "Rumour has it that the families of the estate have already made their offers, in money and in favours. This newspaper is unable to confirm it, and its editor has been asked not to insist."
+  "full": "Rumour has it that the families of the estate have already made their offers, in money and in favours. This newspaper is unable to confirm it, and its editor has been asked not to insist.",
+  "easy": "People say the families of the estate have already made their offers, with money and favours. This newspaper cannot confirm it, and its editor has been asked not to ask questions.",
+  "short": "They say the estate's families have already made their offers. The newspaper cannot confirm it."
  },
  "G2Fine.5": {
   "full": "Each player secretly takes in hand the money they wish to offer. When everyone is ready, reveal your offers together. Whoever offers the most pays and takes the **Mayor Coin**; the others take back their money."
@@ -1023,13 +1264,18 @@
   "full": "**{0}** takes the **Mayor Coin** from the **The Cost of Disease** Scenario Box. In the Third Generation, whoever has the Mayor Coin does not pay the extra $1 when visiting a Location that is already occupied."
  },
  "G2Domande.2": {
-  "full": "The late years pass quickly, as they always do for those with too much to do. The fog rises and falls with the seasons, but never quite goes away: it withdraws into the ditches, the cemetery, behind the estate's greenhouses, and waits."
+  "full": "The late years pass quickly, as they always do for those with too much to do. The fog rises and falls with the seasons, but never quite goes away: it withdraws into the ditches, the cemetery, behind the estate's greenhouses, and waits.",
+  "easy": "The late years go by quickly, as always for people with too many things to do. The fog rises and falls with the seasons, but it never goes away completely: it hides in the ditches, in the cemetery, behind the estate's greenhouses, and waits.",
+  "short": "The late years pass quickly. The fog never quite leaves: it withdraws into the ditches and the cemetery, and waits."
  },
  "G2DomChiusura.3": {
-  "full": "The papers of the second generation also close with a series of funerals. I wanted to check the headstones in person, one by one, with a lantern, because in the fog of the cemetery (yes, it is still there) nothing could be read. The dates are those in the registers. But beneath each date, in smaller letters, the stonemason has also carved the hour; and all those hours fall between midnight and three."
+  "full": "The papers of the second generation also close with a series of funerals. I wanted to check the headstones in person, one by one, with a lantern, because in the fog of the cemetery (yes, it is still there) nothing could be read. The dates are those in the registers. But beneath each date, in smaller letters, the stonemason has also carved the hour; and all those hours fall between midnight and three.",
+  "easy": "The papers of the second generation also end with a series of funerals. I wanted to check the headstones myself, one by one, with a lantern, because in the fog of the cemetery (yes, it is still there) nothing could be read. The dates are the same as in the records. But under each date, in smaller letters, the hour is carved too. And all those hours are between midnight and three.",
+  "short": "The second generation also ends in the cemetery, in the fog. Under each date on the headstones an hour is carved: always between midnight and three."
  },
  "G2DomChiusura.4": {
-  "full": "The stonemason, questioned by a colleague of mine in 1902, declared that he had never carved any hour."
+  "full": "The stonemason, questioned by a colleague of mine in 1902, declared that he had never carved any hour.",
+  "easy": "The stonemason, questioned by a colleague of mine in 1902, said he had never carved any hour."
  },
  "G2DomChiusura.5": {
   "full": "Remove all pieces from the board and perform the End of the Generation. Return unused {icon:StorybookToken} tokens and the players' Charity tokens {icon:S1_HeartToken} to the supply. The Presences {icon:Creepy_Icon} return to the box."
@@ -1044,34 +1290,48 @@
   "full": "LAST OF THE FAMILY BURIED YESTERDAY STOP ESTATE YOURS STOP NOTARY WAITING STOP DO NOT ARRIVE AFTER SUNSET STOP"
  },
  "G3Intro.4": {
-  "full": "The telegram reached the new heirs in distant cities, in offices, laboratories and colleges. When they stepped off the train (for now the train went there too) they found a small town that no longer resembled the village of the family stories: street lamps along the main road, a telegraph office, a bank with columns of imitation marble and, in the café on the square, a phonograph that played Viennese waltzes for anyone who dropped in a coin."
+  "full": "The telegram reached the new heirs in distant cities, in offices, laboratories and colleges. When they stepped off the train (for now the train went there too) they found a small town that no longer resembled the village of the family stories: street lamps along the main road, a telegraph office, a bank with columns of imitation marble and, in the café on the square, a phonograph that played Viennese waltzes for anyone who dropped in a coin.",
+  "easy": "The telegram reached the new heirs in faraway cities, in offices, laboratories, schools. When they got off the train (now the train went there too) they found a small town very different from the village of the family stories. There were street lamps along the main road, a telegraph office, a bank with fake marble columns and, in the café on the square, a phonograph that played Viennese waltzes for anyone who put in a coin.",
+  "short": "The telegram reached the new heirs far away. Off the train, they found a modern little town: street lamps, a telegraph, a bank and a phonograph playing waltzes."
  },
  "G3Citta.1": {
   "full": "**The Town**"
  },
  "G3Citta.2": {
-  "full": "And there was the Circle. The Circle of the Last Hour no longer needed to hide, nor to advertise: it owned the undertaker's, half the buildings on the square and the majority of the town council. Its members wore a small silver eye in their buttonholes, and wore it with pride."
+  "full": "And there was the Circle. The Circle of the Last Hour no longer needed to hide, nor to advertise: it owned the undertaker's, half the buildings on the square and the majority of the town council. Its members wore a small silver eye in their buttonholes, and wore it with pride.",
+  "easy": "And there was the Circle. The Circle of the Last Hour no longer had to hide, and did not need to make itself known: it owned the undertaker's, half the buildings on the square and most of the town council. Its members wore a small silver eye on their jackets, and were proud to wear it.",
+  "short": "The Circle now owned the undertaker's, half the square and the town council. Its members proudly wore a silver eye."
  },
  "G3Citta.3": {
-  "full": "And there was the Church. After years of sermons, trials and excommunications, the bishop had got what he wanted: the Circle of the Last Hour was outlawed, its séances a crime, and whoever spoke with the dead ended up before the church court. Father Benedek, Father Anzelm's successor, kept a register of names; the family's appeared in it more than once."
+  "full": "And there was the Church. After years of sermons, trials and excommunications, the bishop had got what he wanted: the Circle of the Last Hour was outlawed, its séances a crime, and whoever spoke with the dead ended up before the church court. Father Benedek, Father Anzelm's successor, kept a register of names; the family's appeared in it more than once.",
+  "easy": "And there was the Church. After years of sermons, trials and excommunications, the bishop had got what he wanted: the Circle of the Last Hour was banned, its séances were a crime, and anyone who spoke to the dead ended up before the Church court. Father Benedek, who had taken Father Anzelm's place, kept a list of names. The family's name was on it several times.",
+  "short": "The Church had won: the Circle was outlawed and séances a crime. Father Benedek kept a register of names, and the family's appeared more than once."
  },
  "G3Citta.4": {
-  "full": "And there was, still, the old war. The Circle of the Last Hour and the parish of Father Benedek, Father Anzelm's successor, fought over the souls of {0} one by one, with the tenacity of two neighbours quarrelling over a boundary wall. The wall, in this case, was the veil."
+  "full": "And there was, still, the old war. The Circle of the Last Hour and the parish of Father Benedek, Father Anzelm's successor, fought over the souls of {0} one by one, with the tenacity of two neighbours quarrelling over a boundary wall. The wall, in this case, was the veil.",
+  "easy": "And the old war was still going on. The Circle of the Last Hour and the parish of Father Benedek, who had taken Father Anzelm's place, fought over the souls of {0} one at a time, like two neighbours quarrelling over the wall between their land. In this case, the wall was the veil.",
+  "short": "The Circle and Father Benedek's parish still fought over the souls of {0}, like neighbours over a boundary wall. The wall was the veil."
  },
  "G3Citta.5": {
-  "full": "Madame Vámos, to hear people tell it, was the same age as fifty years before. No one knew where she lived. Everyone knew where to find her."
+  "full": "Madame Vámos, to hear people tell it, was the same age as fifty years before. No one knew where she lived. Everyone knew where to find her.",
+  "easy": "People said that Madame Vámos was the same age as fifty years before. No one knew where she lived. Everyone knew where to find her."
  },
  "G3Citta.6": {
-  "full": "Of Madame Vámos there remained a black shawl, displayed under glass in the Temple of the Circle, and an empty chair no one dared move."
+  "full": "Of Madame Vámos there remained a black shawl, displayed under glass in the Temple of the Circle, and an empty chair no one dared move.",
+  "easy": "Of Madame Vámos there was only a black shawl, kept in a glass case in the Temple of the Circle, and an empty chair that no one dared to move."
  },
  "G3Antenati.1": {
   "full": "**The Second Séance of the Ancestors**"
  },
  "G3Antenati.2": {
-  "full": "Now the family's dead are two generations. On the first night at the estate the knocking begins again, punctual as a clock, but denser: two different rhythms that overlap, interrupt and correct each other."
+  "full": "Now the family's dead are two generations. On the first night at the estate the knocking begins again, punctual as a clock, but denser: two different rhythms that overlap, interrupt and correct each other.",
+  "easy": "Now the family's dead are two generations. On the first night at the estate the knocking starts again, regular as a clock, but faster: two different rhythms that mix, interrupt and correct each other.",
+  "short": "On the first night the knocking returns, but now there are two rhythms, correcting each other."
  },
  "G3Antenati.3": {
-  "full": "When the voices come, each heir hears two: that of their parent, and an older, fainter one, known only from portraits. They do not always agree."
+  "full": "When the voices come, each heir hears two: that of their parent, and an older, fainter one, known only from portraits. They do not always agree.",
+  "easy": "When the voices come, each heir hears two: their parent's, and an older, weaker one that they know only from portraits. They do not always agree.",
+  "short": "Each heir hears two voices: a parent and an older ancestor. They do not always agree."
  },
  "G3Antenati.4": {
   "full": "Each player in turn reads their ancestors' message without showing it to the others. They may tell it, lie about it or keep quiet."
@@ -1080,70 +1340,102 @@
   "full": "**Two Voices**"
  },
  "G3AntA.3": {
-  "full": "The two voices speak together, one over the other, about the same thing: a formula, an obsession, an idea that consumed two lives and now seeks a third. When one stops to draw breath, the other finishes the sentence."
+  "full": "The two voices speak together, one over the other, about the same thing: a formula, an obsession, an idea that consumed two lives and now seeks a third. When one stops to draw breath, the other finishes the sentence.",
+  "easy": "The two voices talk together, one over the other, about the same thing: a formula, an obsession, an idea that has used up two lives and now looks for a third. When one stops to breathe, the other finishes the sentence.",
+  "short": "Two voices, one obsession, which consumed two lives and now seeks a third."
  },
  "G3AntA.4": {
-  "full": "They do not quarrel. They agree on everything, and that is what frightens you. At dawn you realise you are finishing their sentences out loud."
+  "full": "They do not quarrel. They agree on everything, and that is what frightens you. At dawn you realise you are finishing their sentences out loud.",
+  "easy": "They do not argue. They agree about everything, and that is what scares you. At dawn you notice you are finishing their sentences out loud.",
+  "short": "They agree on everything. At dawn you are finishing their sentences aloud."
  },
  "G3AntA.5": {
-  "full": "\"It runs in the family,\" says the older voice, with a kind of pride. \"It runs in the family,\" repeats your parent's voice, with a kind of apology."
+  "full": "\"It runs in the family,\" says the older voice, with a kind of pride. \"It runs in the family,\" repeats your parent's voice, with a kind of apology.",
+  "easy": "\"It runs in the family,\" says the older voice, almost proudly. \"It runs in the family,\" your parent's voice repeats, almost as if saying sorry."
  },
  "G3AntA.6": {
-  "full": "Then both explain to you, all night long, an idea that will never leave you. In the morning you do not remember the words. You remember only that you must do something, and that you must do it soon."
+  "full": "Then both explain to you, all night long, an idea that will never leave you. In the morning you do not remember the words. You remember only that you must do something, and that you must do it soon.",
+  "easy": "Then both of them explain to you, all night, an idea that will never leave you. In the morning you do not remember the words. You only remember that you must do something, and that you must do it soon.",
+  "short": "All night they explain an idea to you. In the morning you only know you must act, and soon."
  },
  "G3AntA.7": {
   "full": "Draw two Compulsion cards and keep one."
  },
  "G3AntA.8": {
-  "full": "Your parent's voice is feverish: it speaks in a rush, contradicts itself, starts over, asks you to finish a piece of work it does not explain. Then, softly, the other, older voice breaks in: \"Calm. Let the living breathe.\""
+  "full": "Your parent's voice is feverish: it speaks in a rush, contradicts itself, starts over, asks you to finish a piece of work it does not explain. Then, softly, the other, older voice breaks in: \"Calm. Let the living breathe.\"",
+  "easy": "Your parent's voice is agitated: it speaks fast, says one thing and then the opposite, starts again, asks you to finish a job without saying which. Then, softly, the other, older voice speaks: \"Calm. Let the living breathe.\"",
+  "short": "Your parent's voice is feverish and confused. The other, older one calms it: \"Let the living breathe.\""
  },
  "G3AntA.9": {
-  "full": "For a while the feverish voice falls silent. But before dawn it returns, alone, and whispers one last thing in your ear."
+  "full": "For a while the feverish voice falls silent. But before dawn it returns, alone, and whispers one last thing in your ear.",
+  "easy": "For a while the agitated voice is quiet. But before dawn it comes back, alone, and whispers one last thing in your ear."
  },
  "G3AntA.10": {
-  "full": "Quick, nervous knocking, like fingers that cannot keep still. It is the voice you know best, but you have never heard it like this: anxious, hungry, full of numbers. The older voice tries to cover it with an old family lullaby, out of tune and patient."
+  "full": "Quick, nervous knocking, like fingers that cannot keep still. It is the voice you know best, but you have never heard it like this: anxious, hungry, full of numbers. The older voice tries to cover it with an old family lullaby, out of tune and patient.",
+  "easy": "Fast, nervous knocking, like fingers that cannot stay still. It is the voice you know best, but you have never heard it like this: anxious, hungry, full of numbers. The older voice tries to cover it with an old family lullaby, out of tune and patient.",
+  "short": "The voice you know best is anxious and full of numbers. The older one tries to soothe it with a lullaby."
  },
  "G3AntA.11": {
-  "full": "You fall asleep halfway through the lullaby. You wake with an idea in your head that is not yours."
+  "full": "You fall asleep halfway through the lullaby. You wake with an idea in your head that is not yours.",
+  "easy": "You fall asleep in the middle of the lullaby. When you wake up, there is an idea in your head that is not yours."
  },
  "G3AntA.13": {
-  "full": "The two voices come together, and they are serene. They tell you of a crowd on the other side: the families your family has comforted in fifty years of mourning, who have now lined up to give thanks. \"They will not leave you unprotected,\" says the older voice."
+  "full": "The two voices come together, and they are serene. They tell you of a crowd on the other side: the families your family has comforted in fifty years of mourning, who have now lined up to give thanks. \"They will not leave you unprotected,\" says the older voice.",
+  "easy": "The two voices come together, and they are calm. They tell you about a crowd on the other side: the families your family has helped in fifty years of grief. Now they are all in line to say thank you. \"They will not leave you without protection,\" says the older voice.",
+  "short": "On the other side, the families comforted over fifty years have lined up to give thanks. \"They will protect you,\" says the older voice."
  },
  "G3AntA.14": {
-  "full": "In the morning, for the first time since you came here, the neighbourhood dogs greet you joyfully; and in the letterbox there is an unsigned envelope, with money inside."
+  "full": "In the morning, for the first time since you came here, the neighbourhood dogs greet you joyfully; and in the letterbox there is an unsigned envelope, with money inside.",
+  "easy": "In the morning, for the first time since you came here, the neighbours' dogs are happy to see you. And in the letterbox there is an unsigned envelope with money inside.",
+  "short": "In the morning the dogs greet you happily, and there is an envelope of money in the letterbox."
  },
  "G3AntA.15": {
-  "full": "No knocking: a rustle, like many people tiptoeing into a room. Your ancestors' voices introduce you, one at a time, to dozens of strangers: the miller's widow, a child who died of fever, a miner, a seamstress. Each of them shakes your hand, cold and light. \"We owe you a favour,\" they say."
+  "full": "No knocking: a rustle, like many people tiptoeing into a room. Your ancestors' voices introduce you, one at a time, to dozens of strangers: the miller's widow, a child who died of fever, a miner, a seamstress. Each of them shakes your hand, cold and light. \"We owe you a favour,\" they say.",
+  "easy": "No knocking: only a rustle, like many people quietly coming into a room. Your ancestors' voices introduce you, one at a time, to dozens of strangers: the miller's widow, a child who died of fever, a miner, a dressmaker. Each one shakes your hand, cold and light. \"We owe you a favour,\" they say.",
+  "short": "A rustle of footsteps: your ancestors introduce you to dozens of dead the family once comforted. \"We owe you a favour.\""
  },
  "G3AntA.16": {
-  "full": "The next day, in town, people greet you in the street, and the grocer will not take your money."
+  "full": "The next day, in town, people greet you in the street, and the grocer will not take your money.",
+  "easy": "The next day, in town, people say hello to you in the street, and the grocer does not want your money."
  },
  "G3AntA.17": {
   "full": "Move back 2 spaces on the {icon:Creepy_Icon} track and gain $2."
  },
  "G3AntA.18": {
-  "full": "Your parent's voice is low, like someone afraid of being overheard. \"The promise to the Circle. You don't know it, but I do: it was revealed to me by the one who came before me, and now it's your turn to carry it.\""
+  "full": "Your parent's voice is low, like someone afraid of being overheard. \"The promise to the Circle. You don't know it, but I do: it was revealed to me by the one who came before me, and now it's your turn to carry it.\"",
+  "easy": "Your parent's voice is low, like someone afraid of being heard. \"The promise to the Circle. You don't know it, but I do: the one who came before me told me, and now it's your turn to carry it.\"",
+  "short": "\"The promise to the Circle. The one before me revealed it to me. Now it's your turn.\""
  },
  "G3AntA.19": {
-  "full": "Then the older voice, faint, adds the rest: how the promise is broken, and how it can be made to cost dearly to whoever demanded it. It has you write everything on the back of a family photograph."
+  "full": "Then the older voice, faint, adds the rest: how the promise is broken, and how it can be made to cost dearly to whoever demanded it. It has you write everything on the back of a family photograph.",
+  "easy": "Then the older voice, weak, tells you the rest: how to break the promise, and how to make the one who wanted it pay dearly. It makes you write everything on the back of a family photograph.",
+  "short": "The older voice tells you how to break the promise, and make it cost dearly. You write it all on the back of a photograph."
  },
  "G3AntA.20": {
-  "full": "\"The Circle will knock,\" says the older voice. \"It will knock for you, because it was I who signed.\" \"And you will not open,\" adds the other, \"or you will open on our terms.\""
+  "full": "\"The Circle will knock,\" says the older voice. \"It will knock for you, because it was I who signed.\" \"And you will not open,\" adds the other, \"or you will open on our terms.\"",
+  "easy": "\"The Circle will knock,\" says the older voice. \"It will knock at your door, because I was the one who signed.\" \"And you will not open,\" says the other, \"or you will open on our terms.\"",
+  "short": "\"The Circle will knock for you.\" \"And you will not open, or you will open on our terms.\""
  },
  "G3AntA.21": {
-  "full": "All night long the two voices teach you the exact words, the dates, the names: enough to break the promise, or to blackmail those who keep it. In the morning you have a file of notes and a very clear idea of what it is worth."
+  "full": "All night long the two voices teach you the exact words, the dates, the names: enough to break the promise, or to blackmail those who keep it. In the morning you have a file of notes and a very clear idea of what it is worth.",
+  "easy": "All night the two voices teach you the exact words, the dates, the names: enough to break the promise, or to blackmail the people who keep it. In the morning you have a folder of notes and you know very well what it is worth.",
+  "short": "All night you learn words, dates and names: enough to break the promise, or blackmail those who keep it."
  },
  "G3AntA.22": {
   "full": "Gain 2 Occult Knowledge."
  },
  "G3AntA.23": {
-  "full": "The voices are weak and distant, as on a crackling telegraph line. You make out your name, then a word that might be \"careful\" or \"patience\", and then nothing more."
+  "full": "The voices are weak and distant, as on a crackling telegraph line. You make out your name, then a word that might be \"careful\" or \"patience\", and then nothing more.",
+  "easy": "The voices are weak and far away, like on a bad telegraph line. You hear your name, then a word that may be \"careful\" or may be \"patience\", and then nothing more.",
+  "short": "Faint, crackling voices: your name, an unclear word, then nothing."
  },
  "G3AntA.24": {
   "full": "For your family the veil is still thick. Perhaps that is a blessing."
  },
  "G3AntA.25": {
-  "full": "You wait a long time. At last come two very faint knocks, one for each of the voices you hoped to hear; and then a rustle of paper, as if someone were leafing through a book on the other side of the wall."
+  "full": "You wait a long time. At last come two very faint knocks, one for each of the voices you hoped to hear; and then a rustle of paper, as if someone were leafing through a book on the other side of the wall.",
+  "easy": "You wait a long time. In the end two very soft knocks come, one for each of the voices you hoped to hear. Then a rustle of paper, as if someone were turning the pages of a book on the other side of the wall.",
+  "short": "After a long wait, two faint knocks and a rustle of pages behind the wall."
  },
  "G3AntA.26": {
   "full": "In the morning the Journal is open at a page of notes that will be useful to you."
@@ -1155,10 +1447,14 @@
   "full": "**The Morning**"
  },
  "G3AntFine.2": {
-  "full": "The next morning, even before breakfast, someone knocks at the front door. Knocks normally, thank goodness. It is an elderly man, with a white beard and a doctor's bag, who introduces himself as Dr Lukács, professor at the University and, by his own account, \"the last reasonable man in {0}\"."
+  "full": "The next morning, even before breakfast, someone knocks at the front door. Knocks normally, thank goodness. It is an elderly man, with a white beard and a doctor's bag, who introduces himself as Dr Lukács, professor at the University and, by his own account, \"the last reasonable man in {0}\".",
+  "easy": "The next morning, even before breakfast, someone knocks at the front door. Luckily, they knock in a normal way. It is an old man with a white beard and a doctor's bag. He says he is Dr Lukács, professor at the University and, in his own words, \"the last reasonable man in {0}\".",
+  "short": "In the morning Dr Lukács of the University knocks, normally, thank goodness: \"the last reasonable man in {0}\"."
  },
  "G3AntFine.3": {
-  "full": "Lukács is seventy, has an excellent memory and a single obsession: to prove that no one in {0} has ever spoken with the dead. \"I attended the Circle's séances for twenty years, taking notes,\" he says. \"I have seen tables fly and ghosts made of gauze and phosphorus. I have gathered evidence. All I need is someone from the family willing to help me.\""
+  "full": "Lukács is seventy, has an excellent memory and a single obsession: to prove that no one in {0} has ever spoken with the dead. \"I attended the Circle's séances for twenty years, taking notes,\" he says. \"I have seen tables fly and ghosts made of gauze and phosphorus. I have gathered evidence. All I need is someone from the family willing to help me.\"",
+  "easy": "Lukács is seventy, has an excellent memory and only one obsession: to prove that no one in {0} has ever spoken to the dead. \"I went to the Circle's séances for twenty years and took notes,\" he says. \"I have seen tables fly and ghosts made of gauze and phosphorus. I have collected evidence. I only need someone from the family who wants to help me.\"",
+  "short": "Lukács wants to prove that no one in {0} ever spoke with the dead. He has twenty years of notes and evidence: he needs someone from the family."
  },
  "G3R1.1": {
   "full": "**THE GREAT SÉANCE – Early Years**"
@@ -1179,7 +1475,8 @@
   "full": "When one of your pieces visits the Funeral Home,"
  },
  "G3R1.10": {
-  "full": "New shops open on the square, all in the same month, all paid for in cash."
+  "full": "New shops open on the square, all in the same month, all paid for in cash.",
+  "easy": "New shops open on the square, all in the same month and all paid for in cash."
  },
  "round.G3R1.end": {
   "full": "The Early Years of the Third Generation have ended."
@@ -1188,10 +1485,14 @@
   "full": "**The Evidence**"
  },
  "G3Lukacs.2": {
-  "full": "In his study at the University Dr Lukács has put together a small museum of fraud. There are threads of black silk, very fine, for lifting a table; a pair of shoes with hollow heels, for knocking on the floor without moving one's hands; a gauze mask still stained with phosphorus; and a bundle of receipts from a smith, made out to the Circle of the Last Hour, for \"work on the walls\" of private houses."
+  "full": "In his study at the University Dr Lukács has put together a small museum of fraud. There are threads of black silk, very fine, for lifting a table; a pair of shoes with hollow heels, for knocking on the floor without moving one's hands; a gauze mask still stained with phosphorus; and a bundle of receipts from a smith, made out to the Circle of the Last Hour, for \"work on the walls\" of private houses.",
+  "easy": "In his study at the University Dr Lukács has made a small museum of tricks. There are very thin black silk threads for lifting a table; a pair of shoes with hollow heels, for knocking on the floor without using your hands; a gauze mask still dirty with phosphorus; and many receipts from a blacksmith, in the name of the Circle of the Last Hour, for \"work on the walls\" in private houses.",
+  "short": "Lukács has a small museum of fraud: silk threads to lift tables, shoes for knocking, a phosphorus mask and receipts from a smith the Circle paid for \"work on the walls\"."
  },
  "G3Lukacs.3": {
-  "full": "You help him catalogue everything, compare the dates, piece together who knew what. It is long, painstaking, reassuring work. When you leave, the world seems a simpler place."
+  "full": "You help him catalogue everything, compare the dates, piece together who knew what. It is long, painstaking, reassuring work. When you leave, the world seems a simpler place.",
+  "easy": "You help him put everything in order, compare the dates, work out who knew what. It is long, careful work, and it calms you. When you leave, the world seems simpler.",
+  "short": "You help him sort the evidence. When you leave, the world seems simpler."
  },
  "G3Lukacs.4": {
   "full": "Gain 1 Chemistry Knowledge and move back 1 space on the {icon:Creepy_Icon} track."
@@ -1200,10 +1501,14 @@
   "full": "**The Undertaker's**"
  },
  "G3Pompe.2": {
-  "full": "The Circle's undertaker's is the most elegant in the region: black marble, violet velvet, an organ that plays by itself. Here the dead are washed, perfumed, dressed in white and buried with a silver bell tied to the wrist, joined by a cord to another bell above the grave. \"So that they can ring,\" the director explains with a professional smile. \"Should they ever wish to.\""
+  "full": "The Circle's undertaker's is the most elegant in the region: black marble, violet velvet, an organ that plays by itself. Here the dead are washed, perfumed, dressed in white and buried with a silver bell tied to the wrist, joined by a cord to another bell above the grave. \"So that they can ring,\" the director explains with a professional smile. \"Should they ever wish to.\"",
+  "easy": "The Circle's undertaker's is the most elegant in the region: black marble, purple velvet, an organ that plays by itself. Here the dead are washed, perfumed, dressed in white and buried with a silver bell on the wrist. A cord connects it to another bell above the grave. \"So they can ring,\" the director explains with a professional smile. \"If they ever want to.\"",
+  "short": "At the Circle's undertaker's the dead are buried with a bell on the wrist, joined to one above the grave. \"Should they ever wish to ring,\" the director smiles."
  },
  "G3Pompe.3": {
-  "full": "In the back room he shows you the burial register. Beside several names, in pencil, there is a small cross and a date later than the funeral: the days on which the bell rang. Then he offers you, at a special price, something for your laboratory. You do not ask which coffin it came from."
+  "full": "In the back room he shows you the burial register. Beside several names, in pencil, there is a small cross and a date later than the funeral: the days on which the bell rang. Then he offers you, at a special price, something for your laboratory. You do not ask which coffin it came from.",
+  "easy": "In the back room he shows you the burial book. Next to several names, in pencil, there is a small cross and a date after the funeral: the days when the bell rang. Then he offers you, at a good price, something for your laboratory. You do not ask which coffin it came from.",
+  "short": "In the register, beside some names, is the date the bell rang. Then he sells you something for the laboratory. You do not ask where it came from."
  },
  "G3Pompe.4": {
   "full": "Gain 1 {icon:Bodies_Icon} and 1 {icon:Creepy_Icon}."
@@ -1215,10 +1520,14 @@
   "full": "**{0} Gazette – *1901.***"
  },
  "G3Facciate.3": {
-  "full": "**NEW SHOPS, FEW CUSTOMERS.** In the last month several new shops have opened in {0}, one after another, all with freshly painted signs and spotless windows. According to the land registry they were paid for in cash by a Budapest company whose partners no one knows. None seems to have many customers; all stay open late."
+  "full": "**NEW SHOPS, FEW CUSTOMERS.** In the last month several new shops have opened in {0}, one after another, all with freshly painted signs and spotless windows. According to the land registry they were paid for in cash by a Budapest company whose partners no one knows. None seems to have many customers; all stay open late.",
+  "easy": "**NEW SHOPS, FEW CUSTOMERS.** In the last month some new shops have opened in {0}, one after another, all with freshly painted signs and perfect windows. According to the land office, a Budapest company paid for them in cash, but no one knows who its partners are. None of the shops seems to have many customers, but they all stay open late.",
+  "short": "**NEW SHOPS, FEW CUSTOMERS.** New shops in {0}, paid in cash by a mysterious Budapest company. Few customers, yet they stay open late."
  },
  "G3Facciate.4": {
-  "full": "Dr Lukács, asked by this newspaper, has no doubt: they are fronts for the Circle of the Last Hour, behind which the spiritualist society carries on its activities away from prying eyes. The Circle, asked in its turn, replied with a black-edged card: \"Trade, too, is a form of consolation.\""
+  "full": "Dr Lukács, asked by this newspaper, has no doubt: they are fronts for the Circle of the Last Hour, behind which the spiritualist society carries on its activities away from prying eyes. The Circle, asked in its turn, replied with a black-edged card: \"Trade, too, is a form of consolation.\"",
+  "easy": "Dr Lukács, interviewed by this newspaper, is sure: these shops are a cover for the Circle of the Last Hour, which carries on its activities behind them in secret. The Circle replied with a black-bordered card: \"Trade is also a way to console.\"",
+  "short": "Lukács says they are fronts for the Circle. The Circle replies: \"Trade, too, is a form of consolation.\""
  },
  "G3Facciate.6": {
   "full": "From the **The Cost of Disease** Scenario Box, take the **5 Suspicious Buildings**, shuffle them and place **{0}** of them next to the Village Chronicle, shop side up. They are village Locations like any other. Return the others to the box without looking at them."
@@ -1245,10 +1554,14 @@
   "full": "Flip the unmasked Suspicious Buildings, then continue with the Storybook."
  },
  "G3Telegrafo.2": {
-  "full": "You solder the last wire with trembling hands. Before you can even turn the switch, the Telegraph turns itself on: the glass jars light up one after another, like the windows of a house at sunset, and a low hum fills the laboratory, the estate, perhaps the whole town."
+  "full": "You solder the last wire with trembling hands. Before you can even turn the switch, the Telegraph turns itself on: the glass jars light up one after another, like the windows of a house at sunset, and a low hum fills the laboratory, the estate, perhaps the whole town.",
+  "easy": "You solder the last wire with shaking hands. Before you can turn the switch, the Telegraph turns on by itself. The glass jars light up one after another, like the windows of a house at sunset, and a low hum fills the laboratory, the estate, maybe the whole town.",
+  "short": "At the last wire the Telegraph switches itself on, and a hum fills the estate, perhaps the town."
  },
  "G3Telegrafo.3": {
-  "full": "The needle rises, hesitates, then begins to tap on the bone keys, slowly, decisively. It taps out a name: your family's. Then it stops, and waits, like someone who has rung a doorbell."
+  "full": "The needle rises, hesitates, then begins to tap on the bone keys, slowly, decisively. It taps out a name: your family's. Then it stops, and waits, like someone who has rung a doorbell.",
+  "easy": "The needle rises, waits a moment, then begins to tap on the bone keys, slowly and surely. It writes a name: your family's. Then it stops and waits, like someone who has rung a doorbell.",
+  "short": "The needle taps out your family's name, then waits, like someone who has rung a doorbell."
  },
  "G3Telegrafo.4": {
   "full": "You do not gain the Experiment's VP: instead, gain 5VP."
@@ -1260,25 +1573,35 @@
   "full": "How many Suspicious Buildings have been unmasked so far?"
  },
  "G3Conteggio.3": {
-  "full": "**THE SCANDAL OF THE CIRCLE.** The Gazette publishes on its front page, across six columns, the evidence gathered by Dr Lukács: the smith's receipts, the unmasked shops, the confessions of two former members. Membership of the Circle of the Last Hour collapses within a week; on the square someone throws stones at its windows."
+  "full": "**THE SCANDAL OF THE CIRCLE.** The Gazette publishes on its front page, across six columns, the evidence gathered by Dr Lukács: the smith's receipts, the unmasked shops, the confessions of two former members. Membership of the Circle of the Last Hour collapses within a week; on the square someone throws stones at its windows.",
+  "easy": "**THE SCANDAL OF THE CIRCLE.** The Gazette publishes on its front page, across six columns, the evidence found by Dr Lukács: the blacksmith's receipts, the exposed shops, the confessions of two former members. In a week almost everyone leaves the Circle of the Last Hour, and on the square someone throws stones at its windows.",
+  "short": "**THE SCANDAL OF THE CIRCLE.** The Gazette prints Lukács's evidence. Within a week the Circle loses its members, and stones fly on the square."
  },
  "G3Conteggio.4": {
-  "full": "Madame Vámos, summoned by the magistrate, does not appear. They say she has packed her bags; they also say she has no bags to pack."
+  "full": "Madame Vámos, summoned by the magistrate, does not appear. They say she has packed her bags; they also say she has no bags to pack.",
+  "easy": "Madame Vámos is called by the judge, but she does not come. Some say she has packed her bags. Others say she has no bags to pack."
  },
  "G3Conteggio.5": {
-  "full": "At the estate, that night, the knocking on the walls is fainter than usual. Almost shy."
+  "full": "At the estate, that night, the knocking on the walls is fainter than usual. Almost shy.",
+  "easy": "That night, at the estate, the knocking on the walls is softer than usual. Almost shy."
  },
  "G3Conteggio.7": {
-  "full": "No one has touched the fronts. The Circle's shops stay open late, with spotless windows and few customers; Dr Lukács writes furious letters to the Gazette, which does not publish them."
+  "full": "No one has touched the fronts. The Circle's shops stay open late, with spotless windows and few customers; Dr Lukács writes furious letters to the Gazette, which does not publish them.",
+  "easy": "No one has touched the fake shops. The Circle's shops stay open late, with perfect windows and few customers. Dr Lukács writes angry letters to the Gazette, but the Gazette does not print them.",
+  "short": "No one has touched the fronts, and the Gazette does not print Lukács's furious letters."
  },
  "G3Conteggio.8": {
-  "full": "The Circle, in silence, gives thanks: one morning each heir finds a fresh black carnation on the doorstep."
+  "full": "The Circle, in silence, gives thanks: one morning each heir finds a fresh black carnation on the doorstep.",
+  "easy": "The Circle, without a word, says thank you: one morning each heir finds a fresh black carnation in front of the door."
  },
  "G3Conteggio.9": {
-  "full": "One front has fallen, and what was behind it went round the town in a day. But the others are still standing, and the Circle denies everything with great dignity."
+  "full": "One front has fallen, and what was behind it went round the town in a day. But the others are still standing, and the Circle denies everything with great dignity.",
+  "easy": "One fake shop has been exposed, and in a day the whole town knows what it was hiding. But the others are still open, and the Circle denies everything with great dignity.",
+  "short": "One front has fallen, but the others hold, and the Circle denies everything."
  },
  "G3Conteggio.10": {
-  "full": "{0} no longer knows whom to believe. People go to mass on Sundays and to séances on Thursdays, just to be safe."
+  "full": "{0} no longer knows whom to believe. People go to mass on Sundays and to séances on Thursdays, just to be safe.",
+  "easy": "In {0} no one knows whom to believe any more. To be safe, people go to mass on Sunday and to séances on Thursday."
  },
  "G3R3.1": {
   "full": "**THE GREAT SÉANCE – Late Years**"
@@ -1302,7 +1625,8 @@
   "full": "**The Great Séance**"
  },
  "G3R3.10": {
-  "full": "At the end of this Generation, the whole town will sit down around the same table."
+  "full": "At the end of this Generation, the whole town will sit down around the same table.",
+  "easy": "At the end of this Generation, the whole town will sit at the same table."
  },
  "round.G3R3.end": {
   "full": "The Late Years of the Third Generation have ended."
@@ -1314,25 +1638,33 @@
   "full": "**Last séance minutes – {0}, *31 December 1905.***"
  },
  "G3GrandeSeduta.3": {
-  "full": "On the last night of 1905 {0} gathers in the great hall of the town hall: the mayor, the council, the Circle, the parish, Dr Lukács with his notebook and, in the middle, the family of the estate. Two hundred people seated in concentric circles, hands joined with their neighbours', the lamps out. No one remembers who called the meeting. Everyone, however, has come."
+  "full": "On the last night of 1905 {0} gathers in the great hall of the town hall: the mayor, the council, the Circle, the parish, Dr Lukács with his notebook and, in the middle, the family of the estate. Two hundred people seated in concentric circles, hands joined with their neighbours', the lamps out. No one remembers who called the meeting. Everyone, however, has come.",
+  "easy": "On the last night of 1905 all of {0} meets in the great hall of the town hall: the mayor, the council, the Circle, the parish, Dr Lukács with his notebook and, in the middle, the family of the estate. Two hundred people sit in circles, each holding their neighbours' hands, and the lights are off. No one remembers who called them. But everyone has come.",
+  "short": "On the last night of 1905 two hundred people sit in circles in the town hall of {0}, hand in hand, in the dark. No one knows who summoned them, but all have come."
  },
  "G3GrandeSeduta.4": {
-  "full": "At a quarter to midnight the knocking begins. Not on the walls: everywhere. In the floor, in the ceiling, in the chairs, in each person's chest. Fifty-seven years after that first night, the veil has never been so thin."
+  "full": "At a quarter to midnight the knocking begins. Not on the walls: everywhere. In the floor, in the ceiling, in the chairs, in each person's chest. Fifty-seven years after that first night, the veil has never been so thin.",
+  "easy": "At a quarter to twelve the knocking begins. Not on the walls: everywhere. In the floor, in the ceiling, in the chairs, in everyone's chest. Fifty-seven years after that first night, the veil has never been so thin.",
+  "short": "At a quarter to midnight the knocking starts everywhere, even in their chests. The veil has never been so thin."
  },
  "G3GrandeSeduta.5": {
-  "full": "Someone has brought the Telegraph from the estate on a cart and connected it to the town hall's electric wires. The needle taps by itself, impatient, awaiting instructions."
+  "full": "Someone has brought the Telegraph from the estate on a cart and connected it to the town hall's electric wires. The needle taps by itself, impatient, awaiting instructions.",
+  "easy": "Someone has brought the Telegraph from the estate on a cart and connected it to the town hall's electric wires. The needle taps by itself, impatient, waiting for instructions.",
+  "short": "The Telegraph, wired to the town hall's lights, taps by itself, impatient."
  },
  "G3GrandeSeduta.6": {
   "full": "The Telegraph is on. Now it can be decided what to make it say."
  },
  "G3GrandeSeduta.8": {
-  "full": "In the air, in the middle of the hall, a thin crack opens, as in a pane of glass. On the other side there is a cold light, and something moving."
+  "full": "In the air, in the middle of the hall, a thin crack opens, as in a pane of glass. On the other side there is a cold light, and something moving.",
+  "easy": "In the air, in the middle of the hall, a thin crack opens, like in glass. On the other side there is a cold light, and something moving."
  },
  "G3GrandeSeduta.9": {
   "full": "The veil tears beneath your fingers."
  },
  "G3GrandeSeduta.11": {
-  "full": "The veil trembles, but holds. When the lamps come back on, every eye is on the Circle's table."
+  "full": "The veil trembles, but holds. When the lamps come back on, every eye is on the Circle's table.",
+  "easy": "The veil shakes, but it holds. When the lights come back on, everyone looks at the Circle's table."
  },
  "G3GrandeSeduta.12": {
   "full": "The veil holds. It remains to decide what to do about the Circle."
@@ -1416,16 +1748,23 @@
   "full": "**Letter from {0} to Dr Halász – *1923.***"
  },
  "FinaleSquarciato.3": {
-  "full": "Dear Doctor, you ask me what happened on the night of 31 December 1905. I will tell you, even though you will not believe me, and even though you need only step out of the sacristy and take a few steps across the square to see it with your own eyes."
+  "full": "Dear Doctor, you ask me what happened on the night of 31 December 1905. I will tell you, even though you will not believe me, and even though you need only step out of the sacristy and take a few steps across the square to see it with your own eyes.",
+  "easy": "Dear Doctor, you ask me what happened on the night of 31 December 1905. I will tell you, even if you will not believe me. And even though you only need to leave the sacristy and walk a little on the square to see it with your own eyes.",
+  "short": "Dear Doctor, you ask about the night of 31 December 1905. You will not believe me, but you need only step into the square to see."
  },
  "FinaleSquarciato.4": {
-  "full": "We voted to open. The Telegraph, or the medium, or our joined hands (I no longer know which was the key) turned in the lock, and the veil tore like an old curtain. There was no flash, no thunder. Only a great cold, and then the door of the hall opening by itself, and people coming in. People we knew. People we had buried."
+  "full": "We voted to open. The Telegraph, or the medium, or our joined hands (I no longer know which was the key) turned in the lock, and the veil tore like an old curtain. There was no flash, no thunder. Only a great cold, and then the door of the hall opening by itself, and people coming in. People we knew. People we had buried.",
+  "easy": "We voted to open. The Telegraph, or the medium, or our joined hands (I no longer know what the key was) turned in the lock, and the veil tore like an old curtain. There was no flash and no thunder. Only a great cold. Then the door of the hall opened by itself, and people came in. People we knew. People we had buried.",
+  "short": "We voted to open, and the veil tore like an old curtain. In a great cold, people we had buried came in through the door."
  },
  "FinaleSquarciato.5": {
-  "full": "They stayed. In {0} the dead walk with the living, sit at their tables, vote in the council, complain about the price of bread. At first you could tell them apart: they were paler, quieter, and cast no shadow. Now it is no longer so simple."
+  "full": "They stayed. In {0} the dead walk with the living, sit at their tables, vote in the council, complain about the price of bread. At first you could tell them apart: they were paler, quieter, and cast no shadow. Now it is no longer so simple.",
+  "easy": "They stayed. In {0} the dead walk with the living, eat at their tables, vote in the council, complain about the price of bread. At first it was easy to recognise them: they were paler, quieter, and had no shadow. Now it is not so easy.",
+  "short": "They stayed. In {0} the dead live among the living. At first you could tell them apart. Not any more."
  },
  "FinaleSquarciato.6": {
-  "full": "You ask me from which side of the veil I am writing to you. Honestly, Doctor, some years ago I stopped asking myself."
+  "full": "You ask me from which side of the veil I am writing to you. Honestly, Doctor, some years ago I stopped asking myself.",
+  "easy": "You ask me which side of the veil I am writing from. Honestly, Doctor, I stopped asking myself some years ago."
  },
  "FinaleSquarciato.7": {
   "full": "THE END?"
@@ -1434,13 +1773,19 @@
   "full": "**The Great Silence**"
  },
  "FinaleSilenzio.3": {
-  "full": "Dear Doctor, the Telegraph was finished. One had only to turn a dial to hear Father's voice; one had only to turn it the other way to close the door for ever. We voted to close it."
+  "full": "Dear Doctor, the Telegraph was finished. One had only to turn a dial to hear Father's voice; one had only to turn it the other way to close the door for ever. We voted to close it.",
+  "easy": "Dear Doctor, the Telegraph was finished. You only had to turn a dial to hear Father's voice, and turn it the other way to close the door for ever. We voted to close it.",
+  "short": "Dear Doctor, with the Telegraph we could hear Father or close the door for ever. We voted to close it."
  },
  "FinaleSilenzio.4": {
-  "full": "The machine screamed for an hour, then fell silent. Since that night no séance has ever worked again: not in {0}, not in Vienna, not in London. Tables stay on the floor, mediums have taken to the stage, and your Society studies nothing with great rigour. I apologise."
+  "full": "The machine screamed for an hour, then fell silent. Since that night no séance has ever worked again: not in {0}, not in Vienna, not in London. Tables stay on the floor, mediums have taken to the stage, and your Society studies nothing with great rigour. I apologise.",
+  "easy": "The machine screamed for an hour, then stopped. Since that night no séance has ever worked again: not in {0}, not in Vienna, not in London. Tables stay on the floor, mediums work in the theatre, and your Society studies nothing very seriously. I am sorry.",
+  "short": "The machine screamed, then fell silent. Since then no séance has worked anywhere. My apologies to your Society."
  },
  "FinaleSilenzio.5": {
-  "full": "Father's voice, too, stayed on the other side. We will never know what he wanted to tell us. Sometimes, at night, I lay my hand on the wall of my room, the one where they used to knock, and wait. The wall is cold, and mute, and I sleep very well."
+  "full": "Father's voice, too, stayed on the other side. We will never know what he wanted to tell us. Sometimes, at night, I lay my hand on the wall of my room, the one where they used to knock, and wait. The wall is cold, and mute, and I sleep very well.",
+  "easy": "Father's voice also stayed on the other side. We will never know what he wanted to tell us. Sometimes, at night, I put my hand on the wall of my room, the one where they used to knock, and wait. The wall is cold and silent, and I sleep very well.",
+  "short": "We will never know what Father wanted to tell us. Sometimes at night I touch the wall where they used to knock. It is silent, and I sleep very well."
  },
  "FinaleSilenzio.6": {
   "full": "That is what I cannot forgive myself."
@@ -1449,28 +1794,41 @@
   "full": "**The Great Fraud**"
  },
  "FinaleTruffa.3": {
-  "full": "Dear Doctor, it was all a trick. Dr Lukács had always said so, and in the end we proved it in front of all {0}: threads of black silk to lift the table, a smith in on it for the knocking in the walls, gauze and phosphorus for the ectoplasm, and a network of informers (widows, innkeepers, the sexton) who told the Circle everyone's secrets. The voices of the dead were the voices of the living, well paid."
+  "full": "Dear Doctor, it was all a trick. Dr Lukács had always said so, and in the end we proved it in front of all {0}: threads of black silk to lift the table, a smith in on it for the knocking in the walls, gauze and phosphorus for the ectoplasm, and a network of informers (widows, innkeepers, the sexton) who told the Circle everyone's secrets. The voices of the dead were the voices of the living, well paid.",
+  "easy": "Dear Doctor, it was all a trick. Dr Lukács had always said so, and in the end we proved it in front of all {0}. There were black silk threads to lift the table, a blacksmith working with them for the knocking in the walls, gauze and phosphorus for the ectoplasm, and many spies (widows, innkeepers, the sexton) who told the Circle everyone's secrets. The voices of the dead were the voices of the living, well paid.",
+  "short": "Dear Doctor, it was all a trick: silk threads, a smith in on it, gauze and phosphorus, a network of informers. The voices of the dead were the living, well paid."
  },
  "FinaleTruffa.4": {
-  "full": "Our family became famous. We wrote books, gave lectures in Budapest and Paris, exposed thirty-two mediums in eleven countries. Your Society even awarded us a medal, which I keep in a drawer."
+  "full": "Our family became famous. We wrote books, gave lectures in Budapest and Paris, exposed thirty-two mediums in eleven countries. Your Society even awarded us a medal, which I keep in a drawer.",
+  "easy": "Our family became famous. We wrote books, gave talks in Budapest and Paris and exposed thirty-two cheating mediums in eleven countries. Your Society even gave us a medal, which I keep in a drawer.",
+  "short": "We became famous: books, lectures, thirty-two mediums exposed. And a medal, in a drawer."
  },
  "FinaleTruffa.5": {
-  "full": "I am writing, though, to tell you something I have never said in public. The smith, when questioned, confessed to having knocked on the walls of the estate for twenty years, on the Circle's orders. But the knocking on the first night, on 2 November 1848, was not his doing: he was six years old at the time."
+  "full": "I am writing, though, to tell you something I have never said in public. The smith, when questioned, confessed to having knocked on the walls of the estate for twenty years, on the Circle's orders. But the knocking on the first night, on 2 November 1848, was not his doing: he was six years old at the time.",
+  "easy": "But I am writing to tell you something I have never said in public. The blacksmith, when questioned, admitted he had knocked on the walls of the estate for twenty years, because the Circle asked him to. But the knocking on the first night, 2 November 1848, was not his: he was six years old then.",
+  "short": "But the smith, who knocked for the Circle for twenty years, was six years old on the first night, in 1848."
  },
  "FinaleTruffa.6": {
-  "full": "And on certain nights, even today, someone knocks at the estate. One knock, then two, then one."
+  "full": "And on certain nights, even today, someone knocks at the estate. One knock, then two, then one.",
+  "easy": "And some nights, even today, someone knocks at the estate. One knock, then two, then one."
  },
  "FinaleVoce.1": {
   "full": "**Father's Voice**"
  },
  "FinaleVoce.3": {
-  "full": "Dear Doctor, the Telegraph tapped for three days and three nights. The needle ran over the bone keys faster than we could transcribe, and we took turns at the table, in two-hour shifts, our fingers black with ink. It was him, beyond any doubt: the same abbreviations, the same spelling mistakes, the same impatience as in the Journal."
+  "full": "Dear Doctor, the Telegraph tapped for three days and three nights. The needle ran over the bone keys faster than we could transcribe, and we took turns at the table, in two-hour shifts, our fingers black with ink. It was him, beyond any doubt: the same abbreviations, the same spelling mistakes, the same impatience as in the Journal.",
+  "easy": "Dear Doctor, the Telegraph tapped for three days and three nights. The needle ran over the bone keys faster than we could write, and we took turns at the table every two hours, with fingers black with ink. It was him, without doubt: the same abbreviations, the same mistakes, the same impatience as in the Journal.",
+  "short": "Dear Doctor, the Telegraph tapped for three days and nights, and we transcribed in shifts. It was him: the same mistakes, the same impatience as the Journal."
  },
  "FinaleVoce.4": {
-  "full": "He did not ask how we were. He did not tell us what it was like on the other side. He dictated, and nothing else: formulae, tables, drawings described point by point. It was the last part of his Masterwork, the part death had kept him from finishing. At the end of the third night the needle stopped, went back to the centre and tapped out one last sentence: *\"Now leave me in peace.\"*"
+  "full": "He did not ask how we were. He did not tell us what it was like on the other side. He dictated, and nothing else: formulae, tables, drawings described point by point. It was the last part of his Masterwork, the part death had kept him from finishing. At the end of the third night the needle stopped, went back to the centre and tapped out one last sentence: *\"Now leave me in peace.\"*",
+  "easy": "He did not ask how we were. He did not tell us what it was like on the other side. He just dictated: formulae, tables, drawings explained point by point. It was the last part of his Masterwork, the part death had not let him finish. At the end of the third night the needle stopped, went back to the middle and wrote one last sentence: *\"Now leave me in peace.\"*",
+  "short": "He asked nothing: he dictated the last part of his Masterwork. Then the needle tapped: *\"Now leave me in peace.\"*"
  },
  "FinaleVoce.5": {
-  "full": "We did. The Masterwork is finished, Doctor, and was published under his name. The Telegraph is dismantled, in the attic. We have never switched it on again."
+  "full": "We did. The Masterwork is finished, Doctor, and was published under his name. The Telegraph is dismantled, in the attic. We have never switched it on again.",
+  "easy": "We did. The Masterwork is finished, Doctor, and it was published with his name. The Telegraph is taken apart, in the attic. We have never switched it on again.",
+  "short": "The Masterwork was published. The Telegraph is in the attic, dismantled."
  },
  "FinaleVoce.6": {
   "full": "Not out of respect: for fear that someone else might answer."
@@ -1479,43 +1837,64 @@
   "full": "**The Pyre**"
  },
  "FinaleRogo.3": {
-  "full": "Dear Doctor, the Church won, and it was not a gentle victory. The bishop came to {0} in the spring of 1906 with a decree, two gendarmes and a list of names. Our family was at the top."
+  "full": "Dear Doctor, the Church won, and it was not a gentle victory. The bishop came to {0} in the spring of 1906 with a decree, two gendarmes and a list of names. Our family was at the top.",
+  "easy": "Dear Doctor, the Church won, and it was not a gentle victory. The bishop came to {0} in the spring of 1906 with a decree, two policemen and a list of names. Our family's name was first.",
+  "short": "Dear Doctor, the Church won. The bishop came in 1906 with a list of names, and ours was first."
  },
  "FinaleRogo.4": {
-  "full": "The Circle's premises burned on the night of Pentecost. The fire, somehow, leapt the road and reached the estate. The greenhouses burned, the cages, the laboratory, the volumes of the Journal. The Telegraph, as it melted, made a sound the firemen described as a wail."
+  "full": "The Circle's premises burned on the night of Pentecost. The fire, somehow, leapt the road and reached the estate. The greenhouses burned, the cages, the laboratory, the volumes of the Journal. The Telegraph, as it melted, made a sound the firemen described as a wail.",
+  "easy": "The Circle's building burned on the night of Pentecost. Somehow the fire crossed the road and reached the estate. The greenhouses, the cages, the laboratory and the volumes of the Journal burned. The Telegraph, as it melted, made a noise the firemen described as a cry of pain.",
+  "short": "At Pentecost the Circle burned, and the fire reached the estate. The Telegraph melted with a wail."
  },
  "FinaleRogo.5": {
-  "full": "On the ashes the bishop had a chapel built, dedicated to the souls in purgatory. I go there every Sunday, like everyone. The priest says its walls are the quietest in the diocese, and he is right: no one ever knocks there."
+  "full": "On the ashes the bishop had a chapel built, dedicated to the souls in purgatory. I go there every Sunday, like everyone. The priest says its walls are the quietest in the diocese, and he is right: no one ever knocks there.",
+  "easy": "On the ashes the bishop had a chapel built for the souls in purgatory. I go there every Sunday, like everyone. The priest says its walls are the quietest in the diocese, and he is right: no one ever knocks there.",
+  "short": "A chapel now stands on the ashes. Its walls are the quietest in the diocese."
  },
  "FinaleRogo.6": {
-  "full": "But in the crypt, beneath the altar, where the laboratory used to be, the sexton stopped going down years ago."
+  "full": "But in the crypt, beneath the altar, where the laboratory used to be, the sexton stopped going down years ago.",
+  "easy": "But in the crypt, under the altar, where the laboratory used to be, the sexton has not gone down for years."
  },
  "FinaleSocieta.1": {
   "full": "**The Society of the Last Hour**"
  },
  "FinaleSocieta.3": {
-  "full": "Dear Doctor, you ask me who governs {0}. Formally the town council, and a mayor who still bears the Bódi name. In practice, since that night in 1905, every decision passes first across a little table."
+  "full": "Dear Doctor, you ask me who governs {0}. Formally the town council, and a mayor who still bears the Bódi name. In practice, since that night in 1905, every decision passes first across a little table.",
+  "easy": "Dear Doctor, you ask me who is in charge in {0}. On paper, the town council, and a mayor who is still called Bódi. In reality, since that night in 1905, every decision goes first across a little table.",
+  "short": "Dear Doctor, the council governs {0}. But since 1905 every decision passes first across a little table."
  },
  "FinaleSocieta.4": {
-  "full": "The Great Séance ended with our family at the head of the Circle of the Last Hour, and the Circle welcomed us as one welcomes a long-awaited heir. The undertaker's, the bank, the newspaper, the school: everything belongs to us, or to someone who owes us a favour. The widows bless us. So, they say, do the dead."
+  "full": "The Great Séance ended with our family at the head of the Circle of the Last Hour, and the Circle welcomed us as one welcomes a long-awaited heir. The undertaker's, the bank, the newspaper, the school: everything belongs to us, or to someone who owes us a favour. The widows bless us. So, they say, do the dead.",
+  "easy": "The Great Séance ended with our family leading the Circle of the Last Hour, and the Circle welcomed us like an heir it had waited for a long time. The undertaker's, the bank, the newspaper, the school: everything is ours, or belongs to someone who owes us a favour. The widows bless us. And, people say, so do the dead.",
+  "short": "We lead the Circle, and everything is ours or owes us a favour. The widows bless us, and so do the dead."
  },
  "FinaleSocieta.5": {
-  "full": "Do not imagine it is a comfortable power. Every Thursday evening we consult those who came before us, and the dead are demanding counsellors: they forget nothing, forgive nothing, and have all the time in the world."
+  "full": "Do not imagine it is a comfortable power. Every Thursday evening we consult those who came before us, and the dead are demanding counsellors: they forget nothing, forgive nothing, and have all the time in the world.",
+  "easy": "Do not think it is a comfortable power. Every Thursday evening we ask advice from those who came before us, and the dead are difficult advisers: they forget nothing, forgive nothing, and have all the time in the world.",
+  "short": "But the dead are demanding counsellors: they forget nothing, forgive nothing, and have all the time in the world."
  },
  "FinaleSocieta.6": {
-  "full": "I write to you with their permission. They asked me to tell you that your work has been noticed, and that, whenever you wish, there will be a chair for you too at our table. I advise you not to wish it."
+  "full": "I write to you with their permission. They asked me to tell you that your work has been noticed, and that, whenever you wish, there will be a chair for you too at our table. I advise you not to wish it.",
+  "easy": "I am writing with their permission. They asked me to tell you that your work has been noticed, and that, whenever you want, there will be a chair for you too at our table. I advise you not to want it.",
+  "short": "They ask me to tell you there is a chair for you at our table. I advise you not to want it."
  },
  "FinalePossessione.1": {
   "full": "**Possession**"
  },
  "FinalePossessione.3": {
-  "full": "Dear Doctor, I recognise you by your handwriting. You, on the other hand, will not recognise mine: it is not that of the person who signs this letter. Since the night of the Great Séance, when the vial broke in the hands of {0}, this hand has written for me."
+  "full": "Dear Doctor, I recognise you by your handwriting. You, on the other hand, will not recognise mine: it is not that of the person who signs this letter. Since the night of the Great Séance, when the vial broke in the hands of {0}, this hand has written for me.",
+  "easy": "Dear Doctor, I recognise you by your handwriting. You, however, will not recognise mine: it is not the handwriting of the person who signs this letter. Since the night of the Great Séance, when the vial broke in the hands of {0}, this hand has written for me.",
+  "short": "Dear Doctor, you will not recognise my hand. Since the vial broke in the hands of {0}, this hand has written for me."
  },
  "FinalePossessione.4": {
-  "full": "Allow me to introduce myself, though perhaps you have already understood: Eszter Vámos, consoler. For half a century they called me a fraud, a witch, a prophetess, a saint. They were all a little right. The secret of eternal life, Doctor, was never for sale: it was in that vial. One had only to find the right person, mad enough to let me in."
+  "full": "Allow me to introduce myself, though perhaps you have already understood: Eszter Vámos, consoler. For half a century they called me a fraud, a witch, a prophetess, a saint. They were all a little right. The secret of eternal life, Doctor, was never for sale: it was in that vial. One had only to find the right person, mad enough to let me in.",
+  "easy": "Let me introduce myself, though perhaps you have already understood: Eszter Vámos, consoler. For fifty years they called me a cheat, a witch, a prophet, a saint. They were all a little right. The secret of eternal life, Doctor, was not for sale: it was in that vial. I only had to find the right person, mad enough to let me in.",
+  "short": "I am Eszter Vámos, consoler. The secret of eternal life was in that vial: I only needed someone mad enough to let me in."
  },
  "FinalePossessione.5": {
-  "full": "This body is younger than mine, and has warmer hands: I use it with care. I write to you because you are reading my minutes, and I have always had a soft spot for those who read me attentively."
+  "full": "This body is younger than mine, and has warmer hands: I use it with care. I write to you because you are reading my minutes, and I have always had a soft spot for those who read me attentively.",
+  "easy": "This body is younger than mine and has warmer hands: I use it carefully. I am writing to you because you are reading my records, and I have always liked people who read me carefully.",
+  "short": "This body is young, and I use it with care. I write because you read my minutes so attentively."
  },
  "FinalePossessione.6": {
   "full": "Come and see me, when you have finished. I will keep an empty chair for you."
@@ -1527,15 +1906,22 @@
   "full": "**Dr Halász's note – *1923.***"
  },
  "FinaleNebbia.3": {
-  "full": "I searched for a long time for a living heir to question, as I did for the other documents in the file. I found none. The papers stop on the night of 31 December 1905, halfway through a record: the veil was torn, and the family voted not to cross it. Then, says the last line, \"the fog came in through the windows\"."
+  "full": "I searched for a long time for a living heir to question, as I did for the other documents in the file. I found none. The papers stop on the night of 31 December 1905, halfway through a record: the veil was torn, and the family voted not to cross it. Then, says the last line, \"the fog came in through the windows\".",
+  "easy": "I looked for a long time for a living heir to question, as I did for the other documents in the file. I did not find one. The papers end on the night of 31 December 1905, in the middle of a record: the veil was torn, and the family voted not to cross it. Then, says the last line, \"the fog came in through the windows\".",
+  "short": "I found no living heir. The papers stop on 31 December 1905: the veil was torn, the family did not cross it, and \"the fog came in through the windows\"."
  },
  "FinaleNebbia.4": {
-  "full": "Since 1906 {0} no longer appears on any map. Trains do not stop there, the telegraph does not answer, and travellers who try to reach it tell of walking for hours in a white fog, around a cemetery, before finding themselves back where they started."
+  "full": "Since 1906 {0} no longer appears on any map. Trains do not stop there, the telegraph does not answer, and travellers who try to reach it tell of walking for hours in a white fog, around a cemetery, before finding themselves back where they started.",
+  "easy": "Since 1906 {0} is no longer on any map. Trains do not stop there, the telegraph does not answer, and travellers who try to get there say they walked for hours in a white fog, around a cemetery, before finding themselves back where they started.",
+  "short": "Since 1906 {0} has vanished from the maps. Those who try to reach it walk for hours in the fog, around a cemetery, and end up where they began."
  },
  "FinaleNebbia.5": {
-  "full": "You will ask me, then, where I found these crates. I ask myself too. I remember the evening train, the umbrella, the kind and very tired priest. I do not remember how I left the village."
+  "full": "You will ask me, then, where I found these crates. I ask myself too. I remember the evening train, the umbrella, the kind and very tired priest. I do not remember how I left the village.",
+  "easy": "So you will ask me where I found these crates. I ask myself too. I remember the evening train, the umbrella, the kind and very tired priest. I do not remember how I left the village.",
+  "short": "Where did I find these crates? I remember the train, the umbrella, the priest. I do not remember leaving the village."
  },
  "FinaleNebbia.6": {
-  "full": "I am writing from my study in Budapest. From the window, for three days, I have seen nothing but fog. And someone, politely, is knocking."
+  "full": "I am writing from my study in Budapest. From the window, for three days, I have seen nothing but fog. And someone, politely, is knocking.",
+  "easy": "I am writing from my study in Budapest. For three days I have seen only fog from the window. And someone, politely, is knocking."
  }
 }

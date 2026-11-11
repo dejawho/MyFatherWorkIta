@@ -12,6 +12,10 @@
  * of keeping a wrong one. Translations whose Italian text no longer exists are reported. A
  * literal of the story that a page shows (an `either` option) is translated the same way.
  *
+ * src/versions.it.json and src/versions.en.json give the Easy and Short versions of the flavour
+ * text, `{ "<Italian text>": { "easy": "…", "short": "…" } }`, in Italian and in English. A text
+ * without them (short ones) shows its full text in every reading mode.
+ *
  * Usage: node tools/scenario-author/src/cli.ts <id> [--content content] [--check]
  *   --check  fail if the built files are not up to date instead of writing them
  */
@@ -61,8 +65,19 @@ const collect = (x: unknown): void => {
 };
 collect(scenario.passages);
 for (const lit of literals) if (byText[lit] !== undefined) en[PHRASE_PREFIX + lit] = { full: byText[lit]! };
+// The Easy and Short versions of the flavour text (src/versions.<lang>.json), keyed by the
+// Italian text like src/en.json. Only narrative texts use them (resolveEntry).
+type Versions = Record<string, { easy?: string; short?: string }>;
+const read = (file: string): Versions => (existsSync(join(src, file)) ? (JSON.parse(readFileSync(join(src, file), 'utf8')) as Versions) : {});
+const versions = { it: read('versions.it.json'), en: read('versions.en.json') };
+for (const [key, entry] of Object.entries(strings)) {
+  const it = versions.it[entry.full], english = versions.en[entry.full];
+  if (it) Object.assign(entry, it);
+  if (english && !en[key]!.untranslated) Object.assign(en[key]!, english);
+}
 const sources = new Set([...Object.values(strings).map((e) => e.full), ...literals]);
 const unused = Object.keys(byText).filter((t) => !sources.has(t));
+const unusedVersions = (['it', 'en'] as const).flatMap((l) => Object.keys(versions[l]).filter((t) => !sources.has(t)).map((t) => `${l}: "${t.slice(0, 30)}…"`));
 const outputs: Record<string, unknown> = { 'scenario.json': scenario, 'extras.json': extras, 'strings.it.json': strings, 'strings.en.json': en };
 
 let stale = 0;
@@ -82,6 +97,10 @@ if (unused.length) {
   // Spoiler-free: only how many, and how each starts.
   console.error(`  ${unused.length} translation(s) in src/en.json whose Italian text no longer exists (edited?):`);
   for (const t of unused) console.error(`    "${t.slice(0, 30)}…"`);
+}
+if (unusedVersions.length) {
+  console.error(`  ${unusedVersions.length} Easy/Short version(s) in src/versions.*.json whose Italian text no longer exists (edited?):`);
+  for (const t of unusedVersions) console.error(`    ${t}`);
 }
 if (stale) {
   console.error(`${stale} file(s) out of date: run node tools/scenario-author/src/cli.ts ${id}`);
