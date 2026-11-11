@@ -3,7 +3,9 @@
  * production build, one game per scenario in a fresh browser profile: setup flow, story with
  * its dialogs (setup pop-ups, end of round and generation, special setups, bidding countdown),
  * a tied final score through both tie-breakers, the ending, the endings gallery and the saved
- * games. Fails on any page error or if a game cannot be finished.
+ * games. Fails on any page error or if a game cannot be finished. Each step looks at what the page
+ * shows now (a secret bid moves on one phase per pass), so slow timers or a lost click are retried
+ * instead of failing the game.
  *
  * Usage: node tools/e2e/src/full-game.ts [--build build/web/browser] [--base /sub/path/] [--chrome /usr/bin/google-chrome] [--shots dir] [--scenario id]
  */
@@ -41,6 +43,8 @@ const random = (n: number) => (seed = (seed * 16807) % 2147483647) % n;
 const failures: string[] = [];
 /** The scenario being played, to name it in failures. */
 let current = '';
+/** Hand-over screens checked over all games. */
+let handoversChecked = 0;
 const check = (ok: boolean, what: string) =>
   ok ? console.log(`  ✔ ${what}`) : (failures.push(`${current}: ${what}`), console.log(`  ✖ ${what}`));
 
@@ -55,6 +59,9 @@ const { url, server } = await serve(values.build, values.base);
 const browser = await chromium.launch({ executablePath: values.chrome, args: ['--no-sandbox'] });
 try {
   for (const scenario of SCENARIOS) await playGame(browser, scenario);
+  current = 'all games';
+  console.log('');
+  check(handoversChecked > 0, `hand-over screens were checked (${handoversChecked})`);
 } finally {
   // With some Chrome versions (seen on Windows) close() never settles although Chrome has
   // quit; every check is done by then, so it gets a time limit.
@@ -75,11 +82,20 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
   console.log(`\n${scenario.title}`);
   current = scenario.id;
   // In English whatever the machine's language: the steps find buttons by their English text.
-  const context = await browser.newContext({ viewport: { width: 430, height: 900 }, locale: 'en-US' });
+  // Without the service worker: it is not what this test is about, and installing it in each
+  // fresh profile prefetches the app and its content while the game runs, which now and then
+  // failed a request (net::ERR_FAILED) on this small test server.
+  const context = await browser.newContext({ viewport: { width: 430, height: 900 }, locale: 'en-US', serviceWorkers: 'block' });
   const page = await context.newPage();
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(String(e)));
   page.on('console', (m) => m.type() === 'error' && errors.push(m.text()));
+  // The console only says that a resource failed: name it.
+  // (An aborted request, e.g. a voice clip stopped by the next page, is not an error.)
+  page.on('requestfailed', (r) => {
+    const reason = r.failure()?.errorText ?? 'failed';
+    if (!reason.includes('ERR_ABORTED')) errors.push(`${reason}: ${r.url().replace(url, '/')}`);
+  });
   const button = (name: RegExp | string) => page.getByRole('button', { name });
   // The scenario's own card or tab: its name starts with the title (another card's description
   // may mention it).
@@ -113,6 +129,8 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
     const seen = { dialogs: 0, bidding: 0, prompts: 0, links: 0, handovers: 0 };
     const handoverProblems = new Set<string>();
     let lastNotice = '';
+    /** When the secret bid or vote on screen first showed (it may take several passes). */
+    let biddingSince = 0;
     for (let step = 0; step < 4000; step++) {
       await page.waitForTimeout(15);
       const dialog = page.locator('dialog[open]').last();
@@ -120,6 +138,28 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
         // Dialogs queue up, so the one just counted may already be closing.
         const text = await dialog.innerText({ timeout: 2000 }).catch(() => undefined);
         if (text === undefined) continue;
+        if (/Secret (Bid|Vote)/.test(text)) {
+          // One step per pass, by what the dialog shows now: start the countdown, wait while it
+          // runs, accept once it has revealed. A lost click or a slow countdown is retried.
+          biddingSince ||= Date.now();
+          if (Date.now() - biddingSince > 30_000) throw new Error('A secret bid or vote did not get past its countdown');
+          const start = dialog.getByRole('button', { name: /^\s*start/i });
+          const accept = dialog.getByRole('button', { name: /accept/i });
+          if (await start.count()) {
+            if (await start.click({ timeout: 2000 }).then(() => true, () => false)) seen.bidding++;
+          } else if (await accept.count()) {
+            if (await accept.click({ timeout: 2000 }).then(() => true, () => false)) {
+              seen.dialogs++;
+              biddingSince = 0;
+              // Let it fade out, or the next pass would take it for one more.
+              await page.waitForTimeout(400);
+            }
+          } else {
+            await page.waitForTimeout(250);
+          }
+          lastNotice = '';
+          continue;
+        }
         seen.dialogs++;
         const fullscreen = await dialog.evaluate((d) => d.classList.contains('fullscreen'), undefined, { timeout: 2000 }).catch(() => false);
         if (fullscreen) {
@@ -137,19 +177,9 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
           lastNotice = '';
           if (/hand (this|the) storybook( device)? to (?!the player)/i.test(text) && !/Ada|Bram|Cosima/.test(text)) handoverProblems.add(`no name: ${text.slice(0, 60)}`);
         }
-        if (/Secret (Bid|Vote)/.test(text)) {
-          // The dialog may already be past its start (a countdown begun in the last round).
-          const start = dialog.getByRole('button', { name: /start/i });
-          if (await start.count()) {
-            seen.bidding++;
-            await start.click();
-          }
-          await dialog.getByRole('button', { name: /accept/i }).click({ timeout: 6000 });
-        } else {
-          if (seen.dialogs === 1) await shotOf('2-dialog');
-          // The main button (Accept, Confirm, Continue …); undo sits below it as a plain link.
-          await dialog.locator('button.btn').last().click({ timeout: 5000 }).catch(() => undefined);
-        }
+        if (seen.dialogs === 1) await shotOf('2-dialog');
+        // The main button (Accept, Confirm, Continue …); undo sits below it as a plain link.
+        await dialog.locator('button.btn').last().click({ timeout: 5000 }).catch(() => undefined);
         continue;
       }
       if (await page.locator('form.prompt input').count()) {
@@ -175,7 +205,10 @@ async function playGame(browser: Browser, scenario: (typeof SCENARIOS)[number]):
     }
     console.log(`  ${seen.links} links, ${seen.dialogs} dialogs (${seen.bidding} bids, ${seen.handovers} hand-overs), ${seen.prompts} prompts`);
     check(page.url().includes('/score'), 'the story reaches final scoring');
-    check(seen.handovers > 0 && !handoverProblems.size, `hand-overs are opaque and name the player (${[...handoverProblems].join('; ') || `${seen.handovers} checked`})`);
+    // A path may have no secret page at all (rare, but the story allows it): only the run as a
+    // whole must have checked some.
+    handoversChecked += seen.handovers;
+    check(!handoverProblems.size, `hand-overs are opaque and name the player (${[...handoverProblems].join('; ') || (seen.handovers ? `${seen.handovers} checked` : 'none on this path')})`);
 
     console.log('scoring');
     const scores = page.locator('input[type=number]');
