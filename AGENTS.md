@@ -20,6 +20,9 @@ Disease_ playable from setup to the endings; expect breaking changes.
   Anonymised labels ("Ending 3") are fine.
 - **Content licence.** Everything in `content/` derives from Renegade's material (CC BY-NC 4.0).
   Add nothing from other sources; the original's fonts are licensed separately and not shipped.
+  The one exception is a fan-made scenario written for this project (`the-thinning-veil`):
+  new text on the game's rules and components, a derivative work under the same terms,
+  marked as unofficial in the app and in `content/LICENSE.md`. No new images.
 - **Rules are never rewritten.** Easy/Short versions and generated voice-over only touch
   flavour text (`kind: 'narrative'`); instructions, setup and app commands stay as they are.
 - **Secrets stay secret.** Pages behind the hand-over screen (a `command` text at the top) are
@@ -44,7 +47,10 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   a tree of nodes (text, links, conditions, variable updates, prompts, app screens, blocks). All
   text lives in string tables by key (`strings.en.json`), each entry `{ full, easy?, short? }`
   with review flags. Another language is `strings.<code>.json` with the same keys (Italian:
-  `strings.it.json`, terms in `docs/glossary.it.md`); a key it lacks shows the English entry. Text kinds: `narrative` (flavour text), `instruction`, `command` (about the
+  `strings.it.json`, terms in `docs/glossary.it.md`); a key it lacks shows the English entry.
+  Literals of the story that a text shows (`either` options, joined text) are marked in the
+  output and shown from the key `lit:` + the literal, if the table has one (`localizeArg`,
+  `engine/src/text.ts`). Text kinds: `narrative` (flavour text), `instruction`, `command` (about the
   app, e.g. hand-overs), `title`. A language or reading mode is a text-only change; game state
   cannot drift between them.
 - **Engine** (`engine/`): a small TypeScript runtime that plays that data (Harlowe semantics such
@@ -54,9 +60,20 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   texts and assets, then frozen; it is edited directly now. The converter that did it is retired
   and can be restored from the git tag `converter-final` (PLAN.md, "Content lifecycle").
 - **Story tester** (`tools/story-tester/`): static checks plus coverage-guided exploration of
-  every scenario; spoiler-free summary.
-- **Voice generator** (`tools/voice/`, Python via `uv`): Kokoro voices (Emma, George) for voiced
-  pages in every reading mode; settings in `tools/voice/voices.json`. `script.py` writes those
+  every scenario; spoiler-free summary. Player counts per scenario in `content/<id>/tester.json`
+  (default 2–5).
+- **Scenario author** (`tools/scenario-author/`): builds a scenario written as text
+  (`content/<id>/src/*.story`; syntax at the top of `src/compile.ts`) into `scenario.json`,
+  `extras.json` and the string tables. Used by the fan-made _The Thinning Veil_, written in
+  Italian first: `strings.it.json` is its source text, `strings.en.json` takes English from
+  `src/en.json` and falls back to the Italian. Edit the `.story` files, never the built JSON.
+  Its design (spoilers) is in `docs/custom/the-thinning-veil/design.it.md`.
+- **Voice generator** (`tools/voice/`, Python via `uv`): generated voices for voiced pages in
+  every reading mode, each in one language. English: Emma, George (Kokoro, CPU,
+  `task content:voices`); Italian: Sara, Nicola (Chatterbox, cloned from Kokoro clips in
+  `tools/voice/refs/`, NVIDIA GPU in Docker, `task content:voices:gpu`), from `strings.it.json`,
+  untranslated pages skipped. Settings in `tools/voice/voices.json` (`engine`; `like`: the
+  original recording a voice stands in for). `script.py` writes those
   pages' text as a script for a voice actor (`content/voice-script/`, committed, checked).
 - **App** (`frontend/`): Angular, standalone components, signals, zoneless, `OnPush`, the new
   control flow, `inject()`, Signal Forms; Tailwind for tokens; Angular CDK where needed. The
@@ -66,7 +83,8 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   settings live in localStorage; a service worker makes it work offline. Languages: the
   original's screen texts come from `content/ui.<code>.json` (Library), the app's own texts
   from `I18n.tr('English text')`, looked up in `core/i18n/<code>.ts`; add every new text there.
-  The voice-over is English only.
+  The narrator choices are the voices of the chosen language plus "No voice"
+  (`core/utils/narrators.ts`); the original recordings only read the original English text.
 
 ### Frontend layout (`frontend/src/app/`)
 
@@ -111,6 +129,7 @@ from the CSS tokens in `src/styles.css` (light and dark paper).
 | `frontend/`           | Angular PWA                                                             |
 | `engine/`             | Story format, runtime, values, text markup                              |
 | `tools/story-tester/` | Static checks and exploration                                           |
+| `tools/scenario-author/` | Builds scenarios written as text (`content/<id>/src/*.story`)        |
 | `tools/e2e/`          | A full game of each scenario in headless Chrome (production build)      |
 | `tools/voice/`        | Generated voice-over (Kokoro)                                           |
 | `content/`            | Converted story data and assets (© Renegade Game Studios, CC BY-NC 4.0) |
@@ -128,7 +147,9 @@ task project:check            # types, lint, unit tests, build, story tester
 task frontend:lint FIX=true   # fix lint and formatting in the app
 task frontend:e2e             # a full game of each scenario in headless Chrome
 task content:test             # story tester (spoiler-free; details in build/reports/)
+task content:build ID=<id>    # build a scenario written as text (content/<id>/src/*.story)
 task content:voices           # generated voices; -- --try "text" to hear any text
+task content:voices:gpu       # the Chatterbox voices (Italian), Docker with the NVIDIA GPU
 task content:voices:script    # voice actor's script of the voiced pages (content/voice-script/)
 task project:up:prod          # production container (Podman; CONTAINER_ENGINE=docker)
 ```
@@ -160,5 +181,8 @@ Next, roughly in order:
 3. Review Easy and Short at the table.
 4. Voice-over for every new story text (M7): voice packs outside git, names generated in the
    browser.
-5. Italian is in (story, screen texts and app; a few texts of _A Time of War_ still English);
-   review it at the table. App-store builds (Capacitor) later, if needed.
+5. Italian is in (story with its literals, screen texts and app); review it at the table.
+   App-store builds (Capacitor) later, if needed.
+6. Fan-made scenario _Il Velo Sottile_ (`the-thinning-veil`): skeleton done (all pages and logic,
+   8/8 endings in the tester, playable); Italian and English text complete; next a play-test at
+   the table.
