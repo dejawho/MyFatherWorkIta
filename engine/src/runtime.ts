@@ -1,4 +1,5 @@
 import { SETUP_CONTINUE_KEY, type BlockList, type BlockStyle, type LinkRole, type TextRole, type Expr, type IfNode, type Node, type Passage, type PromptNode, type Scenario, type TextKind, type Value } from './schema.ts';
+import { markPhrase } from './text.ts';
 import { binary, equals, indexList, toNumber, toText, truthy, typeOf, ValueError } from './values.ts';
 
 /**
@@ -155,6 +156,8 @@ export class Story {
   private suspended: { thread: Thread; prompt: PromptNode; args: string[] } | undefined;
   /** > 0 while evaluating values that are only displayed. */
   private displayDepth = 0;
+  /** Whether string literals evaluated now end up in shown text (marked: see `markPhrase`). */
+  private marking = false;
   private readonly chooser: Chooser;
   private readonly trace: StoryTrace | undefined;
   readonly scenario: Scenario;
@@ -416,10 +419,24 @@ export class Story {
   /** Evaluates values that are only shown, so random picks in them don't count as branches. */
   private display(args: Expr[] | undefined): string[] {
     this.displayDepth++;
+    const marking = this.marking;
+    this.marking = true;
     try {
       return (args ?? []).map((a) => toText(this.eval(a)));
     } finally {
+      this.marking = marking;
       this.displayDepth--;
+    }
+  }
+
+  /** Evaluates a value that is worked with (compared, counted …), not shown: unmarked. */
+  private plain(e: Expr): Value {
+    if (!this.marking) return this.eval(e);
+    this.marking = false;
+    try {
+      return this.eval(e);
+    } finally {
+      this.marking = true;
     }
   }
 
@@ -457,30 +474,32 @@ export class Story {
   }
 
   eval(e: Expr): Value {
-    if ('lit' in e) return e.lit;
+    if ('lit' in e) return this.marking && typeof e.lit === 'string' && /\p{L}/u.test(e.lit) ? markPhrase(e.lit) : e.lit;
     if ('var' in e) {
       const v = this.vars[e.var];
       if (v === undefined) throw new StoryError(`Unknown variable "${e.var}"`);
       return v;
     }
     if ('cases' in e) {
-      const c = e.cases.find((c) => !c.cond || truthy(this.eval(c.cond)));
+      const c = e.cases.find((c) => !c.cond || truthy(this.plain(c.cond)));
       if (!c) throw new StoryError('No case matched and there is no default');
       return this.eval(c.value);
     }
     if ('unknown' in e) throw new StoryError(`Unconverted expression: ${e.unknown}`);
     if ('fn' in e) return this.call(e.fn, e.args);
-    if ('at' in e) return indexList(this.eval(e.at), this.eval(e.key));
-    if (e.op === 'not') return !truthy(this.eval(e.a));
+    if ('at' in e) return indexList(this.plain(e.at), this.plain(e.key));
+    if (e.op === 'not') return !truthy(this.plain(e.a));
     if (e.op === 'neg') {
-      const v = this.eval(e.a);
+      const v = this.plain(e.a);
       if (typeof v !== 'number') throw new ValueError(`Cannot negate ${JSON.stringify(v)}`);
       return -v;
     }
     if (!('b' in e)) throw new StoryError(`Bad expression ${JSON.stringify(e)}`);
-    if (e.op === '&&') return truthy(this.eval(e.a)) && truthy(this.eval(e.b));
-    if (e.op === '||') return truthy(this.eval(e.a)) || truthy(this.eval(e.b));
-    return binary(e.op, this.eval(e.a), this.eval(e.b));
+    if (e.op === '&&') return truthy(this.plain(e.a)) && truthy(this.plain(e.b));
+    if (e.op === '||') return truthy(this.plain(e.a)) || truthy(this.plain(e.b));
+    // Joined text keeps its literals marked; any other operation works with plain values.
+    if (e.op === '+') return binary(e.op, this.eval(e.a), this.eval(e.b));
+    return binary(e.op, this.plain(e.a), this.plain(e.b));
   }
 
   private call(fn: string, argExprs: Expr[]): Value {
@@ -490,7 +509,7 @@ export class Story {
       const i = this.chooser.choose(argExprs.length, site, this.displayDepth > 0);
       return this.eval(argExprs[i]!);
     }
-    const args = argExprs.map((a) => this.eval(a));
+    const args = argExprs.map((a) => (fn === 'str' ? this.eval(a) : this.plain(a)));
     switch (fn) {
       case 'random': {
         const [lo, hi] = args;

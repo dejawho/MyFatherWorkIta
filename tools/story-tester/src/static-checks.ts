@@ -1,5 +1,5 @@
 /** Checks that need no playthrough: references between data, strings and variables. */
-import { SETUP_CONTINUE_KEY, type Scenario, type StringTable } from '@chronicle/engine';
+import { PHRASE_PREFIX, SETUP_CONTINUE_KEY, type Scenario, type StringTable } from '@chronicle/engine';
 import { eachExpr, eachNode, nodeExprs } from './walk.ts';
 
 export interface StaticReport {
@@ -28,13 +28,18 @@ export function staticChecks(s: Scenario, strings: StringTable, external: string
     }
     if (n.t === 'set' || n.t === 'prompt') written.add(n.var);
     if (n.t === 'manual') manualNodes++;
-    for (const e of nodeExprs(n)) eachExpr(e, (x) => { if ('var' in x) read.add(x.var); });
+    for (const e of nodeExprs(n)) eachExpr(e, (x) => {
+      if ('var' in x) read.add(x.var);
+      // A literal the story may show has its translation under `lit:` (see localizeArg).
+      if ('lit' in x && typeof x.lit === 'string') usedKeys.add(PHRASE_PREFIX + x.lit);
+    });
     const target = n.t === 'link' || n.t === 'goto' ? n.to : n.t === 'include' ? n.passage : n.t === 'block' ? n.next : n.t === 'ui' ? n.args?.['next'] : undefined;
     if (target && 'lit' in target && typeof target.lit === 'string' && !s.passages[target.lit]) missingPassages.push({ passage: p.name, target: target.lit });
   });
 
   return {
-    missingStrings: [...usedKeys].filter((k) => !strings[k]).sort(),
+    // Literals need no entry: one without stays as the story has it.
+    missingStrings: [...usedKeys].filter((k) => !strings[k] && !k.startsWith(PHRASE_PREFIX)).sort(),
     unusedStrings: Object.keys(strings).filter((k) => !usedKeys.has(k)).sort(),
     neverSet: [...read].filter((v) => !written.has(v)).sort(),
     neverRead: [...written].filter((v) => !read.has(v) && !external.includes(v)).sort(),

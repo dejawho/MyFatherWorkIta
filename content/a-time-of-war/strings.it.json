@@ -4460,8 +4460,8 @@
     "easy": "Be', accidenti. Ora non ho molto da perdere. Tanto vale tirare la leva e vedere cosa succede!"
   },
   "TimeEnd2b.4": {
-    "full": "Per un colpo di fortuna e qualche ritocco frettoloso, la scatola arrugginita prese vita tra le scintille, scoppiettando in segno di protesta per tutto il tempo. Con {0} lucidati e fissati al loro posto, ero convinto che l'impresa avrebbe dato i suoi frutti.",
-    "easy": "Con un po' di fortuna e qualche riparazione veloce, la scatola arrugginita si accese tra le scintille, facendo rumori scontenti per tutto il tempo. Con {0} lucidati e fissati al loro posto, ero sicuro che questo tentativo sarebbe riuscito."
+    "full": "Per un colpo di fortuna e qualche ritocco frettoloso, la scatola arrugginita prese vita tra le scintille, scoppiettando in segno di protesta per tutto il tempo. Con i pezzi che avevo ({0}) lucidati e fissati al loro posto, ero convinto che l'impresa avrebbe dato i suoi frutti.",
+    "easy": "Con un po' di fortuna e qualche riparazione veloce, la scatola arrugginita si accese tra le scintille, facendo rumori scontenti per tutto il tempo. Con i pezzi che avevo ({0}) lucidati e fissati al loro posto, ero sicuro che questo tentativo sarebbe riuscito."
   },
   "TimeEnd2b.5": {
     "full": "Mi ci volle un altro anno intero per raccogliere le forze necessarie a tentare il viaggio, ma, bastone alla mano, chiusi bene la porta della camera e tirai la leva.",
@@ -5757,14 +5757,79 @@
     "full": "Poiché i capi non sono stati capaci di **prendere le decisioni difficili e necessarie** per portare avanti lo sforzo bellico, il conflitto era perso ancora prima di cominciare. ",
     "easy": "Poiché i capi non sono riusciti a **prendere le decisioni difficili e necessarie** per spingere avanti lo sforzo bellico, il conflitto era perso ancora prima di cominciare. "
   },
+  "ATOW-End8.4": {
+    "full": "Posso solo sperare che chi perì nella tragica fuoriuscita biochimica trovi qualche conforto nella rivelazione, contenuta in queste pagine, della vera origine dell'attacco.",
+    "easy": "Posso solo sperare che le persone morte nella tragica fuoriuscita di armi biochimiche trovino un po' di conforto scoprendo qui la vera origine dell'attacco."
+  },
+  "ATOW-End8.5": {
+    "full": "Per quanto pratica in teoria, riconosco che la trasformazione dei soldati nemici in beni di consumo fu una pratica deplorevole, che potrebbe rendere quest'opera illeggibile per alcuni.",
+    "easy": "In teoria era una soluzione pratica, ma capisco che trasformare i soldati nemici in cibo fu una cosa triste, che potrebbe rendere quest'opera impossibile da leggere per alcune persone."
+  },
+  "ATOW-End8.6": {
+    "full": "So bene che cosa rappresenti la mia stirpe per la comunità internazionale e, pur desiderando prendere le distanze dall'intera faccenda, non potevo in coscienza permettere che i manoscritti che ho riportato alla luce venissero distrutti. Pubblicandoli, spero di mostrare, in tutti i loro crudi dettagli, che non tutte le intenzioni erano malvagie e che la scienza resta valida ancora oggi.",
+    "easy": "So che cosa significa la mia famiglia per il resto del mondo, e vorrei restare lontano da tutta questa storia. Ma non potevo, in buona coscienza, lasciare che i manoscritti che ho trovato venissero distrutti. Pubblicandoli spero di mostrare, in tutti i loro dettagli sanguinosi, che non tutte le intenzioni erano cattive e che la scienza è ancora vera oggi.",
+    "short": "So che cosa significa la mia stirpe per il mondo e preferirei prenderne le distanze, ma non potevo lasciar distruggere questi manoscritti. Spero che mostrino, in tutti i loro crudi dettagli, che non ogni intenzione era malvagia e che la scienza regge ancora."
+  },
+  "ATOW-End8.7": {
+    "full": "Con giusta convinzione e umiltà nel cuore, resto per sempre il vostro servitore.   - Dott. {0}",
+    "easy": "Con la ferma certezza di essere nel giusto e con umiltà nel cuore, resto sempre il vostro servitore.   - Dott. {0}"
+  },
   "ATOW-End8.8": {
     "full": "FINE?"
   },
   "ATOW-Preparations.1": {
     "full": "**Preparativi**"
   },
+  "ATOW-Preparations.2": {
+    "full": "Completate la preparazione standard per {0} giocatori come indicato nel regolamento. *Nota: il tracciato {icon:AngryMob_Icon} e il primo giocatore verranno stabiliti dallo Storybook nelle prossime pagine.*"
+  },
+  "ATOW-Preparations.3": {
+    "full": "{icon:ScenarioBox3D_War}"
+  },
+  "ATOW-Preparations.4": {
+    "full": "Poi prendete la Scatola dello Scenario **A Time of War**, che contiene tutti i componenti necessari per questa storia. Man mano che la storia procede, lo Storybook vi chiederà di mettere in gioco elementi da questa scatola. Tenetela a portata di mano."
+  },
+  "2PBlameGameEvent.1": {
+    "full": "**Il dilemma**"
+  },
+  "2PBlameGameEvent.2": {
+    "full": "Io e mio cugino stavamo per trovarci di fronte a una decisione cruciale quando un gruppo di soldati fedeli si presentò alla nostra porta. Nei mesi precedenti avevamo stretto un semplice patto: mantenere segreta la conoscenza delle nostre attività. Ma le alleanze sono particolarmente fragili quando più linee temporali si sovrappongono. ",
+    "easy": "Io e mio cugino stavamo per affrontare una decisione molto importante quando un gruppo di soldati fedeli arrivò alla nostra porta. Nei mesi prima avevamo fatto un semplice accordo: tenere segrete le nostre attività. Ma le alleanze sono molto deboli quando diverse linee temporali si sovrappongono. ",
+    "short": "Io e mio cugino eravamo davanti a una decisione cruciale quando dei soldati fedeli arrivarono alla nostra porta. Avevamo giurato di tenere segrete le nostre attività, ma le alleanze sono fragili quando le linee temporali si sovrappongono. "
+  },
+  "2PBlameGameEvent.3": {
+    "full": "Potevo fidarmi che il mio stesso sangue onorasse il nostro accordo?",
+    "easy": "Potevo fidarmi che il mio stesso sangue rispettasse il nostro accordo?"
+  },
+  "2PBlameGameEvent.4": {
+    "full": "**Regole**"
+  },
+  "2PBlameGameEvent.5": {
+    "full": "Se entrambi i giocatori *restano in silenzio*, ciascuno **guadagna 2 risorse *(Conoscenza (Knowledge) o Ingredient)* a sua scelta all'inizio della prossima Generazione.**"
+  },
+  "2PBlameGameEvent.6": {
+    "full": "Se entrambi i giocatori si *accusano* a vicenda di tradimento, entrambi devono **scartare 2 risorse** di qualsiasi tipo dalla propria Tenuta oppure **rimettere un Servitore in Lost**."
+  },
+  "2PBlameGameEvent.7": {
+    "full": "Se un giocatore accusa e l'altro resta in silenzio, chi resta in silenzio deve **scartare subito una Miglioria della Tenuta dalla propria Tenuta e guadagna 2 {icon:Creepy_Icon}.** *Se non ha costruito nessuna Miglioria della Tenuta, perde invece 5VP.*"
+  },
   "CoWEventb.1": {
     "full": "**VOTAZIONE**"
+  },
+  "CoWEventb.2": {
+    "full": "Ogni giocatore prende in pugno un token Voto e sceglie in segreto una parte. Quando tutti hanno scelto, rivelate i voti contemporaneamente."
+  },
+  "CoWEventb.3": {
+    "full": "Un voto **SÌ** è un voto per governare con **benevolenza**. Premierà le scelte che aiutano la popolazione o che spostano il {icon:S3_CrownToken} verso SINISTRA."
+  },
+  "CoWEventb.4": {
+    "full": "Un voto **NO** è un voto per governare con il **pugno di ferro**. Premierà le scelte avide che danneggiano la popolazione o i decreti che spostano il {icon:S3_CrownToken} verso DESTRA."
+  },
+  "CoWEventb.5": {
+    "full": "Alla Fine della Generazione darà un bonus di **{0}VP** al giocatore (o ai giocatori) che avrà emanato più decreti che hanno **aiutato** o **danneggiato** la popolazione. **Contano anche i decreti già emanati.**"
+  },
+  "CoWEventb.6": {
+    "full": "*In caso di parità si sceglie la **benevolenza**.*"
   },
   "CoWEventb.7": {
     "full": "Clicca qui per iniziare la votazione..."
@@ -5772,8 +5837,62 @@
   "2PCoWEvent.1": {
     "full": "**OFFERTA**"
   },
+  "2PCoWEvent.2": {
+    "full": "Entrambi i giocatori prendono in mano tutto il proprio denaro. Poi, in segreto, scelgono una somma qualsiasi da mettere nella mano destra come offerta."
+  },
+  "2PCoWEvent.3": {
+    "full": "Quando entrambi i giocatori sono pronti, rivelate contemporaneamente il denaro offerto. Chi vince l'asta guadagna **4VP** e il diritto di scegliere se governare con **benevolenza** o con il **pugno di ferro**."
+  },
+  "2PCoWEvent.4": {
+    "full": "La **benevolenza** premierà le scelte che aiutano la popolazione o che spostano il {icon:S3_CrownToken} verso destra."
+  },
+  "2PCoWEvent.5": {
+    "full": "Il **pugno di ferro** premierà le scelte avide che danneggiano la popolazione o che spostano il {icon:S3_CrownToken} verso sinistra."
+  },
+  "2PCoWEvent.6": {
+    "full": "Alla Fine della Generazione darà un bonus di **{0}VP** al giocatore (o ai giocatori) che avrà emanato più decreti che hanno **aiutato** o **danneggiato** la popolazione. "
+  },
+  "2PCoWEvent.7": {
+    "full": "*In caso di parità nessun giocatore vince l'asta e si sceglie la **benevolenza**.*"
+  },
   "2PCoWEvent.8": {
     "full": "Solo il giocatore che vince l'elezione deve pagare la sua offerta alla riserva. L'altro rimette il proprio denaro nella propria Tenuta."
+  },
+  "2PCoWEvent.9": {
+    "full": "Clicca per concludere l'asta..."
+  },
+  "2PCoWRes.1": {
+    "full": "**Esito dell'asta**"
+  },
+  "2PCoWRes.2": {
+    "full": "Il giocatore che ha offerto più monete le paga alla riserva e **guadagna 4VP.**"
+  },
+  "2PCoWRes.3": {
+    "full": "Poi fa la scelta seguente. *(In caso di parità non si paga nulla, il risultato deve essere la **benevolenza** e nessun giocatore riceve i VP bonus)*."
+  },
+  "2PCoWRes.4": {
+    "full": "**Il vincitore dell'asta sceglie una delle opzioni qui sotto:**"
+  },
+  "2PCoWRes.5": {
+    "full": "Abbiamo scelto di governare con benevolenza."
+  },
+  "2PCoWRes.6": {
+    "full": "Abbiamo scelto di governare con il pugno di ferro."
+  },
+  "ParadoxGiantCheck.1": {
+    "full": "**Verifica dei Giant Masterwork**"
+  },
+  "ParadoxGiantCheck.2": {
+    "full": "Quanti giocatori hanno completato il proprio **Giant Masterwork**?"
+  },
+  "ParadoxGiantCheck.3": {
+    "full": "0"
+  },
+  "ParadoxGiantCheck.4": {
+    "full": "1"
+  },
+  "ParadoxGiantCheck.5": {
+    "full": "2"
   },
   "ParadoxGiantCheck.6": {
     "full": "3"
@@ -5787,17 +5906,56 @@
   "PeaceEventc.1": {
     "full": "**Risultato della votazione**"
   },
+  "PeaceEventc.2": {
+    "full": "**Contate tutti i voti.** *(In caso di parità decide l'ultimo giocatore nell'ordine di turno di questo round.)*"
+  },
+  "PeaceEventc.3": {
+    "full": "**Scegliete il risultato della votazione:**"
+  },
+  "PeaceEventc.4": {
+    "full": "Se avete votato per liberare il gas, *(pollice verso)* "
+  },
   "PeaceEventc.5": {
     "full": "clicca qui..."
+  },
+  "PeaceEventc.6": {
+    "full": "Altrimenti, clicca qui..."
   },
   "2PFamineBid.1": {
     "full": "**OFFERTA**"
   },
+  "2PFamineBid.2": {
+    "full": "Entrambi i giocatori prendono in mano tutto il proprio denaro. Poi, in segreto, scelgono una somma qualsiasi da mettere nella mano destra come offerta."
+  },
+  "2PFamineBid.3": {
+    "full": "Quando entrambi i giocatori sono pronti, rivelate contemporaneamente il denaro offerto. Chi vince l'asta **guadagna 4VP** e il diritto di scegliere se creare una **nuova carne**."
+  },
+  "2PFamineBid.4": {
+    "full": "**Nuova carne** creerà un nuovo prodotto a base di carne. (La popolazione si calmerà, ma a quale prezzo?)"
+  },
+  "2PFamineBid.5": {
+    "full": "**Rifiutare** significa chiedere alla popolazione di stringere i denti. (La popolazione sarà **arrabbiata**.)"
+  },
+  "2PFamineBid.6": {
+    "full": "*(In caso di parità decide il giocatore che ha giocato per ultimo durante la Giovinezza).*"
+  },
   "2PFamineBid.7": {
     "full": "Solo il giocatore che vince l'elezione deve pagare la sua offerta alla riserva. L'altro rimette il proprio denaro nella propria Tenuta."
   },
+  "2PFamineBid.8": {
+    "full": "Clicca qui per iniziare l'asta..."
+  },
+  "2pFamineBidRes.1": {
+    "full": "Il giocatore che ha offerto più monete le paga alla riserva e **guadagna 4VP.** *(In caso di parità decide il giocatore che ha giocato per ultimo durante la Giovinezza).*"
+  },
+  "2pFamineBidRes.2": {
+    "full": "Poi fa la scelta seguente.  "
+  },
   "2pFamineBidRes.3": {
     "full": "**Esito dell'asta**"
+  },
+  "2pFamineBidRes.4": {
+    "full": "**Scegli se mettere in commercio il nuovo prodotto a base di carne:**"
   },
   "2pFamineBidRes.5": {
     "full": "Abbiamo scelto la carne. (Sì!)"
@@ -5805,11 +5963,35 @@
   "2pFamineBidRes.6": {
     "full": "Abbiamo scelto le promesse vuote. (No!)"
   },
+  "CommemorativeStatueEventb.1": {
+    "full": "**Asta**"
+  },
+  "CommemorativeStatueEventb.2": {
+    "full": "Tutti i giocatori prendono in mano tutto il proprio denaro **e i token {icon:S3_WeaponToken}**. Poi, in segreto, scelgono quanti token e quanto denaro mettere nella mano destra come offerta."
+  },
+  "CommemorativeStatueEventb.3": {
+    "full": "Quando tutti i giocatori sono pronti, rivelate contemporaneamente le offerte. Ogni token vale $1 nell'offerta. Chi vince l'asta **guadagna 5VP** e una statua in suo onore."
+  },
+  "CommemorativeStatueEventb.4": {
+    "full": "Visitare la statua **con le tue sembianze** ti calmerà la mente o placherà i sospetti degli abitanti."
+  },
+  "CommemorativeStatueEventb.5": {
+    "full": "Visitare la statua **del tuo caro cugino** ti farà infuriare, spingendoti a scoprire il nuovo esperimento perfetto."
+  },
+  "CommemorativeStatueEventb.6": {
+    "full": "*(In caso di parità vince chi ha meno VP. Se la parità resta, vince chi ha giocato per ultimo durante la Maturità.)*"
+  },
   "CommemorativeStatueEventb.7": {
     "full": "Solo il giocatore che vince l'elezione deve pagare la sua offerta alla riserva. Gli altri rimettono il proprio denaro nella propria Tenuta."
   },
   "CommemorativeStatueEventb.8": {
     "full": "Clicca per iniziare l'asta..."
+  },
+  "CommemorativeStatueEventRes.1": {
+    "full": "**Asta conclusa**"
+  },
+  "CommemorativeStatueEventRes.2": {
+    "full": "**Scegliete il nome del giocatore che ha vinto l'asta:**"
   },
   "CommemorativeStatueEventRes.3": {
     "full": "{0}"
@@ -5826,11 +6008,26 @@
   "CommemorativeStatueEventRes.7": {
     "full": "{0}"
   },
+  "CommemorativeStatueEventResb.1": {
+    "full": "{0} guadagna 5VP."
+  },
   "CommemorativeStatueEventResb.2": {
     "full": "Aprite il Village Chronicle a pagina **10**."
   },
   "AfternoonTeab.1": {
     "full": "**VOTAZIONE**"
+  },
+  "AfternoonTeab.2": {
+    "full": "Ogni giocatore prende in pugno un token Voto e sceglie in segreto una parte. Quando tutti hanno scelto, rivelate i voti contemporaneamente."
+  },
+  "AfternoonTeab.3": {
+    "full": "Un voto **SÌ** è un voto per distruggere l'edificio {0}. **Tutti** i giocatori dovranno scartare un Esperimento completato per contribuire all'impresa."
+  },
+  "AfternoonTeab.4": {
+    "full": "Un voto **NO** è un voto per risparmiare l'edificio {0}."
+  },
+  "AfternoonTeab.5": {
+    "full": "*In caso di parità si sceglie di **risparmiare l'edificio {0}**.*"
   },
   "AfternoonTeab.6": {
     "full": "Clicca qui per iniziare la votazione..."
@@ -5838,11 +6035,29 @@
   "2PAfternoonBid.1": {
     "full": "**OFFERTA**"
   },
+  "2PAfternoonBid.2": {
+    "full": "Entrambi i giocatori prendono in mano tutto il proprio denaro. Poi, in segreto, scelgono una somma qualsiasi da mettere nella mano destra come offerta."
+  },
+  "2PAfternoonBid.3": {
+    "full": "Quando entrambi i giocatori sono pronti, rivelate contemporaneamente il denaro offerto. Chi vince l'asta guadagna **4VP** e il diritto di scegliere se sabotare l'edificio {0}."
+  },
+  "2PAfternoonBid.4": {
+    "full": "*In caso di parità nessun giocatore vince l'asta e **l'edificio {0}** viene risparmiato.*"
+  },
   "2PAfternoonBid.5": {
     "full": "Solo il giocatore che vince l'elezione deve pagare la sua offerta alla riserva. L'altro rimette il proprio denaro nella propria Tenuta."
   },
   "2PAfternoonBid.6": {
     "full": "Clicca per iniziare l'offerta."
+  },
+  "AfternoonTeaRes.1": {
+    "full": "**Votazione conclusa**"
+  },
+  "AfternoonTeaRes.2": {
+    "full": "**Contate i voti.** *In caso di parità si sceglie di **risparmiare l'edificio {0}**.*"
+  },
+  "AfternoonTeaRes.3": {
+    "full": "**Scegliete l'esito della votazione:**"
   },
   "AfternoonTeaRes.4": {
     "full": "{0}"
@@ -5853,6 +6068,12 @@
   "2PAfternoonBidRes.1": {
     "full": "**Asta conclusa**"
   },
+  "2PAfternoonBidRes.2": {
+    "full": "Il giocatore che ha vinto l'asta guadagna **4VP**."
+  },
+  "2PAfternoonBidRes.3": {
+    "full": "**Il giocatore che ha vinto l'asta sceglie l'esito:**"
+  },
   "2PAfternoonBidRes.4": {
     "full": "{0}"
   },
@@ -5861,6 +6082,27 @@
   },
   "MartialSepEventa.1": {
     "full": "**BUSTARELLA**"
+  },
+  "MartialSepEventa.2": {
+    "full": "**La regione va convinta**"
+  },
+  "MartialSepEventa.3": {
+    "full": "Tutti i giocatori prendono in mano il proprio denaro. In segreto, ciascuno sceglie una somma qualsiasi da mettere nella mano destra da aggiungere al fondo totale per la tangente."
+  },
+  "MartialSepEventa.4": {
+    "full": "Quando tutti i giocatori sono pronti, rivelate il denaro contemporaneamente."
+  },
+  "MartialSepEventa.5": {
+    "full": "L'esercito richiede **$**"
+  },
+  "MartialSepEventa.6": {
+    "full": "**{0} in totale** da tutti i giocatori perché la nostra tangente abbia successo. **Se la tangente ha successo**, potremo **usare un token {icon:S3_WeaponToken} al posto di un singolo Ingredient quando eseguiamo gli Esperimenti**. "
+  },
+  "MartialSepEventa.7": {
+    "full": "*In caso di successo, **tutto** il denaro versato dai giocatori torna nella riserva. In caso di fallimento, i giocatori tengono il denaro versato.*"
+  },
+  "MartialSepEventa.8": {
+    "full": "Clicca qui per iniziare la tangente..."
   },
   "ATOW-Church.1": {
     "full": "**Una Church caritatevole**"
@@ -5897,6 +6139,15 @@
   },
   "Paradox3b.9": {
     "full": "**In Memoriam**"
+  },
+  "Paradox3b.10": {
+    "full": "Con la distruzione quasi totale di {0}, non c'è più nessuno che possa onorare i successi scientifici. **Questo premio non sarà più assegnato**."
+  },
+  "Paradox3b.11": {
+    "full": "**Ritorna l'Angry Mob**"
+  },
+  "Paradox3b.12": {
+    "full": "Tutte le icone {icon:AngryMob_Icon} tornano in vigore. Come di consueto, se un giocatore raggiunge o supera il token Angry Mob sul tracciato Creepy, non può eseguire azioni nel Villaggio. "
   },
   "Paradox3b.13": {
     "full": "**Technician**"
@@ -5935,11 +6186,38 @@
   "Reign1.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign1.2": {
+    "full": "**{0} reale**"
+  },
+  "Reign1.3": {
+    "full": "{0} il consigliere reale mi confidò di sentirsi un po' soffocato da quelle che definiva \"questioni insignificanti di questa regione\". Io, naturalmente, mi offrii di aiutarlo nelle sue imprese.",
+    "easy": "{0} il consigliere reale mi disse in segreto di sentirsi un po' frenato da quelle che chiamava \"questioni poco importanti di questa regione\". Naturalmente, mi offrii di aiutarlo nel suo lavoro."
+  },
+  "Reign1.4": {
+    "full": "Era giusto che il mio aiuto si traducesse in un vantaggio per le mie imprese. Anzi, la decisione precisa che presi ebbe così poco effetto sulla regione che non ricordo nemmeno quale fosse. La domanda più importante era un'altra: mi avrebbe giovato di più la benevolenza o la crudeltà?",
+    "easy": "Era giusto che il mio aiuto portasse qualcosa di buono ai miei affari. Anzi, la decisione esatta che presi ebbe così poco effetto sulla regione che non ricordo quale fosse. La domanda più importante era: per me sarebbe stata meglio la gentilezza o la crudeltà?"
+  },
+  "Reign1.5": {
+    "full": "**Dopo un attimo di riflessione, la scelta mi fu chiara. Scelsi:**"
+  },
+  "Reign1.6": {
+    "full": "Mi schierai con il popolo."
+  },
   "Reign1.7": {
     "full": "{0}"
   },
+  "Reign1.8": {
+    "full": "Al diavolo il popolo."
+  },
   "Reign1.9": {
     "full": "{0}"
+  },
+  "Reign1b.1": {
+    "full": "**I ringraziamenti del consigliere**"
+  },
+  "Reign1b.2": {
+    "full": "Il consigliere mi ringraziò per l'aiuto. Dalla nostra breve conversazione capii che il mio amico era piuttosto oppresso dal dover prendere decisioni. Ero quasi certo che avrebbe fatto come gli avevo suggerito, perché rifletterci avrebbe solo sprecato tempo che poteva impiegare meglio {0}",
+    "easy": "Il consigliere mi ringraziò per l'aiuto. Dalla nostra breve conversazione capii che al mio amico non piaceva affatto prendere decisioni. Ero quasi sicuro che avrebbe fatto quello che gli avevo suggerito, perché pensarci avrebbe solo sprecato tempo che poteva usare meglio {0}"
   },
   "Reign1b.3": {
     "full": "{0} {1}"
@@ -5947,11 +6225,31 @@
   "Reign1b.4": {
     "full": "{0} {1}"
   },
+  "Reign1b.5": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
   "Reign2.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign2.2": {
+    "full": "**Vagabondi**"
+  },
+  "Reign2.3": {
+    "full": "Il consigliere reale sembrava tormentato dall'indecisione di fronte alla recente piaga dei senzatetto nella regione. Gli era giunta voce che una terribile folla di vagabondi dallo sguardo sfuggente fosse da poco arrivata in città e chiedesse l'elemosina vicino al mercato contadino. Pensare che c'è chi sceglie di vivere da nomade!",
+    "easy": "Il consigliere reale non sapeva che cosa fare con il recente problema dei senzatetto nella regione. Aveva sentito che un terribile gruppo di viaggiatori sospetti era da poco arrivato in città e chiedeva l'elemosina vicino al mercato contadino. Pensare che c'è chi sceglie di vivere senza una casa fissa!",
+    "short": "Il consigliere reale era combattuto di fronte alla piaga dei senzatetto: una folla di vagabondi dallo sguardo sfuggente era arrivata e mendicava vicino al mercato contadino. Pensate, scegliere una vita da nomadi!"
+  },
+  "Reign2.4": {
+    "full": "**Secondo il mio umilissimo parere, dovevamo:**"
+  },
+  "Reign2.5": {
+    "full": "Offrire a quei furfanti un alloggio temporaneo."
+  },
   "Reign2.6": {
     "full": "{0}"
+  },
+  "Reign2.7": {
+    "full": "Cacciare via quella marmaglia."
   },
   "Reign2.8": {
     "full": "{0}"
@@ -5959,8 +6257,30 @@
   "Reign4.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign4.2": {
+    "full": "**Libertà di parola**"
+  },
+  "Reign4.3": {
+    "full": "La guerra civile e lo spargimento di sangue che aveva causato non sembravano aver placato i cuori e le menti di molti cittadini della regione. In tutta la valle divennero frequenti piccole proteste per questioni minori come la carestia, le tasse eccessive e il diffondersi delle malattie.",
+    "easy": "La guerra civile e il sangue che aveva fatto versare non sembravano aver calmato i cuori e le menti di molti cittadini della regione. In tutta la valle diventarono normali piccole proteste per problemi minori come la carestia, le tasse alte e la diffusione delle malattie.",
+    "short": "La guerra civile non aveva placato gli animi. In tutta la valle divennero frequenti piccole proteste per la carestia, le tasse e le malattie."
+  },
+  "Reign4.4": {
+    "full": "Il consigliere aveva il compito di sedare la folla, ma era tristemente impreparato, nella mente e nel corpo, a far rispettare una simile scelta. Da persona di cuore saldo e imbevuta di libertà personale, mi presi l'incarico di consigliarlo. Sarei stato io a decidere se quegli idealisti Separatisti sarebbero sfuggiti o avrebbero subito altre persecuzioni.",
+    "easy": "Il consigliere aveva il compito di fermare la folla arrabbiata, ma non era per niente pronto, né nella mente né nel corpo, a mettere in pratica una decisione simile. Da persona dal cuore forte che crede profondamente nella libertà personale, decisi di dargli un consiglio. Sarei stato io a decidere se quei sognatori Separatisti sarebbero scappati o sarebbero stati puniti ancora.",
+    "short": "Il consigliere doveva sedare la folla, ma era del tutto impreparato. Da paladino della libertà personale, offrii il mio consiglio: quegli idealisti Separatisti sarebbero sfuggiti o avrebbero subito altre persecuzioni?"
+  },
+  "Reign4.5": {
+    "full": "**La scelta mi era chiara. Scelsi:**"
+  },
+  "Reign4.6": {
+    "full": "Permettere le manifestazioni. "
+  },
   "Reign4.7": {
     "full": "{0}"
+  },
+  "Reign4.8": {
+    "full": "Usare il pugno duro."
   },
   "Reign4.9": {
     "full": "{0}"
@@ -5968,8 +6288,28 @@
   "Reign3.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign3.2": {
+    "full": "**Le riserve di caccia**"
+  },
+  "Reign3.3": {
+    "full": "Fu con il cuore pesante che il consigliere reale mi informò che i reali volevano estendere le loro riserve di caccia fino a comprendere parte della regione. Lo scopo era garantire selvaggina in abbondanza per lo sport, ma anche scoraggiare il bracconaggio, che a quanto pareva dilagava.",
+    "easy": "Con il cuore pesante, il consigliere reale mi disse che la famiglia reale voleva allargare le sue riserve di caccia a una parte della regione. Così ci sarebbero stati abbastanza animali per lo sport, e si sarebbe fermata la caccia illegale, che sembrava ovunque.",
+    "short": "Il consigliere reale mi annunciò a malincuore che i reali volevano estendere le riserve di caccia nella regione, per il buon sport e per frenare il bracconaggio dilagante."
+  },
+  "Reign3.4": {
+    "full": "Permettere la caccia a tutti avrebbe avuto un prezzo, ma avrebbe reso felice la gente. Valeva però la pena di immischiarsi negli affari dei nobili, soprattutto con ricompense simili in gioco?"
+  },
+  "Reign3.5": {
+    "full": "**La scelta mi era chiara. Scelsi:**"
+  },
+  "Reign3.6": {
+    "full": "Permettere la caccia."
+  },
   "Reign3.7": {
     "full": "{0}"
+  },
+  "Reign3.8": {
+    "full": "Vietare la caccia."
   },
   "Reign3.9": {
     "full": "{0}"
@@ -5977,8 +6317,30 @@
   "Reign6.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign6.2": {
+    "full": "**La febbre dello spiritismo**"
+  },
+  "Reign6.3": {
+    "full": "Una moda di spiriti che bussano si sta diffondendo nella regione, e un movimento regionale per la temperanza fa pressione sui reali perché mettano al bando questo sport profano delle sedute spiritiche. Il consigliere non ricordava che cosa fosse uno spirito che bussa, né una seduta, né ricordava di aver mai assistito a un incontro spiritista nella zona, e il pensiero gli corrugò severamente la fronte. ",
+    "easy": "Una moda di spiriti che bussano si sta diffondendo nella regione, e un movimento regionale contro l'alcol spinge la famiglia reale a vietare questo sport sacrilego delle sedute spiritiche. Il consigliere non ricordava che cosa fossero uno spirito che bussa o una seduta, né ricordava di aver mai visto un incontro con gli spiriti nella zona, e il pensiero lo fece accigliare molto. ",
+    "short": "La moda degli spiriti che bussano dilaga nella regione, e un movimento per la temperanza vuole vietare le sedute spiritiche. Il consigliere non aveva idea di che cosa fossero, e il pensiero gli corrugò la fronte. "
+  },
+  "Reign6.4": {
+    "full": "Essendo esperto di semplici pratiche arcane, cosa che mi guardai bene dal riferire al mio ben pasciuto compagno, offrii il mio aiuto nella faccenda. Permettere a tutti di evocare gli spiriti dei morti avrebbe coperto alcune delle singolari caratteristiche della mia famiglia, ma forse avrei potuto offrire ai reali un eretico da detestare.",
+    "easy": "Conosco bene le semplici pratiche magiche, ma non lo dissi al mio amico ben nutrito. Offrii il mio aiuto nella faccenda. Se chiamare gli spiriti dei morti fosse stato permesso a tutti, avrebbe nascosto alcune strane abitudini della mia famiglia, ma forse potevo dare ai reali un eretico da detestare.",
+    "short": "Esperto di semplici pratiche arcane, cosa che tacqui al mio ben pasciuto compagno, offrii il mio aiuto. Permettere le sedute avrebbe coperto le stranezze della mia famiglia, ma forse potevo offrire ai reali un eretico da detestare."
+  },
+  "Reign6.5": {
+    "full": "**La scelta mi era ovvia:**"
+  },
+  "Reign6.6": {
+    "full": "Lasciare che la gente si diverta."
+  },
   "Reign6.7": {
     "full": "{0}"
+  },
+  "Reign6.8": {
+    "full": "È un sacrilegio!"
   },
   "Reign6.9": {
     "full": "{0}"
@@ -5986,8 +6348,30 @@
   "Reign7.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign7.2": {
+    "full": "**La scelta del riconoscimento**"
+  },
+  "Reign7.3": {
+    "full": "Volle la fortuna che il mio stimato compagno, il consigliere reale, avesse rapidamente tracannato gran parte di una bottiglia di assenzio e fosse prontamente svenuto sul pavimento, in mezzo alla sua stessa cena. Sul tavolo giaceva ancora fresco un contratto con il sigillo reale.",
+    "easy": "Per fortuna, il mio rispettato amico, il consigliere reale, aveva bevuto in fretta quasi tutta una bottiglia di assenzio e poi si era addormentato sul pavimento, in mezzo alla sua cena. Sul tavolo c'era ancora un contratto fresco con il sigillo reale.",
+    "short": "Per fortuna il consigliere reale tracannò quasi tutta una bottiglia di assenzio e svenne sul pavimento in mezzo alla cena, lasciando sul tavolo un contratto con il sigillo reale."
+  },
+  "Reign7.4": {
+    "full": "Ora, non mi abbasserei mai a firmare assegni bancari che non sono miei, ma dato che quel documento richiedeva soltanto un parere su chi dovesse ricevere i beni o il titolo in questione, la possibilità mi incuriosì e mi presi quell'autorità. Potevo firmare il documento con il mio nome, concedendomi così un titolo qualsiasi, oppure procurarmi qualche affare in più nella regione. Prendermi semplicemente il titolo sarebbe stato un po' egoista, ma era comunque allettante.",
+    "easy": "Ora, non mi abbasserei mai a firmare assegni bancari che non sono miei. Ma quel documento chiedeva solo un parere su chi dovesse ricevere i beni o il titolo, quindi l'occasione mi interessò e mi presi quell'autorità. Potevo firmare il documento con il mio nome e darmi un titolo qualsiasi, oppure ottenere qualche affare in più nella regione. Prendermi semplicemente il titolo sarebbe stato un po' egoista, ma era comunque attraente.",
+    "short": "Non falsificherei mai un assegno, ma quel documento chiedeva solo un parere su chi dovesse ricevere i beni o il titolo. Potevo firmarlo col mio nome e prendermi un titolo, oppure ottenere altri affari nella regione. Prendermi il titolo sarebbe stato egoista, ma allettante."
+  },
+  "Reign7.5": {
+    "full": "**La scelta mi era chiara. Scelsi:**"
+  },
+  "Reign7.6": {
+    "full": "Un po' per me."
+  },
   "Reign7.7": {
     "full": "{0}"
+  },
+  "Reign7.8": {
+    "full": "Gloria a ME."
   },
   "Reign7.9": {
     "full": "{0}"
@@ -5995,17 +6379,222 @@
   "Reign8.1": {
     "full": "**Passate con cautela lo Storybook a {0}. Questo passaggio va poi letto ad alta voce a tutti i giocatori.**"
   },
+  "Reign8.2": {
+    "full": "**Tecnologia delle armi**"
+  },
+  "Reign8.3": {
+    "full": "La guerra aveva lasciato il segno sul paesaggio e, mentre il tempo cominciava a ricucire la frattura tra la popolazione e i reali, divenne un nuovo argomento di conversazione l'Armamento Avanzato (di cui la nostra illustre famiglia era pioniera) e se dovesse essere accessibile alla gente comune. Un argomento su cui il mio caro consigliere reale era chiamato a prendere una decisione netta.",
+    "easy": "La guerra aveva danneggiato la terra e, mentre il tempo cominciava a guarire la rottura tra la gente e la famiglia reale, nacque un nuovo argomento di conversazione: l'Armamento Avanzato (guidato dalla nostra famosa famiglia), e se la gente comune avrebbe potuto averlo. Il mio caro consigliere reale doveva prendere una decisione chiara su questo argomento.",
+    "short": "Mentre il tempo ricuciva la frattura tra popolo e corona, sorse una nuova questione: la gente comune doveva avere accesso all'Armamento Avanzato, di cui la nostra famiglia era pioniera? Il mio consigliere reale doveva decidere."
+  },
+  "Reign8.4": {
+    "full": "La questione aveva poca importanza per me. In un modo o nell'altro avrei trovato il modo di trarre vantaggio dal loro uso e dal loro continuo miglioramento.",
+    "easy": "La questione non era importante per me. In un modo o nell'altro avrei trovato il modo di guadagnare dal loro uso e dal loro continuo miglioramento."
+  },
+  "Reign8.5": {
+    "full": "**La scelta mi era ovvia. Scelsi:**"
+  },
+  "Reign8.6": {
+    "full": "Legalizzarne la vendita."
+  },
+  "Reign8.7": {
+    "full": "*Questo comporterà: {0} Guadagna 1 token Weapon. I token Weapon si possono spendere come denaro: $1 per ogni token Weapon.*"
+  },
+  "Reign8.8": {
+    "full": "Limitarne la vendita."
+  },
+  "Reign8.9": {
+    "full": "*Questo comporterà: {0} Guadagna 1 token Weapon. A fine partita i token Weapon valgono 1VP.*"
+  },
+  "Reign3b.1": {
+    "full": "**Ringraziamenti dovuti**"
+  },
+  "Reign3b.2": {
+    "full": "Il consigliere mi ringraziò per l'aiuto. Ero felice di avere il controllo di una situazione così tesa. ",
+    "easy": "Il consigliere mi ringraziò per l'aiuto. Ero felice di avere il controllo di una situazione così tesa. "
+  },
+  "Reign3b.3": {
+    "full": "Come previsto, la caccia libera portò all'estinzione di una delle nostre grandi specie native. La sopravvivenza del più adatto, suppongo.",
+    "easy": "Come previsto, la caccia libera fece sparire uno dei nostri grandi animali nativi. La sopravvivenza del più forte, suppongo."
+  },
+  "Reign3b.4": {
+    "full": "{0} Scegliete un **token animale** e rimettetelo nella scatola del gioco. Questo animale può essere in possesso di un altro giocatore."
+  },
   "Reign3b.5": {
     "full": "{0} {1}"
+  },
+  "Reign3b.6": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "Reign4b.1": {
+    "full": "**Ringraziamenti dovuti**"
+  },
+  "Reign4b.2": {
+    "full": "Il consigliere mi ringraziò per l'aiuto. La situazione era sotto controllo. ",
+    "easy": "Il consigliere mi ringraziò per l'aiuto. La situazione era sotto controllo. "
+  },
+  "Reign4b.3": {
+    "full": "La libertà personale, come sempre, per me era fondamentale.",
+    "easy": "La libertà personale, come sempre, era la cosa più importante per me."
+  },
+  "Reign4b.4": {
+    "full": "Non ci sarà pietà per i traditori. Ci avrebbe pensato l'esercito a disperderli.",
+    "easy": "Non ci sarà pietà per i traditori. L'esercito si sarebbe assicurato di disperderli."
+  },
+  "Reign4b.5": {
+    "full": "{0} L'effetto negativo del token Separatist viene rimosso. La restrizione sugli Scienziati viene tolta. "
+  },
+  "Reign4b.6": {
+    "full": "{0} Chi ha un token Separatist a faccia in su non potrà più mettere il proprio Scienziato nel Villaggio."
+  },
+  "Reign4b.7": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "Reign6b.1": {
+    "full": "**Grazie**"
+  },
+  "Reign6b.2": {
+    "full": "Il consigliere mi ringraziò per l'aiuto. La religione è una questione così delicata. ",
+    "easy": "Il consigliere mi ringraziò per l'aiuto. La religione è una questione così sensibile. "
+  },
+  "Reign6b.3": {
+    "full": "E trattandola senza alcuna delicatezza, io e i miei cugini godemmo di un momento di tregua dalle persecuzioni.",
+    "easy": "E siccome l'avevamo trattata senza nessuna delicatezza, io e i miei cugini avemmo una breve pausa dalle persecuzioni."
+  },
+  "Reign6b.4": {
+    "full": "Non era cosa da prendere alla leggera. Mio cugino farebbe bene a ricordarselo, la prossima volta!",
+    "easy": "Non era cosa da prendere alla leggera. Mio cugino dovrebbe ricordarselo, la prossima volta!"
+  },
+  "Reign6b.5": {
+    "full": "{0} Tutti i giocatori **perdono 2 {icon:Creepy_Icon}.** Tu guadagni 2VP."
+  },
+  "Reign6b.6": {
+    "full": "{0} Scegli un giocatore che **guadagna subito 2 {icon:Creepy_Icon}**."
+  },
+  "Reign6b.7": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "Reign8b.1": {
+    "full": "**I ringraziamenti del consigliere**"
+  },
+  "Reign8b.2": {
+    "full": "Il consigliere mi ringraziò per l'aiuto. Denaro o fama: una scelta sempre così difficile. ",
+    "easy": "Il consigliere mi ringraziò per l'aiuto. Denaro o fama: una scelta sempre così difficile. "
+  },
+  "Reign8b.3": {
+    "full": "Ma, in questo caso, era difficile resistere ai fondi aggiuntivi per alimentare i miei piani.",
+    "easy": "Ma in questo caso era difficile resistere al denaro in più per i miei piani."
+  },
+  "Reign8b.4": {
+    "full": "Alla fine, però, non potevo sprecare una risorsa così preziosa per dei semplici contadini. La penna sarà anche più potente della spada, ma non più di un Lanciafiamme da elmetto.",
+    "easy": "Ma alla fine non potevo sprecare una risorsa così preziosa per dei semplici contadini. La penna sarà anche più forte della spada, ma non più di un Lanciafiamme da elmetto."
+  },
+  "Reign8b.5": {
+    "full": "{0}Guadagna 1 token {icon:S3_WeaponToken}. Ora i token {icon:S3_WeaponToken} si possono spendere come denaro: $1 per ogni token {icon:S3_WeaponToken}."
+  },
+  "Reign8b.6": {
+    "full": "{0} Guadagna 1 token {icon:S3_WeaponToken}. Ora a fine partita ogni token Weapon vale **1VP**."
+  },
+  "Reign8b.7": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "Reign2b.1": {
+    "full": "**Un biglietto di ringraziamento**"
+  },
+  "Reign2b.2": {
+    "full": "Il consigliere mi ringraziò per l'aiuto. Il complimento mi fece molto piacere, ma il nostro accordo, vantaggioso per entrambi, si adattava splendidamente alle mie esigenze. ",
+    "easy": "Il consigliere mi ringraziò per l'aiuto. Il complimento mi fece molto piacere, ma il nostro accordo, buono per tutti e due, andava benissimo per le mie esigenze. "
+  },
+  "Reign2b.3": {
+    "full": "I vagabondi sarebbero stati sicuramente messi al lavoro, ne sono certo.",
+    "easy": "I viaggiatori sarebbero stati sicuramente messi al lavoro, ne sono sicuro."
+  },
+  "Reign2b.4": {
+    "full": "Purtroppo non era la stagione per ospitare visitatori, nemmeno se solo di passaggio.",
+    "easy": "Purtroppo non era la stagione per dare una stanza ai visitatori, anche se dovevano restare solo per poco."
+  },
+  "Reign2b.5": {
+    "full": "{0} Poi tutti i giocatori possono pagare $1 per guadagnare un Ingredient **Body**."
   },
   "Reign2b.6": {
     "full": "{0} {1}"
   },
+  "Reign2b.7": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "Reign7c.1": {
+    "full": "Inserisci il tuo nuovissimo titolo regale."
+  },
+  "Reign7c2.1": {
+    "full": "**Grazie, {0}**"
+  },
+  "Reign7c2.2": {
+    "full": "Il consigliere, quando tornò in sé, mi ringraziò per l'aiuto. Per tre volte gli ricordai di rivolgersi a me come {0}. Ah, {1}. Che titolo glorioso!",
+    "easy": "Quando il consigliere riuscì di nuovo a ragionare, mi ringraziò per l'aiuto. Per tre volte gli ricordai di chiamarmi {0}. Ah, {1}. Che titolo glorioso!"
+  },
   "Reign7c2.3": {
     "full": "{0}"
   },
+  "Reign7c2.4": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "Reign7b.1": {
+    "full": "**Ringraziamenti tardivi**"
+  },
+  "Reign7b.2": {
+    "full": "Il consigliere, quando riprese conoscenza, mi ringraziò per l'aiuto. Lo informai che l'affare era assicurato e che la gente sarebbe stata felicissima della sua risolutezza. ",
+    "easy": "Quando il consigliere si risvegliò, mi ringraziò per l'aiuto. Gli dissi che l'affare era al sicuro e che la gente sarebbe stata molto contenta della sua decisione così ferma. "
+  },
   "Reign7b.3": {
     "full": "{0} {1}"
+  },
+  "Reign7b.4": {
+    "full": "*Promemoria: il token {icon:S3_CrownToken} può spostarsi solo nelle caselle numerate del tracciato. Se uno spostamento lo porterebbe nella casella iniziale o finale, lo spostamento viene ignorato.*"
+  },
+  "SeedResolution.1": {
+    "full": "**Un luogo di conoscenza**"
+  },
+  "SeedResolution.2": {
+    "full": "Osservavo dal mio nascondiglio come un singolo angolo del laboratorio segreto diventasse un deposito di appunti e di pagine strappate da antichi manoscritti. Sera dopo sera, quella raccolta ossessiva di sapere si riversava sui pavimenti di pietra e si appendeva alle pareti come nello studio di un artista, allargandosi nella stanza come foglie brune su una vite rigogliosa. Una tale ricchezza di sapere, come non ne avevo mai vista in tutti i miei anni all'università.",
+    "easy": "Dal mio nascondiglio guardavo un angolo del laboratorio segreto diventare un deposito di molti appunti e pagine strappate da vecchi manoscritti. Ogni sera, questa raccolta ossessiva di sapere si allargava sul pavimento di pietra e veniva appesa alle pareti come nello studio di un artista, diffondendosi nella stanza come foglie brune su una pianta luminosa. Una tale ricchezza di sapere, più di quanta ne avessi mai vista in tutti i miei anni all'università.",
+    "short": "Dal nascondiglio guardavo un angolo del laboratorio segreto riempirsi di appunti e di pagine strappate, che dilagavano sul pavimento e sulle pareti come foglie brune su una vite. Più sapere di quanto ne avessi visto in tutti i miei anni all'università."
+  },
+  "SeedResolution.3": {
+    "full": "Presto {0} non poté più ignorare il genio che viveva appena oltre i suoi confini. La regione sarebbe stata celebrata per la **conoscenza** che la mia famiglia le aveva portato, e io assaporavo la vittoria dall'ombra, sapendo che ne avrei raccolto tutti i frutti.",
+    "easy": "Presto {0} non poté più ignorare il genio che viveva appena fuori dal paese. La regione sarebbe stata celebrata per la **conoscenza** che la mia famiglia le aveva portato, e io mi godevo la vittoria dall'ombra, sapendo che ne avrei avuto tutti i vantaggi."
+  },
+  "SeedResolution.4": {
+    "full": "**Un'abbondanza di beni**"
+  },
+  "SeedResolution.5": {
+    "full": "Gli Ingredient giacevano ammucchiati alla rinfusa sul pavimento di pietra del laboratorio. I prati della tenuta erano ben brucati dall'esotica collezione di delizie zoologiche raccolta dai miei genitori. Era difficile mantenere la mia finzione di familiare ignaro, con una tale ricchezza di possibilità nascosta proprio sotto i miei piedi. Era uno spettacolo magnifico.",
+    "easy": "Gli Ingredient erano ammucchiati in disordine sul pavimento di pietra del laboratorio. Gli animali della strana collezione zoologica raccolta dai miei genitori avevano mangiato quasi tutta l'erba della tenuta. Era difficile continuare a fingere di essere un familiare che non sapeva niente, con possibilità così grandi nascoste proprio sotto i miei piedi. Era uno spettacolo meraviglioso.",
+    "short": "Gli Ingredient erano ammucchiati sul pavimento del laboratorio, e il serraglio esotico dei miei genitori pascolava nei prati. Con tali ricchezze sotto i piedi, era difficile fingermi ignaro. Uno spettacolo magnifico."
+  },
+  "SeedResolution.6": {
+    "full": "Presto {0} non poté più ignorare il genio che viveva appena oltre i suoi confini. La regione sarebbe stata celebrata per i **beni** che la mia famiglia le aveva portato, e io assaporavo la vittoria dall'ombra, sapendo che ne avrei raccolto tutti i frutti.",
+    "easy": "Presto {0} non poté più ignorare il genio che viveva appena fuori dal paese. La regione sarebbe stata celebrata per i **beni** che la mia famiglia le aveva portato, e io mi godevo la vittoria dall'ombra, sapendo che ne avrei avuto tutti i vantaggi."
+  },
+  "SeedResolution.7": {
+    "full": "**Il paradiso degli investitori**"
+  },
+  "SeedResolution.8": {
+    "full": "Anche negli anni del tramonto, i miei genitori conducevano i loro affari con una voracità, e una veridicità, che bisognava vedere per crederci. Se posso essere del tutto sincero, il luccichio delle monete mi interessava poco, eppure le cose meravigliose che potevo procurarmi con esse riaccesero in me il fuoco dell'ambizione, mentre i miei capelli si facevano sempre più cenere.",
+    "easy": "Anche da anziani, i miei genitori gestivano i loro affari con una fame, e un'onestà, che bisognava vedere per crederci. A essere del tutto sincero, le monete luccicanti non mi interessavano molto, ma le cose meravigliose che potevo comprarci riaccesero in me il fuoco dell'ambizione, mentre i miei capelli diventavano sempre più grigi.",
+    "short": "Anche da anziani, i miei genitori facevano affari con una voracità, e una veridicità, da non credere. Le monete contavano poco per me, ma ciò che potevano comprare riaccese la mia ambizione mentre i capelli mi si ingrigivano."
+  },
+  "SeedResolution.9": {
+    "full": "Presto {0} non poté più ignorare il genio che viveva appena oltre i suoi confini. La regione sarebbe stata celebrata per il **denaro** che la mia famiglia le aveva portato, e io assaporavo la vittoria dall'ombra, sapendo che ne avrei raccolto tutti i frutti.",
+    "easy": "Presto {0} non poté più ignorare il genio che viveva appena fuori dal paese. La regione sarebbe stata celebrata per il **denaro** che la mia famiglia le aveva portato, e io mi godevo la vittoria dall'ombra, sapendo che ne avrei avuto tutti i vantaggi."
+  },
+  "SeedResolution.10": {
+    "full": "Il giocatore che ha il token Storybook nella propria Tenuta **guadagna 1 cubo Conoscenza (Knowledge) a sua scelta** e **guadagna una Compulsion**. Poi rimettete il token Storybook nella riserva."
+  },
+  "SeedResolution.11": {
+    "full": "Il giocatore che ha il token Storybook nella propria Tenuta **guadagna 1 Ingredient a sua scelta** e **guadagna una Compulsion**. Poi rimettete il token Storybook nella riserva."
+  },
+  "SeedResolution.12": {
+    "full": "Il giocatore che ha il token Storybook nella propria Tenuta **guadagna $2** e **guadagna una Compulsion**. Poi rimettete il token Storybook nella riserva."
   },
   "round.TakeSides.end": {
     "full": "La Giovinezza della Prima Generazione è terminata. Eseguite tutte le azioni di Fine del Round."
@@ -6150,5 +6739,332 @@
   },
   "round.Paradox3b.then": {
     "full": "Eseguite tutte le azioni di Fine del Round prima di continuare."
+  },
+  "round.Martia1Pre2.round.end": {
+    "full": "La Giovinezza della Seconda Generazione è terminata."
+  },
+  "round.Martia1Pre2.round.then": {
+    "full": "Eseguite ora tutte le azioni di Fine del Round."
+  },
+  "round.MartialPre3.round.end": {
+    "full": "La Maturità della Seconda Generazione è terminata."
+  },
+  "round.MartialPre3.round.then": {
+    "full": "Eseguite ora tutte le azioni di Fine del Round."
+  },
+  "lit:For such a small, rural village, the atmosphere was always busy with at least one boisterous argument erupting after the charged words of a townsperson. This lively arrangement intrigued me, and I decided to investigate further.": {
+    "full": "Per un villaggio di campagna così piccolo, l'atmosfera era sempre animata, con almeno una lite chiassosa che scoppiava dopo le parole accese di qualche abitante. Quella vivacità mi incuriosì e decisi di indagare più a fondo."
+  },
+  "lit:While the sights - and smells - of the local civic establishment were certainly an interesting diversion, I could not allow myself to be distracted. I was here to gain insight on the political factions, as I was well-aware that this knowledge could be swung to my advantage.": {
+    "full": "Le vedute, e gli odori, dell'istituzione civica locale erano certo un diversivo interessante, ma non potevo permettermi di distrarmi. Ero lì per capire le fazioni politiche, ben sapendo che quella conoscenza poteva volgersi a mio vantaggio."
+  },
+  "lit:I was never quite fond of my visits to this place. However, it was ever my duty to make an appearance and my spouse insisted that I would do well to 'mingle' amongst the folk here. So, I made do within the strained situation and struck up a conversation with the first individual that intrigued me.": {
+    "full": "Non ho mai amato particolarmente le mie visite in questo posto. Tuttavia, farmi vedere era sempre mio dovere, e il mio coniuge insisteva che avrei fatto bene a \"mescolarmi\" alla gente del posto. Così mi adattai alla situazione tesa e attaccai discorso con la prima persona che mi incuriosì."
+  },
+  "lit:These spirited events - possible more entertaining to observe than to engage with - took place as the sun set and then sprawled late into the evening. I found myself much more accepted in this environment as the night wore on and inevitably the spirits of all in attendance were roused by the spirits from a local distillery. On this peculiar evening, a few persons caught my eye.": {
+    "full": "Questi incontri animati, forse più divertenti da osservare che da vivere, cominciavano al tramonto e si protraevano fino a tarda sera. Man mano che la notte avanzava mi sentivo molto più accettato, e inevitabilmente gli animi dei presenti si scaldavano grazie agli spiriti di una distilleria locale. Quella sera singolare, alcune persone attirarono la mia attenzione."
+  },
+  "lit:My intrusion was met with jeers and skepticism until I allayed their worries with a clever turn of phrase and charming demeanor.": {
+    "full": "La mia intrusione fu accolta da scherni e scetticismo, finché non dissipai i loro timori con una frase arguta e modi affascinanti."
+  },
+  "lit:I was quick to explain to them the merits of dour discretion when royal matters are concerned.": {
+    "full": "Mi affrettai a spiegare loro i pregi di una severa discrezione quando si tratta di questioni reali."
+  },
+  "lit:They became especially excited by my presence - commonfolk are so easily distracted - and": {
+    "full": "La mia presenza li eccitò parecchio (la gente comune si distrae così facilmente) e"
+  },
+  "lit:After a moment of stunned silence - clearly they were overtaken by my brilliance -": {
+    "full": "Dopo un attimo di silenzio sbalordito (evidentemente sopraffatti dalla mia genialità),"
+  },
+  "lit:1 Advanced Weaponry Experiment": {
+    "full": "1 Esperimento Advanced Weaponry"
+  },
+  "lit:2 Advanced Weaponry Experiments": {
+    "full": "2 Esperimenti Advanced Weaponry"
+  },
+  "lit:I could see a rift - a shimmering slice in the fabric of time -  open up before me.": {
+    "full": "Vidi aprirsi davanti a me una fenditura, uno squarcio scintillante nel tessuto del tempo."
+  },
+  "lit:After conducting my business, I felt the Earth tremble beneath my feet. My blood vessels pulsed, bulging varicose above my straining muscles as an unseen force seemed to press upon me.": {
+    "full": "Sbrigati i miei affari, sentii la terra tremare sotto i piedi. I vasi sanguigni pulsavano, gonfi sopra i muscoli tesi, mentre una forza invisibile sembrava schiacciarmi."
+  },
+  "lit:A bolt of lightning carved through the pathway ahead, sending my carriage to an abrupt halt. The air swirled into a violent tornado around me.": {
+    "full": "Un fulmine squarciò il sentiero davanti a me e la mia carrozza si fermò di colpo. L'aria mi turbinò intorno in un violento tornado."
+  },
+  "lit:My stomach fell. A lump caught in my throat.": {
+    "full": "Mi si strinse lo stomaco. Avevo un nodo in gola."
+  },
+  "lit:We feel the emotional weight of six years of developing this game and writing it all by hand resting on our shoulders. 'They better like it.' A voice whispers. It is the game designer again, self-inserting, which is kind of a hack move.": {
+    "full": "Sentiamo sulle spalle il peso emotivo di sei anni passati a sviluppare questo gioco e a scriverlo tutto a mano. \"Speriamo che gli piaccia\", sussurra una voce. È di nuovo l'autore del gioco che si infila nella storia, una mossa un po' da dilettanti."
+  },
+  "lit:I think an empty page is exactly what we need right now. Maybe this is a chance to recognize that we're all aimlessly trudging forward through the void. Maybe there's a deeper meaning to it all and we should take a moment to discuss it. Board games just aren't what they used to be. Why do they need electronic apps? Perhaps it's best if we visit the bank and get out of here before the game designer starts acting even more like a hipster.": {
+    "full": "Credo che una pagina vuota sia proprio ciò che ci serve adesso. Forse è l'occasione per riconoscere che stiamo tutti arrancando senza meta nel vuoto. Forse c'è un significato più profondo in tutto questo e dovremmo prenderci un momento per parlarne. I giochi da tavolo non sono più quelli di una volta. Perché mai hanno bisogno di app elettroniche? Forse è meglio passare in banca e andarcene prima che l'autore del gioco cominci a fare ancora di più l'hipster."
+  },
+  "lit:To blame ": {
+    "full": "Dare la colpa a "
+  },
+  "lit:I alone deserved recognition for my glorious, bombastic, chimerical, transformative creations that defied the rigors of known science. I could no longer suffer the egotistical competitive nature of my cousins, whose work so paled in comparison to my own. This was my time. This was the era of ": {
+    "full": "Io solo meritavo riconoscimento per le mie creazioni gloriose, roboanti, chimeriche e rivoluzionarie, che sfidavano i rigori della scienza conosciuta. Non sopportavo più l'egocentrica competitività dei miei cugini, il cui lavoro impallidiva al confronto del mio. Era il mio momento. Era l'era di "
+  },
+  "lit: III!": {
+    "full": " III!"
+  },
+  "lit:The fate of the world rested in my hands. It was my discoveries, my ingenious weaponry, my unslakable ambitions that would define this new epoch in human existence. And I put on a demonstration that left no doubt as to whom the glory should be bestowed upon.": {
+    "full": "Il destino del mondo era nelle mie mani. Sarebbero state le mie scoperte, le mie armi geniali, le mie ambizioni insaziabili a definire questa nuova epoca dell'esistenza umana. E diedi una dimostrazione che non lasciò alcun dubbio su chi meritasse la gloria."
+  },
+  "lit:Fame meant little to me if it did not carry with it the power to alter the world. I would watch as it transformed - carefully molded by my own hands - into a boundless utopia. My influence could no longer be relegated to the shadows. It was time to claim the Earth for my own and shake it to its very core.": {
+    "full": "La fama significava poco per me, se non portava con sé il potere di cambiare il mondo. L'avrei visto trasformarsi, plasmato con cura dalle mie mani, in un'utopia sconfinata. La mia influenza non poteva più restare relegata nell'ombra. Era tempo di prendermi la Terra e di scuoterla fin nel profondo."
+  },
+  "lit:The ": {
+    "full": "I "
+  },
+  "lit:1 <sprite=\"Creepy_Icon\" index=0> and 1 Resource of their choice.": {
+    "full": "1 Creepy e 1 risorsa a sua scelta."
+  },
+  "lit:1 Resource of their choice and moves the <sprite=\"AngryMob_Icon\" index=0> Marker 1 space to the left.": {
+    "full": "1 risorsa a sua scelta e sposta il segnalino Angry Mob di 1 casella a sinistra."
+  },
+  "lit:as I ventured nearer the dismal, gray statue.": {
+    "full": " mentre mi avvicinavo alla tetra statua grigia."
+  },
+  "lit:as a chill wind swept debris about the cracked foundation.": {
+    "full": " mentre un vento gelido spazzava i detriti intorno alle fondamenta crepate."
+  },
+  "lit:Though I perceived my body as merely a vessel to contain my brilliant mind and dreaded to imagine the wasted time it would take to martial my skills, I would nevertheless answer in the affirmative. Under the eyes of God and the Devil, I would strike with precision and settle this matter with spilt blood.": {
+    "full": "Anche se consideravo il mio corpo un semplice recipiente per la mia mente brillante e temevo il tempo sprecato per affinare le mie abilità, avrei comunque risposto di sì. Sotto gli occhi di Dio e del Diavolo, avrei colpito con precisione e risolto la questione col sangue."
+  },
+  "lit:I decided that honor was above all. I would not be bullied into submission by a sycophant searching for recognition. If a duel was required, then a duel we shall have!": {
+    "full": "Decisi che l'onore veniva prima di tutto. Non mi sarei lasciato sottomettere da un leccapiedi in cerca di riconoscimento. Se serviva un duello, duello sia!"
+  },
+  "lit:The exterior wall near the corner of my estate had been struck by an explosive device. I was immediately suspicious of the clear lines of soot at the base, suggesting that the demolition had in fact been calculated to expose a portion of my laboratory.": {
+    "full": "Il muro esterno vicino all'angolo della tenuta era stato colpito da un ordigno esplosivo. Le nette strisce di fuliggine alla base mi insospettirono subito: la demolizione era stata calcolata per esporre una parte del mio laboratorio."
+  },
+  "lit:The papers within my laboratory were scattered about and a small fire had claimed and blackened a portion of the room. Given the frequency of loud noises and odoriferous ingredients emanating from the room, I was not surprised when none in the house noticed anything amiss.": {
+    "full": "Le carte nel mio laboratorio erano sparpagliate e un piccolo incendio aveva annerito una parte della stanza. Visti i frequenti rumori forti e gli ingredienti maleodoranti che uscivano da lì, non mi sorprese che nessuno in casa avesse notato nulla di strano."
+  },
+  "lit: and must <b>discard 1 Experiment</b> they completed this Generation.": {
+    "full": " e deve scartare 1 Esperimento che ha completato in questa Generazione."
+  },
+  "lit: had the most.": {
+    "full": " ne aveva di più."
+  },
+  "lit:Click here if the ": {
+    "full": "Clicca qui se i "
+  },
+  "lit:were successful": {
+    "full": "hanno avuto successo"
+  },
+  "lit:defended the attack and won the war.": {
+    "full": "hanno respinto l'attacco e vinto la guerra."
+  },
+  "lit:Engagement": {
+    "full": "Scontro"
+  },
+  "lit:Campaign": {
+    "full": "Campagna"
+  },
+  "lit:We voted to (YAY) destroy the ": {
+    "full": "Abbiamo votato (SÌ) per distruggere l'edificio "
+  },
+  "lit:We voted to (NAY) keep the ": {
+    "full": "Abbiamo votato (NO) per risparmiare l'edificio "
+  },
+  "lit:I choose to destroy the ": {
+    "full": "Scelgo di distruggere l'edificio "
+  },
+  "lit:I choose to keep the ": {
+    "full": "Scelgo di risparmiare l'edificio "
+  },
+  "lit:Decision": {
+    "full": "Decisione"
+  },
+  "lit:Dilemma": {
+    "full": "Dilemma"
+  },
+  "lit:Conundrum": {
+    "full": "Rompicapo"
+  },
+  "lit:After a brief dinner,": {
+    "full": "Dopo una breve cena,"
+  },
+  "lit:With some rejuvenating spirits and food in our bellies,": {
+    "full": "Con un po' di liquori corroboranti e cibo nello stomaco,"
+  },
+  "lit:I easily ingratiated myself into the man's inner circle with a gentle financial nudge. Soon,": {
+    "full": "Mi conquistai facilmente un posto nella cerchia di quell'uomo con una lieve spinta finanziaria. Presto"
+  },
+  "lit: This will result in: ": {
+    "full": " Questo comporterà: "
+  },
+  "lit:waxing his mustache.": {
+    "full": "a lucidarsi i baffi."
+  },
+  "lit:adjusting his girdle.": {
+    "full": "a sistemarsi il panciotto."
+  },
+  "lit:sampling wine and cheese.": {
+    "full": "ad assaggiare vino e formaggi."
+  },
+  "lit: <i>This will result in: ": {
+    "full": " Questo comporterà: "
+  },
+  "lit:<i>This will result in: ": {
+    "full": "Questo comporterà: "
+  },
+  "lit: All players ma": {
+    "full": " Tutti i giocatori possono pagare $1 per guadagnare un Ingredient Body."
+  },
+  "lit:y pay $1 to gain a <b>body</b> ingredient.</i>": {
+    "full": ""
+  },
+  "lit:</i>": {
+    "full": ""
+  },
+  "lit: The negative effect for havi": {
+    "full": " L'effetto negativo del token Separatist viene rimosso."
+  },
+  "lit:ng a Separatist token will be removed.</i>": {
+    "full": ""
+  },
+  "lit: A player with a Separatist token face-": {
+    "full": " Chi ha un token Separatist a faccia in su non può mettere il proprio Scienziato nel Villaggio."
+  },
+  "lit:up cannot place their Self into Town at all.</i>": {
+    "full": ""
+  },
+  "lit: Choose one <b>animal token</b> and ret": {
+    "full": " Scegliete un token animale e rimettetelo nella scatola del gioco. Questo animale può essere in possesso di un altro giocatore."
+  },
+  "lit:urn it to the game box. This animal can be in the possession of another player.</i>": {
+    "full": ""
+  },
+  "lit: All players <b>lose 2 <": {
+    "full": " Tutti i giocatori perdono 2 Creepy. Tu guadagni 2VP."
+  },
+  "lit:sprite=\"Creepy_Icon\" index=0>.</b> You gain 2VP.</i>": {
+    "full": ""
+  },
+  "lit: Choose a player to immediately ": {
+    "full": " Scegli un giocatore che guadagna subito 2 Creepy."
+  },
+  "lit:<b>gain 2 <sprite=\"Creepy_Icon\" index=0></b>.</i>": {
+    "full": ""
+  },
+  "lit: Choose your own title that will displ": {
+    "full": " Scegli un titolo tutto tuo, che accompagnerà il tuo nome per il resto della storia."
+  },
+  "lit:ay with your name for the rest of the story.</i>": {
+    "full": ""
+  },
+  "lit:Separatists": {
+    "full": "Separatisti"
+  },
+  "lit:Unified Monarchists": {
+    "full": "Monarchici Uniti"
+  },
+  "lit:zero pieces": {
+    "full": "zero pezzi"
+  },
+  "lit:one piece": {
+    "full": "un pezzo"
+  },
+  "lit:two pieces": {
+    "full": "due pezzi"
+  },
+  "lit:none": {
+    "full": "Nessuno"
+  },
+  "lit:science": {
+    "full": "scienza"
+  },
+  "lit:pistols": {
+    "full": "pistole"
+  },
+  "lit:you may gain 1 Servant from Lost and lose 1 <sprite=\"Creepy_Icon\" index=0>.": {
+    "full": "puoi guadagnare 1 Servitore da Lost e perdere 1 Creepy."
+  },
+  "lit:you may gain 1 Servant from Lost and gain 1VP.": {
+    "full": "puoi guadagnare 1 Servitore da Lost e guadagnare 1VP."
+  },
+  "lit:you may gain 1 Servant from Lost and 1 Knowledge of your choice.": {
+    "full": "puoi guadagnare 1 Servitore da Lost e 1 Conoscenza (Knowledge) a tua scelta."
+  },
+  "lit:you may pay $1 to gain 1 Caretaker from Lost.": {
+    "full": "puoi pagare $1 per guadagnare 1 Custode da Lost."
+  },
+  "lit:you may gain 1 Caretaker from Lost.": {
+    "full": "puoi guadagnare 1 Custode da Lost."
+  },
+  "lit:you may gain 1 Knowledge of your choice and 1VP.": {
+    "full": "puoi guadagnare 1 Conoscenza (Knowledge) a tua scelta e 1VP."
+  },
+  "lit:no bonus.": {
+    "full": "nessun bonus."
+  },
+  "lit:$1 for your efforts.": {
+    "full": "$1 per il tuo impegno."
+  },
+  "lit:Multiple players are tied, so no player": {
+    "full": "Più giocatori sono in parità, quindi nessun giocatore"
+  },
+  "lit:two": {
+    "full": "due"
+  },
+  "lit:three": {
+    "full": "tre"
+  },
+  "lit:four": {
+    "full": "quattro"
+  },
+  "lit:five": {
+    "full": "cinque"
+  },
+  "lit:Gain $3": {
+    "full": "Guadagna $3."
+  },
+  "lit:Search the Experiment deck of your choice and gain 1 card.": {
+    "full": "Cerca nel mazzo Esperimenti che preferisci e prendi 1 carta."
+  },
+  "lit:Gain 2 Ingredients.": {
+    "full": "Guadagna 2 Ingredient."
+  },
+  "lit:Gain 2 Compulsion cards.": {
+    "full": "Guadagna 2 carte Compulsion."
+  },
+  "lit:Lose 2 <sprite=\"Creepy_Icon\" index=0> .": {
+    "full": "Perdi 2 Creepy."
+  },
+  "lit:Lose 2 <sprite=\"Insanity_Icon\" index=0> .": {
+    "full": "Perdi 2 Insanity."
+  },
+  "lit:Gain 1 Knowledge of your choice.": {
+    "full": "Guadagna 1 Conoscenza (Knowledge) a tua scelta."
+  },
+  "lit:Gain 2 Knowledge of your choice.": {
+    "full": "Guadagna 2 Conoscenza (Knowledge) a tua scelta."
+  },
+  "lit:Gain an Estate Upgrade for -$2 cost.": {
+    "full": "Guadagna una Miglioria della Tenuta pagando $2 in meno."
+  },
+  "lit:Immediately take a Record Knowledge action (you must still pay all costs).": {
+    "full": "Esegui subito un'azione Record Knowledge (devi comunque pagarne tutti i costi)."
+  },
+  "lit:Gain $1 and Gain 1 Ingredient.": {
+    "full": "Guadagna $1 e 1 Ingredient."
+  },
+  "lit:Gain $1 and Gain 1 Knowledge of your choice.": {
+    "full": "Guadagna $1 e 1 Conoscenza (Knowledge) a tua scelta."
+  },
+  "lit:Gain 3VP.": {
+    "full": "Guadagna 3VP."
+  },
+  "lit:Immediately take a Perform Experiment action (you must still play all costs).": {
+    "full": "Esegui subito un'azione Perform Experiment (devi comunque pagarne tutti i costi)."
+  },
+  "lit:Move the Crown token \"1 space to the left\".": {
+    "full": "Sposta il token Crown di 1 casella a sinistra."
+  },
+  "lit:Move the Crown token \"1 space to the right\".": {
+    "full": "Sposta il token Crown di 1 casella a destra."
   }
 }

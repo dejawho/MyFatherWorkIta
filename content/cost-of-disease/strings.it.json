@@ -1360,7 +1360,7 @@
     "full": "**Prendi con cautela lo Storybook e non permettere agli altri giocatori di vedere lo schermo.**"
   },
   "HubertusWolves1.2": {
-    "full": "**Dopo un incontro segreto - Lettera - {0} {1}, 1865**"
+    "full": "**Dopo un incontro segreto - Lettera - {1} {0} 1865**"
   },
   "HubertusWolves1.3": {
     "full": "Io, {0}, vi scrivo questa lettera dopo il mio incontro con un associato dell'Ordine Internazionale di Sant'Uberto. La nostra conversazione è stata breve, ma ciò che ne ho appreso ha stuzzicato la mia curiosità.",
@@ -2307,7 +2307,7 @@
     "full": "Almeno, per ora."
   },
   "InfinityClick2.1": {
-    "full": "**Pagina di diario {0} sull'infinito {1}**"
+    "full": "**{0} – Pagina di diario {1}**"
   },
   "InfinityClick2.2": {
     "full": "Non c'è alcun dubbio nel mio {0}. Con questa ricerca completata, {1} Le devastazioni del tempo non avranno più alcun effetto sul mio lavoro e sarò libero di affrontare il {2} senza l'impaccio di questo involucro mortale!",
@@ -2755,9 +2755,9 @@
     "short": "La nebbia nascose il mio avvicinamento a {0}. Lasciata la carrozza al limite del paese, scivolai per le strade vuote ed entrai senza essere notato."
   },
   "BuildplayA.5": {
-    "full": "Con mio disappunto, un {0} stava vicino alla porta d'ingresso dell'edificio. A quell'ora tarda, potevo solo supporre che facesse la guardia. Senza lasciarmi scoraggiare così facilmente, inclinai il cappello per nascondere il viso e mi infilai furtivo nel vicolo sul retro. La serratura della porta posteriore fu un gioco da ragazzi per i miei attrezzi, ed entrai senza un suono.",
-    "easy": "Con mio fastidio, un {0} stava vicino alla porta d'ingresso dell'edificio. Così tardi la sera, potevo solo pensare che stesse facendo la guardia. Non mi arresi così facilmente: mi calai il cappello sul viso ed entrai in silenzio nel vicolo dietro l'edificio. La serratura della porta sul retro fu facile per i miei attrezzi, ed entrai senza fare rumore.",
-    "short": "Un {0} faceva la guardia alla porta d'ingresso. Cappello calato, scivolai nel vicolo sul retro, forzai la serratura posteriore ed entrai in silenzio."
+    "full": "Con mio disappunto, {0} stava vicino alla porta d'ingresso dell'edificio. A quell'ora tarda, potevo solo supporre che facesse la guardia. Senza lasciarmi scoraggiare così facilmente, inclinai il cappello per nascondere il viso e mi infilai furtivo nel vicolo sul retro. La serratura della porta posteriore fu un gioco da ragazzi per i miei attrezzi, ed entrai senza un suono.",
+    "easy": "Con mio fastidio, {0} stava vicino alla porta d'ingresso dell'edificio. Così tardi la sera, potevo solo pensare che stesse facendo la guardia. Non mi arresi così facilmente: mi calai il cappello sul viso ed entrai in silenzio nel vicolo dietro l'edificio. La serratura della porta sul retro fu facile per i miei attrezzi, ed entrai senza fare rumore.",
+    "short": "Alla porta d'ingresso faceva la guardia {0}. Cappello calato, scivolai nel vicolo sul retro, forzai la serratura posteriore ed entrai in silenzio."
   },
   "BuildplayA.6": {
     "full": "Potevo fornire prove che aiutassero a **smascherare** le attività segrete all'interno dell'edificio, oppure potevo **nascondere** la verità e permettere che il lavoro continuasse. **La decisione mi era chiara:**",
@@ -5856,9 +5856,9 @@
     "full": "**Ignorati dall'élite scientifica**"
   },
   "UniEvent1-UltimateDisease.2": {
-    "full": "I cugini {0} guardavano con il cuore cupo le strade, un tempo tetre, addobbate con i vivaci colori della primavera. Famiglie istruite della classe media passeggiavano sui marciapiedi in abiti modesti. I bambini ridevano e andavano in bicicletta nel parco. A quella vista rabbrividirono. Era tutto **troppo bello**.",
-    "easy": "I cugini {0} guardavano con il cuore pesante le strade, una volta tristi, decorate con i colori vivaci della primavera. Famiglie istruite della classe media camminavano sui marciapiedi in vestiti semplici. I bambini ridevano e andavano in bicicletta nel parco. I cugini rabbrividirono a quella vista. Era tutto **troppo bello**.",
-    "short": "I cugini {0} guardavano cupi le strade fiorire di colori, le famiglie passeggiare e i bambini ridere. Rabbrividirono. Era tutto **troppo bello**."
+    "full": "I {0} cugini guardavano con il cuore cupo le strade, un tempo tetre, addobbate con i vivaci colori della primavera. Famiglie istruite della classe media passeggiavano sui marciapiedi in abiti modesti. I bambini ridevano e andavano in bicicletta nel parco. A quella vista rabbrividirono. Era tutto **troppo bello**.",
+    "easy": "I {0} cugini guardavano con il cuore pesante le strade, una volta tristi, decorate con i colori vivaci della primavera. Famiglie istruite della classe media camminavano sui marciapiedi in vestiti semplici. I bambini ridevano e andavano in bicicletta nel parco. I cugini rabbrividirono a quella vista. Era tutto **troppo bello**.",
+    "short": "I {0} cugini guardavano cupi le strade fiorire di colori, le famiglie passeggiare e i bambini ridere. Rabbrividirono. Era tutto **troppo bello**."
   },
   "UniEvent1-UltimateDisease.3": {
     "full": "Finiti i primi festeggiamenti, la loro reputazione si era guastata agli occhi degli accademici. Benché non fossero stati respinti né maltrattati, l'entusiasmo un tempo generoso era scemato a causa delle ripetute violazioni etiche, dell'uso improprio della sala operatoria e delle sfuriate radicali durante i simposi locali. E, a complicare ulteriormente le cose, divenne sempre più evidente che, grazie ai valori pacifici e progressisti di {0}, le persone istruite erano meno turbate da questioni di qualsiasi preoccupazione immediata, esistenziale o diabolica.",
@@ -7293,7 +7293,7 @@
     "full": "Il **Sacerdote** pretendeva un sacrificio: "
   },
   "HuntSuccess1.1": {
-    "full": "**{0}: successo!**"
+    "full": "**{0}! Un successo!**"
   },
   "HuntSuccess1.2": {
     "full": "L'immondo {0} emette un {1} prima di crollare a terra, sconfitto. In pochi secondi la sua forma corporea si dissolve in cenere e viene portata via dal vento. Finché si racconteranno storie di questa notte maledetta, il {2} non si vedrà mai più.",
@@ -7304,7 +7304,7 @@
     "full": "Ogni giocatore che partecipa alla Caccia: **perde 1 {icon:Creepy_Icon}**, rimette questo servitore nei propri Quarters e **guadagna {0}.**"
   },
   "HuntFail1.1": {
-    "full": "**{0}: fallimento!**"
+    "full": "**{0}! Un fallimento!**"
   },
   "HuntFail1.2": {
     "full": "Era accaduto tutto così in fretta, eppure la devastazione che si lasciò dietro fu tanto violenta quanto terribile. L'immondo {0} {1}, osservando la scena. Davanti a loro, sparsi in mucchi sanguinolenti, giacevano i cadaveri con gli occhi sbarrati di quei cacciatori le cui armi non erano riuscite a vincere l'essere mostruoso. In un batter d'occhio il {2} si voltò e fuggì rapidamente nell'ombra, ma non prima di aver rapito i fidati servitori della famiglia. Le loro urla strazianti si udirono in tutta la valle.",
@@ -9951,5 +9951,272 @@
   },
   "log.2p-FrenzyALT.summary": {
     "full": "Consultazione privata con l'ordine."
+  },
+  "lit:Then, we were treated to a ghastly vivisection of a wailing goat while an electrical device stimulated the nervous reflexes. Had I known, I would have brought an umbrella.": {
+    "full": "Poi ci fu offerta un'orrenda vivisezione di una capra urlante, mentre un congegno elettrico ne stimolava i riflessi nervosi. Se l'avessi saputo, avrei portato un ombrello."
+  },
+  "lit:Steam shot from the abominable contraption's eye sockets as the speaker mumbled a rhythmic incantation that, if it had any effect at all, was to cause a ringing in my ears for hours afterward.": {
+    "full": "Il vapore schizzava dalle orbite di quell'abominevole marchingegno mentre l'oratore borbottava un incantesimo ritmico che, se ebbe un qualche effetto, fu di farmi fischiare le orecchie per ore."
+  },
+  "lit:strumming a popular tune on the vocal chords of an otter.": {
+    "full": "strimpellando una canzone popolare sulle corde vocali di una lontra."
+  },
+  "lit:winding up the gear mechanism of an automaton with sharpened blades for hands.": {
+    "full": "caricando il meccanismo a ingranaggi di un automa con lame affilate al posto delle mani."
+  },
+  "lit:creating a salt circle with a sack-doll at the center and then asking for a blood sample from someone in the audience.": {
+    "full": "tracciando un cerchio di sale con una bambola di pezza al centro e chiedendo poi un campione di sangue a qualcuno del pubblico."
+  },
+  "lit:exploding a vial of acid using another, stronger vial of acid to 'get our attention'.": {
+    "full": "facendo esplodere una fiala di acido con un'altra fiala di acido, più forte, \"per attirare la nostra attenzione\"."
+  },
+  "lit:historical": {
+    "full": "storico"
+  },
+  "lit:comical": {
+    "full": "comico"
+  },
+  "lit:scientific": {
+    "full": "scientifico"
+  },
+  "lit:Investigate ": {
+    "full": "Indaga su "
+  },
+  "lit:Click here at the end of the round to attend the ": {
+    "full": "Clicca qui alla fine del round per partecipare al Simposio di "
+  },
+  "lit:Symposium.": {
+    "full": ""
+  },
+  "lit:April": {
+    "full": "aprile"
+  },
+  "lit:August": {
+    "full": "agosto"
+  },
+  "lit:October": {
+    "full": "ottobre"
+  },
+  "lit:Secret to": {
+    "full": "Il segreto dell'infinito"
+  },
+  "lit:Marvelous": {
+    "full": "Il meraviglioso infinito"
+  },
+  "lit:Discovering": {
+    "full": "Alla scoperta dell'infinito"
+  },
+  "lit:Forward to": {
+    "full": "Verso l'infinito"
+  },
+  "lit:immaculate brain": {
+    "full": "cervello immacolato"
+  },
+  "lit:inestimable mind": {
+    "full": "intelletto inestimabile"
+  },
+  "lit:I have surely unlocked a most flawless scheme to extend my existence indefinitely!": {
+    "full": "ho di certo scoperto un piano perfetto per prolungare la mia esistenza all'infinito!"
+  },
+  "lit:the world will tremble at the mere utterance of my name.": {
+    "full": "il mondo tremerà al solo pronunciare il mio nome."
+  },
+  "lit:infinite": {
+    "full": "infinito"
+  },
+  "lit:future": {
+    "full": "futuro"
+  },
+  "lit:gentleman": {
+    "full": "un gentiluomo"
+  },
+  "lit:gentlewoman": {
+    "full": "una gentildonna"
+  },
+  "lit:Infamous": {
+    "full": "Infame"
+  },
+  "lit:Transcendent": {
+    "full": "Trascendente"
+  },
+  "lit:Monumental": {
+    "full": "Monumentale"
+  },
+  "lit:Nefarious": {
+    "full": "Abominevole"
+  },
+  "lit:Unspeakable": {
+    "full": "Indicibile"
+  },
+  "lit:Legendary": {
+    "full": "Immortale"
+  },
+  "lit:Noble": {
+    "full": "Nobile"
+  },
+  "lit:Phenomenal": {
+    "full": "Fenomenale"
+  },
+  "lit:Stunning": {
+    "full": "Stupefacente"
+  },
+  "lit:Masterful": {
+    "full": "Magistrale"
+  },
+  "lit:Insidious": {
+    "full": "Infernale"
+  },
+  "lit:The Work is Done": {
+    "full": "L'opera è compiuta"
+  },
+  "lit:I Have Done the Impossible": {
+    "full": "Ho fatto l'impossibile"
+  },
+  "lit:My Legacy is Ensured": {
+    "full": "La mia eredità è assicurata"
+  },
+  "lit:AH HA HA HAAAAA!!!": {
+    "full": "AH AH AH AHHHHH!!!"
+  },
+  "lit:My Glorious Creation": {
+    "full": "La mia gloriosa creazione"
+  },
+  "lit:The Glory is Mine Forever!": {
+    "full": "La gloria è mia per sempre!"
+  },
+  "lit:as a spider held by a thread above an all-consuming flame.": {
+    "full": "come un ragno appeso a un filo sopra una fiamma che tutto divora."
+  },
+  "lit:as a candle flame amongst a roaring tempest.": {
+    "full": "come la fiamma di una candela in mezzo a una tempesta ruggente."
+  },
+  "lit:as a pendulous dagger perched above their head.": {
+    "full": "come un pugnale sospeso sopra la loro testa."
+  },
+  "lit:Gain 1VP.": {
+    "full": "Guadagna 1VP."
+  },
+  "lit:Gain an ingredient of your choice.": {
+    "full": "Guadagna un Ingredient a tua scelta."
+  },
+  "lit:Receives no bonus.": {
+    "full": "Non riceve alcun bonus."
+  },
+  "lit:Loses 1VP. The Order is unpleased with this meager offering.": {
+    "full": "Perde 1VP. L'Ordine non gradisce questa misera offerta."
+  },
+  "lit:Gain a Knowledge of your choice.": {
+    "full": "Guadagna una Conoscenza (Knowledge) a tua scelta."
+  },
+  "lit:Gain $2.": {
+    "full": "Guadagna $2."
+  },
+  "lit:Gain 2VP.": {
+    "full": "Guadagna 2VP."
+  },
+  "lit:Gain 4VP.": {
+    "full": "Guadagna 4VP."
+  },
+  "lit:Gain $4.": {
+    "full": "Guadagna $4."
+  },
+  "lit:Majestic": {
+    "full": "Maestoso"
+  },
+  "lit:Grand": {
+    "full": "Grandioso"
+  },
+  "lit:Extraordinary": {
+    "full": "Straordinario"
+  },
+  "lit:loud shriek": {
+    "full": "urlo acuto"
+  },
+  "lit:low, rumbling growl": {
+    "full": "ringhio basso e cupo"
+  },
+  "lit:strained gasp for air": {
+    "full": "rantolo soffocato"
+  },
+  "lit:a Knowledge of your choice": {
+    "full": "una Conoscenza (Knowledge) a sua scelta"
+  },
+  "lit:Miserable": {
+    "full": "Misero"
+  },
+  "lit:Woeful": {
+    "full": "Penoso"
+  },
+  "lit:Dismal": {
+    "full": "Disastroso"
+  },
+  "lit:Pathetic": {
+    "full": "Patetico"
+  },
+  "lit:Grim": {
+    "full": "Funesto"
+  },
+  "lit:seemed to cackle to itself": {
+    "full": "sembrava ridacchiare tra sé"
+  },
+  "lit:issued a triumphant wail": {
+    "full": "lanciò un ululato trionfante"
+  },
+  "lit:smiled with an unsettling grin": {
+    "full": "sorrise con un ghigno inquietante"
+  },
+  "lit:Righteous": {
+    "full": "giusto"
+  },
+  "lit:Wondrous": {
+    "full": "prodigioso"
+  },
+  "lit:Demons": {
+    "full": "demoni"
+  },
+  "lit:Monsters": {
+    "full": "mostri"
+  },
+  "lit:North to the moors. Both players gain 2 ": {
+    "full": "A nord, verso la brughiera. Entrambi i giocatori guadagnano 2 "
+  },
+  "lit:East to the dark forest. Both players gain 2 ": {
+    "full": "A est, verso la foresta oscura. Entrambi i giocatori guadagnano 2 "
+  },
+  "lit:West to the mountains. Both players gain 2 ": {
+    "full": "A ovest, verso le montagne. Entrambi i giocatori guadagnano 2 "
+  },
+  "lit:South, back to the town. Both players gain 2 ": {
+    "full": "A sud, di ritorno al paese. Entrambi i giocatori guadagnano 2 "
+  },
+  "lit:evil": {
+    "full": "dalla parte del male"
+  },
+  "lit:good": {
+    "full": "dalla parte del bene"
+  },
+  "lit:two": {
+    "full": "due"
+  },
+  "lit:three": {
+    "full": "tre"
+  },
+  "lit:four": {
+    "full": "quattro"
+  },
+  "lit:five": {
+    "full": "cinque"
+  },
+  "lit:biology": {
+    "full": "biologia"
+  },
+  "lit:engineering": {
+    "full": "ingegneria"
+  },
+  "lit:chemistry": {
+    "full": "chimica"
+  },
+  "lit:occult": {
+    "full": "occultismo"
   }
 }

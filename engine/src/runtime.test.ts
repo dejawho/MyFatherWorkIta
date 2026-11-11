@@ -250,6 +250,31 @@ describe('Story', () => {
     assert.deepEqual(seen, [true, false]);
   });
 
+  it('marks the literals a text shows, not those it works with', () => {
+    const s = new Story(
+      scenario({
+        A: {
+          body: [
+            { t: 'set', var: 'who', value: { lit: 'Ada' } },
+            {
+              t: 'text',
+              key: 'a',
+              kind: 'narrative',
+              args: [
+                { op: '+', a: { op: '+', a: { lit: 'To blame ' }, b: { var: 'who' } }, b: { lit: '.' } },
+                { cases: [{ cond: { op: '==', a: { var: 'who' }, b: { lit: 'Ada' } }, value: { lit: 'yes' } }, { value: { lit: 'no' } }] },
+                { lit: 3 },
+              ],
+            },
+          ],
+        },
+      }),
+    );
+    const text = s.start().output[0];
+    assert.deepEqual(text?.t === 'text' && text.args, ['⁨To blame ⁩Ada.', '⁨yes⁩', '3']);
+    assert.equal(s.vars['who'], 'Ada');
+  });
+
   it('includes other passages inline', () => {
     const s = new Story(
       scenario({

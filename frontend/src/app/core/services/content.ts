@@ -1,4 +1,9 @@
-import type { Scenario, ScenarioExtras, StringTable } from '@chronicle/engine';
+import {
+  PHRASE_PREFIX,
+  type Scenario,
+  type ScenarioExtras,
+  type StringTable,
+} from '@chronicle/engine';
 
 /** Everything the app needs to play one scenario (served from `/content/<id>/`). */
 export interface ScenarioContent {
@@ -11,6 +16,8 @@ export const SCENARIOS = [
   { id: 'cost-of-disease', title: 'The Cost of Disease' },
   { id: 'fear-of-the-unknown', title: 'Fear of the Unknown' },
   { id: 'a-time-of-war', title: 'A Time of War' },
+  // Not from the original: a fan-made scenario (content/the-thinning-veil/src).
+  { id: 'the-thinning-veil', title: 'The Thinning Veil' },
 ] as const;
 export type ScenarioId = (typeof SCENARIOS)[number]['id'];
 
@@ -45,5 +52,9 @@ export async function loadContent(
         }),
     json<ScenarioExtras>(`${base}/extras.json`, signal),
   ]);
+  // The English table's `lit:` entries are for a story written in another language: they
+  // translate its literals into English, so they don't apply to any other language.
+  if (language !== 'en')
+    for (const key in strings) if (key.startsWith(PHRASE_PREFIX)) delete strings[key];
   return { scenario, strings: { ...strings, ...translated }, extras };
 }

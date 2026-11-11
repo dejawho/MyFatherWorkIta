@@ -17,6 +17,32 @@ export function resolveEntry(entry: StringEntry, mode: ReadingMode = 'full', kin
   return entry.full;
 }
 
+/**
+ * Story literals shown in a text's arguments (`either('a', 'b')`, `'To blame ' + $name`) are
+ * written in the story's own language. The engine marks each one in the output (between
+ * {@link PHRASE_OPEN} and {@link PHRASE_CLOSE}, invisible isolate marks), so the output stays
+ * the same in every language; {@link localizeArg} then shows it from the string table, under
+ * the key `lit:` + the literal. A literal with no entry is shown as it is.
+ */
+export const PHRASE_OPEN = '⁨';
+export const PHRASE_CLOSE = '⁩';
+export const PHRASE_PREFIX = 'lit:';
+
+/** Marks a literal as shown text (see {@link PHRASE_OPEN}). */
+export function markPhrase(text: string): string {
+  return PHRASE_OPEN + text + PHRASE_CLOSE;
+}
+
+/**
+ * An output argument in the table's language: each marked literal, and each unmarked part
+ * (a variable's value) that is a literal of the table as a whole, from its `lit:` entry.
+ */
+export function localizeArg(arg: string, table: StringTable): string {
+  if (!arg) return arg;
+  const parts = arg.split(/⁨([^⁩]*)⁩/);
+  return parts.map((part) => (part ? (table[PHRASE_PREFIX + part]?.full ?? part) : part)).join('');
+}
+
 export type Span =
   | { t: 'text'; text: string; bold: boolean; italic: boolean }
   | { t: 'icon'; name: string; bold: boolean; italic: boolean }

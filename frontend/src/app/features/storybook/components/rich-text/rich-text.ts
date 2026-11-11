@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, computed, inject, input } from '@an
 import { parseMarkup } from '@chronicle/engine';
 
 type Span = ReturnType<typeof parseMarkup>[number];
+import { Game } from '../../../../core/services/game';
 import { Library } from '../../../../core/services/library';
 
 /** Renders string-table markup: **bold**, *italic*, {icon:NAME}, {0} placeholders. */
@@ -13,6 +14,7 @@ import { Library } from '../../../../core/services/library';
 })
 export class RichText {
   protected readonly library = inject(Library);
+  private readonly game = inject(Game);
   readonly text = input.required<string>();
   readonly args = input<string[]>([]);
 
@@ -23,7 +25,7 @@ export class RichText {
   protected readonly spans = computed(() => {
     const spans: (Span & { tail?: string; alone?: boolean })[] = parseMarkup(
       this.text(),
-      this.args(),
+      this.args().map((a) => this.game.phrase(a)),
     );
     const glued = spans.map((span, i) => {
       const next = spans[i + 1];

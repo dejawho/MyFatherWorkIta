@@ -1,5 +1,6 @@
 import { computed, effect, inject, Injectable, signal, untracked } from '@angular/core';
 import {
+  localizeArg,
   resolveText,
   PLAYER_NAME_VARIABLES,
   Story,
@@ -123,6 +124,11 @@ export class Game {
   text(key: string, kind: TextKind = 'instruction'): string {
     const strings = this.content()?.strings;
     return strings ? resolveText(strings, key, this.settings.readingMode(), kind) : '';
+  }
+
+  /** An output argument with the story's own literals in the current language (`localizeArg`). */
+  phrase(arg: string): string {
+    return localizeArg(arg, this.content()?.strings ?? {});
   }
 
   /** Starts a game of the current scenario; it is saved next to the games saved before. */

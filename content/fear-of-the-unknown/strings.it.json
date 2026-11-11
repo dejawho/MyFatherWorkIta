@@ -2214,7 +2214,7 @@
     "full": "**Mulino delle voci**"
   },
   "CheckW1.2": {
-    "full": "**Giornale - {0} - *{1} {2}, 1{3}.***"
+    "full": "**Giornale - {0} - *{2} {1} 1{3}.***"
   },
   "CheckW1.3": {
     "full": "Continuano a essere segnalate infestazioni nei pressi di {0} in paese. Sebbene le opinioni divergano sulla forza della presenza spirituale o sull'origine degli eventi paranormali, su un punto tutti concordano: una maledizione grava sul paese! E noi del {1} abbiamo fonti verificate che confermano queste attività sospette.",
@@ -2249,9 +2249,9 @@
     "full": "**Giornale - {0} - *{1} {2}, 1{3}.***"
   },
   "CheckW2.3": {
-    "full": "Ieri mattina, un {0} è stato soccorso per le strade fuori {1}. Dopo un improvviso collasso, i testimoni affermano che il corpo ha cominciato a contorcersi con movimenti muscolari riflessi. Mentre i passanti accorrevano in suo aiuto, è stato portato in una casa vicina, dove le convulsioni hanno cominciato a placarsi.",
-    "easy": "Ieri mattina, alcune persone hanno aiutato un {0} per le strade fuori {1}. Chi ha visto la scena dice che la persona è caduta all'improvviso, e poi il suo corpo ha cominciato a tremare e a muoversi da solo. Alcuni passanti sono corsi ad aiutarla e l'hanno portata in una casa vicina, dove il tremore si è fermato piano piano.",
-    "short": "Ieri mattina un {0} è crollato fuori {1}, il corpo scosso da spasmi. I passanti lo hanno portato in una casa vicina, dove le convulsioni sono svanite."
+    "full": "Ieri mattina, per le strade fuori {1}, è stato prestato soccorso a {0}. Dopo un improvviso collasso, i testimoni affermano che il corpo ha cominciato a contorcersi con movimenti muscolari riflessi. Mentre i passanti accorrevano in aiuto, la persona è stata portata in una casa vicina, dove le convulsioni hanno cominciato a placarsi.",
+    "easy": "Ieri mattina, alcune persone hanno aiutato {0} per le strade fuori {1}. Chi ha visto la scena dice che la persona è caduta all'improvviso, e poi il suo corpo ha cominciato a tremare e a muoversi da solo. Alcuni passanti sono corsi ad aiutarla e l'hanno portata in una casa vicina, dove il tremore si è fermato piano piano.",
+    "short": "Ieri mattina, fuori {1}, un collasso improvviso e violenti spasmi: i passanti hanno soccorso {0} e hanno portato la persona in una casa vicina, dove le convulsioni sono svanite."
   },
   "CheckW2.4": {
     "full": "I nostri inviati hanno ottenuto informazioni riservate da persone vicine ai fatti, e i loro racconti indicano un delitto.",
@@ -4733,7 +4733,7 @@
     "full": "**{0}**"
   },
   "letter1a.2": {
-    "full": "**{0} - *{1} {2}, 1{3}. {4}***"
+    "full": "**{0} - *{1} {2} 1{3}. {4}***"
   },
   "journal1a.1": {
     "full": "**{0}**"
@@ -8322,5 +8322,449 @@
   },
   "S4Jail2.8": {
     "full": "Rimuovete tutti i pezzi dei giocatori dal tabellone ed eseguite la Fine della Generazione. Rimettete nella scatola le tessere {0} rimaste. Rimettete la tessera **House on the Hill** nella Scatola dello Scenario."
+  },
+  "lit:click here to talk to ": {
+    "full": "clicca qui per parlare con "
+  },
+  "lit:The snow-covered landscape and bitter cold made following the trail of the Creature a difficult and time-consuming endeavor.": {
+    "full": "Il paesaggio innevato e il freddo pungente rendevano difficile e lunga l'impresa di seguire le tracce della Creatura."
+  },
+  "lit:It took months of preparation, but even as I set out upon this blasted hunt to seek revenge against the abomination, I was not quite sure which way to venture.": {
+    "full": "Ci vollero mesi di preparativi, eppure, anche quando partii per questa maledetta caccia in cerca di vendetta contro l'abominio, non sapevo bene in quale direzione avventurarmi."
+  },
+  "lit:A hard journey lay ahead. While my body was weary from the excursion, the hatred in my heart fueled me as I awoke each morning searching for any sign of the Creature's activities.": {
+    "full": "Mi attendeva un viaggio duro. Il mio corpo era stremato dalla spedizione, ma l'odio nel cuore mi dava forza ogni mattina, al risveglio, mentre cercavo qualunque segno delle attività della Creatura."
+  },
+  "lit:They claim to have seen their foul sneers from the darkness, orchestrating this entire farce!": {
+    "full": "Sostengono di aver visto i suoi ghigni immondi nell'oscurità, mentre orchestrava tutta questa farsa!"
+  },
+  "lit:They state that they hope now that their hideous secrets will come to light!": {
+    "full": "Dichiarano di sperare che ora i suoi orrendi segreti vengano alla luce!"
+  },
+  "lit:January": {
+    "full": "gennaio"
+  },
+  "lit:February": {
+    "full": "febbraio"
+  },
+  "lit:March": {
+    "full": "marzo"
+  },
+  "lit:April": {
+    "full": "aprile"
+  },
+  "lit:May": {
+    "full": "maggio"
+  },
+  "lit:June": {
+    "full": "giugno"
+  },
+  "lit:July": {
+    "full": "luglio"
+  },
+  "lit:August": {
+    "full": "agosto"
+  },
+  "lit:September": {
+    "full": "settembre"
+  },
+  "lit:October": {
+    "full": "ottobre"
+  },
+  "lit:November": {
+    "full": "novembre"
+  },
+  "lit:December": {
+    "full": "dicembre"
+  },
+  "lit:gentleman": {
+    "full": "un gentiluomo"
+  },
+  "lit:gentlewoman": {
+    "full": "una gentildonna"
+  },
+  "lit:This fortified district offers little in the way of investment, so I'm afraid to admit that I have begun a partnership with the local shipping company. What it lacks in potential, I believe it makes up for in expediency. I swear to you my visits there are brief and lawful, for I am as always a dutiful citizen.": {
+    "full": "Questo quartiere fortificato offre poco in fatto di investimenti, perciò temo di dover ammettere che ho avviato una società con la compagnia di spedizioni locale. Ciò che le manca in potenziale, credo lo compensi in rapidità. Vi giuro che le mie visite laggiù sono brevi e lecite, perché sono, come sempre, un cittadino ligio al dovere."
+  },
+  "lit:What is this place? It is certainly not much from the exterior, but considering the locale, I have very little choice in the matter. It provides me access to goods otherwise inaccessible, and while the stench is sometimes severe - both of the building and its inhabitants - this is all I require.": {
+    "full": "Che posto è questo? Dall'esterno non è certo granché, ma vista la zona ho ben poca scelta. Mi dà accesso a merci altrimenti irraggiungibili e, sebbene il fetore sia a volte terribile, sia dell'edificio sia dei suoi abitanti, è tutto ciò di cui ho bisogno."
+  },
+  "lit:I ask you to disregard the rumors that I have merely invested capital into this venture to gain illicit produce. It is a humble shipping dock and my visits during the evening are simply to assess matters of inventory. I take offense to any suggestions otherwise.": {
+    "full": "Vi chiedo di ignorare le voci secondo cui avrei investito capitali in questa impresa solo per procurarmi merce illecita. È un umile molo di spedizione e le mie visite serali servono soltanto a controllare l'inventario. Mi offendo per qualsiasi insinuazione contraria."
+  },
+  "lit:1 space": {
+    "full": "1 casella"
+  },
+  "lit:2 spaces": {
+    "full": "2 caselle"
+  },
+  "lit:Creating life against my will only to feed the urges of a hideous fiend? Am I forced to forever suffer for the sins of my family? What good can come from aiding the devil's work?": {
+    "full": "Creare la vita contro la mia volontà solo per saziare le brame di un demone orrendo? Sono costretto a soffrire per sempre per i peccati della mia famiglia? Che bene può venire dall'aiutare l'opera del diavolo?"
+  },
+  "lit:I curse my grandfather for thrusting this abomination into the world and dooming us to accommodate its unnatural wants. Oh, how the sorrow encompasses me!": {
+    "full": "Maledico mio nonno per aver scagliato questo abominio nel mondo e per averci condannati ad assecondarne i desideri contro natura. Oh, come mi avvolge il dolore!"
+  },
+  "lit:I am nothing if not thorough.": {
+    "full": "Se c'è una cosa che sono, è scrupoloso."
+  },
+  "lit:I sometimes cannot contain my genius.": {
+    "full": "A volte non riesco a contenere il mio genio."
+  },
+  "lit:With distinct gothic style, a robust gate and fencing stretching the perimeter of the plot and an entryway leading towards a dual staircase carpetted with crimson linens of the finest quality, the decor struck me as appropriately imposing.": {
+    "full": "Con il suo spiccato stile gotico, un robusto cancello e una recinzione lungo tutto il perimetro del terreno e un ingresso che conduceva a una doppia scalinata coperta di tessuti cremisi della migliore qualità, l'arredamento mi parve adeguatamente imponente."
+  },
+  "lit:I was particularly struck by the fine, gray exterior with hip and gable roofing structures and metal spires. A proper gentleman of distinguished inclinations - and wealth to match - no doubt resided within.": {
+    "full": "Mi colpì in particolare l'elegante facciata grigia, con tetti a padiglione e a capanna e guglie di metallo. Senza dubbio vi abitava un vero gentiluomo di gusti raffinati, e di ricchezze all'altezza."
+  },
+  "lit:I could distinctly see fine hairs growing from the center of his palm as he talked.": {
+    "full": "Mentre parlava, vedevo distintamente dei peli sottili crescergli al centro del palmo."
+  },
+  "lit:He leaned forward, speaking with a coarse whisper and I could smell a rankness in his breath.": {
+    "full": "Si sporse in avanti, parlando con un sussurro roco, e sentii un odore rancido nel suo alito."
+  },
+  "lit:We find that many of these issues are solved by releasing some of the pressure on the cortex by drilling a dime-size hole in the skull.": {
+    "full": "Abbiamo riscontrato che molti di questi problemi si risolvono allentando un po' la pressione sulla corteccia con un foro grande come una monetina praticato nel cranio."
+  },
+  "lit:The cerebellum is especially sensitive to a concentrated electrical shock. While the singed skin and hair produce a noxious smell, the effectiveness is undeniable.": {
+    "full": "Il cervelletto è particolarmente sensibile a una scarica elettrica concentrata. La pelle e i capelli bruciacchiati producono un odore nauseabondo, ma l'efficacia è innegabile."
+  },
+  "lit:I'm afraid I must be obstinate in the nature of my offer.": {
+    "full": "Temo di dover restare irremovibile sulla natura della mia offerta."
+  },
+  "lit:I'm terribly beside myself that we could not come to firm agreement.": {
+    "full": "Sono terribilmente dispiaciuto che non siamo riusciti a trovare un accordo."
+  },
+  "lit:Well, it appears you have me at a disadvantage since I extended the invitation. How about I put in a good word with my charge at the Town Hall? I'm sure it would be nice to have some of your scientific achievements recognized by the public.": {
+    "full": "Ebbene, a quanto pare sono in svantaggio, visto che l'invito l'ho esteso io. Che ne dite se metto una buona parola con il mio incaricato al Town Hall? Sono certo che vi farebbe piacere vedere riconosciuti dal pubblico alcuni dei vostri successi scientifici."
+  },
+  "lit:I was wise to contact you. You are unlike the other buffoons who would simply agree to any offer thrown at them. If I cannot tempt you with a monetary deal, perhaps my clout in academia will sway you. I will be sure to advertise your name to the universities in London upon my next visit.": {
+    "full": "Ho fatto bene a contattarvi. Non siete come quegli altri buffoni che accettano qualsiasi offerta venga loro lanciata. Se non posso tentarvi con un accordo in denaro, forse vi convincerà il mio peso nel mondo accademico. Alla mia prossima visita farò di certo il vostro nome alle università di Londra."
+  },
+  "lit:<i>illegible</i>": {
+    "full": "illeggibile"
+  },
+  "lit:Subject shows mild psychotic tendencies, with dissociative behavior that is concerning.": {
+    "full": "Il soggetto mostra lievi tendenze psicotiche, con un comportamento dissociativo preoccupante."
+  },
+  "lit:Subject exhibits compulsive behaviors associated with bouts of melancholy.": {
+    "full": "Il soggetto manifesta comportamenti compulsivi associati ad accessi di malinconia."
+  },
+  "lit:Subject is obsessed with unfinished work.": {
+    "full": "Il soggetto è ossessionato dal lavoro incompiuto."
+  },
+  "lit:Subject appears to be suffering from grandiose delusions.": {
+    "full": "Il soggetto sembra soffrire di deliri di grandezza."
+  },
+  "lit:Mild sedatives administered after an outburst of indignant anger brought on by receiving a 'poor' meal.": {
+    "full": "Somministrati blandi sedativi dopo uno scoppio d'ira indignata, provocato da un pasto \"scadente\"."
+  },
+  "lit:Speaks obsessively about their legacy becoming tarnished by our intrusion into their affairs.": {
+    "full": "Parla in modo ossessivo della propria eredità, che la nostra intrusione nei suoi affari starebbe macchiando."
+  },
+  "lit:Lashed out physically against another patient after they attempted to touch them.": {
+    "full": "Ha aggredito fisicamente un altro paziente che aveva cercato di toccarlo."
+  },
+  "lit:Along with manic episodes, this comorbidity of afflictions makes diagnosis a difficult task.": {
+    "full": "Insieme agli episodi maniacali, questa comorbilità di disturbi rende difficile la diagnosi."
+  },
+  "lit:Repeated complaints about being misunderstood.": {
+    "full": "Lamentele ripetute di essere frainteso."
+  },
+  "lit:Demands to be transferred to an asylum of actual repute.": {
+    "full": "Pretende di essere trasferito in un manicomio di vera reputazione."
+  },
+  "lit:Idle threats to crush 'this infantile institution into dust' whilst emphasizing each word with a pounding of their fist.": {
+    "full": "Vane minacce di ridurre \"questa istituzione infantile in polvere\", sottolineando ogni parola con un pugno sul tavolo."
+  },
+  "lit:Initial evaluation inconclusive and will require further examination to determine the extent of disorders.": {
+    "full": "La valutazione iniziale è inconcludente e richiederà ulteriori esami per determinare l'entità dei disturbi."
+  },
+  "lit:Subdued and set to physical restraints after several attempts to flee the premises.": {
+    "full": "Sedato e sottoposto a contenzione fisica dopo diversi tentativi di fuga dalla struttura."
+  },
+  "lit:Assessment remains ongoing. Possible mental instability.": {
+    "full": "La valutazione è ancora in corso. Possibile instabilità mentale."
+  },
+  "lit:Patient's behavior is erratic, yet relatively harmless. Continued evaluation suggested": {
+    "full": "Il comportamento del paziente è imprevedibile, ma relativamente innocuo. Si consiglia di proseguire la valutazione"
+  },
+  "lit:Another night of fitful sleep.": {
+    "full": "Un'altra notte di sonno agitato."
+  },
+  "lit:My unending spirit of invention, it once again leads the ignorant to my doorstep.": {
+    "full": "Il mio inesauribile spirito inventivo conduce ancora una volta gli ignoranti alla mia porta."
+  },
+  "lit:I have planned for a grave plot to be installed upon the estate grounds to keep my remains from being contaminated in death by those who never accepted me in life. Yes, I take full responsibility for the rift this will cause between myself and the whole superstitious lot. Damn those insufferable peons!": {
+    "full": "Ho disposto che nei terreni della tenuta venga ricavata una tomba, perché i miei resti non siano contaminati, da morto, da chi non mi ha mai accettato da vivo. Sì, mi assumo la piena responsabilità della frattura che questo causerà tra me e tutta quella massa di superstiziosi. Al diavolo quei plebei insopportabili!"
+  },
+  "lit:I refuse to mend bridges built between myself and these simpletons. Why would I risk the inevitable defilement of our esteemed heritage in a public cemetery? My family will be buried upon my own lands by my own terms! I deserve to rest in peace while they deserve to rot in a hell of their own creation!": {
+    "full": "Mi rifiuto di ricucire i rapporti con questi sempliciotti. Perché dovrei rischiare l'inevitabile profanazione della nostra stimata stirpe in un cimitero pubblico? La mia famiglia sarà sepolta sulle mie terre, alle mie condizioni! Io merito di riposare in pace, loro meritano di marcire in un inferno di loro creazione!"
+  },
+  "lit:Letter from ": {
+    "full": "Lettera di "
+  },
+  "lit:Noted Letters - ": {
+    "full": "Lettere annotate - "
+  },
+  "lit:Letter Excerpt from ": {
+    "full": "Estratto di una lettera di "
+  },
+  "lit:Correspondence - ": {
+    "full": "Corrispondenza - "
+  },
+  "lit:Journal Entry - ": {
+    "full": "Pagina di diario - "
+  },
+  "lit:Journal of ": {
+    "full": "Diario di "
+  },
+  "lit:Collected Notes - ": {
+    "full": "Appunti raccolti - "
+  },
+  "lit:Diary Entry - ": {
+    "full": "Annotazione di diario - "
+  },
+  "lit:Inspection day: Wore newest overcoat, but received no compliment from the reprobates attending the door. At least the security was lax enough that I was given no physical inspection upon entering the ramshackle government office.": {
+    "full": "Giorno dell'ispezione: indossato il cappotto più nuovo, ma nessun complimento dai reprobi di guardia alla porta. Almeno la sorveglianza era abbastanza fiacca da risparmiarmi la perquisizione all'ingresso di quel fatiscente ufficio governativo."
+  },
+  "lit:Dismal afternoon - overcast with a dreadful scud blanketing the town in grayness. When I arrived at the Town Hall for the scheduled inspection, I could only shake my head at the single individual in a recently re-stitched military uniform left-over from the 18th Century, sleeping at his post by the wooden double-doors. I decided to enter without rousing him to avoid investing any more time in my visit.": {
+    "full": "Pomeriggio tetro, coperto, con nubi basse e sfilacciate che avvolgevano il paese nel grigio. Arrivato al Town Hall per l'ispezione prevista, non potei che scuotere la testa davanti all'unico individuo, in un'uniforme militare del Settecento ricucita di recente, che dormiva al suo posto accanto al portone di legno. Decisi di entrare senza svegliarlo, per non perdere altro tempo nella visita."
+  },
+  "lit:Shoddy. Regrettable. The Town Hall was all cobwebs and cracked plaster, with a set of ancient benches with black mold along the bases. The musty offices where I was to confirm my existence were in no better condition.": {
+    "full": "Squallido. Deplorevole. Il Town Hall era tutto ragnatele e intonaco crepato, con una fila di panche antiche coperte di muffa nera alla base. Gli uffici ammuffiti dove dovevo confermare la mia esistenza non erano in condizioni migliori."
+  },
+  "lit:I received no cordial greeting. I received no additional bonus for my willingness to betray my own morals and submit to this oppressive occupation. I barely received the pleasantries of a greeting aside from a disinterested grunt from a sack-suited barrister loitering in the periphery. A clerk bid me sit with a handwave and it was an hour before the person handling my paperwork appeared.": {
+    "full": "Non ricevetti alcun saluto cordiale. Non ricevetti alcun compenso per la mia disponibilità a tradire i miei principi e a sottomettermi a questa occupazione oppressiva. A malapena ricevetti un saluto, a parte un grugnito svogliato da un avvocato in abito sformato che bighellonava ai margini. Un impiegato mi fece cenno di sedermi e passò un'ora prima che comparisse chi doveva occuparsi delle mie carte."
+  },
+  "lit:Like a mangy hound, I was summarily dismissed and sent away after a brief glance at my papers and a lengthy interrogation. The officer in question was obviously less intent on law enforcement and more prone to surveying one's character with his eyes.": {
+    "full": "Come un cane rognoso, fui congedato e mandato via in fretta, dopo una breve occhiata alle mie carte e un lungo interrogatorio. L'ufficiale in questione era evidentemente meno interessato a far rispettare la legge che a squadrare le persone con lo sguardo."
+  },
+  "lit:The interrogation was lengthy and lasted into the early evening. The individual in charge of my case had apparently been relishing the opportunity to 'nail me to the wall' as it were, and when my answers proved adequate and level-headed, the line of questioning became more aggressive. Did he think me a fool?": {
+    "full": "L'interrogatorio fu lungo e si protrasse fino al tardo pomeriggio. L'incaricato del mio caso, a quanto pare, pregustava l'occasione di \"inchiodarmi al muro\", per così dire, e quando le mie risposte si rivelarono adeguate e assennate, le domande si fecero più aggressive. Mi prendeva forse per uno sciocco?"
+  },
+  "lit:attacks": {
+    "full": "attacca"
+  },
+  "lit:swings wildly at": {
+    "full": "mena colpi furiosi contro"
+  },
+  "lit:rams into": {
+    "full": "si schianta contro"
+  },
+  "lit:leaps toward": {
+    "full": "balza verso"
+  },
+  "lit:rears back and sends a volley of flames at": {
+    "full": "si ritrae e scaglia una raffica di fiamme contro"
+  },
+  "lit:jumps into the air and sends a stunning kick towards": {
+    "full": "salta in aria e sferra un calcio micidiale contro"
+  },
+  "lit:extends a spiked set of claws from its closed fist and claws at": {
+    "full": "fa uscire dal pugno chiuso una serie di artigli chiodati e graffia"
+  },
+  "lit:headbutts": {
+    "full": "dà una testata a"
+  },
+  "lit:rips a chunk of iron from the arena foundation and throws it at": {
+    "full": "strappa un pezzo di ferro dalle fondamenta dell'arena e lo scaglia contro"
+  },
+  "lit:delivers a startling open-handed slap to the chest of": {
+    "full": "assesta uno schiaffo a mano aperta sul petto di"
+  },
+  "lit:builds up a burst of electrical current and charges at": {
+    "full": "accumula una scarica di corrente elettrica e carica"
+  },
+  "lit:rips a gear from its own arm and sends it slicing through the air at": {
+    "full": "si strappa un ingranaggio dal braccio e lo lancia a fendere l'aria contro"
+  },
+  "lit:kicks": {
+    "full": "prende a calci"
+  },
+  "lit:is unable to avoid the attack and": {
+    "full": "non riesce a evitare l'attacco e"
+  },
+  "lit:absorbs the crushing impact and": {
+    "full": "assorbe l'impatto devastante e"
+  },
+  "lit:spins wildly in the air before kicking up a pile of dust and": {
+    "full": "vortica in aria prima di sollevare un cumulo di polvere e"
+  },
+  "lit:skids backwards across the arena as the crowd cringes from the impact and": {
+    "full": "slitta all'indietro per l'arena mentre la folla sussulta per l'impatto e"
+  },
+  "lit:wobbles and": {
+    "full": "barcolla e"
+  },
+  "lit:gushes a liquid dark and sanguine before it": {
+    "full": "sgorga un liquido scuro e sanguigno, poi"
+  },
+  "lit:is massively dented by the force of the wild blow and": {
+    "full": "viene ammaccato pesantemente dalla forza del colpo e"
+  },
+  "lit:roars with a sound that rattles the welded corners of the dome and": {
+    "full": "ruggisce con un suono che fa tremare gli angoli saldati della cupola e"
+  },
+  "lit:loses control of its left arm, the gears and well-polished piping dragging along the floor and": {
+    "full": "perde il controllo del braccio sinistro, con ingranaggi e tubi lucidati che strisciano sul pavimento, e"
+  },
+  "lit:crumples to the ground for a moment, grasping at its core and": {
+    "full": "si accascia per un istante a terra, stringendosi il nucleo, e"
+  },
+  "lit:dodges the attack!": {
+    "full": "schiva l'attacco!"
+  },
+  "lit:easily avoids the assault with an acrobatic flourish!": {
+    "full": "evita facilmente l'assalto con un volteggio acrobatico!"
+  },
+  "lit:slides underneath the attack!": {
+    "full": "scivola sotto l'attacco!"
+  },
+  "lit:spins to the side unharmed!": {
+    "full": "ruota di lato, illeso!"
+  },
+  "lit:ducks under the attack just in time!": {
+    "full": "si abbassa appena in tempo sotto l'attacco!"
+  },
+  "lit:is momentarily enveloped in a cloud of gray steam before emerging unharmed!": {
+    "full": "viene avvolto per un attimo da una nube di vapore grigio, per poi uscirne illeso!"
+  },
+  "lit:falls to the floor in a heap of metal and oil.": {
+    "full": "crolla a terra in un mucchio di metallo e olio"
+  },
+  "lit:explodes, sending shrapnel and boiling water into the crowd": {
+    "full": "esplode, scagliando schegge e acqua bollente sulla folla"
+  },
+  "lit:falls over with a loud thud": {
+    "full": "cade con un tonfo sordo"
+  },
+  "lit:pirouettes in place dramatically before collapsing": {
+    "full": "fa una piroetta teatrale sul posto prima di crollare"
+  },
+  "lit:springs a leak in its core, spraying burning hot oil in all directions": {
+    "full": "si apre una falla nel nucleo, spruzzando olio rovente in tutte le direzioni"
+  },
+  "lit:raises a metal fist towards the sky before falling to its knees": {
+    "full": "alza un pugno di metallo verso il cielo prima di cadere in ginocchio"
+  },
+  "lit:eliminated!": {
+    "full": "eliminato!"
+  },
+  "lit:defeated!": {
+    "full": "sconfitto!"
+  },
+  "lit:out of commission!": {
+    "full": "fuori combattimento!"
+  },
+  "lit:Let me tell you of the day I ventured to the center of ": {
+    "full": "Lasciate che vi racconti del giorno in cui mi avventurai nel centro di "
+  },
+  "lit: and met with ": {
+    "full": " e incontrai "
+  },
+  "lit:. Though I will spare you the gory details of the horrors I witnessed upon m": {
+    "full": ". Vi risparmierò però i dettagli raccapriccianti degli orrori a cui assistetti al mio"
+  },
+  "lit:y arrival.": {
+    "full": " arrivo."
+  },
+  "lit:The grounds of the old jail appeared even more imposing than they had been when the inmates were enclosed inside its iron walls. I made sure that my visit was brief, but with delinquent eyes upon me and obscene messages written on the walls in crude scarlet streaks, it was certainly not made short enough.": {
+    "full": "Il cortile della vecchia prigione appariva ancora più imponente di quando i detenuti erano rinchiusi tra le sue mura di ferro. Feci in modo che la visita fosse breve ma, con gli occhi dei delinquenti puntati addosso e messaggi osceni scritti sui muri a rozze strisce scarlatte, non lo fu di certo abbastanza."
+  },
+  "lit:As I arrived at the steps of the Junk Palace, I was greeted by a rough guard wearing an apron fashioned with protective scraps of steel. 'Nice to meat you,' the man who introduced himself as 'Grinder' said. 'I have no beef with you.' And so I gained entrance to this decaying institution where the walls fall to pieces and metal springs from the Earth.": {
+    "full": "Quando giunsi ai gradini del Junk Palace, fui accolto da una guardia rozza che indossava un grembiule rinforzato con ritagli d'acciaio. \"Piacere di carnoscerti\", disse l'uomo, che si presentò come \"Tritacarne\". \"Non ho niente da macellare con te.\" Fu così che entrai in questa istituzione in rovina, dove i muri cadono a pezzi e il metallo spunta dalla terra."
+  },
+  "lit:The Count and what appeared to be several visitors sharing similar, friendly, yet distant demeanors urged me towards a sumptuous banquet table arranged as if my presence had been expected that very evening. I dined upon portions of creamed pheasant, black puddings, ostropel, and a healthy share of plum brandy. The food was so varied and rich that I was surprised that when the courses waned a hunger still remained with me.": {
+    "full": "Il Conte e quelli che sembravano diversi ospiti, tutti dai modi simili, cordiali eppure distanti, mi invitarono a una sontuosa tavola imbandita, come se la mia presenza fosse attesa proprio quella sera. Mangiai porzioni di fagiano alla crema, sanguinacci, ostropel e una buona dose di acquavite di prugne. Il cibo era così vario e ricco che mi sorpresi, finite le portate, di avere ancora fame."
+  },
+  "lit:The Count's attendant ushered me into the study, where the gentleman relaxed in a daychair sipping from a glass full of deep red wine. He bid me sit and we talked for many minutes as I observed the mahogany shelves that lined the room, overloaded with books that appeared so new the spines had not been cracked.": {
+    "full": "Il servitore del Conte mi condusse nello studio, dove il gentiluomo riposava su una poltrona sorseggiando un bicchiere colmo di vino rosso scuro. Mi invitò a sedere e parlammo per molti minuti, mentre osservavo gli scaffali di mogano lungo le pareti, carichi di libri così nuovi che i dorsi non erano mai stati aperti."
+  },
+  "lit:There is no bonus Servant this round. The Count has decided to no longer offer his services.": {
+    "full": "In questo round non c'è nessun Servitore bonus. Il Conte ha deciso di non offrire più i suoi servigi."
+  },
+  "lit:Each player ''gains 1 Resource'' of their choice as a parting gift. The Count has decided to no longer offer his services.": {
+    "full": "Ogni giocatore ''guadagna 1 risorsa'' a sua scelta come dono d'addio. Il Conte ha deciso di non offrire più i suoi servigi."
+  },
+  "lit:There was no one there to greet me on that day. As seemed fitting, for this was not some achievement to be unlocked - it was a personal decision that had long tore at the fiber of my being.": {
+    "full": "Quel giorno non c'era nessuno ad accogliermi. Mi sembrò giusto: non era un traguardo da conquistare, ma una decisione personale che da tempo mi lacerava nel profondo."
+  },
+  "lit:Though the appointed time had come, I did not attend the event. In fact, I spent most of my day lost in thought. It was something I should have done a long time ago.": {
+    "full": "Benché l'ora stabilita fosse giunta, non partecipai all'evento. Anzi, passai gran parte della giornata perso nei miei pensieri. Era qualcosa che avrei dovuto fare molto tempo prima."
+  },
+  "lit:I will allow my thoughts to spread like tendrils of ivy, gleaning every ounce of sunlight from the gloom that surrounds me.": {
+    "full": "Lascerò che i miei pensieri si diffondano come viticci d'edera, catturando ogni briciola di luce dal buio che mi circonda."
+  },
+  "lit:I will allow the seed of genius to germinate in whatever fertile soil I deem necessary.": {
+    "full": "Lascerò che il seme del genio germogli in qualunque terreno fertile riterrò necessario."
+  },
+  "lit:Only the whistle of the wind and the scent of azaleas.": {
+    "full": "Solo il fischio del vento e il profumo delle azalee."
+  },
+  "lit:Only a cold, gray stillness and low-hanging clouds against an oppressive sky.": {
+    "full": "Solo una quiete fredda e grigia e nuvole basse contro un cielo opprimente."
+  },
+  "lit:The misfit wasteland followers laughed from behind grinning teeth adorned with shreds of meat stuck between the gaps.": {
+    "full": "Quei reietti delle terre desolate ridevano dietro denti ghignanti, con brandelli di carne incastrati negli spazi."
+  },
+  "lit:The table creaked as the motley crew surrounding it banged their gloved fists on the surface. I observed as what appeared to be an eyeball, caramelized with grill marks, fell to the floor and rolled away.": {
+    "full": "Il tavolo scricchiolava mentre la variopinta combriccola intorno lo percuoteva con i pugni guantati. Vidi quello che sembrava un bulbo oculare, caramellato e con i segni della griglia, cadere a terra e rotolare via."
+  },
+  "lit:an abnormally low result which could be symptomatic of disease in the endocrine and nervous system.": {
+    "full": "un risultato anormalmente basso, che potrebbe essere sintomo di una malattia del sistema endocrino e nervoso."
+  },
+  "lit:a reasonably low result which is usually accompanied by low blood pressure and general malaise.": {
+    "full": "un risultato piuttosto basso, di solito accompagnato da pressione bassa e malessere generale."
+  },
+  "lit:no statistically significant variation.": {
+    "full": "nessuna variazione statisticamente significativa."
+  },
+  "lit:a slightly higher result which could be dietary in nature.": {
+    "full": "un risultato leggermente più alto, che potrebbe dipendere dall'alimentazione."
+  },
+  "lit:an abnormally high percentage of carbon dioxide production sometimes associated with agitated and aggressive behavior.": {
+    "full": "una produzione di anidride carbonica anormalmente alta, a volte associata a comportamenti agitati e aggressivi."
+  },
+  "lit:minor signs of malnutrition, dehydration, and ruddy complexion, usually associated with stressful events.": {
+    "full": "lievi segni di malnutrizione, disidratazione e colorito acceso, di solito associati a eventi stressanti."
+  },
+  "lit:a healthy individual within the typical ranges considered as normal.": {
+    "full": "un individuo sano, entro i valori considerati normali."
+  },
+  "lit:nothing particularly concerning or outside of the norm aside from several chemical burn marks across the forearms.": {
+    "full": "nulla di particolarmente preoccupante o fuori dalla norma, a parte diverse ustioni chimiche sugli avambracci."
+  },
+  "lit:signs of obesity due to a life of sedentary indulgence common amongst the upper-middle class.": {
+    "full": "segni di obesità dovuti a una vita sedentaria e indulgente, comune nell'alta borghesia."
+  },
+  "lit:Lose 5VP": {
+    "full": "Perdi 5VP"
+  },
+  "lit:Discard a Vanity Estate Upgrade from your Estate if possible.": {
+    "full": "Scarta una Miglioria Vanity della Tenuta dalla tua Tenuta, se possibile."
+  },
+  "lit:two": {
+    "full": "due"
+  },
+  "lit:three": {
+    "full": "tre"
+  },
+  "lit:four": {
+    "full": "quattro"
+  },
+  "lit:five": {
+    "full": "cinque"
+  },
+  "lit:Nothing happens.": {
+    "full": "Non succede nulla."
+  },
+  "lit:Pay $1. Gain 1 Creepy.": {
+    "full": "Paga $1. Guadagna 1 Creepy."
+  },
+  "lit:Pay $2. Gain 2 Creepy.": {
+    "full": "Paga $2. Guadagna 2 Creepy."
+  },
+  "lit:Pay $3. Gain 3 Creepy.": {
+    "full": "Paga $3. Guadagna 3 Creepy."
   }
 }

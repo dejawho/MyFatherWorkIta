@@ -1,6 +1,20 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { escapeMarkup, parseMarkup, resolveText } from './text.ts';
+import { escapeMarkup, localizeArg, markPhrase, parseMarkup, resolveText } from './text.ts';
+
+describe('localizeArg', () => {
+  const table = { 'lit:To blame ': { full: 'Dare la colpa a ' }, 'lit:Separatists': { full: 'Separatisti' } };
+
+  it('shows marked literals and whole literal values from the table', () => {
+    assert.equal(localizeArg(`${markPhrase('To blame ')}Ada${markPhrase('.')}`, table), 'Dare la colpa a Ada.');
+    assert.equal(localizeArg(`${markPhrase('The ')}Separatists`, table), 'The Separatisti');
+  });
+
+  it('keeps what the table lacks, without the marks', () => {
+    assert.equal(localizeArg(markPhrase('Ada'), table), 'Ada');
+    assert.equal(localizeArg('Ada', {}), 'Ada');
+  });
+});
 
 describe('parseMarkup', () => {
   it('parses bold, italic, icons and placeholders', () => {
