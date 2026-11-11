@@ -1,6 +1,9 @@
 import { VERSION } from '../../version';
 
-export const REPOSITORY = 'https://github.com/shrukan/chronicle';
+export const REPOSITORY = 'https://github.com/dejawho/MyFatherWorkIta';
+
+/** The project this one continues: Chronicle by Shrukan. */
+export const ORIGINAL_REPOSITORY = 'https://github.com/shrukan/chronicle';
 
 /**
  * Link to a new bug report on GitHub, using the issue form in .github/ISSUE_TEMPLATE/bug.yml.

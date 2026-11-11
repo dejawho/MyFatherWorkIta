@@ -4,8 +4,12 @@ An unofficial, fan-made companion app for the board game **My Father's Work**
 (Renegade Game Studios). It replaces the original app, which is no longer maintained, with an
 installable web app that also works offline.
 
-[![CI](https://github.com/shrukan/chronicle/actions/workflows/ci.yml/badge.svg)](https://github.com/shrukan/chronicle/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/shrukan/chronicle)](https://github.com/shrukan/chronicle/releases)
+Based on [Chronicle](https://github.com/shrukan/chronicle) by Shrukan, who wrote the app. This
+version adds Italian (story, screen texts and app), the Italian narrators Sara and Nicola and
+the fan-made scenario _The Thinning Veil_.
+
+[![CI](https://github.com/dejawho/MyFatherWorkIta/actions/workflows/ci.yml/badge.svg)](https://github.com/dejawho/MyFatherWorkIta/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/dejawho/MyFatherWorkIta)](https://github.com/dejawho/MyFatherWorkIta/releases)
 
 > [!WARNING]
 > **Unstable – expect breaking changes.** Chronicle is early and changes quickly. There is no
@@ -42,10 +46,10 @@ installable web app that also works offline.
 - **Tested:** every scenario is explored automatically for dead ends and errors, and a full
   game of each is played in a real browser on every change.
 
-**Play it:** <https://shrukan.github.io/chronicle/> – open it on a phone or tablet and add it
+**Play it:** <https://dejawho.github.io/MyFatherWorkIta/> – open it on a phone or tablet and add it
 to the home screen; after the first visit it works offline.
 
-Found a bug? [Report it](https://github.com/shrukan/chronicle/issues/new?template=bug.yml) –
+Found a bug? [Report it](https://github.com/dejawho/MyFatherWorkIta/issues/new?template=bug.yml) –
 or use the link in the app, which fills in the details.
 
 ## Your data
@@ -111,15 +115,15 @@ task project:up:prod         # the production container at http://localhost:8080
 ## Self-hosting
 
 The app is a static site served by an unprivileged nginx container. Each release is published
-as `ghcr.io/shrukan/chronicle` (amd64 and arm64; tags `<version>`, `<major>.<minor>`, `latest`):
+as `ghcr.io/dejawho/myfatherworkita` (amd64 and arm64; tags `<version>`, `<major>.<minor>`, `latest`):
 
 ```bash
 docker run -d --name chronicle -p 8080:8080 --read-only --tmpfs /tmp \
-  --restart unless-stopped ghcr.io/shrukan/chronicle:latest
+  --restart unless-stopped ghcr.io/dejawho/myfatherworkita:latest
 ```
 
 Or with the [compose file](compose.yml):
-`IMAGE_NAME=ghcr.io/shrukan/chronicle:latest docker compose up -d --no-build`.
+`IMAGE_NAME=ghcr.io/dejawho/myfatherworkita:latest docker compose up -d --no-build`.
 To build the image yourself instead: `task project:up:prod`.
 
 Plain HTTP works. Over HTTP on anything but `localhost`, though, browsers switch off offline
@@ -131,8 +135,8 @@ reverse proxy with HTTPS if you want those.
 Feature requests and pull requests are very welcome – whether it's an idea from your last
 game night, a fix, a translation or a review of the Easy and Short texts.
 
-- **Ideas:** [request a feature](https://github.com/shrukan/chronicle/issues/new?template=feature.yml)
-- **Bugs:** [report a bug](https://github.com/shrukan/chronicle/issues/new?template=bug.yml)
+- **Ideas:** [request a feature](https://github.com/dejawho/MyFatherWorkIta/issues/new?template=feature.yml)
+- **Bugs:** [report a bug](https://github.com/dejawho/MyFatherWorkIta/issues/new?template=bug.yml)
 - **Code:** see [CONTRIBUTING.md](CONTRIBUTING.md) for setup and conventions. For bigger
   changes, open an issue first so we can agree on the approach.
 

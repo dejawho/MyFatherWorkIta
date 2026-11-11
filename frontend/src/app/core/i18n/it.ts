@@ -249,6 +249,9 @@ export const IT: Record<string, string> = {
     "Un'app di supporto non ufficiale, creata da fan, per il gioco da tavolo *My Father's Work*. Non è affiliata né approvata da Renegade Game Studios.",
   'by {0}': 'di {0}',
   'source code on GitHub': 'codice sorgente su GitHub',
+  'original source code on GitHub': 'codice sorgente originale su GitHub',
+  'This version': 'Questa versione',
+  'Italian and The Thinning Veil by {0}': 'italiano e Il Velo Sottile di {0}',
   'Story, art and music': 'Storia, grafica e musica',
   "*My Father's Work* and its companion app's story, text, images, music and voice-over © Renegade Game Studios, released to the community in June 2026. Chronicle takes the story scripts from the":
     "Storia, testi, immagini, musica e voce narrante di *My Father's Work* e della sua app di supporto © Renegade Game Studios, rilasciati alla community nel giugno 2026. Chronicle prende gli script della storia dal",
