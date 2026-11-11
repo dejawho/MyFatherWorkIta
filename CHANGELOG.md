@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.9.0](https://github.com/dejawho/MyFatherWorkIta/compare/v0.8.0...v0.9.0) (2026-11-11)
+
+
+### Features
+
+* A Time of War fully in Italian, and the phrases woven into story texts too ([6fd61a1](https://github.com/dejawho/MyFatherWorkIta/commit/6fd61a14d747c8dd148ac5e85b6870d120005d4c))
+* Easy and Short versions of The Thinning Veil, in Italian and English ([9a13df3](https://github.com/dejawho/MyFatherWorkIta/commit/9a13df33f44ebc50dcf7c29f969df417e51a1484))
+* Italian narrators Sara and Nicola, or no narrator at all ([5897ba0](https://github.com/dejawho/MyFatherWorkIta/commit/5897ba0254287a4d4bd22ad5777e84a38ac08aa7))
+* play in Italian, chosen under Language in the settings ([cbbe07c](https://github.com/dejawho/MyFatherWorkIta/commit/cbbe07c69df322c44643c044aaaa3d91be4b4935))
+* the fan-made scenario The Thinning Veil, in Italian and English ([8e77df1](https://github.com/dejawho/MyFatherWorkIta/commit/8e77df1c039b64d96aef8702cf101c11075b0d26))
+
+
+### Bug Fixes
+
+* no stray formatting codes in some texts of A Time of War and Fear of the Unknown ([7494d21](https://github.com/dejawho/MyFatherWorkIta/commit/7494d213b8be8ada5a330248c1768a23e459da16))
+* the scenario box at the start of a story is shown large and centred ([4ebadfe](https://github.com/dejawho/MyFatherWorkIta/commit/4ebadfe23125a12e1164a2d720198bed9d7388c1))
+
 ## [0.8.0](https://github.com/shrukan/chronicle/compare/v0.7.0...v0.8.0) (2026-10-13)
 
 
