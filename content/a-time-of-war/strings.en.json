@@ -6751,5 +6751,59 @@
  },
  "round.MartialPre3.round.then": {
   "full": "Complete all End of Round Actions at this time."
+ },
+ "lit:1 <sprite=\"Creepy_Icon\" index=0> and 1 Resource of their choice.": {
+  "full": "1 Creepy and 1 Resource of their choice."
+ },
+ "lit:1 Resource of their choice and moves the <sprite=\"AngryMob_Icon\" index=0> Marker 1 space to the left.": {
+  "full": "1 Resource of their choice and moves the Angry Mob Marker 1 space to the left."
+ },
+ "lit: and must <b>discard 1 Experiment</b> they completed this Generation.": {
+  "full": " and must discard 1 Experiment they completed this Generation."
+ },
+ "lit: <i>This will result in: ": {
+  "full": " This will result in: "
+ },
+ "lit:<i>This will result in: ": {
+  "full": "This will result in: "
+ },
+ "lit:y pay $1 to gain a <b>body</b> ingredient.</i>": {
+  "full": "y pay $1 to gain a body ingredient."
+ },
+ "lit:</i>": {
+  "full": ""
+ },
+ "lit:ng a Separatist token will be removed.</i>": {
+  "full": "ng a Separatist token will be removed."
+ },
+ "lit:up cannot place their Self into Town at all.</i>": {
+  "full": "up cannot place their Self into Town at all."
+ },
+ "lit: Choose one <b>animal token</b> and ret": {
+  "full": " Choose one animal token and ret"
+ },
+ "lit:urn it to the game box. This animal can be in the possession of another player.</i>": {
+  "full": "urn it to the game box. This animal can be in the possession of another player."
+ },
+ "lit: All players <b>lose 2 <": {
+  "full": " All players lose 2 Creepy. You gain 2VP."
+ },
+ "lit:sprite=\"Creepy_Icon\" index=0>.</b> You gain 2VP.</i>": {
+  "full": ""
+ },
+ "lit:<b>gain 2 <sprite=\"Creepy_Icon\" index=0></b>.</i>": {
+  "full": "gain 2 Creepy."
+ },
+ "lit:ay with your name for the rest of the story.</i>": {
+  "full": "ay with your name for the rest of the story."
+ },
+ "lit:you may gain 1 Servant from Lost and lose 1 <sprite=\"Creepy_Icon\" index=0>.": {
+  "full": "you may gain 1 Servant from Lost and lose 1 Creepy."
+ },
+ "lit:Lose 2 <sprite=\"Creepy_Icon\" index=0> .": {
+  "full": "Lose 2 Creepy."
+ },
+ "lit:Lose 2 <sprite=\"Insanity_Icon\" index=0> .": {
+  "full": "Lose 2 Insanity."
  }
 }

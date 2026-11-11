@@ -8322,5 +8322,8 @@
  },
  "S4Jail2.8": {
   "full": "Remove all player pieces from the board and perform the End of a Generation. Return any remaining {0} tiles to the box. Return the **House on the Hill** tile to the Scenario box."
+ },
+ "lit:<i>illegible</i>": {
+  "full": "illegible"
  }
 }
