@@ -20,9 +20,9 @@ Disease_ playable from setup to the endings; expect breaking changes.
   Anonymised labels ("Ending 3") are fine.
 - **Content licence.** Everything in `content/` derives from Renegade's material (CC BY-NC 4.0).
   Add nothing from other sources; the original's fonts are licensed separately and not shipped.
-  The one exception is a fan-made scenario written for this project (`the-thinning-veil`):
-  new text on the game's rules and components, a derivative work under the same terms,
-  marked as unofficial in the app and in `content/LICENSE.md`. No new images.
+  The one exception is the fan-made scenarios written for this project (`the-thinning-veil`,
+  `the-impure-salt`): new text on the game's rules and components, derivative works under the
+  same terms, marked as unofficial in the app and in `content/LICENSE.md`. No new images.
 - **Rules are never rewritten.** Easy/Short versions and generated voice-over only touch
   flavour text (`kind: 'narrative'`); instructions, setup and app commands stay as they are.
 - **Secrets stay secret.** Pages behind the hand-over screen (a `command` text at the top) are
@@ -64,12 +64,12 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   (default 2–5).
 - **Scenario author** (`tools/scenario-author/`): builds a scenario written as text
   (`content/<id>/src/*.story`; syntax at the top of `src/compile.ts`) into `scenario.json`,
-  `extras.json` and the string tables. Used by the fan-made _The Thinning Veil_, written in
-  Italian first: `strings.it.json` is its source text, `strings.en.json` takes English from
+  `extras.json` and the string tables. Used by the fan-made _The Thinning Veil_ and _The Impure
+  Salt_, written in Italian first: `strings.it.json` is its source text, `strings.en.json` takes English from
   `src/en.json` and falls back to the Italian; Easy and Short come from
   `src/versions.<lang>.json` (both keyed by the Italian text). Edit the `.story` and these
   files, never the built JSON.
-  Its design (spoilers) is in `docs/custom/the-thinning-veil/design.it.md`.
+  Their designs (spoilers) are in `docs/custom/<id>/design.it.md`.
 - **Voice generator** (`tools/voice/`, Python via `uv`): generated voices for voiced pages in
   every reading mode, each in one language. English: Emma, George (Kokoro, CPU,
   `task content:voices`); Italian: Sara, Nicola (Chatterbox, cloned from Kokoro clips in
@@ -188,3 +188,6 @@ Next, roughly in order:
 6. Fan-made scenario _Il Velo Sottile_ (`the-thinning-veil`): skeleton done (all pages and logic,
    8/8 endings in the tester, playable); Italian and English text complete, with Easy and Short
    (beta); next a play-test at the table.
+7. Fan-made scenario _Il Sale Impuro_ (`the-impure-salt`, Fear of the Unknown box): all pages,
+   logic and Italian text (8/8 endings in the tester, playable), English translation, Easy and
+   Short (beta) and generated voices for the introductions; next a play-test at the table.
