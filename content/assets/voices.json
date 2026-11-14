@@ -528,6 +528,94 @@
     "short": "audio/voice/sara/prosperitywolvesintro-short.mp3"
    }
   },
+  "SaleG1Intro": {
+   "emma": {
+    "easy": "audio/voice/emma/saleg1intro-easy.mp3",
+    "full": "audio/voice/emma/saleg1intro.mp3",
+    "short": "audio/voice/emma/saleg1intro-short.mp3"
+   },
+   "george": {
+    "easy": "audio/voice/george/saleg1intro-easy.mp3",
+    "full": "audio/voice/george/saleg1intro.mp3",
+    "short": "audio/voice/george/saleg1intro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/saleg1intro-easy.mp3",
+    "full": "audio/voice/nicola/saleg1intro.mp3",
+    "short": "audio/voice/nicola/saleg1intro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/saleg1intro-easy.mp3",
+    "full": "audio/voice/sara/saleg1intro.mp3",
+    "short": "audio/voice/sara/saleg1intro-short.mp3"
+   }
+  },
+  "SaleG2Intro": {
+   "emma": {
+    "easy": "audio/voice/emma/saleg2intro-easy.mp3",
+    "full": "audio/voice/emma/saleg2intro.mp3",
+    "short": "audio/voice/emma/saleg2intro-short.mp3"
+   },
+   "george": {
+    "easy": "audio/voice/george/saleg2intro-easy.mp3",
+    "full": "audio/voice/george/saleg2intro.mp3",
+    "short": "audio/voice/george/saleg2intro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/saleg2intro-easy.mp3",
+    "full": "audio/voice/nicola/saleg2intro.mp3",
+    "short": "audio/voice/nicola/saleg2intro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/saleg2intro-easy.mp3",
+    "full": "audio/voice/sara/saleg2intro.mp3",
+    "short": "audio/voice/sara/saleg2intro-short.mp3"
+   }
+  },
+  "SaleG3Intro": {
+   "emma": {
+    "easy": "audio/voice/emma/saleg3intro-easy.mp3",
+    "full": "audio/voice/emma/saleg3intro.mp3",
+    "short": "audio/voice/emma/saleg3intro-short.mp3"
+   },
+   "george": {
+    "easy": "audio/voice/george/saleg3intro-easy.mp3",
+    "full": "audio/voice/george/saleg3intro.mp3",
+    "short": "audio/voice/george/saleg3intro-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/saleg3intro-easy.mp3",
+    "full": "audio/voice/nicola/saleg3intro.mp3",
+    "short": "audio/voice/nicola/saleg3intro-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/saleg3intro-easy.mp3",
+    "full": "audio/voice/sara/saleg3intro.mp3",
+    "short": "audio/voice/sara/saleg3intro-short.mp3"
+   }
+  },
+  "SalePrologo": {
+   "emma": {
+    "easy": "audio/voice/emma/saleprologo-easy.mp3",
+    "full": "audio/voice/emma/saleprologo.mp3",
+    "short": "audio/voice/emma/saleprologo-short.mp3"
+   },
+   "george": {
+    "easy": "audio/voice/george/saleprologo-easy.mp3",
+    "full": "audio/voice/george/saleprologo.mp3",
+    "short": "audio/voice/george/saleprologo-short.mp3"
+   },
+   "nicola": {
+    "easy": "audio/voice/nicola/saleprologo-easy.mp3",
+    "full": "audio/voice/nicola/saleprologo.mp3",
+    "short": "audio/voice/nicola/saleprologo-short.mp3"
+   },
+   "sara": {
+    "easy": "audio/voice/sara/saleprologo-easy.mp3",
+    "full": "audio/voice/sara/saleprologo.mp3",
+    "short": "audio/voice/sara/saleprologo-short.mp3"
+   }
+  },
   "Scenario5Start": {
    "emma": {
     "easy": "audio/voice/emma/scenario5start-easy.mp3",
@@ -687,6 +775,7 @@
   "a-time-of-war": "ATimeofWarIntro",
   "cost-of-disease": "Scenario5Start",
   "fear-of-the-unknown": "FearoftheUnknownStart",
+  "the-impure-salt": "SalePrologo",
   "the-thinning-veil": "Prologo"
  },
  "voices": {

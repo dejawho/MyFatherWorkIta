@@ -7,7 +7,8 @@
   "cost-of-disease": "Scenario5Start",
   "fear-of-the-unknown": "FearoftheUnknownStart",
   "a-time-of-war": "ATimeofWarIntro",
-  "the-thinning-veil": "Prologo"
+  "the-thinning-veil": "Prologo",
+  "the-impure-salt": "SalePrologo"
  },
  "paragraphPause": 0.6,
  "loudness": -14,
