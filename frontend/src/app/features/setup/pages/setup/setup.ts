@@ -192,4 +192,16 @@ const SCENARIOS_UI = [
     imagePosition: '26% 50%',
     available: isScenarioId('the-thinning-veil'),
   },
+  {
+    id: 'the-impure-salt',
+    title: 'The Impure Salt',
+    titleKey: '',
+    detailsKey: '',
+    details:
+      "An unofficial, fan-made scenario: your father's legacy is a phial of white salt, and a small man in a black coat who signs cheques with your name. It uses some components of Fear of the Unknown.",
+    // No art of its own: the man in the long coat by the gallows, from one of the original's illustrations.
+    image: 'generation-ending/bgs/b-illustration2-oj-v004',
+    imagePosition: '37% 50%',
+    available: isScenarioId('the-impure-salt'),
+  },
 ];

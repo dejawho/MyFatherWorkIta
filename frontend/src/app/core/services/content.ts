@@ -16,8 +16,9 @@ export const SCENARIOS = [
   { id: 'cost-of-disease', title: 'The Cost of Disease' },
   { id: 'fear-of-the-unknown', title: 'Fear of the Unknown' },
   { id: 'a-time-of-war', title: 'A Time of War' },
-  // Not from the original: a fan-made scenario (content/the-thinning-veil/src).
+  // Not from the original: fan-made scenarios (content/<id>/src).
   { id: 'the-thinning-veil', title: 'The Thinning Veil' },
+  { id: 'the-impure-salt', title: 'The Impure Salt' },
 ] as const;
 export type ScenarioId = (typeof SCENARIOS)[number]['id'];
 
