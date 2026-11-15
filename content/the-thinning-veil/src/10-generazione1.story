@@ -69,7 +69,22 @@
   > A colazione nessuno parla dei colpi. Il caffè è troppo forte, il pane è di ieri e tutti hanno gli occhi cerchiati. Qualcuno fa una battuta sui topi della soffitta, e nessuno ride.
 
   > Dalla finestra della sala da pranzo si vede il villaggio: poche case di legno strette intorno alla chiesa, il fumo dei camini, il mercato che si sveglia. È un posto povero e sospettoso. Ma il padre ha lasciato agli eredi una tenuta, un laboratorio e un nome che fa ancora abbassare la voce alla gente; e un nome, per chi sa usarlo, vale quanto un capitale.
-  [[Continua... => G1R1]]
+  ! Che cosa proponi, a colazione?
+  [[Di chiamare il parroco a benedire la casa. ~> prete]]
+  [[Di studiare i colpi con metodo, come avrebbe fatto il padre. ~> metodo]]
+  [[Niente: cambi discorso e parli del tempo. ~> niente]]
+  fragment prete:
+    set fede = $fede - 1
+    set velo = $velo - 1
+    > La proposta cade nel silenzio come un cucchiaio sul pavimento. Poi qualcuno annuisce, e qualcun altro alza le spalle. Padre Anzelm viene il pomeriggio stesso, benedice ogni stanza, perfino le gabbie del laboratorio, e se ne va con l'aria di chi ha messo una toppa su un vestito che non durerà.
+    [[Continua... => G1R1]]
+  fragment metodo:
+    set velo = $velo + 1
+    > La proposta piace più di quanto ti aspettassi: in fondo siete scienziati, o figli di uno scienziato. In un pomeriggio la camera del padre diventa un osservatorio: un orologio a pendolo, un quaderno con le colonne per l'ora, il numero dei colpi e la parete, un filo di seta teso da un muro all'altro con tre campanelli. Quella notte i campanelli suonano tutti e tre, nell'ordine giusto.
+    [[Continua... => G1R1]]
+  fragment niente:
+    > Parli del tempo, delle strade, del prezzo della legna. Gli altri ti seguono con sollievo. È una conversazione lunga, educata, completamente inutile; e alla fine della colazione tutti sanno, senza bisogno di dirlo, che stanotte nessuno spegnerà la candela.
+    [[Continua... => G1R1]]
 
 :: G1R1 [HUB]
   # **IL VELO SOTTILE – Giovinezza**
@@ -81,6 +96,31 @@
       include PreparaFolla
   set hub = "G1R1"
   include Traguardi
+  if !$evTubo:
+    block hubTitle:
+      ! {icon:Storybook} **Il tubo nella tomba – Cemetery**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Cemetery [[clicca qui. -> G1Tubo]]
+  if !$evFabbro:
+    block hubTitle:
+      ! {icon:Storybook} **Il gioco del bambino – Blacksmith**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Blacksmith [[clicca qui. -> G1Fabbro]]
+  if !$evCarro:
+    block hubTitle:
+      ! {icon:Storybook} **Il carro vuoto – Traveling Caravan**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Traveling Caravan [[clicca qui. -> G1Carro]]
+  if !$evCodicillo:
+    block hubTitle:
+      ! {icon:Storybook} **Il codicillo – Town Hall**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Town Hall [[clicca qui. -> G1Codicillo]]
+  if !$evDagherrotipo:
+    block hubTitle:
+      ! {icon:Storybook} **Il dagherrotipo – Farmer's Market**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Farmer's Market [[clicca qui. -> G1Dagherrotipo]]
   block hubTitle:
     ! **Evento del primo Round**
   block hubDetails:
@@ -92,6 +132,146 @@
 ::round G1R1 1
 fine: La Giovinezza della Prima Generazione è finita.
 poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di continuare.
+
+:: G1Tubo
+  set evTubo = true
+  # **Il tubo nella tomba**
+  > La terra sulla tomba del padre è ancora fresca, e dal centro del tumulo spunta un tubo d'ottone grosso come un polso, chiuso da un coperchio a vite e sormontato da un campanello. Il becchino, un uomo grande e taciturno di nome Mihály, si toglie il berretto prima di spiegare.
+
+  > "Istruzioni del defunto", dice. "Scritte di suo pugno e pagate al notaio in anticipo. Il tubo scende fino alla bara, all'altezza della bocca. Se il signore si sveglia, può chiamare; se non ha fiato per chiamare, c'è la cordicella del campanello, legata al suo polso. Quaranta giorni deve restare aperto. Poi si può chiudere." Si rimette il berretto. "Ne ho sepolti tanti, di signori che avevano paura di essere sepolti vivi. Questo è il primo che sembrava avere paura del contrario."
+  ! Che cosa fai?
+  [[Torni di notte e appoggi l'orecchio al tubo. ~> ascolta]]
+  [[Fai sigillare il tubo con il piombo. ~> sigilla]]
+  [[Lasci tutto com'è, per quaranta giorni. ~> lascia]]
+  fragment ascolta:
+    set tubo = "ascoltato"
+    set velo = $velo + 1
+    > Il cimitero di notte è più piccolo che di giorno: le tombe si stringono, il muretto si avvicina. Sviti il coperchio e ti inginocchi nel fango. Dal tubo sale un'aria fredda, che sa di cera e di terra. All'inizio non senti niente; poi, molto in fondo, tre colpi lievissimi, come di un'unghia sul legno. Uno. Due. Uno.
+
+    > Poi una voce, così bassa che potrebbe essere il vento nell'ottone, pronuncia una parola sola, che non capisci. Riavviti il coperchio con le mani che tremano. Sul campanello, quando ti alzi, c'è una goccia di rugiada che non cade.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
+  fragment sigilla:
+    set tubo = "sigillato"
+    set velo = $velo - 1
+    set fede = $fede - 1
+    > Il fabbro cola il piombo nel tubo davanti a te e a Padre Anzelm, che ha voluto esserci e benedice la colata come si benedice una campana. Il metallo fuso scende gorgogliando, poi si ferma, e per un attimo dal tubo esce un sibilo lungo, come di qualcuno che trattiene il fiato. Il fabbro dice che è l'aria. Il prete non dice niente.
+
+    > Il campanello lo togli tu, e lo porti a casa avvolto in un fazzoletto. Lo metti in un cassetto dello scrittoio. Per tutto l'inverno, nel cassetto, non suona mai; e tu, per tutto l'inverno, apri il cassetto ogni sera per controllare.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
+  fragment lascia:
+    set tubo = "lasciato"
+    > Lasci il tubo aperto, come voleva il padre, e dai a Mihály una moneta perché passi a controllare il campanello ogni mattina. Per trentanove giorni il becchino viene alla tenuta, si toglie il berretto e dice: "Niente".
+
+    > Il quarantesimo giorno non viene. Lo trovi al cimitero, seduto sulla tomba, pallido. Il campanello è fermo, dice; non ha suonato. Ma stanotte, per la prima volta, qualcuno ha svitato il coperchio dall'interno. Poi, per ringraziarti della pazienza, ti offre sottovoce un favore del mestiere: qualcosa dalla fossa comune, che nessuno verrà a reclamare.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Bodies_Icon}.
+
+:: G1Fabbro
+  set evFabbro = true
+  # **Il gioco del bambino**
+  > Nella bottega del fabbro, mentre aspetti che ti ferri il cavallo, senti un ritmo che conosci. Viene da dietro la forgia: un colpo, due, uno. Poi una pausa. Poi di nuovo: uno, due, uno. Dietro la forgia c'è un bambino di sei o sette anni, con i capelli bruciacchiati e un martelletto in mano, che batte con pazienza contro il fianco dell'incudine.
+
+  > Si chiama Jóska, ed è il figlio del fabbro. Ti spiega, serissimo, che di notte dal suo letto sente bussare dall'altra parte del fiume, dalla casa grande, e che lui risponde, così chi bussa non si sente solo. Il padre lo afferra per un orecchio e si scusa: il bambino ha troppa fantasia, e la casa grande, con rispetto parlando, fa troppo rumore.
+  ! Che cosa fai?
+  [[Gli regali una moneta e gli chiedi di insegnarti il gioco. ~> amico]]
+  [[Dici al padre di farlo smettere. ~> offeso]]
+  fragment amico:
+    set joska = "amico"
+    > Jóska ti insegna il gioco con l'aria importante di un maestro. Un colpo è sì, due è no, ma questo lo sanno tutti; il bello, dice, è che se aspetti abbastanza i colpi diventano lettere, e le lettere parole. Ti mostra le sue: una fila di tacche sul legno della porta, che ha contato notte dopo notte.
+
+    > Quando te ne vai ti chiede se tornerai. Gli dici di sì. Il padre, intenerito, ti riempie le tasche di ritagli di metallo che non gli servono più.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Gears_Icon}.
+  fragment offeso:
+    set joska = "offeso"
+    > Il fabbro toglie il martelletto al figlio e lo manda in casa con uno scappellotto. Il bambino non piange. Si ferma sulla soglia e ti guarda a lungo, con gli occhi asciutti, come si guarda qualcuno che si vuole ricordare.
+
+    > Il fabbro, mortificato, non vuole essere pagato per il cavallo. Quella notte, alla tenuta, i colpi alle pareti sono più forti e più rapidi del solito, come quelli di chi bussa e non riceve risposta.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
+
+:: G1Carro
+  set evCarro = true
+  # **Il carro vuoto**
+  > Madame Vámos è in paese, a consolare una vedova. Il suo carro è fermo al margine del bosco, con i cavalli che brucano e la porta socchiusa, come se qualcuno l'avesse lasciata aperta apposta. Dentro c'è buio, e un odore di incenso, di cavallo e di qualcosa di più dolce, come di fiori lasciati troppo a lungo nell'acqua.
+
+  > Ci sono un tavolino rotondo coperto da un drappo di velluto, quattro sedie, un ritratto voltato contro la parete e, sotto la cuccetta, un baule con gli angoli di ferro. Nessuno ti vede. Hai il tempo di guardare una cosa, forse due.
+  ! Che cosa fai?
+  [[Guardi sotto il tavolino. ~> tavolo]]
+  [[Apri il baule. ~> baule]]
+  [[Te ne vai senza toccare niente. ~> via]]
+  fragment tavolo:
+    set trucchi = $trucchi + 1
+    > Sotto il drappo il tavolino ha una gamba sola, cava, con una leva di legno che sporge appena dal pavimento: un pedale, all'altezza del piede di chi siede al posto della medium. E dal piano scende un filo di seta nera, sottilissimo, che sparisce in un buco nell'assito.
+
+    > È un trucco, ed è un trucco ben fatto. Lo stai ancora ammirando quando il tavolino, senza che nessuno abbia toccato il pedale, batte un colpo solo contro il pavimento. Esci dal carro in gran fretta. Però il meccanismo, a casa, lo disegni a memoria.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Ingegneristica (Engineering Knowledge).
+  fragment baule:
+    set lettere = true
+    set velo = $velo + 1
+    > Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del Journal. Sono lettere di tuo padre, indirizzate a *"Eszter"*, e le date vanno dal 1821 a pochi mesi fa.
+
+    > Ne leggi una sola, la prima che ti capita: parla di un esperimento, di una porta, di una promessa che "ci rivedremo, in un modo o nell'altro". È datata tre settimane dopo il funerale. Rimetti tutto a posto, con il nastro annodato com'era, e per giorni non riesci a togliertela dalla testa.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
+  fragment via:
+    > Chiudi la porta del carro e ti allontani. Sul sentiero incroci Madame Vámos, che torna dal paese con il cestino al braccio. Ti guarda la mano, quella con cui hai chiuso la porta, e sorride.
+
+    > "Siete una persona educata", dice. "Vostro padre, alla vostra età, non lo era." Poi ti mette nel palmo una moneta d'argento molto vecchia, con un'effigie che non riconosci, "per quando vorrete tornare". Non sai se sia un complimento o un acconto.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
+
+:: G1Codicillo
+  set evCodicillo = true
+  # **Il codicillo**
+  > Nell'ufficio del notaio, al primo piano del Town Hall, c'è odore di carta umida e di tabacco. Il notaio è un uomo minuto, con la parrucca un po' storta, e ha l'aria di chi deve leggere qualcosa che avrebbe preferito non trovare. Si tratta di un codicillo al testamento del padre, scritto di suo pugno, arrivato per posta da Vienna una settimana dopo il funerale.
+
+  > *"La mia camera resti com'è: il letto, le carte, la lampada, la sedia accanto al letto. Non si sposti nulla e non si apra la finestra finché qualcuno, in quella stanza, continuerà a bussare. Dopo, fatene quello che volete."* Il notaio solleva gli occhi dal foglio. "La legge non vi obbliga", dice. "Ma io, al vostro posto, ci penserei."
+  ! Che cosa fai?
+  [[Rispetti il codicillo: la camera resta com'è. ~> intatta]]
+  [[Fai svuotare la camera e la trasformi in laboratorio. ~> svuotata]]
+  fragment intatta:
+    set camera = "intatta"
+    set velo = $velo + 1
+    > La camera resta com'era: il letto con la forma del corpo, la lampada spenta, la sedia accanto al letto, sempre un poco scostata, come se qualcuno ci si fosse appena seduto. La governante si rifiuta di spolverarla. Tu ci entri ogni tanto, la sera, e ogni volta la sedia è più vicina al letto.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP e 1 {icon:Insanity_Icon}.
+  fragment svuotata:
+    set camera = "svuotata"
+    set velo = $velo - 1
+    > Fai portare via tutto in un pomeriggio: il letto in soffitta, le carte nello studio, la sedia in cucina. Quando sollevano il materasso, sotto ci sono decine di fogli piegati, fitti di appunti, con le date delle ultime notti del padre. In fondo all'ultimo, una riga più grande delle altre: *"Rispondono."*
+
+    > Quella notte, nella camera vuota, nessuno bussa. Bussano in cucina, contro la sedia.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Chimica (Chemistry Knowledge).
+
+:: G1Dagherrotipo
+  set evDagherrotipo = true
+  # **Il dagherrotipo**
+  > Al Farmer's Market, tra le ceste di cavoli, un fotografo ambulante ha montato un banco con un drappo nero e una cassetta di lastre d'argento. Si chiama Koch, viene da Pest, e fa ritratti ai vivi e ai morti: i morti costano di più, dice, perché stanno fermi meglio, ma bisogna tenerli seduti con un'asta di ferro dietro la schiena.
+
+  > Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il Journal sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.
+  ! Che cosa fai?
+  [[Compri il ritratto. ~> compra]]
+  [[Chiedi al fotografo chi fosse la donna. ~> chiedi]]
+  [[Gli chiedi di distruggere la lastra, e lo paghi per questo. ~> distruggi]]
+  fragment compra:
+    set velo = $velo + 1
+    > Paghi il debito di tuo padre, con gli interessi, e porti a casa il ritratto avvolto in un panno. Lo appendi nello studio. Di giorno la sedia accanto al padre è vuota. Di sera, con la lampada accesa, non sempre.
+    block setupEvent next=$hub:
+      ! Guadagni 2VP e 1 {icon:Insanity_Icon}.
+  fragment chiedi:
+    > Il fotografo si gratta la testa. Nella stanza non c'era nessuna donna, dice: c'erano lui, il signore e la sedia vuota, che il signore aveva voluto a tutti i costi accanto a sé, "per un'amica che arriverà". La posa durò due minuti. A metà, il signore sorrise. Per questo, nel ritratto, ha la bocca un po' mossa.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge).
+  fragment distruggi:
+    set velo = $velo - 1
+    > Il fotografo esita, poi strofina la lastra con uno straccio imbevuto di cianuro, davanti a te. L'argento si annebbia, il padre scompare, la sedia scompare. Per ultima scompare la donna, e ti sembra, ma è certamente un effetto della luce, che faccia in tempo a voltarsi verso di te.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
 
 :: G1Seduta
   # **La prima seduta**
@@ -145,7 +325,26 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   > **LA STREGA DEL CARRO.** Domenica scorsa il reverendo Padre Anzelm ha dedicato l'intero sermone a quella che ha chiamato, senza giri di parole, "la strega del carro". Ha ricordato ai fedeli che i morti riposano nelle mani di Dio e non nei cassetti di un tavolino, e che chi li disturba per denaro disturba anche Lui. Ha poi aggiunto, guardando verso i banchi in fondo, che certe famiglie arrivate di recente farebbero bene a ricordarselo.
 
   > Il sermone è stato molto apprezzato. Lunedì, tuttavia, questo giornale ha potuto osservare un insolito via vai di signore in nero sulla strada della tenuta. Le vedove di {$townname} hanno perso mariti, figli e fratelli per il freddo, le febbri e la fame; vogliono notizie dei loro cari, e per i propri cari, si sa, non si bada a spese.
-  [[Clicca per continuare... ~> 0]]
+  if $tubo == "ascoltato":
+    > Il becchino del cimitero, interrogato da questo giornale, conferma che di notte qualcuno della tenuta va ad ascoltare il tubo d'ottone che spunta dalla tomba del vecchio. Non dice che cosa si senta. Dice che, da allora, il campanello non ha più bisogno del vento.
+  elif $tubo == "sigillato":
+    > Il fabbro, che ha colato il piombo nel tubo della tomba del vecchio alla presenza del reverendo, racconta di avere sentito il metallo sibilare come una teiera. Il reverendo lo ha pregato di non raccontarlo.
+  if $joska == "amico":
+    > Si segnala inoltre che il figlio del fabbro, un bambino di sei anni, gira per il paese insegnando a tutti un gioco nuovo, che consiste nel bussare ai muri in un certo ordine. Le madri sono pregate di sorvegliare i figli.
+  if $trucchi > 0:
+    > Qualcuno sostiene che sotto il tavolino del carro ci sia un pedale. Madame Vámos, interpellata, ha invitato chi lo sostiene a sedersi al suo posto, e a provare.
+
+  ! E la tua famiglia, la domenica dopo?
+  [[Va a messa, in prima fila. ~> messa]]
+  [[Apre il cancello alle signore in nero. ~> vedove]]
+  fragment messa:
+    set fede = $fede - 1
+    > La famiglia della tenuta va a messa al completo, in prima fila, con i vestiti migliori e le facce di chi non ha dormito. Padre Anzelm, dal pulpito, la fissa per un pezzo e cambia la fine del sermone: parla del figliol prodigo. Le signore in nero, in fondo alla chiesa, si scambiano occhiate.
+    [[Clicca per continuare... ~> 0]]
+  fragment vedove:
+    set fede = $fede + 1
+    > La domenica mattina, mentre le campane suonano, la famiglia della tenuta apre il cancello. Le signore in nero salgono la strada a due a due, con il velo abbassato, e si siedono nel salotto grande, sotto il ritratto del padre, a raccontare dei loro morti. Nessuno di voi fa niente di speciale: ascoltate, e basta. Le signore se ne vanno all'ora di pranzo, consolate. Padre Anzelm, quella domenica, predica a mezza chiesa.
+    [[Clicca per continuare... ~> 0]]
   fragment 0:
     block setupEvent next=G1R2:
       set _SetupImage = "S1_DubiousBartering"
@@ -167,6 +366,31 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
     ! {icon:S1_HeartToken} **Conforto**
   block hubDetails:
     ! Il tuo patrono ti dà un cuore ogni volta che fai quello che dice la sua Dubious Bartering card. In Chiesa, il cuore stampato sulla pagina ti fa guadagnare un Charity token.
+  if !$evBanca:
+    block hubTitle:
+      ! {icon:Storybook} **Il conto del padre – Bank**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo alla Bank [[clicca qui. -> G1Banca]]
+  if !$evVedova:
+    block hubTitle:
+      ! {icon:Storybook} **La vedova del mugnaio – Farmer's Market**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Farmer's Market [[clicca qui. -> G1Vedova]]
+  if !$evStagno:
+    block hubTitle:
+      ! {icon:Storybook} **Il ghiaccio – Park**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Park [[clicca qui. -> G1Stagno]]
+  if !$evTerreno:
+    block hubTitle:
+      ! {icon:Storybook} **Il terreno accanto al cimitero – Builder's Office**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Builder's Office [[clicca qui. -> G1Terreno]]
+  if !$evChiavi:
+    block hubTitle:
+      ! {icon:Storybook} **Le chiavi della tenuta – Blacksmith**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Blacksmith [[clicca qui. -> G1Chiavi]]
   block hubTitle:
     ! **Evento del secondo Round**
   block hubDetails:
@@ -179,12 +403,197 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 fine: La Maturità della Prima Generazione è finita.
 poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di continuare.
 
+:: G1Banca
+  set evBanca = true
+  # **Il conto del padre**
+  > La Bank di {$townname} è una stanza sola, con una grata d'ottone, una cassaforte grande come un armadio e un banchiere, il signor Weisz, che porta le mezze maniche anche la domenica. Ti riceve con l'imbarazzo di chi deve dare una notizia che non sa se sia buona.
+
+  > Il conto di tuo padre, spiega, non si è chiuso con la sua morte. Da vent'anni, il primo di ogni mese, da Vienna arriva un versamento sempre uguale, firmato soltanto con tre iniziali: **C. U. O.** È arrivato anche questo mese. "Come se il mittente", dice il signor Weisz, aggiustandosi gli occhiali, "non fosse stato informato. O come se non lo ritenesse importante."
+  ! Che cosa fai?
+  [[Prelevi il denaro. ~> preso]]
+  [[Fai restituire tutto al mittente. ~> restituito]]
+  [[Chiedi al banchiere di vedere la firma. ~> chiesto]]
+  fragment preso:
+    set denaro = "preso"
+    set fede = $fede + 1
+    > Il signor Weisz conta le banconote due volte, con le dita bagnate, e te le consegna in una busta. Quella sera, svuotando la busta sul tavolo del laboratorio, ne cade un biglietto che il banchiere giura di non avere visto. Una riga sola, in una calligrafia elegante e antiquata: *"Per le spese di famiglia. Ci sono sempre spese, in una famiglia."*
+    block setupEvent next=$hub:
+      ! Guadagni $3.
+  fragment restituito:
+    set denaro = "restituito"
+    set fede = $fede - 1
+    > Firmi l'ordine di restituzione, e il signor Weisz lo spedisce a Vienna con la diligenza del giovedì. Il primo del mese successivo il versamento arriva puntuale, raddoppiato, con una nota del corrispondente: *"Insistiamo."*
+
+    > Lo fai restituire di nuovo. La voce gira, come girano tutte le voci di {$townname}: la famiglia della tenuta rifiuta il denaro, e chi rifiuta il denaro, al villaggio, o è un santo o ha qualcosa da nascondere.
+    block setupEvent next=$hub:
+      ! Guadagni 2VP.
+  fragment chiesto:
+    set denaro = "chiesto"
+    set velo = $velo + 1
+    > Il signor Weisz esita, poi apre il registro. Accanto a ogni versamento, dove dovrebbe esserci la firma del mittente, c'è un piccolo disegno a inchiostro: un garofano, annerito con cura. Sotto il primo, quello del 1828, c'è anche un nome per esteso: *O. Garai*.
+
+    > L'ultimo versamento, quello di questo mese, porta lo stesso disegno e lo stesso nome, nella stessa calligrafia, con la stessa pressione della penna. "Un figlio, immagino", dice il banchiere. "O un nipote. Le famiglie per bene si tramandano la firma, come l'argenteria."
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge).
+
+:: G1Vedova
+  set evVedova = true
+  # **La vedova del mugnaio**
+  > Al Farmer's Market, tra le ceste di uova e le gabbie dei polli, una donna vestita di nero ti trattiene per la manica. È Panna Kovács, la vedova del mugnaio. Il marito è morto di colera l'estate scorsa, in tre giorni, senza riuscire a dire dove avesse nascosto i risparmi di trent'anni; e lei, con quattro figli e un mulino fermo, vende le uova delle sue galline per pagare il pane.
+
+  > "Voi parlate con i morti", ti dice, senza abbassare la voce. "Lo sa tutto il paese. Madame vuole un fiorino per seduta, e io un fiorino non ce l'ho. Chiedetegli voi dove sono i soldi. A voi risponderà: siete gente istruita."
+  ! Che cosa fai?
+  [[Improvvisi una seduta e tiri a indovinare. ~> truffa]]
+  [[La accompagni da Madame Vámos, e paghi tu. ~> madame]]
+  [[Le dici la verità: non sai parlare con i morti. ~> verita]]
+  fragment truffa:
+    set mulino = "truffa"
+    > La porti dietro il banco del pane, le prendi le mani e chiudi gli occhi, come hai visto fare a Madame. Dopo un tempo che ti sembra decente dici la prima cosa che ti viene in mente: dietro la stufa, un mattone smosso. La vedova ti bacia le mani e corre al mulino.
+
+    > Torna la sera, coperta di fuliggine: dietro la stufa non c'era niente. Ma non è arrabbiata. Dice che il marito non si fidava di nessuno, nemmeno da morto, e che però lei, per la prima volta da mesi, ha dormito. Il giorno dopo, nel paese, si racconta che la famiglia della tenuta consola le vedove gratis.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Charity token {icon:S1_HeartToken}.
+  fragment madame:
+    set mulino = "madame"
+    set velo = $velo + 1
+    set fede = $fede + 1
+    > Madame Vámos accetta il tuo fiorino senza guardarlo. La seduta è breve: la medium tace a lungo, poi parla con una voce roca, da uomo, e dice di contare le pale della ruota, da sinistra, fino alla settima.
+
+    > Sotto la settima pala, in una scatola di latta incastrata tra le assi, ci sono i risparmi del mugnaio, fino all'ultimo kreuzer. La vedova piange, ride, giura che da domenica andrà alle sedute del giovedì invece che a messa. Tu ti chiedi come facesse Madame a saperlo; e se lo sapesse da prima che tu la pagassi.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Charity token {icon:S1_HeartToken} e 1 {icon:Creepy_Icon}.
+  fragment verita:
+    set mulino = "verita"
+    > Le dici che no, non sai parlare con i morti, e che chi giura di saperlo, di solito, vuole un fiorino. La vedova resta zitta per un momento. Poi ti ringrazia: in tutto il paese sei la prima persona che non le ha promesso niente.
+
+    > Prima di andarsene ti mette tra le braccia la sua gallina migliore, che si dibatte e protesta. Rifiutarla sarebbe un'offesa; e nel laboratorio, si sa, un animale serve sempre.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Animal_Icon}.
+
+:: G1Stagno
+  set evStagno = true
+  # **Il ghiaccio**
+  ! **Gazzetta di {$townname} – *gennaio 1852.***
+  > **DISGRAZIA ALLO STAGNO.** Domenica pomeriggio il piccolo Péter Szűcs, detto Peti, di otto anni, figlio del bottaio, è caduto attraverso il ghiaccio dello stagno del parco, dove giocava con altri bambini malgrado il divieto. Il corpo è stato recuperato soltanto ieri, dopo tre giorni di ricerche.
+
+  > Chi lo ha visto racconta un fatto singolare: il bambino non sembrava annegato, ma addormentato, con le guance rosee e le labbra appena socchiuse. Il medico ha attribuito la cosa al freddo. La madre si rifiuta di farlo seppellire. Madame Vámos si è offerta di vegliarlo una notte intera. Il bottaio, si dice, ha debiti, e la famiglia della tenuta compra corpi per i suoi studi.
+  ! Che cosa fai?
+  [[Paghi il funerale e la lapide. ~> sepolto]]
+  [[Chiedi il corpo per i tuoi studi. ~> corpo]]
+  [[Lasci che Madame lo vegli. ~> vegliato]]
+  fragment sepolto:
+    set peti = "sepolto"
+    set velo = $velo - 1
+    set fede = $fede - 1
+    > Paghi una bara bianca, una lapide piccola con un angelo e il pranzo per il paese dopo la messa. Padre Anzelm celebra con gli occhi lucidi. La madre di Peti non ti ringrazia: non parla con nessuno. Ma il giorno dopo, sulla soglia della tenuta, trovi un cesto di mele avvolte nella paglia, e nessun biglietto.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Charity token {icon:S1_HeartToken}.
+  fragment corpo:
+    set peti = "corpo"
+    > Il bottaio accetta il denaro senza guardarti in faccia. Il corpo arriva alla tenuta di notte, su un carretto coperto di sacchi. Nel laboratorio lo esamini a lungo, al lume della lampada: niente acqua nei polmoni, nessun segno di lotta, il cuore fermo come un orologio a cui nessuno ha dato la carica.
+
+    > Prendi appunti per tutta la notte. All'alba, quando alzi gli occhi dal quaderno, ti sembra che le palpebre del bambino si siano mosse. Non sono le tue: sono le sue. Chiudi il quaderno, e per un mese non lo riapri.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Bodies_Icon} e 1 {icon:Creepy_Icon}.
+  fragment vegliato:
+    set peti = "vegliato"
+    set velo = $velo + 1
+    set fede = $fede + 1
+    > Madame Vámos veglia il bambino nella bottega del bottaio, tra le doghe e i cerchi di ferro, con una candela sola. Tu resti sulla soglia, perché qualcuno della famiglia deve esserci: lei lo ha chiesto espressamente.
+
+    > Verso le tre la medium si china sul piccolo corpo, gli parla all'orecchio, ascolta. Poi si volta verso la madre e le dice che Peti ha freddo, ma non ha paura, e che giocherà ancora con gli altri bambini, quando verrà la nebbia. Il giorno dopo lo seppelliscono. La madre, al funerale, sorride.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Insanity_Icon} e 1VP.
+
+:: G1Terreno
+  set evTerreno = true
+  # **Il terreno accanto al cimitero**
+  > Al Builder's Office ti aspetta un giovane impiegato con un garofano nero all'occhiello e una cartella di cuoio sotto il braccio. Rappresenta, dice, "una società di persone benestanti e riservate" che desidera acquistare la striscia di terra della tua famiglia tra il cimitero e la strada maestra: un prato di ortiche dove pascolano le capre del becchino.
+
+  > Il prezzo che offre è il doppio di quanto valga, e il triplo di quanto qualcuno, a {$townname}, abbia mai pagato per un prato di ortiche. Il capomastro, alle sue spalle, ti fa segno di accettare con tutta la faccia.
+  ! Che cosa fai?
+  [[Vendi. ~> vendi]]
+  [[Rifiuti: la terra della famiglia non si vende. ~> rifiuta]]
+  [[Chiedi che cosa vogliono costruirci. ~> chiedi]]
+  fragment vendi:
+    set terreno = "venduto"
+    set fede = $fede + 1
+    > Firmi, e il giovane ti paga in monete d'oro, contate una per una su un fazzoletto di seta nera. Le capre del becchino vengono spostate il giorno dopo. Per anni sul prato non si costruisce niente; ma ogni tanto, di notte, qualcuno ci passeggia con una lanterna, misurando a passi la distanza dalle tombe.
+    block setupEvent next=$hub:
+      ! Guadagni $3.
+  fragment rifiuta:
+    set terreno = "rifiutato"
+    set fede = $fede - 1
+    > Il giovane non insiste. Ripone la cartella, ti augura una buona giornata e se ne va. Una settimana dopo la società compra il terreno accanto, dall'altra parte del cimitero, al prezzo di un prato di ortiche. Il capomastro ti guarda come si guarda qualcuno che ha rifiutato una dote.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
+  fragment chiedi:
+    set terreno = "chiesto"
+    > Il giovane esita, poi apre la cartella e ti mostra un disegno: un edificio basso, elegante, con un campanile senza campana; e dal campanile partono decine di fili sottili, tesi come le corde di un'arpa, che scendono fino alle tombe del cimitero, una per una. "Una casa per il riposo", dice. "Dei vivi, s'intende."
+
+    > Non vendi. Ma il disegno, a casa, lo copi a memoria, e lo rifai tre volte prima di capire a che cosa servano i fili.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Ingegneristica (Engineering Knowledge).
+
+:: G1Chiavi
+  set evChiavi = true
+  # **Le chiavi della tenuta**
+  > Il fabbro ti prende da parte, vicino alla forgia, con l'aria di chi si toglie un peso. L'estate scorsa, poco prima che il padre morisse, un signore elegante con un garofano nero all'occhiello gli ha ordinato le copie di tutte le chiavi della tenuta: il cancello, il portone, lo studio, la cantina, perfino lo scrittoio. Gli ha portato gli stampi di cera già fatti.
+
+  > "La cosa strana", dice il fabbro, abbassando la voce, "è che gli stampi me li ha portati il vostro signor padre in persona, il giorno prima. Me li ha messi in mano e ha detto: quando verrà a ritirarli un signore con un fiore nero, dateglieli. È tutto pagato."
+  if $joska == "amico":
+    > Dietro la forgia, Jóska ascolta tutto con gli occhi spalancati, e ti fa un cenno, come tra complici.
+  ! Che cosa fai?
+  [[Fai cambiare tutte le serrature della tenuta. ~> serrature]]
+  [[Ti fai fare anche tu una copia: la chiave della casa del Circolo. ~> copia]]
+  [[Lasci tutto com'è: era la volontà di tuo padre. ~> lascia]]
+  fragment serrature:
+    set velo = $velo - 1
+    > Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il Journal sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.
+    block setupEvent next=$hub:
+      ! Se puoi, paga $2: guadagni 2VP. Altrimenti guadagni 1VP.
+  fragment copia:
+    set trucchi = $trucchi + 1
+    > Il fabbro conserva gli stampi di tutti i suoi clienti, anche quelli del Circolo. Per qualche moneta te ne fa una copia: una chiave lunga e scura, con un occhio traforato nell'impugnatura. Apre una porta sul retro della casa in piazza. Una notte la usi: dietro la porta ci sono una scala, una cantina e, contro il muro, un martelletto imbottito appeso a una corda.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Gears_Icon} e 1 {icon:Creepy_Icon}.
+  fragment lascia:
+    set velo = $velo + 1
+    > Lasci le cose come sono. Il signore con il garofano non viene mai, almeno non di giorno. Ma una notte senti il cancello che si apre, il portone che si apre, la porta dello studio che si apre, una dopo l'altra, senza fretta, con le chiavi giuste. Al mattino non manca niente. Sulla scrivania c'è un garofano nero.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge).
+
 :: G1Lettere
   # **Lettere senza firma**
   > Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.
 
   > Dentro, ogni volta, poche righe in una calligrafia elegante e antiquata. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce i loro lavori, ammira il loro coraggio e desidera incontrarli, uno per uno, in un luogo discreto. Basterà presentarsi all'indirizzo indicato e pronunciare la parola giusta.
-  [[Clicca per continuare... ~> 0]]
+  if $denaro == "preso":
+    > La famiglia, intanto, ha cominciato a ritirare ogni mese il denaro che arriva da Vienna. Nessuno ne parla a tavola. Ma le lettere senza firma, da quel momento, arrivano più spesso, e sono più affettuose.
+  elif $denaro == "restituito":
+    > La famiglia, intanto, continua a rimandare a Vienna il denaro che arriva ogni mese, e ogni mese il denaro torna, raddoppiato. Le lettere senza firma, da quel momento, hanno un tono offeso, come quelle di una zia trascurata.
+  if $mulino == "madame":
+    > Al mercato, la vedova del mugnaio racconta a chiunque voglia ascoltarla dei risparmi trovati sotto la settima pala, e di chi l'ha portata da Madame. Il giovedì, alle sedute, c'è la fila.
+  elif $mulino == "truffa":
+    > Al mercato, la vedova del mugnaio racconta a chiunque voglia ascoltarla della seduta dietro il banco del pane. Non ha trovato niente, dice; ma per la prima volta ha dormito. In paese si comincia a dire che la famiglia della tenuta consola meglio del prete.
+  if $peti == "corpo":
+    > Dalla bottega del bottaio, la notte, si sente piangere. In paese si dice che la famiglia della tenuta abbia comprato un bambino morto, e che lo tenga in un armadio di vetro. Non è vero; ma non è nemmeno del tutto falso.
+  elif $peti == "vegliato":
+    > La madre di Peti va a tutte le sedute del giovedì, in prima fila, e ogni tanto ride da sola.
+  if $terreno == "venduto":
+    > Sul prato accanto al cimitero, quello che la famiglia ha venduto, qualcuno ha piantato dei paletti con lo spago, in file regolari, come per un orto. O per un altro cimitero.
+
+  ! Che cosa ne fate, di queste lettere?
+  [[Rispondete, per iscritto, lasciando la busta sotto la porta. ~> rispondi]]
+  [[Le bruciate senza finire di leggerle. ~> brucia]]
+  fragment rispondi:
+    set velo = $velo + 1
+    > La risposta la scrive chi in famiglia ha la calligrafia più bella, su carta della tenuta, con poche righe cortesi e prudenti. La busta, lasciata la sera sotto la porta, la mattina non c'è più. Al suo posto c'è un garofano nero, fresco, con una goccia di rugiada che non cade.
+    [[Clicca per continuare... ~> 0]]
+  fragment brucia:
+    set velo = $velo - 1
+    > Le lettere bruciano bene, con una fiamma alta e allegra, e per qualche giorno non ne arrivano altre. Poi una mattina, nel camino spento, tra la cenere, c'è una busta intatta, con la ceralacca nera e l'occhio aperto. Non è nemmeno annerita.
+    [[Clicca per continuare... ~> 0]]
   fragment 0:
     block setupEvent next=G1R3:
       set _SetupImage = "S1_LetterBACK"
@@ -203,6 +612,31 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
         ! Andate a **pagina 3** della Village Chronicle, sezione **The Cost of Disease** ({icon:S1_ScenarioIcon}).
   set hub = "G1R3"
   include Traguardi
+  if !$evSacrestia:
+    block hubTitle:
+      ! {icon:Storybook} **La porta della sacrestia – Church**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo alla Church [[clicca qui. -> G1Sacrestia]]
+  if !$evSindaco:
+    block hubTitle:
+      ! {icon:Storybook} **Il voto del Sindaco – Town Hall**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Town Hall [[clicca qui. -> G1Sindaco]]
+  if !$evStudente:
+    block hubTitle:
+      ! {icon:Storybook} **Lo studente di medicina – Farmer's Market**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Farmer's Market [[clicca qui. -> G1Studente]]
+  if !$evLezione:
+    block hubTitle:
+      ! {icon:Storybook} **La lezione – Traveling Caravan**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Traveling Caravan [[clicca qui. -> G1Lezione]]
+  if !$evPanchina:
+    block hubTitle:
+      ! {icon:Storybook} **La panchina – Park**
+    block hubDetails:
+      ! Il primo giocatore che manda un suo pezzo al Park [[clicca qui. -> G1Panchina]]
   block hubTitle:
     ! {icon:Storybook} **Letter card**
   block hubDetails:
@@ -218,6 +652,144 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 ::round G1R3 0
 fine: La Vecchiaia della Prima Generazione è finita.
 poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima della Fine della Generazione.
+
+:: G1Sacrestia
+  set evSacrestia = true
+  # **La porta della sacrestia**
+  > Padre Anzelm ti aspetta sul sagrato con il cappello in mano, e questo, da solo, è già abbastanza strano. Ti porta nella sacrestia vecchia, quella dietro l'abside che non si usa più da quando hanno costruito la nuova, e ti mostra una porticina bassa di legno scuro, chiusa da un catenaccio arrugginito.
+
+  > "Da tre settimane", dice, "qualcuno bussa lì dietro. Di notte, durante il vespro, perfino durante la messa. Ho aperto: è un ripostiglio vuoto, grande come un confessionale. Ho benedetto: bussano lo stesso." Si passa una mano sulla faccia. "Voglio farla murare. Il muratore chiede tre fiorini, e la parrocchia non li ha. Voi, invece, i colpi li conoscete bene."
+  ! Che cosa fai?
+  [[Paghi il muratore: la porta va murata. ~> murata]]
+  [[Chiedi di aprirla un'ultima volta, prima. ~> aperta]]
+  fragment murata:
+    set porta = "murata"
+    set velo = $velo - 1
+    set fede = $fede - 1
+    > Il muratore lavora un pomeriggio intero, in silenzio, mattone su mattone, mentre il prete recita il rosario sulla soglia. Quando l'ultimo mattone è al suo posto, i colpi si fermano. Padre Anzelm ti stringe tutte e due le mani: è la prima volta che lo vedi sorridere.
+
+    > Uscendo, guardi il muro fresco di calce. Hai la sensazione, che non sai spiegarti, che un giorno qualcuno lo riaprirà, e che troverà dietro qualcosa che adesso non c'è.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP e arretra di 1 casella sul tracciato {icon:Insanity_Icon}.
+  fragment aperta:
+    set porta = "aperta"
+    set velo = $velo + 1
+    > Il prete toglie il catenaccio di malavoglia. Il ripostiglio è vuoto, polveroso, con un odore di cera vecchia. Ma l'interno della porta, all'altezza di una testa, è coperto di segni di nocche: centinaia di piccole ammaccature nel legno, alcune vecchie e scurite, altre chiare come se fossero di stanotte.
+
+    > In un angolo, sotto la polvere, c'è un registro rilegato in pergamena: esorcismi celebrati in quella sacrestia dal 1711 al 1763, con i nomi, le date e, a margine, il numero dei colpi uditi. Il prete te lo lascia portare via, purché tu non gliene parli mai più. Il giorno dopo la porta viene murata lo stesso.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Creepy_Icon}.
+
+:: G1Sindaco
+  set evSindaco = true
+  # **Il voto del Sindaco**
+  > Il Sindaco Bódi ti riceve nel suo ufficio, una stanza con un ritratto dell'imperatore, una stufa che fuma e un armadio pieno di pratiche che nessuno ha mai letto. È un uomo grasso e cortese, con le mani sempre umide, e conosce il prezzo di tutto: delle vacche, dei voti, delle anime.
+
+  > "Il consiglio dovrà decidere della signora del carro", dice, senza che tu glielo abbia chiesto. "Il parroco mi ha già fatto visita. E anche un signore molto elegante, con un fiore all'occhiello. Tutti mi chiedono di parlare. Nessuno mi chiede di che cosa abbia bisogno io." Sospira. "La famiglia della tenuta, almeno, è gente ragionevole."
+  ! Che cosa fai?
+  [[Gli offri denaro perché parli in favore di Madame. ~> comprato]]
+  [[Gli ricordi i debiti di suo padre con il tuo. ~> ricattato]]
+  [[Gli chiedi di parlare contro la medium. ~> chiesa]]
+  fragment comprato:
+    set bodi = "comprato"
+    set fede = $fede + 1
+    > Il Sindaco conta le monete sulla scrivania con la naturalezza di chi conta le pecore. Promette che parlerà, e che parlerà bene. Poi, accompagnandoti alla porta, ti confida che il signore con il fiore all'occhiello gli aveva offerto il doppio, "ma con voi, si sa, è diverso: siete gente del posto".
+    block setupEvent next=$hub:
+      ! Se puoi, paga $2: guadagni 3VP. Altrimenti non succede niente.
+  fragment ricattato:
+    set bodi = "ricattato"
+    > Tiri fuori dal Journal una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.
+
+    > "Parlerò come volete", dice. "Ma i Bódi hanno buona memoria. Mio figlio la avrà, e il figlio di mio figlio." Esci con la ricevuta in tasca e la sensazione di avere fatto un pessimo affare.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP e 1 {icon:Creepy_Icon}.
+  fragment chiesa:
+    set bodi = "chiesa"
+    set fede = $fede - 1
+    > Il Sindaco ascolta, annuisce, ti dà ragione su tutto. Parlerà contro la medium, dice, perché il villaggio ha bisogno di ordine e di messe, non di tavolini. Non ti chiede niente in cambio, e questo ti insospettisce più di qualunque richiesta.
+
+    > Due giorni dopo vieni a sapere che la parrocchia gli ha condonato l'affitto di un campo per dieci anni. Padre Anzelm, quando lo incontri, ti saluta come si saluta un alleato.
+    block setupEvent next=$hub:
+      ! Guadagni $2.
+
+:: G1Studente
+  set evStudente = true
+  # **Lo studente di medicina**
+  > Tra le bancarelle del Farmer's Market c'è un giovane con il cappotto liso, gli occhiali tondi e un taccuino aperto sul palmo. Si chiama Béla Lukács, nipote del medico condotto: studia medicina a Vienna e passa l'estate al villaggio a prendere appunti su tutto, dalle malattie delle vacche ai miracoli della signora del carro.
+
+  > "Non credo ai fantasmi", ti dice, prima ancora di presentarsi. "Credo agli esperimenti. Ho preparato una busta sigillata con un numero dentro: lo conosco solo io. Se Madame Vámos lo legge senza aprirla, mi converto. Ma a me non lascia entrare nel carro." Ti porge la busta. "Voi, invece, sì."
+  ! Che cosa fai?
+  [[Lo aiuti: porti la busta alla seduta. ~> amico]]
+  [[Gli ridi in faccia. ~> deriso]]
+  fragment amico:
+    set lukacs = "amico"
+    set trucchi = $trucchi + 1
+    > Alla seduta posi la busta sul tavolino. Madame la sfiora appena con la punta delle dita, chiude gli occhi e dice: "Quarantasette". Il giorno dopo il giovane Lukács apre la busta davanti a te. C'è scritto quarantasette.
+
+    > Lui però non si converte. Prende la busta, la gira contro la luce della finestra, gratta il sigillo con l'unghia. "Vapore", dice, mostrandoti un'ombra lungo il bordo della ceralacca. "Qualcuno l'ha aperta e richiusa. Non so quando, né come. Ma lo scoprirò." Ti saluta con un piccolo inchino: ha trovato, dice, la prima persona ragionevole del villaggio.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Chimica (Chemistry Knowledge).
+  fragment deriso:
+    set lukacs = "deriso"
+    > Gli ridi in faccia: in una famiglia di scienziati, uno studente con una busta è un dilettante. Il giovane Lukács arrossisce fino alle orecchie, si rimette la busta in tasca e se ne va senza salutare.
+
+    > Qualcuno, al mercato, ride con te. Lui si volta una volta sola, dall'angolo della strada, e ti guarda come si guarda un problema da risolvere.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
+
+:: G1Lezione
+  set evLezione = true
+  # **La lezione**
+  > Il carro di Madame Vámos non si muove da otto anni: le ruote sono affondate nel fango, sul tetto è cresciuta l'erba e le tende di velluto hanno preso il colore della ruggine. Madame ti fa entrare, ti serve un tè nero in una tazza sbeccata e ti studia con la testa inclinata, come si guarda un cavallo prima di comprarlo.
+
+  > "Avete l'orecchio", dice. "Lo aveva anche vostro padre, ma lo usava per parlare. Io posso insegnarvi ad ascoltare. Non vi chiedo denaro." Sorride. "Il denaro, con la vostra famiglia, viene dopo."
+  ! Che cosa fai?
+  [[Accetti le lezioni. ~> accetta]]
+  [[Accetti, ma per scoprire i suoi trucchi. ~> trucchi]]
+  [[Rifiuti, e te ne vai. ~> rifiuta]]
+  fragment accetta:
+    set allievo = true
+    set velo = $velo + 1
+    > Le lezioni durano tutto l'inverno, il giovedì sera. Madame ti insegna a respirare piano, a contare i colpi, a lasciare le mani sul tavolino senza spingere. Ti insegna anche i trucchi, il pedale, il filo, la voce di gola, e lo fa con la stessa serietà con cui ti insegna il resto. "I trucchi servono per i giorni in cui non rispondono", dice. "Ma un giorno risponderanno a voi. Allora non avrete bisogno di me."
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
+  fragment trucchi:
+    set trucchi = $trucchi + 1
+    > Madame capisce subito il vero motivo delle tue visite, e non se ne offende. Anzi, ti insegna i trucchi con un orgoglio di artigiana: il pedale, il filo di seta, il fosforo sciolto nell'olio, la voce che si fa uscire dalla gola senza muovere le labbra. Li scrivi tutti, in un quaderno.
+
+    > All'ultima lezione, chiudendo il quaderno, ti dice una cosa sola: "I trucchi sono la parte facile. Il difficile è smettere di usarli quando non servono più."
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Chimica (Chemistry Knowledge).
+  fragment rifiuta:
+    set velo = $velo - 1
+    > Posi la tazza e ti alzi. Madame non ti trattiene. "Come volete", dice, accompagnandoti alla porta del carro. "Non importa. Verrà qualcuno dei vostri figli, o dei figli dei vostri figli. Il vostro sangue torna sempre." Sulla soglia ti mette in mano un biscotto alle spezie, come si fa con i bambini.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
+
+:: G1Panchina
+  set evPanchina = true
+  # **La panchina**
+  > Nel Park, vicino allo stagno, c'è una panchina di ghisa con una targhetta d'ottone: *Dono della famiglia della tenuta, 1840*. Ogni sera, al tramonto, ci siede una vecchia con uno scialle grigio e un cestino sulle ginocchia, e guarda verso la collina. Qualcuno ti dice che era l'infermiera del padre, nell'ultimo anno.
+
+  > Quando ti siedi accanto a lei non si stupisce. "Avete i suoi occhi", dice. "Lui non voleva morire nel letto. Voleva morire seduto, sulla sedia accanto, con gli occhi aperti. Diceva che così l'avrebbe vista arrivare."
+  ! Che cosa fai?
+  [[Le chiedi delle sue ultime ore. ~> ore]]
+  [[Le lasci del denaro: deve vivere di poco. ~> denaro]]
+  [[Fai togliere la targhetta dalla panchina. ~> targa]]
+  fragment ore:
+    set velo = $velo + 1
+    > La vecchia racconta senza fretta: la febbre, il delirio, le formule dette a voce alta come preghiere. Alla fine, dice, il padre si calmò, guardò la porta e disse, chiaro: *"Eccomi. Puntuale come sempre."* Poi bussò una volta, con la nocca, sul bracciolo della sedia. "E qualcuno rispose", dice la vecchia, guardando la collina. "Io c'ero."
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
+  fragment denaro:
+    > La vecchia prende il denaro, lo conta, lo mette nel cestino sotto un fazzoletto. Ti ringrazia come si ringrazia un parente. Da quel giorno, ogni settimana, sulla soglia della tenuta compare un vasetto di marmellata di more, con un biglietto scritto in stampatello: *"Per gli occhi."*
+    block setupEvent next=$hub:
+      ! Guadagni 1 Charity token {icon:S1_HeartToken}.
+  fragment targa:
+    set velo = $velo - 1
+    > Il fabbro svita la targhetta in un pomeriggio. La panchina resta, anonima, e la vecchia continua a sedersi lì ogni sera, ma guarda dall'altra parte, verso il paese. Una settimana dopo, al posto della targhetta, qualcuno ha inciso con un coltello due iniziali: una è quella del padre. L'altra è una E.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP.
 
 :: G1Parola
   set parola = ""
@@ -274,6 +846,19 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   > La questione all'ordine del giorno è una sola: se la signora Eszter Vámos, di professione "consolatrice", possa restare a {$townname}. In otto anni il suo carro è diventato una casa con le persiane sempre chiuse; il suo salotto, ogni giovedì, si riempie di gente che entra piangendo ed esce sorridendo; e il Circolo dell'Ultima Ora, che nessuno ammette di frequentare, ha comprato due terreni accanto al cimitero.
 
   > Il parroco parla di eresia, di truffa, di lutti sfruttati. Il notaio parla di tasse regolarmente pagate. Il Sindaco non parla: ascolta, e conta. Alla fine si decide, com'è uso a {$townname} per le faccende spinose, di far votare anche le famiglie più importanti del villaggio. E la più importante, ormai, è quella degli eredi.
+  if $lukacs == "amico":
+    > A sorpresa prende la parola anche il nipote del medico, il giovane Lukács, tornato da Vienna con la laurea fresca: racconta di una busta sigillata, aperta e richiusa con il vapore, e chiede al consiglio un'ispezione del carro. Il consiglio ringrazia e non decide niente.
+  if $bodi == "comprato":
+    > Il Sindaco Bódi, contro ogni abitudine, prende la parola: parla della carità, del conforto ai vedovi, delle tasse pagate puntualmente dalla signora Vámos. Nessuno lo ha mai sentito parlare così a lungo.
+  elif $bodi == "ricattato":
+    > Il Sindaco Bódi parla poco e guarda spesso la famiglia della tenuta, come un cane guarda il padrone che lo ha appena battuto.
+  elif $bodi == "chiesa":
+    > Il Sindaco Bódi, a sorpresa, si schiera con il parroco, e cita perfino un versetto del Levitico, leggendolo da un foglietto.
+  if $porta == "murata":
+    > Il parroco, nel suo intervento, ringrazia "le famiglie generose che hanno contribuito ai lavori della sacrestia vecchia". Il muro, dice, tiene.
+  if $allievo:
+    > Si nota che uno degli eredi, il giovedì sera, entra nel carro della signora Vámos e ne esce a notte fonda. Nessuno lo dice a voce alta. Tutti lo scrivono nel verbale con gli occhi.
+
   [[Clicca per continuare... => G1FineVoto]]
 
 :: G1FineVoto
@@ -310,8 +895,20 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 
     > La mattina dopo, sulla porta della tenuta, qualcuno ha disegnato con il carbone un occhio aperto. Il servitore lo lava tre volte. Alla terza l'occhio è ancora lì, appena più sbiadito, come se guardasse da sotto l'acqua.
 
-  ! Prima di azzerare i tracciati, lo Storybook ha bisogno di sapere come lascia questo mondo ognuno dei vostri scienziati.
-  [[Clicca per continuare... => G1DomA]]
+  ! Quella sera, la famiglia:
+  [[Va a salutare Madame Vámos. ~> saluta]]
+  [[Resta alla finestra. ~> finestra]]
+  fragment saluta:
+    if $madame == "ospite":
+      > Madame Vámos vi riceve nel salotto nuovo, ancora pieno di casse, con il pianoforte che suona da solo nella stanza accanto. Vi offre un liquore di prugne, vi ringrazia uno per uno, e a ognuno stringe la mano un attimo più del necessario. "Siamo vicini, adesso", dice. "Per sempre, se volete."
+    else:
+      > Raggiungete il carro all'alba, sulla strada maestra, prima che superi il ponte. Madame Vámos fa fermare i cavalli e vi ascolta, seduta a cassetta, senza scendere. Poi si sfila un anello d'argento e lo dà al più giovane di voi. "Non me ne vado lontano", dice. "Non si va mai lontano, da qui."
+    ! Prima di azzerare i tracciati, lo Storybook ha bisogno di sapere come lascia questo mondo ognuno dei vostri scienziati.
+    [[Clicca per continuare... => G1DomA]]
+  fragment finestra:
+    > Restate alla finestra della sala da pranzo, al buio, a guardare. Dal villaggio arrivano voci, una musica, un cane che abbaia; poi più niente. Nessuno di voi va a dormire prima delle tre. Quando finalmente salite le scale, i colpi alle pareti vi accompagnano, gradino per gradino, come un padrone di casa che accompagna gli ospiti alla loro camera.
+    ! Prima di azzerare i tracciati, lo Storybook ha bisogno di sapere come lascia questo mondo ognuno dei vostri scienziati.
+    [[Clicca per continuare... => G1DomA]]
 
 ::for L in A B C D | Chiusura
 :: G1Dom%L%

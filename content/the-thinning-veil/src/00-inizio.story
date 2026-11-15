@@ -28,6 +28,96 @@ scelta = ""
 possesso = false
 prove = 0
 smascherate = 0
+// Gli eventi nei Luoghi (una volta sola ciascuno) e le scelte che tornano più avanti.
+evTubo = false
+evFabbro = false
+evCarro = false
+evBanca = false
+evVedova = false
+evStagno = false
+evSacrestia = false
+evSindaco = false
+evStudente = false
+// Il tubo acustico sulla tomba del padre: "ascoltato", "sigillato", "lasciato".
+tubo = ""
+// Jóska, il figlio del fabbro (nato nel 1842): "amico", "offeso".
+joska = ""
+// Le lettere del padre nel baule di Madame.
+lettere = false
+// Le prove dei trucchi del Circolo, raccolte nelle tre Generazioni.
+trucchi = 0
+// Il conto del padre alla Bank: "preso", "restituito", "chiesto".
+denaro = ""
+// La vedova del mugnaio: "truffa", "madame", "verita".
+mulino = ""
+// Peti, il bambino dello stagno: "sepolto", "corpo", "vegliato".
+peti = ""
+// La porta della sacrestia vecchia: "murata", "aperta".
+porta = ""
+// Il Sindaco Bódi (e i suoi discendenti): "comprato", "ricattato", "chiesa".
+bodi = ""
+// Il giovane Lukács: "amico", "deriso".
+lukacs = ""
+// Seconda Generazione.
+evMuri = false
+evTubo2 = false
+evFilo = false
+evGioco = false
+evFotografo = false
+evChierichetto = false
+evMulino = false
+evFossa = false
+evMedico = false
+// La fotografia degli spiriti: "posa", "lastre", "trucco".
+foto = ""
+// Benedek, il chierichetto (poi Padre Benedek): "amico", "deluso".
+benedek = ""
+// Terza Generazione.
+evArchivio = false
+evConto = false
+evMargini = false
+evConfessione = false
+evFosforo = false
+evCorrente = false
+evTomba = false
+evInviti = false
+evCampane = false
+// Le carte di famiglia murate in sacrestia con quelle della parrocchia.
+archivio = false
+// I margini del libretto francese: il padre e il Circolo.
+margini = false
+// La confessione di Jóska, messa per iscritto.
+confessione = false
+// Quarto evento per Round.
+evCodicillo = false
+evTerreno = false
+evLezione = false
+evStagno2 = false
+evCoprifuoco = false
+evBecchini = false
+evCilindro = false
+evOfferta = false
+evVigilia = false
+// La camera del padre: "intatta", "svuotata".
+camera = ""
+// Il terreno accanto al cimitero: "venduto", "rifiutato", "chiesto".
+terreno = ""
+// Le lezioni di Madame Vámos a un erede.
+allievo = false
+// Quinto evento per Round.
+evDagherrotipo = false
+evChiavi = false
+evPanchina = false
+evFondamenta = false
+evCasa = false
+evMano = false
+evCensimento = false
+evStanze = false
+evVisitatori = false
+// Per le cronache: il nucleo di ferro nel muro, la bobina del telegrafo, la scatola del mugnaio.
+nucleo = false
+bobina = false
+latta = false
 // I traguardi degli Storybook token, uno per tipo e Generazione.
 tkCreepy = false
 tkInsanity = false
@@ -128,41 +218,98 @@ cuo2%L% = 0
 :: TkCreepy
   set tkCreepy = true
   # **Qualcuno ti guarda**
-  > Da qualche giorno, quando attraversi {$townname}, la gente si fa il segno della croce. I bambini smettono di giocare, i cani abbassano la coda. Di notte, sotto la tua finestra, ci sono impronte di piedi nudi che arrivano fino al muro e poi non tornano indietro. Qualunque cosa sia, ha deciso che sei la persona più interessante del paese.
+  if $round <= 3:
+    > Da qualche giorno, quando attraversi {$townname}, la gente si fa il segno della croce. I bambini smettono di giocare, i cani abbassano la coda. Di notte, sotto la tua finestra, ci sono impronte di piedi nudi che arrivano fino al muro e poi non tornano indietro. Qualunque cosa sia, ha deciso che sei la persona più interessante del paese.
 
-  > Una mattina, sulla soglia, trovi un regalo. È meglio non chiedersi da dove venga.
-  ! Guadagni 1 {icon:Bodies_Icon}. Rimetti il token {icon:StorybookToken} nella riserva.
-  [[Torna al Round => $hub]]
+    > Una mattina, sulla soglia, trovi un regalo. È meglio non chiedersi da dove venga.
+  elif $round <= 6:
+    > Nella nebbia non sei mai senza compagnia. Ti segue un passo leggero, sempre a tre metri, che si ferma quando ti fermi. Le lanterne si piegano verso di te come fiori verso il sole, e il cane della tenuta non vuole più dormire nella tua stanza. In paese dicono che porti con te le Presenze, come altri si portano dietro un odore.
+
+    > Una mattina, sulla soglia, trovi un regalo avvolto in un lenzuolo bagnato di nebbia. È meglio non chiedersi da dove venga.
+  else:
+    > La Gazzetta ha pubblicato la tua fotografia in un articolo sulle "famiglie che parlano con i morti", e da allora in città ti riconoscono tutti. Le signore attraversano la strada, i tranvieri non ti fanno pagare il biglietto, i bambini ti seguono a distanza cantando una filastrocca sul velo. Di notte, sotto la finestra, ci sono impronte di piedi nudi sul selciato bagnato.
+
+    > Una mattina, sulla soglia, trovi un regalo, con un biglietto: *"Da parte di chi ti guarda."*
+  ! Che cosa fai?
+  [[Lo tieni, e lo porti in laboratorio. ~> tieni]]
+  [[Lo porti al cimitero e lo seppellisci. ~> seppellisci]]
+  fragment tieni:
+    > In laboratorio, sotto la lampada, il regalo si rivela utile, e inquietante esattamente quanto ti aspettavi. Ringrazi a voce alta, per educazione. Qualcuno, dietro la porta, sembra soddisfatto.
+    block setupEvent next=$hub:
+      ! Guadagni 1 {icon:Bodies_Icon}. Rimetti il token {icon:StorybookToken} nella riserva.
+  fragment seppellisci:
+    set velo = $velo - 1
+    > Lo seppellisci in un angolo del cimitero, di notte, con una preghiera che ricordi a metà. La mattina dopo le impronte sotto la tua finestra non ci sono più. Al loro posto, sul davanzale, c'è un sasso bianco, liscio, come quelli che i bambini lasciano sulle tombe.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP. Rimetti il token {icon:StorybookToken} nella riserva.
 
 :: TkInsanity
   set tkInsanity = true
-  set velo = $velo + 1
   # **Le voci**
-  > All'inizio è solo un brusio, come una stanza piena di gente nella casa accanto. Poi distingui le parole. Poi le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto.
-
-  > Prendi appunti. Non sapresti dire se lo fai per la scienza o per farli tacere.
-  ! Guadagni 1 Conoscenza Occulta (Occult Knowledge). Rimetti il token {icon:StorybookToken} nella riserva.
-  [[Torna al Round => $hub]]
+  if $round <= 3:
+    > All'inizio è solo un brusio, come una stanza piena di gente nella casa accanto. Poi distingui le parole. Poi le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto.
+  elif $round <= 6:
+    > Le voci arrivano con la nebbia, e con la nebbia non se ne vanno. Parlano in tedesco, in ungherese, in una lingua di campagna che nessuno usa più. Una donna ti chiede ogni sera se hai visto suo figlio; un soldato ti chiede la strada per un villaggio bruciato quarant'anni fa. Alcune voci le riconosci: le hai sentite a tavola, nell'infanzia, quando gli adulti credevano che dormissi.
+  else:
+    > Le senti nel ronzio dei fili della luce, nel fischio del treno, nella puntina del fonografo del caffè quando il disco è finito e gira a vuoto. Centinaia di voci, migliaia, educate e pazienti come una folla in una sala d'attesa. Ognuna aspetta il suo turno per dirti qualcosa. Qualcuna, ti sembra, ha aspettato cinquant'anni.
+  ! Che cosa fai?
+  [[Prendi appunti. ~> appunti]]
+  [[Ti tappi le orecchie con la cera. ~> cera]]
+  fragment appunti:
+    set velo = $velo + 1
+    > Prendi appunti. Non sapresti dire se lo fai per la scienza o per farli tacere.
+    block setupEvent next=$hub:
+      ! Guadagni 1 Conoscenza Occulta (Occult Knowledge). Rimetti il token {icon:StorybookToken} nella riserva.
+  fragment cera:
+    > Scaldi la cera di una candela tra le dita e te ne riempi le orecchie, come i marinai della storia. Il silenzio è così improvviso che ti gira la testa. Per tre giorni non senti niente: né le voci, né la pioggia, né chi ti parla a tavola. Il quarto giorno togli la cera, e le voci non ci sono più. Per ora.
+    block setupEvent next=$hub:
+      ! Arretra di 1 casella sul tracciato {icon:Insanity_Icon}. Rimetti il token {icon:StorybookToken} nella riserva.
 
 :: TkOccult
   set tkOccult = true
-  set velo = $velo + 1
   # **Il libro dei morti**
-  > Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.
-
-  > Te ne accorgi. Sotto la correzione, qualcuno ha aggiunto una parola sola: *"Bene."*
-  ! Pesca un Esperimento dal mazzo che preferisci. Rimetti il token {icon:StorybookToken} nella riserva.
-  [[Torna al Round => $hub]]
+  if $round <= 3:
+    > Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.
+  elif $round <= 6:
+    > Il secondo volume del Journal ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.
+  else:
+    > Tra le pagine del Journal, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.
+  ! Che cosa fai?
+  [[Correggi l'errore sulla pagina. ~> correggi]]
+  [[Strappi la pagina e la bruci. ~> strappa]]
+  fragment correggi:
+    set velo = $velo + 1
+    > Te ne accorgi. Sotto la correzione, qualcuno ha aggiunto una parola sola: *"Bene."*
+    block setupEvent next=$hub:
+      ! Pesca un Esperimento dal mazzo che preferisci. Rimetti il token {icon:StorybookToken} nella riserva.
+  fragment strappa:
+    > La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel Journal, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *"Peccato. Un'altra volta."* Ma la formula, quella giusta, ormai l'hai capita da te.
+    block setupEvent next=$hub:
+      ! Guadagni 2VP. Rimetti il token {icon:StorybookToken} nella riserva.
 
 :: TkVP
   set tkVP = true
-  set fede = $fede + 1
   # **Il nome sulla bocca di tutti**
-  > Il tuo nome gira per {$townname}: al mercato, in chiesa, nelle osterie. Alcuni lo dicono con paura, altri con ammirazione, tutti a bassa voce. Pochi giorni dopo un biglietto listato a lutto ti invita "a una cena tra persone che non si rassegnano"; dentro la busta, a titolo di cortesia, c'è del denaro.
-
+  if $round <= 3:
+    > Il tuo nome gira per {$townname}: al mercato, in chiesa, nelle osterie. Alcuni lo dicono con paura, altri con ammirazione, tutti a bassa voce. Pochi giorni dopo un biglietto listato a lutto ti invita "a una cena tra persone che non si rassegnano"; dentro la busta, a titolo di cortesia, c'è del denaro.
+  elif $round <= 6:
+    > Le signore del Circolo ti salutano per nome, i notabili ti offrono il loro posto al caffè, il medico condotto scrive di te a un collega di Vienna. Pochi giorni dopo arriva un biglietto listato a lutto: un invito "a una cena tra persone che non si rassegnano, nella nebbia, come ai vecchi tempi"; dentro la busta, a titolo di cortesia, c'è del denaro.
+  else:
+    > Il giornale di Budapest ti dedica un trafiletto, con un disegno a penna non troppo somigliante. In città ti chiedono autografi, consigli, raccomandazioni presso i morti. Pochi giorni dopo arriva un biglietto listato a lutto: un invito "a una cena tra persone che non si rassegnano, come la tua famiglia da tre generazioni"; dentro la busta, a titolo di cortesia, c'è del denaro.
   > Il sigillo di ceralacca è nero, con un occhio aperto.
-  ! Guadagni $2. Rimetti il token {icon:StorybookToken} nella riserva.
-  [[Torna al Round => $hub]]
+  ! Che cosa fai?
+  [[Vai alla cena. ~> cena]]
+  [[Rimandi indietro l'invito, e il denaro. ~> rifiuta]]
+  fragment cena:
+    set fede = $fede + 1
+    > La cena è in una casa con le persiane chiuse, a lume di candela. Gli ospiti sono gentili, ben vestiti, e non mangiano niente. Nessuno ti chiede di firmare nulla; ti chiedono soltanto della tua famiglia, con un interesse affettuoso, come si chiede di parenti lontani. Al momento di andare ti accorgi che ogni ospite ha accanto a sé un posto apparecchiato e vuoto.
+    block setupEvent next=$hub:
+      ! Guadagni $2. Rimetti il token {icon:StorybookToken} nella riserva.
+  fragment rifiuta:
+    set fede = $fede - 1
+    > Rimandi la busta al mittente, senza un biglietto, con il sigillo intatto. Il giorno dopo te la riportano, intatta anche lei, con una sola riga sul retro: *"Il posto resta apparecchiato."* In paese si sparge la voce che hai detto di no al Circolo; qualcuno ti stringe la mano per strada.
+    block setupEvent next=$hub:
+      ! Guadagni 1VP. Rimetti il token {icon:StorybookToken} nella riserva.
 
 // Chi gioca la pagina: per le lettere e le sedute private. Imposta $chi e continua con $dopo.
 :: ChiSei
