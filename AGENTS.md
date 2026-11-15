@@ -185,9 +185,10 @@ Next, roughly in order:
    browser.
 5. Italian is in (story with its literals, screen texts and app); review it at the table.
    App-store builds (Capacitor) later, if needed.
-6. Fan-made scenario _Il Velo Sottile_ (`the-thinning-veil`): skeleton done (all pages and logic,
-   8/8 endings in the tester, playable); Italian and English text complete, with Easy and Short
-   (beta); next a play-test at the table.
+6. Fan-made scenario _Il Velo Sottile_ (`the-thinning-veil`): all pages and logic (8/8 endings
+   in the tester, playable), enriched to the originals' size (163 pages, about 32,000 words, 91
+   decision points); Italian and English text complete, with Easy and Short (beta); next a
+   play-test at the table.
 7. Fan-made scenario _Il Sale Impuro_ (`the-impure-salt`, Fear of the Unknown box): all pages,
    logic and Italian text (8/8 endings in the tester, playable), English translation, Easy and
    Short (beta) and generated voices for the introductions; next a play-test at the table.

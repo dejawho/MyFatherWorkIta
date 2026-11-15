@@ -265,6 +265,67 @@ Seguono la regola dell'app: la pagina segreta ha in cima il testo di passaggio d
 4. **Integrazione nell'app** e test completo (fatto, novembre 2026).
 5. **Traduzione inglese** (fatta, novembre 2026: `src/en.json`).
 6. **Partita al tavolo**, e correzioni di bilanciamento.
+7. **Arricchimento come negli originali** (iniziato, novembre 2026), come per _Il Sale Impuro_:
+   la prima stesura aveva 109 pagine, circa 15.000 parole e 22 punti di scelta, contro le
+   260–340 pagine, 35–45.000 parole e 80–110 punti di scelta degli originali.
+   - **Primo giro (fatto):** tre eventi nei Luoghi per Round, su Luoghi presenti in tutte le
+     pagine possibili di quel Round, con scelte che tornano nelle Generazioni dopo. Prima:
+     Cemetery (il tubo acustico sulla tomba, `tubo`), Blacksmith (Jóska, `joska`), Traveling
+     Caravan (il carro vuoto: il pedale, le lettere del padre a Eszter, `lettere`); Bank (il conto
+     del padre e i versamenti di C. U. O., `denaro`), Farmer's Market (la vedova del mugnaio,
+     `mulino`), Park (Peti, il bambino dello stagno, `peti`); Church (la porta della sacrestia
+     vecchia, `porta`), Town Hall (il Sindaco Bódi, `bodi`), Farmer's Market (il giovane Lukács e
+     la busta sigillata, `lukacs`). Seconda: Laborer's Union (i lavori ai muri di Jóska),
+     Cemetery (la tomba del nonno), Town Hall (il filo del telegrafo); Cemetery (Peti nella
+     nebbia), Fortune Teller (il fotografo degli spiriti, `foto`), Church (Benedek chierichetto e
+     il sagrestano informatore, `benedek`); Builder's Office (il mulino), Cemetery (la fossa di
+     Padre Anzelm), Town Hall (il medico condotto Lukács). Terza: Church (le casse murate in
+     sacrestia, `archivio`: è l'archivio che Halász trova nel 1923), National Bank (il conto più
+     vecchio), Public Library (il libretto francese: il fondatore, Eszter Vámos e O. Garai
+     fondarono il Circolo nel 1828, `margini`); Hospital (la confessione di Jóska,
+     `confessione`), Chemist (il registro dei veleni), Factory (la centrale); Cemetery (la prima
+     tomba aperta), Town Hall (gli inviti alla Grande Seduta), Foundry (le campane d'argento).
+     `trucchi` conta le prove dei trucchi raccolte in tre Generazioni.
+     **Equilibrio del velo:** per ogni scelta che alza `velo` di 1 ce n'è una, scettica, che lo
+     abbassa di 1 (sigillare, seppellire, murare, firmare la petizione, mettere per iscritto);
+     senza, quasi ogni partita finiva sopra 9 e il voto sul Circolo spariva. Risultato: 136
+     pagine, circa 22.000 parole, 51 punti di scelta; tester 8/8 in 120 s.
+   - **Canone dei personaggi:** Jóska nato nel 1842 (sei anni la prima notte; fabbro e capo dei
+     muratori nel 1873; muore in ospedale intorno al 1901). Béla Lukács nato nel 1828 (studente
+     a Vienna nel 1855, medico condotto nel 1873–1881, professore e settantenne nel 1898).
+     Benedek chierichetto di dodici anni nel 1876, poi Padre Benedek. Padre Anzelm muore nel
+     novembre 1880. Mihály il becchino, poi suo figlio. Tre Sindaci Bódi: padre, figlio, nipote.
+     O. Garai, l'uomo del garofano nero, firma nello stesso modo dal 1828.
+   - **Secondo e terzo giro (fatti, novembre 2026):** scelte nelle quattro pagine dei
+     traguardi, con un testo diverso per Generazione; una risposta alla voce dopo ogni Seduta
+     degli Antenati (`G2Risp`, `G3Risp`); una scelta alla fine delle sedute private al Pub; un
+     quarto e un quinto evento per Round (il codicillo, il dagherrotipo; il terreno accanto al
+     cimitero, `terreno`, e le chiavi della tenuta; la lezione di Madame, `allievo`, e la panchina;
+     lo stagno prosciugato e le fondamenta del 1828; il coprifuoco e la casa nuova; lo sciopero
+     dei becchini e la chiromante; il cilindro di cera e il censimento; l'offerta di Garai e le
+     stanze nascoste; la vigilia con Padre Benedek e il libro dei visitatori); scelte nelle
+     scene di passaggio (la colazione dopo i colpi, la domenica dopo il sermone, le lettere del
+     Circolo, la sera del voto su Madame, la colazione dopo le voci, la prima sera di nebbia, la
+     prima domenica in città, Lukács che si presenta secondo `lukacs`, i negozi nuovi); le
+     cronache tra i Round raccontano le scelte; ogni finale ha un paragrafo in più e un epilogo
+     comune di Halász (`Epilogo`, "che ne fu degli altri"). Ogni frase di cronaca vale per tutti
+     gli esiti dell'evento che cita. Risultato: **163 pagine, circa 32.000 parole, 91 punti di
+     scelta**; tester 8/8 e 163/163 pagine in 120 s.
+   - **Revisione di coerenza e di stile (fatta, novembre 2026).** Il canone fissato in più:
+     il fabbro Jóska non ha mai lavorato nei muri della tenuta (il finale della Truffa è stato
+     corretto di conseguenza); dopo la morte di Padre Anzelm (1880) la parrocchia passa a un
+     vicario finché Benedek non diventa parroco; le casse trovate da Halász sono sei, tre della
+     parrocchia e tre della famiglia; nella Terza Generazione il Tempio del Circolo esiste
+     sempre (costruito negli anni Ottanta se Madame fu cacciata; frequentato in segreto se il
+     Circolo è fuorilegge); la scatola del mugnaio trovata in una seduta privata fa del mulino
+     un secondo nascondiglio (`latta`); le cronache leggono `nucleo` e `bobina` invece di dare
+     per scontato l'esito di un evento. Ripetizioni ridotte, nessun genere per il giocatore. Una seconda verifica (novembre 2026) ha
+     controllato dove ogni personaggio ricorrente viene presentato e dove è citato: chi compare solo
+     in eventi facoltativi (Mihály, Garai, Weisz) viene ripresentato quando torna in pagine che si
+     possono leggere senza averlo incontrato.
+   - **Inglese, Easy e Short dei testi nuovi** (fatti, novembre 2026): 762 testi in inglese, e
+     le versioni Easy e Short (italiano e inglese) dei 437 testi narrativi nuovi. Le pagine
+     narrate con le voci non sono cambiate, quindi le voci restano valide.
 
 Dimensioni previste: circa 90 pagine per la Prima Generazione, 95 per la Seconda, 85 per la
 Terza, 20 tra finali e pagine comuni.
