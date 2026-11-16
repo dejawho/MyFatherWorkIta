@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.10.0](https://github.com/dejawho/MyFatherWorkIta/compare/v0.9.1...v0.10.0) (2026-11-15)
+
+
+### Features
+
+* generated voices read the introductions of The Impure Salt ([3ad2c6f](https://github.com/dejawho/MyFatherWorkIta/commit/3ad2c6f94df860d5c80f423c0eed349ac8913726))
+* new fan-made scenario The Impure Salt, in Italian and English with Easy and Short ([1d9aa04](https://github.com/dejawho/MyFatherWorkIta/commit/1d9aa041ad51d1c077909a1ea6446b7cffb0c880))
+* The Thinning Veil grows to the size of the original scenarios, with more events and choices ([af0f26e](https://github.com/dejawho/MyFatherWorkIta/commit/af0f26e5ee2c0ec1a4f73aec38ce35bbef347c21))
+
 ## [0.9.1](https://github.com/dejawho/MyFatherWorkIta/compare/v0.9.0...v0.9.1) (2026-11-11)
 
 
