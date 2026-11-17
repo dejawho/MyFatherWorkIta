@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.11.1](https://github.com/dejawho/MyFatherWorkIta/compare/v0.11.0...v0.11.1) (2026-11-17)
+
+
+### Bug Fixes
+
+* a long option that wraps onto two lines lines up with the others ([88d96f2](https://github.com/dejawho/MyFatherWorkIta/commit/88d96f21ea9dad73c3cb2134ebce7ce8744ce947))
+* clearer Italian for the two options of a letter in The Cost of Disease ([7a0e7ce](https://github.com/dejawho/MyFatherWorkIta/commit/7a0e7ce14cce67607e2e8025bec01e5886fc4551))
+* once you pick one option of a choice, the other options go away ([72e806b](https://github.com/dejawho/MyFatherWorkIta/commit/72e806b213120f73e33a29d7034aec02fccc0900))
+* the fan-made scenarios name the village you chose and show costs before you choose ([daad355](https://github.com/dejawho/MyFatherWorkIta/commit/daad355de60276103c14baad32f9923336a0608e))
+
 ## [0.11.0](https://github.com/dejawho/MyFatherWorkIta/compare/v0.10.0...v0.11.0) (2026-11-17)
 
 
