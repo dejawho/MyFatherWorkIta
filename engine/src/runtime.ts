@@ -282,6 +282,7 @@ export class Story {
     // The fragment writes into a group placed where the link is (or right after it),
     // so output stays in place even if the fragment pauses for a prompt.
     // A reveal link works once: it is either replaced by the fragment or stays as plain text.
+    this.dropOtherOptions(link);
     const group: Out = { t: 'group', children: [] };
     const at = link.container.indexOf(link.out);
     this.links.delete(id);
@@ -293,6 +294,44 @@ export class Story {
     }
     this.drive(this.exec(fragment, group.children, owner));
     return this.view();
+  }
+
+  /**
+   * Reveal links side by side (only line breaks between them) are the options of one choice:
+   * once one is followed, the others go, with the line breaks between them, so a second
+   * option can't be taken too. A "continue" and a reveal of nothing but an app screen (Score
+   * Entry, a vote) are no options: they stand beside a choice without being one of it.
+   */
+  private dropOtherOptions(link: LinkEntry): void {
+    const list = link.container;
+    const at = list.indexOf(link.out);
+    if (at < 0) return;
+    const isOption = (o: Out): boolean => {
+      if (o.t !== 'link' || o.role === 'continue') return false;
+      const entry = this.links.get(o.id);
+      if (entry?.reveal === undefined) return false;
+      const owner = entry.revealFrom ? this.scenario.passages[entry.revealFrom] : entry.passage;
+      const fragment = owner?.fragments[entry.reveal] ?? [];
+      return !(fragment.some((n) => n.t === 'ui') && fragment.every((n) => n.t === 'ui' || n.t === 'br'));
+    };
+    if (!isOption(link.out)) return;
+    let start = at,
+      end = at;
+    for (let k = at - 1; k >= 0; k--) {
+      const o = list[k]!;
+      if (o.t === 'br') continue;
+      if (!isOption(o)) break;
+      start = k;
+    }
+    for (let k = at + 1; k < list.length; k++) {
+      const o = list[k]!;
+      if (o.t === 'br') continue;
+      if (!isOption(o)) break;
+      end = k;
+    }
+    if (start === end) return;
+    for (const o of list.slice(start, end + 1)) if (o.t === 'link' && o !== link.out) this.links.delete(o.id);
+    list.splice(start, end - start + 1, link.out);
   }
 
   answer(value: Value): StoryView {

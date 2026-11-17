@@ -100,6 +100,50 @@ describe('Story', () => {
     assert.deepEqual(s.linkTarget(go!), { replace: false, to: 'B', revealFrom: 'A' });
   });
 
+  it('drops the other options of a choice once one is taken', () => {
+    const s = new Story(
+      scenario({
+        A: {
+          body: [
+            { t: 'text', key: 'question', kind: 'instruction' },
+            { t: 'link', key: 'yes', reveal: 'y', replace: true },
+            { t: 'br' },
+            { t: 'link', key: 'no', reveal: 'n', replace: true },
+            { t: 'text', key: 'later', kind: 'narrative' },
+            { t: 'link', key: 'more', reveal: 'm', replace: true },
+          ],
+          fragments: { y: [{ t: 'text', key: 'chose yes', kind: 'narrative' }], n: [], m: [] },
+        },
+      }),
+    );
+    const v = s.start();
+    const after = s.click(v.links[0]!);
+    assert.deepEqual(keys(after.output), ['question', 'chose yes', 'later', 'more']);
+    assert.equal(after.output.filter((o) => o.t === 'br').length, 0);
+    // The option dropped is no link any more; the reveal after the text is another choice.
+    assert.deepEqual(after.links, [v.links[2]!]);
+    assert.throws(() => s.click(v.links[1]!), StoryError);
+  });
+
+  it('keeps a continue and a screen beside a choice', () => {
+    const s = new Story(
+      scenario({
+        A: {
+          body: [
+            { t: 'link', key: 'more', reveal: 'c', replace: true, role: 'continue' },
+            { t: 'link', key: 'secret', reveal: 's', replace: true },
+            { t: 'link', key: 'score', reveal: 'u', replace: true },
+          ],
+          fragments: { c: [], s: [], u: [{ t: 'ui', ui: 'scoreEntry' }, { t: 'br' }] },
+        },
+      }),
+    );
+    const v = s.start();
+    const [more, secret, score] = v.links;
+    assert.deepEqual(s.click(more!).links, [secret, score]);
+    assert.deepEqual(s.click(score!).links, [secret]);
+  });
+
   it('disables a non-replacing reveal link after one click', () => {
     const s = new Story(
       scenario({
