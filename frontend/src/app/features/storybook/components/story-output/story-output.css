@@ -49,6 +49,8 @@
   font: inherit;
   font-weight: 600;
   color: var(--color-link);
+  /* A button centres its lines: a label that wraps would stand apart from the others. */
+  text-align: start;
   text-decoration: none;
   cursor: pointer;
 }
