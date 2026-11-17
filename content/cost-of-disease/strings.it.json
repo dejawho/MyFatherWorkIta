@@ -5382,21 +5382,21 @@
     "short": "{0} e il suo coniuge scrivevano ancora a pochi amici. Un vecchio collega consigliò un luogo di riposo a Rovigno, dove l'aria mediterranea avrebbe guarito corpo e mente, e una casa per le vacanze costava poco."
   },
   "Gen1-SanityTrackRes.5": {
-    "full": "Sebbene questo periodo lontano da casa potesse avere un effetto negativo sul loro figlio, avrebbe anche permesso loro di **guadagnare conoscenza** e di **calmare la propria mente**. Rifiutare, invece, non avrebbe comportato alcun rischio e forse avrebbe dato loro più tempo per completare le proprie fatiche.",
-    "easy": "Stare via potrebbe essere un male per il loro figlio, ma permetterebbe loro anche di **guadagnare conoscenza** e di **calmare la propria mente**. Dire di no non comporta rischi, e potrebbe dare loro più tempo per finire il loro lavoro.",
-    "short": "Partire potrebbe nuocere al loro figlio, ma permetterebbe loro di **guadagnare conoscenza** e di **calmare la propria mente**. Rifiutare è sicuro e lascia più tempo per il lavoro."
+    "full": "Sebbene questo periodo lontano da casa potesse avere un effetto negativo sul loro figlio, avrebbe anche permesso loro di **guadagnare conoscenza** e di **rilassare la mente**. Rifiutare, invece, non avrebbe comportato alcun rischio e forse avrebbe dato loro più tempo per completare le proprie fatiche.",
+    "easy": "Stare via potrebbe essere un male per il loro figlio, ma permetterebbe loro anche di **guadagnare conoscenza** e di **rilassare la mente**. Dire di no non comporta rischi, e potrebbe dare loro più tempo per finire il loro lavoro.",
+    "short": "Partire potrebbe nuocere al loro figlio, ma permetterebbe loro di **guadagnare conoscenza** e di **rilassare la mente**. Rifiutare è sicuro e lascia più tempo per il lavoro."
   },
   "Gen1-SanityTrackRes.6": {
     "full": "**SCEGLI:**"
   },
   "Gen1-SanityTrackRes.7": {
-    "full": "Accetta l'offerta e paga $1. (Calma la tua mente e guadagna 1 Conoscenza (Knowledge).)"
+    "full": "Accetta l'offerta e paga $1. (Rilassa la mente e guadagna 1 Conoscenza (Knowledge).)"
   },
   "Gen1-SanityTrackRes.8": {
     "full": "OPPURE"
   },
   "Gen1-SanityTrackRes.9": {
-    "full": "Rifiuta. (Evita le penalità della pigrizia.)"
+    "full": "Rifiuta. (Evita di pagare il prezzo della pigrizia.)"
   },
   "LycanGood.1": {
     "full": "**La forza può essere mia**"
