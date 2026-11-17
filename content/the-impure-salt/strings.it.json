@@ -319,7 +319,7 @@
  },
  "Bevi.13": {
   "full": "Al mattino ti svegli nel tuo letto, con le scarpe sporche di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro in cui non hai mai messo piede.",
-  "easy": "Al mattino ti svegli nel tuo letto, con le scarpe nere di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro dove non sei mai entrato.",
+  "easy": "Al mattino ti svegli nel tuo letto, con le scarpe nere di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro dove non hai mai messo piede.",
   "short": "Al mattino: scarpe nere di fuliggine, un assegno con il tuo nome e il biglietto di un teatro sconosciuto."
  },
  "Bevi.14": {
@@ -352,7 +352,7 @@
   "full": "**Dopo il sorso**"
  },
  "BeviEffetti.3": {
-  "full": "Sei il primo a bere il sale: prendi il Masterwork **Love Potion** messo da parte e mettilo al posto del tuo Masterwork, che torna nella scatola. Prendi anche la Compulsion messa da parte."
+  "full": "Nessuno aveva ancora bevuto il sale prima di te: prendi il Masterwork **Love Potion** messo da parte e mettilo al posto del tuo Masterwork, che torna nella scatola. Prendi anche la Compulsion **\"The power to change and transform…\"** messa da parte."
  },
  "BeviEffetti.4": {
   "full": "È la prima volta che bevi: pesca due **Obsession card** dalla scatola, tienine una e rimetti l'altra."
@@ -587,7 +587,7 @@
  },
  "G1Cantiere.3": {
   "full": "Quando ti vede entrare chiude il libretto, sorride e ti chiede se sei lì per vedere \"il futuro della carità in questa contea\". Il manicomio avrà cento letti, dice, e ancora non sa come pagarne il tetto. Le famiglie per bene, di solito, contribuiscono. Le altre, di solito, finiscono dentro.",
-  "easy": "Quando ti vede entrare chiude il libretto, sorride e ti chiede se sei venuto per vedere \"il futuro della carità in questa contea\". Il manicomio avrà cento letti, dice, ma lei non sa ancora come pagare il tetto. Le famiglie per bene, di solito, aiutano. Le altre, di solito, finiscono dentro.",
+  "easy": "Quando ti vede entrare chiude il libretto, sorride e ti chiede se sei lì per vedere \"il futuro della carità in questa contea\". Il manicomio avrà cento letti, dice, ma lei non sa ancora come pagare il tetto. Le famiglie per bene, di solito, aiutano. Le altre, di solito, finiscono dentro.",
   "short": "Lady Carew ti chiede soldi per il tetto del manicomio. Le famiglie per bene aiutano, dice. Le altre finiscono dentro."
  },
  "G1Cantiere.5": {
@@ -2457,7 +2457,7 @@
  },
  "G2Becchino.8": {
   "full": "Il becchino ride di cuore, poi si accorge che non stai scherzando. Ti mostra un angolo libero, al sole, lontano dal muro, e ti fa un buon prezzo. Firmi l'ordine con la tua grafia, quella diritta, e provi uno strano sollievo: almeno questo, nella tua vita, sarà al suo posto.",
-  "easy": "Il becchino ride di cuore, poi capisce che non scherzi. Ti mostra un angolo libero, al sole, lontano dal muro, e ti fa un buon prezzo. Firmi l'ordine con la tua grafia, quella dritta, e ti senti stranamente sollevato: almeno questo, nella tua vita, sarà al suo posto.",
+  "easy": "Il becchino ride di cuore, poi capisce che non scherzi. Ti mostra un angolo libero, al sole, lontano dal muro, e ti fa un buon prezzo. Firmi l'ordine con la tua grafia, quella dritta, e provi uno strano sollievo: almeno questo, nella tua vita, sarà al suo posto.",
   "short": "Compri una fossa al sole e firmi con la tua grafia dritta. Almeno questo sarà al suo posto."
  },
  "G2Becchino.9": {
@@ -4346,7 +4346,7 @@
  "Epilogo.10": {
   "full": "Il notaio Ezra Pell è sepolto nel cimitero nuovo, vicino al muro di cinta, sotto un tiglio, in una fossa pagata venticinque anni prima con un assegno. Sulla lapide c'è scritto soltanto: *Qui riposa chi ha tenuto la chiave*.",
   "easy": "Il notaio Ezra Pell è sepolto nel cimitero nuovo, vicino al muro, sotto un tiglio, in una fossa pagata venticinque anni prima con un assegno. Sulla lapide c'è scritto solo: *Qui riposa chi ha tenuto la chiave*.",
-  "short": "Ezra Pell è sepolto sotto il tiglio, nella fossa pagata da Umber: *Qui riposa chi ha tenuto la chiave*."
+  "short": "Ezra Pell è sepolto sotto il tiglio, nella fossa pagata venticinque anni prima con un assegno: *Qui riposa chi ha tenuto la chiave*."
  },
  "Epilogo.11": {
   "full": "La statua di bronzo del vecchio è ancora in piazza, con il Journal sotto il braccio. I piccioni la preferiscono a tutte le altre. Gli innamorati si danno appuntamento sotto di lei, di sera, e nessuno sa spiegare perché, a una certa ora, l'ombra della statua sia molto più corta della statua.",

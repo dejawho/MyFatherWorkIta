@@ -1909,9 +1909,9 @@
   "short": "Bussi una volta. Ti risponde un colpo leggero come una carezza. Dormi come non dormivi da anni."
  },
  "G2RispA.8": {
-  "full": "Resti immobile sotto le coperte, con il fiato trattenuto. La voce aspetta ancora un poco, poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente a cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, e al tempo stesso più leggero, come chi ha chiuso a chiave una porta.",
-  "easy": "Resti immobile sotto le coperte, trattenendo il fiato. La voce aspetta ancora un po', poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente con cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, e insieme più leggero, come chi ha chiuso a chiave una porta.",
-  "short": "Non rispondi. La voce se ne va, di stanza in stanza. Ti senti in colpa, e più leggero."
+  "full": "Resti immobile sotto le coperte, con il fiato trattenuto. La voce aspetta ancora un poco, poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente a cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, e al tempo stesso hai un peso in meno, come chi ha chiuso a chiave una porta.",
+  "easy": "Resti immobile sotto le coperte, trattenendo il fiato. La voce aspetta ancora un po', poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente con cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, ma hai anche un peso in meno, come chi ha chiuso a chiave una porta.",
+  "short": "Non rispondi. La voce se ne va, di stanza in stanza. Ti senti in colpa, e hai un peso in meno."
  },
  "G2RispA.9": {
   "full": "Arretra di 1 casella sul tracciato {icon:Creepy_Icon}."

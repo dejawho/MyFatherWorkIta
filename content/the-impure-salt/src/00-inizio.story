@@ -381,7 +381,7 @@ bevuto%L% = 0
   # **Dopo il sorso**
   if !$primoSorso:
     set primoSorso = true
-    ! Sei il primo a bere il sale: prendi il Masterwork **Love Potion** messo da parte e mettilo al posto del tuo Masterwork, che torna nella scatola. Prendi anche la Compulsion messa da parte.
+    ! Nessuno aveva ancora bevuto il sale prima di te: prendi il Masterwork **Love Potion** messo da parte e mettilo al posto del tuo Masterwork, che torna nella scatola. Prendi anche la Compulsion **"The power to change and transform…"** messa da parte.
 ::for L in A B C D
   if $chi == "%L%" && $bevuto%L% == 1:
     set _SetupImage = "S2_Obsession"

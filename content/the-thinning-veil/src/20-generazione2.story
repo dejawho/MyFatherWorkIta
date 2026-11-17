@@ -114,7 +114,7 @@
       ! Guadagni 1VP.
   fragment no:
     set velo = $velo - 1
-    > Resti immobile sotto le coperte, con il fiato trattenuto. La voce aspetta ancora un poco, poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente a cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, e al tempo stesso più leggero, come chi ha chiuso a chiave una porta.
+    > Resti immobile sotto le coperte, con il fiato trattenuto. La voce aspetta ancora un poco, poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente a cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, e al tempo stesso hai un peso in meno, come chi ha chiuso a chiave una porta.
     block setupEvent next=G2Ant%L.next%:
       ! Arretra di 1 casella sul tracciato {icon:Creepy_Icon}.
 ::endfor

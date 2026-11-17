@@ -352,7 +352,7 @@
   "full": "**After the Sip**"
  },
  "BeviEffetti.3": {
-  "full": "You are the first to drink the salt: take the **Love Potion** Masterwork that was set aside and put it in place of your Masterwork, which goes back in the box. Also take the Compulsion that was set aside."
+  "full": "Nobody had drunk the salt before you: take the set-aside **Love Potion** Masterwork and put it in place of your Masterwork, which goes back in the box. Also take the set-aside Compulsion **\"The power to change and transform…\"**."
  },
  "BeviEffetti.4": {
   "full": "It is your first time drinking it: draw two **Obsession cards** from the box, keep one and put the other back."
@@ -4346,7 +4346,7 @@
  "Epilogo.10": {
   "full": "Ezra Pell the notary is buried in the new cemetery, by the boundary wall, under a lime tree, in a grave paid for twenty-five years earlier with a cheque. The headstone reads only: *Here lies the one who kept the key*.",
   "easy": "Ezra Pell the notary is buried in the new cemetery, by the wall, under a lime tree, in a grave paid for twenty-five years earlier with a cheque. The headstone says only: *Here lies the one who kept the key*.",
-  "short": "Ezra Pell lies under the lime tree, in the grave Umber paid for: *Here lies the one who kept the key*."
+  "short": "Ezra Pell lies under the lime tree, in a grave paid for twenty-five years earlier with a cheque: *Here lies the one who kept the key*."
  },
  "Epilogo.11": {
   "full": "The old man's bronze statue still stands in the square, the Journal under its arm. The pigeons prefer it to all the others. Lovers arrange to meet beneath it in the evening, and no one can explain why, at a certain hour, the statue's shadow is much shorter than the statue.",

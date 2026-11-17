@@ -120,7 +120,7 @@
   "short": "Un minuto di dolore, poi esci nel corpo piccolo e svelto dell'altro. Corri sui tetti, ridi, e la nebbia ride con te."
  },
  "Al mattino ti svegli nel tuo letto, con le scarpe sporche di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro in cui non hai mai messo piede.": {
-  "easy": "Al mattino ti svegli nel tuo letto, con le scarpe nere di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro dove non sei mai entrato.",
+  "easy": "Al mattino ti svegli nel tuo letto, con le scarpe nere di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro dove non hai mai messo piede.",
   "short": "Al mattino: scarpe nere di fuliggine, un assegno con il tuo nome e il biglietto di un teatro sconosciuto."
  },
  "Il dolore dura un minuto: le ossa che stridono, il cuore che salta, il pavimento che si avvicina. Poi arriva una leggerezza nuova: un corpo piccolo e svelto, senza un rimorso al mondo, che esce dalla porta di servizio.": {
@@ -236,7 +236,7 @@
   "short": "Nell'ufficio c'è Lady Carew: alta, in grigio, con un libretto di pelle sulle ginocchia. Ascolta e prende appunti."
  },
  "Quando ti vede entrare chiude il libretto, sorride e ti chiede se sei lì per vedere \"il futuro della carità in questa contea\". Il manicomio avrà cento letti, dice, e ancora non sa come pagarne il tetto. Le famiglie per bene, di solito, contribuiscono. Le altre, di solito, finiscono dentro.": {
-  "easy": "Quando ti vede entrare chiude il libretto, sorride e ti chiede se sei venuto per vedere \"il futuro della carità in questa contea\". Il manicomio avrà cento letti, dice, ma lei non sa ancora come pagare il tetto. Le famiglie per bene, di solito, aiutano. Le altre, di solito, finiscono dentro.",
+  "easy": "Quando ti vede entrare chiude il libretto, sorride e ti chiede se sei lì per vedere \"il futuro della carità in questa contea\". Il manicomio avrà cento letti, dice, ma lei non sa ancora come pagare il tetto. Le famiglie per bene, di solito, aiutano. Le altre, di solito, finiscono dentro.",
   "short": "Lady Carew ti chiede soldi per il tetto del manicomio. Le famiglie per bene aiutano, dice. Le altre finiscono dentro."
  },
  "Lady Carew ringrazia, scrive il tuo nome sul libretto con una calligrafia minuta e regolare e ti promette una targa d'ottone all'ingresso. Ti accompagna alla porta tenendoti sottobraccio, come si fa con i parenti, o con i pazienti.": {
@@ -1060,7 +1060,7 @@
   "short": "L'ordine è firmato *Umber*. Sulla lapide: *Qui riposa chi ha tenuto la chiave*. Nessuna data."
  },
  "Il becchino ride di cuore, poi si accorge che non stai scherzando. Ti mostra un angolo libero, al sole, lontano dal muro, e ti fa un buon prezzo. Firmi l'ordine con la tua grafia, quella diritta, e provi uno strano sollievo: almeno questo, nella tua vita, sarà al suo posto.": {
-  "easy": "Il becchino ride di cuore, poi capisce che non scherzi. Ti mostra un angolo libero, al sole, lontano dal muro, e ti fa un buon prezzo. Firmi l'ordine con la tua grafia, quella dritta, e ti senti stranamente sollevato: almeno questo, nella tua vita, sarà al suo posto.",
+  "easy": "Il becchino ride di cuore, poi capisce che non scherzi. Ti mostra un angolo libero, al sole, lontano dal muro, e ti fa un buon prezzo. Firmi l'ordine con la tua grafia, quella dritta, e provi uno strano sollievo: almeno questo, nella tua vita, sarà al suo posto.",
   "short": "Compri una fossa al sole e firmi con la tua grafia dritta. Almeno questo sarà al suo posto."
  },
  "L'architetto del nuovo padiglione del manicomio ha i disegni appesi alle pareti del Builder's Office, come quadri. Ti fa vedere tutto con orgoglio: i corridoi luminosi, le camere singole, il giardino d'inverno. Nell'angolo più lontano, dove il padiglione tocca il vicolo, c'è una porticina di servizio che nei disegni ufficiali non compare.": {
@@ -1945,7 +1945,7 @@
  },
  "Il notaio Ezra Pell è sepolto nel cimitero nuovo, vicino al muro di cinta, sotto un tiglio, in una fossa pagata venticinque anni prima con un assegno. Sulla lapide c'è scritto soltanto: *Qui riposa chi ha tenuto la chiave*.": {
   "easy": "Il notaio Ezra Pell è sepolto nel cimitero nuovo, vicino al muro, sotto un tiglio, in una fossa pagata venticinque anni prima con un assegno. Sulla lapide c'è scritto solo: *Qui riposa chi ha tenuto la chiave*.",
-  "short": "Ezra Pell è sepolto sotto il tiglio, nella fossa pagata da Umber: *Qui riposa chi ha tenuto la chiave*."
+  "short": "Ezra Pell è sepolto sotto il tiglio, nella fossa pagata venticinque anni prima con un assegno: *Qui riposa chi ha tenuto la chiave*."
  },
  "La statua di bronzo del vecchio è ancora in piazza, con il Journal sotto il braccio. I piccioni la preferiscono a tutte le altre. Gli innamorati si danno appuntamento sotto di lei, di sera, e nessuno sa spiegare perché, a una certa ora, l'ombra della statua sia molto più corta della statua.": {
   "easy": "La statua di bronzo del vecchio è ancora in piazza, con il Journal sotto il braccio. I piccioni la preferiscono a tutte le altre. La sera gli innamorati si danno appuntamento sotto di lei. E nessuno sa spiegare perché, a una certa ora, l'ombra della statua è molto più corta della statua.",
