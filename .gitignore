@@ -32,3 +32,6 @@ media/
 
 # Python
 __pycache__/
+
+# Local API key for generated art (never commit)
+.openai-key

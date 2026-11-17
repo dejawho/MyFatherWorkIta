@@ -187,9 +187,8 @@ const SCENARIOS_UI = [
     detailsKey: '',
     details:
       "An unofficial, fan-made scenario: the dead knock at the walls of your father's estate. It uses some components of The Cost of Disease.",
-    // No art of its own: the caravan under the moon, from one of the original's illustrations.
-    image: 'generation-ending/bgs/b-illustration1-oj-v004',
-    imagePosition: '26% 50%',
+    // Generated art (content/LICENSE.md), not the original's.
+    image: 'fan-made/the-thinning-veil/card',
     available: isScenarioId('the-thinning-veil'),
   },
   {
@@ -199,9 +198,8 @@ const SCENARIOS_UI = [
     detailsKey: '',
     details:
       "An unofficial, fan-made scenario: your father's legacy is a phial of white salt, and a small man in a black coat who signs cheques with your name. It uses some components of Fear of the Unknown.",
-    // No art of its own: the man in the long coat by the gallows, from one of the original's illustrations.
-    image: 'generation-ending/bgs/b-illustration2-oj-v004',
-    imagePosition: '37% 50%',
+    // Generated art (content/LICENSE.md), not the original's.
+    image: 'fan-made/the-impure-salt/card',
     available: isScenarioId('the-impure-salt'),
   },
 ];
