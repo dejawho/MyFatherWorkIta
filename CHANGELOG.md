@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.11.0](https://github.com/dejawho/MyFatherWorkIta/compare/v0.10.0...v0.11.0) (2026-11-17)
+
+
+### Features
+
+* generated voices read the introductions of The Quiet Neighbours ([eae4e0a](https://github.com/dejawho/MyFatherWorkIta/commit/eae4e0a26803111c41c6e2f6446417c1eda48512))
+* new fan-made scenario The Quiet Neighbours, in Italian and English with Easy and Short ([156e512](https://github.com/dejawho/MyFatherWorkIta/commit/156e512cf5a9f0961ac43805951899830ee890cc))
+* the fan-made scenarios have their own cover and storybook art ([1f7ff44](https://github.com/dejawho/MyFatherWorkIta/commit/1f7ff44d765c6e9a19372f88744d599c4520f5b8))
+
+
+### Bug Fixes
+
+* texts of the first two fan-made scenarios no longer assume a male player or give a hint away ([e80255e](https://github.com/dejawho/MyFatherWorkIta/commit/e80255ed6dd849bc12d446fdff816ba29b6f81c4))
+
 ## [0.10.0](https://github.com/dejawho/MyFatherWorkIta/compare/v0.9.1...v0.10.0) (2026-11-15)
 
 
