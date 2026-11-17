@@ -8,3 +8,4 @@ frontend/public/content
 .docker_image_marker.lock
 **/.angular
 media
+.openai-key
