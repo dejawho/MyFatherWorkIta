@@ -21,8 +21,12 @@ Disease_ playable from setup to the endings; expect breaking changes.
 - **Content licence.** Everything in `content/` derives from Renegade's material (CC BY-NC 4.0).
   Add nothing from other sources; the original's fonts are licensed separately and not shipped.
   The one exception is the fan-made scenarios written for this project (`the-thinning-veil`,
-  `the-impure-salt`): new text on the game's rules and components, derivative works under the
-  same terms, marked as unofficial in the app and in `content/LICENSE.md`. No new images.
+  `the-impure-salt`, `the-quiet-neighbours`): new text on the game's rules and components, derivative works under the
+  same terms, marked as unofficial in the app and in `content/LICENSE.md`. Their images (a
+  card for the scenario chooser, 437×617, and the storybook backdrop, 1920×1080) are generated
+  with an image model, given the original's illustrations as style references, in
+  `content/assets/ui/fan-made/<id>/`; `content/LICENSE.md` says so, and each prompt is kept in
+  the scenario's design doc. Generated art never shows a twist of the story.
 - **Rules are never rewritten.** Easy/Short versions and generated voice-over only touch
   flavour text (`kind: 'narrative'`); instructions, setup and app commands stay as they are.
 - **Secrets stay secret.** Pages behind the hand-over screen (a `command` text at the top) are
@@ -64,8 +68,8 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   (default 2–5).
 - **Scenario author** (`tools/scenario-author/`): builds a scenario written as text
   (`content/<id>/src/*.story`; syntax at the top of `src/compile.ts`) into `scenario.json`,
-  `extras.json` and the string tables. Used by the fan-made _The Thinning Veil_ and _The Impure
-  Salt_, written in Italian first: `strings.it.json` is its source text, `strings.en.json` takes English from
+  `extras.json` and the string tables. Used by the fan-made _The Thinning Veil_, _The Impure
+  Salt_ and _The Quiet Neighbours_, written in Italian first: `strings.it.json` is its source text, `strings.en.json` takes English from
   `src/en.json` and falls back to the Italian; Easy and Short come from
   `src/versions.<lang>.json` (both keyed by the Italian text). Edit the `.story` and these
   files, never the built JSON.
@@ -192,3 +196,8 @@ Next, roughly in order:
 7. Fan-made scenario _Il Sale Impuro_ (`the-impure-salt`, Fear of the Unknown box): all pages,
    logic and Italian text (8/8 endings in the tester, playable), English translation, Easy and
    Short (beta) and generated voices for the introductions; next a play-test at the table.
+8. Fan-made scenario _I Vicini Silenziosi_ (`the-quiet-neighbours`, A Time of War box): all
+   pages, logic and Italian text, enriched to the originals' size (169 pages, about 30,000
+   words, about 100 decision points; 8/8 endings in the tester, playable), English
+   translation, Easy and Short (beta), generated art and generated voices for the
+   introductions; next a play-test at the table.

@@ -307,7 +307,28 @@ Come _Il Velo Sottile_:
   varianti del Velo Sottile; il tester deve esplorare ogni scelta possibile.
 - **Licenza:** opera derivata, CC BY-NC 4.0, segnata come non ufficiale in `content/LICENSE.md` e
   in AGENTS.md.
-- **Immagini:** nessuna immagine nuova; l'icona è quella della scatola di _Fear of the Unknown_.
+- **Immagini:** l'icona è quella della scatola di _Fear of the Unknown_. Copertina (la carta nella
+  scelta dello scenario, 437×617) e sfondo dello Storybook (1920×1080) sono **generati** con
+  OpenAI `gpt-image-2` (endpoint di modifica), dando come riferimento di stile le illustrazioni
+  originali (le tre carte degli scenari per la copertina, i tre sfondi dello Storybook per lo
+  sfondo), in `content/assets/ui/fan-made/the-impure-salt/` (vedi `content/LICENSE.md`). Niente
+  che anticipi la storia. Il prompt è l'istruzione di stile seguita dalla scena:
+  - *Stile:* "Create a new illustration in exactly the same style as the reference images: the
+    same painterly brushwork, grainy texture, colour treatment, dramatic lighting and bold,
+    cinematic composition with large silhouetted shapes. Do not reuse their characters, objects or
+    scenes: only their style. No text, no logos, no borders. The scene: …"
+  - *Copertina* (verticale, 1024×1536): "A foggy gaslit back street of a Victorian provincial town
+    at night. In the foreground on the right, on the edge of a cluttered laboratory table seen
+    through an open back door, stands a small glass phial full of coarse white salt that catches
+    the lamplight. Out in the fog, a short man in a long black coat and a black hat walks briskly
+    away down the wet cobbles, seen from behind, his shadow long and crooked under a gas lamp. A
+    large dim moon behind the fog. Vertical composition."
+  - *Sfondo* (orizzontale, 1536×1024): "A wide panoramic view of a Victorian provincial town at
+    night in thick yellow fog: gas lamps, wet cobbles, crooked brick houses, the dark silhouette
+    of a gallows in a small square, and the back door of a respectable house standing ajar with
+    warm light spilling out. Far down the street, a short man in a long black coat and hat is
+    walking away. A huge dim moon behind the fog. Uneasy, secretive, still. Keep the left half
+    calm and dark, with little detail."
 - **App:** etichetta "non ufficiale" nella scelta degli scenari.
 - **Verifiche:** 8/8 finali nel tester, nessun vicolo cieco; il test completo nel browser gioca
   una partita anche di questo scenario.

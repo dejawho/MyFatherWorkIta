@@ -246,8 +246,29 @@ Seguono la regola dell'app: la pagina segreta ha in cima il testo di passaggio d
 - **Licenza:** è un'opera derivata dal materiale di Renegade (componenti, regole, mondo), quindi
   CC BY-NC 4.0 come il resto; va segnata come non ufficiale nel file `content/LICENSE.md`, e la
   regola di AGENTS.md su `content/` va aggiornata.
-- **Immagini:** nessuna immagine nuova. L'icona della scatola è quella di _The Cost of Disease_
-  (da lì vengono i componenti); le illustrazioni sono quelle già presenti.
+- **Immagini:** l'icona è quella della scatola di _The Cost of Disease_. Copertina (la carta nella
+  scelta dello scenario, 437×617) e sfondo dello Storybook (1920×1080) sono **generati** con
+  OpenAI `gpt-image-2` (endpoint di modifica), dando come riferimento di stile le illustrazioni
+  originali (le tre carte degli scenari per la copertina, i tre sfondi dello Storybook per lo
+  sfondo), in `content/assets/ui/fan-made/the-thinning-veil/` (vedi `content/LICENSE.md`). Niente
+  che anticipi la storia. Il prompt è l'istruzione di stile seguita dalla scena:
+  - *Stile:* "Create a new illustration in exactly the same style as the reference images: the
+    same painterly brushwork, grainy texture, colour treatment, dramatic lighting and bold,
+    cinematic composition with large silhouetted shapes. Do not reuse their characters, objects or
+    scenes: only their style. No text, no logos, no borders. The scene: …"
+  - *Copertina* (verticale, 1024×1536): "A candlelit seance in a country manor, Central Europe,
+    around 1850. A gaunt woman medium in a dark dress and a thin black veil sits at a small round
+    table, eyes closed, both palms flat on the wood; a single candle flame bends sideways although
+    there is no wind. Behind her, the faded wallpaper of the wall bulges inward like a curtain,
+    and the pale shape of a hand presses against it from the other side, as if knocking. A large
+    pale moon is visible through a tall window on the left. Vertical composition, the medium on
+    the right third."
+  - *Sfondo* (orizzontale, 1536×1024): "A wide panoramic view of a lonely country manor at night,
+    Central Europe, around 1850: a long house with steep roofs and a single lit window, a small
+    village cemetery with leaning crosses beside it, thin mist hanging over the grass. A painted
+    wooden caravan with a lantern is parked by the road. Faint translucent figures, barely
+    visible, stand among the graves facing the house. A huge pale moon behind thin clouds. Quiet,
+    melancholic, uncanny. Keep the left half calm and dark, with little detail."
 - **Versioni Easy e Short:** non subito; l'app mostra il testo originale quando mancano.
 - **Voce:** nessuna, all'inizio.
 - **App:** lo scenario compare nella scelta degli scenari con un'etichetta "non ufficiale", e
