@@ -11,7 +11,7 @@
 
   > Ora la torre è chiusa. La serratura, dice il fabbro, è fusa, come se qualcuno l'avesse saldata dall'interno; e dentro non c'è nessuno, perché il suo unico abitante è nella cassa che abbiamo appena calato.
 
-  > Dopo il funerale il notaio ha consegnato a ciascuno dei figli un foglio del Journal del padre, staccato e piegato, con il nome sopra. Erano nel testamento. Uno dei figli mi ha mostrato il suo, sulla porta della chiesa, e mi ha chiesto se il padre fosse ancora in sé, quando l'ha scritto. Ho risposto la verità: non lo so.
+  > Dopo il funerale il notaio ha consegnato a ciascuno dei figli una pagina del diario del padre, staccata e piegata, con il nome sopra. Erano nel testamento. Uno dei figli mi ha mostrato la sua, sulla porta della chiesa, e mi ha chiesto se il padre fosse ancora in sé, quando l'ha scritta. Ho risposto la verità: non lo so.
   [[Clicca per continuare... ~> 0]]
   fragment 0:
     block setupEvent next=G1JournalA:
@@ -25,8 +25,8 @@
   if %L.n% > $players:
     goto G1JournalFine
   @@ **Passa lo Storybook a {$name%L%}.**
-  # **Un foglio del Journal**
-  ! **Con il tuo nome sopra, nella mano di tuo padre, sempre più storta.**
+  # **Una pagina del diario di tuo padre**
+  ! **C'è sopra il tuo nome. La calligrafia è la sua, ma riga dopo riga si fa più incerta.**
   if %L.n% == 1:
     > *11 novembre, notte. L'anello si è acceso da solo. Non l'ho toccato, lo giuro: ero alla finestra, con la pipa spenta. Luce bianca, nessun calore, un ronzio come di api dentro un muro. Poi niente. Io non ho mandato niente, e lei si è accesa lo stesso. Era fatta per mandare, non per ricevere. Che cosa ha ricevuto?*
 
@@ -60,7 +60,7 @@
   # **Il mattino dopo**
   > La tenuta è una casa lunga e bassa ai margini del paese, con il tetto di canne e le finestre verso la torbiera. Dietro la casa c'è la torre: mattoni rossi, nessuna finestra fino a metà altezza, e in cima una stanza con quattro vetrate, chiusa. Al mattino ci si posano i corvi. Non ci restano a lungo.
 
-  > Brunveen è un paese di torbai: un centinaio di case di legno intorno alla chiesa, un mercato, un mulino, un argine che tiene lontano il fiume, e tutt'intorno la torbiera, piatta e scura fino all'orizzonte, dove d'inverno sale la nebbia e d'estate le zanzare. Da secoli la gente di qui taglia la torba a mattoni, la fa seccare e la brucia. La torba scalda poco e fuma molto. Ma è gratis, ed è di tutti.
+  > {$townname} è un paese di torbai: un centinaio di case di legno intorno alla chiesa, un mercato, un mulino, un argine che tiene lontano il fiume, e tutt'intorno la torbiera, piatta e scura fino all'orizzonte, dove d'inverno sale la nebbia e d'estate le zanzare. Da secoli la gente di qui taglia la torba a mattoni, la fa seccare e la brucia. La torba scalda poco e fuma molto. Ma è gratis, ed è di tutti.
 
   > A metà mattina qualcuno bussa al cancello. È Fokke Tammer, il torbaio, con le mani fasciate e una carriola piena di mattoni di torba scura, quasi nera. Li offre in dono, "per la famiglia del signore, in segno di rispetto". Dice che questa torba scalda meglio di qualsiasi altra. Dice che non fa fumo. Sorride: in paese nessuno ricorda di averlo mai visto sorridere.
   ! Che cosa fate? *(Decidete insieme.)*
@@ -144,7 +144,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 
   > Fokke serve tutti con pazienza, senza alzare la voce, e dà il resto giusto fino all'ultimo centesimo, lui che un anno fa non sapeva contare oltre dieci. Le bende sulle mani sono pulite. Quando ti vede sorride e ti fa cenno di passare avanti: "Per la famiglia del signore non si fa la fila."
   ! Che cosa fai?
-  [[Compri la torba. ~> compra]]
+  [[Compri la torba ($1). ~> compra]]
   [[Gli chiedi di togliersi le bende. ~> mani]]
   [[Chiedi agli altri torbai che cosa ne pensano. ~> torbai]]
   fragment compra:
@@ -212,7 +212,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **La serratura fusa**
   > Al Builder's Office il capomastro Lambert ti mostra il suo disegno della porta della torre, preso con la carta lucida: ferro battuto, tre serrature, cardini da fortezza. Ha mandato due garzoni con le leve e un fabbro con la lima. La porta non si è mossa di un capello. "La serratura è fusa dall'interno", dice. "Qualcuno l'ha saldata con un calore che non si fa con il carbone. E vostro padre era fuori, quando è morto: l'abbiamo trovato ai piedi della torre, con la chiave in mano."
   ! Che cosa fai?
-  [[Paghi Lambert per sfondare il muro. ~> forza]]
+  [[Paghi Lambert per sfondare il muro ($2). ~> forza]]
   [[Lasci la torre chiusa, per ora. ~> lascia]]
   fragment forza:
     set torre = true
@@ -227,16 +227,16 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 :: G1Tomba
   set evTomba = true
   # **La tomba del padre**
-  > Il cimitero di Brunveen è costruito sull'argine, l'unico punto asciutto del paese, e anche lì, a un metro di profondità, si trova l'acqua. Le tombe nuove si riempiono in una notte. Il becchino Siebe, un uomo minuto con una gamba più corta dell'altra, ti aspetta accanto alla fossa del padre, ancora coperta di terra smossa.
+  > Il cimitero di {$townname} è costruito sull'argine, l'unico punto asciutto del paese, e anche lì, a un metro di profondità, si trova l'acqua. Le tombe nuove si riempiono in una notte. Il becchino Siebe, un uomo minuto con una gamba più corta dell'altra, ti aspetta accanto alla fossa del padre, ancora coperta di terra smossa.
 
   > Fokke Tammer, ti dice, si è offerto di coprire la tomba con la sua torba nera, gratis: la torba della torbiera, dicono i vecchi, conserva i morti per sempre, e il signore della tenuta merita di essere conservato. Siebe aspetta una risposta, appoggiato alla vanga. Ha l'aria di chi spera che tu dica di no.
   ! Che cosa fai?
   [[Accetti la torba di Fokke. ~> torba]]
-  [[Paghi una lastra di pietra. ~> pietra]]
+  [[Paghi una lastra di pietra ($2). ~> pietra]]
   fragment torba:
     set tomba = "torba"
     set fiducia = $fiducia + 1
-    > Fokke porta la torba lui stesso, il giorno dopo, e la stende sulla fossa con le sue mani bendate, mattone per mattone, come si rimbocca una coperta. Quando ha finito resta in ginocchio un momento, a guardare. Siebe dice che a Brunveen non si è mai vista una tomba così ben fatta.
+    > Fokke porta la torba lui stesso, il giorno dopo, e la stende sulla fossa con le sue mani bendate, mattone per mattone, come si rimbocca una coperta. Quando ha finito resta in ginocchio un momento, a guardare. Siebe dice che a {$townname} non si è mai vista una tomba così ben fatta.
     block setupEvent next=$hub:
       ! Guadagni 1VP.
   fragment pietra:
@@ -250,7 +250,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **L'acqua della stella**
   > Alla Traveling Caravan, tra un dentista ambulante e un uomo che vende almanacchi, c'è un carro dipinto di blu con una scritta a lettere d'oro: ACQUA DELLA STELLA – DA BRUNVEEN – GUARISCE OGNI MALE. Il venditore è un ometto con il cilindro sfondato, che non è di qui. Vende boccette di acqua scura a un fiorino l'una, e in paese ne ha vendute già cinquanta. La attinge, dice ridendo, "dove è caduta la stella".
   ! Che cosa fai?
-  [[Ne compri una boccetta. ~> compra]]
+  [[Ne compri una boccetta ($1). ~> compra]]
   [[Lo denunci al sindaco. ~> denuncia]]
   [[Lo segui, la notte. ~> segui]]
   fragment compra:
@@ -280,7 +280,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 
   > Fokke la mette all'asta. Dice che non è giusto che la tenga lui: deve andare "a chi saprà cosa farne". Il professore del museo della città è arrivato con il treno del mattino e il portafoglio gonfio. Ma tutti, al mercato, guardavano la famiglia della tenuta.
   set _SetupImage = "S3_CrownToken"
-  ! Ogni giocatore offre in segreto una somma di denaro. Chi offre di più paga e prende la **pietra**: il **Crown token** {icon:S3_CrownToken} della Scatola di **A Time of War**. Gli altri non pagano niente. *(In caso di parità vince il Primo Giocatore.)*
+  ! Ogni giocatore offre in segreto una somma di denaro. Chi offre di più paga e prende la **pietra**: il **Crown token** {icon:S3_CrownToken} della Scatola di **A Time of War**. Gli altri non pagano niente. *(In caso di parità vince, tra i pari, il primo in ordine di turno.)*
   ! Chi ha la pietra, una volta per Round, quando pesca Esperimenti ne pesca uno in più. Ma a fine Round, ogni volta, la pietra gli fa venire sete.
   [[Clicca per iniziare l'asta... ~> 0]]
   fragment 0:
@@ -350,7 +350,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   block hubTitle:
     ! **Evento del secondo Round**
   block hubDetails:
-    > Quest'anno a Brunveen non è morto nessuno. Il becchino Siebe, per arrotondare, si è messo a fare anche il falegname, e il pastore Kalf ha celebrato più matrimoni che in tutti gli anni precedenti messi insieme. Le coppie si sposano senza fretta, senza litigi, e senza invitare i parenti di fuori.
+    > Quest'anno a {$townname} non è morto nessuno. Il becchino Siebe, per arrotondare, si è messo a fare anche il falegname, e il pastore Kalf ha celebrato più matrimoni che in tutti gli anni precedenti messi insieme. Le coppie si sposano senza fretta, senza litigi, e senza invitare i parenti di fuori.
     if $cane == "preso":
       > Alla tenuta, Bruin, il cane di Fokke, ha preso l'abitudine di sedersi davanti al cancello ogni volta che passa un corteo nuziale, e di ringhiare, piano, a uno solo dei due sposi. Mai a tutti e due.
     if $pietra == "famiglia":
@@ -387,7 +387,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
       ! Guadagni 2 Prove {icon:S3_WeaponToken}.
   fragment battuta:
     set fiducia = $fiducia + 1
-    > Dici che, se la buona salute fosse una malattia, a Brunveen ci sarebbe un'epidemia, e il consiglio ride, tutto insieme, troppo a lungo. Hester chiude il Registro e se ne va senza salutarti. Il sindaco, invece, ti invita a cena.
+    > Dici che, se la buona salute fosse una malattia, a {$townname} ci sarebbe un'epidemia, e il consiglio ride, tutto insieme, troppo a lungo. Hester chiude il Registro e se ne va senza salutarti. Il sindaco, invece, ti invita a cena.
     block setupEvent next=$hub:
       ! Guadagni $2.
 
@@ -396,7 +396,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
   # **Il canale**
   > Al Laborer's Union, la stanza sopra la stalla dove si assumono i braccianti a giornata, l'acqua per bere la portano da un canale che arriva dritto dalla torbiera. Fino all'anno scorso nessuno la toccava: sapeva di ruggine e dava il mal di pancia. Adesso tutti la bevono, perché è buona, fresca, e toglie la fatica. I braccianti lavorano dall'alba al tramonto senza lamentarsi. Il capo del sindacato è preoccupato: da sei mesi nessuno chiede più un aumento.
   ! Che cosa fai?
-  [[Paghi per chiudere il canale e scavare un pozzo. ~> chiudi]]
+  [[Paghi per chiudere il canale e scavare un pozzo ($2). ~> chiudi]]
   [[Assaggi. ~> assaggi]]
   fragment chiudi:
     set vicini = $vicini - 1
@@ -412,14 +412,14 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G1Pastore
   set evPastore = true
   # **La predica**
-  > La chiesa di Brunveen è di legno, come tutto il resto, con il campanile storto e le panche consumate. Il pastore Ewout Kalf è un uomo magro e severo, con la voce più grande di lui. Questa domenica predica sulla moglie di Lot e sulle cose che non bisogna guardare. Poi, senza cambiare tono, parla della pietra della torbiera: viene dal cielo, dice, e quello che viene dal cielo senza essere chiamato non viene da Dio. Va riportata dove l'hanno trovata. Mentre parla, guarda la vostra panca.
+  > La chiesa di {$townname} è di legno, come tutto il resto, con il campanile storto e le panche consumate. Il pastore Ewout Kalf è un uomo magro e severo, con la voce più grande di lui. Questa domenica predica sulla moglie di Lot e sulle cose che non bisogna guardare. Poi, senza cambiare tono, parla della pietra della torbiera: viene dal cielo, dice, e quello che viene dal cielo senza essere chiamato non viene da Dio. Va riportata dove l'hanno trovata. Mentre parla, guarda la vostra panca.
   ! Che cosa fai?
   [[Dopo la funzione, gli dai ragione. ~> ragione]]
   [[Lo contraddici, sul sagrato. ~> contraddici]]
   fragment ragione:
     set ronda = $ronda + 1
     set kalf = $kalf + 1
-    > Il pastore ti stringe la mano tra le sue, a lungo, come si stringe quella di un convertito. Ti dice che non sei l'unica persona a pensarla così, a Brunveen, ma che siete pochi, e ogni mese di meno. Ti chiede di pregare per loro. Non dice per chi.
+    > Il pastore ti stringe la mano tra le sue, a lungo, come si stringe quella di un convertito. Ti dice che non sei l'unica persona a pensarla così, a {$townname}, ma che siete pochi, e ogni mese di meno. Ti chiede di pregare per loro. Non dice per chi.
     block setupEvent next=$hub:
       ! Guadagni 1VP.
   fragment contraddici:
@@ -432,7 +432,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G1Fabbro
   set evFabbro = true
   # **Il fabbro che non sbaglia**
-  > Jaap Mol, il fabbro, è caduto nel canale della torbiera a Pasqua, ubriaco, ed è rimasto sott'acqua finché i garzoni non l'hanno ripescato, mezz'ora dopo, dato per morto. Si è rialzato da solo, si è scosso l'acqua di dosso ed è tornato a lavorare. Da allora non sbaglia un colpo. I ferri di cavallo che fa sono così perfetti che i cavalli della città vengono a ferrarsi a Brunveen. Jaap non beve più, non canta più, e ha chiesto scusa a tutti quelli a cui doveva dei soldi.
+  > Jaap Mol, il fabbro, è caduto nel canale della torbiera a Pasqua, ubriaco, ed è rimasto sott'acqua finché i garzoni non l'hanno ripescato, mezz'ora dopo, dato per morto. Si è rialzato da solo, si è scosso l'acqua di dosso ed è tornato a lavorare. Da allora non sbaglia un colpo. I ferri di cavallo che fa sono così perfetti che i cavalli della città vengono a ferrarsi a {$townname}. Jaap non beve più, non canta più, e ha chiesto scusa a tutti quelli a cui doveva dei soldi.
   ! Che cosa fai?
   [[Gli ordini una chiave per la torre. ~> chiave]]
   [[Gli chiedi che cosa ricorda del canale. ~> canale]]
@@ -466,7 +466,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G1Cronaca
   # **Una pagina del Registro**
   ! **Registro Maas – Hester Maas, *1870.***
-  > Quattro anni dalla notte delle due luci. Nessuno, a Brunveen, è morto di malattia da allora: soltanto due vecchi, nel sonno, e un bambino caduto dal fienile. Le febbri di palude, che ogni estate si portavano via qualcuno, quest'anno non sono venute. Il medico della città dice che è merito dell'aria. Io conto le temperature.
+  > Quattro anni dalla notte delle due luci. Nessuno, a {$townname}, è morto di malattia da allora: soltanto due vecchi, nel sonno, e un bambino caduto dal fienile. Le febbri di palude, che ogni estate si portavano via qualcuno, quest'anno non sono venute. Il medico della città dice che è merito dell'aria. Io conto le temperature.
 
   > Le mani fredde, nel Registro, sono quarantuno. Ho smesso di dirlo al consiglio.
   if $cane == "preso":
@@ -591,7 +591,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     set ronda = $ronda + 1
     set fiducia = $fiducia - 1
     set kalf = $kalf + 1
-    > Il pastore accetta subito, come se aspettasse solo che qualcuno glielo chiedesse. La prima ronda notturna di Brunveen esce il sabato dopo: il pastore, tre torbai, il becchino Siebe e una lanterna. Non trovano niente. Ma per tutta la notte, dalle case, li guardano passare, dietro i vetri, senza accendere la luce.
+    > Il pastore accetta subito, come se aspettasse solo che qualcuno glielo chiedesse. La prima ronda notturna di {$townname} esce il sabato dopo: il pastore, tre torbai, il becchino Siebe e una lanterna. Non trovano niente. Ma per tutta la notte, dalle case, li guardano passare, dietro i vetri, senza accendere la luce.
     block setupEvent next=$hub:
       ! Guadagni 1VP.
 
@@ -616,7 +616,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
       ! Guadagni 1 Prova {icon:S3_WeaponToken}.
   fragment moglie:
     set wessel = "moglie"
-    > Il sindaco sorride: la signora Wessel sta benissimo, grazie. È partita per la città a primavera, dalla sorella, per un periodo di riposo. Gli scrive ogni settimana. Ti mostra le lettere: una pila ordinata, legata con un nastro. Le buste sono tutte uguali, la calligrafia è tutta uguale, il timbro postale è sempre lo stesso: Brunveen.
+    > Il sindaco sorride: la signora Wessel sta benissimo, grazie. È partita per la città a primavera, dalla sorella, per un periodo di riposo. Gli scrive ogni settimana. Ti mostra le lettere: una pila ordinata, legata con un nastro. Le buste sono tutte uguali, la calligrafia è tutta uguale, il timbro postale è sempre lo stesso: {$townname}.
     block setupEvent next=$hub:
       ! Guadagni 1 {icon:Insanity_Icon} e 1 Prova {icon:S3_WeaponToken}.
 
@@ -670,7 +670,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   # **La pietra**
   ui specialEvent
   ! **Registro Maas – Hester Maas, *1889.***
-  > Il pastore Kalf è venuto alla tenuta, vecchio, con il bastone e il cappello in mano, e ha chiesto di parlare con tutta la famiglia. Ha detto che ha contato anche lui, in questi anni: i matrimoni, i battesimi, le confessioni. Nessuno, a Brunveen, si confessa più. Non hanno peccati.
+  > Il pastore Kalf è venuto alla tenuta, vecchio, con il bastone e il cappello in mano, e ha chiesto di parlare con tutta la famiglia. Ha detto che ha contato anche lui, in questi anni: i matrimoni, i battesimi, le confessioni. Nessuno, a {$townname}, si confessa più. Non hanno peccati.
 
   > Ha chiesto alla famiglia di riportare la pietra nella torbiera, nel punto esatto della luce, e di lasciarla lì: "Non sappiamo che cosa fa, ma sappiamo che lo fa meglio vicino all'acqua. Allora almeno che lo faccia lontano dalle vostre case." Poi ha aspettato la risposta in piedi, perché la sedia che gli avevano offerto era vicino al camino.
   if $kalf > 0:
@@ -696,7 +696,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     set ronda = $ronda + 1
     > All'alba portate la pietra all'argine, avvolta nel suo sacco, e la consegnate al pastore Kalf, che entra nella torbiera fino alla vita, con la tonaca che galleggia, fino al punto della luce. La lascia andare. La pietra affonda senza un rumore e senza una bolla, come se l'acqua l'aspettasse. Per un momento la superficie, tutta intorno, diventa liscia come vetro. Poi il vento la rompe.
 
-    > Quella notte, a Brunveen, nessuno ha sete.
+    > Quella notte, a {$townname}, nessuno ha sete.
     block setupEvent next=G1Torre2:
       ! {$pietraNome} rimette il Crown token {icon:S3_CrownToken} sul **Park**: la pietra è nella torbiera.
   fragment famiglia:
@@ -765,9 +765,9 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G1Chiusura
   # **Fine della Generazione**
   ! **Registro Maas – Hester Maas, *1890.***
-  > Sono vecchia, e la mano non mi aiuta più. Questa è l'ultima pagina che scrivo. Lascio il Registro a mio figlio Joost, che si è laureato in medicina in città e torna a Brunveen come medico condotto. Lui ride delle mie mani fredde. Ha studiato, e chi ha studiato non conta: misura.
+  > Sono vecchia, e la mano non mi aiuta più. Questa è l'ultima pagina che scrivo. Lascio il Registro a mio figlio Joost, che si è laureato in medicina in città e torna a {$townname} come medico condotto. Lui ride delle mie mani fredde. Ha studiato, e chi ha studiato non conta: misura.
 
-  > Gli eredi della tenuta sono invecchiati, come me. Alcuni sono morti, nel loro letto, di vecchiaia, con le mani calde: li ho toccate io. La Macchina è rimasta nella torre, muta. I loro figli sono cresciuti a Brunveen, e non sanno che cosa fosse Brunveen prima.
+  > Gli eredi della tenuta sono invecchiati, come me. Alcuni sono morti, nel loro letto, di vecchiaia, con le mani calde: li ho toccate io. La Macchina è rimasta nella torre, muta. I loro figli sono cresciuti a {$townname}, e non sanno che cosa fosse {$townname} prima.
   if $pietra == "torbiera":
     > La pietra è tornata nella torbiera. Quest'inverno il punto della luce non è gelato, nemmeno nelle notti più fredde.
   else:
@@ -782,11 +782,11 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G1Ostrander
   # **Una lettera dalla città**
   ! **Lettera del professor Ostrander al direttore del museo di scienze naturali – *giugno 1866.***
-  > Illustre collega, vi scrivo da Brunveen, un paese di torbai a mezza giornata di treno, dove sono venuto per l'oggetto di cui vi parlai: il cosiddetto "sasso della luce". Torno a mani vuote. L'oggetto è stato aggiudicato a un membro della famiglia della tenuta, {$pietraNome}, per una cifra che il museo non avrebbe mai approvato. Ve ne dò comunque una descrizione, perché resti agli atti.
+  > Illustre collega, vi scrivo da {$townname}, un paese di torbai a mezza giornata di treno, dove sono venuto per l'oggetto di cui vi parlai: il cosiddetto "sasso della luce". Torno a mani vuote. L'oggetto è stato aggiudicato a un membro della famiglia della tenuta, {$pietraNome}, per una cifra che il museo non avrebbe mai approvato. Ve ne dò comunque una descrizione, perché resti agli atti.
 
   > Pietra nera, liscia, grande come una pagnotta, di peso specifico anomalo. Temperatura costante, superiore a quella dell'ambiente: la si sente calda attraverso il sacco. Nessuna cristallizzazione visibile, nessuna frattura. Non è un meteorite di nessun tipo che io conosca. Il torbaio che l'ha trovata, un certo Tammer, la maneggiava come una cosa viva.
 
-  > Aggiungo un'impressione personale, di cui non andate a parlare in consiglio. Brunveen è il paese più tranquillo che io abbia mai visitato. Nessuno, all'asta, ha alzato la voce. Nessuno ha contrattato. Quando il banditore ha battuto il martello, la folla ha applaudito tutta insieme, e ha smesso tutta insieme. All'osteria mi hanno servito acqua, anche se avevo chiesto birra, e l'oste mi ha detto, con un sorriso, che "è meglio per tutti".
+  > Aggiungo un'impressione personale, di cui non andate a parlare in consiglio. {$townname} è il paese più tranquillo che io abbia mai visitato. Nessuno, all'asta, ha alzato la voce. Nessuno ha contrattato. Quando il banditore ha battuto il martello, la folla ha applaudito tutta insieme, e ha smesso tutta insieme. All'osteria mi hanno servito acqua, anche se avevo chiesto birra, e l'oste mi ha detto, con un sorriso, che "è meglio per tutti".
 
   > Ho lasciato il mio biglietto da visita alla famiglia. Conto di tornare. Il vostro devotissimo, J. Ostrander.
   [[Continua... => G1R2]]
@@ -799,7 +799,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   > "Ditemi che sono pazzo", ti chiede. "Voi della tenuta avete studiato. Ditemelo, e torno a casa."
   ! Che cosa fai?
   [[Gli dici che è stanco, e che deve tornare a casa. ~> resta]]
-  [[Gli paghi il biglietto. ~> parte]]
+  [[Gli paghi il biglietto ($2). ~> parte]]
   [[Gli chiedi dove era sua moglie, la notte prima che cambiasse. ~> notte]]
   fragment resta:
     set mugnaio = "rimasto"
@@ -825,7 +825,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   > Al Builder's Office il capomastro Lambert ha srotolato sul tavolo una delibera del consiglio, firmata e timbrata: la torre della tenuta è "pericolante", e va abbattuta entro l'anno, a spese del comune, per la sicurezza dei cittadini. Lambert la legge ad alta voce, con la sua voce tranquilla. Le bende sulle mani non le porta più da anni. Si offre di occuparsene di persona, con i suoi uomini, gratis. "Così non ci pensate più", dice. "Così nessuno ci pensa più."
   ! Che cosa fai?
   [[Rifiuti, e minacci di andare in tribunale. ~> rifiuta]]
-  [[Gli chiedi di rinforzarla, invece, a tue spese. ~> rinforza]]
+  [[Gli chiedi di rinforzarla, invece, a tue spese ($2). ~> rinforza]]
   [[Gli chiedi chi ha proposto la delibera. ~> chi]]
   fragment rifiuta:
     set fiducia = $fiducia - 1
@@ -834,7 +834,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
       ! Guadagni 1 Prova {icon:S3_WeaponToken} e 1VP.
   fragment rinforza:
     set lambert = true
-    > Lambert accetta, con la stessa calma. I suoi uomini lavorano un mese: catene di ferro intorno ai muri, una scala nuova, travi di quercia. Lavorano bene, meglio di quanto chiunque abbia mai lavorato a Brunveen. Non salgono mai oltre la scala, però. Della stanza in cima, dicono, non si occupano.
+    > Lambert accetta, con la stessa calma. I suoi uomini lavorano un mese: catene di ferro intorno ai muri, una scala nuova, travi di quercia. Lavorano bene, meglio di quanto chiunque abbia mai lavorato a {$townname}. Non salgono mai oltre la scala, però. Della stanza in cima, dicono, non si occupano.
     block setupEvent next=$hub:
       ! Paga $2. Guadagni 1 Conoscenza Ingegneristica (Engineering Knowledge) e 1 {icon:Gears_Icon}.
   fragment chi:
@@ -847,7 +847,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   # **Il sindaco con la gotta**
   > Al Town Hall il sindaco Aldert Wessel ti riceve con il piede fasciato su uno sgabello e un fazzoletto in mano, con cui si asciuga la fronte ogni due minuti. È un uomo grosso, rosso, sudato, che parla troppo e ride delle sue battute. In paese lo chiamano "il pesce" per le mani sempre umide, e lui lo sa, e ne ride. Ha una proposta: il comune comprerebbe la torre della tenuta, "per farne un serbatoio d'acqua", e pagherebbe bene. Tuo padre, dice, gli doveva dei soldi. Tanti. E poi quella torre, di notte, con i lampi azzurri, spaventava sua moglie.
   ! Che cosa fai?
-  [[Paghi il debito del padre. ~> paga]]
+  [[Paghi il debito del padre ($2). ~> paga]]
   [[Gli dici che la torre non è in vendita. ~> rifiuta]]
   [[Gli chiedi della notte delle due luci. ~> luci]]
   fragment paga:

@@ -168,7 +168,7 @@ testato%L% = false
 
   > Vi mando il Registro della mia famiglia: tre quaderni rilegati in tela nera, cinquantaquattro anni di parti, febbri, ossa rotte e temperature. Lo ha cominciato mia nonna Hester, che era levatrice e non ebbe mai il permesso di chiamarsi dottore; lo ha continuato mio padre Joost, che il permesso lo ebbe e non ci credette mai; lo chiudo io, che ho fatto quattro anni di guerra e credo ormai a quasi tutto.
 
-  > Non vi chiedo di credermi. Vi chiedo di contare. Contate le temperature troppo basse, le guarigioni troppo rapide, i nomi che tornano due volte. Contate le persone di Brunveen che non hanno più sognato. Poi decidete.
+  > Non vi chiedo di credermi. Vi chiedo di contare. Contate le temperature troppo basse, le guarigioni troppo rapide, i nomi che tornano due volte. Contate le persone del paese che non hanno più sognato. Poi decidete.
 
   ! **Registro Maas – Hester Maas, levatrice, *11 novembre 1865.***
   > Notte, ore undici e un quarto. Di ritorno dal parto della moglie del mugnaio, maschio, sano. Dalla strada dell'argine vista una luce bianca sulla torre della tenuta, forte come il giorno, senza fumo né rumore. Nello stesso istante, lo giuro, un'altra luce uguale in mezzo alla torbiera, dove non c'è niente e nessuno. Durate il tempo di un respiro. Poi buio.
@@ -306,10 +306,10 @@ testato%L% = false
   elif $round <= 6:
     > Stringi la mano a un cliente, e lui la ritira di scatto. "Scusate", dice, "avete le mani gelate." Gli sorridi. Lui non ricambia. Tornando a casa ti guardi le dita alla luce di un lampione: sono bianche, pulite, ferme. Troppo ferme. Non tremano più nemmeno quando hai paura.
   else:
-    > Al fronte, i medici dicevano che il freddo ai piedi era il primo segno della cancrena. A Brunveen il freddo comincia dalle mani. Stamattina hai scaldato una tazza di latte e l'hai tenuta stretta finché non si è raffreddata del tutto. Il latte. Le mani, no.
+    > Al fronte, i medici dicevano che il freddo ai piedi era il primo segno della cancrena. A {$townname} il freddo comincia dalle mani. Stamattina hai scaldato una tazza di latte e l'hai tenuta stretta finché non si è raffreddata del tutto. Il latte. Le mani, no.
   ! Che cosa fai?
   [[Le scaldi al fuoco. ~> fuoco]]
-  [[Vai dal medico. ~> medico]]
+  [[Vai dal medico ($1). ~> medico]]
   fragment fuoco:
     > Le tieni vicino alla fiamma finché la pelle non diventa rossa e comincia a far male. Il dolore è una buona notizia: vuol dire che sono ancora tue. La sera, scrivendo, ti sorprendi a controllare la temperatura dell'inchiostro.
     block setupEvent next=$hub:
@@ -345,9 +345,9 @@ testato%L% = false
   set tkVP = true
   # **Il posto d'onore**
   if $round <= 3:
-    > Il sindaco Wessel ti invita al pranzo del consiglio, il primo giovedì del mese, e ti fa sedere alla sua destra. Si parla di torba, di argini, del prezzo del burro. Nessuno nomina le due luci. Al momento del dolce il sindaco alza il bicchiere "alla famiglia della tenuta, che porterà Brunveen nel futuro". Tutti bevono acqua.
+    > Il sindaco Wessel ti invita al pranzo del consiglio, il primo giovedì del mese, e ti fa sedere alla sua destra. Si parla di torba, di argini, del prezzo del burro. Nessuno nomina le due luci. Al momento del dolce il sindaco alza il bicchiere "alla famiglia della tenuta, che porterà {$townname} nel futuro". Tutti bevono acqua.
   elif $round <= 6:
-    > Il consiglio ti offre un seggio. Le sedute durano pochissimo: nessuno litiga, nessuno si oppone, i bilanci tornano al centesimo. Alla fine della prima seduta il segretario ti stringe la mano e ti dice che sei "proprio come loro". È un complimento, a Brunveen.
+    > Il consiglio ti offre un seggio. Le sedute durano pochissimo: nessuno litiga, nessuno si oppone, i bilanci tornano al centesimo. Alla fine della prima seduta il segretario ti stringe la mano e ti dice che sei "proprio come loro". È un complimento, a {$townname}.
   else:
     > La città ti nomina presidente del comitato per il monumento ai caduti. Il bronzo è già ordinato, i nomi già scelti, l'inaugurazione già fissata. Ti chiedono soltanto una firma e un discorso. Nel discorso, ti pregano, nessuna parola sulla torbiera: "I nostri ragazzi sono tornati. Questo conta."
   ! Che cosa fai?
@@ -361,7 +361,7 @@ testato%L% = false
       ! Guadagni $2. Rimetti il token {icon:StorybookToken} nella riserva.
   fragment rifiuta:
     set fiducia = $fiducia - 1
-    > Rifiuti, con tutte le buone maniere che hai. Nessuno si offende. A Brunveen non si offende più nessuno: ti sorridono, ti ringraziano lo stesso, e ti guardano andare via come si guarda un ospite che ha sbagliato casa.
+    > Rifiuti, con tutte le buone maniere che hai. Nessuno si offende. A {$townname} non si offende più nessuno: ti sorridono, ti ringraziano lo stesso, e ti guardano andare via come si guarda un ospite che ha sbagliato casa.
     block setupEvent next=$hub:
       ! Guadagni 1VP. Rimetti il token {icon:StorybookToken} nella riserva.
 
@@ -375,7 +375,7 @@ testato%L% = false
   if $round <= 3:
     > L'acqua della torbiera è scura come il tè lasciato in infusione troppo a lungo, e fredda anche d'estate. Chi l'ha bevuta dice che sa di fumo e di terra, e che schiarisce le idee meglio del caffè. Il pastore dice che è acqua del diavolo. Il pastore beve solo vino.
   elif $round <= 6:
-    > A Brunveen l'acqua della torbiera si vende in bottiglie con l'etichetta, "Acqua di Brunveen, per la salute e la serenità". Il farmacista la consiglia contro l'insonnia, la maestra contro la distrazione, il sindaco contro tutto il resto. Nessuno, in paese, è più malato da anni.
+    > A {$townname} l'acqua della torbiera si vende in bottiglie con l'etichetta, "Acqua di {$townname}, per la salute e la serenità". Il farmacista la consiglia contro l'insonnia, la maestra contro la distrazione, il sindaco contro tutto il resto. Nessuno, in paese, è più malato da anni.
   else:
     > Nel bicchiere l'acqua scura non si muove, nemmeno quando batti sul tavolo. Al fronte hai bevuto acqua di pozzanghera, di neve, di radiatore. Questa è diversa: ti guarda.
   ! *Chi beve guadagna conoscenza, ma tutti vedono quanta acqua ha bevuto, e il paese diventa più quieto.*

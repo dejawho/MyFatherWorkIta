@@ -1443,7 +1443,12 @@
         {
          "t": "text",
          "key": "TkInsanity.4",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"
@@ -1755,7 +1760,12 @@
         {
          "t": "text",
          "key": "TkVP.2",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"
@@ -1776,7 +1786,12 @@
         {
          "t": "text",
          "key": "TkVP.3",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"
@@ -1895,7 +1910,12 @@
      {
       "t": "text",
       "key": "TkVP.10",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -1998,7 +2018,15 @@
         {
          "t": "text",
          "key": "Bevi.3",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          },
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"
@@ -4323,7 +4351,12 @@
     {
      "t": "text",
      "key": "G1JournalFine.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -5631,7 +5664,12 @@
     {
      "t": "text",
      "key": "G1Tomba.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -5699,7 +5737,12 @@
      {
       "t": "text",
       "key": "G1Tomba.7",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -6618,7 +6661,12 @@
       {
        "t": "text",
        "key": "G1R2.24",
-       "kind": "narrative"
+       "kind": "narrative",
+       "args": [
+        {
+         "var": "townname"
+        }
+       ]
       },
       {
        "t": "br"
@@ -6898,7 +6946,12 @@
      {
       "t": "text",
       "key": "G1Mani.12",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -7090,7 +7143,12 @@
     {
      "t": "text",
      "key": "G1Pastore.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -7153,7 +7211,12 @@
      {
       "t": "text",
       "key": "G1Pastore.6",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -7257,7 +7320,12 @@
     {
      "t": "text",
      "key": "G1Fabbro.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -7502,7 +7570,12 @@
     {
      "t": "text",
      "key": "G1Cronaca.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -8603,7 +8676,12 @@
      {
       "t": "text",
       "key": "G1Libri.9",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -8788,7 +8866,12 @@
      {
       "t": "text",
       "key": "G1Sindaco.11",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -9169,7 +9252,12 @@
     {
      "t": "text",
      "key": "G1PietraVoto.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -9382,7 +9470,12 @@
      {
       "t": "text",
       "key": "G1PietraEsito.6",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -9898,7 +9991,12 @@
     {
      "t": "text",
      "key": "G1Chiusura.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -9909,7 +10007,15 @@
     {
      "t": "text",
      "key": "G1Chiusura.4",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      },
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -10022,6 +10128,9 @@
      "kind": "narrative",
      "args": [
       {
+       "var": "townname"
+      },
+      {
        "var": "pietraNome"
       }
      ]
@@ -10046,7 +10155,12 @@
     {
      "t": "text",
      "key": "G1Ostrander.5",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -10404,7 +10518,12 @@
      {
       "t": "text",
       "key": "G1Lambert.9",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -12045,7 +12164,15 @@
     {
      "t": "text",
      "key": "G2Scuola.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      },
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -12144,7 +12271,12 @@
      {
       "t": "text",
       "key": "G2Scuola.9",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -12246,7 +12378,12 @@
     {
      "t": "text",
      "key": "G2Ronda.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -12993,7 +13130,12 @@
      {
       "t": "text",
       "key": "G2Mulder.7",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -13072,7 +13214,12 @@
     {
      "t": "text",
      "key": "G2Cronaca.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -14809,7 +14956,12 @@
     {
      "t": "text",
      "key": "G2Consiglio.2",
-     "kind": "instruction"
+     "kind": "instruction",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -14817,7 +14969,12 @@
     {
      "t": "text",
      "key": "G2Consiglio.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -14828,7 +14985,12 @@
     {
      "t": "text",
      "key": "G2Consiglio.4",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -15522,7 +15684,12 @@
       {
        "t": "text",
        "key": "G2R3.24",
-       "kind": "narrative"
+       "kind": "narrative",
+       "args": [
+        {
+         "var": "townname"
+        }
+       ]
       },
       {
        "t": "br"
@@ -16428,7 +16595,12 @@
     {
      "t": "text",
      "key": "G2Dormienti.6",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -16736,7 +16908,12 @@
     {
      "t": "text",
      "key": "G2Chiusura.3",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -16895,7 +17072,12 @@
     {
      "t": "text",
      "key": "G2Wessel.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -17020,7 +17202,12 @@
      {
       "t": "text",
       "key": "G2Wessel.10",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -17345,7 +17532,12 @@
     {
      "t": "text",
      "key": "G2Trijntje.7",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -17566,7 +17758,12 @@
      {
       "t": "text",
       "key": "G2SognoA.12",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -17793,7 +17990,12 @@
      {
       "t": "text",
       "key": "G2SognoA.12",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -18020,7 +18222,12 @@
      {
       "t": "text",
       "key": "G2SognoA.12",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -18247,7 +18454,12 @@
      {
       "t": "text",
       "key": "G2SognoA.12",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -18336,7 +18548,12 @@
     {
      "t": "text",
      "key": "G2Ghiaccio.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -19309,7 +19526,12 @@
       {
        "t": "text",
        "key": "G3R1.28",
-       "kind": "narrative"
+       "kind": "narrative",
+       "args": [
+        {
+         "var": "townname"
+        }
+       ]
       },
       {
        "t": "br"
@@ -19814,7 +20036,12 @@
      {
       "t": "text",
       "key": "G3Bram.13",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -20273,7 +20500,12 @@
     {
      "t": "text",
      "key": "G3Monumento.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -20357,7 +20589,12 @@
      {
       "t": "text",
       "key": "G3Monumento.8",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -22349,7 +22586,12 @@
     {
      "t": "text",
      "key": "G3NotteFine.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -22475,7 +22717,12 @@
      {
       "t": "text",
       "key": "G3NotteFine.11",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -23305,7 +23552,12 @@
     {
      "t": "text",
      "key": "G3Giornali.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -23446,7 +23698,15 @@
     {
      "t": "text",
      "key": "G3Report.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      },
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -23970,7 +24230,12 @@
     {
      "t": "text",
      "key": "G3Hendrik.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -24226,7 +24491,12 @@
      {
       "t": "text",
       "key": "G3Neeltje.8",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -25824,7 +26094,12 @@
       {
        "t": "text",
        "key": "G3R3.23",
-       "kind": "narrative"
+       "kind": "narrative",
+       "args": [
+        {
+         "var": "townname"
+        }
+       ]
       },
       {
        "t": "br"
@@ -26205,7 +26480,12 @@
     {
      "t": "text",
      "key": "G3Emporio.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -27552,7 +27832,12 @@
     {
      "t": "text",
      "key": "G3UltimaNotte.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -28958,7 +29243,12 @@
         {
          "t": "text",
          "key": "G3Giornale.4",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"
@@ -29081,7 +29371,12 @@
         {
          "t": "text",
          "key": "G3Mostra.6",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"
@@ -29188,7 +29483,12 @@
      {
       "t": "text",
       "key": "G3Mostra.13",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -29740,7 +30040,12 @@
      {
       "t": "text",
       "key": "G3Pastore.8",
-      "kind": "narrative"
+      "kind": "narrative",
+      "args": [
+       {
+        "var": "townname"
+       }
+      ]
      },
      {
       "t": "br"
@@ -29784,7 +30089,12 @@
     {
      "t": "text",
      "key": "Epilogo.2",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -30360,7 +30670,12 @@
     {
      "t": "text",
      "key": "FinaleFuoco.5",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -30519,7 +30834,12 @@
     {
      "t": "text",
      "key": "FinaleQuieto.4",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -30860,7 +31180,12 @@
     {
      "t": "text",
      "key": "FinaleSpezzata.6",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -31025,7 +31350,12 @@
     {
      "t": "text",
      "key": "FinaleRisveglio.6",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -31180,7 +31510,12 @@
     {
      "t": "text",
      "key": "FinaleCerchio.5",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -31350,7 +31685,12 @@
     {
      "t": "text",
      "key": "FinaleSemina.5",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -31387,6 +31727,9 @@
          "args": [
           {
            "var": "copiaNome"
+          },
+          {
+           "var": "townname"
           }
          ]
         },
@@ -31494,7 +31837,12 @@
     {
      "t": "text",
      "key": "FinaleRegistro.5",
-     "kind": "narrative"
+     "kind": "narrative",
+     "args": [
+      {
+       "var": "townname"
+      }
+     ]
     },
     {
      "t": "br"
@@ -31567,7 +31915,12 @@
         {
          "t": "text",
          "key": "FinaleRegistro.8",
-         "kind": "narrative"
+         "kind": "narrative",
+         "args": [
+          {
+           "var": "townname"
+          }
+         ]
         },
         {
          "t": "br"

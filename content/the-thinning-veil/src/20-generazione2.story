@@ -4,7 +4,7 @@
 :: G2Intro [INTRO voice]
   # **GENERAZIONE II: La nebbia**
   ! **Nota del dott. Halász al fascicolo.**
-  > La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del Journal, che nel frattempo era diventato due volumi e mezzo.
+  > La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del diario, che nel frattempo era diventato due volumi e mezzo.
 
   > Il villaggio era cresciuto. Al posto delle case di legno c'erano case a graticcio con le travi dipinte, una strada lastricata, un ufficio postale, due locande e un medico. Il parroco era sempre Padre Anzelm, più vecchio e più magro, ma non meno ostinato. E c'era, scrive uno dei nuovi eredi in una lettera alla sorella, "questa cosa che qui chiamano il velo, come se fosse un fatto del tempo, come la pioggia o la nebbia".
   [[Clicca per continuare... ~> 0]]
@@ -126,11 +126,11 @@
 
   > Ognuno ha sentito qualcosa. Nessuno sa che cosa abbiano sentito gli altri. E tutti, almeno per un momento, hanno pensato di mentire.
   ! Alla fine della colazione qualcuno propone:
-  [[Di scrivere nel Journal quello che ognuno ha sentito. ~> scrivi]]
+  [[Di scrivere nel diario quello che ognuno ha sentito. ~> scrivi]]
   [[Di non parlarne mai più. ~> taci]]
   fragment scrivi:
     set velo = $velo + 1
-    > Il Journal passa di mano in mano, sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e copre con la mano quello che ha scritto finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone siedano a tavola.
+    > Il diario passa di mano in mano, sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e copre con la mano quello che ha scritto finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone siedano a tavola.
     [[Continua... => G2R1]]
   fragment taci:
     set velo = $velo - 1
@@ -188,7 +188,7 @@
   block hubTitle:
     ! **Evento del primo Round**
   block hubDetails:
-    > Nel secondo volume del Journal, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.
+    > Nel secondo volume del diario, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.
   [[Clicca qui alla fine del Round per passare al Round successivo... ~> 0]]
   fragment 0:
     ui endOfRound progress="G2R1" next="G2Telegrafo"
@@ -342,7 +342,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   [[La fai riseppellire, dopo averla fatta benedire. ~> seppellisci]]
   fragment apri:
     set velo = $velo + 1
-    > Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento, senza battaglio. E un foglio piegato, con tre firme e una frase: *"Chi parte per primo, bussi."* Una delle firme è quella che trovi ogni sera sulla prima pagina del Journal.
+    > Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento, senza battaglio. E un foglio piegato, con tre firme e una frase: *"Chi parte per primo, bussi."* Una delle firme è quella che trovi ogni sera sulla prima pagina del diario.
     block setupEvent next=$hub:
       ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Creepy_Icon}.
   fragment circolo:
@@ -378,7 +378,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **Il Telegrafo dei Morti**
   include CasoGiocatore
   ! **Diario di {$caso} – *1875.***
-  > Nel secondo volume del Journal, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.
+  > Nel secondo volume del diario, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.
 
   > Una batteria di vasi di vetro; chilometri di filo di rame avvolti intorno a un nucleo di ferro dolce; una tastiera di ventisei tasti d'osso; e al centro un ago sospeso in un'ampolla piena di un gas che lui chiama "aria del velo". Secondo i suoi calcoli i morti non parlano: modificano, appena un poco, la corrente. Basta un ago abbastanza sensibile per leggerli.
 
@@ -409,7 +409,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
     block setupEvent next=G2Nebbia:
       ! Gli {icon:Gears_Icon} offerti tornano nella riserva. Chi ha offerto di più guadagna 3VP (in caso di parità, tutti i pari).
   else:
-    > Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva offerti.
+    > Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del diario, e i pezzi tornano a chi li aveva offerti.
 
     > Quella notte i colpi alle pareti sono più lenti del solito, quasi strascicati. Se i morti possono essere delusi, lo sono.
     block setupEvent next=G2Nebbia:
@@ -644,7 +644,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
   [[Ti fai pagare per una seduta che "pulisca" la casa. ~> seduta]]
   fragment notte:
     set velo = $velo + 1
-    > Passi la notte su una sedia, al centro della stanza da letto vuota, con una candela e il Journal. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li trascrivi. All'alba hai tre pagine di lettere che non formano parole, ma che, lette al contrario, formano il nome della via dove sei nato, o nata, tu.
+    > Passi la notte su una sedia, al centro della stanza da letto vuota, con una candela e il diario. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li trascrivi. All'alba hai tre pagine di lettere che non formano parole, ma che, lette al contrario, formano il nome della via dove sei nato, o nata, tu.
     block setupEvent next=$hub:
       ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
   fragment abbatti:
@@ -717,7 +717,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 
     > Madame annuncia che stanotte, con l'aiuto del sangue del fondatore, proverà a evocare lui: l'uomo che per primo scrisse che i veli si sollevano. Il verbale lo redige {$caso}, per volontà della medium, "perché resti scritto da una mano di famiglia".
   else:
-    > Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il Journal aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {$caso}.
+    > Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il diario aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {$caso}.
 
     > Fuori la nebbia preme contro i vetri. Nessuno di loro ha mai condotto una seduta; tutti, però, hanno letto abbastanza per sapere come si fa. È questa, più di tutto il resto, la cosa che fa paura.
 

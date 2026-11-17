@@ -22,7 +22,7 @@
   # **Una lettera del notaio**
   > Una busta dello studio notarile Pell, con il tuo nome scritto a mano, in una grafia così tremante che il postino ha dovuto chiedere due volte l'indirizzo. Dentro, poche righe. Il notaio ti prega, "per il bene della famiglia e in nome dell'amicizia che ha sempre legato le nostre famiglie", di portargli in segreto una cosa dalla tenuta, senza dirlo a nessuno.
   if %L.n% == 1:
-    > *Una pagina del Journal del vecchio, una qualunque, purché scritta nella sua grafia di notte.*
+    > *Una pagina del diario del vecchio, una qualunque, purché scritta nella sua grafia di notte.*
   elif %L.n% == 2:
     > *Un pizzico del sale nuovo che usate in laboratorio, in una carta ben chiusa.*
   elif %L.n% == 3:
@@ -355,7 +355,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 :: G3Statua
   set evStatua = true
   # **La statua**
-  > Per i cinquant'anni dalla posa della prima pietra del manicomio, il consiglio comunale ha deciso di onorare "i benefattori della scienza cittadina", e nella Foundry si sta fondendo una statua di bronzo del vecchio della tenuta: alto, distinto, con il Journal sotto il braccio, come nel ritratto. Il caposquadra ti fa vedere lo stampo con orgoglio. Il comitato, dice, ha pagato con un contributo anonimo molto generoso.
+  > Per i cinquant'anni dalla posa della prima pietra del manicomio, il consiglio comunale ha deciso di onorare "i benefattori della scienza cittadina", e nella Foundry si sta fondendo una statua di bronzo del vecchio della tenuta: alto, distinto, con il diario sotto il braccio, come nel ritratto. Il caposquadra ti fa vedere lo stampo con orgoglio. Il comitato, dice, ha pagato con un contributo anonimo molto generoso.
   ! Che cosa fai?
   [[Contribuisci con $2 al piedistallo. ~> contribuisci]]
   [[Chiedi di cambiare la faccia della statua. ~> faccia]]
@@ -405,7 +405,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
     > L'attore che fa Umber porta il cappotto nero che gli avete regalato. Stasera, dicono, è più bravo che mai.
   ! Che cosa fai?
   [[Resti fino alla fine. ~> resta]]
-  [[Vai dietro le quinte, durante il secondo atto. ~> quinte]]
+  [[Vai dietro le quinte, durante il secondo atto ($2). ~> quinte]]
   fragment resta:
     > Nel terzo atto il dottore insegue il doppio sui tetti, lo raggiunge e gli strappa il cappello. Stasera, sotto il cappello, non c'è la faccia di suo figlio: c'è una faccia vecchia, magra, stanca. L'attore non è mai stato truccato così, giura poi il capocomico. Il notaio Pell, in prima fila, esce prima degli applausi.
     block setupEvent next=$hub:
@@ -426,8 +426,8 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
     > Sulla tomba del vecchio, la lapide è al suo posto, con il nome e le due date. La terra davanti, però, è smossa di fresco, come se qualcuno avesse scavato e richiuso, di notte, con cura.
   > Sulla pietra c'è un mazzetto di violette fresche, legate con lo spago.
   ! Che cosa fai?
-  [[Fai riaprire la tomba. ~> apri]]
-  [[Porti via le violette. ~> violette]]
+  [[Fai riaprire la tomba ($1). ~> apri]]
+  [[Porti via le violette ($1). ~> violette]]
   fragment apri:
     set sospetto = $sospetto + 1
     > Il custode borbotta, ma per un'ora di lavoro e qualche moneta la riapre. La bara è sempre lì, vuota. Sul fondo, però, c'è una cosa che cinquant'anni fa non c'era: un astuccio di cuoio da notaio, vuoto anche lui, con le iniziali raschiate.
@@ -443,7 +443,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **L'offerta dei professori**
   > Il Memorial Institute è tutto vetro e ottone, con i corridoi che sanno di acido fenico e i professori in camice bianco che camminano in fretta, come se qualcuno li inseguisse. Il rettore ti riceve in uno studio pieno di microscopi. Ha davanti a sé un ritaglio di giornale sul sale della tenuta, sottolineato in rosso.
 
-  > Vuole la formula. Vuole gli appunti della famiglia, il Journal, tutto. In cambio offre una cifra che ti fa girare la testa, e una cattedra con il nome del vecchio.
+  > Vuole la formula. Vuole gli appunti della famiglia, il diario, tutto. In cambio offre una cifra che ti fa girare la testa, e una cattedra con il nome del vecchio.
   ! Che cosa fai?
   [[Vendi gli appunti della famiglia. ~> vendi]]
   [[Proponi di lavorare insieme all'antidoto. ~> insieme]]
@@ -600,7 +600,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 
 :: G3DoseEsito
   # **Chi la prende?**
-  ! Chi ha offerto di più *(in caso di parità decide il Primo Giocatore; se nessuno ha offerto niente, nessuno)*?
+  ! Chi ha offerto di più *(in caso di parità vince, tra i pari, il primo in ordine di turno; se nessuno ha offerto niente, nessuno)*?
   [[{$nameA} ~> a]]
   [[{$nameB} ~> b]]
   if $players > 2:

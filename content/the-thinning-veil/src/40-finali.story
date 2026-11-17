@@ -54,7 +54,7 @@
   # **La Voce del Padre**
   ui generationEndingContinue enabled=true
   ! **Lettera di {$winner} al dott. Halász – *1923.***
-  > Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del Journal.
+  > Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del diario.
 
   > Non ci chiese come stavamo. Non ci disse com'era, dall'altra parte. Dettò, e basta: formule, tavole, disegni descritti punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte gli aveva impedito di finire. Alla fine della terza notte l'ago si fermò, tornò al centro e batté un'ultima frase: *"Ora lasciatemi in pace."*
 
@@ -71,7 +71,7 @@
   ! **Lettera di {$winner} al dott. Halász – *1923.***
   > Egregio dottore, la Chiesa ha vinto, e non è stata una vittoria gentile. Il vescovo arrivò a {$townname} nella primavera del 1906 con un decreto, due gendarmi e una lista di nomi. La nostra famiglia era in cima.
 
-  > La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del Journal. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.
+  > La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del diario. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.
 
   > Sulle ceneri il vescovo ha fatto costruire una cappella dedicata alle anime del purgatorio. Ci vado ogni domenica, come tutti. Il parroco dice che le sue pareti sono le più silenziose della diocesi, e ha ragione: lì non bussa mai nessuno.
 

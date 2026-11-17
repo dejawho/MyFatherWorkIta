@@ -9,13 +9,13 @@ table.
 
 ## Page 1: VSPrologo
 
-### Full · `vsprologo.mp3` · 328 words
+### Full · `vsprologo.mp3` · 329 words
 
 > To the heirs of the estate, before they decide.
 >
 > I am sending you my family's Register: three notebooks bound in black cloth, fifty-four years of births, fevers, broken bones and temperatures. My grandmother Hester began it; she was a midwife and was never allowed to call herself a doctor. My father Joost continued it; he was allowed, and never believed in it. I am closing it: I spent four years at the war, and by now I believe almost anything.
 >
-> I do not ask you to believe me. I ask you to count. Count the temperatures that are too low, the recoveries that are too quick, the names that come back twice. Count the people of Brunveen who have stopped dreaming. Then decide.
+> I do not ask you to believe me. I ask you to count. Count the temperatures that are too low, the recoveries that are too quick, the names that come back twice. Count the people of the village who have stopped dreaming. Then decide.
 >
 > Night, a quarter past eleven. On my way back from the miller's wife's lying-in: a boy, healthy. From the dyke road I saw a white light on the tower of the estate, bright as day, with no smoke and no sound. At the same moment, I swear it, another light just like it in the middle of the bog, where there is nothing and no one. They lasted the time of a breath. Then darkness.
 >
@@ -23,13 +23,13 @@ table.
 >
 > The master of the estate died last night: his heart. I was called too late. In his last days he did not sleep and talked a great deal, always about the tower. He gripped my wrist until it hurt: "Something came through. I do not know what. It must go back where it came from." Pastor Kalf says he was raving. I write his words down here because he asked me to, and because nobody else will.
 
-### Easy · `vsprologo-easy.mp3` · 364 words
+### Easy · `vsprologo-easy.mp3` · 365 words
 
 > To the heirs of the estate, before they make their choice.
 >
 > I am sending you my family's Register. It is three notebooks with black cloth covers. Inside are fifty-four years of births, fevers, broken bones and temperatures. My grandmother Hester began it. She was a midwife, and nobody let her call herself a doctor. My father Joost went on with it. He was a real doctor, but he never believed in it. Now I am finishing it. I spent four years in the war, and now I believe almost anything.
 >
-> I do not ask you to believe me. I ask you to count. Count the temperatures that are too low. Count the people who get better too quickly. Count the names that appear twice. Count the people of Brunveen who do not dream any more. Then decide.
+> I do not ask you to believe me. I ask you to count. Count the temperatures that are too low. Count the people who get better too quickly. Count the names that appear twice. Count the people of the village who do not dream any more. Then decide.
 >
 > Night, a quarter past eleven. I was coming back from the miller's house: his wife had a baby boy, healthy. From the road on the dyke I saw a white light on the tower of the estate. It was as bright as day, with no smoke and no noise. At the same moment, I swear it, there was another light just like it in the middle of the bog, where there is nothing and nobody. Both lights lasted only a breath. Then it was dark.
 >
@@ -85,31 +85,31 @@ table.
 
 ## Page 3: VSG2Intro
 
-### Full · `vsg2intro.mp3` · 238 words
+### Full · `vsg2intro.mp3` · 239 words
 
 > I take up my mother's Register, out of respect and out of habit, and with one intention: I shall write in it only what can be measured. My mother was an intelligent woman and an excellent midwife, but in her last years she counted cold hands the way others count rosaries. I studied in the city. Cold hands, in medicine, are called poor circulation.
 >
-> Brunveen is no longer the village I was born in. The wooden houses have been rebuilt in brick, with exposed beams and tiled roofs; the dyke has been raised, the mill rebuilt, the church enlarged. The council has named it the tidiest village in the province three years running. There are no thefts, no debts, no brawls at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.
+> The village is no longer the one I was born in. The wooden houses have been rebuilt in brick, with exposed beams and tiled roofs; the dyke has been raised, the mill rebuilt, the church enlarged. The council has named it the tidiest village in the province three years running. There are no thefts, no debts, no brawls at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.
 >
 > Some families, over the years, have left: the Mulders, the De Graafs, the widow Brink, a dozen in all. They said they no longer felt at home here. Their houses have stayed empty, and nobody buys them; the roofs sag, the windows break, the grass grows on the doorsteps. In so tidy a village, those ruins jar. The mayor has promised to have them pulled down.
 >
 > The old man's grandchildren live at the estate now. The tower is open, the Machine is still there, under a sheet, and nobody knows how to make it work.
 
-### Easy · `vsg2intro-easy.mp3` · 247 words
+### Easy · `vsg2intro-easy.mp3` · 248 words
 
 > I continue my mother's Register, out of respect and out of habit, and with one plan: I will only write things that can be measured. My mother was a clever woman and a very good midwife. But in her last years she counted cold hands the way other people count prayers. I studied in the city. In medicine, cold hands are called bad circulation.
 >
-> Brunveen is not the village where I was born. The wooden houses are now brick houses, with wooden beams and tiled roofs. The dyke is higher, the mill is new, the church is bigger. Three years in a row, the council has given the village the prize for the tidiest village in the province. There are no thieves, no debts and no fights at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.
+> The village is not the one where I was born. The wooden houses are now brick houses, with wooden beams and tiled roofs. The dyke is higher, the mill is new, the church is bigger. Three years in a row, the council has given the village the prize for the tidiest village in the province. There are no thieves, no debts and no fights at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.
 >
 > Over the years some families have left: the Mulders, the De Graafs, the widow Brink, about twelve in all. They said they were not happy here any more. Their houses are still empty, and nobody buys them. The roofs are falling in, the windows are broken, and grass grows on the doorsteps. In such a tidy village, these ruins look wrong. The mayor has promised to knock them down.
 >
 > Now the old man's grandchildren live at the estate. The tower is open. The Machine is still there, under a sheet, and nobody knows how to make it work.
 
-### Short · `vsg2intro-short.mp3` · 133 words
+### Short · `vsg2intro-short.mp3` · 134 words
 
 > I take up my mother's Register, and will write only what can be measured. In her last years she counted cold hands like rosary beads. In medicine, cold hands are poor circulation.
 >
-> Brunveen is not the village I was born in: brick houses, a higher dyke, a new mill, three years the tidiest village in the province. No thefts, no debts, no brawls: nobody goes to the inn. The choir is the best in the diocese.
+> The village is not the one I was born in: brick houses, a higher dyke, a new mill, three years the tidiest village in the province. No thefts, no debts, no brawls: nobody goes to the inn. The choir is the best in the diocese.
 >
 > A dozen families have left over the years, saying they no longer felt at home. Their empty houses are falling down, out of place in so tidy a village. The mayor will have them demolished.
 >
@@ -117,31 +117,31 @@ table.
 
 ## Page 4: VSG3Intro
 
-### Full · `vsg3intro.mp3` · 232 words
+### Full · `vsg3intro.mp3` · 235 words
 
-> I came back to Brunveen in June, after four years in the field hospitals of Flanders, with a suitcase, a medal I did not ask for and grandmother Hester's broken watch in my pocket. My father Joost died last winter, of influenza, with a fever of thirty-nine: they wrote it to me in the telegram, and I was glad of it. He left me his surgery and this Register.
+> I came back to the village in June, after four years in the field hospitals of Flanders, with a suitcase, a medal I did not ask for and grandmother Hester's broken watch in my pocket. My father Joost died last winter, of influenza, with a fever of thirty-nine: they wrote it to me in the telegram, and I was glad of it. He left me his surgery and this Register.
 >
-> Brunveen has become a small town: electric light, the telephone at the Town Hall, a University with three faculties, two newspapers, a cooperative bank. The streets are clean. The inhabitants are kind, healthy, hard-working. It is the quietest place I have ever been, and I have come from the war.
+> The village has become a small town: electric light, the telephone at the Town Hall, a University with three faculties, two newspapers, a cooperative bank. The streets are clean. The inhabitants are kind, healthy, hard-working. It is the quietest place I have ever been, and I have come from the war.
 >
-> The boys who volunteered have almost all come back. That is what worries me. At the front they died in their millions, and forty left Brunveen and thirty-eight came back, healthy, without a scar, without a nightmare. At the station the band was waiting for them, and at the fountain in the square a glass of dark water for each of them, "for welcome home".
+> The boys who volunteered have almost all come back. That is what worries me. At the front they died in their millions, and forty left the village and thirty-eight came back, healthy, without a scar, without a nightmare. At the station the band was waiting for them, and at the fountain in the square a glass of dark water for each of them, "for welcome home".
 >
 > The heirs of the estate have come back too. Tomorrow I will call on them, one by one, and sign a certificate of good health for each. The council requires it for all returning soldiers. I will sign it only after I have measured.
 
-### Easy · `vsg3intro-easy.mp3` · 245 words
+### Easy · `vsg3intro-easy.mp3` · 248 words
 
-> I came back to Brunveen in June, after four years in the field hospitals of Flanders. I brought a suitcase, a medal I did not ask for, and grandmother Hester's broken watch in my pocket. My father Joost died last winter of influenza, with a fever of thirty-nine degrees. The telegram told me so, and I was glad. He left me his surgery and this Register.
+> I came back to the village in June, after four years in the field hospitals of Flanders. I brought a suitcase, a medal I did not ask for, and grandmother Hester's broken watch in my pocket. My father Joost died last winter of influenza, with a fever of thirty-nine degrees. The telegram told me so, and I was glad. He left me his surgery and this Register.
 >
-> Brunveen is a small town now. It has electric light, a telephone at the Town Hall, a University with three departments, two newspapers and a cooperative bank. The streets are clean. The people are kind, healthy and hard-working. It is the quietest place I have ever been to, and I have just come back from the war.
+> The village is a small town now. It has electric light, a telephone at the Town Hall, a University with three departments, two newspapers and a cooperative bank. The streets are clean. The people are kind, healthy and hard-working. It is the quietest place I have ever been to, and I have just come back from the war.
 >
-> Almost all the young men who went as volunteers have come back. That is what worries me. At the front millions died. Forty left Brunveen, and thirty-eight came back, healthy, with no scars and no bad dreams. The band was waiting for them at the station, and at the fountain in the square there was a glass of dark water for each of them, "to say welcome home".
+> Almost all the young men who went as volunteers have come back. That is what worries me. At the front millions died. Forty left the village, and thirty-eight came back, healthy, with no scars and no bad dreams. The band was waiting for them at the station, and at the fountain in the square there was a glass of dark water for each of them, "to say welcome home".
 >
 > The heirs of the estate have come back too. Tomorrow I will visit them, one by one, and sign a certificate of good health for each of them. The council asks for one for everyone back from the war. I will only sign it after I have taken their temperature.
 
-### Short · `vsg3intro-short.mp3` · 132 words
+### Short · `vsg3intro-short.mp3` · 134 words
 
-> Back in Brunveen after four years in the field hospitals of Flanders, with grandmother Hester's broken watch. My father died last winter with a fever of thirty-nine: I was glad. He left me this Register.
+> Back in the village after four years in the field hospitals of Flanders, with grandmother Hester's broken watch. My father died last winter with a fever of thirty-nine: I was glad. He left me this Register.
 >
-> Brunveen is a town now: electric light, a University, two newspapers. Clean streets, kind and healthy people. The quietest place I have ever known, and I have come from the war.
+> The village is a town now: electric light, a University, two newspapers. Clean streets, kind and healthy people. The quietest place I have ever known, and I have come from the war.
 >
 > Forty left for the war and thirty-eight came back, without a scar or a nightmare. Millions died out there. At the station, the band; at the fountain, a glass of dark water each, "for welcome home".
 >

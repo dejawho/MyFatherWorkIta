@@ -269,11 +269,11 @@ cuo2%L% = 0
   set tkOccult = true
   # **Il libro dei morti**
   if $round <= 3:
-    > Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.
+    > Una mattina apri il diario e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.
   elif $round <= 6:
-    > Il secondo volume del Journal ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.
+    > Il secondo volume del diario ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.
   else:
-    > Tra le pagine del Journal, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.
+    > Tra le pagine del diario, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.
   ! Che cosa fai?
   [[Correggi l'errore sulla pagina. ~> correggi]]
   [[Strappi la pagina e la bruci. ~> strappa]]
@@ -283,7 +283,7 @@ cuo2%L% = 0
     block setupEvent next=$hub:
       ! Pesca un Esperimento dal mazzo che preferisci. Rimetti il token {icon:StorybookToken} nella riserva.
   fragment strappa:
-    > La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel Journal, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *"Peccato. Un'altra volta."* Ma la formula, quella giusta, ormai l'hai capita da te.
+    > La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel diario, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *"Peccato. Un'altra volta."* Ma la formula, quella giusta, ormai l'hai capita da te.
     block setupEvent next=$hub:
       ! Guadagni 2VP. Rimetti il token {icon:StorybookToken} nella riserva.
 

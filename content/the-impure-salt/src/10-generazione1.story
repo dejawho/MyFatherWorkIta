@@ -8,7 +8,7 @@
   ! **Verbale della lettura del testamento – notaio Silas Pell, *marzo 1861.***
   > Gli eredi si sono riuniti nella biblioteca della tenuta il giorno dopo la sepoltura, alle cinque del pomeriggio. Le tende erano tirate, come sempre in quella casa; il caminetto era spento, e nessuno ha chiesto di accenderlo. Il sottoscritto ha rotto i sigilli in presenza di tutti e ha dato lettura del documento, scritto di pugno dal defunto due anni or sono.
 
-  > La tenuta, con il laboratorio, gli strumenti, gli animali e i debiti, va in parti uguali ai figli. Il Journal va a chi saprà leggerlo. Fin qui, niente di strano.
+  > La tenuta, con il laboratorio, gli strumenti, gli animali e i debiti, va in parti uguali ai figli. Il diario va a chi saprà leggerlo. Fin qui, niente di strano.
 
   > Segue una clausola, che il sottoscritto ha dovuto leggere due volte, a richiesta dei presenti: *"Se io dovessi sparire senza spiegazione, o morire in circostanze che il mio notaio giudichi dubbie, tutto il resto dei miei beni, il denaro in banca, le azioni e la chiave dello studio sul vicolo, vada al mio amico Mr. Umber, che saprà farne buon uso."*
 
@@ -16,7 +16,7 @@
 
   > Il sottoscritto annota che il defunto è morto nel suo letto, di febbre, assistito dal medico condotto: le circostanze non sono dubbie. Il sottoscritto, tuttavia, non consegnerà niente a nessuno finché questo Mr. Umber non si presenterà nel suo studio, di persona e in pieno giorno.
 
-  > Prima di congedarsi, il sottoscritto ha consegnato a ciascuno degli eredi una pagina del Journal, staccata e sigillata, con il suo nome scritto sopra dal defunto. Erano nel testamento anch'esse.
+  > Prima di congedarsi, il sottoscritto ha consegnato a ciascuno degli eredi una pagina del diario, staccata e sigillata, con il suo nome scritto sopra dal defunto. Erano nel testamento anch'esse.
   [[Clicca per continuare... ~> 0]]
   fragment 0:
     block setupEvent next=G1JournalA:
@@ -30,8 +30,8 @@
   if %L.n% > $players:
     goto G1JournalFine
   @@ **Passa lo Storybook a {$name%L%}.**
-  # **Una pagina del Journal**
-  ! **Con il tuo nome sopra, nella mano di tuo padre.**
+  # **Una pagina del diario**
+  ! **C'è sopra il tuo nome, scritto da tuo padre.**
   if %L.n% == 1:
     > *Sale di Lomax, la prima partita, e nessun'altra. Sciolto in un bicchiere d'acqua di pozzo: rosso, poi viola, poi verde. Una sola sorsata, a stomaco vuoto.*
 
@@ -52,7 +52,7 @@
   [[La tieni per te, tra le tue carte. ~> tieni]]
   [[La leggi ad alta voce a tutti, a colazione. ~> leggi]]
   fragment tieni:
-    > Pieghi la pagina in quattro e la infili tra le tue carte. È tua, dopotutto: c'è il tuo nome sopra, nella mano di tuo padre. Agli altri racconterai quello che vorrai, quando vorrai.
+    > Pieghi la pagina in quattro e la infili tra le tue carte. È tua, dopotutto: c'è il tuo nome sopra, scritto da tuo padre. Agli altri racconterai quello che vorrai, quando vorrai.
     block setupEvent next=G1Journal%L.next%:
       ! Guadagni 1 Conoscenza Chimica (Chemistry Knowledge). Puoi raccontare agli altri quello che hai letto, tutto, in parte o per niente.
   fragment leggi:
@@ -336,7 +336,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **Le boccette**
   include CasoGiocatore
   ! **Diario di {$caso} – *1862.***
-  > Oggi, nel laboratorio, il pavimento ha ceduto sotto il mio piede: una tavola smossa accanto alla stufa, che qualcuno aveva rimesso a posto con troppa cura. Sotto c'era una cassetta di zinco, e nella cassetta sei boccette di vetro scuro, chiuse con la ceralacca. Sale bianco, fine come zucchero, con un riflesso giallognolo quando lo si guarda controluce. Sull'etichetta: *Farmacia Lomax – prima partita*. Legato alla cassetta con lo spago, un biglietto nella mano di nostro padre: *Una sola sorsata. Poi la porta.*
+  > Oggi, nel laboratorio, il pavimento ha ceduto sotto il mio piede: una tavola smossa accanto alla stufa, che qualcuno aveva rimesso a posto con troppa cura. Sotto c'era una cassetta di zinco, e nella cassetta sei boccette di vetro scuro, chiuse con la ceralacca. Sale bianco, fine come zucchero, con un riflesso giallognolo quando lo si guarda controluce. Sull'etichetta: *Farmacia Lomax – prima partita*. Legato alla cassetta con lo spago, un biglietto scritto da nostro padre: *Una sola sorsata. Poi la porta.*
 
   > Non abbiamo ancora deciso che cosa farne. Nel frattempo, al villaggio, il fornaio si è presentato a riscuotere un assegno firmato da nostro padre, con la data della settimana scorsa: più di un anno dopo il funerale. Gliel'ha dato un piccolo uomo con un cappotto nero troppo largo, che ha comprato tutto il pane della bottega e l'ha buttato nel fiume, una pagnotta alla volta, ridendo.
 
@@ -720,7 +720,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
   block hubTitle:
     ! **Fine della Generazione**
   block hubDetails:
-    > L'Ispettore Haskett ha fatto venire dalla capitale un perito calligrafo, un ometto con gli occhiali spessi e una valigia piena di lenti. Ha chiesto alla famiglia una lettera di ciascuno, e di poter vedere il Journal del padre, alla tenuta, davanti al notaio.
+    > L'Ispettore Haskett ha fatto venire dalla capitale un perito calligrafo, un ometto con gli occhiali spessi e una valigia piena di lenti. Ha chiesto alla famiglia una lettera di ciascuno, e di poter vedere il diario del padre, alla tenuta, davanti al notaio.
   [[Clicca qui alla Fine della Generazione per continuare... ~> 0]]
   fragment 0:
     ui endOfRound progress="G1R3" next="G1Perizia"
@@ -736,7 +736,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   # **La fucina di notte**
   > La fucina è chiusa, ma dentro c'è luce. Il fabbro dorme sul banco, con la testa tra le braccia. Accanto al fuoco, seduto su un'incudine come su un trono, c'è un piccolo uomo con il cappotto nero troppo largo. Si scalda le mani e ti sorride, come se ti aspettasse da anni.
 
-  > "Finalmente qualcuno di famiglia", dice. Ha una voce giovane e una risata vecchia. Dalla tasca tira fuori una pagina strappata dal Journal, fitta di formule. "Questa è tua. Te la do in cambio di una firma: un assegno in bianco, con il tuo nome. Non ti costerà niente. Non subito."
+  > "Finalmente qualcuno di famiglia", dice. Ha una voce giovane e una risata vecchia. Dalla tasca tira fuori una pagina strappata dal diario, fitta di formule. "Questa è tua. Te la do in cambio di una firma: un assegno in bianco, con il tuo nome. Non ti costerà niente. Non subito."
   ! Che cosa fai?
   [[Firmi. ~> firma]]
   [[Gli salti addosso. ~> salta]]
@@ -812,11 +812,11 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G1Perizia
   # **La perizia**
   ! **Rapporto del perito calligrafo all'Ispettore Haskett – *1877.***
-  > Come da Vostra richiesta, il sottoscritto ha esaminato i ventitré assegni raccolti presso le botteghe del villaggio negli ultimi sedici anni, firmati con nomi diversi, e li ha confrontati con le lettere degli eredi della tenuta e con il Journal del loro defunto padre.
+  > Come da Vostra richiesta, il sottoscritto ha esaminato i ventitré assegni raccolti presso le botteghe del villaggio negli ultimi sedici anni, firmati con nomi diversi, e li ha confrontati con le lettere degli eredi della tenuta e con il diario del loro defunto padre.
 
-  > Le conclusioni sono le seguenti. Primo: gli assegni sono stati scritti tutti dalla stessa mano. Secondo: quella mano non è di nessuno degli eredi, le cui scritture sono, ai fini di questa perizia, sorprendentemente innocue. Terzo: quella mano è la stessa del Journal.
+  > Le conclusioni sono le seguenti. Primo: gli assegni sono stati scritti tutti dalla stessa mano. Secondo: quella mano non è di nessuno degli eredi, le cui scritture sono, ai fini di questa perizia, sorprendentemente innocue. Terzo: quella mano è la stessa del diario.
 
-  > La pressione della penna, la *g* chiusa come un nodo, la firma che risale verso destra: tutto coincide, tranne l'inclinazione. Nel Journal la scrittura pende in avanti, come quella di ogni persona per bene; negli assegni pende all'indietro. Il sottoscritto ha visto una cosa simile una volta sola, in un uomo che aveva imparato a scrivere con la sinistra dopo aver perso la destra.
+  > La pressione della penna, la *g* chiusa come un nodo, la firma che risale verso destra: tutto coincide, tranne l'inclinazione. Nel diario la scrittura pende in avanti, come quella di ogni persona per bene; negli assegni pende all'indietro. Il sottoscritto ha visto una cosa simile una volta sola, in un uomo che aveva imparato a scrivere con la sinistra dopo aver perso la destra.
   if $patto > 0:
     set sospetto = $sospetto + $patto
     > Il sottoscritto segnala un'eccezione. Tra gli assegni più recenti ce n'è uno compilato dalla solita mano, ma firmato davvero da un erede, con la sua grafia e la sua inclinazione. Qualcuno, in famiglia, ha firmato per lui.
@@ -845,13 +845,13 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   ui specialEvent
   if $haskett < 0:
     set sospetto = $sospetto + 1
-    > L'Ispettore Haskett vi lascia una notte per decidere, e due guardie davanti al cancello. Si ricorda di ogni bugia che le avete detto. Senza il Journal non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il Journal, avrà un mandato di cattura per un uomo morto.
+    > L'Ispettore Haskett vi lascia una notte per decidere, e due guardie davanti al cancello. Si ricorda di ogni bugia che le avete detto. Senza il diario non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il diario, avrà un mandato di cattura per un uomo morto.
   else:
-    > L'Ispettore Haskett vi lascia una notte per decidere. Senza il Journal non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il Journal, avrà un mandato di cattura per un uomo morto.
+    > L'Ispettore Haskett vi lascia una notte per decidere. Senza il diario non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il diario, avrà un mandato di cattura per un uomo morto.
   if $haskett > 1:
     > Prima di andarsene vi stringe la mano, a uno a uno. "Vi ho chiesto la verità, e me l'avete data", dice. "Qualunque cosa decidiate, non lo dimenticherò."
   ! Ogni giocatore prende un Voting token e sceglie in segreto. Quando tutti hanno scelto, rivelate insieme i voti.
-  ! YAY: consegnate all'Ispettore il Journal del padre.
+  ! YAY: consegnate all'Ispettore il diario del padre.
   ! NAY: lo bruciate, e il padre resta morto per tutti.
   ! Contate i voti *(in caso di parità decide il Primo Giocatore)*.
   [[Clicca per iniziare la votazione... ~> 0]]
@@ -862,7 +862,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   # **La votazione è chiusa**
   ! **Scegliete il risultato della votazione:**
   [[Il padre viene denunciato. (YAY) ~> denuncia]]
-  [[Il Journal brucia. (NAY) ~> copre]]
+  [[Il diario brucia. (NAY) ~> copre]]
   fragment denuncia:
     set umber = "braccato"
     set sospetto = $sospetto - 2
@@ -904,7 +904,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 
     > Nell'inverno del 1879, sul ponte, trovano un cappotto nero troppo largo, piegato con cura, con le tasche piene di etichette della farmacia Lomax. Del padre, nient'altro.
   else:
-    > Il Journal brucia nel caminetto della biblioteca, una pagina alla volta, mentre l'Ispettore aspetta in carrozza fuori dal cancello. Quando la famiglia le dice che il quaderno è andato perduto anni fa, lei scrive qualcosa sul taccuino e non insiste.
+    > Il diario brucia nel caminetto della biblioteca, una pagina alla volta, mentre l'Ispettore aspetta in carrozza fuori dal cancello. Quando la famiglia le dice che il quaderno è andato perduto anni fa, lei scrive qualcosa sul taccuino e non insiste.
 
     > L'ultima pagina, sollevata dal calore, vola su per la cappa del camino prima che qualcuno riesca ad afferrarla. Il mattino dopo la trova il fornaio, nella grondaia, e la riporta alla tenuta. È bianca. Sul retro, nella grafia inclinata all'indietro, c'è una sola parola: *grazie*.
   ! **Nota del notaio Ezra Pell.**

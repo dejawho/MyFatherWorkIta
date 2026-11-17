@@ -22,9 +22,9 @@
   "easy": "All'inizio senti solo un brusio, come tante persone in una stanza della casa accanto. Poi capisci le parole. Poi senti le voci: una vecchia che cerca un anello, un bambino che conta fino a cento e ricomincia, un uomo che ripete sempre lo stesso indirizzo. Nessuno di loro sembra sapere di essere morto.",
   "short": "Prima un brusio, poi le voci: una vecchia che cerca un anello, un bambino che conta, un uomo che ripete un indirizzo. Nessuno sa di essere morto."
  },
- "Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.": {
-  "easy": "Una mattina apri il Journal e trovi una pagina che non hai scritto tu. La scrittura è inclinata all'indietro e l'inchiostro è ancora bagnato. La formula sulla pagina ha un solo errore, come se chi l'ha scritta volesse vedere se te ne accorgi.",
-  "short": "Nel Journal c'è una pagina che non hai scritto, con l'inchiostro ancora fresco e un solo errore, come una prova."
+ "Una mattina apri il diario e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.": {
+  "easy": "Una mattina apri il diario e trovi una pagina che non hai scritto tu. La scrittura è inclinata all'indietro e l'inchiostro è ancora bagnato. La formula sulla pagina ha un solo errore, come se chi l'ha scritta volesse vedere se te ne accorgi.",
+  "short": "Nel diario c'è una pagina che non hai scritto, con l'inchiostro ancora fresco e un solo errore, come una prova."
  },
  "Te ne accorgi. Sotto la correzione, qualcuno ha aggiunto una parola sola: *\"Bene.\"*": {
   "easy": "Te ne accorgi. Sotto la tua correzione qualcuno ha scritto una sola parola: *\"Bene.\"*"
@@ -37,9 +37,9 @@
   "easy": "Il padre fu sepolto il giorno dei morti, sotto una pioggia leggera. Molte persone del villaggio vennero al cimitero, ma restarono dietro il muretto: nessuno volle avvicinarsi alla tomba, e il becchino lavorò in fretta senza guardare dentro. Si diceva che negli ultimi anni il vecchio fosse rimasto chiuso nella tenuta, con macchine che facevano rumore di notte. A volte, dalle finestre del suo laboratorio, usciva una luce di un colore strano, che nessuno sapeva descrivere.",
   "short": "Il padre fu sepolto il giorno dei morti. Il villaggio restò dietro il muretto del cimitero: si diceva che il vecchio lavorasse di notte a macchine che ronzavano, tra luci di un colore senza nome."
  },
- "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:": {
-  "easy": "Gli eredi erano arrivati la sera prima con la diligenza. Ognuno veniva da una città diversa, con un baule e la stessa lettera del notaio. Ora la tenuta era loro, e anche i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno di pelle pieno di appunti, disegni e formule. Sull'ultima pagina c'era una sola frase, sottolineata due volte, così forte che la penna aveva tagliato la carta:",
-  "short": "Gli eredi ricevettero la tenuta, i debiti, il laboratorio e il Journal del padre. Sull'ultima pagina, una frase sottolineata fino a incidere la carta:"
+ "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il diario del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:": {
+  "easy": "Gli eredi erano arrivati la sera prima con la diligenza. Ognuno veniva da una città diversa, con un baule e la stessa lettera del notaio. Ora la tenuta era loro, e anche i debiti, gli strumenti, gli animali nelle gabbie e il diario del padre: un quaderno di pelle pieno di appunti, disegni e formule. Sull'ultima pagina c'era una sola frase, sottolineata due volte, così forte che la penna aveva tagliato la carta:",
+  "short": "Gli eredi ricevettero la tenuta, i debiti, il laboratorio e il diario del padre. Sull'ultima pagina, una frase sottolineata fino a incidere la carta:"
  },
  "Padre Anzelm benedisse la salma, chiuse il libro delle preghiere e disse agli eredi, a voce abbastanza alta perché lo sentissero tutti, che avrebbe pregato per la loro anima con particolare impegno.": {
   "easy": "Padre Anzelm benedisse il corpo e chiuse il libro delle preghiere. Poi disse agli eredi, abbastanza forte perché tutti sentissero, che avrebbe pregato molto per la loro anima.",
@@ -57,16 +57,16 @@
   "easy": "Nella sua biblioteca ho visto un libretto francese sui tavolini che parlano: un colpo vuol dire sì, due vogliono dire no. Me lo ricordo adesso, al buio, e vorrei non ricordarlo.",
   "short": "Ricordo un libretto della sua biblioteca: un colpo per sì, due per no. Vorrei non ricordarlo."
  },
- "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il Journal aperto sul cuscino, a una pagina che non ricordo di aver mai letto.": {
-  "easy": "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul mobile. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. La mattina ho le dita addormentate e il Journal è aperto sul cuscino, su una pagina che non ricordo di aver mai letto.",
-  "short": "Chiedo se è lui: un colpo. Se è in pace: due colpi, fortissimi. Al mattino il Journal è aperto sul cuscino, a una pagina che non ho mai letto."
+ "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il diario aperto sul cuscino, a una pagina che non ricordo di aver mai letto.": {
+  "easy": "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul mobile. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. La mattina ho le dita addormentate e il diario è aperto sul cuscino, su una pagina che non ricordo di aver mai letto.",
+  "short": "Chiedo se è lui: un colpo. Se è in pace: due colpi, fortissimi. Al mattino il diario è aperto sul cuscino, a una pagina che non ho mai letto."
  },
  "Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per scrupolo, anche me.": {
   "easy": "Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per sicurezza, anche me.",
   "short": "Mando a chiamare Padre Anzelm. Arriva in camicia da notte e benedice la parete, il letto e, per scrupolo, anche me."
  },
- "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il Journal aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità.": {
-  "easy": "I colpi si fermano subito. Ma il prete resta sulla porta più del necessario e si guarda intorno: le gabbie, gli strumenti di vetro, il Journal aperto sul tavolo. Prima di andare via mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Sembra più un anticipo che un aiuto.",
+ "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il diario aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità.": {
+  "easy": "I colpi si fermano subito. Ma il prete resta sulla porta più del necessario e si guarda intorno: le gabbie, gli strumenti di vetro, il diario aperto sul tavolo. Prima di andare via mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Sembra più un anticipo che un aiuto.",
   "short": "I colpi tacciono. Il prete si guarda a lungo intorno, poi mi lascia qualche moneta \"per le spese di casa\". Sembra un acconto."
  },
  "Mi infilo sotto le coperte e premo il cuscino sulle orecchie, come da bambini durante i temporali. I colpi continuano a lungo, attutiti, e a un certo punto mi sembra che si spostino: dalla parete al pavimento, dal pavimento alla testiera, a un palmo dal mio orecchio. Poi, finalmente, smettono.": {
@@ -136,9 +136,9 @@
  "Qualcuno nel villaggio scrive lettere, e non le firma. Le buste arrivano senza francobollo, e nessuno le ha viste arrivare.": {
   "easy": "Qualcuno nel villaggio scrive lettere senza firmarle. Le buste arrivano senza francobollo, e nessuno le vede arrivare."
  },
- "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.": {
-  "easy": "Negli anni della maturità la famiglia riceve lettere che il postino non ha mai portato. Le lettere appaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nella scrivania. Sono buste di carta pesante, senza indirizzo e senza firma, chiuse con ceralacca nera. Nella ceralacca c'è il disegno di un occhio aperto.",
-  "short": "Arrivano lettere che nessuno ha consegnato, perfino dentro il Journal chiuso a chiave. Nessun indirizzo, nessuna firma: solo un occhio aperto nella ceralacca nera."
+ "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il diario del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.": {
+  "easy": "Negli anni della maturità la famiglia riceve lettere che il postino non ha mai portato. Le lettere appaiono sotto la porta, nel cestino del pane, una volta perfino dentro il diario del padre, chiuso a chiave nella scrivania. Sono buste di carta pesante, senza indirizzo e senza firma, chiuse con ceralacca nera. Nella ceralacca c'è il disegno di un occhio aperto.",
+  "short": "Arrivano lettere che nessuno ha consegnato, perfino dentro il diario chiuso a chiave. Nessun indirizzo, nessuna firma: solo un occhio aperto nella ceralacca nera."
  },
  "Dentro, ogni volta, poche righe in una calligrafia elegante e antiquata. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce i loro lavori, ammira il loro coraggio e desidera incontrarli, uno per uno, in un luogo discreto. Basterà presentarsi all'indirizzo indicato e pronunciare la parola giusta.": {
   "easy": "Dentro ci sono sempre poche righe, scritte con una calligrafia elegante e antica. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce il loro lavoro, ammira il loro coraggio e vuole incontrarli, uno alla volta, in un posto riservato. Basta andare all'indirizzo indicato e dire la parola giusta.",
@@ -204,9 +204,9 @@
   "easy": "Scrive anche, meno contento, che nessuno di quei funerali si poté fare dopo il tramonto: quando faceva buio, gli uomini non volevano più sollevare la bara. Dicevano che dentro qualcuno bussava.",
   "short": "Ma nessun funerale si poté fare dopo il tramonto: al buio, i portatori sentivano bussare dentro la bara."
  },
- "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del Journal, che nel frattempo era diventato due volumi e mezzo.": {
-  "easy": "La seconda cassa salta avanti di diciassette anni. Le carte della prima generazione finiscono nel 1856. Le altre cominciano nella primavera del 1873, quando i figli degli eredi presero la tenuta, il laboratorio e il Journal, che ormai era lungo due volumi e mezzo.",
-  "short": "La seconda cassa riparte nel 1873: i figli degli eredi prendono la tenuta, il laboratorio e il Journal, ormai di due volumi e mezzo."
+ "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del diario, che nel frattempo era diventato due volumi e mezzo.": {
+  "easy": "La seconda cassa salta avanti di diciassette anni. Le carte della prima generazione finiscono nel 1856. Le altre cominciano nella primavera del 1873, quando i figli degli eredi presero la tenuta, il laboratorio e il diario, che ormai era lungo due volumi e mezzo.",
+  "short": "La seconda cassa riparte nel 1873: i figli degli eredi prendono la tenuta, il laboratorio e il diario, ormai di due volumi e mezzo."
  },
  "Il villaggio era cresciuto. Al posto delle case di legno c'erano case a graticcio con le travi dipinte, una strada lastricata, un ufficio postale, due locande e un medico. Il parroco era sempre Padre Anzelm, più vecchio e più magro, ma non meno ostinato. E c'era, scrive uno dei nuovi eredi in una lettera alla sorella, \"questa cosa che qui chiamano il velo, come se fosse un fatto del tempo, come la pioggia o la nebbia\".": {
   "easy": "Il villaggio era più grande. Al posto delle case di legno c'erano case con le travi dipinte, una strada di pietra, un ufficio postale, due locande e un medico. Il parroco era ancora Padre Anzelm, più vecchio e più magro, ma testardo come prima. E c'era, scrive uno dei nuovi eredi alla sorella, \"questa cosa che qui chiamano il velo, come se fosse il tempo che fa, come la pioggia o la nebbia\".",
@@ -315,8 +315,8 @@
  "Ognuno ha sentito qualcosa. Nessuno sa che cosa abbiano sentito gli altri. E tutti, almeno per un momento, hanno pensato di mentire.": {
   "easy": "Ognuno ha sentito qualcosa. Nessuno sa che cosa hanno sentito gli altri. E tutti, almeno per un momento, hanno pensato di dire una bugia."
  },
- "Nel secondo volume del Journal, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.": {
-  "easy": "Nel secondo volume del Journal, tra una ricetta e un conto del fabbro, c'è il disegno di una macchina per parlare con i morti."
+ "Nel secondo volume del diario, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.": {
+  "easy": "Nel secondo volume del diario, tra una ricetta e un conto del fabbro, c'è il disegno di una macchina per parlare con i morti."
  },
  "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, più in fretta di quanto dovrebbero: i muratori dicono che di notte qualcuno lavora al posto loro, e che al mattino trovano le pietre già squadrate.": {
   "easy": "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, troppo in fretta: i muratori dicono che di notte qualcuno lavora al posto loro, e che la mattina trovano le pietre già tagliate.",
@@ -333,9 +333,9 @@
  "Quella notte, per la prima volta da mesi, nella tua camera non bussa nessuno, e dormi fino a giorno fatto.": {
   "easy": "Quella notte, per la prima volta da mesi, nessuno bussa nella tua camera, e dormi fino a giorno pieno."
  },
- "Nel secondo volume del Journal, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.": {
-  "easy": "Nel secondo volume del Journal, tra una ricetta per conservare i tessuti e un conto del fabbro, ho trovato il progetto. Sono tre disegni fatti a inchiostro, con una cura che il nonno non metteva in nient'altro. Lo chiama **Telegrafo dei Morti**.",
-  "short": "Nel Journal ho trovato il progetto del nonno, disegnato con una cura rara: il **Telegrafo dei Morti**."
+ "Nel secondo volume del diario, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.": {
+  "easy": "Nel secondo volume del diario, tra una ricetta per conservare i tessuti e un conto del fabbro, ho trovato il progetto. Sono tre disegni fatti a inchiostro, con una cura che il nonno non metteva in nient'altro. Lo chiama **Telegrafo dei Morti**.",
+  "short": "Nel diario ho trovato il progetto del nonno, disegnato con una cura rara: il **Telegrafo dei Morti**."
  },
  "Una batteria di vasi di vetro; chilometri di filo di rame avvolti intorno a un nucleo di ferro dolce; una tastiera di ventisei tasti d'osso; e al centro un ago sospeso in un'ampolla piena di un gas che lui chiama \"aria del velo\". Secondo i suoi calcoli i morti non parlano: modificano, appena un poco, la corrente. Basta un ago abbastanza sensibile per leggerli.": {
   "easy": "Ci sono vasi di vetro collegati tra loro, chilometri di filo di rame avvolti intorno a un pezzo di ferro, una tastiera di ventisei tasti d'osso. Al centro c'è un ago dentro un'ampolla piena di un gas che lui chiama \"aria del velo\". Secondo i suoi calcoli i morti non parlano: cambiano, di pochissimo, la corrente elettrica. Basta un ago molto sensibile per leggerli.",
@@ -353,8 +353,8 @@
   "easy": "Non trema per la corrente: si muove più lento e più deciso, come un dito che cerca una lettera su una tastiera. Si ferma su un tasto d'osso. Poi su un altro. Prima che qualcuno riesca a leggere la parola, salta un fusibile, e al buio, per un momento, qualcuno ride.",
   "short": "L'ago cerca le lettere, tasto dopo tasto. Prima che si legga la parola salta un fusibile, e nel buio qualcuno ride."
  },
- "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva offerti.": {
-  "easy": "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva dati.",
+ "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del diario, e i pezzi tornano a chi li aveva offerti.": {
+  "easy": "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del diario, e i pezzi tornano a chi li aveva dati.",
   "short": "Gli ingranaggi non bastano. Il progetto torna nel cassetto."
  },
  "Quella notte i colpi alle pareti sono più lenti del solito, quasi strascicati. Se i morti possono essere delusi, lo sono.": {
@@ -411,8 +411,8 @@
   "easy": "Madame dice che stanotte, con l'aiuto del sangue del fondatore, proverà a chiamare lui: l'uomo che per primo scrisse che i veli si sollevano. Il verbale lo scrive {0}, perché la medium lo vuole: \"così resta scritto da una mano di famiglia\".",
   "short": "Madame proverà a evocare il fondatore, con l'aiuto del suo sangue. Il verbale lo scrive {0}, \"una mano di famiglia\"."
  },
- "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il Journal aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}.": {
-  "easy": "Non c'è una medium, quindi la famiglia fa da sola. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti sul magnetismo. Il Journal è aperto sull'ultima pagina e c'è una sedia vuota a capotavola. Il verbale lo scrive {0}.",
+ "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il diario aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}.": {
+  "easy": "Non c'è una medium, quindi la famiglia fa da sola. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti sul magnetismo. Il diario è aperto sull'ultima pagina e c'è una sedia vuota a capotavola. Il verbale lo scrive {0}.",
   "short": "Senza medium, gli eredi si siedono da soli intorno al vecchio tavolino del laboratorio, con una sedia vuota a capotavola. Il verbale lo scrive {0}."
  },
  "Fuori la nebbia preme contro i vetri. Nessuno di loro ha mai condotto una seduta; tutti, però, hanno letto abbastanza per sapere come si fa. È questa, più di tutto il resto, la cosa che fa paura.": {
@@ -726,9 +726,9 @@
  "E certe notti, ancora oggi, alla tenuta qualcuno bussa. Un colpo, poi due, poi uno.": {
   "easy": "E alcune notti, ancora oggi, qualcuno bussa alla tenuta. Un colpo, poi due, poi uno."
  },
- "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del Journal.": {
-  "easy": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più veloce di quanto riuscissimo a scrivere, e ci davamo il cambio al tavolo ogni due ore, con le dita nere d'inchiostro. Era lui, senza dubbio: le stesse abbreviazioni, gli stessi errori, la stessa impazienza del Journal.",
-  "short": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti, e trascrivemmo a turni. Era lui: gli stessi errori, la stessa impazienza del Journal."
+ "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del diario.": {
+  "easy": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più veloce di quanto riuscissimo a scrivere, e ci davamo il cambio al tavolo ogni due ore, con le dita nere d'inchiostro. Era lui, senza dubbio: le stesse abbreviazioni, gli stessi errori, la stessa impazienza del diario.",
+  "short": "Egregio dottore, il Telegrafo batté per tre giorni e tre notti, e trascrivemmo a turni. Era lui: gli stessi errori, la stessa impazienza del diario."
  },
  "Non ci chiese come stavamo. Non ci disse com'era, dall'altra parte. Dettò, e basta: formule, tavole, disegni descritti punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte gli aveva impedito di finire. Alla fine della terza notte l'ago si fermò, tornò al centro e batté un'ultima frase: *\"Ora lasciatemi in pace.\"*": {
   "easy": "Non ci chiese come stavamo. Non ci disse com'era dall'altra parte. Dettò, e basta: formule, tabelle, disegni spiegati punto per punto. Era l'ultima parte del suo Masterwork, quella che la morte non gli aveva lasciato finire. Alla fine della terza notte l'ago si fermò, tornò al centro e scrisse un'ultima frase: *\"Ora lasciatemi in pace.\"*",
@@ -742,8 +742,8 @@
   "easy": "Egregio dottore, ha vinto la Chiesa, e non è stata una vittoria gentile. Il vescovo arrivò a {0} nella primavera del 1906 con un decreto, due gendarmi e una lista di nomi. Il nome della nostra famiglia era il primo.",
   "short": "Egregio dottore, ha vinto la Chiesa. Il vescovo arrivò nel 1906 con una lista di nomi, e il nostro era il primo."
  },
- "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del Journal. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.": {
-  "easy": "La sede del Circolo bruciò la notte di Pentecoste. In qualche modo il fuoco passò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio e i volumi del Journal. Il Telegrafo, mentre si scioglieva, fece un rumore che i pompieri descrissero come un lamento.",
+ "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del diario. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.": {
+  "easy": "La sede del Circolo bruciò la notte di Pentecoste. In qualche modo il fuoco passò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio e i volumi del diario. Il Telegrafo, mentre si scioglieva, fece un rumore che i pompieri descrissero come un lamento.",
   "short": "A Pentecoste bruciò il Circolo, e il fuoco raggiunse la tenuta. Il Telegrafo si sciolse con un lamento."
  },
  "Sulle ceneri il vescovo ha fatto costruire una cappella dedicata alle anime del purgatorio. Ci vado ogni domenica, come tutti. Il parroco dice che le sue pareti sono le più silenziose della diocesi, e ha ragione: lì non bussa mai nessuno.": {
@@ -835,16 +835,16 @@
   "easy": "Scaldi la cera di una candela tra le dita e te ne riempi le orecchie, come i marinai della storia. Il silenzio è così improvviso che ti gira la testa. Per tre giorni non senti niente: né le voci, né la pioggia, né chi ti parla a tavola. Il quarto giorno togli la cera, e le voci non ci sono più. Per ora.",
   "short": "Ti tappi le orecchie con la cera. Dopo tre giorni di silenzio, le voci sono sparite. Per ora."
  },
- "Il secondo volume del Journal ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.": {
-  "easy": "Il secondo volume del Journal ha una pagina in più. Ieri non c'era: lo sai perché le hai contate tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, una riga per una, come in una conversazione. La formula in fondo è sbagliata in un punto solo.",
-  "short": "Nel Journal c'è una pagina nuova, scritta dal nonno e da chi ti ha messo al mondo. La formula ha un solo errore."
+ "Il secondo volume del diario ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.": {
+  "easy": "Il secondo volume del diario ha una pagina in più. Ieri non c'era: lo sai perché le hai contate tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, una riga per una, come in una conversazione. La formula in fondo è sbagliata in un punto solo.",
+  "short": "Nel diario c'è una pagina nuova, scritta dal nonno e da chi ti ha messo al mondo. La formula ha un solo errore."
  },
- "Tra le pagine del Journal, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.": {
-  "easy": "Tra le pagine del Journal, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un po' storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e con fretta, e ha un solo errore.",
-  "short": "Nel Journal c'è un foglio battuto dal Telegrafo, anche se nessuno l'ha acceso. L'esperimento ha un solo errore."
+ "Tra le pagine del diario, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.": {
+  "easy": "Tra le pagine del diario, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un po' storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e con fretta, e ha un solo errore.",
+  "short": "Nel diario c'è un foglio battuto dal Telegrafo, anche se nessuno l'ha acceso. L'esperimento ha un solo errore."
  },
- "La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel Journal, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *\"Peccato. Un'altra volta.\"* Ma la formula, quella giusta, ormai l'hai capita da te.": {
-  "easy": "La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel Journal resta un margine strappato con tre parole scritte di traverso: *\"Peccato. Un'altra volta.\"* Ma la formula giusta, ormai, l'hai capita da te.",
+ "La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel diario, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *\"Peccato. Un'altra volta.\"* Ma la formula, quella giusta, ormai l'hai capita da te.": {
+  "easy": "La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel diario resta un margine strappato con tre parole scritte di traverso: *\"Peccato. Un'altra volta.\"* Ma la formula giusta, ormai, l'hai capita da te.",
   "short": "La bruci. Sul margine strappato resta scritto: *\"Peccato. Un'altra volta.\"* Ma la formula giusta l'hai capita."
  },
  "Le signore del Circolo ti salutano per nome, i notabili ti offrono il loro posto al caffè, il medico condotto scrive di te a un collega di Vienna. Pochi giorni dopo arriva un biglietto listato a lutto: un invito \"a una cena tra persone che non si rassegnano, nella nebbia, come ai vecchi tempi\"; dentro la busta, a titolo di cortesia, c'è del denaro.": {
@@ -947,8 +947,8 @@
   "easy": "È un trucco, e un trucco ben fatto. Lo stai ancora ammirando quando il tavolino, anche se nessuno ha toccato il pedale, batte un colpo solo sul pavimento. Esci dal carro di corsa. Ma a casa disegni il meccanismo a memoria.",
   "short": "È un trucco. Ma il tavolino batte un colpo da solo, e tu scappi. A casa disegni il meccanismo."
  },
- "Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del Journal. Sono lettere di tuo padre, indirizzate a *\"Eszter\"*, e le date vanno dal 1821 a pochi mesi fa.": {
-  "easy": "Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del Journal. Sono lettere di tuo padre a *\"Eszter\"*, con date dal 1821 a pochi mesi fa.",
+ "Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del diario. Sono lettere di tuo padre, indirizzate a *\"Eszter\"*, e le date vanno dal 1821 a pochi mesi fa.": {
+  "easy": "Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del diario. Sono lettere di tuo padre a *\"Eszter\"*, con date dal 1821 a pochi mesi fa.",
   "short": "Nel baule ci sono lettere di tuo padre a *\"Eszter\"*, dal 1821 a pochi mesi fa."
  },
  "Ne leggi una sola, la prima che ti capita: parla di un esperimento, di una porta, di una promessa che \"ci rivedremo, in un modo o nell'altro\". È datata tre settimane dopo il funerale. Rimetti tutto a posto, con il nastro annodato com'era, e per giorni non riesci a togliertela dalla testa.": {
@@ -987,8 +987,8 @@
   "easy": "Al Farmer's Market, tra le ceste di cavoli, un fotografo ambulante ha un banco con un drappo nero e una cassetta di lastre d'argento. Si chiama Koch, viene da Pest, e fa ritratti ai vivi e ai morti: i morti costano di più, dice, perché stanno fermi meglio, ma bisogna tenerli seduti con un'asta di ferro dietro la schiena.",
   "short": "Al mercato il fotografo Koch fa ritratti ai vivi e ai morti. I morti costano di più."
  },
- "Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il Journal sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.": {
-  "easy": "Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, alla tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il Journal sulle ginocchia e una sedia vuota accanto. E nell'argento, se lo inclini verso la luce, sulla sedia vuota c'è una donna con uno scialle nero.",
+ "Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il diario sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.": {
+  "easy": "Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, alla tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il diario sulle ginocchia e una sedia vuota accanto. E nell'argento, se lo inclini verso la luce, sulla sedia vuota c'è una donna con uno scialle nero.",
   "short": "Koch ha un ritratto di tuo padre, mai pagato. Se inclini la lastra, sulla sedia vuota accanto a lui c'è una donna con uno scialle nero."
  },
  "Paghi il debito di tuo padre, con gli interessi, e porti a casa il ritratto avvolto in un panno. Lo appendi nello studio. Di giorno la sedia accanto al padre è vuota. Di sera, con la lampada accesa, non sempre.": {
@@ -1151,9 +1151,9 @@
   "easy": "Dietro la forgia, Jóska ascolta tutto con gli occhi spalancati, e ti fa un cenno, come tra complici.",
   "short": "Jóska ascolta tutto, e ti fa un cenno da complice."
  },
- "Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il Journal sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.": {
-  "easy": "Il fabbro cambia tutte le serrature in una settimana, e per qualche notte la tenuta sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata da dentro, e il Journal sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.",
-  "short": "Cambi le serrature. Ma una mattina lo studio è aperto da dentro, e il Journal è aperto all'ultima pagina."
+ "Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il diario sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.": {
+  "easy": "Il fabbro cambia tutte le serrature in una settimana, e per qualche notte la tenuta sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata da dentro, e il diario sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.",
+  "short": "Cambi le serrature. Ma una mattina lo studio è aperto da dentro, e il diario è aperto all'ultima pagina."
  },
  "Il fabbro conserva gli stampi di tutti i suoi clienti, anche quelli del Circolo. Per qualche moneta te ne fa una copia: una chiave lunga e scura, con un occhio traforato nell'impugnatura. Apre una porta sul retro della casa in piazza. Una notte la usi: dietro la porta ci sono una scala, una cantina e, contro il muro, un martelletto imbottito appeso a una corda.": {
   "easy": "Il fabbro tiene gli stampi di tutti i clienti, anche quelli del Circolo. Per qualche moneta te ne fa una copia: una chiave lunga e scura, con un occhio traforato nel manico. Apre una porta sul retro della casa in piazza. Una notte la usi: dietro ci sono una scala, una cantina e, contro il muro, un martelletto imbottito appeso a una corda.",
@@ -1235,8 +1235,8 @@
   "easy": "Il Sindaco conta le monete sulla scrivania con la naturalezza di chi conta le pecore. Promette che parlerà, e parlerà bene. Poi, accompagnandoti alla porta, ti confida che il signore con il fiore all'occhiello gli aveva offerto il doppio, \"ma con voi, si sa, è diverso: siete gente del posto\".",
   "short": "Il Sindaco prende i soldi e promette di parlare bene. Il signore con il fiore, confida, gli aveva offerto il doppio."
  },
- "Tiri fuori dal Journal una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.": {
-  "easy": "Tiri fuori dal Journal una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco diventa pallido, poi rosso, poi ride, ma la risata non gli arriva agli occhi.",
+ "Tiri fuori dal diario una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.": {
+  "easy": "Tiri fuori dal diario una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco diventa pallido, poi rosso, poi ride, ma la risata non gli arriva agli occhi.",
   "short": "Gli mostri una vecchia ricevuta: un prestito mai restituito. Il Sindaco ride, ma non con gli occhi."
  },
  "\"Parlerò come volete\", dice. \"Ma i Bódi hanno buona memoria. Mio figlio la avrà, e il figlio di mio figlio.\" Esci con la ricevuta in tasca e la sensazione di avere fatto un pessimo affare.": {
@@ -1375,9 +1375,9 @@
   "easy": "Resti immobile sotto le coperte, trattenendo il fiato. La voce aspetta ancora un po', poi si allontana, di stanza in stanza, come qualcuno che cerca un altro parente con cui parlare. All'alba la casa è silenziosa. Ti senti in colpa, ma hai anche un peso in meno, come chi ha chiuso a chiave una porta.",
   "short": "Non rispondi. La voce se ne va, di stanza in stanza. Ti senti in colpa, e hai un peso in meno."
  },
- "Il Journal passa di mano in mano, sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e copre con la mano quello che ha scritto finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone siedano a tavola.": {
-  "easy": "Il Journal passa di mano in mano sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e la copre con la mano finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone sono sedute a tavola.",
-  "short": "Ognuno scrive nel Journal quello che ha sentito. Alla fine ci sono più calligrafie che persone a tavola."
+ "Il diario passa di mano in mano, sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e copre con la mano quello che ha scritto finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone siedano a tavola.": {
+  "easy": "Il diario passa di mano in mano sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e la copre con la mano finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone sono sedute a tavola.",
+  "short": "Ognuno scrive nel diario quello che ha sentito. Alla fine ci sono più calligrafie che persone a tavola."
  },
  "La proposta passa senza bisogno di votare. Da quel giorno, alla tenuta, dei morti non si parla a tavola, come non si parla di soldi o di malattie. Ma la sera, nei corridoi, ognuno cammina un po' più vicino al muro, come per sentire meglio.": {
   "easy": "La proposta passa senza bisogno di votare. Da quel giorno, alla tenuta, dei morti non si parla a tavola, come non si parla di soldi o di malattie. Ma la sera, nei corridoi, ognuno cammina un po' più vicino al muro, come per sentire meglio.",
@@ -1535,9 +1535,9 @@
   "easy": "Il capomastro la tiene sul tavolo come una bomba. Sul coperchio, incisi con un chiodo, ci sono una data e tre lettere: *1828 – C. U. O.* Nessuno ha il coraggio di aprirla. Qualcuno ha pensato di chiamare la famiglia della tenuta, che di queste cose \"se ne intende\".",
   "short": "Sul coperchio c'è scritto *1828 – C. U. O.* Nessuno vuole aprirla, e chiamano voi."
  },
- "Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento, senza battaglio. E un foglio piegato, con tre firme e una frase: *\"Chi parte per primo, bussi.\"* Una delle firme è quella che trovi ogni sera sulla prima pagina del Journal.": {
-  "easy": "Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento senza battaglio. E un foglio piegato, con tre firme e una frase: *\"Chi parte per primo, bussi.\"* Una delle firme è quella che vedi ogni sera sulla prima pagina del Journal.",
-  "short": "Dentro ci sono tre ciocche di capelli e un foglio con tre firme: *\"Chi parte per primo, bussi.\"* Una è quella del Journal."
+ "Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento, senza battaglio. E un foglio piegato, con tre firme e una frase: *\"Chi parte per primo, bussi.\"* Una delle firme è quella che trovi ogni sera sulla prima pagina del diario.": {
+  "easy": "Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento senza battaglio. E un foglio piegato, con tre firme e una frase: *\"Chi parte per primo, bussi.\"* Una delle firme è quella che vedi ogni sera sulla prima pagina del diario.",
+  "short": "Dentro ci sono tre ciocche di capelli e un foglio con tre firme: *\"Chi parte per primo, bussi.\"* Una è quella del diario."
  },
  "Porti la cassetta, chiusa, alla sede del Circolo. Ti riceve un signore alto con un garofano nero, che la prende tra le mani come si prende un neonato. \"Credevamo di averla persa\", dice. \"Grazie. Vostro nonno sarebbe contento.\" Ti accompagna alla porta, e sulla porta ti mette in mano una busta. Dentro c'è denaro, e una ciocca di capelli castani, legata con un nastro nero.": {
   "easy": "Porti la cassetta, chiusa, alla sede del Circolo. Ti riceve un signore alto con un garofano nero, che la prende tra le mani come si prende un neonato. \"Pensavamo di averla persa\", dice. \"Grazie. Vostro nonno sarebbe contento.\" Ti accompagna alla porta, e lì ti mette in mano una busta. Dentro ci sono dei soldi e una ciocca di capelli castani, legata con un nastro nero.",
@@ -1695,8 +1695,8 @@
   "easy": "Il fabbro Jóska giura di non averci mai messo mano, e Szabó gli crede: ogni parete l'ha costruita lui, e sa che dentro non c'è niente. \"Voi\", dice, \"siete gli unici che possono dirmi se ho costruito una casa o una porta.\"",
   "short": "Jóska non c'entra. \"Ditemi voi se ho costruito una casa o una porta\", dice Szabó."
  },
- "Passi la notte su una sedia, al centro della stanza da letto vuota, con una candela e il Journal. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li trascrivi. All'alba hai tre pagine di lettere che non formano parole, ma che, lette al contrario, formano il nome della via dove sei nato, o nata, tu.": {
-  "easy": "Passi la notte su una sedia, in mezzo alla camera da letto vuota, con una candela e il Journal. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li scrivi. All'alba hai tre pagine di lettere che non fanno parole, ma che, lette al contrario, fanno il nome della via dove sei nato, o nata, tu.",
+ "Passi la notte su una sedia, al centro della stanza da letto vuota, con una candela e il diario. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li trascrivi. All'alba hai tre pagine di lettere che non formano parole, ma che, lette al contrario, formano il nome della via dove sei nato, o nata, tu.": {
+  "easy": "Passi la notte su una sedia, in mezzo alla camera da letto vuota, con una candela e il diario. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li scrivi. All'alba hai tre pagine di lettere che non fanno parole, ma che, lette al contrario, fanno il nome della via dove sei nato, o nata, tu.",
   "short": "Passi la notte nella casa e scrivi i colpi. Letti al contrario, fanno il nome della via dove sei nato, o nata."
  },
  "Gli operai abbattono il muro in una mattina. Dentro non c'è niente: mattoni, calce, un nido di topi. I colpi smettono. Gli sposi tornano a casa, il capomastro ti ringrazia con le lacrime agli occhi. Solo il fabbro Jóska, guardando le macerie, fa una smorfia: in mezzo ai mattoni c'è una scarpa di bambino, piccola, bagnata, che nessuno ha messo lì.": {
@@ -1931,8 +1931,8 @@
   "easy": "Le due voci tacciono insieme, come a un segnale. Nel silenzio senti il tuo cuore, il tic dell'orologio in corridoio e, lontanissimo, il ronzio dei fili della luce. Puoi fare una domanda sola: lo capisci senza che nessuno te lo dica.",
   "short": "Le voci tacciono. Puoi fare una domanda sola."
  },
- "Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *\"Che finiate quello che ha cominciato.\"* Non dicono che cosa. Al mattino, nel Journal, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.": {
-  "easy": "Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *\"Che finiate quello che ha cominciato.\"* Non dicono che cosa. Al mattino, nel Journal, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.",
+ "Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *\"Che finiate quello che ha cominciato.\"* Non dicono che cosa. Al mattino, nel diario, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.": {
+  "easy": "Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *\"Che finiate quello che ha cominciato.\"* Non dicono che cosa. Al mattino, nel diario, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.",
   "short": "*\"Che finiate quello che ha cominciato.\"* Non dicono che cosa."
  },
  "Le voci ridono, piano, e non è una risata cattiva. \"Vivere\", dice quella più antica. \"Vivere, e non ascoltare troppo.\" L'altra aggiunge qualcosa sulle finestre, che vanno aperte al mattino, e sul pane, che va mangiato caldo. Poi i colpi si allontanano, e la notte finisce come finiscono le notti normali.": {
@@ -2051,8 +2051,8 @@
   "easy": "Alla Public Library, nella sala dei libri antichi, la bibliotecaria ti dà con i guanti un libretto piccolo, con la copertina di cartone: *Des tables parlantes et des esprits frappeurs*, Parigi, 1827. Viene, dice, dalla biblioteca del fondatore della vostra famiglia, venduta all'asta per pagare i debiti nel 1857. È il libretto che, la prima notte, qualcuno vide sullo scaffale del padre.",
   "short": "In biblioteca c'è il libretto francese sui tavolini parlanti, quello che stava sullo scaffale del fondatore la prima notte."
  },
- "I margini sono fitti di appunti, in due calligrafie. Una è quella del Journal. L'altra è minuta, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un atto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.": {
-  "easy": "I margini sono pieni di appunti, con due calligrafie. Una è quella del Journal. L'altra è piccola, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un contratto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.",
+ "I margini sono fitti di appunti, in due calligrafie. Una è quella del diario. L'altra è minuta, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un atto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.": {
+  "easy": "I margini sono pieni di appunti, con due calligrafie. Una è quella del diario. L'altra è piccola, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un contratto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.",
   "short": "Nell'ultima pagina, sotto la data del 1828, ci sono tre nomi: il fondatore, *Eszter Vámos* e *O. Garai*. E sopra: *Circolo dell'Ultima Ora*."
  },
  "Aspetti che la bibliotecaria si volti, e la pagina si stacca con un rumore che ti sembra fortissimo. A casa la bruci nella stufa. La carta si accartoccia, annerisce, e per un attimo, prima di diventare cenere, i tre nomi brillano rossi, uno sotto l'altro.": {
@@ -2395,8 +2395,8 @@
   "easy": "Ti offre quello che un prete può offrire: una confessione, una benedizione, un po' d'acqua santa in una boccetta da farmacia, come quella che Padre Anzelm portava con sé cinquant'anni prima.",
   "short": "Ti offre una confessione, una benedizione, un po' d'acqua santa."
  },
- "Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del Journal, di tutto quello che la tua famiglia ha fatto per tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice soltanto di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.": {
-  "easy": "Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del Journal, di tutto quello che la tua famiglia ha fatto in tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice solo di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.",
+ "Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del diario, di tutto quello che la tua famiglia ha fatto per tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice soltanto di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.": {
+  "easy": "Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del diario, di tutto quello che la tua famiglia ha fatto in tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice solo di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.",
   "short": "Ti confessi. Benedek ti dice solo di dormire con la luce accesa. Lo fai, e dormi benissimo."
  },
  "Padre Benedek ci pensa a lungo, guardando l'altare. Poi annuisce. \"Verrò\", dice. \"Mi siederò in fondo, accanto alla porta, con la stola in tasca. Se qualcosa dovesse andare storto, voglio che ci sia qualcuno a ricordare che i vivi hanno anche un altro posto dove andare.\"": {
@@ -2419,9 +2419,9 @@
   "easy": "La pagina si strappa con un rumore secco che rimbomba nella sala di lettura. La bibliotecaria trattiene il fiato, poi fa sì con la testa, come chi approva un'operazione chirurgica. Il giorno dopo, sulla pagina nuova e bianca, c'è già la stessa firma, con la data del giorno dopo ancora.",
   "short": "Strappi la pagina. Il giorno dopo la firma c'è di nuovo, con la data del giorno dopo."
  },
- "Firmi sotto, con la tua calligrafia, la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal Journal, inclinata all'indietro. La data è la stessa della firma di E. Vámos.": {
-  "easy": "Firmi sotto, con la tua calligrafia e la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal Journal, inclinata all'indietro. La data è la stessa della firma di E. Vámos.",
-  "short": "Firmi anche tu. Sotto la tua firma ne compare un'altra, con la calligrafia del Journal e la data di domani."
+ "Firmi sotto, con la tua calligrafia, la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal diario, inclinata all'indietro. La data è la stessa della firma di E. Vámos.": {
+  "easy": "Firmi sotto, con la tua calligrafia e la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal diario, inclinata all'indietro. La data è la stessa della firma di E. Vámos.",
+  "short": "Firmi anche tu. Sotto la tua firma ne compare un'altra, con la calligrafia del diario e la data di domani."
  },
  "La bibliotecaria sorveglia il libro per tutta la domenica, seduta accanto al leggio con le braccia incrociate. Nessuno firma. Alla chiusura, però, quando abbassa gli occhi, la firma c'è: è comparsa mentre guardava, dice, o forse mentre sbatteva le palpebre. Da quel giorno la bibliotecaria saluta la famiglia con molto rispetto, e un po' di paura.": {
   "easy": "La bibliotecaria sorveglia il libro tutta la domenica, seduta vicino al leggio con le braccia incrociate. Nessuno firma. Alla chiusura, però, quando abbassa gli occhi, la firma c'è: è comparsa mentre guardava, dice, o forse mentre sbatteva le palpebre. Da quel giorno la bibliotecaria saluta la famiglia con molto rispetto, e un po' di paura.",

@@ -22,7 +22,7 @@
   if $evBecchino:
     > Il notaio Ezra Pell è sepolto nel cimitero nuovo, vicino al muro di cinta, sotto un tiglio, in una fossa pagata venticinque anni prima con un assegno. Sulla lapide c'è scritto soltanto: *Qui riposa chi ha tenuto la chiave*.
   if $evStatua:
-    > La statua di bronzo del vecchio è ancora in piazza, con il Journal sotto il braccio. I piccioni la preferiscono a tutte le altre. Gli innamorati si danno appuntamento sotto di lei, di sera, e nessuno sa spiegare perché, a una certa ora, l'ombra della statua sia molto più corta della statua.
+    > La statua di bronzo del vecchio è ancora in piazza, con il diario sotto il braccio. I piccioni la preferiscono a tutte le altre. Gli innamorati si danno appuntamento sotto di lei, di sera, e nessuno sa spiegare perché, a una certa ora, l'ombra della statua sia molto più corta della statua.
   if $cappotto == "teatro":
     > Il cappotto nero del vecchio è finito, dopo lo scioglimento della compagnia, nel magazzino di un rigattiere. Ogni tanto qualcuno lo compra. Ogni volta, dopo qualche settimana, il rigattiere lo ritrova appeso alla sua porta, piegato con cura.
   > Il fascicolo Pell, o quello che ne resta, è quello che avete appena finito di leggere. Se lo avete letto in ordine, senza saltare niente, sapete già chi lo ha chiuso. Se vi sembra di riconoscere la grafia delle ultime pagine, non fermatevi a pensarci. Chiudetelo, e andate a dormire. Con la luce accesa, magari.
@@ -51,7 +51,7 @@
 :: FinaleSpecchio [ending]
   # **Lo Specchio Rotto**
   ui generationEndingContinue enabled=true
-  ! **Ultima pagina del Journal.**
+  ! **Ultima pagina del diario.**
   > Scrivo con l'altra mano, perché questa è la mia, adesso. L'erede che la usava prima di me ha bevuto il sale nuovo, una sera, per vedere se poteva tornare indietro. Non poteva. Era già mezzo dall'altra parte da quando era nato, e il sale nuovo ha solo chiuso la porta.
 
   > Non lo rimpiango. Era una persona noiosa: dormiva la notte, pagava i debiti, chiedeva scusa. Io no. Io ho rotto tutti gli specchi dello studio, perché nessuno dei due avesse più bisogno di guardarsi, e da allora sto benissimo.
@@ -60,7 +60,7 @@
 
   > Chiedete al notaio che cosa c'era nella credenza di suo padre. Chiedeteglielo presto: non gli resta molto.
 
-  > La famiglia mi tratta con gentilezza, come si tratta un parente malato. Mi lasciano il laboratorio, la notte, e la porta sul vicolo. Al mattino trovano i bicchieri lavati e il Journal aggiornato, con una grafia che pende all'indietro e che, devo dirlo, è molto più leggibile della vostra.
+  > La famiglia mi tratta con gentilezza, come si tratta un parente malato. Mi lasciano il laboratorio, la notte, e la porta sul vicolo. Al mattino trovano i bicchieri lavati e il diario aggiornato, con una grafia che pende all'indietro e che, devo dirlo, è molto più leggibile della vostra.
   if $cappotto == "appeso":
     > Il cappotto nero, all'ingresso, adesso è mio. Mi sta a pennello.
   elif $cappotto == "bruciato":
@@ -112,7 +112,7 @@
 
   > Bevemmo l'antidoto la notte del temporale, tutti insieme, nello studio con due porte. Non successe niente di spettacolare: un po' di nausea, un gran sonno, e al mattino una strana sensazione di silenzio, come quando smette di piovere. Da quella notte nessuno ha più visto Umber.
 
-  > Con lui se n'è andato anche il resto. Le nostre formule non funzionano più, gli esperimenti falliscono, il Journal sembra scritto in una lingua che non sappiamo più leggere. Siamo diventati quello che la città ha sempre voluto: una famiglia per bene, con una casa troppo grande e niente da dire. Ci annoiamo moltissimo.
+  > Con lui se n'è andato anche il resto. Le nostre formule non funzionano più, gli esperimenti falliscono, il diario sembra scritto in una lingua che non sappiamo più leggere. Siamo diventati quello che la città ha sempre voluto: una famiglia per bene, con una casa troppo grande e niente da dire. Ci annoiamo moltissimo.
 
   > La porta sul vicolo l'abbiamo murata la settimana dopo, con mattoni nuovi e calce bianca. Per un mese, la mattina, abbiamo trovato graffi sull'intonaco, dalla parte del vicolo, all'altezza di un uomo piccolo. Poi più niente. Il muratore dice che sono stati i gatti.
   if $madre && $prova == "ragazzo":

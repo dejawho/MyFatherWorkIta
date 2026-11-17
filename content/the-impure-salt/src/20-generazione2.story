@@ -201,7 +201,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   else:
     > La tomba del nonno è come la lasciarono i vostri genitori: il nome, le due date, una croce. La terra davanti è smossa, ogni tanto, come se qualcuno ci dormisse sopra. Davanti alla lapide, le violette di sempre.
   ! Che cosa fai?
-  [[Fai sorvegliare la tomba, di notte, per una settimana. ~> guardia]]
+  [[Fai sorvegliare la tomba, di notte, per una settimana ($2). ~> guardia]]
   [[Lasci un biglietto sotto le violette. ~> biglietto]]
   fragment guardia:
     > Il custode sorveglia per sei notti e non vede niente. La settima si addormenta. Al mattino le violette sono fresche, e sul suo cappello, appoggiato alla lapide, c'è un assegno: il compenso della settimana, "per la cortesia".
@@ -288,13 +288,13 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
     ! Non devi fare niente. Ma ricordati chi mette un assegno sul Farmer's Market.
   ! Che cosa fai del biglietto?
   [[Lo bruci nella candela. ~> brucia]]
-  [[Lo conservi nel tuo Journal. ~> tieni]]
+  [[Lo conservi nel tuo diario. ~> tieni]]
   fragment brucia:
     > La carta si accartoccia e diventa cenere in un attimo. Resta l'odore, e la frase, che continui a ripeterti fino all'alba.
     block setupEvent next=G2Biglietto%L.next%:
       ! Non succede niente.
   fragment tieni:
-    > Lo infili tra le pagine del Journal, dove nessuno lo cercherà. Ogni tanto, la notte, lo rileggi. Ogni volta la grafia ti sembra un po' più familiare.
+    > Lo infili tra le pagine del diario, dove nessuno lo cercherà. Ogni tanto, la notte, lo rileggi. Ogni volta la grafia ti sembra un po' più familiare.
     block setupEvent next=G2Biglietto%L.next%:
       ! Guadagni 1VP e 1 {icon:Insanity_Icon}.
 ::endfor
@@ -614,7 +614,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   # **Una lettera anonima**
   > Alla Bank ti aspetta una lettera, lasciata allo sportello da un ragazzo che è scappato via subito. Dentro, ritagliate dai giornali, lettere di ogni misura compongono una sola frase: *SO CHI DI VOI ESCE DI NOTTE. LASCIATE IL DENARO NELLA CASSETTA DI SICUREZZA 14, O LO SAPRÀ ANCHE L'ISPETTORE.* La cassetta 14, dice il cassiere, è intestata allo studio notarile Pell, che però non la usa da anni.
   ! Che cosa fai?
-  [[Paghi, e non ne parli con nessuno. ~> paga]]
+  [[Paghi, e non ne parli con nessuno ($3). ~> paga]]
   [[Porti la lettera ad Ada Haskett. ~> ada]]
   [[La strappi. ~> strappa]]
   fragment paga:
@@ -637,7 +637,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   # **L'impugnatura d'argento**
   > Il caposquadra della fonderia è un omone con le braccia segnate dalle scottature e una memoria da archivista. Quando gli descrivi l'impugnatura d'argento del bastone trovato accanto a Lady Carew, annuisce subito. "L'abbiamo fusa noi", dice. "Quarant'anni fa, per il vecchio della tenuta. Un pezzo unico. Quel bastone, il vecchio, lo portava sempre."
   ! Che cosa fai?
-  [[Gli chiedi di testimoniare che il bastone non è più vostro da trent'anni. ~> testimonia]]
+  [[Gli chiedi di testimoniare che il bastone non è più vostro da trent'anni ($2). ~> testimonia]]
   [[Gli chiedi se ne ha fusa una copia. ~> copia]]
   fragment testimonia:
     set bastone = true
@@ -685,7 +685,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   elif $lomax == "registro":
     > Ti riconosce subito. "Avete ancora la mia pagina?", chiede a bassa voce. "Tenetela cara. Un giorno vi servirà."
   ! Che cosa fai?
-  [[Compri una boccetta del suo sale. ~> compra]]
+  [[Compri una boccetta del suo sale ($1). ~> compra]]
   [[Gli chiedi che cosa c'era nella prima partita. ~> riga]]
   fragment compra:
     > Lomax te la incarta con le mani che tremano. "È il migliore", dice. "È puro. È questo il guaio." Quella sera, nel bicchiere, il colore si arresta al primo rosso, come sempre.
@@ -745,7 +745,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     [[Clicca per iniziare l'offerta... ~> offerta]]
   else:
     ui specialEvent
-    ! Ogni giocatore indica in segreto un altro giocatore (un dito sul tavolo, al tre). Chi riceve più indicazioni è l'accusato *(in caso di parità decide il Primo Giocatore)*.
+    ! Ogni giocatore indica in segreto un altro giocatore (un dito sul tavolo, al tre). Chi riceve più indicazioni è l'accusato *(in caso di parità, il Primo Giocatore sceglie tra i pari)*.
     [[Clicca quando avete scelto l'accusato... -> G2AccusaChi]]
   fragment offerta:
     ui bidding next="G2Offerta" mode="Bidding"

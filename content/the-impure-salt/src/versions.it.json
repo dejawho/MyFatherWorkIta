@@ -55,9 +55,9 @@
   "easy": "Guardi più a lungo. L'altra faccia non torna, ma ti lascia qualcosa: un'idea chiara e completa. È come se qualcuno te l'avesse detta all'orecchio mentre pensavi ad altro.",
   "short": "L'altra faccia non torna, ma ti lascia un'idea, chiara e completa, come sussurrata all'orecchio."
  },
- "Sul tuo Journal, sotto gli appunti di ieri sera, c'è una pagina che non ricordi di aver scritto. È una formula, ed è giusta: più elegante di qualunque cosa tu abbia mai trovato. L'inchiostro è quello del tuo calamaio. La grafia è inclinata all'indietro.": {
-  "easy": "Sul tuo Journal, sotto gli appunti di ieri sera, c'è una pagina che non ricordi di aver scritto. È una formula, ed è giusta: più bella di qualunque cosa tu abbia mai trovato. L'inchiostro è quello del tuo calamaio. Ma la scrittura pende all'indietro.",
-  "short": "Nel tuo Journal c'è una formula che non ricordi di aver scritto. È giusta, e bellissima. La grafia pende all'indietro."
+ "Sul tuo diario, sotto gli appunti di ieri sera, c'è una pagina che non ricordi di aver scritto. È una formula, ed è giusta: più elegante di qualunque cosa tu abbia mai trovato. L'inchiostro è quello del tuo calamaio. La grafia è inclinata all'indietro.": {
+  "easy": "Sul tuo diario, sotto gli appunti di ieri sera, c'è una pagina che non ricordi di aver scritto. È una formula, ed è giusta: più bella di qualunque cosa tu abbia mai trovato. L'inchiostro è quello del tuo calamaio. Ma la scrittura pende all'indietro.",
+  "short": "Nel tuo diario c'è una formula che non ricordi di aver scritto. È giusta, e bellissima. La grafia pende all'indietro."
  },
  "Una lettera senza mittente, imbucata in città: dentro, su carta della tenuta, la soluzione del problema che ti tormenta da mesi, scritta con una sicurezza che non hai mai avuto. Il timbro postale è di ieri notte. Ieri notte, a quanto ricordi, dormivi.": {
   "easy": "Arriva una lettera senza mittente, spedita in città. Dentro, su carta della tenuta, c'è la soluzione del problema che ti tormenta da mesi. È scritta con una sicurezza che tu non hai mai avuto. Il timbro è di ieri notte. Ieri notte, per quanto ricordi, dormivi.",
@@ -115,8 +115,8 @@
   "easy": "Il sale nuovo funziona, ma al contrario. L'altro esce come sempre, svelto e allegro. Ma al mattino, quando provi a tornare, una parte di te resta fuori dalla porta, e non vuole più entrare.",
   "short": "Il sale nuovo funziona al contrario: al mattino una parte di te resta fuori, e non vuole rientrare."
  },
- "Il dolore dura un minuto, come raccontava il Journal: le ossa, il cuore, il pavimento. Poi esci nella città di pietra, nel corpo piccolo e svelto dell'altro, e la città è tua. Corri sui tetti bagnati, ti specchi nelle vetrine chiuse, accendi un sigaro con un lampione a gas e lo spegni con un soffio. Ridi, e la nebbia ti ride dietro.": {
-  "easy": "Il dolore dura un minuto, come diceva il Journal: le ossa, il cuore, il pavimento. Poi esci nella città di pietra, nel corpo piccolo e veloce dell'altro, e la città è tua. Corri sui tetti bagnati, ti guardi nelle vetrine chiuse, accendi un sigaro a un lampione e lo spegni con un soffio. Ridi, e la nebbia ride con te.",
+ "Il dolore dura un minuto, come raccontava il diario: le ossa, il cuore, il pavimento. Poi esci nella città di pietra, nel corpo piccolo e svelto dell'altro, e la città è tua. Corri sui tetti bagnati, ti specchi nelle vetrine chiuse, accendi un sigaro con un lampione a gas e lo spegni con un soffio. Ridi, e la nebbia ti ride dietro.": {
+  "easy": "Il dolore dura un minuto, come diceva il diario: le ossa, il cuore, il pavimento. Poi esci nella città di pietra, nel corpo piccolo e veloce dell'altro, e la città è tua. Corri sui tetti bagnati, ti guardi nelle vetrine chiuse, accendi un sigaro a un lampione e lo spegni con un soffio. Ridi, e la nebbia ride con te.",
   "short": "Un minuto di dolore, poi esci nel corpo piccolo e svelto dell'altro. Corri sui tetti, ridi, e la nebbia ride con te."
  },
  "Al mattino ti svegli nel tuo letto, con le scarpe sporche di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro in cui non hai mai messo piede.": {
@@ -143,9 +143,9 @@
   "easy": "Gli eredi si sono riuniti nella biblioteca della tenuta il giorno dopo il funerale, alle cinque del pomeriggio. Le tende erano chiuse, come sempre in quella casa. Il camino era spento, e nessuno ha chiesto di accenderlo. Ho rotto i sigilli davanti a tutti e ho letto il documento, che il defunto aveva scritto di sua mano due anni fa.",
   "short": "Il giorno dopo il funerale, in biblioteca, con le tende chiuse e il camino spento, ho letto agli eredi il testamento."
  },
- "La tenuta, con il laboratorio, gli strumenti, gli animali e i debiti, va in parti uguali ai figli. Il Journal va a chi saprà leggerlo. Fin qui, niente di strano.": {
-  "easy": "La tenuta, con il laboratorio, gli strumenti, gli animali e i debiti, va ai figli, in parti uguali. Il Journal va a chi lo saprà leggere. Fino a qui, niente di strano.",
-  "short": "La tenuta va ai figli, il Journal a chi saprà leggerlo. Niente di strano."
+ "La tenuta, con il laboratorio, gli strumenti, gli animali e i debiti, va in parti uguali ai figli. Il diario va a chi saprà leggerlo. Fin qui, niente di strano.": {
+  "easy": "La tenuta, con il laboratorio, gli strumenti, gli animali e i debiti, va ai figli, in parti uguali. Il diario va a chi lo saprà leggere. Fino a qui, niente di strano.",
+  "short": "La tenuta va ai figli, il diario a chi saprà leggerlo. Niente di strano."
  },
  "Segue una clausola, che il sottoscritto ha dovuto leggere due volte, a richiesta dei presenti: *\"Se io dovessi sparire senza spiegazione, o morire in circostanze che il mio notaio giudichi dubbie, tutto il resto dei miei beni, il denaro in banca, le azioni e la chiave dello studio sul vicolo, vada al mio amico Mr. Umber, che saprà farne buon uso.\"*": {
   "easy": "Poi c'è una clausola. Ho dovuto leggerla due volte, perché i presenti me l'hanno chiesto: *\"Se io dovessi sparire senza spiegazione, o morire in circostanze che il mio notaio giudichi dubbie, tutto il resto dei miei beni, il denaro in banca, le azioni e la chiave dello studio sul vicolo, vada al mio amico Mr. Umber, che saprà farne buon uso.\"*",
@@ -159,9 +159,9 @@
   "easy": "Annoto che il defunto è morto nel suo letto, di febbre, con il medico del villaggio accanto. Le circostanze non sono dubbie. Io però non darò niente a nessuno finché questo Mr. Umber non verrà nel mio studio, di persona e di giorno.",
   "short": "Il defunto è morto di febbre, nel suo letto. Ma non darò niente a Mr. Umber finché non verrà da me, di persona e di giorno."
  },
- "Prima di congedarsi, il sottoscritto ha consegnato a ciascuno degli eredi una pagina del Journal, staccata e sigillata, con il suo nome scritto sopra dal defunto. Erano nel testamento anch'esse.": {
-  "easy": "Prima di andarmene ho dato a ogni erede una pagina del Journal, staccata e sigillata, con il suo nome scritto sopra dal defunto. Anche queste pagine erano nel testamento.",
-  "short": "A ogni erede ho dato una pagina sigillata del Journal, con il suo nome scritto dal defunto."
+ "Prima di congedarsi, il sottoscritto ha consegnato a ciascuno degli eredi una pagina del diario, staccata e sigillata, con il suo nome scritto sopra dal defunto. Erano nel testamento anch'esse.": {
+  "easy": "Prima di andarmene ho dato a ogni erede una pagina del diario, staccata e sigillata, con il suo nome scritto sopra dal defunto. Anche queste pagine erano nel testamento.",
+  "short": "A ogni erede ho dato una pagina sigillata del diario, con il suo nome scritto dal defunto."
  },
  "*Sale di Lomax, la prima partita, e nessun'altra. Sciolto in un bicchiere d'acqua di pozzo: rosso, poi viola, poi verde. Una sola sorsata, a stomaco vuoto.*": {
   "easy": "*Sale di Lomax, la prima partita, e nessun'altra. Sciolto in un bicchiere d'acqua di pozzo: rosso, poi viola, poi verde. Un sorso solo, a stomaco vuoto.*",
@@ -195,7 +195,7 @@
   "easy": "Sul retro, sporca di fango, c'è l'impronta di una scarpa. È piccola, troppo piccola per un uomo adulto.",
   "short": "Sul retro, l'impronta infangata di una scarpa troppo piccola per un uomo."
  },
- "Pieghi la pagina in quattro e la infili tra le tue carte. È tua, dopotutto: c'è il tuo nome sopra, nella mano di tuo padre. Agli altri racconterai quello che vorrai, quando vorrai.": {
+ "Pieghi la pagina in quattro e la infili tra le tue carte. È tua, dopotutto: c'è il tuo nome sopra, scritto da tuo padre. Agli altri racconterai quello che vorrai, quando vorrai.": {
   "easy": "Pieghi la pagina in quattro e la metti tra le tue carte. Dopotutto è tua: sopra c'è il tuo nome, scritto da tuo padre. Agli altri racconterai quello che vuoi, quando vuoi.",
   "short": "La pieghi e la tieni. È tua: c'è il tuo nome sopra."
  },
@@ -383,7 +383,7 @@
   "easy": "La vecchia ti lascia la mano di colpo, come se bruciasse, e ti rimette la moneta in tasca. \"Questa mano non è tua\", dice. \"L'hai presa in prestito. Restituiscila.\" Poi chiude la tenda, e non la riapre più.",
   "short": "La vecchia lascia la tua mano di colpo: \"Questa mano non è tua. Restituiscila.\""
  },
- "Oggi, nel laboratorio, il pavimento ha ceduto sotto il mio piede: una tavola smossa accanto alla stufa, che qualcuno aveva rimesso a posto con troppa cura. Sotto c'era una cassetta di zinco, e nella cassetta sei boccette di vetro scuro, chiuse con la ceralacca. Sale bianco, fine come zucchero, con un riflesso giallognolo quando lo si guarda controluce. Sull'etichetta: *Farmacia Lomax – prima partita*. Legato alla cassetta con lo spago, un biglietto nella mano di nostro padre: *Una sola sorsata. Poi la porta.*": {
+ "Oggi, nel laboratorio, il pavimento ha ceduto sotto il mio piede: una tavola smossa accanto alla stufa, che qualcuno aveva rimesso a posto con troppa cura. Sotto c'era una cassetta di zinco, e nella cassetta sei boccette di vetro scuro, chiuse con la ceralacca. Sale bianco, fine come zucchero, con un riflesso giallognolo quando lo si guarda controluce. Sull'etichetta: *Farmacia Lomax – prima partita*. Legato alla cassetta con lo spago, un biglietto scritto da nostro padre: *Una sola sorsata. Poi la porta.*": {
   "easy": "Oggi, nel laboratorio, il pavimento si è mosso sotto il mio piede: c'era una tavola staccata vicino alla stufa, rimessa a posto con troppa cura. Sotto c'era una cassetta di zinco, e dentro sei boccette di vetro scuro, chiuse con la ceralacca. Dentro c'è sale bianco, fine come zucchero, un po' giallo quando lo guardi alla luce. Sull'etichetta c'è scritto: *Farmacia Lomax – prima partita*. Legato alla cassetta con lo spago c'è un biglietto scritto da nostro padre: *Una sola sorsata. Poi la porta.*",
   "short": "Sotto una tavola del laboratorio c'erano sei boccette di sale bianco: *Farmacia Lomax – prima partita*. E un biglietto di nostro padre: *Una sola sorsata. Poi la porta.*"
  },
@@ -619,17 +619,17 @@
   "easy": "Domani scrivo alla capitale per chiedere un esperto di calligrafia. Se mi mandano quello che spero, in qualche anno sapremo almeno chi scrive quegli assegni. Ho paura di saperlo già. Saluta i bambini. Tua, Nell.",
   "short": "Chiederò un perito calligrafo. Ho paura di sapere già chi scrive gli assegni. Tua, Nell."
  },
- "L'Ispettore Haskett ha fatto venire dalla capitale un perito calligrafo, un ometto con gli occhiali spessi e una valigia piena di lenti. Ha chiesto alla famiglia una lettera di ciascuno, e di poter vedere il Journal del padre, alla tenuta, davanti al notaio.": {
-  "easy": "L'Ispettore Haskett ha fatto venire dalla capitale un esperto di calligrafia, un ometto con gli occhiali spessi e una valigia piena di lenti. Lui ha chiesto alla famiglia una lettera di ognuno, e di vedere il Journal del padre, alla tenuta, davanti al notaio.",
-  "short": "È arrivato il perito calligrafo. Vuole una lettera da ognuno di voi e il Journal del padre."
+ "L'Ispettore Haskett ha fatto venire dalla capitale un perito calligrafo, un ometto con gli occhiali spessi e una valigia piena di lenti. Ha chiesto alla famiglia una lettera di ciascuno, e di poter vedere il diario del padre, alla tenuta, davanti al notaio.": {
+  "easy": "L'Ispettore Haskett ha fatto venire dalla capitale un esperto di calligrafia, un ometto con gli occhiali spessi e una valigia piena di lenti. Lui ha chiesto alla famiglia una lettera di ognuno, e di vedere il diario del padre, alla tenuta, davanti al notaio.",
+  "short": "È arrivato il perito calligrafo. Vuole una lettera da ognuno di voi e il diario del padre."
  },
  "La fucina è chiusa, ma dentro c'è luce. Il fabbro dorme sul banco, con la testa tra le braccia. Accanto al fuoco, seduto su un'incudine come su un trono, c'è un piccolo uomo con il cappotto nero troppo largo. Si scalda le mani e ti sorride, come se ti aspettasse da anni.": {
   "easy": "La fucina è chiusa, ma dentro c'è una luce. Il fabbro dorme sul banco, con la testa tra le braccia. Vicino al fuoco, seduto su un'incudine come su un trono, c'è un piccolo uomo con un cappotto nero troppo largo. Si scalda le mani e ti sorride, come se ti aspettasse da anni.",
   "short": "Nella fucina, seduto su un'incudine, c'è un piccolo uomo in nero. Ti sorride, come se ti aspettasse."
  },
- "\"Finalmente qualcuno di famiglia\", dice. Ha una voce giovane e una risata vecchia. Dalla tasca tira fuori una pagina strappata dal Journal, fitta di formule. \"Questa è tua. Te la do in cambio di una firma: un assegno in bianco, con il tuo nome. Non ti costerà niente. Non subito.\"": {
-  "easy": "\"Finalmente qualcuno della famiglia\", dice. Ha una voce giovane e una risata vecchia. Dalla tasca tira fuori una pagina strappata dal Journal, piena di formule. \"Questa è tua. Te la do se firmi un assegno in bianco, con il tuo nome. Non ti costerà niente. Non subito.\"",
-  "short": "\"Finalmente qualcuno di famiglia.\" Ti offre una pagina del Journal in cambio di un assegno in bianco con la tua firma."
+ "\"Finalmente qualcuno di famiglia\", dice. Ha una voce giovane e una risata vecchia. Dalla tasca tira fuori una pagina strappata dal diario, fitta di formule. \"Questa è tua. Te la do in cambio di una firma: un assegno in bianco, con il tuo nome. Non ti costerà niente. Non subito.\"": {
+  "easy": "\"Finalmente qualcuno della famiglia\", dice. Ha una voce giovane e una risata vecchia. Dalla tasca tira fuori una pagina strappata dal diario, piena di formule. \"Questa è tua. Te la do se firmi un assegno in bianco, con il tuo nome. Non ti costerà niente. Non subito.\"",
+  "short": "\"Finalmente qualcuno di famiglia.\" Ti offre una pagina del diario in cambio di un assegno in bianco con la tua firma."
  },
  "Firmi, con la mano che trema. Umber soffia sull'inchiostro, piega l'assegno e lo mette nel taschino, dalla parte del cuore. La pagina che ti dà è scritta nella grafia del padre, quella dritta, quella per bene, ed è la cosa più bella che tu abbia mai letto. Quando alzi gli occhi, l'incudine è vuota.": {
   "easy": "Firmi, con la mano che trema. Umber soffia sull'inchiostro, piega l'assegno e lo mette nel taschino, vicino al cuore. La pagina che ti dà è scritta con la grafia del padre, quella dritta, quella per bene, ed è la cosa più bella che tu abbia mai letto. Quando alzi gli occhi, sull'incudine non c'è più nessuno.",
@@ -687,17 +687,17 @@
   "easy": "Torni indietro piano, tra le tombe, senza fare rumore. Dietro di te il notaio continua a parlare alla tomba sottovoce, per molto tempo. Una volta sola, ti sembra, la tomba gli risponde. Ma forse è il vento, o una civetta, o la tua fantasia.",
   "short": "Te ne vai piano. Una volta, ti sembra, la tomba risponde al notaio."
  },
- "Come da Vostra richiesta, il sottoscritto ha esaminato i ventitré assegni raccolti presso le botteghe del villaggio negli ultimi sedici anni, firmati con nomi diversi, e li ha confrontati con le lettere degli eredi della tenuta e con il Journal del loro defunto padre.": {
-  "easy": "Come mi avete chiesto, ho esaminato i ventitré assegni raccolti nelle botteghe del villaggio negli ultimi sedici anni, firmati con nomi diversi. Li ho confrontati con le lettere degli eredi della tenuta e con il Journal del loro padre morto.",
-  "short": "Ho confrontato ventitré assegni di sedici anni con le lettere degli eredi e con il Journal del padre."
+ "Come da Vostra richiesta, il sottoscritto ha esaminato i ventitré assegni raccolti presso le botteghe del villaggio negli ultimi sedici anni, firmati con nomi diversi, e li ha confrontati con le lettere degli eredi della tenuta e con il diario del loro defunto padre.": {
+  "easy": "Come mi avete chiesto, ho esaminato i ventitré assegni raccolti nelle botteghe del villaggio negli ultimi sedici anni, firmati con nomi diversi. Li ho confrontati con le lettere degli eredi della tenuta e con il diario del loro padre morto.",
+  "short": "Ho confrontato ventitré assegni di sedici anni con le lettere degli eredi e con il diario del padre."
  },
- "Le conclusioni sono le seguenti. Primo: gli assegni sono stati scritti tutti dalla stessa mano. Secondo: quella mano non è di nessuno degli eredi, le cui scritture sono, ai fini di questa perizia, sorprendentemente innocue. Terzo: quella mano è la stessa del Journal.": {
-  "easy": "Ecco le conclusioni. Primo: tutti gli assegni sono stati scritti dalla stessa mano. Secondo: quella mano non è di nessuno degli eredi, che per questa perizia hanno una scrittura stranamente innocente. Terzo: quella mano è la stessa del Journal.",
-  "short": "Tutti gli assegni sono della stessa mano. Non è quella degli eredi. È quella del Journal."
+ "Le conclusioni sono le seguenti. Primo: gli assegni sono stati scritti tutti dalla stessa mano. Secondo: quella mano non è di nessuno degli eredi, le cui scritture sono, ai fini di questa perizia, sorprendentemente innocue. Terzo: quella mano è la stessa del diario.": {
+  "easy": "Ecco le conclusioni. Primo: tutti gli assegni sono stati scritti dalla stessa mano. Secondo: quella mano non è di nessuno degli eredi, che per questa perizia hanno una scrittura stranamente innocente. Terzo: quella mano è la stessa del diario.",
+  "short": "Tutti gli assegni sono della stessa mano. Non è quella degli eredi. È quella del diario."
  },
- "La pressione della penna, la *g* chiusa come un nodo, la firma che risale verso destra: tutto coincide, tranne l'inclinazione. Nel Journal la scrittura pende in avanti, come quella di ogni persona per bene; negli assegni pende all'indietro. Il sottoscritto ha visto una cosa simile una volta sola, in un uomo che aveva imparato a scrivere con la sinistra dopo aver perso la destra.": {
-  "easy": "La forza della penna, la *g* chiusa come un nodo, la firma che sale verso destra: tutto è uguale, tranne l'inclinazione. Nel Journal la scrittura pende in avanti, come quella di ogni persona per bene; negli assegni pende all'indietro. Ho visto una cosa simile una volta sola, in un uomo che aveva imparato a scrivere con la sinistra dopo aver perso la destra.",
-  "short": "Tutto coincide, tranne l'inclinazione: nel Journal la grafia pende in avanti, negli assegni all'indietro."
+ "La pressione della penna, la *g* chiusa come un nodo, la firma che risale verso destra: tutto coincide, tranne l'inclinazione. Nel diario la scrittura pende in avanti, come quella di ogni persona per bene; negli assegni pende all'indietro. Il sottoscritto ha visto una cosa simile una volta sola, in un uomo che aveva imparato a scrivere con la sinistra dopo aver perso la destra.": {
+  "easy": "La forza della penna, la *g* chiusa come un nodo, la firma che sale verso destra: tutto è uguale, tranne l'inclinazione. Nel diario la scrittura pende in avanti, come quella di ogni persona per bene; negli assegni pende all'indietro. Ho visto una cosa simile una volta sola, in un uomo che aveva imparato a scrivere con la sinistra dopo aver perso la destra.",
+  "short": "Tutto coincide, tranne l'inclinazione: nel diario la grafia pende in avanti, negli assegni all'indietro."
  },
  "Il sottoscritto segnala un'eccezione. Tra gli assegni più recenti ce n'è uno compilato dalla solita mano, ma firmato davvero da un erede, con la sua grafia e la sua inclinazione. Qualcuno, in famiglia, ha firmato per lui.": {
   "easy": "Segnalo un'eccezione. Tra gli assegni più recenti ce n'è uno compilato dalla solita mano, ma firmato davvero da un erede, con la sua scrittura e la sua inclinazione. Qualcuno, in famiglia, ha firmato per lui.",
@@ -727,13 +727,13 @@
   "easy": "Il medico del villaggio, interrogato all'alba, ha ammesso di aver firmato il certificato di morte senza vedere il corpo. L'avevano pagato con un assegno.",
   "short": "Il medico ha firmato il certificato di morte senza vedere il corpo. L'hanno pagato con un assegno."
  },
- "L'Ispettore Haskett vi lascia una notte per decidere, e due guardie davanti al cancello. Si ricorda di ogni bugia che le avete detto. Senza il Journal non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il Journal, avrà un mandato di cattura per un uomo morto.": {
-  "easy": "L'Ispettore Haskett vi lascia una notte per decidere, e due guardie al cancello. Si ricorda tutte le bugie che le avete detto. Senza il Journal non ha prove che valgono in tribunale: una scrittura, una bara di pietre, un medico che ha cambiato versione. Con il Journal, potrà far arrestare un uomo morto.",
-  "short": "L'Ispettore vi dà una notte, e mette due guardie al cancello. Senza il Journal non ha prove. Con il Journal, arresterà un morto."
+ "L'Ispettore Haskett vi lascia una notte per decidere, e due guardie davanti al cancello. Si ricorda di ogni bugia che le avete detto. Senza il diario non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il diario, avrà un mandato di cattura per un uomo morto.": {
+  "easy": "L'Ispettore Haskett vi lascia una notte per decidere, e due guardie al cancello. Si ricorda tutte le bugie che le avete detto. Senza il diario non ha prove che valgono in tribunale: una scrittura, una bara di pietre, un medico che ha cambiato versione. Con il diario, potrà far arrestare un uomo morto.",
+  "short": "L'Ispettore vi dà una notte, e mette due guardie al cancello. Senza il diario non ha prove. Con il diario, arresterà un morto."
  },
- "L'Ispettore Haskett vi lascia una notte per decidere. Senza il Journal non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il Journal, avrà un mandato di cattura per un uomo morto.": {
-  "easy": "L'Ispettore Haskett vi lascia una notte per decidere. Senza il Journal non ha prove che valgono in tribunale: una scrittura, una bara di pietre, un medico che ha cambiato versione. Con il Journal, potrà far arrestare un uomo morto.",
-  "short": "L'Ispettore vi dà una notte. Senza il Journal non ha prove. Con il Journal, arresterà un morto."
+ "L'Ispettore Haskett vi lascia una notte per decidere. Senza il diario non ha niente che regga in tribunale: una grafia, una bara di pietre, un medico che ha cambiato versione. Con il diario, avrà un mandato di cattura per un uomo morto.": {
+  "easy": "L'Ispettore Haskett vi lascia una notte per decidere. Senza il diario non ha prove che valgono in tribunale: una scrittura, una bara di pietre, un medico che ha cambiato versione. Con il diario, potrà far arrestare un uomo morto.",
+  "short": "L'Ispettore vi dà una notte. Senza il diario non ha prove. Con il diario, arresterà un morto."
  },
  "Prima di andarsene vi stringe la mano, a uno a uno. \"Vi ho chiesto la verità, e me l'avete data\", dice. \"Qualunque cosa decidiate, non lo dimenticherò.\"": {
   "easy": "Prima di andare via vi stringe la mano, a uno a uno. \"Vi ho chiesto la verità, e me l'avete detta\", dice. \"Qualunque cosa decidiate, non lo dimenticherò.\"",
@@ -763,9 +763,9 @@
   "easy": "Nell'inverno del 1879, sul ponte, trovano un cappotto nero troppo largo, piegato con cura, con le tasche piene di etichette della farmacia Lomax. Del padre non trovano nient'altro.",
   "short": "Nel 1879, sul ponte, trovano un cappotto nero piegato. Del padre, niente."
  },
- "Il Journal brucia nel caminetto della biblioteca, una pagina alla volta, mentre l'Ispettore aspetta in carrozza fuori dal cancello. Quando la famiglia le dice che il quaderno è andato perduto anni fa, lei scrive qualcosa sul taccuino e non insiste.": {
-  "easy": "Il Journal brucia nel camino della biblioteca, una pagina alla volta, mentre l'Ispettore aspetta in carrozza fuori dal cancello. Quando la famiglia le dice che il quaderno è andato perso anni fa, lei scrive qualcosa nel taccuino e non insiste.",
-  "short": "Bruciate il Journal. All'Ispettore dite che è perso da anni. Lei scrive qualcosa, e non insiste."
+ "Il diario brucia nel caminetto della biblioteca, una pagina alla volta, mentre l'Ispettore aspetta in carrozza fuori dal cancello. Quando la famiglia le dice che il quaderno è andato perduto anni fa, lei scrive qualcosa sul taccuino e non insiste.": {
+  "easy": "Il diario brucia nel camino della biblioteca, una pagina alla volta, mentre l'Ispettore aspetta in carrozza fuori dal cancello. Quando la famiglia le dice che il quaderno è andato perso anni fa, lei scrive qualcosa nel taccuino e non insiste.",
+  "short": "Bruciate il diario. All'Ispettore dite che è perso da anni. Lei scrive qualcosa, e non insiste."
  },
  "L'ultima pagina, sollevata dal calore, vola su per la cappa del camino prima che qualcuno riesca ad afferrarla. Il mattino dopo la trova il fornaio, nella grondaia, e la riporta alla tenuta. È bianca. Sul retro, nella grafia inclinata all'indietro, c'è una sola parola: *grazie*.": {
   "easy": "L'ultima pagina, sollevata dal calore, vola su per il camino prima che qualcuno riesca a prenderla. La mattina dopo il fornaio la trova nella grondaia e la riporta alla tenuta. È bianca. Ma sul retro, con la scrittura che pende all'indietro, c'è una sola parola: *grazie*.",
@@ -967,9 +967,9 @@
   "easy": "La carta si accartoccia e in un attimo diventa cenere. Restano l'odore e la frase, che ti ripeti fino all'alba.",
   "short": "Diventa cenere. La frase ti resta in testa fino all'alba."
  },
- "Lo infili tra le pagine del Journal, dove nessuno lo cercherà. Ogni tanto, la notte, lo rileggi. Ogni volta la grafia ti sembra un po' più familiare.": {
-  "easy": "Lo metti tra le pagine del Journal, dove nessuno lo cercherà. Ogni tanto, di notte, lo rileggi. Ogni volta la grafia ti sembra un po' più familiare.",
-  "short": "Lo nascondi nel Journal. Ogni volta che lo rileggi, la grafia ti sembra più familiare."
+ "Lo infili tra le pagine del diario, dove nessuno lo cercherà. Ogni tanto, la notte, lo rileggi. Ogni volta la grafia ti sembra un po' più familiare.": {
+  "easy": "Lo metti tra le pagine del diario, dove nessuno lo cercherà. Ogni tanto, di notte, lo rileggi. Ogni volta la grafia ti sembra un po' più familiare.",
+  "short": "Lo nascondi nel diario. Ogni volta che lo rileggi, la grafia ti sembra più familiare."
  },
  "Quell'autunno una nebbia gialla scende dalla collina e si posa sulla città come un coperchio. Sa di zolfo e di fiume. I lampioni si accendono a mezzogiorno e non bastano a vedere l'altro lato della strada; le carrozze vanno al passo, con un ragazzo davanti che agita una lanterna.": {
   "easy": "Quell'autunno scende dalla collina una nebbia gialla, che si posa sulla città come un coperchio. Sa di zolfo e di fiume. I lampioni si accendono a mezzogiorno, ma non basta per vedere l'altro lato della strada. Le carrozze vanno piano, con un ragazzo davanti che muove una lanterna.",
@@ -1371,9 +1371,9 @@
   "easy": "È arrivata una busta dello studio notarile Pell, con il tuo nome scritto a mano, con una grafia così tremante che il postino ha dovuto chiedere due volte l'indirizzo. Dentro ci sono poche righe. Il notaio ti chiede, \"per il bene della famiglia e in nome dell'amicizia che ha sempre unito le nostre famiglie\", di portargli di nascosto una cosa dalla tenuta, senza dirlo a nessuno.",
   "short": "Una lettera dal notaio Pell, con una grafia tremante. Ti chiede di portargli di nascosto una cosa dalla tenuta."
  },
- "*Una pagina del Journal del vecchio, una qualunque, purché scritta nella sua grafia di notte.*": {
-  "easy": "*Una pagina del Journal del vecchio, una qualsiasi, ma scritta con la sua grafia di notte.*",
-  "short": "*Una pagina del Journal, scritta con la grafia di notte.*"
+ "*Una pagina del diario del vecchio, una qualunque, purché scritta nella sua grafia di notte.*": {
+  "easy": "*Una pagina del diario del vecchio, una qualsiasi, ma scritta con la sua grafia di notte.*",
+  "short": "*Una pagina del diario, scritta con la grafia di notte.*"
  },
  "*Un pizzico del sale nuovo che usate in laboratorio, in una carta ben chiusa.*": {
   "easy": "*Un pizzico del sale nuovo che usate in laboratorio, chiuso bene in una carta.*",
@@ -1575,8 +1575,8 @@
   "easy": "Il fabbro te lo vende un po' a malincuore, avvolto in un panno unto. È un pezzo di gesso con l'impronta di una chiave senza denti, con la testa a forma di occhio. A casa lo metti sulla mensola del camino. La mattina dopo è crepato, come se qualcuno l'avesse stretto troppo forte.",
   "short": "Compri lo stampo della chiave. La mattina dopo è crepato, come se qualcuno l'avesse stretto troppo."
  },
- "Per i cinquant'anni dalla posa della prima pietra del manicomio, il consiglio comunale ha deciso di onorare \"i benefattori della scienza cittadina\", e nella Foundry si sta fondendo una statua di bronzo del vecchio della tenuta: alto, distinto, con il Journal sotto il braccio, come nel ritratto. Il caposquadra ti fa vedere lo stampo con orgoglio. Il comitato, dice, ha pagato con un contributo anonimo molto generoso.": {
-  "easy": "Per i cinquant'anni del manicomio, il consiglio comunale ha deciso di onorare \"i benefattori della scienza cittadina\". Nella Foundry si sta fondendo una statua di bronzo del vecchio della tenuta: alto, distinto, con il Journal sotto il braccio, come nel ritratto. Il caposquadra ti fa vedere lo stampo con orgoglio. Dice che il comitato ha pagato con un contributo anonimo molto generoso.",
+ "Per i cinquant'anni dalla posa della prima pietra del manicomio, il consiglio comunale ha deciso di onorare \"i benefattori della scienza cittadina\", e nella Foundry si sta fondendo una statua di bronzo del vecchio della tenuta: alto, distinto, con il diario sotto il braccio, come nel ritratto. Il caposquadra ti fa vedere lo stampo con orgoglio. Il comitato, dice, ha pagato con un contributo anonimo molto generoso.": {
+  "easy": "Per i cinquant'anni del manicomio, il consiglio comunale ha deciso di onorare \"i benefattori della scienza cittadina\". Nella Foundry si sta fondendo una statua di bronzo del vecchio della tenuta: alto, distinto, con il diario sotto il braccio, come nel ritratto. Il caposquadra ti fa vedere lo stampo con orgoglio. Dice che il comitato ha pagato con un contributo anonimo molto generoso.",
   "short": "La Foundry sta fondendo una statua del vecchio, alto e distinto come nel ritratto. L'ha pagata un donatore anonimo."
  },
  "Il nome della famiglia viene inciso sul piedistallo, sotto quello del vecchio, in lettere più piccole. All'inaugurazione il sindaco fa un discorso sul progresso, e la banda suona. La statua guarda la piazza con aria severa. Di notte, qualcuno le mette in testa un cappello nero.": {
@@ -1651,9 +1651,9 @@
   "easy": "Il Memorial Institute è tutto vetro e ottone. I corridoi sanno di acido fenico, e i professori in camice bianco camminano in fretta, come se qualcuno li inseguisse. Il rettore ti riceve in uno studio pieno di microscopi. Davanti a lui c'è un ritaglio di giornale sul sale della tenuta, sottolineato in rosso.",
   "short": "Il rettore del Memorial Institute ti riceve tra i microscopi, con un articolo sul sale sottolineato in rosso."
  },
- "Vuole la formula. Vuole gli appunti della famiglia, il Journal, tutto. In cambio offre una cifra che ti fa girare la testa, e una cattedra con il nome del vecchio.": {
-  "easy": "Vuole la formula. Vuole gli appunti della famiglia, il Journal, tutto. In cambio offre una cifra che ti fa girare la testa, e una cattedra con il nome del vecchio.",
-  "short": "Vuole la formula e il Journal. Offre una fortuna e una cattedra con il nome del vecchio."
+ "Vuole la formula. Vuole gli appunti della famiglia, il diario, tutto. In cambio offre una cifra che ti fa girare la testa, e una cattedra con il nome del vecchio.": {
+  "easy": "Vuole la formula. Vuole gli appunti della famiglia, il diario, tutto. In cambio offre una cifra che ti fa girare la testa, e una cattedra con il nome del vecchio.",
+  "short": "Vuole la formula e il diario. Offre una fortuna e una cattedra con il nome del vecchio."
  },
  "Il rettore firma l'assegno senza discutere. Una settimana dopo, nelle vetrine dell'Istituto, compare un manifesto: *Il sale della tenuta: la scienza al servizio del popolo*. Non dice quale popolo.": {
   "easy": "Il rettore firma l'assegno senza discutere. Una settimana dopo, nelle vetrine dell'Istituto, c'è un manifesto: *Il sale della tenuta: la scienza al servizio del popolo*. Non dice quale popolo.",
@@ -1947,8 +1947,8 @@
   "easy": "Il notaio Ezra Pell è sepolto nel cimitero nuovo, vicino al muro, sotto un tiglio, in una fossa pagata venticinque anni prima con un assegno. Sulla lapide c'è scritto solo: *Qui riposa chi ha tenuto la chiave*.",
   "short": "Ezra Pell è sepolto sotto il tiglio, nella fossa pagata venticinque anni prima con un assegno: *Qui riposa chi ha tenuto la chiave*."
  },
- "La statua di bronzo del vecchio è ancora in piazza, con il Journal sotto il braccio. I piccioni la preferiscono a tutte le altre. Gli innamorati si danno appuntamento sotto di lei, di sera, e nessuno sa spiegare perché, a una certa ora, l'ombra della statua sia molto più corta della statua.": {
-  "easy": "La statua di bronzo del vecchio è ancora in piazza, con il Journal sotto il braccio. I piccioni la preferiscono a tutte le altre. La sera gli innamorati si danno appuntamento sotto di lei. E nessuno sa spiegare perché, a una certa ora, l'ombra della statua è molto più corta della statua.",
+ "La statua di bronzo del vecchio è ancora in piazza, con il diario sotto il braccio. I piccioni la preferiscono a tutte le altre. Gli innamorati si danno appuntamento sotto di lei, di sera, e nessuno sa spiegare perché, a una certa ora, l'ombra della statua sia molto più corta della statua.": {
+  "easy": "La statua di bronzo del vecchio è ancora in piazza, con il diario sotto il braccio. I piccioni la preferiscono a tutte le altre. La sera gli innamorati si danno appuntamento sotto di lei. E nessuno sa spiegare perché, a una certa ora, l'ombra della statua è molto più corta della statua.",
   "short": "La statua del vecchio è ancora in piazza. A una certa ora la sua ombra è molto più corta di lei."
  },
  "Il cappotto nero del vecchio è finito, dopo lo scioglimento della compagnia, nel magazzino di un rigattiere. Ogni tanto qualcuno lo compra. Ogni volta, dopo qualche settimana, il rigattiere lo ritrova appeso alla sua porta, piegato con cura.": {
@@ -1999,8 +1999,8 @@
   "easy": "Chiedete al notaio che cosa c'era nella credenza di suo padre. Chiedeteglielo presto: non gli resta molto.",
   "short": "Chiedete al notaio cosa c'era nella credenza. Presto."
  },
- "La famiglia mi tratta con gentilezza, come si tratta un parente malato. Mi lasciano il laboratorio, la notte, e la porta sul vicolo. Al mattino trovano i bicchieri lavati e il Journal aggiornato, con una grafia che pende all'indietro e che, devo dirlo, è molto più leggibile della vostra.": {
-  "easy": "La famiglia mi tratta con gentilezza, come si tratta un parente malato. Di notte mi lasciano il laboratorio e la porta sul vicolo. La mattina trovano i bicchieri lavati e il Journal aggiornato, con una grafia che pende all'indietro e che, devo dirlo, si legge molto meglio della vostra.",
+ "La famiglia mi tratta con gentilezza, come si tratta un parente malato. Mi lasciano il laboratorio, la notte, e la porta sul vicolo. Al mattino trovano i bicchieri lavati e il diario aggiornato, con una grafia che pende all'indietro e che, devo dirlo, è molto più leggibile della vostra.": {
+  "easy": "La famiglia mi tratta con gentilezza, come si tratta un parente malato. Di notte mi lasciano il laboratorio e la porta sul vicolo. La mattina trovano i bicchieri lavati e il diario aggiornato, con una grafia che pende all'indietro e che, devo dirlo, si legge molto meglio della vostra.",
   "short": "La famiglia mi tratta come un parente malato. Di notte uso il laboratorio. La mia grafia si legge meglio della vostra."
  },
  "Avete bruciato il mio cappotto. Non importa: ne ho comprato un altro, uguale, con il vostro denaro.": {
@@ -2055,9 +2055,9 @@
   "easy": "Bevemmo l'antidoto la notte del temporale, tutti insieme, nello studio con due porte. Non successe niente di speciale: un po' di nausea, tanto sonno, e la mattina uno strano silenzio nella testa, come quando smette di piovere. Da quella notte nessuno ha più visto Umber.",
   "short": "Bevemmo l'antidoto tutti insieme, la notte del temporale. Da allora nessuno ha più visto Umber."
  },
- "Con lui se n'è andato anche il resto. Le nostre formule non funzionano più, gli esperimenti falliscono, il Journal sembra scritto in una lingua che non sappiamo più leggere. Siamo diventati quello che la città ha sempre voluto: una famiglia per bene, con una casa troppo grande e niente da dire. Ci annoiamo moltissimo.": {
-  "easy": "Con lui se n'è andato anche il resto. Le nostre formule non funzionano più, gli esperimenti non riescono, il Journal sembra scritto in una lingua che non sappiamo più leggere. Siamo diventati quello che la città ha sempre voluto: una famiglia per bene, con una casa troppo grande e niente da dire. Ci annoiamo moltissimo.",
-  "short": "Con lui se n'è andato tutto: formule, esperimenti, il Journal. Ora siamo una famiglia per bene. Ci annoiamo moltissimo."
+ "Con lui se n'è andato anche il resto. Le nostre formule non funzionano più, gli esperimenti falliscono, il diario sembra scritto in una lingua che non sappiamo più leggere. Siamo diventati quello che la città ha sempre voluto: una famiglia per bene, con una casa troppo grande e niente da dire. Ci annoiamo moltissimo.": {
+  "easy": "Con lui se n'è andato anche il resto. Le nostre formule non funzionano più, gli esperimenti non riescono, il diario sembra scritto in una lingua che non sappiamo più leggere. Siamo diventati quello che la città ha sempre voluto: una famiglia per bene, con una casa troppo grande e niente da dire. Ci annoiamo moltissimo.",
+  "short": "Con lui se n'è andato tutto: formule, esperimenti, il diario. Ora siamo una famiglia per bene. Ci annoiamo moltissimo."
  },
  "La porta sul vicolo l'abbiamo murata la settimana dopo, con mattoni nuovi e calce bianca. Per un mese, la mattina, abbiamo trovato graffi sull'intonaco, dalla parte del vicolo, all'altezza di un uomo piccolo. Poi più niente. Il muratore dice che sono stati i gatti.": {
   "easy": "La settimana dopo abbiamo murato la porta sul vicolo, con mattoni nuovi e calce bianca. Per un mese, la mattina, abbiamo trovato graffi sull'intonaco, dalla parte del vicolo, all'altezza di un uomo piccolo. Poi più niente. Il muratore dice che sono stati i gatti.",

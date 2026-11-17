@@ -7,7 +7,7 @@
   ! **Registro Maas – dottor Joost Maas, medico condotto, *gennaio 1891.***
   > Riprendo il Registro di mia madre, per rispetto e per abitudine, e con un proposito: ci scriverò soltanto quello che si può misurare. Mia madre era una donna intelligente e una levatrice eccellente, ma negli ultimi anni contava le mani fredde come altri contano i rosari. Io ho studiato in città. Le mani fredde, in medicina, si chiamano cattiva circolazione.
 
-  > Brunveen non è più il paese in cui sono nato. Le case di legno sono state rifatte in muratura, con le travi a vista e i tetti di tegole; l'argine è stato alzato, il mulino rifatto, la chiesa allargata. Il consiglio ha premiato il paese tre anni di fila come il più ordinato della provincia. Non ci sono furti, non ci sono debiti, non ci sono risse all'osteria, perché all'osteria non ci va più nessuno. Il coro della chiesa è il migliore della diocesi.
+  > Il paese non è più quello in cui sono nato. Le case di legno sono state rifatte in muratura, con le travi a vista e i tetti di tegole; l'argine è stato alzato, il mulino rifatto, la chiesa allargata. Il consiglio ha premiato il paese tre anni di fila come il più ordinato della provincia. Non ci sono furti, non ci sono debiti, non ci sono risse all'osteria, perché all'osteria non ci va più nessuno. Il coro della chiesa è il migliore della diocesi.
 
   > Qualche famiglia, negli anni, se n'è andata: i Mulder, i De Graaf, la vedova Brink, una dozzina in tutto. Dicevano che qui non si trovavano più bene. Le loro case sono rimaste vuote, e nessuno le compra; i tetti cedono, le finestre si rompono, l'erba cresce sulle soglie. In un paese così ordinato, quelle rovine stonano. Il sindaco ha promesso di farle abbattere.
 
@@ -133,7 +133,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 :: G2Scuola
   set evScuola = true
   # **I disegni dei bambini**
-  > La scuola di Brunveen si fa nella sala dietro la chiesa. La maestra Neeltje Borg, una ragazza della città con gli occhiali e la voce sottile, ti ferma all'uscita con una cartella sotto il braccio. Ogni lunedì, dice, chiede ai bambini di disegnare il sogno della domenica notte. È un esercizio che le hanno insegnato alla scuola normale. Qui, a Brunveen, metà dei bambini consegna il foglio bianco. Non sognano, dicono. L'altra metà disegna sempre la stessa cosa: la torbiera, di notte, con una luce in mezzo.
+  > La scuola di {$townname} si fa nella sala dietro la chiesa. La maestra Neeltje Borg, una ragazza della città con gli occhiali e la voce sottile, ti ferma all'uscita con una cartella sotto il braccio. Ogni lunedì, dice, chiede ai bambini di disegnare il sogno della domenica notte. È un esercizio che le hanno insegnato alla scuola normale. Qui, a {$townname}, metà dei bambini consegna il foglio bianco. Non sognano, dicono. L'altra metà disegna sempre la stessa cosa: la torbiera, di notte, con una luce in mezzo.
   ! Che cosa fai?
   [[Porti i disegni al dottor Maas. ~> dottore]]
   [[Dici alla maestra che è normale, a quell'età. ~> normale]]
@@ -145,7 +145,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
       ! Guadagni 1 Prova {icon:S3_WeaponToken} e 1 {icon:Insanity_Icon}.
   fragment normale:
     set fiducia = $fiducia + 1
-    > La maestra ti ringrazia, sollevata: aveva paura di essere lei la strana. Ti confessa che, da quando è arrivata a Brunveen, è l'unica in paese che sogna ancora tutte le notti. Sogni brutti, dice, ma suoi.
+    > La maestra ti ringrazia, sollevata: aveva paura di essere lei la strana. Ti confessa che, da quando è arrivata a {$townname}, è l'unica in paese che sogna ancora tutte le notti. Sogni brutti, dice, ma suoi.
     block setupEvent next=$hub:
       ! Guadagni 1VP.
   fragment bianchi:
@@ -160,7 +160,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 :: G2Ronda
   set evRonda = true
   # **La Ronda**
-  > Al Town Hall, nella sala piccola, si sono riuniti una decina di cittadini: torbai, due commesse, il becchino Siebe, ormai vecchio, la maestra Borg. Vogliono fare la ronda di notte, come faceva una volta il pastore Kalf. Hanno visto cose, dicono: gente che cammina verso la torbiera in camicia da notte, a piedi nudi, e torna all'alba asciutta. Il consiglio ha già detto di no: a Brunveen non c'è criminalità, e una ronda spaventerebbe le famiglie. Serve qualcuno della tenuta, dicono, perché il consiglio non osi opporsi.
+  > Al Town Hall, nella sala piccola, si sono riuniti una decina di cittadini: torbai, due commesse, il becchino Siebe, ormai vecchio, la maestra Borg. Vogliono fare la ronda di notte, come faceva una volta il pastore Kalf. Hanno visto cose, dicono: gente che cammina verso la torbiera in camicia da notte, a piedi nudi, e torna all'alba asciutta. Il consiglio ha già detto di no: a {$townname} non c'è criminalità, e una ronda spaventerebbe le famiglie. Serve qualcuno della tenuta, dicono, perché il consiglio non osi opporsi.
   if $ronda >= 3:
     > Sul tavolo c'è la vecchia lanterna della prima ronda, quella del pastore. Qualcuno l'ha conservata.
   ! Che cosa fai?
@@ -211,7 +211,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   > Al Builder's Office il capomastro Lambert, che ha passato da un pezzo l'età della pensione e sale ancora sui tetti, ha ricevuto dal consiglio l'ordine di abbattere le case vuote delle famiglie partite. I suoi muratori, però, non vogliono entrarci. Non sono i muri pericolanti, dicono: è che dentro c'è qualcuno. Nei letti, sotto le coperte ammuffite, c'è sempre una forma, come di una persona che dorme. Quando la scopri, è torba.
   ! Che cosa fai?
   [[Entri nella casa dei Mulder. ~> entra]]
-  [[Paghi i muratori perché le abbattano subito. ~> abbatti]]
+  [[Paghi i muratori perché le abbattano subito ($2). ~> abbatti]]
   fragment entra:
     > La casa dei Mulder è fredda e buia. Nella camera da letto, sotto la coperta, c'è una forma lunga e magra, con la testa sul cuscino. Alzi la coperta: torba nera, umida, modellata come un uomo che dorme, con le mani giunte sul petto. Sul comodino c'è un paio di occhiali. Quelli del vecchio Mulder, che a Rotterdam, dicono, porta ancora.
     block setupEvent next=$hub:
@@ -252,11 +252,11 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 
   > "Non bevete l'acqua", dice. "E se vedete qualcuno con la vostra faccia, non guardatelo negli occhi. Noi siamo partiti quando mia moglie mi ha detto buonanotte con la voce di sempre e le mani fredde. Quella sera ho preso i bambini e sono andato via. Lei non ci ha seguiti. Ci scrive. Dice che sta bene."
   ! Che cosa fai?
-  [[Gli offri ospitalità alla tenuta. ~> ospita]]
+  [[Gli offri ospitalità alla tenuta ($1). ~> ospita]]
   [[Gli chiedi della moglie. ~> moglie]]
   fragment ospita:
     set ronda = $ronda + 1
-    > I Mulder dormono alla tenuta per una settimana. Bevono solo birra. Il vecchio Mulder passa le sere con voi, davanti al camino, e racconta come era Brunveen prima delle due luci: sporca, povera, rissosa, piena di gente che litigava e cantava. Quando riparte, ti lascia una lista di nomi: quelli che, secondo lui, sono ancora "veri".
+    > I Mulder dormono alla tenuta per una settimana. Bevono solo birra. Il vecchio Mulder passa le sere con voi, davanti al camino, e racconta come era {$townname} prima delle due luci: sporca, povera, rissosa, piena di gente che litigava e cantava. Quando riparte, ti lascia una lista di nomi: quelli che, secondo lui, sono ancora "veri".
     block setupEvent next=$hub:
       ! Paga $1 e guadagni 2 Prove {icon:S3_WeaponToken}.
   fragment moglie:
@@ -267,7 +267,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 :: G2Cronaca
   # **Una pagina del Registro**
   ! **Registro Maas – Joost Maas, *1897.***
-  > Ho misurato la temperatura di centosessanta abitanti di Brunveen, in sei anni, con un termometro di precisione fatto venire da Leida. Centoventi hanno una temperatura media di trentaquattro gradi e otto decimi. Secondo i miei libri, a trentaquattro e otto un uomo trema, delira e muore. Questi centoventi stanno benissimo. Non tremano. Non si ammalano. Non vengono mai da me, se non per accompagnare qualcuno che ha la febbre.
+  > Ho misurato la temperatura di centosessanta abitanti di {$townname}, in sei anni, con un termometro di precisione fatto venire da Leida. Centoventi hanno una temperatura media di trentaquattro gradi e otto decimi. Secondo i miei libri, a trentaquattro e otto un uomo trema, delira e muore. Questi centoventi stanno benissimo. Non tremano. Non si ammalano. Non vengono mai da me, se non per accompagnare qualcuno che ha la febbre.
 
   > Ho cominciato a pensare che mia madre avesse ragione. Non lo scrivo per intero: lo scrivo e basta.
   if $hester:
@@ -467,10 +467,10 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G2Consiglio
   # **L'offerta del consiglio**
   ui specialEvent
-  ! **Lettera del consiglio comunale di Brunveen alla famiglia della tenuta – *1904.***
-  > Il consiglio, all'unanimità, ha il piacere di conferire alla famiglia della tenuta la cittadinanza d'onore di Brunveen, con un vitalizio annuo e un posto riservato in prima fila a tutte le cerimonie, in riconoscimento di quarant'anni di servizio alla scienza e al paese.
+  ! **Lettera del consiglio comunale di {$townname} alla famiglia della tenuta – *1904.***
+  > Il consiglio, all'unanimità, ha il piacere di conferire alla famiglia della tenuta la cittadinanza d'onore di {$townname}, con un vitalizio annuo e un posto riservato in prima fila a tutte le cerimonie, in riconoscimento di quarant'anni di servizio alla scienza e al paese.
 
-  > Il consiglio confida che la famiglia vorrà, in cambio, rinunciare a ogni attività che possa turbare la quiete dei cittadini: ronde notturne, scavi nella torbiera, misurazioni non richieste. La quiete, a Brunveen, è un bene comune.
+  > Il consiglio confida che la famiglia vorrà, in cambio, rinunciare a ogni attività che possa turbare la quiete dei cittadini: ronde notturne, scavi nella torbiera, misurazioni non richieste. La quiete, a {$townname}, è un bene comune.
 
   > Firmato: il sindaco, Aldert Wessel. Il segretario, Piet Brink.
   ! Ogni giocatore prende un Voting token e sceglie in segreto. Quando tutti hanno scelto, rivelate insieme i voti.
@@ -550,7 +550,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
   block hubTitle:
     ! **Evento del terzo Round**
   block hubDetails:
-    > Gerrit Tammer scava ogni notte, nel punto della luce, con una lanterna e la vanga del padre. Il consiglio ha mandato due volte una lettera di diffida, molto cortese. Nel paese ordinato di Brunveen, ai margini della torbiera, si allarga ogni settimana una ferita di torba nera.
+    > Gerrit Tammer scava ogni notte, nel punto della luce, con una lanterna e la vanga del padre. Il consiglio ha mandato due volte una lettera di diffida, molto cortese. Nel paese ordinato di {$townname}, ai margini della torbiera, si allarga ogni settimana una ferita di torba nera.
   [[Clicca qui alla fine del Round per passare al Round successivo... ~> 0]]
   fragment 0:
     include SetePietra
@@ -568,7 +568,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     > {$vanga} è con loro, con la vecchia vanga dei Tammer in mano. Ogni colpo è più facile del precedente.
   ! Che cosa fai?
   [[Scendi a scavare con loro. ~> scava]]
-  [[Porti da mangiare e da bere, e fai la guardia. ~> porta]]
+  [[Porti da mangiare e da bere, e fai la guardia ($1). ~> porta]]
   fragment scava:
     > Scendi nella buca. La torba, sotto la vanga, cede come il pane fresco. A un certo punto la lama tocca qualcosa di morbido e liscio, che non è torba. Gerrit ti afferra il polso, bianco in faccia. "Domani", dice. "Con la luce. E con tutti."
     block setupEvent next=$hub:
@@ -670,7 +670,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 
   > L'uomo è Fokke Tammer, all'età di quarant'anni circa. Lo riconosce il figlio Gerrit, che si è inginocchiato nel fango e non riesce ad alzarsi. Lo riconosco anch'io, dalle ustioni: le medicò mia madre. Fokke Tammer, quello di ottantotto anni, in questo momento è al Farmer's Market, dietro il suo banco, e serve i clienti.
 
-  > **Gli originali non sono morti. Dormono nella torba, conservati come il giorno in cui sono stati presi. Quelli che camminano per Brunveen sono un'altra cosa.**
+  > **Gli originali non sono morti. Dormono nella torba, conservati come il giorno in cui sono stati presi. Quelli che camminano per {$townname} sono un'altra cosa.**
 
   > Ho controllato il mio polso tre volte, mentre scrivevo. Era normale.
   [[Clicca per continuare... => G2FokkeVoto]]
@@ -711,7 +711,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G2Chiusura
   # **Fine della Generazione**
   ! **Registro Maas – Joost Maas, *1915.***
-  > Scrivo l'ultima pagina della mia parte di Registro. La guerra è scoppiata l'anno scorso, e anche se il nostro paese non c'entra, mezza Europa brucia, e i ragazzi di Brunveen partono volontari per le ambulanze, per le fabbriche, per il fronte. Partono i figli della tenuta. Parte mia figlia Wilhelmina, che si è appena laureata in medicina e dice che al fronte servono medici più che qui. Ha ragione. Le ho dato l'orologio di mia madre, quello rotto: le porterà fortuna, o almeno le dirà che ora era quando ha smesso di funzionare.
+  > Scrivo l'ultima pagina della mia parte di Registro. La guerra è scoppiata l'anno scorso, e anche se il nostro paese non c'entra, mezza Europa brucia, e i ragazzi di {$townname} partono volontari per le ambulanze, per le fabbriche, per il fronte. Partono i figli della tenuta. Parte mia figlia Wilhelmina, che si è appena laureata in medicina e dice che al fronte servono medici più che qui. Ha ragione. Le ho dato l'orologio di mia madre, quello rotto: le porterà fortuna, o almeno le dirà che ora era quando ha smesso di funzionare.
 
   > I partenti hanno bevuto tutti l'acqua della fontana, la mattina della partenza, come vuole l'uso nuovo del paese: "per tornare". Wil no. Wil ha bevuto birra.
   if $consiglio == "accettato":
@@ -731,7 +731,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G2Wessel
   set evWessel2 = true
   # **Il giubileo del sindaco**
-  > Al Town Hall si festeggiano i quarant'anni di Aldert Wessel come sindaco di Brunveen. Ghirlande, un ritratto nuovo a olio, un coro di bambini in fila. Il sindaco ha ottant'anni e cammina dritto come un soldato. Il comitato chiede a qualcuno della tenuta, "la famiglia più antica del paese", di dire due parole di omaggio dal palco. Il foglio con il discorso è già pronto: lo ha scritto il segretario, Piet Brink.
+  > Al Town Hall si festeggiano i quarant'anni di Aldert Wessel come sindaco di {$townname}. Ghirlande, un ritratto nuovo a olio, un coro di bambini in fila. Il sindaco ha ottant'anni e cammina dritto come un soldato. Il comitato chiede a qualcuno della tenuta, "la famiglia più antica del paese", di dire due parole di omaggio dal palco. Il foglio con il discorso è già pronto: lo ha scritto il segretario, Piet Brink.
   if $wessel == "moglie":
     > Sul tavolo d'onore, accanto alla torta, c'è un posto apparecchiato e vuoto, con un biglietto: *signora Wessel*. Il sindaco spiega che sua moglie è ancora dalla sorella, in città, e che gli ha scritto per scusarsi. La lettera è sul piatto. La calligrafia è quella del sindaco.
   ! Che cosa fai?
@@ -745,7 +745,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
       ! Guadagni $2 e 1VP.
   fragment moglie:
     set fiducia = $fiducia - 1
-    > Metti da parte il foglio e parli della signora Wessel: della sua risata da gallina, dei suoi cappelli orribili, delle liti con il marito che si sentivano fino alla piazza. Racconti com'era Brunveen quando la gente litigava. La sala ti ascolta in un silenzio perfetto. Il sindaco sorride per tutto il tempo. Quando hai finito, una vecchia in fondo alla sala piange. È l'unica.
+    > Metti da parte il foglio e parli della signora Wessel: della sua risata da gallina, dei suoi cappelli orribili, delle liti con il marito che si sentivano fino alla piazza. Racconti com'era {$townname} quando la gente litigava. La sala ti ascolta in un silenzio perfetto. Il sindaco sorride per tutto il tempo. Quando hai finito, una vecchia in fondo alla sala piange. È l'unica.
     block setupEvent next=$hub:
       ! Guadagni 1 Prova {icon:S3_WeaponToken} e 1 {icon:Creepy_Icon}.
   fragment declina:
@@ -784,7 +784,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     > La famiglia della tenuta ha rifiutato la medaglia del consiglio. Nostro padre ne è fiero. In paese li trattano con una gentilezza così perfetta che fa male guardarla. Al mercato li servono per ultimi, sorridendo.
   if $scudo != "":
     > La Ronda di {$scudo} esce ancora, due notti a settimana. Io porto il tè caldo. Siamo rimasti in pochi, ma stoniamo tutti benissimo.
-  > Gerrit Tammer, il figlio del torbaio, scava ancora, al Park, nel punto della luce. Dice che è vicino. A che cosa, non lo dice. Ti prego, Willem, non tornare a Brunveen. Resta dove fa caldo, dove la gente suda e si lamenta e muore di febbre. Qui non muore più nessuno, e io ho paura di non riuscire a morire nemmeno io. La tua Trijntje.
+  > Gerrit Tammer, il figlio del torbaio, scava ancora, al Park, nel punto della luce. Dice che è vicino. A che cosa, non lo dice. Ti prego, Willem, non tornare a {$townname}. Resta dove fa caldo, dove la gente suda e si lamenta e muore di febbre. Qui non muore più nessuno, e io ho paura di non riuscire a morire nemmeno io. La tua Trijntje.
   [[Continua... => G2R3]]
 
 // Arricchimento: all'inizio della Seconda Generazione ogni erede riceve in segreto un sogno.
@@ -812,7 +812,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     block setupEvent next=G2Sogno%L.next%:
       ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
   fragment sveglia:
-    > Ti svegli di colpo, nel tuo letto, con il cuore che batte forte. Ti tocchi le mani: sono calde. Non riprendi sonno fino all'alba, e ascolti il silenzio di Brunveen, che è più profondo di quanto ricordassi.
+    > Ti svegli di colpo, nel tuo letto, con il cuore che batte forte. Ti tocchi le mani: sono calde. Non riprendi sonno fino all'alba, e ascolti il silenzio di {$townname}, che è più profondo di quanto ricordassi.
     block setupEvent next=G2Sogno%L.next%:
       ! Guadagni $1.
 ::endfor
@@ -825,7 +825,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G2Ghiaccio
   set evGhiaccio = true
   # **Il ghiaccio dello stagno**
-  > Al Park, d'inverno, lo stagno gela, e i bambini di Brunveen ci pattinano sopra, tutti insieme, in cerchio, senza mai scontrarsi. Tutti tranne uno: il più piccolo della classe della maestra Borg, otto anni, che pattina male, cade, ride, piange, e si rialza. Oggi è caduto dove il ghiaccio è sottile, vicino al canale che porta alla torbiera, e il ghiaccio si è aperto. Gli altri bambini si sono fermati sulla riva, in fila, e guardano. Nessuno grida. Il bambino si aggrappa al bordo, e l'acqua scura gli arriva al mento.
+  > Al Park, d'inverno, lo stagno gela, e i bambini di {$townname} ci pattinano sopra, tutti insieme, in cerchio, senza mai scontrarsi. Tutti tranne uno: il più piccolo della classe della maestra Borg, otto anni, che pattina male, cade, ride, piange, e si rialza. Oggi è caduto dove il ghiaccio è sottile, vicino al canale che porta alla torbiera, e il ghiaccio si è aperto. Gli altri bambini si sono fermati sulla riva, in fila, e guardano. Nessuno grida. Il bambino si aggrappa al bordo, e l'acqua scura gli arriva al mento.
   if $cane == "preso":
     > Il cane della tenuta, un nipote di Bruin, si lancia sul ghiaccio abbaiando, prima di tutti.
   ! Che cosa fai?

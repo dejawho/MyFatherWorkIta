@@ -3,7 +3,7 @@
 
 :: Epilogo
   ! **Che ne fu degli altri.**
-  > Trijntje Kalf suonò l'organo della chiesa di Brunveen fino a ottantacinque anni, ogni domenica, e ogni domenica stonò una nota, una sola, forte, a metà dell'inno. Quando morì, al funerale, l'organista nuova suonò tutto alla perfezione. In fondo alla chiesa, qualcuno si alzò e se ne andò.
+  > Trijntje Kalf suonò l'organo della chiesa di {$townname} fino a ottantacinque anni, ogni domenica, e ogni domenica stonò una nota, una sola, forte, a metà dell'inno. Quando morì, al funerale, l'organista nuova suonò tutto alla perfezione. In fondo alla chiesa, qualcuno si alzò e se ne andò.
 
   > La maestra Neeltje Borg sognò fino all'ultima notte della sua vita. L'ultimo sogno lo scrisse sul quaderno, la mattina, con la mano tremante: *la torbiera era asciutta, e c'erano i bambini che giocavano*. Poi si rimise a letto, e non si svegliò più. Aveva le mani calde.
   if $fokke == "svegliato":
@@ -55,7 +55,7 @@
 
   > La torba brucia in un modo che non si dimentica. Non fa fiamme alte: fuma, cova, si mangia la terra dal di sotto, per metri, senza che in superficie si veda niente se non un velo grigio e un odore dolciastro. Non si può spegnere. Non si può fermare. I pompieri della città sono venuti, hanno guardato, e sono ripartiti.
 
-  > La torbiera di Brunveen ha bruciato sotto terra per sette anni. Con tutto quello che c'era dentro.
+  > La torbiera di {$townname} ha bruciato sotto terra per sette anni. Con tutto quello che c'era dentro.
 
   > I Vicini non sono scappati. Sono andati all'argine, la prima mattina, tutti insieme, in silenzio, e si sono seduti sulla riva a guardare il fumo, come si veglia un parente. Molti sono rimasti lì finché non hanno cominciato a seccarsi e a crepare, a uno a uno, come Fokke. Gli altri sono tornati in paese, gentili come prima. Non hanno mai detto una parola a chi aveva acceso il fuoco. Gli hanno soltanto, per sette anni, dato il buongiorno.
 
@@ -73,7 +73,7 @@
   ! **Registro Maas – Wil Maas, *1920.***
   > Non c'è stato bisogno di votare. Quando siamo scesi dalla torre, all'alba, il paese era sveglio, e ci aspettava sotto le finestre della tenuta: tutto il paese, in silenzio, con le mani in tasca. Non volevano niente. Volevano soltanto che lo sapessimo.
 
-  > Ho rifatto i conti del Registro. A Brunveen siamo rimasti in pochi: la famiglia della tenuta, Trijntje Kalf, la maestra Borg, Hendrik Tammer, io, e una manciata di vecchi testardi che bevono solo gin. Gli altri, tutti gli altri, sono loro. Il sindaco, i consiglieri, i maestri, i bambini delle scuole, i reduci del monumento. Il paese è loro, e lo è da più tempo di quanto vogliamo ammettere. Noi siamo gli ultimi.
+  > Ho rifatto i conti del Registro. A {$townname} siamo rimasti in pochi: la famiglia della tenuta, Trijntje Kalf, la maestra Borg, Hendrik Tammer, io, e una manciata di vecchi testardi che bevono solo gin. Gli altri, tutti gli altri, sono loro. Il sindaco, i consiglieri, i maestri, i bambini delle scuole, i reduci del monumento. Il paese è loro, e lo è da più tempo di quanto vogliamo ammettere. Noi siamo gli ultimi.
 
   > Non ci fanno del male. Non ce ne hanno mai fatto. Ci portano la frutta, ci riparano le tegole, ci salutano per nome, e aspettano. Hanno tempo: ne hanno sempre avuto più di noi. Uno alla volta, un po' per stanchezza, un po' per solitudine, un po' perché il sonno, alla fine, è dolce, berremo anche noi.
 
@@ -114,7 +114,7 @@
   > All'alba sono scesa in paese con la borsa. Non è servita. In ogni casa, nei letti, sulle sedie, dietro i banchi dei negozi, c'erano mucchi di torba nera e bagnata, con dentro vestiti, occhiali, dentiere, fedi. Il sindaco Bram Wessel, al Town Hall, seduto alla sua scrivania. Il cassiere della banca. La bibliotecaria. I tre ragazzi del monumento. Tutti quelli che avevano bevuto, tutti quelli che erano tornati dalla torbiera un po' diversi, quelli di cinquant'anni e quelli di ieri.
   if $copia != "":
     > E alla tenuta, nella camera di {$copiaNome}, sul cuscino, un mucchio di torba con la forma di una testa addormentata.
-  > Brunveen è un paese di vecchi, di bambini piccoli e di case vuote. Ho contato i vivi: centoventi. Erano novecento. Il consiglio non esiste più, la scuola è chiusa, la banca pure. Al mercato, di nuovo, si litiga sul prezzo delle aringhe. All'osteria si canta stonato. Ieri sera c'è stata una rissa. Ho medicato due nasi rotti e ho riso tutto il tempo.
+  > {$townname} è un paese di vecchi, di bambini piccoli e di case vuote. Ho contato i vivi: centoventi. Erano novecento. Il consiglio non esiste più, la scuola è chiusa, la banca pure. Al mercato, di nuovo, si litiga sul prezzo delle aringhe. All'osteria si canta stonato. Ieri sera c'è stata una rissa. Ho medicato due nasi rotti e ho riso tutto il tempo.
 
   > Sotto la torba, nella torbiera, i dormienti dormono ancora. Senza la pietra, non sappiamo se si sveglieranno mai. Gerrit Tammer, che ha passato i sessanta, ci va ogni mattina, con la vanga, e scava. Dice che uno, prima o poi, aprirà gli occhi.
   if $fokke == "svegliato":
@@ -134,7 +134,7 @@
 
   if $fokke != "svegliato":
     > Per primo, Fokke Tammer, giovane come nel 1865, con le ustioni sui palmi. Gerrit lo ha vegliato tre giorni.
-  > Ora Brunveen ha due di tutti. Due Jan Hoek, due Piet Brink, due mogli del mugnaio, che non si guardano e non si parlano. I risvegliati sono stanchi, confusi, arrabbiati, spaventati; non sanno che anno è, non riconoscono le strade, piangono per i figli cresciuti senza di loro. I Vicini li aiutano in tutto, con una pazienza infinita, come si aiuta un parente malato. Non si capisce più chi sia la famiglia di chi.
+  > Ora {$townname} ha due di tutti. Due Jan Hoek, due Piet Brink, due mogli del mugnaio, che non si guardano e non si parlano. I risvegliati sono stanchi, confusi, arrabbiati, spaventati; non sanno che anno è, non riconoscono le strade, piangono per i figli cresciuti senza di loro. I Vicini li aiutano in tutto, con una pazienza infinita, come si aiuta un parente malato. Non si capisce più chi sia la famiglia di chi.
 
   > Nessuno sa che cosa succederà. Io so soltanto che ieri sera, all'osteria, un uomo appena svegliato ha tirato un pugno al suo doppio, e il doppio, invece di difendersi, lo ha abbracciato. Sono rimasti così, abbracciati, a lungo, uno caldo e uno freddo. Poi hanno ordinato due gin.
   if $copia != "":
@@ -152,7 +152,7 @@
 
   > Ho tirato fuori il Registro e l'ho aperto alla prima pagina, quella della nonna Hester. *11 novembre 1865. Notte, ore undici e un quarto. Vista una luce bianca sulla torre della tenuta, forte come il giorno. Nello stesso istante, un'altra luce uguale in mezzo alla torbiera.* Ho guardato dalla finestra, verso la torbiera. Non si vedeva niente. Non doveva: quella luce si è accesa cinquantaquattro anni fa.
 
-  > Il bisnonno pensava che qualcosa fosse passato dall'altra parte, e che dovesse tornare da dove veniva. Si sbagliava solo sul verso. La pietra non veniva da un altro mondo, e non l'ha presa lui. L'abbiamo mandata noi. Stanotte, volendo liberare il paese dalla pietra, l'abbiamo mandata là dove tutto è cominciato. Brunveen è diventata quello che è perché noi, cinquantaquattro anni dopo, l'avremmo rimandata indietro. La pietra esiste nel passato perché esisteva nel futuro, e nel futuro perché esisteva nel passato. Non viene da nessuna parte. Gira in cerchio. E noi siamo il punto in cui il cerchio si chiude.
+  > Il bisnonno pensava che qualcosa fosse passato dall'altra parte, e che dovesse tornare da dove veniva. Si sbagliava solo sul verso. La pietra non veniva da un altro mondo, e non l'ha presa lui. L'abbiamo mandata noi. Stanotte, volendo liberare il paese dalla pietra, l'abbiamo mandata là dove tutto è cominciato. {$townname} è diventata quello che è perché noi, cinquantaquattro anni dopo, l'avremmo rimandata indietro. La pietra esiste nel passato perché esisteva nel futuro, e nel futuro perché esisteva nel passato. Non viene da nessuna parte. Gira in cerchio. E noi siamo il punto in cui il cerchio si chiude.
 
   > Non nasceranno più Vicini. Quelli che ci sono resteranno, finché la torba regge: dieci anni, venti, cinquanta. Si sbricioleranno uno alla volta, piano, come Fokke. Il paese avrà il tempo di salutarli. Stamattina, al mercato, uno di loro mi ha chiesto come stavo, e per la prima volta, nella sua voce, c'era qualcosa che somigliava alla paura.
 
@@ -172,11 +172,11 @@
 
   > Da quel giorno i Vicini non si sbriciolano più. I più vecchi, quelli che avevano cominciato a seccarsi, si sono ripresi in una settimana: le crepe si sono chiuse, la pelle è tornata liscia. Ci hanno ringraziati, uno per uno, venendo alla tenuta con i fiori. Ci hanno detto che non lo dimenticheranno. Ci credo: non dimenticano mai niente.
 
-  > E la torbiera ricomincia. La fontana della piazza dà di nuovo acqua scura, fresca, buona. I bambini nati quest'anno la bevono dal biberon. Il consiglio ha già un progetto per un acquedotto, che porti l'Acqua di Brunveen in tutta la provincia, e poi in tutto il regno, e poi chissà.
+  > E la torbiera ricomincia. La fontana della piazza dà di nuovo acqua scura, fresca, buona. I bambini nati quest'anno la bevono dal biberon. Il consiglio ha già un progetto per un acquedotto, che porti l'Acqua di {$townname} in tutta la provincia, e poi in tutto il regno, e poi chissà.
 
   > Ho deciso di restare. Qualcuno deve contare. Ma ieri sera, per la prima volta in vita mia, ho bevuto un bicchiere della fontana. Volevo sapere che sapore avesse la pace. È buona. Domattina mi misurerò la temperatura, e la scriverò qui, come sempre. Se non la scriverò, sapete perché.
   if $copia != "":
-    > {$copiaNome} mi ha accompagnata alla fontana, ieri sera. Mi ha tenuto il bicchiere, gentile, come si fa con un bambino che prende la medicina. Ha detto che non me ne pentirò. Ha detto che nessuno, a Brunveen, si è mai pentito di niente.
+    > {$copiaNome} mi ha accompagnata alla fontana, ieri sera. Mi ha tenuto il bicchiere, gentile, come si fa con un bambino che prende la medicina. Ha detto che non me ne pentirò. Ha detto che nessuno, a {$townname}, si è mai pentito di niente.
   if $riparata:
     > La Macchina, nella torre, è rimasta accesa per tre giorni dopo la notte del voto, ronzando, con la piattaforma vuota. Poi si è spenta da sola. Da allora nessuno ha più provato ad accenderla.
   include Epilogo
@@ -190,12 +190,12 @@
 
   > Chiudo il Registro qui. Tre generazioni di temperature, di mani fredde, di nomi con una crocetta accanto. Mia nonna li contava, mio padre li misurava, io li ho sommati. Il totale non serve a niente, se nessuno lo legge. Lo lascio alla famiglia della tenuta, perché lo tenga nella torre, accanto alla Macchina che non è servita a niente e all'orologio che non segna più l'ora.
 
-  > Ogni tanto, la sera, vado sull'argine a guardare la torbiera. La neve, nel punto della luce, non si posa mai. Sotto, a centinaia, quelli che dormono continuano a dormire, con le mani giunte, conservati come il giorno in cui sono stati presi. Sopra, quelli che camminano continuano a camminare, gentili, sani, in pace. Fra cinquant'anni si sbricioleranno, e altri prenderanno il loro posto, e nessuno, a Brunveen, se ne accorgerà.
+  > Ogni tanto, la sera, vado sull'argine a guardare la torbiera. La neve, nel punto della luce, non si posa mai. Sotto, a centinaia, quelli che dormono continuano a dormire, con le mani giunte, conservati come il giorno in cui sono stati presi. Sopra, quelli che camminano continuano a camminare, gentili, sani, in pace. Fra cinquant'anni si sbricioleranno, e altri prenderanno il loro posto, e nessuno, a {$townname}, se ne accorgerà.
 
   > Non so se abbiamo sbagliato. Ma per la prima volta in vita mia, chiudendo questo quaderno, mi sento quieta anch'io. E questo, più di tutto il resto, mi spaventa.
   if $copia != "" && !$smascherata:
     > {$copiaNome}, dopo il voto, mi ha accompagnata a casa, sotto la neve, tenendomi l'ombrello. Sulla porta mi ha ringraziata. Per che cosa? "Per aver lasciato le cose come sono", è stata la risposta. "È la cosa più gentile che si possa fare."
   if $consiglio == "rifiutato":
-    > La famiglia della tenuta, almeno, non ha mai accettato la medaglia. È poco. Ma a Brunveen, ormai, il poco è tutto quello che resta di nostro.
+    > La famiglia della tenuta, almeno, non ha mai accettato la medaglia. È poco. Ma a {$townname}, ormai, il poco è tutto quello che resta di nostro.
   include Epilogo
   ! FINE?

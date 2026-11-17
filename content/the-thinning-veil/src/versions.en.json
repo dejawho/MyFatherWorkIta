@@ -22,7 +22,7 @@
   "easy": "At first you hear only a murmur, like many people in a room of the house next door. Then you understand the words. Then you hear the voices: an old woman looking for a ring, a child who counts to a hundred and starts again, a man who always repeats the same address. None of them seems to know they are dead.",
   "short": "First a murmur, then voices: an old woman seeking a ring, a child counting, a man repeating an address. None of them knows they are dead."
  },
- "Una mattina apri il Journal e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.": {
+ "Una mattina apri il diario e trovi una pagina che non hai scritto. La calligrafia è inclinata all'indietro, l'inchiostro è ancora fresco, e la formula che descrive è sbagliata in un punto solo, come se chi l'ha scritta volesse vedere se te ne accorgi.": {
   "easy": "One morning you open the Journal and find a page you did not write. The handwriting leans backwards and the ink is still wet. The formula on the page has only one mistake, as if the writer wanted to see if you would notice.",
   "short": "In the Journal is a page you did not write, the ink still wet, with a single mistake, like a test."
  },
@@ -37,7 +37,7 @@
   "easy": "Father was buried on the Day of the Dead, under a light rain. Many people from the village came to the cemetery, but they stayed behind the low wall: no one wanted to go near the grave, and the gravedigger worked fast without looking in. People said that in his last years the old man had stayed shut up in the estate, with machines that made noise at night. Sometimes, from the windows of his laboratory, came a light of a strange colour that no one could describe.",
   "short": "Father was buried on the Day of the Dead. The village kept behind the cemetery wall: people said the old man had worked at night on humming machines, amid lights of a nameless colour."
  },
- "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:": {
+ "Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il diario del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:": {
   "easy": "The heirs had arrived the evening before by coach. Each came from a different city, with a trunk and the same letter from the notary. Now the estate was theirs, and so were the debts, the instruments, the animals in the cages and Father's Journal: a leather notebook full of notes, drawings and formulae. On the last page there was only one sentence, underlined twice, so hard that the pen had cut the paper:",
   "short": "The heirs inherited the estate, the debts, the laboratory and Father's Journal. On its last page, one sentence, underlined so hard it cut the paper:"
  },
@@ -57,7 +57,7 @@
   "easy": "In his library I saw a little French book about talking tables: one knock means yes, two mean no. I remember it now, in the dark, and I wish I did not.",
   "short": "I remember a little book from his library: one knock for yes, two for no. I wish I did not."
  },
- "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il Journal aperto sul cuscino, a una pagina che non ricordo di aver mai letto.": {
+ "Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il diario aperto sul cuscino, a una pagina che non ricordo di aver mai letto.": {
   "easy": "I ask, very quietly, if it is him. One knock. I ask if he is at peace. Two knocks, so strong that the jug shakes on the chest of drawers. Then silence, and a smell of wax, even though no candle is lit in the room. In the morning my fingers are numb and the Journal is open on the pillow, at a page I do not remember ever reading.",
   "short": "Is it him? One knock. Is he at peace? Two knocks, very hard. In the morning the Journal lies open on my pillow, at a page I never read."
  },
@@ -65,7 +65,7 @@
   "easy": "I wake the servant and send him to the village with the lantern. Father Anzelm arrives an hour later, with his stole over his nightshirt and holy water in a chemist's bottle. He blesses the wall, the bed, the window and, to be safe, me too.",
   "short": "I send for Father Anzelm. He comes in his nightshirt and blesses the wall, the bed and, to be thorough, me."
  },
- "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il Journal aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità.": {
+ "I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il diario aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta \"per le spese di casa, finché non sarà tutto in ordine\". Mi sembra più un acconto che una carità.": {
   "easy": "The knocking stops at once. But the priest stays at the door longer than he needs to and looks around: the cages, the glass instruments, the Journal open on the table. Before he leaves he shakes my hand and gives me a few coins \"for the household, until everything is in order\". It feels more like an advance than help.",
   "short": "The knocking stops. The priest looks around a long time, then leaves me a few coins \"for the household\". It feels like a down payment."
  },
@@ -136,7 +136,7 @@
  "Qualcuno nel villaggio scrive lettere, e non le firma. Le buste arrivano senza francobollo, e nessuno le ha viste arrivare.": {
   "easy": "Someone in the village writes letters without signing them. The envelopes come without stamps, and no one sees them arrive."
  },
- "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.": {
+ "Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il diario del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.": {
   "easy": "In the middle years the family receives letters that the postman never brought. The letters appear under the door, in the bread basket, once even inside Father's Journal, locked in the desk. They are envelopes of heavy paper, with no address and no signature, closed with black wax. In the wax there is the picture of an open eye.",
   "short": "Letters arrive that no one delivered, even inside the locked Journal. No address, no signature: only an open eye in black wax."
  },
@@ -204,7 +204,7 @@
   "easy": "He also writes, less pleased, that none of those funerals could take place after sunset: when it got dark, the men would no longer lift the coffin. They said someone inside was knocking.",
   "short": "But no funeral could be held after sunset: in the dark, the bearers heard knocking inside the coffin."
  },
- "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del Journal, che nel frattempo era diventato due volumi e mezzo.": {
+ "La seconda cassa si apre con un salto di diciassette anni. Le carte della prima generazione si fermano nel 1856; le successive cominciano nella primavera del 1873, quando i figli degli eredi presero possesso della tenuta, del laboratorio e del diario, che nel frattempo era diventato due volumi e mezzo.": {
   "easy": "The second crate jumps forward seventeen years. The papers of the first generation end in 1856. The others begin in the spring of 1873, when the heirs' children took over the estate, the laboratory and the Journal, which was now two and a half volumes long.",
   "short": "The second crate resumes in 1873: the heirs' children take the estate, the laboratory and the Journal, now two and a half volumes."
  },
@@ -315,7 +315,7 @@
  "Ognuno ha sentito qualcosa. Nessuno sa che cosa abbiano sentito gli altri. E tutti, almeno per un momento, hanno pensato di mentire.": {
   "easy": "Each of them heard something. No one knows what the others heard. And all of them, at least for a moment, thought about telling a lie."
  },
- "Nel secondo volume del Journal, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.": {
+ "Nel secondo volume del diario, tra una ricetta e un conto del maniscalco, c'è il disegno di una macchina per parlare con i morti.": {
   "easy": "In the second volume of the Journal, between a recipe and a blacksmith's bill, there is the drawing of a machine for talking to the dead."
  },
  "Paghi i muratori in contanti, davanti a tutti. Le fondamenta del Tempio crescono in fretta, più in fretta di quanto dovrebbero: i muratori dicono che di notte qualcuno lavora al posto loro, e che al mattino trovano le pietre già squadrate.": {
@@ -333,7 +333,7 @@
  "Quella notte, per la prima volta da mesi, nella tua camera non bussa nessuno, e dormi fino a giorno fatto.": {
   "easy": "That night, for the first time in months, no one knocks in your room, and you sleep until it is full daylight."
  },
- "Nel secondo volume del Journal, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.": {
+ "Nel secondo volume del diario, tra una ricetta per la conservazione dei tessuti e un conto del maniscalco, ho trovato il progetto. Tre tavole disegnate a china, con una cura che il nonno non dedicava a nient'altro. Lo chiama **Telegrafo dei Morti**.": {
   "easy": "In the second volume of the Journal, between a recipe for preserving tissue and a blacksmith's bill, I found the design. There are three drawings in ink, made with a care Grandfather gave to nothing else. He calls it the **Telegraph of the Dead**.",
   "short": "In the Journal I found Grandfather's design, drawn with rare care: the **Telegraph of the Dead**."
  },
@@ -353,7 +353,7 @@
   "easy": "It is not shaking because of the current: it moves more slowly and more surely, like a finger looking for a letter on a keyboard. It stops on a bone key. Then on another. Before anyone can read the word, a fuse blows, and in the dark, for a moment, someone laughs.",
   "short": "The needle seeks letters, key by key. Before the word can be read a fuse blows, and in the dark someone laughs."
  },
- "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del Journal, e i pezzi tornano a chi li aveva offerti.": {
+ "Gli ingranaggi raccolti bastano appena per la base. Il progetto torna nel cassetto, sotto il secondo volume del diario, e i pezzi tornano a chi li aveva offerti.": {
   "easy": "The gears collected are only just enough for the base. The design goes back in the drawer, under the second volume of the Journal, and the pieces go back to the people who gave them.",
   "short": "There are not enough gears. The design goes back into the drawer."
  },
@@ -411,7 +411,7 @@
   "easy": "Madame says that tonight, with the help of the founder's blood, she will try to call him: the man who first wrote that veils can be lifted. {0} writes the record, because the medium wants it: \"so it is written by a hand of the family\".",
   "short": "Madame will try to summon the founder, with the help of his blood. {0} takes the minutes, \"a hand of the family\"."
  },
- "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il Journal aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}.": {
+ "Senza una medium, la famiglia fa da sé. Nella notte di Ognissanti gli eredi si siedono intorno al vecchio tavolino del laboratorio, quello che il nonno usava per gli esperimenti di magnetismo, con il diario aperto sull'ultima pagina e una sedia vuota a capotavola. Il verbale lo redige {0}.": {
   "easy": "There is no medium, so the family does it alone. On All Saints' night the heirs sit around the old table in the laboratory, the one Grandfather used for his experiments with magnetism. The Journal is open at the last page and there is an empty chair at the head of the table. {0} writes the record.",
   "short": "Without a medium, the heirs sit alone around the old laboratory table, an empty chair at its head. {0} takes the minutes."
  },
@@ -726,7 +726,7 @@
  "E certe notti, ancora oggi, alla tenuta qualcuno bussa. Un colpo, poi due, poi uno.": {
   "easy": "And some nights, even today, someone knocks at the estate. One knock, then two, then one."
  },
- "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del Journal.": {
+ "Egregio dottore, il Telegrafo batté per tre giorni e tre notti. L'ago correva sui tasti d'osso più in fretta di quanto riuscissimo a trascrivere, e ci davamo il cambio al tavolo, a turni di due ore, con le dita nere d'inchiostro. Era lui, senza alcun dubbio: le stesse abbreviazioni, gli stessi errori di ortografia, la stessa impazienza del diario.": {
   "easy": "Dear Doctor, the Telegraph tapped for three days and three nights. The needle ran over the bone keys faster than we could write, and we took turns at the table every two hours, with fingers black with ink. It was him, without doubt: the same abbreviations, the same mistakes, the same impatience as in the Journal.",
   "short": "Dear Doctor, the Telegraph tapped for three days and nights, and we transcribed in shifts. It was him: the same mistakes, the same impatience as the Journal."
  },
@@ -742,7 +742,7 @@
   "easy": "Dear Doctor, the Church won, and it was not a gentle victory. The bishop came to {0} in the spring of 1906 with a decree, two policemen and a list of names. Our family's name was first.",
   "short": "Dear Doctor, the Church won. The bishop came in 1906 with a list of names, and ours was first."
  },
- "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del Journal. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.": {
+ "La sede del Circolo bruciò la notte di Pentecoste. Il fuoco, chissà come, saltò la strada e arrivò fino alla tenuta. Bruciarono le serre, le gabbie, il laboratorio, i volumi del diario. Il Telegrafo, sciogliendosi, emise un suono che i pompieri descrissero come un lamento.": {
   "easy": "The Circle's building burned on the night of Pentecost. Somehow the fire crossed the road and reached the estate. The greenhouses, the cages, the laboratory and the volumes of the Journal burned. The Telegraph, as it melted, made a noise the firemen described as a cry of pain.",
   "short": "At Pentecost the Circle burned, and the fire reached the estate. The Telegraph melted with a wail."
  },
@@ -835,15 +835,15 @@
   "easy": "You warm candle wax between your fingers and fill your ears with it, like the sailors in the story. The silence is so sudden that your head spins. For three days you hear nothing: not the voices, not the rain, not the people talking to you at table. On the fourth day you take the wax out, and the voices are gone. For now.",
   "short": "You stop your ears with wax. After three days of silence, the voices are gone. For now."
  },
- "Il secondo volume del Journal ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.": {
+ "Il secondo volume del diario ha una pagina in più. Ieri non c'era: lo sai perché le hai contate, tutte, la sera prima. È scritta con due calligrafie, quella del nonno e quella di chi ti ha messo al mondo, che si alternano riga per riga come in una conversazione. La formula in fondo è sbagliata in un punto solo.": {
   "easy": "The second volume of the Journal has an extra page. It was not there yesterday: you know because you counted them all the evening before. It is written in two hands, your grandfather's and your parent's, one line each, like a conversation. The formula at the bottom is wrong in one place only.",
   "short": "There is a new page in the Journal, written by your grandfather and your parent. The formula has a single mistake."
  },
- "Tra le pagine del Journal, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.": {
+ "Tra le pagine del diario, che ormai sono tre volumi e mezzo, c'è un foglio battuto con i tasti d'osso del Telegrafo: lo riconosci dalle lettere un poco storte. Nessuno ha acceso la macchina. Il foglio descrive un esperimento, con cura e impazienza, ed è sbagliato in un punto solo.": {
   "easy": "Among the pages of the Journal, which now fill three and a half volumes, there is a sheet typed on the Telegraph's bone keys: you know it by the slightly crooked letters. No one has switched the machine on. The sheet describes an experiment, carefully and impatiently, and it has only one mistake.",
   "short": "In the Journal is a sheet typed by the Telegraph, though no one switched it on. The experiment has a single mistake."
  },
- "La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel Journal, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *\"Peccato. Un'altra volta.\"* Ma la formula, quella giusta, ormai l'hai capita da te.": {
+ "La pagina brucia male, a scatti, come carta umida. Quando è cenere, nel diario, al suo posto, è rimasto un margine strappato con tre parole scritte di traverso: *\"Peccato. Un'altra volta.\"* Ma la formula, quella giusta, ormai l'hai capita da te.": {
   "easy": "The page burns badly, in fits and starts, like damp paper. When it is ash, a torn margin is left in the Journal with three words written crosswise: *\"Pity. Another time.\"* But by now you have worked out the right formula yourself.",
   "short": "You burn it. On the torn margin is written: *\"Pity. Another time.\"* But you have worked out the right formula."
  },
@@ -947,7 +947,7 @@
   "easy": "It is a trick, and a good one. You are still admiring it when the table, though no one has touched the pedal, knocks once on the floor. You run out of the caravan. But at home you draw the mechanism from memory.",
   "short": "It is a trick. But the table knocks once by itself, and you flee. At home you draw the mechanism."
  },
- "Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del Journal. Sono lettere di tuo padre, indirizzate a *\"Eszter\"*, e le date vanno dal 1821 a pochi mesi fa.": {
+ "Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del diario. Sono lettere di tuo padre, indirizzate a *\"Eszter\"*, e le date vanno dal 1821 a pochi mesi fa.": {
   "easy": "The trunk is not locked. Inside are shawls, packs of cards, a phial of phosphorus and a bundle of letters tied with a black ribbon. You know the handwriting at once: it is the Journal's. They are letters from your father to *\"Eszter\"*, dated from 1821 to a few months ago.",
   "short": "In the trunk are letters from your father to *\"Eszter\"*, from 1821 to a few months ago."
  },
@@ -987,7 +987,7 @@
   "easy": "At the Farmer's Market, among the baskets of cabbages, a travelling photographer has a stand with a black cloth and a box of silver plates. His name is Koch, he comes from Pest, and he takes portraits of the living and the dead: the dead cost more, he says, because they keep still better, but they must be propped up with an iron rod behind the back.",
   "short": "At the market the photographer Koch takes portraits of the living and the dead. The dead cost more."
  },
- "Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il Journal sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.": {
+ "Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il diario sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.": {
   "easy": "When he hears your surname his face lights up. Three months before the funeral, he says, he took a portrait of your father at the estate, and was never paid. He shows you the plate: Father sitting, thin, with the Journal on his knees and an empty chair beside him. And in the silver, if you tilt it to the light, on the empty chair sits a woman in a black shawl.",
   "short": "Koch has a portrait of your father, never paid for. Tilt the plate, and on the empty chair beside him sits a woman in a black shawl."
  },
@@ -1151,7 +1151,7 @@
   "easy": "Behind the forge, Jóska listens to it all wide-eyed, and gives you a nod, as between partners in crime.",
   "short": "Jóska hears it all, and gives you a knowing nod."
  },
- "Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il Journal sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.": {
+ "Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il diario sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.": {
   "easy": "The smith changes all the locks in a week, and for a few nights the estate seems quieter. Then one morning you find the study door open, the new key in the lock from the inside, and the Journal on the desk open at the last page, the one with the sentence underlined twice.",
   "short": "You change the locks. But one morning the study is open from the inside, and the Journal lies open at the last page."
  },
@@ -1235,7 +1235,7 @@
   "easy": "The Mayor counts the coins on the desk as easily as counting sheep. He promises he will speak, and speak well. Then, walking you to the door, he tells you that the gentleman with the flower had offered him twice as much, \"but with you, of course, it's different: you're local people\".",
   "short": "The Mayor takes the money and promises to speak well. The gentleman with the flower, he admits, offered double."
  },
- "Tiri fuori dal Journal una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.": {
+ "Tiri fuori dal diario una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.": {
   "easy": "You take a yellowed receipt from the Journal: a loan your father made to old Bódi thirty years ago, which no one ever paid back. The Mayor goes pale, then red, then laughs, and the laugh does not reach his eyes.",
   "short": "You show him an old receipt: a loan never repaid. The Mayor laughs, but not with his eyes."
  },
@@ -1375,7 +1375,7 @@
   "easy": "You lie still under the covers, holding your breath. The voice waits a little longer, then moves away, room by room, like someone looking for another relative to talk to. At dawn the house is silent. You feel guilty, and lighter at the same time, like someone who has locked a door.",
   "short": "You do not answer. The voice leaves, room by room. You feel guilty, and lighter."
  },
- "Il Journal passa di mano in mano, sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e copre con la mano quello che ha scritto finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone siedano a tavola.": {
+ "Il diario passa di mano in mano, sul tavolo della colazione, tra le briciole. Ognuno scrive qualche riga, e copre con la mano quello che ha scritto finché non passa il quaderno al vicino. Alla fine, sulla pagina, ci sono più calligrafie di quante persone siedano a tavola.": {
   "easy": "The Journal goes from hand to hand on the breakfast table, among the crumbs. Each of you writes a few lines, and covers them with a hand until passing the notebook on. In the end there are more handwritings on the page than people at the table.",
   "short": "Each of you writes in the Journal what you heard. In the end there are more handwritings than people at the table."
  },
@@ -1535,7 +1535,7 @@
   "easy": "The foreman keeps it on the table as if it were a bomb. On the lid, scratched with a nail, are a date and three letters: *1828 – C. U. O.* No one dares open it. Someone thought of calling the family from the estate, who \"know about these things\".",
   "short": "On the lid is scratched *1828 – C. U. O.* No one dares open it, so they call you."
  },
- "Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento, senza battaglio. E un foglio piegato, con tre firme e una frase: *\"Chi parte per primo, bussi.\"* Una delle firme è quella che trovi ogni sera sulla prima pagina del Journal.": {
+ "Dentro, su un fondo di velluto marcito, ci sono tre ciocche di capelli legate con un nastro nero: una castana, una nera, una bionda. Accanto, un campanello d'argento, senza battaglio. E un foglio piegato, con tre firme e una frase: *\"Chi parte per primo, bussi.\"* Una delle firme è quella che trovi ogni sera sulla prima pagina del diario.": {
   "easy": "Inside, on a bed of rotten velvet, are three locks of hair tied with black ribbon: one brown, one black, one fair. Beside them, a silver bell with no clapper. And a folded sheet, with three signatures and one sentence: *\"Whoever leaves first, knock.\"* One of the signatures is the one you see every evening on the first page of the Journal.",
   "short": "Inside are three locks of hair and a sheet with three signatures: *\"Whoever leaves first, knock.\"* One is the Journal's."
  },
@@ -1695,7 +1695,7 @@
   "easy": "Jóska the smith swears he never touched it, and Szabó believes him: he built every wall himself, and knows there is nothing inside them. \"You,\" he says, \"are the only ones who can tell me whether I built a house or a door.\"",
   "short": "Jóska had nothing to do with it. \"You tell me whether I built a house or a door,\" says Szabó."
  },
- "Passi la notte su una sedia, al centro della stanza da letto vuota, con una candela e il Journal. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li trascrivi. All'alba hai tre pagine di lettere che non formano parole, ma che, lette al contrario, formano il nome della via dove sei nato, o nata, tu.": {
+ "Passi la notte su una sedia, al centro della stanza da letto vuota, con una candela e il diario. A mezzanotte i colpi cominciano, nel muro a nord, quello che guarda verso la tenuta. Li conti. Li trascrivi. All'alba hai tre pagine di lettere che non formano parole, ma che, lette al contrario, formano il nome della via dove sei nato, o nata, tu.": {
   "easy": "You spend the night on a chair in the middle of the empty bedroom, with a candle and the Journal. At midnight the knocking starts, in the north wall, the one facing the estate. You count the knocks. You write them down. At dawn you have three pages of letters that make no words, but that, read backwards, spell the name of the street where you were born.",
   "short": "You spend the night there writing down the knocks. Read backwards, they spell the street where you were born."
  },
@@ -1931,7 +1931,7 @@
   "easy": "The two voices fall silent together, as if at a signal. In the silence you hear your heart, the tick of the clock in the corridor and, very far away, the hum of the electric wires. You have time for one question only: you know it without being told.",
   "short": "The voices fall silent. You may ask one question only."
  },
- "Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *\"Che finiate quello che ha cominciato.\"* Non dicono che cosa. Al mattino, nel Journal, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.": {
+ "Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *\"Che finiate quello che ha cominciato.\"* Non dicono che cosa. Al mattino, nel diario, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.": {
   "easy": "The voices hesitate. Then they answer together, with one sentence, which they repeat until you write it down: *\"That you finish what he began.\"* They do not say what. In the morning, in the Journal, the page where you wrote it is folded in four, carefully, like a letter to be sent.",
   "short": "*\"That you finish what he began.\"* They do not say what."
  },
@@ -2051,7 +2051,7 @@
   "easy": "At the Public Library, in the rare books room, the librarian hands you, wearing gloves, a small book bound in card: *Des tables parlantes et des esprits frappeurs*, Paris, 1827. It comes, she says, from the library of your family's founder, sold at auction to pay debts in 1857. It is the booklet someone saw on Father's shelf on the first night.",
   "short": "The library has the French booklet on talking tables, the one on the founder's shelf on the first night."
  },
- "I margini sono fitti di appunti, in due calligrafie. Una è quella del Journal. L'altra è minuta, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un atto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.": {
+ "I margini sono fitti di appunti, in due calligrafie. Una è quella del diario. L'altra è minuta, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un atto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.": {
   "easy": "The margins are full of notes, in two hands. One is the Journal's. The other is small, elegant, a woman's. The two hands answer each other, correct each other, tease each other. At the bottom of the last page, under the date 1828, are three names one under another, as in a contract: the founder's, *Eszter Vámos* and *O. Garai*. And above them, underlined: *Circle of the Last Hour*.",
   "short": "On the last page, under the date 1828, are three names: the founder, *Eszter Vámos* and *O. Garai*. And above them: *Circle of the Last Hour*."
  },
@@ -2395,7 +2395,7 @@
   "easy": "He offers you what a priest can offer: a confession, a blessing, a little holy water in a chemist's bottle, like the one Father Anzelm carried fifty years before.",
   "short": "He offers you a confession, a blessing, a little holy water."
  },
- "Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del Journal, di tutto quello che la tua famiglia ha fatto per tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice soltanto di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.": {
+ "Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del diario, di tutto quello che la tua famiglia ha fatto per tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice soltanto di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.": {
   "easy": "You kneel in the confessional and talk for a long time: about the knocking, the voices, the Journal, everything your family has done in three generations. Father Benedek listens without interrupting. At the end he gives you no penance: he only tells you to sleep with the light on tonight. You do, and sleep very well.",
   "short": "You confess. Benedek only tells you to sleep with the light on. You do, and sleep very well."
  },
@@ -2419,7 +2419,7 @@
   "easy": "The page tears with a sharp sound that echoes round the reading room. The librarian holds her breath, then nods, like someone approving surgery. The next day, on the fresh blank page, the same signature is already there, dated the day after.",
   "short": "You tear out the page. The next day the signature is back, dated the following day."
  },
- "Firmi sotto, con la tua calligrafia, la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal Journal, inclinata all'indietro. La data è la stessa della firma di E. Vámos.": {
+ "Firmi sotto, con la tua calligrafia, la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal diario, inclinata all'indietro. La data è la stessa della firma di E. Vámos.": {
   "easy": "You sign underneath, in your own hand, with today's date. The pen scratches. When you look up, below your signature there is another, fresh, that was not there before: a handwriting you know from the Journal, slanting backwards. The date is the same as E. Vámos's.",
   "short": "You sign too. Below your signature another appears, in the Journal's handwriting, dated tomorrow."
  },

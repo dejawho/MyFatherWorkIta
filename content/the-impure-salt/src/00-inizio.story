@@ -264,7 +264,7 @@ bevuto%L% = 0
   set tkChemistry = true
   # **La formula**
   if $round <= 3:
-    > Sul tuo Journal, sotto gli appunti di ieri sera, c'è una pagina che non ricordi di aver scritto. È una formula, ed è giusta: più elegante di qualunque cosa tu abbia mai trovato. L'inchiostro è quello del tuo calamaio. La grafia è inclinata all'indietro.
+    > Sul tuo diario, sotto gli appunti di ieri sera, c'è una pagina che non ricordi di aver scritto. È una formula, ed è giusta: più elegante di qualunque cosa tu abbia mai trovato. L'inchiostro è quello del tuo calamaio. La grafia è inclinata all'indietro.
   elif $round <= 6:
     > Una lettera senza mittente, imbucata in città: dentro, su carta della tenuta, la soluzione del problema che ti tormenta da mesi, scritta con una sicurezza che non hai mai avuto. Il timbro postale è di ieri notte. Ieri notte, a quanto ricordi, dormivi.
   else:
@@ -358,7 +358,7 @@ bevuto%L% = 0
     else:
       set sale = $sale - 1
       if $round >= 4:
-        > Il dolore dura un minuto, come raccontava il Journal: le ossa, il cuore, il pavimento. Poi esci nella città di pietra, nel corpo piccolo e svelto dell'altro, e la città è tua. Corri sui tetti bagnati, ti specchi nelle vetrine chiuse, accendi un sigaro con un lampione a gas e lo spegni con un soffio. Ridi, e la nebbia ti ride dietro.
+        > Il dolore dura un minuto, come raccontava il diario: le ossa, il cuore, il pavimento. Poi esci nella città di pietra, nel corpo piccolo e svelto dell'altro, e la città è tua. Corri sui tetti bagnati, ti specchi nelle vetrine chiuse, accendi un sigaro con un lampione a gas e lo spegni con un soffio. Ridi, e la nebbia ti ride dietro.
 
         > Al mattino ti svegli nel tuo letto, con le scarpe sporche di fuliggine. In tasca hai un assegno firmato con il tuo nome, e il biglietto di un teatro in cui non hai mai messo piede.
       else:

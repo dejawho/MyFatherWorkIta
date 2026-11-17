@@ -2093,7 +2093,7 @@
   "short": "The earth before your grandfather's grave is sometimes disturbed. And the usual violets are there."
  },
  "G2Lapide.6": {
-  "full": "You have the grave watched, at night, for a week."
+  "full": "You have the grave watched, at night, for a week ($2)."
  },
  "G2Lapide.7": {
   "full": "You leave a note under the violets."
@@ -2727,7 +2727,7 @@
   "short": "An anonymous letter: *I KNOW WHICH OF YOU GOES OUT AT NIGHT. LEAVE THE MONEY IN SAFE DEPOSIT BOX 14, OR THE INSPECTOR WILL KNOW TOO.* The box is the Pell office's."
  },
  "G2Ricatto.4": {
-  "full": "You pay, and tell no one."
+  "full": "You pay, and tell no one ($3)."
  },
  "G2Ricatto.5": {
   "full": "You take the letter to Ada Haskett."
@@ -2759,7 +2759,7 @@
   "short": "The foreman knows the stick's handle: \"We cast it, for the old man at the estate. He always carried it.\""
  },
  "G2Bastone.4": {
-  "full": "You ask him to testify that the stick has not been yours for thirty years."
+  "full": "You ask him to testify that the stick has not been yours for thirty years ($2)."
  },
  "G2Bastone.5": {
   "full": "You ask him whether he ever cast a copy."
@@ -2843,6 +2843,9 @@
   "full": "He recognises you at once. \"Do you still have my page?\" he asks quietly. \"Keep it safe. One day you'll need it.\"",
   "easy": "He recognises you at once. \"Do you still have my page?\" he asks quietly. \"Keep it safe. One day you will need it.\"",
   "short": "\"Do you still have my page? Keep it safe. One day you will need it.\""
+ },
+ "G2Lomax.6": {
+  "full": "You buy a phial of his salt ($1)."
  },
  "G2Lomax.7": {
   "full": "You ask him what was in the first batch."
@@ -2938,7 +2941,7 @@
   "full": "Click to start the bidding..."
  },
  "G2Accusa.9": {
-  "full": "Each player secretly points at another player (a finger on the table, on the count of three). Whoever gets the most fingers is accused *(in case of a tie, the Start Player decides)*."
+  "full": "Each player secretly points at another player (a finger on the table, on the count of three). Whoever gets the most fingers is accused *(in case of a tie, the Start Player chooses among those tied)*."
  },
  "G2Accusa.10": {
   "full": "Click when you have chosen the accused..."
@@ -3640,7 +3643,7 @@
   "short": "The actor playing Umber wears your coat. Tonight he is superb."
  },
  "G3Recita.6": {
-  "full": "You go backstage, during the second act."
+  "full": "You go backstage, during the second act ($2)."
  },
  "G3Recita.7": {
   "full": "In the third act the doctor chases the double across the rooftops, catches him and snatches off his hat. Tonight, under the hat, there is not his son's face: there is an old, thin, tired face. The actor has never been made up like that, the manager swears afterwards. Pell the notary, in the front row, leaves before the applause.",
@@ -3676,10 +3679,10 @@
   "short": "On the stone, fresh violets."
  },
  "G3Tomba.7": {
-  "full": "You have the grave opened again."
+  "full": "You have the grave opened again ($1)."
  },
  "G3Tomba.8": {
-  "full": "You take the violets away."
+  "full": "You take the violets away ($1)."
  },
  "G3Tomba.9": {
   "full": "The keeper grumbles, but for an hour's work and a few coins he opens it. The coffin is still there, empty. At the bottom, though, there is something that was not there fifty years ago: a notary's leather document case, empty too, its initials scraped off.",
@@ -3940,7 +3943,7 @@
   "full": "**Who Takes It?**"
  },
  "G3DoseEsito.2": {
-  "full": "Who offered the most *(in case of a tie, the Start Player decides; if no one offered anything, no one)*?"
+  "full": "Who offered the most *(in case of a tie, the tied player first in turn order wins; if no one offered anything, no one)*?"
  },
  "G3DoseEsito.7": {
   "full": "No one."

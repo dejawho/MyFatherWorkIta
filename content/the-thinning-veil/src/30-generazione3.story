@@ -116,7 +116,7 @@
     else:
       > Aspetti a lungo. Alla fine arrivano due colpi lievissimi, uno per ciascuna delle voci che speravi di sentire; e poi un fruscio di carta, come se qualcuno sfogliasse un libro dall'altra parte del muro.
 
-      > Al mattino il Journal è aperto su una pagina di appunti che ti sarà utile.
+      > Al mattino il diario è aperto su una pagina di appunti che ti sarà utile.
     block setupEvent next=G3Risp%L%:
       ! Guadagni 1 Conoscenza (Knowledge) a scelta.
 ::endfor
@@ -131,7 +131,7 @@
   [[Che cosa possiamo fare perché riposiate in pace? ~> pace]]
   fragment fondatore:
     set velo = $velo + 1
-    > Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *"Che finiate quello che ha cominciato."* Non dicono che cosa. Al mattino, nel Journal, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.
+    > Le voci esitano. Poi rispondono insieme, con una frase sola, che ripetono finché non la scrivi: *"Che finiate quello che ha cominciato."* Non dicono che cosa. Al mattino, nel diario, la pagina dove l'hai scritta è piegata in quattro, con cura, come una lettera da spedire.
     block setupEvent next=G3Ant%L.next%:
       ! Guadagni 1 Conoscenza (Knowledge) a scelta.
   fragment pace:
@@ -323,7 +323,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **Il libretto francese**
   > Alla Public Library, nella sala dei fondi antichi, la bibliotecaria ti consegna con i guanti un libretto in ottavo, rilegato in cartone: *Des tables parlantes et des esprits frappeurs*, Parigi, 1827. Viene, dice, dalla biblioteca del fondatore della vostra famiglia, venduta all'asta per pagare i debiti nel 1857. È il libretto che, la prima notte, qualcuno vide sullo scaffale del padre.
 
-  > I margini sono fitti di appunti, in due calligrafie. Una è quella del Journal. L'altra è minuta, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un atto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.
+  > I margini sono fitti di appunti, in due calligrafie. Una è quella del diario. L'altra è minuta, elegante, femminile. Le due mani si rispondono, si correggono, si prendono in giro. In fondo all'ultima pagina, sotto la data del 1828, ci sono tre nomi uno sotto l'altro, come in un atto: quello del fondatore, *Eszter Vámos* e *O. Garai*. E sopra, sottolineate, tre parole: *Circolo dell'Ultima Ora*.
   ! Che cosa fai?
   [[Strappi l'ultima pagina, per il buon nome della famiglia. ~> strappa]]
   [[Porti il libretto al dottor Lukács. ~> lukacs]]
@@ -847,7 +847,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook per la Gr
   fragment confessa:
     set fede = $fede - 1
     set velo = $velo - 1
-    > Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del Journal, di tutto quello che la tua famiglia ha fatto per tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice soltanto di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.
+    > Ti inginocchi nel confessionale e parli a lungo: dei colpi, delle voci, del diario, di tutto quello che la tua famiglia ha fatto per tre generazioni. Padre Benedek ascolta senza interromperti. Alla fine non ti dà penitenze: ti dice soltanto di dormire, stanotte, con la luce accesa. Lo fai, e dormi benissimo.
     block setupEvent next=$hub:
       ! Arretra di 1 casella sul tracciato {icon:Insanity_Icon} e di 1 sul tracciato {icon:Creepy_Icon}.
   fragment invita:
@@ -879,7 +879,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook per la Gr
       ! Guadagni 1VP.
   fragment firma:
     set velo = $velo + 1
-    > Firmi sotto, con la tua calligrafia, la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal Journal, inclinata all'indietro. La data è la stessa della firma di E. Vámos.
+    > Firmi sotto, con la tua calligrafia, la data di oggi. La penna gratta. Quando rialzi gli occhi, sotto la tua firma ce n'è un'altra, fresca, che prima non c'era: una calligrafia che conosci dal diario, inclinata all'indietro. La data è la stessa della firma di E. Vámos.
     block setupEvent next=$hub:
       ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
   fragment sorveglia:

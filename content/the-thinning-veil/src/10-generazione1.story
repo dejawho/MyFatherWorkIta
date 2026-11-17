@@ -6,7 +6,7 @@
   ! **Verbale della veglia funebre – {$townname}, *2 novembre 1848.***
   > Il padre fu sepolto il giorno dei morti, sotto una pioggia sottile che non si decideva a cadere. Il villaggio venne al cimitero in buon numero, ma restò al di là del muretto: nessuno volle avvicinarsi alla fossa, e il becchino lavorò in fretta, senza guardare dentro. Si raccontava che il vecchio avesse passato gli ultimi anni chiuso nella tenuta con macchine che ronzavano di notte, e che dalle finestre del suo laboratorio uscisse, a volte, una luce di un colore che nessuno sapeva nominare.
 
-  > Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il Journal del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:
+  > Gli eredi erano arrivati con la diligenza della sera prima, ognuno da una città diversa, ognuno con un baule e la stessa lettera del notaio. La tenuta era loro, e con essa i debiti, gli strumenti, gli animali nelle gabbie e il diario del padre: un quaderno rilegato in pelle, gonfio di appunti, schizzi e formule. Sull'ultima pagina scritta c'era una sola frase, sottolineata due volte con tanta forza da incidere la carta:
 
   > *"La morte non è una porta chiusa: è un velo. E i veli si sollevano."*
 
@@ -44,7 +44,7 @@
 
     > Dall'altra parte, una volta.
 
-    > Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il Journal aperto sul cuscino, a una pagina che non ricordo di aver mai letto.
+    > Chiedo, a voce bassissima, se è lui. Un colpo. Chiedo se è in pace. Due colpi, così forti che la brocca trema sul comò. Poi silenzio, e un odore di cera, anche se nella stanza non c'è nessuna candela accesa. Al mattino ho le dita intorpidite e il diario aperto sul cuscino, a una pagina che non ricordo di aver mai letto.
     block setupEvent next=G1Colpi%L.next%:
       ! Guadagni 1 Conoscenza Occulta (Occult Knowledge) e 1 {icon:Insanity_Icon}.
   fragment prete:
@@ -52,7 +52,7 @@
     set fede = $fede - 1
     > Sveglio il servitore e lo mando in paese con la lanterna. Padre Anzelm arriva un'ora dopo, con la stola sopra la camicia da notte e l'acqua santa in una bottiglia da farmacia. Benedice la parete, il letto, la finestra e, per scrupolo, anche me.
 
-    > I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il Journal aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta "per le spese di casa, finché non sarà tutto in ordine". Mi sembra più un acconto che una carità.
+    > I colpi tacciono subito. Il prete, però, resta sulla soglia più del necessario, a guardarsi intorno: le gabbie, gli alambicchi, il diario aperto sul tavolo. Prima di andarsene mi stringe la mano e mi lascia qualche moneta "per le spese di casa, finché non sarà tutto in ordine". Mi sembra più un acconto che una carità.
     block setupEvent next=G1Colpi%L.next%:
       ! Guadagni $2.
   fragment niente:
@@ -212,7 +212,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   fragment baule:
     set lettere = true
     set velo = $velo + 1
-    > Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del Journal. Sono lettere di tuo padre, indirizzate a *"Eszter"*, e le date vanno dal 1821 a pochi mesi fa.
+    > Il baule non è chiuso a chiave. Dentro ci sono scialli, mazzi di carte, una boccetta di fosforo e un pacco di lettere legate con un nastro nero. La calligrafia la riconosci subito: è quella del diario. Sono lettere di tuo padre, indirizzate a *"Eszter"*, e le date vanno dal 1821 a pochi mesi fa.
 
     > Ne leggi una sola, la prima che ti capita: parla di un esperimento, di una porta, di una promessa che "ci rivedremo, in un modo o nell'altro". È datata tre settimane dopo il funerale. Rimetti tutto a posto, con il nastro annodato com'era, e per giorni non riesci a togliertela dalla testa.
     block setupEvent next=$hub:
@@ -253,7 +253,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   # **Il dagherrotipo**
   > Al Farmer's Market, tra le ceste di cavoli, un fotografo ambulante ha montato un banco con un drappo nero e una cassetta di lastre d'argento. Si chiama Koch, viene da Pest, e fa ritratti ai vivi e ai morti: i morti costano di più, dice, perché stanno fermi meglio, ma bisogna tenerli seduti con un'asta di ferro dietro la schiena.
 
-  > Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il Journal sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.
+  > Quando sente il tuo cognome si illumina. Tre mesi prima del funerale, dice, ha fatto un ritratto a tuo padre, nella tenuta, e non è mai stato pagato. Ti mostra la lastra: il padre seduto, magro, con il diario sulle ginocchia e una sedia vuota accanto. E nell'argento lucido, se la inclini contro la luce, sulla sedia vuota c'è una donna con uno scialle nero.
   ! Che cosa fai?
   [[Compri il ritratto. ~> compra]]
   [[Chiedi al fotografo chi fosse la donna. ~> chiedi]]
@@ -549,7 +549,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
   [[Lasci tutto com'è: era la volontà di tuo padre. ~> lascia]]
   fragment serrature:
     set velo = $velo - 1
-    > Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il Journal sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.
+    > Il fabbro cambia tutte le serrature in una settimana, e la tenuta, per qualche notte, sembra più silenziosa. Poi una mattina trovi la porta dello studio aperta, la chiave nuova infilata nella toppa dall'interno, e il diario sulla scrivania aperto all'ultima pagina, quella con la frase sottolineata due volte.
     block setupEvent next=$hub:
       ! Se puoi, paga $2: guadagni 2VP. Altrimenti guadagni 1VP.
   fragment copia:
@@ -565,7 +565,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 
 :: G1Lettere
   # **Lettere senza firma**
-  > Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il Journal del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.
+  > Negli anni della maturità la famiglia comincia a ricevere posta che il postino non ha mai consegnato. Le lettere compaiono sotto la porta, nel cestino del pane, una volta perfino dentro il diario del padre, chiuso a chiave nello scrittoio. Sono buste di carta pesante, senza indirizzo e senza firma, sigillate con ceralacca nera; nella ceralacca, un occhio aperto.
 
   > Dentro, ogni volta, poche righe in una calligrafia elegante e antiquata. Il **Circolo dell'Ultima Ora** saluta gli eredi del grande scienziato, conosce i loro lavori, ammira il loro coraggio e desidera incontrarli, uno per uno, in un luogo discreto. Basterà presentarsi all'indirizzo indicato e pronunciare la parola giusta.
   if $denaro == "preso":
@@ -698,7 +698,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
       ! Se puoi, paga $2: guadagni 3VP. Altrimenti non succede niente.
   fragment ricattato:
     set bodi = "ricattato"
-    > Tiri fuori dal Journal una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.
+    > Tiri fuori dal diario una ricevuta ingiallita: un prestito che tuo padre fece al vecchio Bódi, trent'anni fa, e che nessuno ha mai restituito. Il Sindaco impallidisce, poi arrossisce, poi ride, e la risata non gli arriva agli occhi.
 
     > "Parlerò come volete", dice. "Ma i Bódi hanno buona memoria. Mio figlio la avrà, e il figlio di mio figlio." Esci con la ricevuta in tasca e la sensazione di avere fatto un pessimo affare.
     block setupEvent next=$hub:

@@ -5,11 +5,11 @@
 :: VSG3Intro [INTRO voice]
   # **GENERAZIONE III: Il ritorno**
   ! **Registro Maas – dottoressa Wil Maas, *luglio 1919.***
-  > Sono tornata a Brunveen a giugno, dopo quattro anni negli ospedali da campo delle Fiandre, con una valigia, una medaglia che non ho chiesto e l'orologio rotto della nonna Hester nel taschino. Mio padre Joost è morto l'inverno scorso, di influenza, con trentanove di febbre: me l'hanno scritto nel telegramma, e ne sono stata contenta. Mi ha lasciato lo studio e questo Registro.
+  > Sono tornata in paese a giugno, dopo quattro anni negli ospedali da campo delle Fiandre, con una valigia, una medaglia che non ho chiesto e l'orologio rotto della nonna Hester nel taschino. Mio padre Joost è morto l'inverno scorso, di influenza, con trentanove di febbre: me l'hanno scritto nel telegramma, e ne sono stata contenta. Mi ha lasciato lo studio e questo Registro.
 
-  > Brunveen è diventata una cittadina: la luce elettrica, il telefono al Town Hall, una University con tre facoltà, due giornali, una banca cooperativa. Le strade sono pulite. Gli abitanti sono gentili, sani, laboriosi. È il posto più tranquillo in cui io sia mai stata, e io vengo dalla guerra.
+  > Il paese è diventato una cittadina: la luce elettrica, il telefono al Town Hall, una University con tre facoltà, due giornali, una banca cooperativa. Le strade sono pulite. Gli abitanti sono gentili, sani, laboriosi. È il posto più tranquillo in cui io sia mai stata, e io vengo dalla guerra.
 
-  > I ragazzi partiti volontari sono tornati quasi tutti. È questo che mi preoccupa. Al fronte ne sono morti a milioni, e da Brunveen ne sono partiti quaranta e ne sono tornati trentotto, sani, senza una cicatrice, senza un incubo. Alla stazione li aspettava la banda, e alla fontana della piazza un bicchiere d'acqua scura per ciascuno, "per bentornati".
+  > I ragazzi partiti volontari sono tornati quasi tutti. È questo che mi preoccupa. Al fronte ne sono morti a milioni, e dal paese ne sono partiti quaranta e ne sono tornati trentotto, sani, senza una cicatrice, senza un incubo. Alla stazione li aspettava la banda, e alla fontana della piazza un bicchiere d'acqua scura per ciascuno, "per bentornati".
 
   > Gli eredi della tenuta sono tornati anche loro. Domani passerò a visitarli, uno per uno, e firmerò per ciascuno un certificato di buona salute. Il consiglio lo chiede per tutti i reduci. Io lo firmerò solo dopo aver misurato.
   [[Clicca per continuare... ~> 0]]
@@ -77,7 +77,7 @@
   block hubTitle:
     ! **Evento del primo Round**
   block hubDetails:
-    > Bandiere a ogni finestra, la banda in piazza, i reduci in prima fila davanti al Town Hall con le medaglie appuntate sul petto. L'acqua scura è dappertutto: nelle fontane, nelle caraffe dei caffè, nei bicchieri del brindisi. A Brunveen, ormai, la chiamano soltanto "l'acqua".
+    > Bandiere a ogni finestra, la banda in piazza, i reduci in prima fila davanti al Town Hall con le medaglie appuntate sul petto. L'acqua scura è dappertutto: nelle fontane, nelle caraffe dei caffè, nei bicchieri del brindisi. A {$townname}, ormai, la chiamano soltanto "l'acqua".
     if $consiglio == "accettato":
       > La famiglia della tenuta siede in prima fila, al posto d'onore che il consiglio le assegnò anni fa, con la medaglia d'argento appuntata sul petto. Dietro, trecento persone vi guardano la nuca.
     elif $consiglio == "rifiutato":
@@ -141,7 +141,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
       ! Guadagni $2.
   fragment rifiuta:
     set fiducia = $fiducia - 1
-    > Il sindaco non si offende. Non si offende mai nessuno, a Brunveen. Ripone il contratto nel cassetto, con cura, e ti accompagna alla porta. "Il consiglio ha tempo", dice. "Molto più di voi."
+    > Il sindaco non si offende. Non si offende mai nessuno, a {$townname}. Ripone il contratto nel cassetto, con cura, e ti accompagna alla porta. "Il consiglio ha tempo", dice. "Molto più di voi."
     block setupEvent next=$hub:
       ! Guadagni 1 Prova {icon:S3_WeaponToken} e 1 {icon:Creepy_Icon}.
 
@@ -198,7 +198,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 :: G3Monumento
   set evMonumento = true
   # **I nomi sul monumento**
-  > Al cimitero sull'argine stanno montando il monumento ai caduti: un obelisco di granito con un angelo in cima. I nomi incisi sono due: i due ragazzi di Brunveen che non sono tornati. Ma lo scalpellino ha un problema, e te lo mostra: il consiglio gli aveva mandato, a marzo, una lista di cinque nomi. Poi, a giugno, una lista nuova, con due nomi soltanto. Gli altri tre sono tornati, dice il consiglio. Lo scalpellino li ha visti alla festa. Ha visto anche i telegrammi del ministero che li davano per morti.
+  > Al cimitero sull'argine stanno montando il monumento ai caduti: un obelisco di granito con un angelo in cima. I nomi incisi sono due: i due ragazzi di {$townname} che non sono tornati. Ma lo scalpellino ha un problema, e te lo mostra: il consiglio gli aveva mandato, a marzo, una lista di cinque nomi. Poi, a giugno, una lista nuova, con due nomi soltanto. Gli altri tre sono tornati, dice il consiglio. Lo scalpellino li ha visti alla festa. Ha visto anche i telegrammi del ministero che li davano per morti.
   if $tomba == "torba":
     > Accanto al monumento c'è la tomba del vostro bisnonno, coperta dalla torba nera di Fokke Tammer: in cinquant'anni non ci è cresciuto un filo d'erba.
   elif $tomba == "pietra":
@@ -207,7 +207,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
   [[Ti fai dare i nomi dei tre. ~> nomi]]
   [[Dici allo scalpellino di incidere tutti e cinque i nomi. ~> incidi]]
   fragment nomi:
-    > Lo scalpellino ti dà il foglio. Tre nomi di ragazzi di Brunveen, dispersi nel fango delle Fiandre nel 1917, e tornati a casa nel 1919, sani, senza documenti, con i vestiti asciutti. Uno dei tre è Jan Hoek, il cugino di Hendrik Tammer. Hendrik, il nipote di Fokke, è tornato con i documenti in regola e una ferita alla spalla.
+    > Lo scalpellino ti dà il foglio. Tre nomi di ragazzi di {$townname}, dispersi nel fango delle Fiandre nel 1917, e tornati a casa nel 1919, sani, senza documenti, con i vestiti asciutti. Uno dei tre è Jan Hoek, il cugino di Hendrik Tammer. Hendrik, il nipote di Fokke, è tornato con i documenti in regola e una ferita alla spalla.
     block setupEvent next=$hub:
       ! Guadagni 2 Prove {icon:S3_WeaponToken}.
   fragment incidi:
@@ -292,7 +292,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
 
 :: G3NotteFine
   # **Il mattino**
-  > Il mattino dopo la festa, Brunveen è più quieta del solito. Al mercato si parla piano, al caffè nessuno legge il giornale ad alta voce, i bambini vanno a scuola in fila senza correre. Alla tenuta la colazione è servita alle otto, come sempre. Vi sedete a tavola tutti insieme, e vi guardate, a lungo, senza dire niente. Poi qualcuno chiede il sale, e qualcuno lo passa.
+  > Il mattino dopo la festa, {$townname} è più quieta del solito. Al mercato si parla piano, al caffè nessuno legge il giornale ad alta voce, i bambini vanno a scuola in fila senza correre. Alla tenuta la colazione è servita alle otto, come sempre. Vi sedete a tavola tutti insieme, e vi guardate, a lungo, senza dire niente. Poi qualcuno chiede il sale, e qualcuno lo passa.
   ! Che cosa fate, a colazione? *(Decidete insieme.)*
   [[Vi raccontate i sogni della notte. ~> sogni]]
   [[Vi toccate le mani, a turno, sopra la tovaglia. ~> mani]]
@@ -308,7 +308,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Maturità prima di conti
       ! Ogni giocatore guadagna 1 Prova {icon:S3_WeaponToken}.
   fragment niente:
     set fiducia = $fiducia + 1
-    > Fate finta di niente. Parlate del tempo, della festa, del discorso del sindaco. È una colazione perfetta, cortese, tranquilla, come quelle che fanno tutte le famiglie di Brunveen. Ve ne accorgete, a un certo punto, tutti nello stesso momento.
+    > Fate finta di niente. Parlate del tempo, della festa, del discorso del sindaco. È una colazione perfetta, cortese, tranquilla, come quelle che fanno tutte le famiglie di {$townname}. Ve ne accorgete, a un certo punto, tutti nello stesso momento.
     block setupEvent next=G3Orologio:
       ! Ogni giocatore guadagna $1.
 
@@ -410,7 +410,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G3Giornali
   set evGiornali = true
   # **Il giornale liberale**
-  > Nella redazione del Morning Liberal, due stanze sopra una tipografia, il direttore Siemens, un giovane con le maniche arrotolate e l'inchiostro sulle dita, vuole un'intervista. Sulla Macchina, naturalmente: la scienza che porta Brunveen nel futuro. Ma ha anche un'altra idea, e la dice abbassando la voce: un'inchiesta su "l'acqua", sulla salute perfetta dei cittadini, sui reduci tornati senza un graffio. Gli manca qualcuno che parli.
+  > Nella redazione del Morning Liberal, due stanze sopra una tipografia, il direttore Siemens, un giovane con le maniche arrotolate e l'inchiostro sulle dita, vuole un'intervista. Sulla Macchina, naturalmente: la scienza che porta {$townname} nel futuro. Ma ha anche un'altra idea, e la dice abbassando la voce: un'inchiesta su "l'acqua", sulla salute perfetta dei cittadini, sui reduci tornati senza un graffio. Gli manca qualcuno che parli.
   ! Che cosa fai?
   [[Gli racconti la Macchina. ~> macchina]]
   [[Gli racconti dei Vicini. ~> vicini]]
@@ -428,7 +428,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G3Report
   set evReport = true
   # **Il giornale conservatore**
-  > Il Conservative Report ha la sede in un palazzo di mattoni con le finestre lucide, e un direttore dai capelli grigi, Piet Brink, che ha lasciato il consiglio per dedicarsi "all'informazione". Ti accoglie con un tè e una proposta: un numero speciale dedicato alla vostra famiglia, "che ha dato tanto a Brunveen". Un ritratto di ciascuno di voi, una biografia, una pagina sulla torre. Vi chiede soltanto di raccontare la versione giusta: la torre è una torre, la torbiera è una torbiera, e Brunveen è un paese felice.
+  > Il Conservative Report ha la sede in un palazzo di mattoni con le finestre lucide, e un direttore dai capelli grigi, Piet Brink, che ha lasciato il consiglio per dedicarsi "all'informazione". Ti accoglie con un tè e una proposta: un numero speciale dedicato alla vostra famiglia, "che ha dato tanto a {$townname}". Un ritratto di ciascuno di voi, una biografia, una pagina sulla torre. Vi chiede soltanto di raccontare la versione giusta: la torre è una torre, la torbiera è una torbiera, e {$townname} è un paese felice.
   ! Che cosa fai?
   [[Accetti il numero speciale. ~> accetta]]
   [[Gli chiedi di sua madre, la vedova Brink. ~> madre]]
@@ -484,7 +484,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
 :: G3Hendrik
   set evHendrik = true
   # **Il reduce che non dorme**
-  > Al Laborer's Union, dove si assumono i reduci per i lavori dell'argine, c'è Hendrik Tammer, il nipote di Fokke, il figlio di Gerrit. Ha trent'anni, una ferita alla spalla e gli occhi di chi non dorme da mesi. È l'unico reduce che non ha bevuto alla fontana. Non dorme, dice, perché ha paura di addormentarsi vicino all'acqua. In trincea dormiva nel fango. A Brunveen non ci riesce più.
+  > Al Laborer's Union, dove si assumono i reduci per i lavori dell'argine, c'è Hendrik Tammer, il nipote di Fokke, il figlio di Gerrit. Ha trent'anni, una ferita alla spalla e gli occhi di chi non dorme da mesi. È l'unico reduce che non ha bevuto alla fontana. Non dorme, dice, perché ha paura di addormentarsi vicino all'acqua. In trincea dormiva nel fango. A {$townname} non ci riesce più.
   if $fokke == "svegliato":
     > Suo nonno Fokke, quello vero, quello svegliato dalla torba, è morto due anni fa, ubriaco e felice, bestemmiando contro i vicini. Hendrik gli voleva bene.
   else:
@@ -516,7 +516,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
     block setupEvent next=$hub:
       ! Guadagni 2 Prove {icon:S3_WeaponToken}.
   fragment sogna:
-    > Neeltje ride, piano. Sogna ogni notte, dice: sogni brutti, confusi, pieni di gente che non c'è più. Si sveglia stanca, con il mal di testa. È la persona più felice di Brunveen. "Il giorno che non sognerò più", dice, "venite a controllarmi le mani."
+    > Neeltje ride, piano. Sogna ogni notte, dice: sogni brutti, confusi, pieni di gente che non c'è più. Si sveglia stanca, con il mal di testa. È la persona più felice di {$townname}. "Il giorno che non sognerò più", dice, "venite a controllarmi le mani."
     block setupEvent next=$hub:
       ! Arretra di 1 casella sul tracciato {icon:Insanity_Icon} e guadagni 1VP.
 
@@ -620,7 +620,7 @@ poi: Poi eseguite tutte le azioni di Inizio Round della Vecchiaia prima di conti
   block hubTitle:
     ! **Evento del terzo Round**
   block hubDetails:
-    > Il consiglio ha decretato il coprifuoco, "per prudenza", dopo la morte di Fokke Tammer. Dopo le dieci non si esce. Di notte, per le strade di Brunveen, cammina soltanto chi non ha bisogno di dormire, e sono tanti.
+    > Il consiglio ha decretato il coprifuoco, "per prudenza", dopo la morte di Fokke Tammer. Dopo le dieci non si esce. Di notte, per le strade di {$townname}, cammina soltanto chi non ha bisogno di dormire, e sono tanti.
     if $smascherata:
       > Dopo il test di Wil Maas, la voce ha fatto il giro del paese in un'ora. Nessuno, però, ne parla. Alla tenuta, la mattina, il lattaio lascia una bottiglia in più.
     if $segreto == "detto":
@@ -672,7 +672,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G3Emporio
   set evEmporio = true
   # **L'ultima cassa d'acqua**
-  > Al General Store, sul retro, c'è il magazzino delle bottiglie di "Acqua di Brunveen", quella con l'etichetta, che il paese vende da trent'anni in tutta la provincia. Il padrone, un uomo calmo con il grembiule bianco, ti mostra l'ultimo ordine: una città del sud vuole diecimila bottiglie. Per gli ospedali dei reduci, dice. Contro gli incubi. Il consiglio ha già approvato. Mancano soltanto le casse, e i carri della tenuta sono i più grandi del paese.
+  > Al General Store, sul retro, c'è il magazzino delle bottiglie di "Acqua di {$townname}", quella con l'etichetta, che il paese vende da trent'anni in tutta la provincia. Il padrone, un uomo calmo con il grembiule bianco, ti mostra l'ultimo ordine: una città del sud vuole diecimila bottiglie. Per gli ospedali dei reduci, dice. Contro gli incubi. Il consiglio ha già approvato. Mancano soltanto le casse, e i carri della tenuta sono i più grandi del paese.
   ! Che cosa fai?
   [[Presti i carri. ~> presta]]
   [[Rompi le bottiglie. ~> rompi]]
@@ -755,7 +755,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
 :: G3UltimaNotte
   set vicini = $vicini + $figure
   # **L'ultima notte**
-  > Il 31 dicembre 1919, alle undici di sera, la famiglia è riunita in cima alla torre, intorno all'anello d'ottone. Fuori nevica sulla torbiera, ma nel punto della luce la neve non si posa. Wil Maas è salita con il Registro sotto il braccio e l'orologio della nonna nel taschino. Lo posa sul tavolo, aperto, fermo sulle undici e un quarto. Dalle finestre si vede il paese, tutto buio. Nessuno dorme, a Brunveen, stanotte.
+  > Il 31 dicembre 1919, alle undici di sera, la famiglia è riunita in cima alla torre, intorno all'anello d'ottone. Fuori nevica sulla torbiera, ma nel punto della luce la neve non si posa. Wil Maas è salita con il Registro sotto il braccio e l'orologio della nonna nel taschino. Lo posa sul tavolo, aperto, fermo sulle undici e un quarto. Dalle finestre si vede il paese, tutto buio. Nessuno dorme, a {$townname}, stanotte.
   ! Girate tutti insieme i vostri certificati.
   if $copia != "" && !$smascherata:
     > Uno dei certificati, sul tavolo, mostra il lato senza la corona. Il silenzio dura a lungo. Poi chi l'ha girato sorride, con calma, e allunga le mani verso il fuoco, senza bisogno di scaldarle.
@@ -931,7 +931,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   ! **The Morning Liberal – *13 novembre 1919.***
   > **UNA LUCE SULLA TORRE.** L'altro ieri, alle undici e un quarto di sera, a un anno esatto dall'armistizio, molti cittadini hanno visto una luce bianca, intensissima, accendersi per un istante in cima alla torre della tenuta. Nessun rumore, nessun fumo. La famiglia della tenuta, interpellata da questo giornale, ha parlato di "esperimenti scientifici".
   if $segreto == "detto":
-    > Uno degli eredi ha aggiunto, con nostra sorpresa, una dichiarazione che riportiamo integralmente, lasciando ai lettori il giudizio: "La macchina di nostro bisnonno sposta le cose nel tempo. La pietra della torbiera viene dal futuro. Smettete di bere quell'acqua." La redazione si limita a osservare che a Brunveen, da cinquant'anni, nessuno si ammala.
+    > Uno degli eredi ha aggiunto, con nostra sorpresa, una dichiarazione che riportiamo integralmente, lasciando ai lettori il giudizio: "La macchina di nostro bisnonno sposta le cose nel tempo. La pietra della torbiera viene dal futuro. Smettete di bere quell'acqua." La redazione si limita a osservare che a {$townname}, da cinquant'anni, nessuno si ammala.
   else:
     > Gli eredi non hanno voluto aggiungere altro. La dottoressa Maas, presente alla torre, si è limitata a dire che "tutti stanno bene", con un tono che a chi scrive è parso tutt'altro che rassicurante.
   ! **Conservative Report – *14 novembre 1919.***
@@ -944,10 +944,10 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   > Alla Traveling Caravan, fra i carri della fiera d'autunno, c'è un padiglione di tela con una scritta dipinta: MERAVIGLIE DELLA SCIENZA – MOSTRA ITINERANTE DEL MUSEO DI SCIENZE NATURALI. Dentro, sotto le teche, un dente di mammut, un feto di vitello a due teste, un pezzo di meteorite. E, in fondo, in una teca a parte, una scatolina di velluto aperta.
   if $scheggia:
     > Nella scatolina c'è la scheggia della pietra che la vostra famiglia vendette al professor Ostrander, tanti anni fa. Sta in un bicchiere d'acqua, perché "se resta all'asciutto si scalda troppo", spiega il custode. Il custode è un uomo anziano, sereno, con le mani fredde. È lo stesso che lavorava al museo ai tempi di Ostrander. Non è invecchiato molto.
-    [[Ricompri la scheggia. ~> compra]]
+    [[Ricompri la scheggia ($3). ~> compra]]
     [[Rompi la teca. ~> rompi]]
   else:
-    > Nella scatolina non c'è niente. Il cartellino dice: *Sasso della luce, Brunveen. Non acquisito.* Accanto, in una cornice, c'è una pagina del diario del professor Ostrander, morto da anni: *Ho chiesto una scheggia alla famiglia e me l'hanno rifiutata. Benedetti loro. In città si sta già male abbastanza.*
+    > Nella scatolina non c'è niente. Il cartellino dice: *Sasso della luce, {$townname}. Non acquisito.* Accanto, in una cornice, c'è una pagina del diario del professor Ostrander, morto da anni: *Ho chiesto una scheggia alla famiglia e me l'hanno rifiutata. Benedetti loro. In città si sta già male abbastanza.*
     [[Leggi tutto il diario. ~> diario]]
     [[Esci. ~> esci]]
   fragment compra:
@@ -961,7 +961,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     block setupEvent next=$hub:
       ! Guadagni 1 Prova {icon:S3_WeaponToken} e 1 {icon:Creepy_Icon}.
   fragment diario:
-    > Il diario è aperto su un'altra pagina, più avanti, scritta con una mano tremante: *Ho portato al museo una boccetta d'acqua di Brunveen, da analizzare. Il custode ne ha bevuto un sorso, per scommessa. Il custode è guarito. La moglie del custode è guarita. Non l'abbiamo mai analizzata: l'abbiamo finita, e ne abbiamo ordinata altra. Ho venduto la mia birra e bevo acqua. Non sono mai stato così sereno. Mi fa paura soltanto il pensiero che, presto, non mi farà più paura.*
+    > Il diario è aperto su un'altra pagina, più avanti, scritta con una mano tremante: *Ho portato al museo una boccetta d'acqua di {$townname}, da analizzare. Il custode ne ha bevuto un sorso, per scommessa. Il custode è guarito. La moglie del custode è guarita. Non l'abbiamo mai analizzata: l'abbiamo finita, e ne abbiamo ordinata altra. Ho venduto la mia birra e bevo acqua. Non sono mai stato così sereno. Mi fa paura soltanto il pensiero che, presto, non mi farà più paura.*
     block setupEvent next=$hub:
       ! Guadagni 1 Prova {icon:S3_WeaponToken}.
   fragment esci:
@@ -978,7 +978,7 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
   elif $carovana == "denunciata":
     > Quando ti vede ti riconosce, o riconosce la tua famiglia. "Il sindaco Wessel mi disse chi mi aveva denunciato", dice, gentile. "Gli fui grato. Quella sera, alla locanda, mi lasciai dietro tutto quello che non serviva."
   ! Che cosa fai?
-  [[Compri l'ultima boccetta. ~> compra]]
+  [[Compri l'ultima boccetta ($1). ~> compra]]
   [[Gli chiedi da dove viene, davvero. ~> chiedi]]
   fragment compra:
     set vicini = $vicini + 1
@@ -1032,6 +1032,6 @@ poi: Eseguite le azioni di Fine Round, poi continuate con lo Storybook prima del
     block setupEvent next=$hub:
       ! Guadagni 1VP e $1.
   fragment dove:
-    > Il pastore ride: dal seminario della città, naturalmente. Ma quando gli chiedi il nome del seminario esita, un istante soltanto, e poi lo dice. Trijntje, che ha ascoltato da dietro la porta, ti prende da parte: ha scritto a quel seminario. Le hanno risposto che il pastore è annegato, due anni fa, pattinando su una torbiera vicino a Brunveen.
+    > Il pastore ride: dal seminario della città, naturalmente. Ma quando gli chiedi il nome del seminario esita, un istante soltanto, e poi lo dice. Trijntje, che ha ascoltato da dietro la porta, ti prende da parte: ha scritto a quel seminario. Le hanno risposto che il pastore è annegato, due anni fa, pattinando su una torbiera vicino a {$townname}.
     block setupEvent next=$hub:
       ! Guadagni 1 Prova {icon:S3_WeaponToken} e 1 {icon:Creepy_Icon}.

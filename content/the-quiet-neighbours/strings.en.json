@@ -46,8 +46,8 @@
   "short": "I am sending you my family's Register: fifty-four years of births, fevers and temperatures, begun by my grandmother Hester, kept by my father Joost, closed by me."
  },
  "VSPrologo.5": {
-  "full": "I do not ask you to believe me. I ask you to count. Count the temperatures that are too low, the recoveries that are too quick, the names that come back twice. Count the people of Brunveen who have stopped dreaming. Then decide.",
-  "easy": "I do not ask you to believe me. I ask you to count. Count the temperatures that are too low. Count the people who get better too quickly. Count the names that appear twice. Count the people of Brunveen who do not dream any more. Then decide.",
+  "full": "I do not ask you to believe me. I ask you to count. Count the temperatures that are too low, the recoveries that are too quick, the names that come back twice. Count the people of the village who have stopped dreaming. Then decide.",
+  "easy": "I do not ask you to believe me. I ask you to count. Count the temperatures that are too low. Count the people who get better too quickly. Count the names that appear twice. Count the people of the village who do not dream any more. Then decide.",
   "short": "Do not believe me: count. The cold temperatures, the quick recoveries, the names written twice, the people who no longer dream. Then decide."
  },
  "VSPrologo.6": {
@@ -188,15 +188,15 @@
   "short": "A client pulls his hand away: \"Your hands are frozen.\" Under a street lamp your fingers look white and steady. Too steady: they no longer shake even when you are afraid."
  },
  "TkInsanity.4": {
-  "full": "At the front, the doctors used to say that cold feet were the first sign of gangrene. In Brunveen the cold begins with the hands. This morning you warmed a cup of milk and held it tight until it had gone completely cold. The milk. Not your hands.",
-  "easy": "At the front, the doctors said that cold feet were the first sign of gangrene. In Brunveen the cold starts in the hands. This morning you warmed a cup of milk and held it tight until it was completely cold. The milk got cold. Your hands did not get warm.",
-  "short": "At the front, cold feet meant gangrene. In Brunveen it starts with the hands: this morning a hot cup of milk went cold in yours, and your hands stayed cold."
+  "full": "At the front, the doctors used to say that cold feet were the first sign of gangrene. In {0} the cold begins with the hands. This morning you warmed a cup of milk and held it tight until it had gone completely cold. The milk. Not your hands.",
+  "easy": "At the front, the doctors said that cold feet were the first sign of gangrene. In {0} the cold starts in the hands. This morning you warmed a cup of milk and held it tight until it was completely cold. The milk got cold. Your hands did not get warm.",
+  "short": "At the front, cold feet meant gangrene. In {0} it starts with the hands: this morning a hot cup of milk went cold in yours, and your hands stayed cold."
  },
  "TkInsanity.6": {
   "full": "You warm them at the fire."
  },
  "TkInsanity.7": {
-  "full": "You go to the doctor."
+  "full": "You go to the doctor ($1)."
  },
  "TkInsanity.8": {
   "full": "You hold them near the flame until the skin turns red and begins to hurt. The pain is good news: it means they are still yours. In the evening, writing, you catch yourself checking the temperature of the ink.",
@@ -258,14 +258,14 @@
   "full": "**The place of honour**"
  },
  "TkVP.2": {
-  "full": "Mayor Wessel invites you to the council luncheon, on the first Thursday of the month, and seats you at his right hand. They talk of peat, of dykes, of the price of butter. Nobody mentions the two lights. When the pudding comes, the mayor raises his glass \"to the family of the estate, who will carry Brunveen into the future\". Everyone drinks water.",
-  "easy": "Mayor Wessel invites you to the council lunch, on the first Thursday of the month, and you sit at his right. People talk about peat, dykes and the price of butter. Nobody talks about the two lights. At dessert the mayor raises his glass \"to the family of the estate, who will take Brunveen into the future\". Everyone drinks water.",
-  "short": "At the council lunch Mayor Wessel seats you at his right and toasts your family, \"who will carry Brunveen into the future\". Nobody mentions the lights. Everyone drinks water."
+  "full": "Mayor Wessel invites you to the council luncheon, on the first Thursday of the month, and seats you at his right hand. They talk of peat, of dykes, of the price of butter. Nobody mentions the two lights. When the pudding comes, the mayor raises his glass \"to the family of the estate, who will carry {0} into the future\". Everyone drinks water.",
+  "easy": "Mayor Wessel invites you to the council lunch, on the first Thursday of the month, and you sit at his right. People talk about peat, dykes and the price of butter. Nobody talks about the two lights. At dessert the mayor raises his glass \"to the family of the estate, who will take {0} into the future\". Everyone drinks water.",
+  "short": "At the council lunch Mayor Wessel seats you at his right and toasts your family, \"who will carry {0} into the future\". Nobody mentions the lights. Everyone drinks water."
  },
  "TkVP.3": {
-  "full": "The council offers you a seat. The sittings are very short: nobody argues, nobody objects, the accounts balance to the penny. At the end of the first sitting the clerk shakes your hand and tells you that you are \"just like them\". In Brunveen, it is a compliment.",
-  "easy": "The council offers you a seat. The meetings are very short. Nobody argues, nobody says no, and the accounts are right to the last penny. At the end of the first meeting the clerk shakes your hand and says you are \"just like them\". In Brunveen, that is a compliment.",
-  "short": "You join the council. Nobody ever argues, and the accounts balance to the penny. The clerk says you are \"just like them\". In Brunveen, that is a compliment."
+  "full": "The council offers you a seat. The sittings are very short: nobody argues, nobody objects, the accounts balance to the penny. At the end of the first sitting the clerk shakes your hand and tells you that you are \"just like them\". In {0}, it is a compliment.",
+  "easy": "The council offers you a seat. The meetings are very short. Nobody argues, nobody says no, and the accounts are right to the last penny. At the end of the first meeting the clerk shakes your hand and says you are \"just like them\". In {0}, that is a compliment.",
+  "short": "You join the council. Nobody ever argues, and the accounts balance to the penny. The clerk says you are \"just like them\". In {0}, that is a compliment."
  },
  "TkVP.4": {
   "full": "The town makes you chair of the committee for the war memorial. The bronze is already ordered, the names already chosen, the unveiling already set. All they ask of you is a signature and a speech. In the speech, they beg you, not a word about the bog: \"Our boys came home. That is what matters.\"",
@@ -284,9 +284,9 @@
   "short": "You accept. They welcome you like family, so warmly that on the way home you cannot remember what you wanted to ask."
  },
  "TkVP.10": {
-  "full": "You decline, with all the good manners you have. Nobody takes offence. In Brunveen nobody takes offence any more: they smile at you, they thank you all the same, and they watch you leave the way one watches a guest who has come to the wrong house.",
-  "easy": "You say no, as politely as you can. Nobody is offended. In Brunveen nobody is ever offended now. They smile at you, they thank you anyway, and they watch you go, like a guest who came to the wrong house.",
-  "short": "You decline politely. Nobody in Brunveen takes offence any more: they smile, thank you, and watch you go like a guest at the wrong house."
+  "full": "You decline, with all the good manners you have. Nobody takes offence. In {0} nobody takes offence any more: they smile at you, they thank you all the same, and they watch you leave the way one watches a guest who has come to the wrong house.",
+  "easy": "You say no, as politely as you can. Nobody is offended. In {0} nobody is ever offended now. They smile at you, they thank you anyway, and they watch you go, like a guest who came to the wrong house.",
+  "short": "You decline politely. Nobody in {0} takes offence any more: they smile, thank you, and watch you go like a guest at the wrong house."
  },
  "Bevi.1": {
   "full": "**The dark water**"
@@ -297,9 +297,9 @@
   "short": "The bog water is dark as stewed tea and cold even in summer. They say it clears the head better than coffee. The pastor calls it the devil's water, and drinks wine."
  },
  "Bevi.3": {
-  "full": "In Brunveen the water of the bog is sold in labelled bottles, \"Brunveen Water, for health and serenity\". The chemist recommends it for sleeplessness, the schoolmistress for inattention, the mayor for everything else. Nobody in the village has been ill for years.",
-  "easy": "In Brunveen they sell the bog water in bottles with a label: \"Brunveen Water, for health and serenity\". The chemist says it is good if you cannot sleep. The schoolmistress says it is good if you cannot pay attention. The mayor says it is good for everything else. Nobody in the village has been ill for years.",
-  "short": "The bog water is sold in bottles, \"Brunveen Water, for health and serenity\", and recommended for everything. Nobody in the village has been ill for years."
+  "full": "In {0} the water of the bog is sold in labelled bottles, \"{1} Water, for health and serenity\". The chemist recommends it for sleeplessness, the schoolmistress for inattention, the mayor for everything else. Nobody in the village has been ill for years.",
+  "easy": "In {0} they sell the bog water in bottles with a label: \"{1} Water, for health and serenity\". The chemist says it is good if you cannot sleep. The schoolmistress says it is good if you cannot pay attention. The mayor says it is good for everything else. Nobody in the village has been ill for years.",
+  "short": "The bog water is sold in bottles, \"{0} Water, for health and serenity\", and recommended for everything. Nobody in the village has been ill for years."
  },
  "Bevi.4": {
   "full": "In the glass the dark water does not move, not even when you knock on the table. At the front you drank water from puddles, from snow, from radiators. This is different: it is looking at you.",
@@ -429,10 +429,10 @@
   "full": "**Pass the Storybook to {0}.**"
  },
  "G1JournalA.2": {
-  "full": "**A sheet from the Journal**"
+  "full": "**A page from your father's Journal**"
  },
  "G1JournalA.3": {
-  "full": "**With your name on it, in your father's hand, more and more crooked.**"
+  "full": "**Your name is on it. The handwriting is his, but it grows shakier line by line.**"
  },
  "G1JournalA.4": {
   "full": "*11 November, night. The ring lit up by itself. I did not touch it, I swear: I was at the window, with my pipe out. White light, no heat, a hum like bees inside a wall. Then nothing. I sent nothing, and it lit up all the same. It was made for sending, not for receiving. What has it received?*",
@@ -508,9 +508,9 @@
   "short": "The estate is a long, low house facing the bog. Behind it rises the red-brick tower, with a shut glass room at the top. Crows land there in the morning, but never stay."
  },
  "G1JournalFine.3": {
-  "full": "Brunveen is a village of peat-cutters: a hundred or so wooden houses around the church, a market, a mill, a dyke that keeps the river away, and all around it the bog, flat and dark to the horizon, where in winter the fog rises and in summer the mosquitoes. For centuries the people here have cut the peat into bricks, dried it and burnt it. Peat gives little heat and a great deal of smoke. But it is free, and it belongs to everyone.",
-  "easy": "Brunveen is a village of peat-cutters. There are about a hundred wooden houses around the church, a market, a mill, and a dyke that keeps the river out. All around is the bog, flat and dark as far as you can see. In winter it is full of fog, and in summer it is full of mosquitoes. For hundreds of years the people here have cut the peat into bricks, dried it and burnt it. Peat does not give much heat, and it makes a lot of smoke. But it is free, and it belongs to everyone.",
-  "short": "Brunveen is a village of peat-cutters: wooden houses, a church, a mill, a dyke, and the flat dark bog all around. Peat gives little heat and much smoke, but it is free, and everyone's."
+  "full": "{0} is a village of peat-cutters: a hundred or so wooden houses around the church, a market, a mill, a dyke that keeps the river away, and all around it the bog, flat and dark to the horizon, where in winter the fog rises and in summer the mosquitoes. For centuries the people here have cut the peat into bricks, dried it and burnt it. Peat gives little heat and a great deal of smoke. But it is free, and it belongs to everyone.",
+  "easy": "{0} is a village of peat-cutters. There are about a hundred wooden houses around the church, a market, a mill, and a dyke that keeps the river out. All around is the bog, flat and dark as far as you can see. In winter it is full of fog, and in summer it is full of mosquitoes. For hundreds of years the people here have cut the peat into bricks, dried it and burnt it. Peat does not give much heat, and it makes a lot of smoke. But it is free, and it belongs to everyone.",
+  "short": "{0} is a village of peat-cutters: wooden houses, a church, a mill, a dyke, and the flat dark bog all around. Peat gives little heat and much smoke, but it is free, and everyone's."
  },
  "G1JournalFine.4": {
   "full": "In the middle of the morning someone knocks at the gate. It is Fokke Tammer, the peat-cutter, with his hands bandaged and a barrow full of bricks of dark peat, almost black. He offers them as a gift, \"for the master's family, as a mark of respect\". He says this peat heats better than any other. He says it makes no smoke. He smiles: nobody in the village remembers ever seeing him smile.",
@@ -624,7 +624,7 @@
   "short": "Fokke, who could not count past ten a year ago, gives exact change. Seeing you, he smiles and waves you forward: \"The master's family does not queue.\""
  },
  "G1Fokke.5": {
-  "full": "You buy the peat."
+  "full": "You buy the peat ($1)."
  },
  "G1Fokke.6": {
   "full": "You ask him to take off his bandages."
@@ -735,7 +735,7 @@
   "short": "Lambert the master builder could not move the tower door. \"The lock is melted from inside, by a heat no coal can make. And your father died outside, at the foot of the tower, with the key in his hand.\""
  },
  "G1Torre.4": {
-  "full": "You pay Lambert to break through the wall."
+  "full": "You pay Lambert to break through the wall ($2)."
  },
  "G1Torre.5": {
   "full": "You leave the tower shut, for now."
@@ -760,8 +760,8 @@
   "full": "**The father's grave**"
  },
  "G1Tomba.2": {
-  "full": "The Brunveen cemetery is built on the dyke, the only dry place in the village, and even there, a yard down, you strike water. New graves fill up in a single night. Siebe the gravedigger, a slight man with one leg shorter than the other, is waiting for you beside your father's grave, still covered with loose earth.",
-  "easy": "The Brunveen cemetery is on the dyke, because it is the only dry place in the village. But even there, if you dig one metre down, you find water. New graves fill with water in one night. Siebe the gravedigger is a small man with one leg shorter than the other. He is waiting for you next to your father's grave, which is still covered with fresh earth.",
+  "full": "The {0} cemetery is built on the dyke, the only dry place in the village, and even there, a yard down, you strike water. New graves fill up in a single night. Siebe the gravedigger, a slight man with one leg shorter than the other, is waiting for you beside your father's grave, still covered with loose earth.",
+  "easy": "The {0} cemetery is on the dyke, because it is the only dry place in the village. But even there, if you dig one metre down, you find water. New graves fill with water in one night. Siebe the gravedigger is a small man with one leg shorter than the other. He is waiting for you next to your father's grave, which is still covered with fresh earth.",
   "short": "The cemetery is on the dyke, the only dry ground, and even there graves fill with water overnight. Siebe the gravedigger waits for you by your father's fresh grave."
  },
  "G1Tomba.3": {
@@ -773,11 +773,11 @@
   "full": "You accept Fokke's peat."
  },
  "G1Tomba.6": {
-  "full": "You pay for a stone slab."
+  "full": "You pay for a stone slab ($2)."
  },
  "G1Tomba.7": {
-  "full": "Fokke brings the peat himself, the next day, and spreads it over the grave with his bandaged hands, brick by brick, the way one tucks in a blanket. When he has finished he stays on his knees a moment, looking. Siebe says Brunveen has never seen a grave so well made.",
-  "easy": "The next day Fokke brings the peat himself. With his bandaged hands he lays it on the grave, brick by brick, like someone tucking in a blanket. When he finishes, he stays on his knees for a moment and looks. Siebe says that nobody in Brunveen has ever seen such a well-made grave.",
+  "full": "Fokke brings the peat himself, the next day, and spreads it over the grave with his bandaged hands, brick by brick, the way one tucks in a blanket. When he has finished he stays on his knees a moment, looking. Siebe says {0} has never seen a grave so well made.",
+  "easy": "The next day Fokke brings the peat himself. With his bandaged hands he lays it on the grave, brick by brick, like someone tucking in a blanket. When he finishes, he stays on his knees for a moment and looks. Siebe says that nobody in {0} has ever seen such a well-made grave.",
   "short": "Fokke lays the peat on the grave brick by brick, like tucking in a blanket, and kneels a moment to look. Siebe has never seen a finer grave."
  },
  "G1Tomba.9": {
@@ -797,7 +797,7 @@
   "short": "A stranger in a battered top hat sells STAR WATER – CURES ALL ILLS at a florin a phial. He has sold fifty already. He draws it, he laughs, \"where the star fell\"."
  },
  "G1Carovana.4": {
-  "full": "You buy a phial."
+  "full": "You buy a phial ($1)."
  },
  "G1Carovana.5": {
   "full": "You report him to the mayor."
@@ -846,7 +846,7 @@
   "short": "Fokke is auctioning it, \"for whoever will know what to do with it\". The museum professor came with a fat wallet. But everyone was looking at the family of the estate."
  },
  "G1Asta.5": {
-  "full": "Each player secretly bids a sum of money. The highest bidder pays and takes the **stone**: the **Crown token** {icon:S3_CrownToken} from the **A Time of War** Box. The others pay nothing. *(In case of a tie, the Start Player wins.)*"
+  "full": "Each player secretly bids a sum of money. The highest bidder pays and takes the **stone**: the **Crown token** {icon:S3_CrownToken} from the **A Time of War** Box. The others pay nothing. *(In case of a tie, the tied player first in turn order wins.)*"
  },
  "G1Asta.6": {
   "full": "Whoever has the stone, once per Round, draws one extra Experiment when they draw Experiments. But at the end of each Round the stone makes them thirsty."
@@ -916,9 +916,9 @@
   "full": "**Second Round Event**"
  },
  "G1R2.24": {
-  "full": "This year nobody in Brunveen has died. Siebe the gravedigger, to make ends meet, has taken up carpentry as well, and Pastor Kalf has celebrated more weddings than in all the previous years put together. The couples marry without haste, without quarrels, and without inviting relatives from outside.",
-  "easy": "This year nobody in Brunveen has died. Siebe the gravedigger needs money, so now he works as a carpenter too. Pastor Kalf has had more weddings this year than in all the other years together. The couples get married calmly, without fighting, and without inviting any family from outside the village.",
-  "short": "Nobody in Brunveen died this year. The gravedigger now does carpentry, and the pastor has married more couples than ever: calm, quiet weddings, with no relatives from outside."
+  "full": "This year nobody in {0} has died. Siebe the gravedigger, to make ends meet, has taken up carpentry as well, and Pastor Kalf has celebrated more weddings than in all the previous years put together. The couples marry without haste, without quarrels, and without inviting relatives from outside.",
+  "easy": "This year nobody in {0} has died. Siebe the gravedigger needs money, so now he works as a carpenter too. Pastor Kalf has had more weddings this year than in all the other years together. The couples get married calmly, without fighting, and without inviting any family from outside the village.",
+  "short": "Nobody in {0} died this year. The gravedigger now does carpentry, and the pastor has married more couples than ever: calm, quiet weddings, with no relatives from outside."
  },
  "G1R2.25": {
   "full": "At the estate, Bruin, Fokke's dog, has taken to sitting in front of the gate whenever a wedding procession goes by, and growling, softly, at only one of the couple. Never at both.",
@@ -972,9 +972,9 @@
   "full": "Gain 2 Evidence {icon:S3_WeaponToken}."
  },
  "G1Mani.12": {
-  "full": "You say that if good health were a disease, Brunveen would have an epidemic, and the council laughs, all together, for too long. Hester closes the Register and leaves without saying goodbye to you. The mayor, on the other hand, invites you to dinner.",
-  "easy": "You say that if good health were an illness, Brunveen would have an epidemic. The whole council laughs, all at the same time, for too long. Hester closes the Register and leaves without saying goodbye. But the mayor invites you to dinner.",
-  "short": "\"If good health were a disease, Brunveen would have an epidemic.\" The council laughs together, too long. Hester leaves without a word. The mayor invites you to dinner."
+  "full": "You say that if good health were a disease, {0} would have an epidemic, and the council laughs, all together, for too long. Hester closes the Register and leaves without saying goodbye to you. The mayor, on the other hand, invites you to dinner.",
+  "easy": "You say that if good health were an illness, {0} would have an epidemic. The whole council laughs, all at the same time, for too long. Hester closes the Register and leaves without saying goodbye. But the mayor invites you to dinner.",
+  "short": "\"If good health were a disease, {0} would have an epidemic.\" The council laughs together, too long. Hester leaves without a word. The mayor invites you to dinner."
  },
  "G1Mani.13": {
   "full": "Gain $2."
@@ -988,7 +988,7 @@
   "short": "At the Laborer's Union everyone now drinks the bog canal's water, once undrinkable. The labourers work dawn to dusk without complaint. For six months nobody has asked for a rise."
  },
  "G1Pozzo.4": {
-  "full": "You pay to close the canal and dig a well."
+  "full": "You pay to close the canal and dig a well ($2)."
  },
  "G1Pozzo.5": {
   "full": "You taste it."
@@ -1013,8 +1013,8 @@
   "full": "**The sermon**"
  },
  "G1Pastore.2": {
-  "full": "The Brunveen church is made of wood, like everything else, with a crooked steeple and worn pews. Pastor Ewout Kalf is a thin, stern man with a voice bigger than he is. This Sunday he preaches on Lot's wife and the things one must not look at. Then, without changing his tone, he speaks of the stone from the bog: it came from the sky, he says, and what comes from the sky without being called does not come from God. It must be taken back where it was found. As he speaks, he looks at your pew.",
-  "easy": "The Brunveen church is made of wood, like everything else. Its steeple is crooked and its benches are old. Pastor Ewout Kalf is a thin, strict man with a very big voice. This Sunday he talks about Lot's wife and about the things you must not look at. Then, in the same voice, he talks about the stone from the bog. He says it came from the sky, and what comes from the sky when nobody called it does not come from God. It must go back to where they found it. While he speaks, he looks at your bench.",
+  "full": "The {0} church is made of wood, like everything else, with a crooked steeple and worn pews. Pastor Ewout Kalf is a thin, stern man with a voice bigger than he is. This Sunday he preaches on Lot's wife and the things one must not look at. Then, without changing his tone, he speaks of the stone from the bog: it came from the sky, he says, and what comes from the sky without being called does not come from God. It must be taken back where it was found. As he speaks, he looks at your pew.",
+  "easy": "The {0} church is made of wood, like everything else. Its steeple is crooked and its benches are old. Pastor Ewout Kalf is a thin, strict man with a very big voice. This Sunday he talks about Lot's wife and about the things you must not look at. Then, in the same voice, he talks about the stone from the bog. He says it came from the sky, and what comes from the sky when nobody called it does not come from God. It must go back to where they found it. While he speaks, he looks at your bench.",
   "short": "Pastor Kalf, thin and stern, preaches that the stone came from the sky uncalled, and so not from God: it must go back where it was found. He looks at your pew as he says it."
  },
  "G1Pastore.4": {
@@ -1024,8 +1024,8 @@
   "full": "You contradict him, on the church steps."
  },
  "G1Pastore.6": {
-  "full": "The pastor holds your hand between his, for a long time, the way one holds a convert's. He tells you that you are not the only person in Brunveen who thinks so, but that you are few, and fewer every month. He asks you to pray for them. He does not say for whom.",
-  "easy": "The pastor holds your hand in both of his for a long time, like the hand of someone who has just found God. He tells you that you are not the only person in Brunveen who thinks this way. But there are few of you, and fewer every month. He asks you to pray for them. He does not say who they are.",
+  "full": "The pastor holds your hand between his, for a long time, the way one holds a convert's. He tells you that you are not the only person in {0} who thinks so, but that you are few, and fewer every month. He asks you to pray for them. He does not say for whom.",
+  "easy": "The pastor holds your hand in both of his for a long time, like the hand of someone who has just found God. He tells you that you are not the only person in {0} who thinks this way. But there are few of you, and fewer every month. He asks you to pray for them. He does not say who they are.",
   "short": "The pastor clasps your hand: you are not alone in thinking so, he says, but you are few, and fewer every month. Pray for them. He does not say whom."
  },
  "G1Pastore.8": {
@@ -1037,8 +1037,8 @@
   "full": "**The smith who never misses**"
  },
  "G1Fabbro.2": {
-  "full": "Jaap Mol, the smith, fell into the bog canal at Easter, drunk, and stayed under water until his lads fished him out, half an hour later, given up for dead. He got up by himself, shook the water off and went back to work. Since then he has not missed a stroke. The horseshoes he makes are so perfect that the horses of the city come to Brunveen to be shod. Jaap no longer drinks, no longer sings, and has apologised to everyone he owed money.",
-  "easy": "At Easter, Jaap Mol the smith fell into the bog canal. He was drunk. He stayed under the water until his workers pulled him out, half an hour later. Everyone thought he was dead. But he stood up by himself, shook off the water and went back to work. Since then he has never missed a blow with his hammer. His horseshoes are so perfect that horses come from the city to Brunveen to get them. Jaap does not drink or sing any more, and he has said sorry to everyone he owed money to.",
+  "full": "Jaap Mol, the smith, fell into the bog canal at Easter, drunk, and stayed under water until his lads fished him out, half an hour later, given up for dead. He got up by himself, shook the water off and went back to work. Since then he has not missed a stroke. The horseshoes he makes are so perfect that the horses of the city come to {0} to be shod. Jaap no longer drinks, no longer sings, and has apologised to everyone he owed money.",
+  "easy": "At Easter, Jaap Mol the smith fell into the bog canal. He was drunk. He stayed under the water until his workers pulled him out, half an hour later. Everyone thought he was dead. But he stood up by himself, shook off the water and went back to work. Since then he has never missed a blow with his hammer. His horseshoes are so perfect that horses come from the city to {0} to get them. Jaap does not drink or sing any more, and he has said sorry to everyone he owed money to.",
   "short": "At Easter Jaap Mol the smith fell drunk into the canal and stayed under for half an hour. He got up and went back to work. Now he never misses a stroke, no longer drinks or sings, and has paid all his debts."
  },
  "G1Fabbro.4": {
@@ -1094,9 +1094,9 @@
   "full": "**The Maas Register – Hester Maas, *1870.***"
  },
  "G1Cronaca.3": {
-  "full": "Four years since the night of the two lights. Nobody in Brunveen has died of illness since: only two old people, in their sleep, and a child who fell from the hayloft. The marsh fevers, which every summer carried someone off, did not come this year. The doctor from the city says it is the air. I count the temperatures.",
-  "easy": "It is four years since the night of the two lights. Since then nobody in Brunveen has died of an illness. Only two old people died in their sleep, and a child fell from the hayloft. Every summer the marsh fever used to kill someone, but this year it did not come. The doctor from the city says it is thanks to the air. I count the temperatures.",
-  "short": "Four years since the two lights, and nobody in Brunveen has died of illness. Even the marsh fever stayed away. The city doctor says it is the air. I count the temperatures."
+  "full": "Four years since the night of the two lights. Nobody in {0} has died of illness since: only two old people, in their sleep, and a child who fell from the hayloft. The marsh fevers, which every summer carried someone off, did not come this year. The doctor from the city says it is the air. I count the temperatures.",
+  "easy": "It is four years since the night of the two lights. Since then nobody in {0} has died of an illness. Only two old people died in their sleep, and a child fell from the hayloft. Every summer the marsh fever used to kill someone, but this year it did not come. The doctor from the city says it is thanks to the air. I count the temperatures.",
+  "short": "Four years since the two lights, and nobody in {0} has died of illness. Even the marsh fever stayed away. The city doctor says it is the air. I count the temperatures."
  },
  "G1Cronaca.4": {
   "full": "The cold hands, in the Register, number forty-one. I have stopped telling the council.",
@@ -1275,8 +1275,8 @@
   "full": "Gain 1 Occult Knowledge and 1 Evidence {icon:S3_WeaponToken}."
  },
  "G1Libri.9": {
-  "full": "The pastor agrees at once, as if he had only been waiting for someone to ask. Brunveen's first night watch goes out the following Saturday: the pastor, three peat-cutters, Siebe the gravedigger and a lantern. They find nothing. But all night long, from the houses, people watch them pass, behind the windowpanes, without lighting a lamp.",
-  "easy": "The pastor says yes immediately, as if he was only waiting for someone to ask. The first night watch of Brunveen goes out the next Saturday: the pastor, three peat-cutters, Siebe the gravedigger and a lantern. They find nothing. But all night, from the houses, people watch them walk past, behind the windows, in the dark.",
+  "full": "The pastor agrees at once, as if he had only been waiting for someone to ask. {0}'s first night watch goes out the following Saturday: the pastor, three peat-cutters, Siebe the gravedigger and a lantern. They find nothing. But all night long, from the houses, people watch them pass, behind the windowpanes, without lighting a lamp.",
+  "easy": "The pastor says yes immediately, as if he was only waiting for someone to ask. The first night watch of {0} goes out the next Saturday: the pastor, three peat-cutters, Siebe the gravedigger and a lantern. They find nothing. But all night, from the houses, people watch them walk past, behind the windows, in the dark.",
   "short": "The pastor agrees at once. The first night watch, five men and a lantern, finds nothing. But all night people watch them from dark windows."
  },
  "G1Sindaco.1": {
@@ -1307,9 +1307,9 @@
   "short": "At home you add the mayor to the list under Fokke Tammer. It is already long. You realise you are writing the names in order of kindness."
  },
  "G1Sindaco.11": {
-  "full": "The mayor smiles: Mrs Wessel is very well, thank you. She left for the city in the spring, to her sister's, for a rest. She writes to him every week. He shows you the letters: a neat pile, tied with a ribbon. The envelopes are all alike, the handwriting all alike, the postmark always the same: Brunveen.",
-  "easy": "The mayor smiles: Mrs Wessel is very well, thank you. In the spring she went to the city, to her sister's house, to rest. She writes to him every week. He shows you the letters: a tidy pile, tied with a ribbon. All the envelopes are the same. All the handwriting is the same. And the postmark is always the same: Brunveen.",
-  "short": "Mrs Wessel is resting at her sister's in the city, he smiles, and writes every week. He shows you the letters: identical envelopes, identical hand, and every postmark says Brunveen."
+  "full": "The mayor smiles: Mrs Wessel is very well, thank you. She left for the city in the spring, to her sister's, for a rest. She writes to him every week. He shows you the letters: a neat pile, tied with a ribbon. The envelopes are all alike, the handwriting all alike, the postmark always the same: {0}.",
+  "easy": "The mayor smiles: Mrs Wessel is very well, thank you. In the spring she went to the city, to her sister's house, to rest. She writes to him every week. He shows you the letters: a tidy pile, tied with a ribbon. All the envelopes are the same. All the handwriting is the same. And the postmark is always the same: {0}.",
+  "short": "Mrs Wessel is resting at her sister's in the city, he smiles, and writes every week. He shows you the letters: identical envelopes, identical hand, and every postmark says {0}."
  },
  "G1Sindaco.12": {
   "full": "Gain 1 {icon:Insanity_Icon} and 1 Evidence {icon:S3_WeaponToken}."
@@ -1391,9 +1391,9 @@
   "full": "**The Maas Register – Hester Maas, *1889.***"
  },
  "G1PietraVoto.3": {
-  "full": "Pastor Kalf came to the estate, old, with his stick and his hat in his hand, and asked to speak to the whole family. He said he too has been counting, these years: the weddings, the christenings, the confessions. Nobody in Brunveen confesses any more. They have no sins.",
-  "easy": "Pastor Kalf came to the estate. He is old now, with his walking stick and his hat in his hand. He asked to speak to the whole family. He said that he has also been counting, all these years: the weddings, the christenings, the confessions. Nobody in Brunveen confesses any more. They have no sins.",
-  "short": "Old Pastor Kalf came to the estate to speak to the whole family. He too has been counting. Nobody in Brunveen confesses any more. They have no sins."
+  "full": "Pastor Kalf came to the estate, old, with his stick and his hat in his hand, and asked to speak to the whole family. He said he too has been counting, these years: the weddings, the christenings, the confessions. Nobody in {0} confesses any more. They have no sins.",
+  "easy": "Pastor Kalf came to the estate. He is old now, with his walking stick and his hat in his hand. He asked to speak to the whole family. He said that he has also been counting, all these years: the weddings, the christenings, the confessions. Nobody in {0} confesses any more. They have no sins.",
+  "short": "Old Pastor Kalf came to the estate to speak to the whole family. He too has been counting. Nobody in {0} confesses any more. They have no sins."
  },
  "G1PietraVoto.4": {
   "full": "He asked the family to take the stone back to the bog, to the exact place of the light, and to leave it there: \"We do not know what it does, but we know it does it better near water. Then at least let it do it far from your houses.\" Then he waited for the answer standing, because the chair they had offered him was by the fire.",
@@ -1443,7 +1443,7 @@
   "short": "At dawn Pastor Kalf wades waist-deep to the place of the light and lets the stone go. It sinks without a bubble, as if expected. For a moment the water turns to glass. Then the wind breaks it."
  },
  "G1PietraEsito.6": {
-  "full": "That night, in Brunveen, nobody is thirsty."
+  "full": "That night, in {0}, nobody is thirsty."
  },
  "G1PietraEsito.7": {
   "full": "{0} puts the Crown token {icon:S3_CrownToken} back on the **Park**: the stone is in the bog."
@@ -1558,14 +1558,14 @@
   "full": "**The Maas Register – Hester Maas, *1890.***"
  },
  "G1Chiusura.3": {
-  "full": "I am old, and my hand no longer helps me. This is the last page I shall write. I leave the Register to my son Joost, who took his degree in medicine in the city and is coming back to Brunveen as the village doctor. He laughs at my cold hands. He has studied, and those who have studied do not count: they measure.",
-  "easy": "I am old, and my hand does not help me any more. This is the last page I will write. I leave the Register to my son Joost. He studied medicine in the city, and now he is coming back to Brunveen as the village doctor. He laughs at my cold hands. He has studied, and people who have studied do not count. They measure.",
+  "full": "I am old, and my hand no longer helps me. This is the last page I shall write. I leave the Register to my son Joost, who took his degree in medicine in the city and is coming back to {0} as the village doctor. He laughs at my cold hands. He has studied, and those who have studied do not count: they measure.",
+  "easy": "I am old, and my hand does not help me any more. This is the last page I will write. I leave the Register to my son Joost. He studied medicine in the city, and now he is coming back to {0} as the village doctor. He laughs at my cold hands. He has studied, and people who have studied do not count. They measure.",
   "short": "I am old; this is my last page. I leave the Register to my son Joost, the new village doctor. He laughs at my cold hands. He has studied: he does not count, he measures."
  },
  "G1Chiusura.4": {
-  "full": "The heirs of the estate have grown old, like me. Some have died, in their beds, of old age, with warm hands: I touched them myself. The Machine has stayed in the tower, silent. Their children have grown up in Brunveen, and do not know what Brunveen was before.",
-  "easy": "The heirs of the estate are old now, like me. Some of them have died of old age, in their beds, with warm hands. I touched them myself. The Machine is still in the tower, silent. Their children grew up in Brunveen, and they do not know what Brunveen was like before.",
-  "short": "The heirs of the estate have grown old. Some died in their beds, hands warm: I checked. The Machine stands silent. Their children do not know what Brunveen was before."
+  "full": "The heirs of the estate have grown old, like me. Some have died, in their beds, of old age, with warm hands: I touched them myself. The Machine has stayed in the tower, silent. Their children have grown up in {0}, and do not know what {1} was before.",
+  "easy": "The heirs of the estate are old now, like me. Some of them have died of old age, in their beds, with warm hands. I touched them myself. The Machine is still in the tower, silent. Their children grew up in {0}, and they do not know what {1} was like before.",
+  "short": "The heirs of the estate have grown old. Some died in their beds, hands warm: I checked. The Machine stands silent. Their children do not know what {0} was before."
  },
  "G1Chiusura.5": {
   "full": "The stone has gone back into the bog. This winter the place of the light has not frozen, not even on the coldest nights.",
@@ -1592,9 +1592,9 @@
   "full": "**Letter from Professor Ostrander to the director of the natural history museum – *June 1866.***"
  },
  "G1Ostrander.3": {
-  "full": "My distinguished colleague, I write to you from Brunveen, a village of peat-cutters half a day away by train, where I came for the object I told you of: the so-called \"stone of the light\". I return empty-handed. The object was knocked down to a member of the family of the estate, {0}, for a sum the museum would never have approved. I give you a description of it all the same, for the record.",
-  "easy": "Dear colleague, I am writing to you from Brunveen, a village of peat-cutters half a day away by train. I came here for the object I told you about: the so-called \"stone of the light\". I am coming back with nothing. A member of the family of the estate, {0}, bought it at the auction, for a price the museum would never accept. But I will describe it to you anyway, so that we have a record.",
-  "short": "Dear colleague, I return from Brunveen empty-handed: the \"stone of the light\" went to {0}, of the estate, for a sum the museum would never approve. For the record, a description."
+  "full": "My distinguished colleague, I write to you from {0}, a village of peat-cutters half a day away by train, where I came for the object I told you of: the so-called \"stone of the light\". I return empty-handed. The object was knocked down to a member of the family of the estate, {1}, for a sum the museum would never have approved. I give you a description of it all the same, for the record.",
+  "easy": "Dear colleague, I am writing to you from {0}, a village of peat-cutters half a day away by train. I came here for the object I told you about: the so-called \"stone of the light\". I am coming back with nothing. A member of the family of the estate, {1}, bought it at the auction, for a price the museum would never accept. But I will describe it to you anyway, so that we have a record.",
+  "short": "Dear colleague, I return from {0} empty-handed: the \"stone of the light\" went to {1}, of the estate, for a sum the museum would never approve. For the record, a description."
  },
  "G1Ostrander.4": {
   "full": "Black stone, smooth, as big as a loaf, of anomalous specific gravity. Constant temperature, above that of its surroundings: one feels it warm through the sack. No visible crystallisation, no fracture. It is not a meteorite of any kind known to me. The peat-cutter who found it, one Tammer, handled it like a living thing.",
@@ -1602,9 +1602,9 @@
   "short": "Black, smooth, oddly heavy, always warm. No crystals, no cracks: no meteorite I know of. The peat-cutter who found it held it like a living thing."
  },
  "G1Ostrander.5": {
-  "full": "I add a personal impression, which you need not mention to the board. Brunveen is the quietest village I have ever visited. Nobody at the auction raised their voice. Nobody haggled. When the auctioneer brought down the hammer, the crowd applauded all together, and stopped all together. At the inn they served me water, though I had asked for beer, and the innkeeper told me, with a smile, that \"it is better for everyone\".",
-  "easy": "I add a personal feeling, but please do not talk about it to the board. Brunveen is the quietest village I have ever seen. At the auction nobody raised their voice. Nobody tried to get a lower price. When the auctioneer hit the table with his hammer, the whole crowd clapped at the same moment, and stopped at the same moment. At the inn I asked for beer, but they gave me water. The innkeeper smiled and said that \"it is better for everyone\".",
-  "short": "Privately: Brunveen is the quietest village I have known. The crowd clapped all at once and stopped all at once. I asked for beer and was served water: \"better for everyone\", smiled the innkeeper."
+  "full": "I add a personal impression, which you need not mention to the board. {0} is the quietest village I have ever visited. Nobody at the auction raised their voice. Nobody haggled. When the auctioneer brought down the hammer, the crowd applauded all together, and stopped all together. At the inn they served me water, though I had asked for beer, and the innkeeper told me, with a smile, that \"it is better for everyone\".",
+  "easy": "I add a personal feeling, but please do not talk about it to the board. {0} is the quietest village I have ever seen. At the auction nobody raised their voice. Nobody tried to get a lower price. When the auctioneer hit the table with his hammer, the whole crowd clapped at the same moment, and stopped at the same moment. At the inn I asked for beer, but they gave me water. The innkeeper smiled and said that \"it is better for everyone\".",
+  "short": "Privately: {0} is the quietest village I have known. The crowd clapped all at once and stopped all at once. I asked for beer and was served water: \"better for everyone\", smiled the innkeeper."
  },
  "G1Ostrander.6": {
   "full": "I left my visiting card with the family. I mean to return. Your most devoted, J. Ostrander.",
@@ -1628,7 +1628,7 @@
   "full": "You tell him he is tired, and must go home."
  },
  "G1Mugnaio.6": {
-  "full": "You pay for his ticket."
+  "full": "You pay for his ticket ($2)."
  },
  "G1Mugnaio.7": {
   "full": "You ask him where his wife was, the night before she changed."
@@ -1666,7 +1666,7 @@
   "full": "You refuse, and threaten to go to court."
  },
  "G1Lambert.5": {
-  "full": "You ask him to shore it up instead, at your expense."
+  "full": "You ask him to shore it up instead, at your expense ($2)."
  },
  "G1Lambert.6": {
   "full": "You ask him who put the resolution forward."
@@ -1677,8 +1677,8 @@
   "short": "Lambert puts the resolution away without a word. But that evening he stands in the road for an hour, motionless, looking at the tower like an old enemy, or an old friend."
  },
  "G1Lambert.9": {
-  "full": "Lambert agrees, with the same calm. His men work for a month: iron chains around the walls, a new staircase, oak beams. They work well, better than anyone has ever worked in Brunveen. They never go higher than the stairs, though. The room at the top, they say, is not their concern.",
-  "easy": "Lambert says yes, just as calmly. His men work for a month: iron chains around the walls, new stairs, oak beams. They work very well, better than anyone has ever worked in Brunveen. But they never go above the stairs. They say the room at the top is not their business.",
+  "full": "Lambert agrees, with the same calm. His men work for a month: iron chains around the walls, a new staircase, oak beams. They work well, better than anyone has ever worked in {0}. They never go higher than the stairs, though. The room at the top, they say, is not their concern.",
+  "easy": "Lambert says yes, just as calmly. His men work for a month: iron chains around the walls, new stairs, oak beams. They work very well, better than anyone has ever worked in {0}. But they never go above the stairs. They say the room at the top is not their business.",
   "short": "Lambert's men shore up the tower beautifully in a month. But they never go above the stairs. The room at the top, they say, is not their concern."
  },
  "G1Lambert.10": {
@@ -1698,7 +1698,7 @@
   "short": "Mayor Wessel, big, red and sweaty, his gouty foot on a stool, offers to buy the tower \"for a water tank\". Your father owed him money, he says. And its blue flashes frightened his wife."
  },
  "G1Wessel.4": {
-  "full": "You pay your father's debt."
+  "full": "You pay your father's debt ($2)."
  },
  "G1Wessel.5": {
   "full": "You tell him the tower is not for sale."
@@ -1766,9 +1766,9 @@
   "short": "I take up my mother's Register, and will write only what can be measured. In her last years she counted cold hands like rosary beads. In medicine, cold hands are poor circulation."
  },
  "VSG2Intro.4": {
-  "full": "Brunveen is no longer the village I was born in. The wooden houses have been rebuilt in brick, with exposed beams and tiled roofs; the dyke has been raised, the mill rebuilt, the church enlarged. The council has named it the tidiest village in the province three years running. There are no thefts, no debts, no brawls at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.",
-  "easy": "Brunveen is not the village where I was born. The wooden houses are now brick houses, with wooden beams and tiled roofs. The dyke is higher, the mill is new, the church is bigger. Three years in a row, the council has given the village the prize for the tidiest village in the province. There are no thieves, no debts and no fights at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.",
-  "short": "Brunveen is not the village I was born in: brick houses, a higher dyke, a new mill, three years the tidiest village in the province. No thefts, no debts, no brawls: nobody goes to the inn. The choir is the best in the diocese."
+  "full": "The village is no longer the one I was born in. The wooden houses have been rebuilt in brick, with exposed beams and tiled roofs; the dyke has been raised, the mill rebuilt, the church enlarged. The council has named it the tidiest village in the province three years running. There are no thefts, no debts, no brawls at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.",
+  "easy": "The village is not the one where I was born. The wooden houses are now brick houses, with wooden beams and tiled roofs. The dyke is higher, the mill is new, the church is bigger. Three years in a row, the council has given the village the prize for the tidiest village in the province. There are no thieves, no debts and no fights at the inn, because nobody goes to the inn any more. The church choir is the best in the diocese.",
+  "short": "The village is not the one I was born in: brick houses, a higher dyke, a new mill, three years the tidiest village in the province. No thefts, no debts, no brawls: nobody goes to the inn. The choir is the best in the diocese."
  },
  "VSG2Intro.5": {
   "full": "Some families, over the years, have left: the Mulders, the De Graafs, the widow Brink, a dozen in all. They said they no longer felt at home here. Their houses have stayed empty, and nobody buys them; the roofs sag, the windows break, the grass grows on the doorsteps. In so tidy a village, those ruins jar. The mayor has promised to have them pulled down.",
@@ -1892,8 +1892,8 @@
   "full": "**The children's drawings**"
  },
  "G2Scuola.2": {
-  "full": "The Brunveen school is held in the hall behind the church. The schoolmistress, Neeltje Borg, a young woman from the city with spectacles and a thin voice, stops you at the door with a folder under her arm. Every Monday, she says, she asks the children to draw their dream from Sunday night. It is an exercise they taught her at training college. Here, in Brunveen, half the children hand in a blank sheet. They do not dream, they say. The other half always draw the same thing: the bog, at night, with a light in the middle.",
-  "easy": "The Brunveen school is in the hall behind the church. The teacher, Neeltje Borg, is a young woman from the city with glasses and a soft voice. She stops you at the door with a folder under her arm. Every Monday, she says, she asks the children to draw their dream from Sunday night. She learned this exercise at teachers' college. Here in Brunveen, half the children give her an empty page. They say they do not dream. The other half always draw the same thing: the bog at night, with a light in the middle.",
+  "full": "The {0} school is held in the hall behind the church. The schoolmistress, Neeltje Borg, a young woman from the city with spectacles and a thin voice, stops you at the door with a folder under her arm. Every Monday, she says, she asks the children to draw their dream from Sunday night. It is an exercise they taught her at training college. Here, in {1}, half the children hand in a blank sheet. They do not dream, they say. The other half always draw the same thing: the bog, at night, with a light in the middle.",
+  "easy": "The {0} school is in the hall behind the church. The teacher, Neeltje Borg, is a young woman from the city with glasses and a soft voice. She stops you at the door with a folder under her arm. Every Monday, she says, she asks the children to draw their dream from Sunday night. She learned this exercise at teachers' college. Here in {1}, half the children give her an empty page. They say they do not dream. The other half always draw the same thing: the bog at night, with a light in the middle.",
   "short": "Every Monday Miss Borg, the young teacher, has the children draw Sunday night's dream. Half hand in blank sheets: they do not dream. The other half always draw the bog at night, with a light in the middle."
  },
  "G2Scuola.4": {
@@ -1911,9 +1911,9 @@
   "short": "Dr Maas sorts the drawings by date and shows you: week by week, the light in the bog grows bigger. Mass suggestion, he says, closing the folder. His hands are shaking."
  },
  "G2Scuola.9": {
-  "full": "The schoolmistress thanks you, relieved: she was afraid she was the strange one. She confesses that, since she came to Brunveen, she is the only person in the village who still dreams every night. Bad dreams, she says, but her own.",
-  "easy": "The teacher thanks you. She is relieved: she was afraid that she was the strange one. She tells you a secret: since she came to Brunveen, she is the only person in the village who still dreams every night. Bad dreams, she says, but they are hers.",
-  "short": "The teacher is relieved: she feared she was the strange one. She is the only one in Brunveen who still dreams every night. Bad dreams, but her own."
+  "full": "The schoolmistress thanks you, relieved: she was afraid she was the strange one. She confesses that, since she came to {0}, she is the only person in the village who still dreams every night. Bad dreams, she says, but her own.",
+  "easy": "The teacher thanks you. She is relieved: she was afraid that she was the strange one. She tells you a secret: since she came to {0}, she is the only person in the village who still dreams every night. Bad dreams, she says, but they are hers.",
+  "short": "The teacher is relieved: she feared she was the strange one. She is the only one in {0} who still dreams every night. Bad dreams, but her own."
  },
  "G2Scuola.11": {
   "full": "The schoolmistress shows you the class register, with a little cross beside some names. The children of the blank sheets are the best in the class: punctual, tidy, polite. They do not quarrel, do not cry, never graze their knees. Beside some names there is a second, smaller cross: the parents, the schoolmistress says, signed the school reports in the same handwriting as the child.",
@@ -1921,8 +1921,8 @@
   "short": "The blank-sheet children are the best in class: punctual, polite, never in tears, never a grazed knee. Some have a second cross: their parents signed the reports in the child's own handwriting."
  },
  "G2Ronda.2": {
-  "full": "At the Town Hall, in the small room, a dozen citizens have gathered: peat-cutters, two shop girls, Siebe the gravedigger, old now, Miss Borg the schoolmistress. They want to keep a night watch, as Pastor Kalf once did. They have seen things, they say: people walking towards the bog in their nightshirts, barefoot, and coming back at dawn dry. The council has already said no: there is no crime in Brunveen, and a watch would frighten families. They need someone from the estate, they say, so that the council will not dare object.",
-  "easy": "At the Town Hall, in the small room, about ten people have come together: peat-cutters, two shop assistants, Siebe the gravedigger, who is old now, and Miss Borg the teacher. They want to keep watch at night, like Pastor Kalf once did. They say they have seen things: people walking to the bog at night in their nightshirts, with bare feet, and coming back dry in the morning. The council has already said no. There is no crime in Brunveen, they say, and a watch would frighten families. So they need someone from the estate, because the council will not dare to say no to the estate.",
+  "full": "At the Town Hall, in the small room, a dozen citizens have gathered: peat-cutters, two shop girls, Siebe the gravedigger, old now, Miss Borg the schoolmistress. They want to keep a night watch, as Pastor Kalf once did. They have seen things, they say: people walking towards the bog in their nightshirts, barefoot, and coming back at dawn dry. The council has already said no: there is no crime in {0}, and a watch would frighten families. They need someone from the estate, they say, so that the council will not dare object.",
+  "easy": "At the Town Hall, in the small room, about ten people have come together: peat-cutters, two shop assistants, Siebe the gravedigger, who is old now, and Miss Borg the teacher. They want to keep watch at night, like Pastor Kalf once did. They say they have seen things: people walking to the bog at night in their nightshirts, with bare feet, and coming back dry in the morning. The council has already said no. There is no crime in {0}, they say, and a watch would frighten families. So they need someone from the estate, because the council will not dare to say no to the estate.",
   "short": "A dozen villagers want to revive Pastor Kalf's night watch: they have seen barefoot sleepwalkers going to the bog and coming back dry. The council said no. With someone from the estate, it would not dare."
  },
  "G2Ronda.3": {
@@ -1993,7 +1993,7 @@
   "full": "You go into the Mulders' house."
  },
  "G2Rovine.5": {
-  "full": "You pay the bricklayers to pull them down at once."
+  "full": "You pay the bricklayers to pull them down at once ($2)."
  },
  "G2Rovine.6": {
   "full": "The Mulders' house is cold and dark. In the bedroom, under the blanket, there is a long, thin shape, with its head on the pillow. You lift the blanket: black peat, damp, moulded like a man asleep, hands folded on its chest. On the bedside table there is a pair of spectacles. Old Mulder's, which, they say, he still wears in Rotterdam.",
@@ -2061,12 +2061,12 @@
   "short": "\"Do not drink the water. If you see someone with your face, do not look them in the eye. My wife said goodnight with cold hands, and I took the children and left. She writes. She says she is well.\""
  },
  "G2Mulder.5": {
-  "full": "You offer them hospitality at the estate."
+  "full": "You offer them hospitality at the estate ($1)."
  },
  "G2Mulder.7": {
-  "full": "The Mulders sleep at the estate for a week. They drink only beer. Old Mulder spends the evenings with you, by the fire, and tells you what Brunveen was like before the two lights: dirty, poor, quarrelsome, full of people who fought and sang. When he leaves, he gives you a list of names: those who, in his opinion, are still \"real\".",
-  "easy": "The Mulders sleep at the estate for a week. They drink only beer. In the evenings old Mulder sits with you by the fire and tells you what Brunveen was like before the two lights: dirty, poor, noisy, full of people who argued and sang. When he leaves, he gives you a list of names: the people he thinks are still \"real\".",
-  "short": "The Mulders stay a week, drinking only beer. By the fire old Mulder remembers Brunveen before the lights: dirty, poor, full of fights and songs. He leaves you a list of those still \"real\"."
+  "full": "The Mulders sleep at the estate for a week. They drink only beer. Old Mulder spends the evenings with you, by the fire, and tells you what {0} was like before the two lights: dirty, poor, quarrelsome, full of people who fought and sang. When he leaves, he gives you a list of names: those who, in his opinion, are still \"real\".",
+  "easy": "The Mulders sleep at the estate for a week. They drink only beer. In the evenings old Mulder sits with you by the fire and tells you what {0} was like before the two lights: dirty, poor, noisy, full of people who argued and sang. When he leaves, he gives you a list of names: the people he thinks are still \"real\".",
+  "short": "The Mulders stay a week, drinking only beer. By the fire old Mulder remembers {0} before the lights: dirty, poor, full of fights and songs. He leaves you a list of those still \"real\"."
  },
  "G2Mulder.8": {
   "full": "Pay $1 and gain 2 Evidence {icon:S3_WeaponToken}."
@@ -2083,8 +2083,8 @@
   "full": "**The Maas Register – Joost Maas, *1897.***"
  },
  "G2Cronaca.3": {
-  "full": "I have measured the temperature of one hundred and sixty inhabitants of Brunveen, over six years, with a precision thermometer sent from Leiden. One hundred and twenty have an average temperature of thirty-four point eight degrees. According to my books, at thirty-four point eight a man shivers, raves and dies. These hundred and twenty are perfectly well. They do not shiver. They do not fall ill. They never come to me, except to bring someone who has a fever.",
-  "easy": "In six years I have measured the temperature of one hundred and sixty people in Brunveen, with a very exact thermometer from Leiden. One hundred and twenty of them have an average temperature of thirty-four point eight degrees. My books say that at thirty-four point eight a person shivers, goes mad and dies. These hundred and twenty are very healthy. They do not shiver. They do not get ill. They never come to see me, except when they bring someone who has a fever.",
+  "full": "I have measured the temperature of one hundred and sixty inhabitants of {0}, over six years, with a precision thermometer sent from Leiden. One hundred and twenty have an average temperature of thirty-four point eight degrees. According to my books, at thirty-four point eight a man shivers, raves and dies. These hundred and twenty are perfectly well. They do not shiver. They do not fall ill. They never come to me, except to bring someone who has a fever.",
+  "easy": "In six years I have measured the temperature of one hundred and sixty people in {0}, with a very exact thermometer from Leiden. One hundred and twenty of them have an average temperature of thirty-four point eight degrees. My books say that at thirty-four point eight a person shivers, goes mad and dies. These hundred and twenty are very healthy. They do not shiver. They do not get ill. They never come to see me, except when they bring someone who has a fever.",
   "short": "In six years I have measured one hundred and sixty villagers. One hundred and twenty average thirty-four point eight degrees, a temperature that kills. They are perfectly well, and never ill."
  },
  "G2Cronaca.4": {
@@ -2322,17 +2322,17 @@
   "full": "**The council's offer**"
  },
  "G2Consiglio.2": {
-  "full": "**Letter from the Brunveen town council to the family of the estate – *1904.***"
+  "full": "**Letter from the {0} town council to the family of the estate – *1904.***"
  },
  "G2Consiglio.3": {
-  "full": "The council, unanimously, has the pleasure of conferring on the family of the estate the honorary citizenship of Brunveen, with an annual pension and a reserved seat in the front row at all ceremonies, in recognition of forty years of service to science and to the village.",
-  "easy": "The whole council has voted, and is happy to make the family of the estate honorary citizens of Brunveen. The family will get money every year and a seat in the front row at all ceremonies. This is to thank them for forty years of service to science and to the village.",
-  "short": "The council unanimously makes the family of the estate honorary citizens of Brunveen, with a yearly pension and front-row seats, for forty years of service."
+  "full": "The council, unanimously, has the pleasure of conferring on the family of the estate the honorary citizenship of {0}, with an annual pension and a reserved seat in the front row at all ceremonies, in recognition of forty years of service to science and to the village.",
+  "easy": "The whole council has voted, and is happy to make the family of the estate honorary citizens of {0}. The family will get money every year and a seat in the front row at all ceremonies. This is to thank them for forty years of service to science and to the village.",
+  "short": "The council unanimously makes the family of the estate honorary citizens of {0}, with a yearly pension and front-row seats, for forty years of service."
  },
  "G2Consiglio.4": {
-  "full": "The council trusts that the family will, in return, give up any activity that might disturb the peace of the citizens: night watches, digging in the bog, unrequested measurements. Peace, in Brunveen, is a common good.",
-  "easy": "In return, the council hopes that the family will stop doing anything that could disturb the peace of the people: night watches, digging in the bog, measurements that nobody asked for. In Brunveen, peace belongs to everyone.",
-  "short": "In return, the council trusts the family will give up night watches, digging and unrequested measurements. In Brunveen, peace is a common good."
+  "full": "The council trusts that the family will, in return, give up any activity that might disturb the peace of the citizens: night watches, digging in the bog, unrequested measurements. Peace, in {0}, is a common good.",
+  "easy": "In return, the council hopes that the family will stop doing anything that could disturb the peace of the people: night watches, digging in the bog, measurements that nobody asked for. In {0}, peace belongs to everyone.",
+  "short": "In return, the council trusts the family will give up night watches, digging and unrequested measurements. In {0}, peace is a common good."
  },
  "G2Consiglio.5": {
   "full": "Signed: the mayor, Aldert Wessel. The clerk, Piet Brink."
@@ -2387,9 +2387,9 @@
   "full": "{icon:Storybook} **The gravedigger's notebook – Cemetery**"
  },
  "G2R3.24": {
-  "full": "Gerrit Tammer digs every night at the place of the light, with a lantern and his father's spade. The council has twice sent a letter of warning, very courteous. In the tidy village of Brunveen, on the edge of the bog, a wound of black peat grows wider every week.",
-  "easy": "Every night Gerrit Tammer digs at the place where the light was, with a lantern and his father's spade. The council has sent him two very polite warning letters. In the tidy village of Brunveen, at the edge of the bog, a wound of black peat gets bigger every week.",
-  "short": "Every night Gerrit Tammer digs at the place of the light. Two polite warnings from the council. At the edge of tidy Brunveen, a wound of black peat widens every week."
+  "full": "Gerrit Tammer digs every night at the place of the light, with a lantern and his father's spade. The council has twice sent a letter of warning, very courteous. In the tidy village of {0}, on the edge of the bog, a wound of black peat grows wider every week.",
+  "easy": "Every night Gerrit Tammer digs at the place where the light was, with a lantern and his father's spade. The council has sent him two very polite warning letters. In the tidy village of {0}, at the edge of the bog, a wound of black peat gets bigger every week.",
+  "short": "Every night Gerrit Tammer digs at the place of the light. Two polite warnings from the council. At the edge of tidy {0}, a wound of black peat widens every week."
  },
  "round.G2R3.end": {
   "full": "The Late Years of the Second Generation have ended."
@@ -2411,7 +2411,7 @@
   "full": "You go down and dig with them."
  },
  "G2Scavo.6": {
-  "full": "You bring food and drink, and keep watch."
+  "full": "You bring food and drink, and keep watch ($1)."
  },
  "G2Scavo.7": {
   "full": "You go down into the pit. The peat gives under the spade like fresh bread. At a certain point the blade touches something soft and smooth that is not peat. Gerrit grips your wrist, white in the face. \"Tomorrow,\" he says. \"In daylight. And with everyone.\"",
@@ -2576,9 +2576,9 @@
   "short": "It is Fokke Tammer, aged about forty. Gerrit kneels in the mud and cannot rise. I know the burns: my mother dressed them. The eighty-eight-year-old Fokke is at his market stall right now."
  },
  "G2Dormienti.6": {
-  "full": "**The originals are not dead. They sleep in the peat, preserved as on the day they were taken. Those who walk about Brunveen are something else.**",
-  "easy": "**The real people are not dead. They are sleeping in the peat, kept just as they were on the day they were taken. The ones who walk around Brunveen are something else.**",
-  "short": "**The originals are not dead: they sleep in the peat. Those who walk Brunveen are something else.**"
+  "full": "**The originals are not dead. They sleep in the peat, preserved as on the day they were taken. Those who walk about {0} are something else.**",
+  "easy": "**The real people are not dead. They are sleeping in the peat, kept just as they were on the day they were taken. The ones who walk around {0} are something else.**",
+  "short": "**The originals are not dead: they sleep in the peat. Those who walk {0} are something else.**"
  },
  "G2Dormienti.7": {
   "full": "I checked my pulse three times while I was writing. It was normal."
@@ -2622,9 +2622,9 @@
   "full": "**The Maas Register – Joost Maas, *1915.***"
  },
  "G2Chiusura.3": {
-  "full": "I write the last page of my part of the Register. The war broke out last year, and even though our country is not in it, half of Europe is burning, and the young people of Brunveen leave as volunteers, for the ambulances, for the factories, for the front. The children of the estate leave. My daughter Wilhelmina leaves; she has just qualified in medicine and says doctors are needed at the front more than here. She is right. I gave her my mother's watch, the broken one: it will bring her luck, or at least tell her what time it was when it stopped working.",
-  "easy": "I am writing the last page of my part of the Register. The war started last year. Our country is not fighting, but half of Europe is on fire, and the young people of Brunveen are leaving as volunteers: for the ambulances, for the factories, for the front. The children of the estate are leaving. My daughter Wilhelmina is leaving too. She has just become a doctor, and she says the front needs doctors more than we do here. She is right. I gave her my mother's watch, the broken one. It will bring her luck, or at least it will tell her the time when it stopped.",
-  "short": "My last page. The war has come; our country is not in it, but Brunveen's young volunteer for the front, the children of the estate among them. My daughter Wilhelmina, a doctor now, goes too. I gave her my mother's broken watch, for luck."
+  "full": "I write the last page of my part of the Register. The war broke out last year, and even though our country is not in it, half of Europe is burning, and the young people of {0} leave as volunteers, for the ambulances, for the factories, for the front. The children of the estate leave. My daughter Wilhelmina leaves; she has just qualified in medicine and says doctors are needed at the front more than here. She is right. I gave her my mother's watch, the broken one: it will bring her luck, or at least tell her what time it was when it stopped working.",
+  "easy": "I am writing the last page of my part of the Register. The war started last year. Our country is not fighting, but half of Europe is on fire, and the young people of {0} are leaving as volunteers: for the ambulances, for the factories, for the front. The children of the estate are leaving. My daughter Wilhelmina is leaving too. She has just become a doctor, and she says the front needs doctors more than we do here. She is right. I gave her my mother's watch, the broken one. It will bring her luck, or at least it will tell her the time when it stopped.",
+  "short": "My last page. The war has come; our country is not in it, but {0}'s young volunteer for the front, the children of the estate among them. My daughter Wilhelmina, a doctor now, goes too. I gave her my mother's broken watch, for luck."
  },
  "G2Chiusura.4": {
   "full": "Those leaving all drank the water from the fountain, on the morning of departure, as the village's new custom has it: \"so as to come back\". Not Wil. Wil drank beer.",
@@ -2655,9 +2655,9 @@
   "full": "**The mayor's jubilee**"
  },
  "G2Wessel.2": {
-  "full": "At the Town Hall they are celebrating Aldert Wessel's forty years as mayor of Brunveen. Garlands, a new portrait in oils, a children's choir in a row. The mayor is eighty and walks as straight as a soldier. The committee asks someone from the estate, \"the oldest family in the village\", to say a few words of tribute from the platform. The sheet with the speech is already prepared: the clerk, Piet Brink, wrote it.",
-  "easy": "At the Town Hall there is a party for Aldert Wessel's forty years as mayor of Brunveen. There are flowers, a new oil painting of him, and a choir of children in a line. The mayor is eighty and walks as straight as a soldier. The committee asks someone from the estate, \"the oldest family in the village\", to say a few kind words from the stage. The speech is already written on a sheet of paper. The clerk, Piet Brink, wrote it.",
-  "short": "Brunveen celebrates forty years of Mayor Wessel, eighty and straight as a soldier. Someone from the estate, \"the oldest family\", is asked to speak. The clerk, Piet Brink, has already written the speech."
+  "full": "At the Town Hall they are celebrating Aldert Wessel's forty years as mayor of {0}. Garlands, a new portrait in oils, a children's choir in a row. The mayor is eighty and walks as straight as a soldier. The committee asks someone from the estate, \"the oldest family in the village\", to say a few words of tribute from the platform. The sheet with the speech is already prepared: the clerk, Piet Brink, wrote it.",
+  "easy": "At the Town Hall there is a party for Aldert Wessel's forty years as mayor of {0}. There are flowers, a new oil painting of him, and a choir of children in a line. The mayor is eighty and walks as straight as a soldier. The committee asks someone from the estate, \"the oldest family in the village\", to say a few kind words from the stage. The speech is already written on a sheet of paper. The clerk, Piet Brink, wrote it.",
+  "short": "{0} celebrates forty years of Mayor Wessel, eighty and straight as a soldier. Someone from the estate, \"the oldest family\", is asked to speak. The clerk, Piet Brink, has already written the speech."
  },
  "G2Wessel.3": {
   "full": "At the table of honour, beside the cake, there is a place laid and empty, with a card: *Mrs Wessel*. The mayor explains that his wife is still at her sister's, in the city, and has written to apologise. The letter is on the plate. The handwriting is the mayor's.",
@@ -2682,8 +2682,8 @@
   "full": "Gain $2 and 1VP."
  },
  "G2Wessel.10": {
-  "full": "You put the sheet aside and speak of Mrs Wessel: of her cackling laugh, her dreadful hats, the quarrels with her husband that could be heard as far as the square. You tell them what Brunveen was like when people quarrelled. The hall listens to you in perfect silence. The mayor smiles the whole time. When you have finished, an old woman at the back of the hall is crying. She is the only one.",
-  "easy": "You put the paper away and talk about Mrs Wessel: her laugh like a hen's, her terrible hats, and her fights with her husband, which people could hear from the square. You tell them what Brunveen was like when people argued. The hall listens to you in perfect silence. The mayor smiles the whole time. When you finish, an old woman at the back of the hall is crying. She is the only one.",
+  "full": "You put the sheet aside and speak of Mrs Wessel: of her cackling laugh, her dreadful hats, the quarrels with her husband that could be heard as far as the square. You tell them what {0} was like when people quarrelled. The hall listens to you in perfect silence. The mayor smiles the whole time. When you have finished, an old woman at the back of the hall is crying. She is the only one.",
+  "easy": "You put the paper away and talk about Mrs Wessel: her laugh like a hen's, her terrible hats, and her fights with her husband, which people could hear from the square. You tell them what {0} was like when people argued. The hall listens to you in perfect silence. The mayor smiles the whole time. When you finish, an old woman at the back of the hall is crying. She is the only one.",
   "short": "You speak instead of Mrs Wessel: her cackle, her awful hats, the rows heard across the square. The hall listens in perfect silence; the mayor smiles throughout. At the back, one old woman cries. Only one."
  },
  "G2Wessel.12": {
@@ -2758,8 +2758,8 @@
   "short": "{0}'s Watch still goes out twice a week. I bring tea. We are few, but we all sing beautifully out of tune."
  },
  "G2Trijntje.7": {
-  "full": "Gerrit Tammer, the peat-cutter's son, is still digging, at the Park, at the place of the light. He says he is close. To what, he does not say. Please, Willem, do not come back to Brunveen. Stay where it is hot, where people sweat and complain and die of fever. Here nobody dies any more, and I am afraid that I will not manage to die either. Your Trijntje.",
-  "easy": "Gerrit Tammer, the peat-cutter's son, is still digging at the Park, at the place where the light was. He says he is close. Close to what, he does not say. Please, Willem, do not come back to Brunveen. Stay where it is hot, where people sweat and complain and die of fever. Here nobody dies any more, and I am afraid that I will not be able to die either. Your Trijntje.",
+  "full": "Gerrit Tammer, the peat-cutter's son, is still digging, at the Park, at the place of the light. He says he is close. To what, he does not say. Please, Willem, do not come back to {0}. Stay where it is hot, where people sweat and complain and die of fever. Here nobody dies any more, and I am afraid that I will not manage to die either. Your Trijntje.",
+  "easy": "Gerrit Tammer, the peat-cutter's son, is still digging at the Park, at the place where the light was. He says he is close. Close to what, he does not say. Please, Willem, do not come back to {0}. Stay where it is hot, where people sweat and complain and die of fever. Here nobody dies any more, and I am afraid that I will not be able to die either. Your Trijntje.",
   "short": "Gerrit Tammer still digs at the place of the light. He says he is close. Willem, do not come back. Stay where people sweat and complain and die of fever. Here nobody dies, and I fear I will not manage to either. Trijntje."
  },
  "G2SognoA.2": {
@@ -2803,9 +2803,9 @@
   "full": "Gain 1 Occult Knowledge and 1 {icon:Insanity_Icon}."
  },
  "G2SognoA.12": {
-  "full": "You wake with a start, in your bed, your heart pounding. You touch your hands: they are warm. You do not get back to sleep until dawn, and you listen to the silence of Brunveen, which is deeper than you remembered.",
-  "easy": "You wake up suddenly in your bed, with your heart beating hard. You touch your hands: they are warm. You cannot sleep again until dawn. You listen to the silence of Brunveen. It is deeper than you remember.",
-  "short": "You wake with a start. Your hands are warm. Until dawn you lie listening to Brunveen's silence, deeper than you remembered."
+  "full": "You wake with a start, in your bed, your heart pounding. You touch your hands: they are warm. You do not get back to sleep until dawn, and you listen to the silence of {0}, which is deeper than you remembered.",
+  "easy": "You wake up suddenly in your bed, with your heart beating hard. You touch your hands: they are warm. You cannot sleep again until dawn. You listen to the silence of {0}. It is deeper than you remember.",
+  "short": "You wake with a start. Your hands are warm. Until dawn you lie listening to {0}'s silence, deeper than you remembered."
  },
  "G2SognoFine.1": {
   "full": "**At breakfast**"
@@ -2819,8 +2819,8 @@
   "full": "**The ice on the pond**"
  },
  "G2Ghiaccio.2": {
-  "full": "At the Park, in winter, the pond freezes, and the children of Brunveen skate on it, all together, in a circle, never colliding. All except one: the youngest in Miss Borg's class, eight years old, who skates badly, falls, laughs, cries, and gets up again. Today he fell where the ice is thin, near the canal that leads to the bog, and the ice broke open. The other children stopped on the bank, in a row, and are watching. Nobody shouts. The boy clings to the edge, and the dark water reaches his chin.",
-  "easy": "In winter the pond in the Park freezes, and the children of Brunveen skate on it, all together, in a circle. They never bump into each other. All except one: the youngest child in Miss Borg's class. He is eight, and he skates badly. He falls, laughs, cries and gets up again. Today he fell where the ice is thin, near the canal to the bog, and the ice broke. The other children stopped on the bank, in a line, and they are watching. Nobody shouts. The boy holds on to the edge, and the dark water is up to his chin.",
+  "full": "At the Park, in winter, the pond freezes, and the children of {0} skate on it, all together, in a circle, never colliding. All except one: the youngest in Miss Borg's class, eight years old, who skates badly, falls, laughs, cries, and gets up again. Today he fell where the ice is thin, near the canal that leads to the bog, and the ice broke open. The other children stopped on the bank, in a row, and are watching. Nobody shouts. The boy clings to the edge, and the dark water reaches his chin.",
+  "easy": "In winter the pond in the Park freezes, and the children of {0} skate on it, all together, in a circle. They never bump into each other. All except one: the youngest child in Miss Borg's class. He is eight, and he skates badly. He falls, laughs, cries and gets up again. Today he fell where the ice is thin, near the canal to the bog, and the ice broke. The other children stopped on the bank, in a line, and they are watching. Nobody shouts. The boy holds on to the edge, and the dark water is up to his chin.",
   "short": "The children skate in a perfect circle, except the youngest in Miss Borg's class, who falls, laughs and cries. Today the thin ice by the canal broke under him. The others watch from the bank in a row. Nobody shouts. The dark water is at his chin."
  },
  "G2Ghiaccio.3": {
@@ -2886,18 +2886,18 @@
   "full": "**The Maas Register – Dr Wil Maas, *July 1919.***"
  },
  "VSG3Intro.3": {
-  "full": "I came back to Brunveen in June, after four years in the field hospitals of Flanders, with a suitcase, a medal I did not ask for and grandmother Hester's broken watch in my pocket. My father Joost died last winter, of influenza, with a fever of thirty-nine: they wrote it to me in the telegram, and I was glad of it. He left me his surgery and this Register.",
-  "easy": "I came back to Brunveen in June, after four years in the field hospitals of Flanders. I brought a suitcase, a medal I did not ask for, and grandmother Hester's broken watch in my pocket. My father Joost died last winter of influenza, with a fever of thirty-nine degrees. The telegram told me so, and I was glad. He left me his surgery and this Register.",
-  "short": "Back in Brunveen after four years in the field hospitals of Flanders, with grandmother Hester's broken watch. My father died last winter with a fever of thirty-nine: I was glad. He left me this Register."
+  "full": "I came back to the village in June, after four years in the field hospitals of Flanders, with a suitcase, a medal I did not ask for and grandmother Hester's broken watch in my pocket. My father Joost died last winter, of influenza, with a fever of thirty-nine: they wrote it to me in the telegram, and I was glad of it. He left me his surgery and this Register.",
+  "easy": "I came back to the village in June, after four years in the field hospitals of Flanders. I brought a suitcase, a medal I did not ask for, and grandmother Hester's broken watch in my pocket. My father Joost died last winter of influenza, with a fever of thirty-nine degrees. The telegram told me so, and I was glad. He left me his surgery and this Register.",
+  "short": "Back in the village after four years in the field hospitals of Flanders, with grandmother Hester's broken watch. My father died last winter with a fever of thirty-nine: I was glad. He left me this Register."
  },
  "VSG3Intro.4": {
-  "full": "Brunveen has become a small town: electric light, the telephone at the Town Hall, a University with three faculties, two newspapers, a cooperative bank. The streets are clean. The inhabitants are kind, healthy, hard-working. It is the quietest place I have ever been, and I have come from the war.",
-  "easy": "Brunveen is a small town now. It has electric light, a telephone at the Town Hall, a University with three departments, two newspapers and a cooperative bank. The streets are clean. The people are kind, healthy and hard-working. It is the quietest place I have ever been to, and I have just come back from the war.",
-  "short": "Brunveen is a town now: electric light, a University, two newspapers. Clean streets, kind and healthy people. The quietest place I have ever known, and I have come from the war."
+  "full": "The village has become a small town: electric light, the telephone at the Town Hall, a University with three faculties, two newspapers, a cooperative bank. The streets are clean. The inhabitants are kind, healthy, hard-working. It is the quietest place I have ever been, and I have come from the war.",
+  "easy": "The village is a small town now. It has electric light, a telephone at the Town Hall, a University with three departments, two newspapers and a cooperative bank. The streets are clean. The people are kind, healthy and hard-working. It is the quietest place I have ever been to, and I have just come back from the war.",
+  "short": "The village is a town now: electric light, a University, two newspapers. Clean streets, kind and healthy people. The quietest place I have ever known, and I have come from the war."
  },
  "VSG3Intro.5": {
-  "full": "The boys who volunteered have almost all come back. That is what worries me. At the front they died in their millions, and forty left Brunveen and thirty-eight came back, healthy, without a scar, without a nightmare. At the station the band was waiting for them, and at the fountain in the square a glass of dark water for each of them, \"for welcome home\".",
-  "easy": "Almost all the young men who went as volunteers have come back. That is what worries me. At the front millions died. Forty left Brunveen, and thirty-eight came back, healthy, with no scars and no bad dreams. The band was waiting for them at the station, and at the fountain in the square there was a glass of dark water for each of them, \"to say welcome home\".",
+  "full": "The boys who volunteered have almost all come back. That is what worries me. At the front they died in their millions, and forty left the village and thirty-eight came back, healthy, without a scar, without a nightmare. At the station the band was waiting for them, and at the fountain in the square a glass of dark water for each of them, \"for welcome home\".",
+  "easy": "Almost all the young men who went as volunteers have come back. That is what worries me. At the front millions died. Forty left the village, and thirty-eight came back, healthy, with no scars and no bad dreams. The band was waiting for them at the station, and at the fountain in the square there was a glass of dark water for each of them, \"to say welcome home\".",
   "short": "Forty left for the war and thirty-eight came back, without a scar or a nightmare. Millions died out there. At the station, the band; at the fountain, a glass of dark water each, \"for welcome home\"."
  },
  "VSG3Intro.6": {
@@ -2951,9 +2951,9 @@
   "full": "The first player who sends one of their pieces to the Technician"
  },
  "G3R1.28": {
-  "full": "Flags at every window, the band in the square, the returned soldiers in the front row before the Town Hall with their medals pinned to their chests. The dark water is everywhere: in the fountains, in the café carafes, in the glasses for the toast. In Brunveen, by now, they just call it \"the water\".",
-  "easy": "There are flags at every window, the band is in the square, and the soldiers who came back stand in the front row in front of the Town Hall, with medals on their chests. The dark water is everywhere: in the fountains, in the jugs at the cafés, in the glasses for the toast. In Brunveen they now just call it \"the water\".",
-  "short": "Flags, a band, the returned soldiers in the front row with their medals. Dark water everywhere: fountains, carafes, toasting glasses. In Brunveen they just call it \"the water\" now."
+  "full": "Flags at every window, the band in the square, the returned soldiers in the front row before the Town Hall with their medals pinned to their chests. The dark water is everywhere: in the fountains, in the café carafes, in the glasses for the toast. In {0}, by now, they just call it \"the water\".",
+  "easy": "There are flags at every window, the band is in the square, and the soldiers who came back stand in the front row in front of the Town Hall, with medals on their chests. The dark water is everywhere: in the fountains, in the jugs at the cafés, in the glasses for the toast. In {0} they now just call it \"the water\".",
+  "short": "Flags, a band, the returned soldiers in the front row with their medals. Dark water everywhere: fountains, carafes, toasting glasses. In {0} they just call it \"the water\" now."
  },
  "G3R1.29": {
   "full": "The family of the estate sits in the front row, in the place of honour the council gave it years ago, with the silver medal pinned to their chests. Behind, three hundred people are looking at the backs of your heads.",
@@ -3041,9 +3041,9 @@
   "short": "You give your word. His handshake is cold, but sincere. \"I knew I could trust you. You are people from here.\""
  },
  "G3Bram.13": {
-  "full": "The mayor is not offended. Nobody is ever offended in Brunveen. He puts the contract back in the drawer, carefully, and sees you to the door. \"The council has time,\" he says. \"Much more than you.\"",
-  "easy": "The mayor is not offended. In Brunveen nobody is ever offended. He carefully puts the contract back in the drawer and walks with you to the door. \"The council has time,\" he says. \"Much more time than you.\"",
-  "short": "The mayor is not offended; nobody in Brunveen ever is. He puts the contract away. \"The council has time. Much more than you.\""
+  "full": "The mayor is not offended. Nobody is ever offended in {0}. He puts the contract back in the drawer, carefully, and sees you to the door. \"The council has time,\" he says. \"Much more than you.\"",
+  "easy": "The mayor is not offended. In {0} nobody is ever offended. He carefully puts the contract back in the drawer and walks with you to the door. \"The council has time,\" he says. \"Much more time than you.\"",
+  "short": "The mayor is not offended; nobody in {0} ever is. He puts the contract away. \"The council has time. Much more than you.\""
  },
  "G3Lavori.1": {
   "full": "**The parts of the Machine**"
@@ -3127,8 +3127,8 @@
   "full": "**The names on the memorial**"
  },
  "G3Monumento.2": {
-  "full": "At the cemetery on the dyke they are putting up the war memorial: a granite obelisk with an angel on top. There are two names carved on it: the two Brunveen boys who did not come back. But the stonemason has a problem, and he shows it to you: in March the council sent him a list of five names. Then, in June, a new list, with only two names. The other three have come back, says the council. The stonemason saw them at the party. He has also seen the ministry telegrams that reported them dead.",
-  "easy": "At the cemetery on the dyke they are building the war memorial: a tall granite stone with an angel on top. Two names are carved on it: the two Brunveen boys who did not come back. But the stonemason has a problem, and he shows you. In March the council sent him a list of five names. Then, in June, it sent a new list with only two names. The council says the other three have come back. The stonemason saw them at the party. But he has also seen the telegrams from the ministry that said they were dead.",
+  "full": "At the cemetery on the dyke they are putting up the war memorial: a granite obelisk with an angel on top. There are two names carved on it: the two {0} boys who did not come back. But the stonemason has a problem, and he shows it to you: in March the council sent him a list of five names. Then, in June, a new list, with only two names. The other three have come back, says the council. The stonemason saw them at the party. He has also seen the ministry telegrams that reported them dead.",
+  "easy": "At the cemetery on the dyke they are building the war memorial: a tall granite stone with an angel on top. Two names are carved on it: the two {0} boys who did not come back. But the stonemason has a problem, and he shows you. In March the council sent him a list of five names. Then, in June, it sent a new list with only two names. The council says the other three have come back. The stonemason saw them at the party. But he has also seen the telegrams from the ministry that said they were dead.",
   "short": "The war memorial bears two names. But the council's list in March had five. The other three came back, says the council. The stonemason saw them at the party. He has also seen the telegrams reporting them dead."
  },
  "G3Monumento.3": {
@@ -3148,8 +3148,8 @@
   "full": "You tell the stonemason to carve all five names."
  },
  "G3Monumento.8": {
-  "full": "The stonemason gives you the sheet. Three names of Brunveen boys, missing in the mud of Flanders in 1917, and back home in 1919, healthy, without papers, with dry clothes. One of the three is Jan Hoek, Hendrik Tammer's cousin. Hendrik, Fokke's grandson, came back with his papers in order and a wound in his shoulder.",
-  "easy": "The stonemason gives you the paper. It has the names of three Brunveen boys. They went missing in the mud of Flanders in 1917, and they came home in 1919, healthy, without papers, with dry clothes. One of the three is Jan Hoek, Hendrik Tammer's cousin. Hendrik, Fokke's grandson, came back with the right papers and a wound in his shoulder.",
+  "full": "The stonemason gives you the sheet. Three names of {0} boys, missing in the mud of Flanders in 1917, and back home in 1919, healthy, without papers, with dry clothes. One of the three is Jan Hoek, Hendrik Tammer's cousin. Hendrik, Fokke's grandson, came back with his papers in order and a wound in his shoulder.",
+  "easy": "The stonemason gives you the paper. It has the names of three {0} boys. They went missing in the mud of Flanders in 1917, and they came home in 1919, healthy, without papers, with dry clothes. One of the three is Jan Hoek, Hendrik Tammer's cousin. Hendrik, Fokke's grandson, came back with the right papers and a wound in his shoulder.",
   "short": "Three boys missing in Flanders in 1917, home in 1919: healthy, no papers, dry clothes. One is Jan Hoek, Hendrik Tammer's cousin. Hendrik came back with papers in order and a wounded shoulder."
  },
  "G3Monumento.10": {
@@ -3226,9 +3226,9 @@
   "full": "**The Morning**"
  },
  "G3NotteFine.2": {
-  "full": "The morning after the party, Brunveen is quieter than usual. At the market people speak softly, at the café nobody reads the paper aloud, the children go to school in a line without running. At the estate breakfast is served at eight, as always. You all sit down at table together, and look at one another, for a long time, without saying anything. Then someone asks for the salt, and someone passes it.",
-  "easy": "The morning after the party, Brunveen is quieter than usual. At the market people talk softly. At the café nobody reads the newspaper out loud. The children walk to school in a line and do not run. At the estate breakfast is at eight, as always. You all sit down at the table together and look at each other for a long time, without speaking. Then someone asks for the salt, and someone passes it.",
-  "short": "The morning after, Brunveen is quieter than ever. At the estate's breakfast you all look at one another a long time in silence. Then someone asks for the salt, and someone passes it."
+  "full": "The morning after the party, {0} is quieter than usual. At the market people speak softly, at the café nobody reads the paper aloud, the children go to school in a line without running. At the estate breakfast is served at eight, as always. You all sit down at table together, and look at one another, for a long time, without saying anything. Then someone asks for the salt, and someone passes it.",
+  "easy": "The morning after the party, {0} is quieter than usual. At the market people talk softly. At the café nobody reads the newspaper out loud. The children walk to school in a line and do not run. At the estate breakfast is at eight, as always. You all sit down at the table together and look at each other for a long time, without speaking. Then someone asks for the salt, and someone passes it.",
+  "short": "The morning after, {0} is quieter than ever. At the estate's breakfast you all look at one another a long time in silence. Then someone asks for the salt, and someone passes it."
  },
  "G3NotteFine.3": {
   "full": "What do you do, at breakfast? *(Decide together.)*"
@@ -3256,9 +3256,9 @@
   "short": "You join hands round the table like a séance. Some warm, some lukewarm: it is November, the coffee is cold. When you let go, nobody knows anything, and everyone is afraid."
  },
  "G3NotteFine.11": {
-  "full": "You pretend nothing is wrong. You talk about the weather, the party, the mayor's speech. It is a perfect breakfast, courteous, calm, like the ones every family in Brunveen has. At a certain point you all notice it, at the same moment.",
-  "easy": "You act as if nothing has happened. You talk about the weather, the party and the mayor's speech. It is a perfect breakfast, polite and calm, like the breakfasts of every family in Brunveen. At some point you all notice it, at the same moment.",
-  "short": "You talk about the weather and the party: a perfect, calm breakfast, like every family's in Brunveen. You all notice it at the same moment."
+  "full": "You pretend nothing is wrong. You talk about the weather, the party, the mayor's speech. It is a perfect breakfast, courteous, calm, like the ones every family in {0} has. At a certain point you all notice it, at the same moment.",
+  "easy": "You act as if nothing has happened. You talk about the weather, the party and the mayor's speech. It is a perfect breakfast, polite and calm, like the breakfasts of every family in {0}. At some point you all notice it, at the same moment.",
+  "short": "You talk about the weather and the party: a perfect, calm breakfast, like every family's in {0}. You all notice it at the same moment."
  },
  "G3NotteFine.12": {
   "full": "Each player gains $1."
@@ -3375,8 +3375,8 @@
   "full": "**The liberal paper**"
  },
  "G3Giornali.2": {
-  "full": "In the offices of the Morning Liberal, two rooms above a printing works, the editor Siemens, a young man with his sleeves rolled up and ink on his fingers, wants an interview. About the Machine, naturally: the science that is carrying Brunveen into the future. But he also has another idea, and he lowers his voice to say it: an investigation into \"the water\", into the perfect health of the citizens, into the soldiers who came back without a scratch. He lacks someone who will talk.",
-  "easy": "The Morning Liberal has two rooms above a printing shop. The editor, Siemens, is a young man with his sleeves rolled up and ink on his fingers. He wants an interview about the Machine, of course: the science that takes Brunveen into the future. But he has another idea too, and he says it quietly: a story about \"the water\", about the perfect health of the people, about the soldiers who came back without a scratch. He needs someone who will talk.",
+  "full": "In the offices of the Morning Liberal, two rooms above a printing works, the editor Siemens, a young man with his sleeves rolled up and ink on his fingers, wants an interview. About the Machine, naturally: the science that is carrying {0} into the future. But he also has another idea, and he lowers his voice to say it: an investigation into \"the water\", into the perfect health of the citizens, into the soldiers who came back without a scratch. He lacks someone who will talk.",
+  "easy": "The Morning Liberal has two rooms above a printing shop. The editor, Siemens, is a young man with his sleeves rolled up and ink on his fingers. He wants an interview about the Machine, of course: the science that takes {0} into the future. But he has another idea too, and he says it quietly: a story about \"the water\", about the perfect health of the people, about the soldiers who came back without a scratch. He needs someone who will talk.",
   "short": "Siemens, the young editor of the Morning Liberal, wants an interview about the Machine. And, more quietly, an investigation into \"the water\" and the soldiers back without a scratch. He needs someone who will talk."
  },
  "G3Giornali.4": {
@@ -3399,9 +3399,9 @@
   "full": "**The conservative paper**"
  },
  "G3Report.2": {
-  "full": "The Conservative Report has its offices in a brick building with shining windows, and a grey-haired editor, Piet Brink, who left the council to devote himself \"to the news\". He welcomes you with tea and a proposal: a special issue devoted to your family, \"who have given so much to Brunveen\". A portrait of each of you, a biography, a page on the tower. He asks only that you tell the right version: the tower is a tower, the bog is a bog, and Brunveen is a happy village.",
-  "easy": "The Conservative Report is in a brick building with shiny windows. Its editor is Piet Brink, a grey-haired man who left the council to work \"for the news\". He welcomes you with tea and an offer: a special issue about your family, \"who have given so much to Brunveen\". A picture of each of you, the story of your lives, a page about the tower. He only asks you to tell the right story: the tower is just a tower, the bog is just a bog, and Brunveen is a happy village.",
-  "short": "Piet Brink, grey-haired editor of the Conservative Report, offers a special issue on your family. He asks only the right version: the tower is a tower, the bog is a bog, Brunveen is happy."
+  "full": "The Conservative Report has its offices in a brick building with shining windows, and a grey-haired editor, Piet Brink, who left the council to devote himself \"to the news\". He welcomes you with tea and a proposal: a special issue devoted to your family, \"who have given so much to {0}\". A portrait of each of you, a biography, a page on the tower. He asks only that you tell the right version: the tower is a tower, the bog is a bog, and {1} is a happy village.",
+  "easy": "The Conservative Report is in a brick building with shiny windows. Its editor is Piet Brink, a grey-haired man who left the council to work \"for the news\". He welcomes you with tea and an offer: a special issue about your family, \"who have given so much to {0}\". A picture of each of you, the story of your lives, a page about the tower. He only asks you to tell the right story: the tower is just a tower, the bog is just a bog, and {1} is a happy village.",
+  "short": "Piet Brink, grey-haired editor of the Conservative Report, offers a special issue on your family. He asks only the right version: the tower is a tower, the bog is a bog, {0} is happy."
  },
  "G3Report.4": {
   "full": "You accept the special issue."
@@ -3463,9 +3463,9 @@
   "full": "**The soldier who does not sleep**"
  },
  "G3Hendrik.2": {
-  "full": "At the Laborer's Union, where returned soldiers are hired for the work on the dyke, there is Hendrik Tammer, Fokke's grandson, Gerrit's son. He is thirty, with a wounded shoulder and the eyes of someone who has not slept for months. He is the only returned soldier who did not drink at the fountain. He does not sleep, he says, because he is afraid of falling asleep near the water. In the trenches he slept in the mud. In Brunveen he cannot any more.",
-  "easy": "At the Laborer's Union, where soldiers back from the war are hired to work on the dyke, there is Hendrik Tammer, Fokke's grandson and Gerrit's son. He is thirty. He has a wound in his shoulder and the eyes of a man who has not slept for months. He is the only soldier who did not drink at the fountain. He says he does not sleep because he is afraid to fall asleep near the water. In the trenches he slept in the mud. In Brunveen he cannot sleep any more.",
-  "short": "Hendrik Tammer, Gerrit's son, thirty, wounded, sleepless, is the only soldier who did not drink at the fountain. He slept in the mud of the trenches. In Brunveen he is afraid to fall asleep near the water."
+  "full": "At the Laborer's Union, where returned soldiers are hired for the work on the dyke, there is Hendrik Tammer, Fokke's grandson, Gerrit's son. He is thirty, with a wounded shoulder and the eyes of someone who has not slept for months. He is the only returned soldier who did not drink at the fountain. He does not sleep, he says, because he is afraid of falling asleep near the water. In the trenches he slept in the mud. In {0} he cannot any more.",
+  "easy": "At the Laborer's Union, where soldiers back from the war are hired to work on the dyke, there is Hendrik Tammer, Fokke's grandson and Gerrit's son. He is thirty. He has a wound in his shoulder and the eyes of a man who has not slept for months. He is the only soldier who did not drink at the fountain. He says he does not sleep because he is afraid to fall asleep near the water. In the trenches he slept in the mud. In {0} he cannot sleep any more.",
+  "short": "Hendrik Tammer, Gerrit's son, thirty, wounded, sleepless, is the only soldier who did not drink at the fountain. He slept in the mud of the trenches. In {0} he is afraid to fall asleep near the water."
  },
  "G3Hendrik.3": {
   "full": "His grandfather Fokke, the real one, the one woken from the peat, died two years ago, drunk and happy, cursing the neighbours. Hendrik loved him.",
@@ -3513,9 +3513,9 @@
   "short": "Year by year the blank sheets multiply. In the 1918 book there is one drawing: a child drawn twice, side by side, once in colour, once in black. Below: *me and me*."
  },
  "G3Neeltje.8": {
-  "full": "Neeltje laughs, softly. She dreams every night, she says: bad dreams, confused, full of people who are no longer there. She wakes tired, with a headache. She is the happiest person in Brunveen. \"The day I stop dreaming,\" she says, \"come and check my hands.\"",
-  "easy": "Neeltje laughs softly. She says she dreams every night: bad, confused dreams, full of people who are gone. She wakes up tired, with a headache. She is the happiest person in Brunveen. \"The day I stop dreaming,\" she says, \"come and check my hands.\"",
-  "short": "Neeltje laughs. She has bad dreams every night and wakes with a headache: the happiest woman in Brunveen. \"The day I stop dreaming, come and check my hands.\""
+  "full": "Neeltje laughs, softly. She dreams every night, she says: bad dreams, confused, full of people who are no longer there. She wakes tired, with a headache. She is the happiest person in {0}. \"The day I stop dreaming,\" she says, \"come and check my hands.\"",
+  "easy": "Neeltje laughs softly. She says she dreams every night: bad, confused dreams, full of people who are gone. She wakes up tired, with a headache. She is the happiest person in {0}. \"The day I stop dreaming,\" she says, \"come and check my hands.\"",
+  "short": "Neeltje laughs. She has bad dreams every night and wakes with a headache: the happiest woman in {0}. \"The day I stop dreaming, come and check my hands.\""
  },
  "G3Neeltje.9": {
   "full": "Move back 1 space on the {icon:Insanity_Icon} track and gain 1VP."
@@ -3612,9 +3612,9 @@
   "full": "{icon:Storybook} **The last seller – Traveling Caravan**"
  },
  "G3R3.23": {
-  "full": "The council has decreed a curfew, \"as a precaution\", after the death of Fokke Tammer. Nobody goes out after ten. At night, in the streets of Brunveen, only those who have no need of sleep walk about, and there are many of them.",
-  "easy": "After Fokke Tammer's death the council has ordered a curfew, \"to be careful\". Nobody may go out after ten o'clock. At night, in the streets of Brunveen, the only people walking are the ones who do not need to sleep. And there are many of them.",
-  "short": "After Fokke's death the council imposes a curfew. At night only those who need no sleep walk Brunveen's streets. There are many."
+  "full": "The council has decreed a curfew, \"as a precaution\", after the death of Fokke Tammer. Nobody goes out after ten. At night, in the streets of {0}, only those who have no need of sleep walk about, and there are many of them.",
+  "easy": "After Fokke Tammer's death the council has ordered a curfew, \"to be careful\". Nobody may go out after ten o'clock. At night, in the streets of {0}, the only people walking are the ones who do not need to sleep. And there are many of them.",
+  "short": "After Fokke's death the council imposes a curfew. At night only those who need no sleep walk {0}'s streets. There are many."
  },
  "G3R3.24": {
   "full": "After Wil Maas's test, the word went round the village in an hour. Nobody, though, talks about it. At the estate, in the morning, the milkman leaves an extra bottle.",
@@ -3684,9 +3684,9 @@
   "full": "**The last crate of water**"
  },
  "G3Emporio.2": {
-  "full": "At the General Store, out the back, is the warehouse for the bottles of \"Brunveen Water\", the labelled kind, which the village has sold all over the province for thirty years. The owner, a calm man in a white apron, shows you the latest order: a city in the south wants ten thousand bottles. For the soldiers' hospitals, he says. Against nightmares. The council has already approved it. Only the crates are missing, and the estate's carts are the biggest in the village.",
-  "easy": "At the back of the General Store there is the storeroom for the bottles of \"Brunveen Water\", with the label. The village has sold it all over the province for thirty years. The owner, a calm man with a white apron, shows you the latest order. A city in the south wants ten thousand bottles, for the hospitals for soldiers. Against bad dreams, he says. The council has already said yes. They only need transport, and the estate's carts are the biggest in the village.",
-  "short": "A southern city has ordered ten thousand bottles of Brunveen Water, for the soldiers' hospitals, against nightmares. The council has approved. They need only carts, and the estate's are the biggest."
+  "full": "At the General Store, out the back, is the warehouse for the bottles of \"{0} Water\", the labelled kind, which the village has sold all over the province for thirty years. The owner, a calm man in a white apron, shows you the latest order: a city in the south wants ten thousand bottles. For the soldiers' hospitals, he says. Against nightmares. The council has already approved it. Only the crates are missing, and the estate's carts are the biggest in the village.",
+  "easy": "At the back of the General Store there is the storeroom for the bottles of \"{0} Water\", with the label. The village has sold it all over the province for thirty years. The owner, a calm man with a white apron, shows you the latest order. A city in the south wants ten thousand bottles, for the hospitals for soldiers. Against bad dreams, he says. The council has already said yes. They only need transport, and the estate's carts are the biggest in the village.",
+  "short": "A southern city has ordered ten thousand bottles of {0} Water, for the soldiers' hospitals, against nightmares. The council has approved. They need only carts, and the estate's are the biggest."
  },
  "G3Emporio.4": {
   "full": "You lend the carts."
@@ -3788,9 +3788,9 @@
   "full": "**The Last Night**"
  },
  "G3UltimaNotte.2": {
-  "full": "On 31 December 1919, at eleven at night, the family is gathered at the top of the tower, around the brass ring. Outside it is snowing on the bog, but at the place of the light the snow does not settle. Wil Maas has come up with the Register under her arm and grandmother's watch in her pocket. She lays it on the table, open, stopped at a quarter past eleven. From the windows you can see the village, all dark. Nobody in Brunveen is asleep tonight.",
-  "easy": "On 31 December 1919, at eleven at night, the family is together at the top of the tower, around the brass ring. Outside it is snowing on the bog, but at the place where the light was the snow does not stay. Wil Maas has come up with the Register under her arm and her grandmother's watch in her pocket. She puts the watch on the table, open. It has stopped at a quarter past eleven. From the windows you can see the village, completely dark. Nobody in Brunveen is sleeping tonight.",
-  "short": "31 December 1919, eleven at night. The family gathers round the brass ring. Snow falls on the bog, but not on the place of the light. Wil lays Hester's watch on the table, at a quarter past eleven. The village is dark. Nobody in Brunveen sleeps tonight."
+  "full": "On 31 December 1919, at eleven at night, the family is gathered at the top of the tower, around the brass ring. Outside it is snowing on the bog, but at the place of the light the snow does not settle. Wil Maas has come up with the Register under her arm and grandmother's watch in her pocket. She lays it on the table, open, stopped at a quarter past eleven. From the windows you can see the village, all dark. Nobody in {0} is asleep tonight.",
+  "easy": "On 31 December 1919, at eleven at night, the family is together at the top of the tower, around the brass ring. Outside it is snowing on the bog, but at the place where the light was the snow does not stay. Wil Maas has come up with the Register under her arm and her grandmother's watch in her pocket. She puts the watch on the table, open. It has stopped at a quarter past eleven. From the windows you can see the village, completely dark. Nobody in {0} is sleeping tonight.",
+  "short": "31 December 1919, eleven at night. The family gathers round the brass ring. Snow falls on the bog, but not on the place of the light. Wil lays Hester's watch on the table, at a quarter past eleven. The village is dark. Nobody in {0} sleeps tonight."
  },
  "G3UltimaNotte.3": {
   "full": "Turn over your certificates, all together."
@@ -3942,9 +3942,9 @@
   "short": "**A LIGHT ON THE TOWER.** On the armistice's anniversary, at a quarter past eleven at night, many saw a blinding white light flash atop the estate's tower. The family speaks of \"scientific experiments\"."
  },
  "G3Giornale.4": {
-  "full": "One of the heirs added, to our surprise, a statement that we report in full, leaving judgement to our readers: \"Our great-grandfather's machine moves things in time. The stone from the bog comes from the future. Stop drinking that water.\" The editors merely observe that in Brunveen, for fifty years, nobody has fallen ill.",
-  "easy": "To our surprise, one of the heirs added something more. We print it all here, and our readers can judge: \"Our great-grandfather's machine moves things in time. The stone from the bog comes from the future. Stop drinking that water.\" We only point out that in Brunveen nobody has been ill for fifty years.",
-  "short": "One heir added: \"Our great-grandfather's machine moves things in time. The stone comes from the future. Stop drinking that water.\" We note only that nobody in Brunveen has been ill for fifty years."
+  "full": "One of the heirs added, to our surprise, a statement that we report in full, leaving judgement to our readers: \"Our great-grandfather's machine moves things in time. The stone from the bog comes from the future. Stop drinking that water.\" The editors merely observe that in {0}, for fifty years, nobody has fallen ill.",
+  "easy": "To our surprise, one of the heirs added something more. We print it all here, and our readers can judge: \"Our great-grandfather's machine moves things in time. The stone from the bog comes from the future. Stop drinking that water.\" We only point out that in {0} nobody has been ill for fifty years.",
+  "short": "One heir added: \"Our great-grandfather's machine moves things in time. The stone comes from the future. Stop drinking that water.\" We note only that nobody in {0} has been ill for fifty years."
  },
  "G3Giornale.5": {
   "full": "The heirs would add nothing more. Dr Maas, present at the tower, merely said that \"everyone is well\", in a tone that seemed to this writer anything but reassuring.",
@@ -3973,15 +3973,15 @@
   "short": "In it, in a glass of water, lies the chip your family sold to Ostrander: \"dry, it gets too hot\". The attendant, calm, cold-handed, worked at the museum in Ostrander's day. He has hardly aged."
  },
  "G3Mostra.4": {
-  "full": "You buy back the chip."
+  "full": "You buy back the chip ($3)."
  },
  "G3Mostra.5": {
   "full": "You break the case."
  },
  "G3Mostra.6": {
-  "full": "There is nothing in the little box. The label says: *Stone of the light, Brunveen. Not acquired.* Beside it, in a frame, is a page from the diary of Professor Ostrander, dead for years: *I asked the family for a chip and they refused me. Bless them. The city is ill enough already.*",
-  "easy": "The little box is empty. The label says: *Stone of the light, Brunveen. Not acquired.* Next to it, in a frame, there is a page from the diary of Professor Ostrander, who died years ago: *I asked the family for a chip and they said no. Bless them. The city has enough troubles already.*",
-  "short": "The box is empty: *Stone of the light, Brunveen. Not acquired.* Beside it, a page of Ostrander's diary: *The family refused me a chip. Bless them. The city is ill enough already.*"
+  "full": "There is nothing in the little box. The label says: *Stone of the light, {0}. Not acquired.* Beside it, in a frame, is a page from the diary of Professor Ostrander, dead for years: *I asked the family for a chip and they refused me. Bless them. The city is ill enough already.*",
+  "easy": "The little box is empty. The label says: *Stone of the light, {0}. Not acquired.* Next to it, in a frame, there is a page from the diary of Professor Ostrander, who died years ago: *I asked the family for a chip and they said no. Bless them. The city has enough troubles already.*",
+  "short": "The box is empty: *Stone of the light, {0}. Not acquired.* Beside it, a page of Ostrander's diary: *The family refused me a chip. Bless them. The city is ill enough already.*"
  },
  "G3Mostra.7": {
   "full": "You read the whole diary."
@@ -4003,9 +4003,9 @@
   "short": "You smash the case. Out of the water the chip smokes, burns through the floor and vanishes into the earth. The attendant looks at you patiently. \"It will go home. They all go home.\""
  },
  "G3Mostra.13": {
-  "full": "The diary is open at another page, further on, written in a trembling hand: *I brought a phial of Brunveen water to the museum, for analysis. The attendant drank a sip of it, for a bet. The attendant is cured. The attendant's wife is cured. We never analysed it: we finished it, and ordered more. I have sold my beer and drink water. I have never been so serene. The only thing that frightens me is the thought that soon it will no longer frighten me.*",
-  "easy": "The diary is open at another page, later on, written by a shaking hand: *I brought a little bottle of Brunveen water to the museum, to study it. The attendant drank a sip, for a bet. The attendant got better. The attendant's wife got better. We never studied it: we drank it all and ordered more. I have sold my beer and I drink water. I have never felt so calm. The only thing that frightens me is the idea that soon it will not frighten me any more.*",
-  "short": "A later page, in a shaking hand: *I brought Brunveen water to the museum. The attendant drank some for a bet, and was cured. We never analysed it: we drank it and ordered more. I have never been so serene. I fear only that soon I will not fear it.*"
+  "full": "The diary is open at another page, further on, written in a trembling hand: *I brought a phial of {0} water to the museum, for analysis. The attendant drank a sip of it, for a bet. The attendant is cured. The attendant's wife is cured. We never analysed it: we finished it, and ordered more. I have sold my beer and drink water. I have never been so serene. The only thing that frightens me is the thought that soon it will no longer frighten me.*",
+  "easy": "The diary is open at another page, later on, written by a shaking hand: *I brought a little bottle of {0} water to the museum, to study it. The attendant drank a sip, for a bet. The attendant got better. The attendant's wife got better. We never studied it: we drank it all and ordered more. I have sold my beer and I drink water. I have never felt so calm. The only thing that frightens me is the idea that soon it will not frighten me any more.*",
+  "short": "A later page, in a shaking hand: *I brought {0} water to the museum. The attendant drank some for a bet, and was cured. We never analysed it: we drank it and ordered more. I have never been so serene. I fear only that soon I will not fear it.*"
  },
  "G3Mostra.15": {
   "full": "You leave the pavilion. Outside, the fair is full of people laughing. You notice, counting them, that they all laugh at the same moment.",
@@ -4031,7 +4031,7 @@
   "short": "He knows your family. \"Mayor Wessel told me who reported me. I was grateful. At the inn I left behind everything I no longer needed.\""
  },
  "G3Carovana.6": {
-  "full": "You buy the last phial."
+  "full": "You buy the last phial ($1)."
  },
  "G3Carovana.7": {
   "full": "You ask him where he really comes from."
@@ -4101,16 +4101,16 @@
   "short": "Before the ring the pastor recites a long, sweet prayer you do not know. The holy water sizzles on the black glass like a stove. He smiles, satisfied, and leaves."
  },
  "G3Pastore.8": {
-  "full": "The pastor laughs: from the seminary in the city, of course. But when you ask him the name of the seminary he hesitates, for an instant only, and then says it. Trijntje, who has been listening behind the door, takes you aside: she wrote to that seminary. They replied that the pastor drowned, two years ago, skating on a bog near Brunveen.",
-  "easy": "The pastor laughs: from the seminary in the city, of course. But when you ask the name of the seminary, he stops for just a moment before he says it. Trijntje was listening behind the door, and she takes you to one side. She wrote to that seminary. They answered that the pastor drowned two years ago, while he was skating on a bog near Brunveen.",
-  "short": "From the city seminary, he laughs, after the briefest pause over its name. Trijntje takes you aside: she wrote to them. The pastor drowned two years ago, skating on a bog near Brunveen."
+  "full": "The pastor laughs: from the seminary in the city, of course. But when you ask him the name of the seminary he hesitates, for an instant only, and then says it. Trijntje, who has been listening behind the door, takes you aside: she wrote to that seminary. They replied that the pastor drowned, two years ago, skating on a bog near {0}.",
+  "easy": "The pastor laughs: from the seminary in the city, of course. But when you ask the name of the seminary, he stops for just a moment before he says it. Trijntje was listening behind the door, and she takes you to one side. She wrote to that seminary. They answered that the pastor drowned two years ago, while he was skating on a bog near {0}.",
+  "short": "From the city seminary, he laughs, after the briefest pause over its name. Trijntje takes you aside: she wrote to them. The pastor drowned two years ago, skating on a bog near {0}."
  },
  "Epilogo.1": {
   "full": "**What Became of the Others.**"
  },
  "Epilogo.2": {
-  "full": "Trijntje Kalf played the organ of the Brunveen church until she was eighty-five, every Sunday, and every Sunday she played one wrong note, just one, loudly, halfway through the hymn. When she died, at the funeral, the new organist played everything perfectly. At the back of the church, someone stood up and left.",
-  "easy": "Trijntje Kalf played the organ in the Brunveen church every Sunday until she was eighty-five. Every Sunday, in the middle of the hymn, she played one wrong note, only one, loudly. When she died, the new organist played everything perfectly at her funeral. At the back of the church, someone stood up and walked out.",
+  "full": "Trijntje Kalf played the organ of the {0} church until she was eighty-five, every Sunday, and every Sunday she played one wrong note, just one, loudly, halfway through the hymn. When she died, at the funeral, the new organist played everything perfectly. At the back of the church, someone stood up and left.",
+  "easy": "Trijntje Kalf played the organ in the {0} church every Sunday until she was eighty-five. Every Sunday, in the middle of the hymn, she played one wrong note, only one, loudly. When she died, the new organist played everything perfectly at her funeral. At the back of the church, someone stood up and walked out.",
   "short": "Trijntje Kalf played one loud wrong note every Sunday until she was eighty-five. At her funeral the new organist played perfectly. At the back, someone stood up and left."
  },
  "Epilogo.3": {
@@ -4235,8 +4235,8 @@
   "short": "Peat burns unforgettably: no flames, only smoke and a sweet smell, while it eats the earth from below. It cannot be stopped. The city firemen came, looked, and left."
  },
  "FinaleFuoco.5": {
-  "full": "The Brunveen bog burned underground for seven years. With everything that was in it.",
-  "easy": "The Brunveen bog burned under the ground for seven years. With everything that was inside it.",
+  "full": "The {0} bog burned underground for seven years. With everything that was in it.",
+  "easy": "The {0} bog burned under the ground for seven years. With everything that was inside it.",
   "short": "The bog burned underground for seven years. With everything in it."
  },
  "FinaleFuoco.6": {
@@ -4271,8 +4271,8 @@
   "short": "No vote was needed. At dawn the whole village stood silent under the estate's windows, hands in pockets. They wanted nothing. Only for us to know."
  },
  "FinaleQuieto.4": {
-  "full": "I have redone the sums of the Register. In Brunveen there are few of us left: the family of the estate, Trijntje Kalf, Miss Borg, Hendrik Tammer, me, and a handful of stubborn old folk who drink only gin. The others, all the others, are them. The mayor, the councillors, the teachers, the schoolchildren, the soldiers from the memorial. The village is theirs, and has been for longer than we want to admit. We are the last.",
-  "easy": "I have done the sums of the Register again. There are only a few of us left in Brunveen: the family of the estate, Trijntje Kalf, Miss Borg, Hendrik Tammer, me, and a few stubborn old people who only drink gin. All the others are them. The mayor, the councillors, the teachers, the schoolchildren, the soldiers from the memorial. The village belongs to them, and it has for longer than we want to say. We are the last ones.",
+  "full": "I have redone the sums of the Register. In {0} there are few of us left: the family of the estate, Trijntje Kalf, Miss Borg, Hendrik Tammer, me, and a handful of stubborn old folk who drink only gin. The others, all the others, are them. The mayor, the councillors, the teachers, the schoolchildren, the soldiers from the memorial. The village is theirs, and has been for longer than we want to admit. We are the last.",
+  "easy": "I have done the sums of the Register again. There are only a few of us left in {0}: the family of the estate, Trijntje Kalf, Miss Borg, Hendrik Tammer, me, and a few stubborn old people who only drink gin. All the others are them. The mayor, the councillors, the teachers, the schoolchildren, the soldiers from the memorial. The village belongs to them, and it has for longer than we want to say. We are the last ones.",
   "short": "I have redone the sums. We are few: the estate, Trijntje, Miss Borg, Hendrik, me, and a few old gin-drinkers. Everyone else is them, and has been for longer than we admit. We are the last."
  },
  "FinaleQuieto.5": {
@@ -4355,8 +4355,8 @@
   "short": "And in {0}'s room, on the pillow, peat in the shape of a sleeping head."
  },
  "FinaleSpezzata.6": {
-  "full": "Brunveen is a village of old people, small children and empty houses. I have counted the living: one hundred and twenty. There were nine hundred. The council no longer exists, the school is closed, the bank too. At the market, once again, they quarrel over the price of herring. At the inn they sing out of tune. Last night there was a brawl. I patched up two broken noses and laughed the whole time.",
-  "easy": "Brunveen is a village of old people, small children and empty houses. I have counted the living: one hundred and twenty. Before there were nine hundred. There is no council now. The school is closed, and so is the bank. At the market people argue again about the price of herring. At the inn they sing out of tune. Last night there was a fight. I fixed two broken noses, and I laughed the whole time.",
+  "full": "{0} is a village of old people, small children and empty houses. I have counted the living: one hundred and twenty. There were nine hundred. The council no longer exists, the school is closed, the bank too. At the market, once again, they quarrel over the price of herring. At the inn they sing out of tune. Last night there was a brawl. I patched up two broken noses and laughed the whole time.",
+  "easy": "{0} is a village of old people, small children and empty houses. I have counted the living: one hundred and twenty. Before there were nine hundred. There is no council now. The school is closed, and so is the bank. At the market people argue again about the price of herring. At the inn they sing out of tune. Last night there was a fight. I fixed two broken noses, and I laughed the whole time.",
   "short": "One hundred and twenty living, out of nine hundred. No council, no school, no bank. At the market they quarrel over herring again; at the inn they sing out of tune. Last night I set two broken noses, laughing all the while."
  },
  "FinaleSpezzata.7": {
@@ -4396,9 +4396,9 @@
   "short": "First came Fokke Tammer, young as in 1865, his palms burnt. Gerrit watched over him for three days."
  },
  "FinaleRisveglio.6": {
-  "full": "Now Brunveen has two of everyone. Two Jan Hoeks, two Piet Brinks, two miller's wives, who do not look at each other and do not speak. The awakened are tired, confused, angry, frightened; they do not know what year it is, do not recognise the streets, weep for children who grew up without them. The Neighbours help them in everything, with infinite patience, the way one helps a sick relative. Nobody can tell any more who is whose family.",
-  "easy": "Now Brunveen has two of everyone. Two Jan Hoeks, two Piet Brinks, two miller's wives, who do not look at each other and do not talk. The people who woke up are tired, confused, angry and frightened. They do not know what year it is, they do not recognise the streets, and they cry for the children who grew up without them. The Neighbours help them with everything, with endless patience, like you help a sick relative. Nobody knows any more whose family is whose.",
-  "short": "Now Brunveen has two of everyone, who never look at each other. The awakened are lost, angry, weeping for children grown without them. The Neighbours help them with infinite patience. Nobody can tell whose family is whose."
+  "full": "Now {0} has two of everyone. Two Jan Hoeks, two Piet Brinks, two miller's wives, who do not look at each other and do not speak. The awakened are tired, confused, angry, frightened; they do not know what year it is, do not recognise the streets, weep for children who grew up without them. The Neighbours help them in everything, with infinite patience, the way one helps a sick relative. Nobody can tell any more who is whose family.",
+  "easy": "Now {0} has two of everyone. Two Jan Hoeks, two Piet Brinks, two miller's wives, who do not look at each other and do not talk. The people who woke up are tired, confused, angry and frightened. They do not know what year it is, they do not recognise the streets, and they cry for the children who grew up without them. The Neighbours help them with everything, with endless patience, like you help a sick relative. Nobody knows any more whose family is whose.",
+  "short": "Now {0} has two of everyone, who never look at each other. The awakened are lost, angry, weeping for children grown without them. The Neighbours help them with infinite patience. Nobody can tell whose family is whose."
  },
  "FinaleRisveglio.7": {
   "full": "Nobody knows what will happen. I know only that last night, at the inn, a man just woken punched his double, and the double, instead of defending himself, embraced him. They stayed like that, embracing, for a long time, one warm and one cold. Then they ordered two gins.",
@@ -4429,9 +4429,9 @@
   "short": "I opened the Register at Hester's first page: *11 November 1865, a quarter past eleven. A white light on the tower; at the same instant, another in the bog.* I looked at the bog. Nothing. Of course: that light came on fifty-four years ago."
  },
  "FinaleCerchio.5": {
-  "full": "Great-grandfather thought that something had come through from the other side, and that it had to go back where it came from. He was wrong only about the direction. The stone did not come from another world, and he did not fetch it. We sent it. Tonight, wanting to free the village from the stone, we sent it to where it all began. Brunveen became what it is because we, fifty-four years later, would send it back. The stone exists in the past because it existed in the future, and in the future because it existed in the past. It comes from nowhere. It goes round in a circle. And we are the point where the circle closes.",
-  "easy": "The great-grandfather thought that something came through from the other side and had to go back where it came from. He was wrong only about the direction. The stone did not come from another world, and he did not bring it here. We sent it. Tonight, trying to free the village from the stone, we sent it to the place where everything began. Brunveen became what it is because we, fifty-four years later, would send the stone back. The stone is in the past because it was in the future, and it is in the future because it was in the past. It does not come from anywhere. It goes round and round in a circle. And we are the point where the circle closes.",
-  "short": "Great-grandfather was wrong only about the direction. Nobody fetched the stone: we sent it. Trying to free Brunveen, we sent it to where it all began. It exists in the past because it existed in the future, and the other way round. It comes from nowhere. It goes in a circle, and we are where the circle closes."
+  "full": "Great-grandfather thought that something had come through from the other side, and that it had to go back where it came from. He was wrong only about the direction. The stone did not come from another world, and he did not fetch it. We sent it. Tonight, wanting to free the village from the stone, we sent it to where it all began. {0} became what it is because we, fifty-four years later, would send it back. The stone exists in the past because it existed in the future, and in the future because it existed in the past. It comes from nowhere. It goes round in a circle. And we are the point where the circle closes.",
+  "easy": "The great-grandfather thought that something came through from the other side and had to go back where it came from. He was wrong only about the direction. The stone did not come from another world, and he did not bring it here. We sent it. Tonight, trying to free the village from the stone, we sent it to the place where everything began. {0} became what it is because we, fifty-four years later, would send the stone back. The stone is in the past because it was in the future, and it is in the future because it was in the past. It does not come from anywhere. It goes round and round in a circle. And we are the point where the circle closes.",
+  "short": "Great-grandfather was wrong only about the direction. Nobody fetched the stone: we sent it. Trying to free {0}, we sent it to where it all began. It exists in the past because it existed in the future, and the other way round. It comes from nowhere. It goes in a circle, and we are where the circle closes."
  },
  "FinaleCerchio.6": {
   "full": "No more Neighbours will be born. Those who are here will remain, as long as the peat holds: ten years, twenty, fifty. They will crumble one at a time, slowly, like Fokke. The village will have time to say goodbye to them. This morning, at the market, one of them asked me how I was, and for the first time, in its voice, there was something that resembled fear.",
@@ -4467,8 +4467,8 @@
   "short": "The Neighbours crumble no more. The oldest healed within a week. They came with flowers to thank us, and said they will never forget. I believe them: they never forget anything."
  },
  "FinaleSemina.5": {
-  "full": "And the bog begins again. The fountain in the square gives dark water again, fresh, good. The babies born this year drink it from the bottle. The council already has a plan for an aqueduct, to carry Brunveen Water all over the province, and then all over the kingdom, and then who knows.",
-  "easy": "And the bog starts again. The fountain in the square gives dark water again, fresh and good. The babies born this year drink it from their bottles. The council already has a plan for a long water pipe, to take Brunveen Water to the whole province, then to the whole kingdom, and then who knows where.",
+  "full": "And the bog begins again. The fountain in the square gives dark water again, fresh, good. The babies born this year drink it from the bottle. The council already has a plan for an aqueduct, to carry {0} Water all over the province, and then all over the kingdom, and then who knows.",
+  "easy": "And the bog starts again. The fountain in the square gives dark water again, fresh and good. The babies born this year drink it from their bottles. The council already has a plan for a long water pipe, to take {0} Water to the whole province, then to the whole kingdom, and then who knows where.",
   "short": "The bog begins again. Dark water flows from the fountain; this year's babies drink it from the bottle. The council plans an aqueduct: the province, the kingdom, and then who knows."
  },
  "FinaleSemina.6": {
@@ -4477,9 +4477,9 @@
   "short": "I will stay: someone must count. But last night I drank from the fountain, to taste peace. It is good. Tomorrow I will write my temperature here. If I do not, you will know why."
  },
  "FinaleSemina.7": {
-  "full": "{0} went with me to the fountain, last night. They held the glass for me, kindly, the way one does for a child taking medicine. They said I will not regret it. They said that nobody in Brunveen has ever regretted anything.",
-  "easy": "Last night {0} came with me to the fountain. They held the glass for me, kindly, like you do for a child taking medicine. They said I will not be sorry. They said that nobody in Brunveen has ever been sorry about anything.",
-  "short": "{0} came with me to the fountain and held the glass, as for a child taking medicine. I will not regret it, they said. Nobody in Brunveen ever regrets anything."
+  "full": "{0} went with me to the fountain, last night. They held the glass for me, kindly, the way one does for a child taking medicine. They said I will not regret it. They said that nobody in {1} has ever regretted anything.",
+  "easy": "Last night {0} came with me to the fountain. They held the glass for me, kindly, like you do for a child taking medicine. They said I will not be sorry. They said that nobody in {1} has ever been sorry about anything.",
+  "short": "{0} came with me to the fountain and held the glass, as for a child taking medicine. I will not regret it, they said. Nobody in {1} ever regrets anything."
  },
  "FinaleSemina.8": {
   "full": "The Machine, in the tower, stayed on for three days after the night of the vote, humming, its platform empty. Then it switched itself off. Since then nobody has tried to turn it on again.",
@@ -4500,8 +4500,8 @@
   "short": "I close the Register: three generations of temperatures and crosses. Grandmother counted, father measured, I added up. A total is useless unread. I leave it in the tower, beside the useless Machine and the stopped watch."
  },
  "FinaleRegistro.5": {
-  "full": "Every now and then, in the evening, I go up on the dyke to look at the bog. The snow, at the place of the light, never settles. Below, in their hundreds, those who sleep go on sleeping, hands folded, preserved as on the day they were taken. Above, those who walk go on walking, kind, healthy, at peace. In fifty years they will crumble, and others will take their place, and nobody in Brunveen will notice.",
-  "easy": "Sometimes, in the evening, I go to the dyke to look at the bog. At the place where the light was, the snow never stays. Below, hundreds of sleepers go on sleeping, with their hands together, kept just as they were on the day they were taken. Above, the ones who walk go on walking: kind, healthy, at peace. In fifty years they will fall apart, others will take their place, and nobody in Brunveen will notice.",
+  "full": "Every now and then, in the evening, I go up on the dyke to look at the bog. The snow, at the place of the light, never settles. Below, in their hundreds, those who sleep go on sleeping, hands folded, preserved as on the day they were taken. Above, those who walk go on walking, kind, healthy, at peace. In fifty years they will crumble, and others will take their place, and nobody in {0} will notice.",
+  "easy": "Sometimes, in the evening, I go to the dyke to look at the bog. At the place where the light was, the snow never stays. Below, hundreds of sleepers go on sleeping, with their hands together, kept just as they were on the day they were taken. Above, the ones who walk go on walking: kind, healthy, at peace. In fifty years they will fall apart, others will take their place, and nobody in {0} will notice.",
   "short": "Some evenings I watch the bog from the dyke. Below, hundreds sleep on, preserved. Above, the others walk on, kind and at peace. In fifty years others will take their place, and nobody will notice."
  },
  "FinaleRegistro.6": {
@@ -4515,8 +4515,8 @@
   "short": "{0} walked me home under an umbrella and thanked me at the door, \"for leaving things as they are. It is the kindest thing one can do.\""
  },
  "FinaleRegistro.8": {
-  "full": "The family of the estate, at least, never accepted the medal. It is little. But in Brunveen, by now, little is all that is left of our own.",
-  "easy": "At least the family of the estate never accepted the medal. It is not much. But in Brunveen now, not much is all we have left that is ours.",
+  "full": "The family of the estate, at least, never accepted the medal. It is little. But in {0}, by now, little is all that is left of our own.",
+  "easy": "At least the family of the estate never accepted the medal. It is not much. But in {0} now, not much is all we have left that is ours.",
   "short": "At least the estate never took the medal. It is little. But little is all that is still ours."
  }
 }
