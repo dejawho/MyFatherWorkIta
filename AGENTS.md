@@ -73,7 +73,13 @@ content/ (JSON, edited directly) ──engine──▶ story tester
   `src/en.json` and falls back to the Italian; Easy and Short come from
   `src/versions.<lang>.json` (both keyed by the Italian text). Edit the `.story` and these
   files, never the built JSON.
-  Their designs (spoilers) are in `docs/custom/<id>/design.it.md`.
+  Their designs (spoilers) are in `docs/custom/<id>/design.it.md`. "Pay"/"Spend" ("Paga",
+  "Spendi") needs the resource: an option that leads to it shows the cost before the choice,
+  in its label ("… ($2).") or in the text before; "Lose" ("Perdi") needs no warning (what
+  is missing is simply not lost). A tie between players names who wins among the tied
+  ("vince, tra i pari, il primo in ordine di turno") or who chooses ("il Primo Giocatore
+  sceglie tra i pari"), never just "vince il Primo Giocatore", who may not be among them; a
+  tied yes/no vote is decided by the Start Player.
 - **Voice generator** (`tools/voice/`, Python via `uv`): generated voices for voiced pages in
   every reading mode, each in one language. English: Emma, George (Kokoro, CPU,
   `task content:voices`); Italian: Sara, Nicola (Chatterbox, cloned from Kokoro clips in

@@ -36,7 +36,7 @@ the Village Chronicle are printed in English, so names of printed components sta
 | Chemistry, Biology, Engineering, Occult (alone) | English                                         |
 | Ingredient, Resource                 | English                                                    |
 | Chemical, Animal, Gear, Body         | English                                                    |
-| Journal, Journal Track               | English                                                    |
+| Journal, Journal Track               | English in rules and instructions; in the story the father's or a player's Journal is **diario** |
 | Self                                 | Scienziato                                                 |
 | Servant / Spouse / Caretaker         | Servitore / Coniuge / Custode                              |
 | Lost, Quarters                       | English                                                    |
