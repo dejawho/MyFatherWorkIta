@@ -202,4 +202,15 @@ const SCENARIOS_UI = [
     image: 'fan-made/the-impure-salt/card',
     available: isScenarioId('the-impure-salt'),
   },
+  {
+    id: 'the-quiet-neighbours',
+    title: 'The Quiet Neighbours',
+    titleKey: '',
+    detailsKey: '',
+    details:
+      'An unofficial, fan-made scenario: a light in the bog, and neighbours who grow kinder every year. It uses some components of A Time of War.',
+    // Generated art (content/LICENSE.md), not the original's.
+    image: 'fan-made/the-quiet-neighbours/card',
+    available: isScenarioId('the-quiet-neighbours'),
+  },
 ];

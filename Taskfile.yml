@@ -12,9 +12,9 @@ vars:
   # `podman compose` hands over to docker-compose, which talks to Podman's API socket.
   COMPOSE_SOCKET: '{{if eq .CONTAINER_ENGINE "podman"}}systemctl --user start podman.socket && {{end}}'
   # Playable scenarios: what project:check tests.
-  SCENARIOS: cost-of-disease fear-of-the-unknown a-time-of-war the-thinning-veil the-impure-salt
+  SCENARIOS: cost-of-disease fear-of-the-unknown a-time-of-war the-thinning-veil the-impure-salt the-quiet-neighbours
   # Scenarios written as text (content/<id>/src), built by tools/scenario-author.
-  AUTHORED: the-thinning-veil the-impure-salt
+  AUTHORED: the-thinning-veil the-impure-salt the-quiet-neighbours
 
 tasks:
   # Dependencies

@@ -19,6 +19,7 @@ export const SCENARIOS = [
   // Not from the original: fan-made scenarios (content/<id>/src).
   { id: 'the-thinning-veil', title: 'The Thinning Veil' },
   { id: 'the-impure-salt', title: 'The Impure Salt' },
+  { id: 'the-quiet-neighbours', title: 'The Quiet Neighbours' },
 ] as const;
 export type ScenarioId = (typeof SCENARIOS)[number]['id'];
 

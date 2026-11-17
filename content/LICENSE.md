@@ -17,8 +17,9 @@ rules or app instructions; a few errors of the original were fixed; images were 
 and converted to WebP, audio to MP3. Shortened or simplified texts (if present, marked
 `short`) are adaptations written for this project.
 
-**Fan-made scenarios:** `the-thinning-veil/` (_Il Velo Sottile_ / _The Thinning Veil_) and
-`the-impure-salt/` (_Il Sale Impuro_ / _The Impure Salt_) are not from the original. They are
+**Fan-made scenarios:** `the-thinning-veil/` (_Il Velo Sottile_ / _The Thinning Veil_),
+`the-impure-salt/` (_Il Sale Impuro_ / _The Impure Salt_) and `the-quiet-neighbours/` (_I Vicini
+Silenziosi_ / _The Quiet Neighbours_) are not from the original. They are
 new stories written for this project, built on the game's rules, world and components, and so
 derivative works: they are released under the same terms (CC BY-NC 4.0). The app marks them as
 unofficial.

@@ -6,7 +6,7 @@ installable web app that also works offline.
 
 Based on [Chronicle](https://github.com/shrukan/chronicle) by Shrukan, who wrote the app. This
 version adds Italian (story, screen texts and app), the Italian narrators Sara and Nicola and
-the fan-made scenarios _The Thinning Veil_ and _The Impure Salt_.
+the fan-made scenarios _The Thinning Veil_, _The Impure Salt_ and _The Quiet Neighbours_.
 
 [![CI](https://github.com/dejawho/MyFatherWorkIta/actions/workflows/ci.yml/badge.svg)](https://github.com/dejawho/MyFatherWorkIta/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/dejawho/MyFatherWorkIta)](https://github.com/dejawho/MyFatherWorkIta/releases)

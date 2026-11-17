@@ -33,6 +33,7 @@ const SCENARIOS = [
   { id: 'a-time-of-war', title: 'A Time of War' },
   { id: 'the-thinning-veil', title: 'The Thinning Veil' },
   { id: 'the-impure-salt', title: 'The Impure Salt' },
+  { id: 'the-quiet-neighbours', title: 'The Quiet Neighbours' },
 ].filter((s) => !values.scenario || s.id === values.scenario);
 if (!SCENARIOS.length) {
   console.error(`Unknown scenario ${values.scenario}`);

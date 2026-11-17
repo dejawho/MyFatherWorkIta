@@ -251,8 +251,8 @@ export const IT: Record<string, string> = {
   'source code on GitHub': 'codice sorgente su GitHub',
   'original source code on GitHub': 'codice sorgente originale su GitHub',
   'This version': 'Questa versione',
-  'Italian, The Thinning Veil and The Impure Salt by {0}':
-    'italiano, Il Velo Sottile e Il Sale Impuro di {0}',
+  'Italian, The Thinning Veil, The Impure Salt and The Quiet Neighbours by {0}':
+    'italiano, Il Velo Sottile, Il Sale Impuro e I Vicini Silenziosi di {0}',
   'Story, art and music': 'Storia, grafica e musica',
   "*My Father's Work* and its companion app's story, text, images, music and voice-over © Renegade Game Studios, released to the community in June 2026. Chronicle takes the story scripts from the":
     "Storia, testi, immagini, musica e voce narrante di *My Father's Work* e della sua app di supporto © Renegade Game Studios, rilasciati alla community nel giugno 2026. Chronicle prende gli script della storia dal",
@@ -277,4 +277,7 @@ export const IT: Record<string, string> = {
   'The Impure Salt': 'Il Sale Impuro',
   "An unofficial, fan-made scenario: your father's legacy is a phial of white salt, and a small man in a black coat who signs cheques with your name. It uses some components of Fear of the Unknown.":
     'Uno scenario non ufficiale, creato dai fan: vostro padre vi lascia una boccetta di sale bianco, e un piccolo uomo con il cappotto nero che firma assegni con il vostro nome. Usa alcuni componenti di Fear of the Unknown.',
+  'The Quiet Neighbours': 'I Vicini Silenziosi',
+  'An unofficial, fan-made scenario: a light in the bog, and neighbours who grow kinder every year. It uses some components of A Time of War.':
+    'Uno scenario non ufficiale, creato dai fan: una luce nella torbiera, e dei vicini ogni anno più gentili. Usa alcuni componenti di A Time of War.',
 };

@@ -60,6 +60,7 @@ const STORYBOOK_ILLUSTRATIONS: Record<string, string> = {
   'a-time-of-war': 'generation-ending/bgs/b-illustration3-oj-v004',
   'the-thinning-veil': 'fan-made/the-thinning-veil/backdrop',
   'the-impure-salt': 'fan-made/the-impure-salt/backdrop',
+  'the-quiet-neighbours': 'fan-made/the-quiet-neighbours/backdrop',
 };
 const DIM = 'linear-gradient(rgb(0 0 0 / 0.45), rgb(0 0 0 / 0.6))';
 
