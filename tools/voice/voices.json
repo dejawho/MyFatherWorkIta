@@ -8,7 +8,8 @@
   "fear-of-the-unknown": "FearoftheUnknownStart",
   "a-time-of-war": "ATimeofWarIntro",
   "the-thinning-veil": "Prologo",
-  "the-impure-salt": "SalePrologo"
+  "the-impure-salt": "SalePrologo",
+  "the-quiet-neighbours": "VSPrologo"
  },
  "paragraphPause": 0.6,
  "loudness": -14,
